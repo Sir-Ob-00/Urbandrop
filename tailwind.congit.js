@@ -15,8 +15,10 @@ export default {
         background: "#f2f5f9",    // light background
       },
       fontFamily: {
-       sans: ["Red Hat Display", "sans-serif"], // ✅ brand font
+        sans: ['Poppins', 'sans-serif'], // ✅ brand font
         heading: ["Red Hat Display", "sans-serif"],
+        body: ['Inter', 'sans-serif'],
+        other: ['Nunito Sans', 'sans-serif'],
       },
     },
   },

@@ -1,14 +1,19 @@
-import './App.css'
+// src/App.jsx
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routes/AppRoutes";
+import { AppProvider } from "./context/AppContext";
+import ErrorBoundary from "./components/common/ErrorBoundary";
 
 function App() {
-
   return (
-    <>
-      <h1 class="text-3xl font-bold underline text-red-700 tex">
-    Hello world!
-  </h1>
-    </>
-  )
+    <AppProvider>
+      <BrowserRouter>
+        <ErrorBoundary>
+          <AppRoutes />
+        </ErrorBoundary>
+      </BrowserRouter>
+    </AppProvider>
+  );
 }
 
-export default App
+export default App;

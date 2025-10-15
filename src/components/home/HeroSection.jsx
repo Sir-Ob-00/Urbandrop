@@ -1,0 +1,122 @@
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import bag from "../../assets/images/hero/bag.png";
+import dish1 from "../../assets/images/hero/food.png";
+import dish2 from "../../assets/images/hero/wele.png";
+import dish3 from "../../assets/images/hero/basket.png";
+import dish4 from "../../assets/images/hero/food.png";
+
+const HeroSection = () => {
+  const menuItems = [
+    {
+      title: "CAVIAR EXPRESS",
+      desc: "Norem ipsum dolor sit amet",
+      img: dish1,
+    },
+    {
+      title: "BLUE BERRY",
+      desc: "Norem ipsum dolor sit amet",
+      img: dish2,
+    },
+    {
+      title: "BEEF STEAK",
+      desc: "Norem ipsum dolor sit amet",
+      img: dish3,
+    },
+    {
+      title: "STRAWBERRY FINX",
+      desc: "Norem ipsum dolor sit amet",
+      img: dish4,
+    },
+  ];
+
+  const [current, setCurrent] = useState(0);
+  const [mainImage, setMainImage] = useState(menuItems[0].img);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % menuItems.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    setMainImage(menuItems[current].img);
+  }, [current]);
+
+  return (
+    <section className="flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 py-10 md:py-16 space-y-10 lg:space-y-0 bg-[#f2f5f9]">
+      {/* Left Section */}
+      <motion.div
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6 }}
+        className="max-w-md space-y-6 text-center lg:text-left"
+      >
+        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight text-[#183A37]">
+          Food <br /> Zone
+        </h1>
+        <p className="text-[#879EA4]">Norem ipsum dolor sit amet, consectetur.</p>
+        <div className="flex items-center justify-center lg:justify-start gap-4">
+          <button className="bg-[#5CB35E] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#4a954d] transition-all">
+            Order Now
+          </button>
+          <a href="/become-merchant" className="px-6 py-3 rounded-full border border-[#5CB35E] text-[#5CB35E] hover:bg-[#5CB35E] hover:text-white transition-all">
+            Become a Merchant
+          </a>
+        </div>
+      </motion.div>
+
+      {/* Center Image */}
+      <div className="relative flex justify-center items-center">
+        <div className="absolute w-64 h-64 md:w-[450px] md:h-[450px] rounded-full bg-[#5CB35E8C] opacity-30"></div>
+        <img
+          src={mainImage}
+          alt="Main Dish"
+          className="relative w-60 md:w-[420px] rounded-full shadow-lg z-10 transition-all duration-700 ease-in-out"
+        />
+      </div>
+
+      {/* Right Section - Menu */}
+      <div className="space-y-5 w-full max-w-sm">
+        {menuItems.map((item, index) => (
+          <div
+            key={index}
+            onClick={() => setCurrent(index)}
+            className={`flex items-center rounded-l-full pr-5 py-3 md:py-4 cursor-pointer transition-all duration-500 ease-in-out ${
+              current === index
+                ? "bg-[#5CB35E] text-white scale-105 shadow-lg"
+                : "bg-white text-[#183A37] hover:shadow-md"
+            }`}
+          >
+            <img
+              src={item.img}
+              alt={item.title}
+              className={`w-14 h-14 md:w-16 md:h-16 rounded-full ml-3 ${
+                current === index ? "border-2 border-white" : ""
+              }`}
+            />
+            <div className="ml-4">
+              <h3
+                className={`font-bold ${
+                  current === index ? "text-white" : "text-[#183A37]"
+                }`}
+              >
+                {item.title}
+              </h3>
+              <p
+                className={`text-sm ${
+                  current === index ? "text-white/90" : "text-[#879EA4]"
+                }`}
+              >
+                {item.desc}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
