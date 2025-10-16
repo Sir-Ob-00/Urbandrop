@@ -62,7 +62,10 @@ const WhyChoose = () => {
                   </div>
                 </motion.div>
               ))}
-            </div>
+              </div>
+              <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } }} className="pt-4">
+                <a href="/get-started" className="inline-block bg-[#5CB35E] hover:bg-[#4a954d] text-white px-6 py-3 rounded-full font-semibold">Get Started</a>
+              </motion.div>
           </div>
         </motion.div>
       </div>
