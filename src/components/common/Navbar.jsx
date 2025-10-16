@@ -6,6 +6,15 @@ import { motion, AnimatePresence } from "framer-motion";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hovered, setHovered] = useState(null);
+  const [isTop, setIsTop] = useState(true);
+
+  // listen to scroll to toggle header styles
+  React.useEffect(() => {
+    const onScroll = () => setIsTop(window.scrollY < 20);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -17,9 +26,9 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
-      {/* Top info bar */}
-      <div className="bg-[#e6ece6] text-[#5CB35E] text-sm">
+    <header className={`${isTop ? 'bg-[#f2f5f9] shadow-none' : 'bg-white shadow-sm'} sticky top-0 z-50 transition-colors duration-200`}> 
+      {/* Top info bar (hidden at top) */}
+      <div className={`${isTop ? 'hidden bg-[#e6ece6]' : 'bg-[#e6ece6]'} text-[#5CB35E] text-sm transition-all duration-200 hidden md:block`}>
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
           <div className="flex items-center gap-3">
             <span className="font-medium">Find location</span>
@@ -47,10 +56,10 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+  <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
-          <img src={logo} alt="Urbandrop Logo" className="h-8 w-auto" />
+          <img src={logo} alt="Urbandrop Logo" className={`h-8 w-auto ${isTop}`} />
         </a>
 
         {/* Desktop Nav */}
@@ -59,7 +68,7 @@ const Header = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-dark relative inline-block focus:outline-none overflow-hidden px-1"
+              className={`relative inline-block focus:outline-none overflow-hidden px-1 ${isTop ? 'text-dark' : 'text-dark'}`}
               onMouseEnter={() => setHovered(link.name)}
               onMouseLeave={() => setHovered(null)}
               onFocus={() => setHovered(link.name)}
@@ -67,7 +76,7 @@ const Header = () => {
             >
               {/* Sliding highlight behind the text */}
               <span
-                className={`absolute inset-0 left-0 bg-[#5CB35E] transition-all duration-200 transform origin-left ${hovered === link.name ? 'w-full' : 'w-0'}`}
+                className={`absolute inset-0 left-0 bg-[#5CB35E] transition-all rounded-lg duration-200 transform origin-left ${hovered === link.name ? 'w-full' : 'w-0'}`}
                 aria-hidden="true"
               />
               <span className={`relative z-10 transition-colors duration-200 ${hovered === link.name ? 'text-white' : ''}`}>{link.name}</span>
@@ -108,6 +117,8 @@ const Header = () => {
                     onClick={() => setIsOpen(false)}
                     onMouseEnter={() => setHovered(link.name)}
                     onMouseLeave={() => setHovered(null)}
+                    onTouchStart={() => setHovered(link.name)}
+                    onTouchEnd={() => setHovered(null)}
                     onFocus={() => setHovered(link.name)}
                     onBlur={() => setHovered(null)}
                   >
@@ -119,6 +130,15 @@ const Header = () => {
                   </a>
                 </li>
               ))}
+                  <li className="w-full flex justify-center">
+                    <a
+                      href="/get-the-app"
+                      className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition w-11/12 text-center"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      Get The App
+                    </a>
+                  </li>
               <li>
                 <a
                   href="/become-merchant"

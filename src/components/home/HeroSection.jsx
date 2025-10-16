@@ -60,7 +60,7 @@ const HeroSection = () => {
           <br />
           <span className="text-[#5CB35E]">Flavors</span>
         </h1>
-        <p className="text-[#879EA4]">
+        <p className="text-[#183A37]">
           Savor the bold, authentic flavours of Asia, Africa, Eastern Europe, and the Caribbean with every bite, delivered fresh and fast to your home. From the savannas to the coasts, experience the diverse Ethnic tastes, all just a click away.
         </p>
         <div className="flex items-center justify-center lg:justify-start gap-4">
