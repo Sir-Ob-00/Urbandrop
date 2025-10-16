@@ -3,7 +3,7 @@ import logo from "../../assets/images/urbandrop logo.png";
 import { Menu, X, Facebook, Twitter, Instagram, ShoppingCart, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Header = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hovered, setHovered] = useState(null);
   const [isTop, setIsTop] = useState(true);
@@ -156,4 +156,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

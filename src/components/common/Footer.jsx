@@ -2,57 +2,76 @@ import React from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
+  const legalLinks = [
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Cookies Policy", href: "/cookies-policy" },
+    { name: "Terms & Conditions", href: "/terms-conditions" },
+    { name: "FAQs", href: "/faqs" },
+  ];
+
+  const importantLinks = [
+    { name: "Be a Merchant", href: "/become-merchant" },
+    { name: "Advertise on Urbandrop", href: "/advertise" },
+  ];
+
   return (
-    <footer className="bg-dark text-white py-12 px-6">
+    <footer className="bg-gradient-to-br from-[#146d15] to-[#5CB35E8C] text-white pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold mb-3 text-primary">Urbandrop</h2>
-          <p className="text-gray-300">
-            Your trusted online recipe and grocery marketplace — connecting UK
-            customers to local merchants.
+          <h2 className="text-6xl font-bold mb-3 text-white">Urbandrop</h2>
+          <p className="text-gray-700">
+            Your trusted online recipe and grocery marketplace — connecting UK customers to local merchants.
           </p>
         </div>
 
-        {/* Quick Links */}
+        {/* Newsletter */}
         <div>
-          <h3 className="font-semibold mb-3 text-white">Quick Links</h3>
+          <h3 className="font-bold text-2xl mb-4 text-white">Get Exclusive deals</h3>
+          <div className="relative">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full bg-white text-black placeholder-gray-500 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CB35E8C]"
+            />
+            <button className="absolute right-1 top-1/2 -translate-y-1/2 bg-[#5CB35E8C] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#257a278c] transition-colors">
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        {/* Legal Pages */}
+        <div>
+          <h3 className="font-bold text-2xl mb-4 text-white">Legal pages</h3>
           <ul className="space-y-2">
-            <li><a href="/about-us" className="hover:text-primary transition">About Us</a></li>
-            <li><a href="/faqs" className="hover:text-primary transition">FAQs</a></li>
-            <li><a href="/privacy-policy" className="hover:text-primary transition">Privacy Policy</a></li>
-            <li><a href="/terms-conditions" className="hover:text-primary transition">Terms & Conditions</a></li>
+            {legalLinks.map((link) => (
+              <li key={link.name}>
+                <a href={link.href} className="hover:text-primary transition">{link.name}</a>
+              </li>
+            ))}
           </ul>
         </div>
 
-        {/* For Merchants */}
+        {/* Important Links */}
         <div>
-          <h3 className="font-semibold mb-3 text-white">For Merchants</h3>
+          <h3 className="font-bold text-2xl mb-4 text-white">Important links</h3>
           <ul className="space-y-2">
-            <li><a href="/become-merchant" className="hover:text-primary transition">Become a Merchant</a></li>
-            <li><a href="/advertise" className="hover:text-primary transition">Advertise on Urbandrop</a></li>
-            <li><a href="#" className="hover:text-primary transition">Download Merchant App</a></li>
-          </ul>
-        </div>
-
-        {/* Contact */}
-        <div>
-          <h3 className="font-semibold mb-3 text-white">Contact Us</h3>
-          <ul className="space-y-2 text-gray-300">
-            <li className="flex items-center gap-2">
-              <Mail size={16} /> support@urbandrop.co.uk
-            </li>
-            <li className="flex items-center gap-2">
-              <Phone size={16} /> +44 20 1234 5678
-            </li>
-            <li className="flex items-center gap-2">
-              <MapPin size={16} /> London, United Kingdom
-            </li>
+            {importantLinks.map((link) => (
+              <li key={link.name}>
+                <a href={link.href} className="hover:text-primary transition">{link.name}</a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
 
-      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
+      {/* Secondary Footer */}
+      <div className="max-w-7xl mx-auto border-t border-gray-700 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-6 text-white">
+        <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm">
+          <div className="flex items-center gap-2"><Mail size={16} /> support@urbandrop.com</div>
+          <div className="flex items-center gap-2"><Phone size={16} /> +44 20 1234 5678</div>
+          <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
+        </div>
         © {new Date().getFullYear()} Urbandrop Ltd. All rights reserved.
       </div>
     </footer>

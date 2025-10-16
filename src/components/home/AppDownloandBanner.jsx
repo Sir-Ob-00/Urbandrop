@@ -1,28 +1,48 @@
 import React from "react";
+import { motion } from 'framer-motion';
+import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
+import appstoreImg from '../../assets/images/appstore-black.png';
+import playstoreImg from '../../assets/images/playstore-black.png';
 
 const AppDownloandBanner = () => {
 	return (
-		<section className="py-12 bg-[#f8fafc]">
-			<div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-				<div>
-					<h3 className="text-2xl font-bold mb-2">Shop smarter with Urbandrop</h3>
-					<p className="text-gray-600 mb-4">Available now on your mobile. Fast ordering and delivery at your fingertips.</p>
-					<div className="flex items-center gap-4">
-						<a href="#" className="inline-flex items-center bg-black text-white px-4 py-2 rounded-lg">
-							{/* App Store badge placeholder */}
-							<svg width="24" height="24" viewBox="0 0 24 24" className="mr-3" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#fff"/></svg>
-							App Store
+		<section className="bg-dark">
+			<div className="max-w-7xl mx-auto px-6 py-12 md:py-0 md:grid md:grid-cols-2 items-center gap-8">
+				{/* Left Column: Text Content */}
+				<motion.div 
+					className="text-white text-center md:text-left"
+					initial={{ opacity: 0, x: -50 }}
+					whileInView={{ opacity: 1, x: 0 }}
+					viewport={{ amount: 0.4, once: true }}
+					transition={{ duration: 0.8, ease: "easeOut" }}
+				>
+					<h2 className="text-3xl text-black md:text-5xl font-extrabold leading-tight">
+						Your <span className="text-[#5CB35E]">Groceries,</span> <br />
+						<span className="text-primary">Faster Than Ever.</span>
+					</h2>
+					<p className="mt-4 mb-8 text-gray-700 max-w-md mx-auto md:mx-0">
+						Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking right at your fingertips.
+					</p>
+					<div className="flex justify-center md:justify-start items-center gap-4 h-12">
+						<a href="#" className="hover:opacity-90 transition-opacity">
+							<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
 						</a>
-						<a href="#" className="inline-flex items-center bg-black text-white px-4 py-2 rounded-lg">
-							{/* Play Store badge placeholder */}
-							<svg width="24" height="24" viewBox="0 0 24 24" className="mr-3" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#fff"/></svg>
-							Google Play
+						<a href="#" className="hover:opacity-90 transition-opacity">
+							<img src={playstoreImg} alt="Get it on Google Play" className="h-full" />
 						</a>
 					</div>
-				</div>
-				<div className="hidden md:block">
-					<img src="/src/assets/images/hero/bag.png" alt="app preview" className="h-48 object-contain" />
-				</div>
+				</motion.div>
+
+				{/* Right Column: Image */}
+				<motion.div 
+					className="mt-12 md:mt-0"
+					initial={{ opacity: 0, y: 50 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					viewport={{ amount: 0.4, once: true }}
+					transition={{ duration: 0.8, ease: "easeOut" }}
+				>
+					<img src={appMockup} alt="Urbandrop App Mockup" className="w-full max-w-sm mx-auto" />
+				</motion.div>
 			</div>
 		</section>
 	);

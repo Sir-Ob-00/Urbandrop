@@ -10,7 +10,7 @@ import FAQs from "../pages/FAQs";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsCondition from "../pages/TermsCondition";
 import Advertise from "../pages/Advertise";
-import CokiesPolicy from "../pages/CokiesPolicy";
+import CookiesPolicy from "../pages/CookiesPolicy";
 
 const AppRoutes = () => {
   return (
@@ -22,13 +22,14 @@ const AppRoutes = () => {
         <Route path="/become-merchant" element={<BecomeMerchant />} />
         <Route path="/advertise" element={<Advertise />} />
         <Route path="/faqs" element={<FAQs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-conditions" element={<TermsCondition />} />
+        <Route path="/cookies-policy" element={<CookiesPolicy />} />
       </Route>
 
       {/* Routes using a simpler layout (no nav/footer) */}
       <Route element={<SimpleLayout />}>
-  <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-  <Route path="/terms-conditions" element={<TermsCondition />} />
-  <Route path="/cookies-policy" element={<CokiesPolicy />} />
+        {/* Add any pages that need a simple layout here in the future */}
       </Route>
     </Routes>
   );

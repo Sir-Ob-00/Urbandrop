@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import appImg from '../../assets/images/urbandrop-mobile-app-ui.png';
+import appImg from '../../assets/images/deliveryguy.jpg';
 import { Truck, Tag, Phone, Star } from 'lucide-react';
 
 const WhyChoose = () => {
@@ -37,7 +37,7 @@ const WhyChoose = () => {
           transition={{ duration: 1.2, ease: 'easeOut' }}
           className="w-full md:w-1/2 flex justify-center"
         >
-          <img src={appImg} alt="Urbandrop mobile app" className="w-80 md:w-[520px] shadow-sm" />
+          <img src={appImg} alt="delivery guy image" className=" shadow-sm" />
         </motion.div>
 
         <motion.div
