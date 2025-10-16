@@ -53,10 +53,16 @@ const HeroSection = () => {
         transition={{ duration: 0.6 }}
         className="max-w-md space-y-6 text-center lg:text-left"
       >
-        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight text-[#183A37]">
-          Food <br /> Zone
+        <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
+          <span className="text-[#5CB35E]">Discover </span>
+          <br />
+          <span className="text-[#183A37]">the rich Ethnic</span>
+          <br />
+          <span className="text-[#5CB35E]">Flavors</span>
         </h1>
-        <p className="text-[#879EA4]">Norem ipsum dolor sit amet, consectetur.</p>
+        <p className="text-[#879EA4]">
+          Savor the bold, authentic flavours of Asia, Africa, Eastern Europe, and the Caribbean with every bite, delivered fresh and fast to your home. From the savannas to the coasts, experience the diverse Ethnic tastes, all just a click away.
+        </p>
         <div className="flex items-center justify-center lg:justify-start gap-4">
           <button className="bg-[#5CB35E] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#4a954d] transition-all">
             Order Now
