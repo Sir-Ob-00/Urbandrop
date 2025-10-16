@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import logo from "../../assets/images/urbandrop logo.png";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [hovered, setHovered] = useState(null);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -18,12 +20,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
-          <img
-            src="/logo.svg"
-            alt="Urbandrop Logo"
-            className="h-8 w-auto"
-          />
-          <span className="text-2xl font-bold text-primary">Urbandrop</span>
+          <img src={logo} alt="Urbandrop Logo" className="h-8 w-auto" />
         </a>
 
         {/* Desktop Nav */}
@@ -32,9 +29,18 @@ const Header = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-dark hover:text-primary transition"
+              className="text-dark relative inline-block focus:outline-none"
+              onMouseEnter={() => setHovered(link.name)}
+              onMouseLeave={() => setHovered(null)}
+              onFocus={() => setHovered(link.name)}
+              onBlur={() => setHovered(null)}
             >
-              {link.name}
+              <span className="relative z-10 transition-colors duration-200">{link.name}</span>
+              {/* Underline: transition width from 0 to full for better cross-environment reliability */}
+              <span
+                className={`absolute left-0 -bottom-1 h-0.5 bg-primary transition-all duration-200 ${hovered === link.name ? 'w-full' : 'w-0'}`}
+                aria-hidden="true"
+              />
             </a>
           ))}
           <a
@@ -68,10 +74,18 @@ const Header = () => {
                 <li key={link.name}>
                   <a
                     href={link.href}
-                    className="text-dark hover:text-primary transition"
+                    className="text-dark relative inline-block focus:outline-none"
                     onClick={() => setIsOpen(false)}
+                    onMouseEnter={() => setHovered(link.name)}
+                    onMouseLeave={() => setHovered(null)}
+                    onFocus={() => setHovered(link.name)}
+                    onBlur={() => setHovered(null)}
                   >
-                    {link.name}
+                    <span className="relative z-10 transition-colors duration-200">{link.name}</span>
+                    <span
+                      className={`absolute left-0 -bottom-1 h-0.5 bg-primary transition-all duration-200 ${hovered === link.name ? 'w-full' : 'w-0'}`}
+                      aria-hidden="true"
+                    />
                   </a>
                 </li>
               ))}

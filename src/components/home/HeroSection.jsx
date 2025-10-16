@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import bag from "../../assets/images/hero/bag.png";
 import dish1 from "../../assets/images/hero/food.png";
 import dish2 from "../../assets/images/hero/wele.png";
-import dish3 from "../../assets/images/hero/basket.png";
+import dish3 from "../../assets/images/hero/bag.png";
 import dish4 from "../../assets/images/hero/food.png";
 
 const HeroSection = () => {
@@ -83,10 +83,10 @@ const HeroSection = () => {
           <div
             key={index}
             onClick={() => setCurrent(index)}
-            className={`flex items-center rounded-l-full pr-5 py-3 md:py-4 cursor-pointer transition-all duration-500 ease-in-out ${
+            className={`flex items-center rounded-l-full cursor-pointer transition-all duration-300 ease-in-out ${
               current === index
-                ? "bg-[#5CB35E] text-white scale-105 shadow-lg"
-                : "bg-white text-[#183A37] hover:shadow-md"
+                ? "-ml-6 md:-ml-10 pr-5 py-3 md:py-4 bg-[#5CB35E] text-white shadow-lg"
+                : "ml-0 pr-5 py-3 md:py-4 bg-white text-[#183A37] hover:shadow-md"
             }`}
           >
             <img
