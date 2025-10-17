@@ -1,13 +1,15 @@
 import React, { useState } from "react";
-import logo from "../../assets/images/urbandrop logo.png";
+import logo from "../../assets/images/urbandropLogo.png";
 import { Menu, X, Facebook, Twitter, Instagram, ShoppingCart, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hovered, setHovered] = useState(null);
   const [isTop, setIsTop] = useState(true);
-
+  const location = useLocation();
+  
   // listen to scroll to toggle header styles
   React.useEffect(() => {
     const onScroll = () => setIsTop(window.scrollY < 20);
@@ -64,24 +66,27 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className={`relative inline-block focus:outline-none overflow-hidden px-1 ${isTop ? 'text-dark' : 'text-dark'}`}
-              onMouseEnter={() => setHovered(link.name)}
-              onMouseLeave={() => setHovered(null)}
-              onFocus={() => setHovered(link.name)}
-              onBlur={() => setHovered(null)}
-            >
-              {/* Sliding highlight behind the text */}
-              <span
-                className={`absolute inset-0 left-0 bg-[#5CB35E] transition-all rounded-lg duration-200 transform origin-left ${hovered === link.name ? 'w-full' : 'w-0'}`}
-                aria-hidden="true"
-              />
-              <span className={`relative z-10 transition-colors duration-200 ${hovered === link.name ? 'text-white' : ''}`}>{link.name}</span>
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = location.pathname === link.href;
+            const isHovered = hovered === link.name;
+            return (
+              <a
+                key={link.name}
+                href={link.href}
+                className={`relative inline-block focus:outline-none overflow-hidden px-1 ${isTop ? 'text-dark' : 'text-dark'}`}
+                onMouseEnter={() => setHovered(link.name)}
+                onMouseLeave={() => setHovered(null)}
+                onFocus={() => setHovered(link.name)}
+                onBlur={() => setHovered(null)}
+              >
+                {/* Sliding highlight behind the text */}
+                <span
+                  className={`absolute inset-0 left-0 bg-[#5CB35E] transition-all rounded-lg duration-200 transform origin-left ${isHovered || isActive ? 'w-full' : 'w-0'}`}
+                  aria-hidden="true"
+                />
+                <span className={`relative z-10 transition-colors duration-200 ${isHovered || isActive ? 'text-white' : ''}`}>{link.name}</span>
+              </a>
+            )})}
           <a
             href="/get-the-app"
             className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition"
@@ -109,27 +114,30 @@ const Navbar = () => {
             className="bg-white border-t border-gray-100 md:hidden overflow-hidden"
           >
             <ul className="flex flex-col items-center space-y-4 py-6">
-              {navLinks.map((link) => (
-                <li key={link.name}>
-                  <a
-                    href={link.href}
-                    className="text-dark relative inline-block focus:outline-none overflow-hidden px-1"
-                    onClick={() => setIsOpen(false)}
-                    onMouseEnter={() => setHovered(link.name)}
-                    onMouseLeave={() => setHovered(null)}
-                    onTouchStart={() => setHovered(link.name)}
-                    onTouchEnd={() => setHovered(null)}
-                    onFocus={() => setHovered(link.name)}
-                    onBlur={() => setHovered(null)}
-                  >
-                    <span
-                      className={`absolute inset-0 left-0 bg-[#5CB35E] transition-all duration-200 transform origin-left ${hovered === link.name ? 'w-full' : 'w-0'}`}
-                      aria-hidden="true"
-                    />
-                    <span className={`relative z-10 transition-colors duration-200 ${hovered === link.name ? 'text-white' : ''}`}>{link.name}</span>
-                  </a>
-                </li>
-              ))}
+              {navLinks.map((link) => {
+                const isActive = location.pathname === link.href;
+                const isHovered = hovered === link.name;
+                return (
+                  <li key={link.name}>
+                    <a
+                      href={link.href}
+                      className="text-dark relative inline-block focus:outline-none overflow-hidden px-1"
+                      onClick={() => setIsOpen(false)}
+                      onMouseEnter={() => setHovered(link.name)}
+                      onMouseLeave={() => setHovered(null)}
+                      onTouchStart={() => setHovered(link.name)}
+                      onTouchEnd={() => setHovered(null)}
+                      onFocus={() => setHovered(link.name)}
+                      onBlur={() => setHovered(null)}
+                    >
+                      <span
+                        className={`absolute inset-0 left-0 bg-[#5CB35E] transition-all rounded-lg duration-200 transform origin-left ${isHovered || isActive ? 'w-full' : 'w-0'}`}
+                        aria-hidden="true"
+                      />
+                      <span className={`relative z-10 transition-colors duration-200 ${isHovered || isActive ? 'text-white' : ''}`}>{link.name}</span>
+                    </a>
+                  </li>
+                )})}
                   <li className="w-full flex justify-center">
                     <a
                       href="/get-the-app"

@@ -1,4 +1,5 @@
 import React from "react";
+import AppDownloandBanner from "../components/home/AppDownloandBanner";
 
 const TermsCondition = () => {
 	return (
@@ -6,7 +7,7 @@ const TermsCondition = () => {
 			<div className="container mx-auto px-6">
 				<div className="text-center mb-16">
 					<h1 className="text-4xl md:text-5xl font-extrabold text-dark">Terms & Conditions</h1>
-					<p className="text-muted mt-2">Last Updated: October 26, 2023</p>
+					<p className="text-[#879EA4] mt-2">Last Updated: October 26, 2023</p>
 				</div>
 
 				<div className="max-w-3xl mx-auto prose prose-lg max-w-none text-gray-700">
@@ -50,6 +51,7 @@ const TermsCondition = () => {
 					<p>If you have any questions about these Terms, please contact us at <a href="mailto:support@urbandrop.com" className="text-primary hover:underline">support@urbandrop.com</a>.</p>
 				</div>
 			</div>
+			<AppDownloandBanner />
 		</main>
 	);
 };
