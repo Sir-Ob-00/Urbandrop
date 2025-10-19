@@ -60,9 +60,10 @@ const CustomerReviews = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			let nextDirection = autoSlideDirection;
-			if (reviewIndex >= reviews.length - 1 && autoSlideDirection === 1) {
+			if (reviewIndex >= reviews.length - 1) {
 				nextDirection = -1;
-			} else if (reviewIndex <= 0 && autoSlideDirection === -1) {
+			}
+			if (reviewIndex <= 0) {
 				nextDirection = 1;
 			}
 			setAutoSlideDirection(nextDirection);

@@ -19,7 +19,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
-          <h2 className="text-6xl font-bold mb-3 text-white">Urbandrop</h2>
+          <h2 className="text-4xl font-bold mb-3 text-white">Urbandrop</h2>
           <p className="text-gray-700">
             Your trusted online recipe and grocery marketplace — connecting UK customers to local merchants.
           </p>

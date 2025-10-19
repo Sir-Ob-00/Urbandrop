@@ -1,71 +1,74 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import appImg from '../../assets/images/deliveryguy.jpg';
-import { Truck, Tag, Phone, Star } from 'lucide-react';
+import React, { useState, useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
+import appImg from '../../assets/images/urbandrop-mobile-app-ui.png';
+import { Truck, Smartphone, Percent, Salad } from 'lucide-react';
 
 const WhyChoose = () => {
   const items = [
     {
       title: 'Wide Variety of Ethnic Cuisines:',
       desc: 'From Ghana Jollof to Ethiopian Injera.',
-      icon: <Star size={24} className="text-[#5CB35E]" />,
+      icon: <Salad size={24} className="text-white" />,
     },
     {
       title: 'Fast and Reliable Delivery:',
       desc: 'Get your food delivered fresh and on time.',
-      icon: <Truck size={24} className="text-[#5CB35E]" />,
+      icon: <Truck size={24} className="text-white" />,
     },
     {
       title: 'Easy Ordering:',
       desc: 'User-friendly app interface for seamless experience.',
-      icon: <Phone size={24} className="text-[#5CB35E]" />,
+      icon: <Smartphone size={24} className="text-white" />,
     },
     {
       title: 'Special Offers:',
       desc: 'Exclusive deals and discounts for app users.',
-      icon: <Tag size={24} className="text-[#5CB35E]" />,
+      icon: <Percent size={24} className="text-white" />,
     },
   ];
 
+  const sectionRef = useRef(null);
+  const isInView = useInView(sectionRef, { amount: 0.35 });
+  const [imgLoaded, setImgLoaded] = useState(false);
+
   return (
-    <section className="max-w-7xl mx-auto px-6 md:px-12 py-16">
-      <div className="flex flex-col md:flex-row items-center gap-12">
+    <section ref={sectionRef} className="why-choose-section max-w-7xl mx-auto px-6 md:px-12 pt-16 pb-0 overflow-hidden md:no-scrollbar">
+  <div className="flex flex-col md:flex-row items-stretch gap-12">
         <motion.div
-          initial={{ opacity: 0, x: 80, scale: 0.98, boxShadow: '0px 0px 0px rgba(0,0,0,0)' }}
-          whileInView={{ opacity: 1, x: 0, scale: 1, boxShadow: '0 20px 40px rgba(92,179,94,0.18)' }}
-          viewport={{ amount: 0.35 }}
-          transition={{ duration: 1.2, ease: 'easeOut' }}
-          className="w-full md:w-1/2 flex justify-center"
+          // start far off the right edge so it visibly comes from the far end
+          initial={{ opacity: 0, x: 1400, boxShadow: '0px 0px 0px rgba(0,0,0,0)' }}
+          animate={isInView && imgLoaded ? { opacity: 1, x: 0, boxShadow: '0 20px 40px rgba(92,179,94,0.18)' } : {}}
+          transition={{ duration: 1.0, ease: 'easeOut' }}
+          className="w-full md:w-1/2 flex justify-center overflow-hidden h-full"
         >
-          <img src={appImg} alt="delivery guy image" className=" shadow-sm" />
+          <img src={appImg} alt="delivery guy image" className="shadow-sm w-auto h-full max-w-none object-cover block" onLoad={() => setImgLoaded(true)} loading="eager" />
         </motion.div>
 
         <motion.div
           initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.35 }}
+          animate={isInView && imgLoaded ? 'visible' : 'hidden'}
           variants={{
-            hidden: { opacity: 0, x: -60 },
-            visible: { opacity: 1, x: 0, transition: { staggerChildren: 0.3, delayChildren: 0.08 } }
+            // start far off the left edge so it visibly comes from the far end
+            hidden: { opacity: 0, x: -1400 },
+            visible: { opacity: 1, x: 0, transition: { staggerChildren: 0.18, delayChildren: 0.08, duration: 0.9 } }
           }}
-          className="w-full md:w-1/2"
+          className="w-full md:w-1/2 overflow-hidden"
         >
-          <div className="bg-[#f2fbf4] border-l-4 border-[#5CB35E] p-6 md:p-10 rounded-md space-y-8">
-            <h2 className="text-4xl md:text-6xl font-bold">Why choose <span className="text-[#5CB35E]">Urbandrop</span>?</h2>
-            <div className="flex flex-col space-y-6">
+          <div className="bg-[#f2fbf4] pt-8 pb-6 md:pt-12 md:pb-8 rounded-md space-y-10">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#2B3B3B]">Why choose <span className="text-[#5CB35E]">Urbandrop</span>?</h2>
+            <div className="flex flex-col space-y-6 md:no-scrollbar">
               {items.map((it, idx) => (
-                <motion.div key={idx} className="flex items-start gap-6" variants={{ hidden: { opacity: 0, y: 14, scale: 0.98 }, visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, ease: 'easeOut' } } }}>
-                  <div className="mt-1">{React.cloneElement(it.icon, { size: 36 })}</div>
-                  <div>
-                    <h3 className="font-semibold text-xl md:text-2xl">{it.title}</h3>
-                    <p className="text-lg text-[#879EA4]">{it.desc}</p>
+                <div key={idx} className="flex items-start gap-8">
+                  <div className="mt-1 p-4 bg-[#5CB35E] rounded-md flex items-center justify-center">
+                    {it.icon}
                   </div>
-                </motion.div>
+                  <div>
+                    <h3 className="font-semibold text-xl text-[#2B3B3B]">{it.title}</h3>
+                    <p className="text-base text-[#879EA4]">{it.desc}</p>
+                  </div>
+                </div>
               ))}
               </div>
-              <motion.div variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.6 } } }} className="pt-4">
-                <a href="/get-started" className="inline-block bg-[#5CB35E] hover:bg-[#4a954d] text-white px-6 py-3 rounded-full font-semibold">Get Started</a>
-              </motion.div>
           </div>
         </motion.div>
       </div>

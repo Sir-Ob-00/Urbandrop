@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
+import sliderImg from '../../assets/images/slider-urbandrop.png';
 import appstoreImg from '../../assets/images/appstore-black.png';
 import playstoreImg from '../../assets/images/playstore-black.png';
 
@@ -50,15 +51,15 @@ const AppDownloandBanner = () => {
 	}, []);
 
 	return (
-		<section className="bg-dark">
+		<section className="bg-gray-100">
 			<div className="max-w-7xl mx-auto px-6 py-12 md:py-0 md:grid md:grid-cols-2 items-center gap-8">
 				{/* Left Column: Text Content */}
 				<motion.div 
 					className="text-[#5CB35E] text-center md:text-left"
-					initial={{ opacity: 0, x: -50 }}
-					whileInView={{ opacity: 1, x: 0 }}
-					viewport={{ amount: 0.4, once: true }}
-					transition={{ duration: 0.8, ease: "easeOut" }}
+					initial={{ opacity: 0, x: -220, scale: 0.98 }}
+					whileInView={{ opacity: 1, x: 0, scale: 1 }}
+					viewport={{ amount: 0.45, once: true }}
+					transition={{ duration: 1.2, ease: "easeOut" }}
 				>
 					<h2 className="text-3xl text-black md:text-5xl font-extrabold leading-tight">
 						Your <span className="text-[#5CB35E]">Groceries,</span> <br />
@@ -91,12 +92,12 @@ const AppDownloandBanner = () => {
 				{/* Right Column: Image */}
 				<motion.div 
 					className="mt-12 md:mt-0"
-					initial={{ opacity: 0, y: 50 }}
-					whileInView={{ opacity: 1, y: 0 }}
-					viewport={{ amount: 0.4, once: true }}
-					transition={{ duration: 0.8, ease: "easeOut" }}
+					initial={{ opacity: 0, y: 220, scale: 0.96 }}
+					whileInView={{ opacity: 1, y: 0, scale: 1 }}
+					viewport={{ amount: 0.45, once: true }}
+					transition={{ duration: 1.2, ease: "easeOut" }}
 				>
-					<img src={appMockup} alt="Urbandrop App Mockup" className="w-full max-w-sm mx-auto" />
+					<img src={sliderImg} alt="Urbandrop Slider" className="w-full max-w-md md:max-w-xl mx-auto" />
 				</motion.div>
 			</div>
 		</section>

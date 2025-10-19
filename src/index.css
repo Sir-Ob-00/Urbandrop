@@ -1,4 +1,6 @@
-@import "tailwindcss";
+/* Write your global styles here, or import other style files */
+
+@import './App.css';
 
 /* Utility: visually hide scrollbars but keep scrolling */
 .no-scrollbar {
@@ -7,4 +9,26 @@
 }
 .no-scrollbar::-webkit-scrollbar {
 	display: none; /* Chrome, Safari, Opera */
+}
+
+/* Prevent transient scrollbars and layout overflow for the WhyChoose section (Chrome) */
+.why-choose-section {
+	/* newest browsers: clip overflow without scrollbars */
+	overflow: clip;
+}
+
+.why-choose-section img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	/* help Chrome composite transforms without layout shifts */
+	will-change: transform, opacity;
+	transform: translateZ(0);
+}
+
+/* Fallback for browsers that don't support overflow: clip */
+@supports not (overflow: clip) {
+	.why-choose-section {
+		overflow: hidden;
+	}
 }

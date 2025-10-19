@@ -4,6 +4,7 @@ import HeroSection from "../components/home/HeroSection";
 import FeaturedProducts from "../components/home/FeaturedProducts";
 import CustomerReviews from "../components/home/CustomerReviews";
 import AppDownloandBanner from "../components/home/AppDownloandBanner";
+import HowItWorks from "../components/home/HowItWorks";
 import WhyChoose from "../components/home/WhyChoose";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
 			<HeroSection />
 			<WhyChoose />
 			<FeaturedProducts />
+			<HowItWorks />
 			<CustomerReviews />
 			<AppDownloandBanner />
 		</main>

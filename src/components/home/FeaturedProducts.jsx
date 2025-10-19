@@ -14,7 +14,7 @@ const categories = [
 
 const FeaturedProducts = () => {
 	return (
-		<section className="py-16 relative overflow-hidden bg-white md:bg-[#5CB35E]">
+		<section className="pt-12 md:pt-16 pb-16 relative overflow-hidden bg-white md:bg-[#5CB35E]">
 			{/* Background Image Pattern */}
 			<div
 				className="absolute inset-0 md:w-1/2 bg-cover bg-center bg-no-repeat opacity-20"
@@ -37,13 +37,13 @@ const FeaturedProducts = () => {
 				</div>
 
 				{/* Grid layout for mobile, flex for desktop */}
-				<div className="grid grid-cols-1 sm:grid-cols-2 md:flex items-start gap-6 md:overflow-x-auto md:pb-4 md:-mx-6 md:px-6 md:no-scrollbar">
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:flex md:flex-wrap items-start gap-6 md:pb-4 md:no-scrollbar">
 					{categories.map((c, i) => (
 						<motion.a
 							key={c.title}
 							href={`/category/${c.title.toLowerCase().replace(/\s+/g, '-')}`}
 							aria-label={`Browse ${c.title} category`}
-							className={`group relative flex-shrink-0 w-full md:w-72 rounded-2xl overflow-hidden shadow-sm transform transition-all hover:shadow-xl hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
+							className={`group relative w-full md:w-72 rounded-2xl overflow-hidden shadow-sm transform transition-all hover:shadow-xl hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
 								i < 2 ? 'bg-white text-dark focus-visible:ring-primary focus-visible:ring-offset-gray-50' : 'bg-primary text-white focus-visible:ring-white focus-visible:ring-offset-primary'
 							}`}
 							initial={{ opacity: 0, y: 18 }}
@@ -52,7 +52,7 @@ const FeaturedProducts = () => {
 							transition={{ duration: 1.0, delay: i * 0.12 }}
 						>
 							<div className={`relative h-44 md:h-48 ${i < 2 ? 'bg-gradient-to-br from-white to-gray-100' : ''}`}>
-								<img src={c.img} alt={c.title} className="absolute inset-0 m-auto h-32 md:h-36 opacity-95 object-contain" />
+								<img src={c.img} alt={c.title} className="absolute inset-0 m-auto h-32 md:h-36 opacity-95 object-contain block" />
 								<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-40 transition-opacity"></div>
 							</div>
 
