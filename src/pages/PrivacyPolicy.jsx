@@ -98,7 +98,7 @@ const PrivacyPolicy = () => {
 					</div>
 				</div>
 			</div>
-			<AppDownloandBanner />
+			<AppDownloandBanner compact />
 		</main>
 	);
 };

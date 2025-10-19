@@ -129,7 +129,7 @@ const FAQs = () => {
 						Contact Support
 					</a>
 				</div>
-				<AppDownloandBanner />
+        <AppDownloandBanner compact />
 			</div>
 		</main>
 	);

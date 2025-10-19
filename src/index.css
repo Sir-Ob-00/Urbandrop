@@ -32,3 +32,8 @@
 		overflow: hidden;
 	}
 }
+
+/* Prevent accidental horizontal page overflow on small viewports */
+html, body {
+	overflow-x: hidden;
+}

@@ -15,16 +15,16 @@ const categories = [
 const FeaturedProducts = () => {
 	return (
 		<section className="pt-12 md:pt-16 pb-16 relative overflow-hidden bg-white md:bg-[#5CB35E]">
-			{/* Background Image Pattern */}
+			{/* Background Image Pattern - hidden on small screens to avoid mobile overflow/shaky layout */}
 			<div
-				className="absolute inset-0 md:w-1/2 bg-cover bg-center bg-no-repeat opacity-20"
+				className="hidden md:block absolute inset-0 md:w-1/2 bg-cover bg-center bg-no-repeat opacity-20"
 				style={{ backgroundImage: `url(${foodPattern})` }}
 				aria-hidden="true"
 			></div>
-			{/* Green Opacity Overlay */}
-			<div className="absolute inset-0 md:w-1/2 bg-primary/10" aria-hidden="true"></div>
+			{/* Green Opacity Overlay - hidden on small screens */}
+			<div className="hidden md:block absolute inset-0 md:w-1/2 bg-primary/10" aria-hidden="true"></div>
 
-			{/* Slanted background */}
+			{/* Slanted background - desktop only */}
 			<div
 				className="hidden md:block absolute top-0 right-0 bottom-0 w-1/2 bg-white -skew-x-12 origin-top-right"
 				aria-hidden="true"
@@ -52,7 +52,7 @@ const FeaturedProducts = () => {
 							transition={{ duration: 1.0, delay: i * 0.12 }}
 						>
 							<div className={`relative h-44 md:h-48 ${i < 2 ? 'bg-gradient-to-br from-white to-gray-100' : ''}`}>
-								<img src={c.img} alt={c.title} className="absolute inset-0 m-auto h-32 md:h-36 opacity-95 object-contain block" />
+								<img src={c.img} alt={c.title} className="absolute inset-0 m-auto h-32 md:h-36 opacity-95 object-contain block max-w-full" />
 								<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-40 transition-opacity"></div>
 							</div>
 

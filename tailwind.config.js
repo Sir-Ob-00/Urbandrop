@@ -13,6 +13,7 @@ export default {
         muted: "#879EA4",         // gray-blue
         danger: "#F74242",        // alert red
         background: "#f2f5f9",    // light background
+        darkGreen: "#173a36",    // darker green for hover states
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'], // ✅ brand font

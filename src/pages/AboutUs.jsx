@@ -47,7 +47,7 @@ const AboutUs = () => {
                 <section className="relative bg-[#5CB35E]">
                     {/* Slanted gray background */}
                     <div className="hidden md:block absolute top-0 right-0 bottom-0 w-1/2 bg-[#f2f5f9] -skew-x-12 origin-top-right" aria-hidden="true"></div>
-                    <div className="relative container mx-auto px-6 pt-20 md:pt-32 pb-48 md:pb-64">
+                    <div className="relative container mx-auto px-6 pt-20 md:pt-32 pb-56 md:pb-72">
                         <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
                             {/* Left Content (on green) */}
                             <motion.div 
@@ -73,24 +73,25 @@ const AboutUs = () => {
                                 </p>
                             </motion.div>
                         </div>
+
+                        {/* Overlapping Image (centered within container) */}
+                        <motion.div
+                            className="absolute right-[50%] top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center z-20 pointer-events-none"
+                            initial={{ opacity: 0, scale: 0.85, y: 20 }}
+                            animate={{ opacity: 1, scale: 1, y: 0 }}
+                            transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+                        >
+                            <div className="w-[86vw] max-w-[760px] md:w-[720px] md:max-w-[920px] lg:w-[880px] lg:max-w-[1100px] h-auto rounded-2xl overflow-hidden shadow-2xl">
+                                <img src={heroImage} alt="Friendly local merchant" className="w-full h-full object-cover block" />
+                            </div>
+                        </motion.div>
                     </div>
-                    {/* Overlapping Image */}
-                    <motion.div 
-                        className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-80 h-80 md:w-[500px] md:h-[500px]"
-                        initial={{ opacity: 0, scale: 0.8, y: 50 }}
-                        animate={{ opacity: 1, scale: 1, y: 0 }}
-                        transition={{ duration: 0.7, delay: 0.6, ease: "easeOut" }}
-                    >
-                        <img 
-                            src={heroImage} 
-                            alt="Friendly local merchant" 
-                            className="w-full h-full object-cover rounded-2xl shadow-2xl"
-                        />
-                    </motion.div>
+                    {/* Overlapping Image: moved inside the container to center correctly */}
+                    
                 </section>
 
                 {/* 2. Our Mission */}
-                <section className="pt-48 pb-16 md:pt-64 md:pb-24 my-16">
+                <section className="pt-48 pb-16 md:pt-80 md:pb-24 my-16">
                     <div className="container mx-auto px-6">
                         <motion.div
                             className="text-center max-w-3xl mx-auto"
