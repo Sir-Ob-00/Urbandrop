@@ -185,7 +185,9 @@ const MerchantTools = () => {
                 className="absolute top-1/4 -right-4 bg-primary text-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="text-center">
-                  <div className="text-2xl mb-2">🔔</div>
+                  <div className="text-2xl mb-2">
+                    <Bell size={24} className="text-white" />
+                  </div>
                   <div className="text-sm font-medium">New Order!</div>
                   <div className="text-xs opacity-90">Jollof Rice - Table 3</div>
                 </div>
@@ -200,7 +202,9 @@ const MerchantTools = () => {
                 className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
-                  <div className="text-2xl font-bold">📈</div>
+                  <div className="text-2xl font-bold">
+                    <TrendingUp size={24} className="text-white" />
+                  </div>
                   <div className="text-sm font-medium">Revenue Up</div>
                   <div className="text-xs opacity-90">+32% this month</div>
                 </div>

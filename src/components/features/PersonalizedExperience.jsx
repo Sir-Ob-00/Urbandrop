@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Heart, Bell, Star, Target, Brain, Sparkles } from 'lucide-react';
+import { Bot, Heart, Bell, Star, Target, Brain, Sparkles } from 'lucide-react';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const PersonalizedExperience = () => {
@@ -10,42 +10,36 @@ const PersonalizedExperience = () => {
       title: 'AI Recommendations',
       description: 'Smart suggestions based on your taste preferences and order history',
       gradient: 'from-purple-500 to-pink-600',
-      emoji: '🤖',
     },
     {
       icon: <Heart size={32} className="text-white" />,
       title: 'Smart Favorites',
       description: 'Save and reorder your favorite dishes with personalized collections',
       gradient: 'from-red-500 to-pink-600',
-      emoji: '❤️',
     },
     {
       icon: <Bell size={32} className="text-white" />,
       title: 'Custom Notifications',
       description: 'Get alerts for promotions, new dishes, and favorite restaurant updates',
       gradient: 'from-blue-500 to-cyan-600',
-      emoji: '🔔',
     },
     {
       icon: <Target size={32} className="text-white" />,
       title: 'Location-Based Offers',
       description: 'Exclusive deals from nearby restaurants you love',
       gradient: 'from-green-500 to-teal-600',
-      emoji: '📍',
     },
     {
       icon: <Star size={32} className="text-white" />,
       title: 'Loyalty Rewards',
       description: 'Earn points and unlock special perks with every order',
       gradient: 'from-yellow-500 to-orange-600',
-      emoji: '⭐',
     },
     {
       icon: <Sparkles size={32} className="text-white" />,
       title: 'Exclusive Access',
       description: 'Early access to new features and limited-time experiences',
       gradient: 'from-indigo-500 to-purple-600',
-      emoji: '✨',
     },
   ];
 
@@ -102,10 +96,6 @@ const PersonalizedExperience = () => {
                   viewport={{ once: true }}
                   className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative overflow-hidden"
                 >
-                  {/* Emoji Background */}
-                  <div className="absolute top-4 right-4 text-2xl opacity-10">
-                    {feature.emoji}
-                  </div>
 
                   <div className={`bg-gradient-to-br ${feature.gradient} rounded-2xl p-4 w-fit mb-4`}>
                     {feature.icon}
@@ -169,7 +159,7 @@ const PersonalizedExperience = () => {
               >
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">🍜</span>
+                    <Heart size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark text-sm">Recommended for You</div>
@@ -202,7 +192,9 @@ const PersonalizedExperience = () => {
                 className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="text-center">
-                  <div className="text-2xl mb-2">🎉</div>
+                  <div className="text-2xl mb-2">
+                    <Sparkles size={24} className="text-white" />
+                  </div>
                   <div className="text-sm font-medium">Special Offer!</div>
                   <div className="text-xs opacity-90">50% off your favorites</div>
                 </div>
@@ -225,8 +217,8 @@ const PersonalizedExperience = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                📱
+              <div className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Bot size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">You Order</h4>
               <p className="text-muted leading-relaxed">
@@ -236,8 +228,8 @@ const PersonalizedExperience = () => {
             </div>
 
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-pink-500 to-red-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                🧠
+              <div className="bg-gradient-to-br from-pink-500 to-red-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Brain size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">AI Learns</h4>
               <p className="text-muted leading-relaxed">
@@ -247,8 +239,8 @@ const PersonalizedExperience = () => {
             </div>
 
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                🎯
+              <div className="bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Target size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">Gets Personal</h4>
               <p className="text-muted leading-relaxed">
@@ -258,8 +250,8 @@ const PersonalizedExperience = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                ⭐
+              <div className="bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Star size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">Perfect Match</h4>
               <p className="text-muted leading-relaxed">

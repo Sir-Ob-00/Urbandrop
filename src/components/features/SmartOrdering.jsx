@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Truck, MapPin, Clock, RefreshCw, Heart, Zap } from 'lucide-react';
+import { Truck, MapPin, Clock, RefreshCw, Heart, Zap, Smartphone, Target } from 'lucide-react';
 import deliveryGuy from '../../assets/images/deliveryguy.jpg';
 
 const SmartOrdering = () => {
@@ -178,7 +178,9 @@ const SmartOrdering = () => {
                 className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
-                  <div className="text-2xl font-bold">⚡</div>
+                  <div className="text-2xl font-bold">
+                    <Zap size={24} className="text-white" />
+                  </div>
                   <div className="text-sm font-medium">Smart ETA</div>
                   <div className="text-xs opacity-90">Updates in real-time</div>
                 </div>
@@ -201,8 +203,8 @@ const SmartOrdering = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                📱
+              <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Smartphone size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">1. Smart Selection</h4>
               <p className="text-muted leading-relaxed">
@@ -212,8 +214,8 @@ const SmartOrdering = () => {
             </div>
 
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                🚚
+              <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Truck size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">2. Live Tracking</h4>
               <p className="text-muted leading-relaxed">
@@ -223,8 +225,8 @@ const SmartOrdering = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center text-3xl">
-                🎯
+              <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+                <Target size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">3. Perfect Timing</h4>
               <p className="text-muted leading-relaxed">

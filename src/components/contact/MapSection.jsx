@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Phone, Mail } from 'lucide-react';
+import { MapPin, Clock, Phone, Mail, Coffee, ShoppingBag, Building, Utensils } from 'lucide-react';
 
 const MapSection = () => {
   return (
@@ -174,22 +174,30 @@ const MapSection = () => {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
         >
           <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">☕</div>
+            <div className="text-3xl mb-3">
+              <Coffee size={32} className="text-primary" />
+            </div>
             <div className="font-semibold text-dark">Cafes</div>
             <div className="text-muted text-sm">2 min walk</div>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">🏪</div>
+            <div className="text-3xl mb-3">
+              <ShoppingBag size={32} className="text-primary" />
+            </div>
             <div className="font-semibold text-dark">Shops</div>
             <div className="text-muted text-sm">5 min walk</div>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">🏦</div>
+            <div className="text-3xl mb-3">
+              <Building size={32} className="text-primary" />
+            </div>
             <div className="font-semibold text-dark">Banks</div>
             <div className="text-muted text-sm">3 min walk</div>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">🍽️</div>
+            <div className="text-3xl mb-3">
+              <Utensils size={32} className="text-primary" />
+            </div>
             <div className="font-semibold text-dark">Restaurants</div>
             <div className="text-muted text-sm">1 min walk</div>
           </div>

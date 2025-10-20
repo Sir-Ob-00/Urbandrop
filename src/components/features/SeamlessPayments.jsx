@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { CreditCard, Smartphone, Shield, Receipt, RotateCcw, Wallet } from 'lucide-react';
+import { CreditCard, Smartphone, Shield, Receipt, RotateCcw, Wallet, Zap, Globe, CheckCircle } from 'lucide-react';
 
 const SeamlessPayments = () => {
   const paymentMethods = [
@@ -9,28 +9,24 @@ const SeamlessPayments = () => {
       title: 'Credit & Debit Cards',
       description: 'Visa, Mastercard, American Express accepted worldwide',
       gradient: 'from-blue-500 to-blue-600',
-      emoji: '💳',
     },
     {
       icon: <Smartphone size={32} className="text-white" />,
       title: 'Mobile Money',
       description: 'MTN Mobile Money, Airtel Money, and other local wallets',
       gradient: 'from-green-500 to-green-600',
-      emoji: '📱',
     },
     {
       icon: <Wallet size={32} className="text-white" />,
       title: 'Digital Wallets',
       description: 'Apple Pay, Google Pay, PayPal, and more',
       gradient: 'from-purple-500 to-purple-600',
-      emoji: '👛',
     },
     {
       icon: <Receipt size={32} className="text-white" />,
       title: 'Instant Receipts',
       description: 'Digital receipts sent immediately to your email and app',
       gradient: 'from-orange-500 to-red-600',
-      emoji: '📄',
     },
   ];
 
@@ -93,10 +89,6 @@ const SeamlessPayments = () => {
                   viewport={{ once: true }}
                   className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 relative overflow-hidden"
                 >
-                  {/* Emoji Background */}
-                  <div className="absolute top-4 right-4 text-2xl opacity-10">
-                    {method.emoji}
-                  </div>
 
                   <div className={`bg-gradient-to-br ${method.gradient} rounded-2xl p-4 w-fit mb-4`}>
                     {method.icon}
@@ -258,22 +250,30 @@ const SeamlessPayments = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl mb-4">🔒</div>
+              <div className="text-4xl mb-4">
+                <Shield size={32} className="text-primary" />
+              </div>
               <div className="font-bold text-dark mb-1">PCI DSS Compliant</div>
               <div className="text-muted text-sm">Highest security standards</div>
             </div>
             <div>
-              <div className="text-4xl mb-4">⚡</div>
+              <div className="text-4xl mb-4">
+                <Zap size={32} className="text-primary" />
+              </div>
               <div className="font-bold text-dark mb-1">Instant Processing</div>
               <div className="text-muted text-sm">No waiting, no delays</div>
             </div>
             <div>
-              <div className="text-4xl mb-4">🌍</div>
+              <div className="text-4xl mb-4">
+                <Globe size={32} className="text-primary" />
+              </div>
               <div className="font-bold text-dark mb-1">Global Support</div>
               <div className="text-muted text-sm">Available in 50+ countries</div>
             </div>
             <div>
-              <div className="text-4xl mb-4">💯</div>
+              <div className="text-4xl mb-4">
+                <CheckCircle size={32} className="text-primary" />
+              </div>
               <div className="font-bold text-dark mb-1">Zero Hidden Fees</div>
               <div className="text-muted text-sm">Transparent pricing always</div>
             </div>

@@ -147,7 +147,7 @@ const FeaturesHero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">👨‍🍳</span>
+                    <ChefHat size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark text-sm">Recipe Learning</div>
@@ -164,7 +164,7 @@ const FeaturesHero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">🚚</span>
+                    <Truck size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark text-sm">Smart Delivery</div>
@@ -180,7 +180,9 @@ const FeaturesHero = () => {
                 className="absolute top-1/2 -right-8 bg-primary text-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="text-center">
-                  <div className="text-2xl font-bold">✨</div>
+                  <div className="text-2xl font-bold">
+                    <Sparkles size={24} className="text-white" />
+                  </div>
                   <div className="text-sm font-medium">AI-Powered</div>
                   <div className="text-xs opacity-90">Personalized experience</div>
                 </div>

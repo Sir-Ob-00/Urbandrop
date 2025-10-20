@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChefHat, Play, Clock, Users, Star, ArrowRight } from 'lucide-react';
+import { ChefHat, Play, Clock, Users, Star, ArrowRight, Search, ShoppingCart } from 'lucide-react';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const RecipesFeature = () => {
@@ -9,25 +9,25 @@ const RecipesFeature = () => {
       step: 1,
       title: 'Browse Authentic Recipes',
       description: 'Explore recipes from top local chefs and restaurants',
-      icon: '🔍',
+      icon: <Search size={32} className="text-white" />,
     },
     {
       step: 2,
       title: 'Watch Cooking Videos',
       description: 'Step-by-step video tutorials from professional chefs',
-      icon: '🎥',
+      icon: <Play size={32} className="text-white" />,
     },
     {
       step: 3,
       title: 'Order Ingredients',
       description: 'One-click ordering of fresh ingredients from the recipe',
-      icon: '🛒',
+      icon: <ShoppingCart size={32} className="text-white" />,
     },
     {
       step: 4,
       title: 'Cook & Enjoy',
       description: 'Master new dishes and impress your family and friends',
-      icon: '👨‍🍳',
+      icon: <ChefHat size={32} className="text-white" />,
     },
   ];
 
@@ -159,7 +159,7 @@ const RecipesFeature = () => {
               >
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">🍛</span>
+                    <ChefHat size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark text-sm">Nigerian Jollof Rice</div>
@@ -224,7 +224,7 @@ const RecipesFeature = () => {
                 </div>
 
                 {/* Icon */}
-                <div className="bg-gradient-to-br from-orange-100 to-red-100 rounded-2xl p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center text-3xl">
+                <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                   {step.icon}
                 </div>
 
