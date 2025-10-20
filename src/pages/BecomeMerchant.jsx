@@ -1,12 +1,24 @@
-import React from "react";
+import React from 'react';
+import MerchantHero from '../components/merchants/MerchantHero';
+import BenefitsSection from '../components/merchants/BenefitsSection';
+import MerchantSteps from '../components/merchants/MerchantSteps';
+import TestimonialsSection from '../components/merchants/TestimonialsSection';
+import CommissionSection from '../components/merchants/CommissionSection';
+import MerchantCTA from '../components/merchants/MerchantCTA';
+import MerchantFAQ from '../components/merchants/MerchantFAQ';
 
 const BecomeMerchant = () => {
-	return (
-		<main className="container mx-auto p-6">
-			<h1 className="text-2xl font-bold mb-4">Become a Merchant</h1>
-			<p className="text-gray-700">Information for merchants who want to join Urbandrop.</p>
-		</main>
-	);
+  return (
+    <div className="min-h-screen">
+      <MerchantHero />
+      <BenefitsSection />
+      <MerchantSteps />
+      <TestimonialsSection />
+      <CommissionSection />
+      <MerchantCTA />
+      <MerchantFAQ />
+    </div>
+  );
 };
 
 export default BecomeMerchant;

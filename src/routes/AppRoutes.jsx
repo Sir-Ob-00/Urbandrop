@@ -6,6 +6,9 @@ import SimpleLayout from "../layouts/SimpleLayout";
 import Home from "../pages/Home";
 import AboutUs from "../pages/AboutUs";
 import BecomeMerchant from "../pages/BecomeMerchant";
+import Customer from "../pages/Customers";
+import Features from "../pages/Features";
+import ContactUs from "../pages/ContactUs";
 import FAQs from "../pages/FAQs";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsCondition from "../pages/TermsCondition";
@@ -20,6 +23,9 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/become-merchant" element={<BecomeMerchant />} />
+        <Route path="/customer" element={<Customer />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/advertise" element={<Advertise />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

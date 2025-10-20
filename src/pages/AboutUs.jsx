@@ -73,21 +73,22 @@ const AboutUs = () => {
                                 </p>
                             </motion.div>
                         </div>
+                    </div>
 
-                        {/* Overlapping Image (centered within container) */}
-                        <motion.div
-                            className="absolute right-[50%] top-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center z-20 pointer-events-none"
-                            initial={{ opacity: 0, scale: 0.85, y: 20 }}
-                            animate={{ opacity: 1, scale: 1, y: 0 }}
-                            transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
-                        >
-                            <div className="w-[86vw] max-w-[760px] md:w-[720px] md:max-w-[920px] lg:w-[880px] lg:max-w-[1100px] h-auto rounded-2xl overflow-hidden shadow-2xl">
+                    {/* Overlapping Image (centered relative to the container) */}
+                   {/*  <motion.div
+                        className="absolute left-1/2 top-[55%] md:top-1/2 -translate-x-1/2 -translate-y-1/2 w-full flex justify-center z-20 pointer-events-none"
+                        initial={{ opacity: 0, scale: 0.85, y: 20 }}
+                        animate={{ opacity: 1, scale: 1, y: 0 }}
+                        transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
+                        aria-hidden="true"
+                    >
+                        <div className="container mx-auto px-6">
+                            <div className="w-full h-auto rounded-2xl overflow-hidden shadow-2xl">
                                 <img src={heroImage} alt="Friendly local merchant" className="w-full h-full object-cover block" />
                             </div>
-                        </motion.div>
-                    </div>
-                    {/* Overlapping Image: moved inside the container to center correctly */}
-                    
+                        </div>
+                    </motion.div> */}
                 </section>
 
                 {/* 2. Our Mission */}
