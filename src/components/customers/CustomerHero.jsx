@@ -5,7 +5,7 @@ import heroImage from '/images/market-woman.jpg';
 
 const CustomerHero = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-background via-white to-primaryLight overflow-hidden">
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-background via-white to-primaryLight overflow-hidden" style={{paddingTop: '140px'}}>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-20 w-64 h-64 bg-primary rounded-full"></div>

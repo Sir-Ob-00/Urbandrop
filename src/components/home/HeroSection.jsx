@@ -45,7 +45,7 @@ const HeroSection = () => {
   }, [current]);
 
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 py-10 md:py-16 space-y-10 lg:space-y-0 bg-[#f2f5f9]">
+    <section className="flex flex-col lg:flex-row justify-between items-center px-6 md:px-12 py-10 md:py-16 space-y-10 lg:space-y-0 bg-[#f2f5f9]" style={{paddingTop: '140px'}}>
       {/* Left Section */}
       <motion.div
         initial={{ opacity: 0, x: -20 }}

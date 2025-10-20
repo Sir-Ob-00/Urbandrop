@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, ShoppingCart, Globe } from "lucide-react";
 
 const Footer = () => {
   const legalLinks = [
@@ -16,6 +16,31 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-br from-[#146d15] to-[#173a36] text-white pt-16 pb-8 px-6">
+      {/* Mobile Top Bar - Hidden on Desktop */}
+      <div className="md:hidden border-b border-white/20 pb-6 mb-8">
+        <div className="flex items-center justify-between">
+          {/* Left: Language Selector */}
+          <div className="flex items-center gap-2">
+            <Globe size={16} className="text-white/80" />
+            <select className="bg-transparent text-white/90 focus:outline-none text-sm">
+              <option>English</option>
+              <option>Bangla</option>
+              <option>French</option>
+              <option>Spanish</option>
+              <option>Arabic</option>
+            </select>
+          </div>
+
+          {/* Right: Location & Email */}
+          <div className="flex flex-col items-end text-right">
+            <span className="font-medium text-white/90 text-sm">Find location</span>
+            <a href="mailto:info@urbandrop.com" className="text-white/80 hover:text-white transition-colors text-xs">
+              info@urbandrop.com
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
@@ -66,8 +91,15 @@ const Footer = () => {
       </div>
 
       {/* Secondary Footer */}
-      <div className="max-w-7xl mx-auto border-t border-white mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-6 text-white">
-        <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm">
+      <div className="max-w-7xl mx-auto border-t border-white mt-12 pt-8 flex flex-col items-center gap-6 text-white">
+        {/* Social Media Icons - Mobile Only */}
+        <div className="md:hidden flex items-center gap-6">
+          <Facebook size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+          <Twitter size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+          <Instagram size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+        </div>
+
+        <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
           <div className="flex items-center gap-2"><Mail size={16} /> support@urbandrop.com</div>
           <div className="flex items-center gap-2"><Phone size={16} /> +44 20 1234 5678</div>
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>

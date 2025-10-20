@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className={`${isTop ? 'bg-[#f2f5f9] shadow-none' : 'bg-white shadow-sm'} sticky top-0 z-50 transition-colors duration-200`}> 
+    <header className={`${isTop ? 'bg-[#f2f5f9]/95 backdrop-blur-sm' : 'bg-white shadow-sm'} fixed top-0 left-0 right-0 z-50 transition-all duration-200`}>
       {/* Top info bar (hidden at top) */}
       <div className={`${isTop ? 'hidden bg-[#e6ece6]' : 'bg-[#e6ece6]'} text-[#5CB35E] text-sm transition-all duration-200 hidden md:block`}>
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
