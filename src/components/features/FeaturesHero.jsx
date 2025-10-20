@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sparkles, Zap, Star, ArrowRight } from 'lucide-react';
+import { Sparkles, Zap, Star, ArrowRight, ChefHat, Truck } from 'lucide-react';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const FeaturesHero = () => {

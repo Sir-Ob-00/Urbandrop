@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Clock, Phone, Mail, Coffee, ShoppingBag, Building, Utensils } from 'lucide-react';
+import { MapPin, Clock, Phone, Mail, Coffee, ShoppingBag, Building, Utensils, Train, Bus, Car } from 'lucide-react';
 
 const MapSection = () => {
   return (
@@ -119,7 +119,7 @@ const MapSection = () => {
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="bg-white/20 rounded-full p-2 mt-1">
-                    <span className="text-sm font-bold">🚇</span>
+                    <Train size={16} className="text-white" />
                   </div>
                   <div>
                     <div className="font-semibold">Tube Station</div>
@@ -128,7 +128,7 @@ const MapSection = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="bg-white/20 rounded-full p-2 mt-1">
-                    <span className="text-sm font-bold">🚌</span>
+                    <Bus size={16} className="text-white" />
                   </div>
                   <div>
                     <div className="font-semibold">Bus Routes</div>
@@ -137,7 +137,7 @@ const MapSection = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="bg-white/20 rounded-full p-2 mt-1">
-                    <span className="text-sm font-bold">🚗</span>
+                    <Car size={16} className="text-white" />
                   </div>
                   <div>
                     <div className="font-semibold">Parking</div>

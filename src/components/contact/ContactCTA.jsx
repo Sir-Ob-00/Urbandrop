@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, Store, Users, ArrowRight } from 'lucide-react';
+import { Download, Store, Users, ArrowRight, Award, Star, Trophy } from 'lucide-react';
 
 const ContactCTA = () => {
   return (
@@ -108,15 +108,15 @@ const ContactCTA = () => {
             <p className="text-white/80 mb-6">Trusted by food lovers across the UK</p>
             <div className="flex flex-wrap justify-center items-center gap-8 opacity-80">
               <div className="flex items-center gap-2 text-white">
-                <span className="text-2xl">🏆</span>
+                <Trophy size={24} className="text-yellow-400" />
                 <span className="font-medium">Best Food Delivery 2024</span>
               </div>
               <div className="flex items-center gap-2 text-white">
-                <span className="text-2xl">⭐</span>
+                <Star size={24} className="text-yellow-400 fill-current" />
                 <span className="font-medium">4.8/5 App Store Rating</span>
               </div>
               <div className="flex items-center gap-2 text-white">
-                <span className="text-2xl">🏅</span>
+                <Award size={24} className="text-yellow-400" />
                 <span className="font-medium">ISO 22000 Certified</span>
               </div>
             </div>

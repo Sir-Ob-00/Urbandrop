@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Download, Smartphone, Star, Users, Award } from 'lucide-react';
+import { Download, Smartphone, Star, Users, Award, Truck } from 'lucide-react';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const AppDownloadSection = () => {
@@ -150,7 +150,7 @@ const AppDownloadSection = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">🚚</span>
+                    <Truck size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark text-sm">Order Delivered!</div>

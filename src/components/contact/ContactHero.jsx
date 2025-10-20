@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MessageCircle, Phone, Mail, MapPin } from 'lucide-react';
+import { MessageCircle, Phone, Mail, MapPin, Hand, Zap } from 'lucide-react';
 import deliveryGuy from '../../assets/images/deliveryguy.jpg';
 
 const ContactHero = () => {
@@ -141,7 +141,7 @@ const ContactHero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">👋</span>
+                    <Hand size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark text-sm">Hi there!</div>
@@ -158,7 +158,9 @@ const ContactHero = () => {
                 className="absolute -bottom-6 -right-6 bg-primary text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
-                  <div className="text-2xl font-bold">⚡</div>
+                  <div className="text-2xl font-bold">
+                    <Zap size={24} className="text-white" />
+                  </div>
                   <div className="text-sm font-medium">Quick Response</div>
                   <div className="text-xs opacity-90">Under &lt;2 hours</div>
                 </div>

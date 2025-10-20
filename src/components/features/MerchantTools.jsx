@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BarChart3, Store, Users, TrendingUp, Settings, Shield } from 'lucide-react';
+import { BarChart3, Store, Users, TrendingUp, Settings, Shield, Bell } from 'lucide-react';
 import marketWoman from '/images/market-woman.jpg';
 
 const MerchantTools = () => {

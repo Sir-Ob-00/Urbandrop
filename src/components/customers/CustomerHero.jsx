@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Play, Download, Star } from 'lucide-react';
+import { Play, Download, Star, ChefHat, Truck } from 'lucide-react';
 import heroImage from '/images/market-woman.jpg';
 
 const CustomerHero = () => {
@@ -95,7 +95,7 @@ const CustomerHero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold">🍲</span>
+                    <ChefHat size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark">Fresh Daily</div>
@@ -112,7 +112,7 @@ const CustomerHero = () => {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold">🚚</span>
+                    <Truck size={20} className="text-white" />
                   </div>
                   <div>
                     <div className="font-bold text-dark">Fast Delivery</div>

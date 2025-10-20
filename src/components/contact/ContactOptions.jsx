@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ShoppingCart, Store, TrendingUp, MapPin, Phone, Mail, MessageCircle } from 'lucide-react';
+import { ShoppingCart, Store, TrendingUp, MapPin, Phone, Mail, MessageCircle, Smartphone, Building2 } from 'lucide-react';
 
 const contactOptions = [
   {
@@ -9,7 +9,7 @@ const contactOptions = [
     description: 'Questions about your orders, deliveries, or recipes?',
     contact: '📧 support@urbandrop.co.uk',
     gradient: 'from-blue-500 to-blue-600',
-    bgPattern: '📱',
+    bgPattern: <Smartphone size={32} className="text-white/20" />,
   },
   {
     icon: <Store size={32} className="text-white" />,
@@ -17,7 +17,7 @@ const contactOptions = [
     description: 'Need help setting up your shop or dashboard?',
     contact: '📧 merchants@urbandrop.co.uk',
     gradient: 'from-green-500 to-green-600',
-    bgPattern: '🏪',
+    bgPattern: <Store size={32} className="text-white/20" />,
   },
   {
     icon: <TrendingUp size={32} className="text-white" />,
@@ -25,7 +25,7 @@ const contactOptions = [
     description: 'Want to advertise or collaborate with us?',
     contact: '📧 ads@urbandrop.co.uk',
     gradient: 'from-purple-500 to-purple-600',
-    bgPattern: '📈',
+    bgPattern: <TrendingUp size={32} className="text-white/20" />,
   },
   {
     icon: <MapPin size={32} className="text-white" />,
@@ -33,7 +33,7 @@ const contactOptions = [
     description: 'Visit us at our London headquarters',
     contact: '📞 +44 123 456 7890',
     gradient: 'from-orange-500 to-red-500',
-    bgPattern: '🏢',
+    bgPattern: <Building2 size={32} className="text-white/20" />,
   },
 ];
 
