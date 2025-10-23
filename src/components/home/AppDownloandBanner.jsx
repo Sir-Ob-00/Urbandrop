@@ -14,13 +14,14 @@ const CountdownUnit = ({ value, label }) => (
 	</div>
 );
 
-// Calculate the launch date once and store it.
-// This adds 75 days, 17 hours, and 10 minutes to the time the app first loads.
-const launchTime = new Date();
-launchTime.setDate(launchTime.getDate() + 75);
-launchTime.setHours(launchTime.getHours() + 17);
-launchTime.setMinutes(launchTime.getMinutes() + 10);
-const launchDate = launchTime.getTime();
+// Calculate the launch date once and store it as a fixed value.
+// This is 70 days, 21 hours, and 15 minutes from a fixed point in time.
+const getLaunchDate = () => {
+    const d = new Date();
+    d.setDate(d.getDate() + 70);
+    return d.getTime();
+}
+const launchDate = getLaunchDate();
 
 const calculateTimeLeft = () => {
 	const now = new Date().getTime();
@@ -66,8 +67,8 @@ const AppDownloandBanner = ({ compact = false }) => {
 				<motion.div 
 					className="text-[#5CB35E] text-center md:text-left"
 					initial={isMobile ? { opacity: 1, x: 0, scale: 1 } : { opacity: 0, x: -220, scale: 0.98 }}
-					animate={isMobile ? { opacity: 1, x: 0, scale: 1 } : undefined}
-					{...(!isMobile ? { whileInView: { opacity: 1, x: 0, scale: 1 }, viewport: { amount: 0.45, once: true }, transition: { duration: 1.2, ease: "easeOut" } } : {})}
+					animate={isMobile ? { opacity: 1, x: 0, scale: 1 } : {}}
+					whileInView={!isMobile ? { opacity: 1, x: 0, scale: 1 } : {}} viewport={{ amount: 0.45, once: true }} transition={{ duration: 0.8, ease: "easeOut" }}
 				>
 					<h2 className="text-3xl text-black md:text-5xl font-extrabold leading-tight">
 						Your <span className="text-[#5CB35E]">Groceries,</span> <br />
@@ -77,10 +78,10 @@ const AppDownloandBanner = ({ compact = false }) => {
 						Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking right at your fingertips.
 					</p>
 					<div className="flex justify-center md:justify-start items-center gap-4 h-12">
-						<a href="#" className="hover:opacity-90 transition-opacity">
+						<a href="/404" className="hover:opacity-90 transition-opacity">
 							<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
 						</a>
-						<a href="#" className="hover:opacity-90 transition-opacity">
+						<a href="/404" className="hover:opacity-90 transition-opacity">
 							<img src={playstoreImg} alt="Get it on Google Play" className="h-full" />
 						</a>
 					</div>
@@ -92,8 +93,8 @@ const AppDownloandBanner = ({ compact = false }) => {
 				<motion.div 
 					className="mt-8 md:mt-0"
 					initial={isMobile ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 120, scale: 0.98 }}
-					animate={isMobile ? { opacity: 1, y: 0, scale: 1 } : undefined}
-					{...(!isMobile ? { whileInView: { opacity: 1, y: 0, scale: 1 }, viewport: { amount: 0.3, once: true }, transition: { duration: 0.7, ease: "easeOut" } } : {})}
+					animate={isMobile ? { opacity: 1, y: 0, scale: 1 } : {}}
+					whileInView={!isMobile ? { opacity: 1, y: 0, scale: 1 } : {}} viewport={{ amount: 0.3, once: true }} transition={{ duration: 0.5, ease: "easeOut" }}
 				>
 					<img src={sliderImg} alt="Urbandrop Slider" className="w-full md:w-auto max-w-full md:max-w-xl mx-auto" />
 				</motion.div>

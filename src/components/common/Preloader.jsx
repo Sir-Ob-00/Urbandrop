@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingBag, Truck, ChefHat, Leaf } from 'lucide-react';
+import logo from '../../assets/images/urban-logo.png';
 
 const Preloader = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
@@ -59,8 +60,8 @@ const Preloader = ({ onComplete }) => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="mb-8"
           >
-            <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-2xl">
-              <ShoppingBag size={40} className="text-primary" />
+            <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-2xl p-3">
+              <img src={logo} alt="Urbandrop Logo" className="w-full h-full object-contain" />
             </div>
             <h1 className="text-3xl font-bold text-white">Urbandrop</h1>
           </motion.div>

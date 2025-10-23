@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/urbandropLogo.png";
-import { Menu, X, Facebook, Twitter, Instagram, ShoppingCart, Globe } from "lucide-react";
+import { Menu, X, Facebook, Twitter, Instagram, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
@@ -39,10 +39,15 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <Facebook size={16} className="text-[#5CB35E]" />
-            <Twitter size={16} className="text-[#5CB35E]" />
-            <Instagram size={16} className="text-[#5CB35E]" />
-            <ShoppingCart size={16} className="text-[#5CB35E]" />
+            <a href="/404">
+              <Facebook size={16} className="text-[#5CB35E]" />
+            </a>
+            <a href="/404">
+              <Twitter size={16} className="text-[#5CB35E]" />
+            </a>
+            <a href="/404">
+              <Instagram size={16} className="text-[#5CB35E]" />
+            </a>
           </div>
 
           <div className="flex items-center gap-3">

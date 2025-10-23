@@ -115,8 +115,8 @@ const FAQs = () => {
 
           {/* Accordion */}
           <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-            {faqCategories.find(cat => cat.category === activeCategory)?.faqs.map((faq, index) => (
-              <AccordionItem key={index} question={faq.question} answer={faq.answer} />
+            {faqCategories.find(cat => cat.category === activeCategory)?.faqs.map((faq) => (
+              <AccordionItem key={faq.question} question={faq.question} answer={faq.answer} />
             ))}
           </div>
         </div>

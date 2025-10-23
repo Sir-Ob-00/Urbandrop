@@ -41,7 +41,7 @@ const FeaturedProducts = () => {
 					{categories.map((c, i) => (
 						<motion.a
 							key={c.title}
-							href={`/category/${c.title.toLowerCase().replace(/\s+/g, '-')}`}
+							href="/features"
 							aria-label={`Browse ${c.title} category`}
 							className={`group relative w-full md:w-72 rounded-2xl overflow-hidden shadow-sm transform transition-all hover:shadow-xl hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
 								i < 2 ? 'bg-white text-dark focus-visible:ring-primary focus-visible:ring-offset-gray-50' : 'bg-primary text-white focus-visible:ring-white focus-visible:ring-offset-primary'

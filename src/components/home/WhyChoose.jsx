@@ -29,7 +29,6 @@ const WhyChoose = () => {
 
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { amount: 0.35 });
-  const [imgLoaded, setImgLoaded] = useState(false);
 
   return (
     <section ref={sectionRef} className="why-choose-section max-w-7xl mx-auto px-6 md:px-12 pt-16 pb-0 overflow-hidden md:no-scrollbar">
@@ -37,20 +36,20 @@ const WhyChoose = () => {
         <motion.div
           // start far off the right edge so it visibly comes from the far end
           initial={{ opacity: 0, x: 1400, boxShadow: '0px 0px 0px rgba(0,0,0,0)' }}
-          animate={isInView && imgLoaded ? { opacity: 1, x: 0, boxShadow: '0 20px 40px rgba(92,179,94,0.18)' } : {}}
+          animate={isInView ? { opacity: 1, x: 0, boxShadow: '0 20px 40px rgba(92,179,94,0.18)' } : {}}
           transition={{ duration: 1.0, ease: 'easeOut' }}
           className="w-full md:w-1/2 flex justify-center overflow-hidden h-full"
         >
-          <img src={appImg} alt="delivery guy image" className="shadow-sm w-auto h-full max-w-none object-cover block" onLoad={() => setImgLoaded(true)} loading="eager" />
+          <img src={appImg} alt="delivery guy image" className="shadow-sm w-auto h-full max-w-none object-cover block" loading="eager" />
         </motion.div>
 
         <motion.div
           initial="hidden"
-          animate={isInView && imgLoaded ? 'visible' : 'hidden'}
+          animate={isInView ? 'visible' : 'hidden'}
           variants={{
             // start far off the left edge so it visibly comes from the far end
             hidden: { opacity: 0, x: -1400 },
-            visible: { opacity: 1, x: 0, transition: { staggerChildren: 0.18, delayChildren: 0.08, duration: 0.9 } }
+            visible: { opacity: 1, x: 0, transition: { staggerChildren: 0.18, delayChildren: 0.08, duration: 0.9 } },
           }}
           className="w-full md:w-1/2 overflow-hidden"
         >
