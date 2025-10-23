@@ -7,19 +7,19 @@ const benefits = [
     icon: <Globe size={40} className="text-white" />,
     title: 'Global Cuisines',
     description: 'Explore authentic flavors from Africa, Asia, Europe, and the Caribbean in one app.',
-    color: 'from-orange-400 to-red-500',
+    color: 'from-[#f1be21] to-[#36b44a]',
   },
   {
     icon: <Truck size={40} className="text-white" />,
     title: 'Lightning Fast Delivery',
     description: 'Get your fresh ingredients delivered in under 30 minutes to your doorstep.',
-    color: 'from-blue-400 to-blue-600',
+    color: 'from-green-400 to-green-700',
   },
   {
     icon: <Smartphone size={40} className="text-white" />,
     title: 'Seamless App Experience',
     description: 'Intuitive interface with real-time tracking and easy reordering.',
-    color: 'from-purple-400 to-purple-600',
+    color: 'from-green-400 to-green-600',
   },
   {
     icon: <Award size={40} className="text-white" />,
@@ -31,13 +31,13 @@ const benefits = [
     icon: <Clock size={40} className="text-white" />,
     title: 'Flexible Scheduling',
     description: 'Schedule deliveries for when it works best for your busy lifestyle.',
-    color: 'from-yellow-400 to-orange-500',
+    color: 'from-green-600 to-green-400',
   },
   {
     icon: <Shield size={40} className="text-white" />,
     title: 'Secure Payments',
     description: 'Multiple payment options with bank-level security and fraud protection.',
-    color: 'from-indigo-400 to-purple-600',
+    color: 'from-[#f1be21] to-[#36b44a]',
   },
 ];
 

@@ -1,8 +1,33 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useRef, useEffect } from 'react';
+import { motion, useInView, useMotionValue, useTransform, animate } from 'framer-motion';
 import { Download, Store, Users, ArrowRight, Award, Star, Trophy } from 'lucide-react';
 
 const ContactCTA = () => {
+  const statsRef = useRef(null);
+  const statsInView = useInView(statsRef, {
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
+  // Counting animation values
+  const activeUsers = useMotionValue(0);
+  const partnerMerchants = useMotionValue(0);
+  const appRating = useMotionValue(0);
+
+  // Transform motion values to display values
+  const activeUsersDisplay = useTransform(activeUsers, (latest) => `${Math.floor(latest)}K+`);
+  const partnerMerchantsDisplay = useTransform(partnerMerchants, (latest) => `${Math.floor(latest)}+`);
+  const appRatingDisplay = useTransform(appRating, (latest) => `${(latest / 10).toFixed(1)}★`);
+
+  // Start counting animation when in view
+  useEffect(() => {
+    if (statsInView) {
+      animate(activeUsers, 50, { duration: 2, ease: "easeOut" });
+      animate(partnerMerchants, 500, { duration: 2, ease: "easeOut" });
+      animate(appRating, 48, { duration: 2, ease: "easeOut" });
+    }
+  }, [statsInView, activeUsers, partnerMerchants, appRating]);
+
   return (
     <section className="py-20 bg-gradient-to-br from-primary via-primaryLight to-background relative overflow-hidden">
       {/* Background Pattern */}
@@ -50,7 +75,10 @@ const ContactCTA = () => {
           </div>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          <motion.div
+            ref={statsRef}
+            className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12"
+          >
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -61,7 +89,9 @@ const ContactCTA = () => {
               <div className="flex items-center justify-center mb-4">
                 <Users size={48} className="text-white" />
               </div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">50K+</div>
+              <motion.div className="text-4xl md:text-5xl font-bold text-white mb-2">
+                <motion.span>{activeUsersDisplay}</motion.span>
+              </motion.div>
               <div className="text-white/80 text-lg">Active Users</div>
               <div className="text-white/60 text-sm mt-2">Growing daily</div>
             </motion.div>
@@ -76,7 +106,9 @@ const ContactCTA = () => {
               <div className="flex items-center justify-center mb-4">
                 <Store size={48} className="text-white" />
               </div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">500+</div>
+              <motion.div className="text-4xl md:text-5xl font-bold text-white mb-2">
+                <motion.span>{partnerMerchantsDisplay}</motion.span>
+              </motion.div>
               <div className="text-white/80 text-lg">Partner Merchants</div>
               <div className="text-white/60 text-sm mt-2">Trusted quality</div>
             </motion.div>
@@ -91,11 +123,13 @@ const ContactCTA = () => {
               <div className="flex items-center justify-center mb-4">
                 <Download size={48} className="text-white" />
               </div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">4.8★</div>
+              <motion.div className="text-4xl md:text-5xl font-bold text-white mb-2">
+                <motion.span>{appRatingDisplay}</motion.span>
+              </motion.div>
               <div className="text-white/80 text-lg">App Rating</div>
               <div className="text-white/60 text-sm mt-2">Customer loved</div>
             </motion.div>
-          </div>
+          </motion.div>
 
           {/* Social Proof */}
           <motion.div

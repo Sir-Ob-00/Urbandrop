@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Play, Download, Star, ChefHat, Truck } from 'lucide-react';
-import heroImage from '/images/market-woman.jpg';
+import heroImage from '../../assets/images/customer/lady-urbandrop.jpg';
 
 const CustomerHero = () => {
   return (
@@ -13,7 +13,7 @@ const CustomerHero = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-primary rounded-full"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 py-20 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 py- 10 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <motion.div
@@ -22,15 +22,6 @@ const CustomerHero = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            <div className="flex items-center gap-2 mb-4">
-              <div className="flex text-yellow-400">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={20} fill="currentColor" />
-                ))}
-              </div>
-              <span className="text-muted font-medium">Trusted by 10,000+ customers</span>
-            </div>
-
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
               <span className="text-dark">Fresh</span>
               <br />
@@ -49,26 +40,6 @@ const CustomerHero = () => {
                 <Download size={24} />
                 Download App
               </button>
-              <button className="border-2 border-primary text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-primary hover:text-white transition-all flex items-center gap-3">
-                <Play size={24} />
-                Watch Demo
-              </button>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 pt-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">50K+</div>
-                <div className="text-muted">Happy Customers</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
-                <div className="text-muted">Local Merchants</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">30min</div>
-                <div className="text-muted">Avg. Delivery</div>
-              </div>
             </div>
           </motion.div>
 

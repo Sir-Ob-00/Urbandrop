@@ -113,16 +113,6 @@ const AppDownloadSection = () => {
                 Download for Android
               </button>
             </div>
-
-            {/* Rating */}
-            <div className="flex items-center gap-4">
-              <div className="flex text-yellow-400">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={20} fill="currentColor" />
-                ))}
-              </div>
-              <span className="text-white/90">4.8/5 on App Stores</span>
-            </div>
           </motion.div>
 
           {/* Right Image */}
@@ -156,24 +146,6 @@ const AppDownloadSection = () => {
                     <div className="font-bold text-dark text-sm">Order Delivered!</div>
                     <div className="text-muted text-xs">Your Jollof Rice is here</div>
                   </div>
-                </div>
-              </motion.div>
-
-              {/* Floating Rating */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                viewport={{ once: true }}
-                className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-4 shadow-xl"
-              >
-                <div className="flex items-center gap-2">
-                  <div className="flex text-yellow-400">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} size={16} fill="currentColor" />
-                    ))}
-                  </div>
-                  <div className="text-sm font-bold text-dark">4.9</div>
                 </div>
               </motion.div>
             </div>

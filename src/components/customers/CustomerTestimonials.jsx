@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence, useInView, useMotionValue, useTransform, animate } from 'framer-motion';
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
@@ -18,7 +18,7 @@ const testimonials = [
     name: 'Marcus Chen',
     location: 'Manchester, UK',
     rating: 5,
-    image: '/images/market-woman.jpg',
+    image: '/images/lady-urbandrop.jpg',
     text: 'As someone who loves trying new foods, Urbandrop is my go-to app. The quality is consistently excellent, and I love supporting local merchants. The app interface is so smooth and the recommendations are spot on!',
     date: '1 week ago',
     favoriteDish: 'Jamaican Curry Goat',
@@ -28,7 +28,7 @@ const testimonials = [
     name: 'Amara Okafor',
     location: 'Birmingham, UK',
     rating: 5,
-    image: '/images/market-woman-1.jpg',
+    image: '/images/lady-urbandrop.jpg',
     text: 'Finally, I can get authentic Nigerian food that tastes just like home! The jollof rice is perfect, and the customer service is amazing. Urbandrop makes it so easy to share our culture through food.',
     date: '3 days ago',
     favoriteDish: 'Nigerian Jollof Rice',
@@ -38,7 +38,7 @@ const testimonials = [
     name: 'David Thompson',
     location: 'Glasgow, UK',
     rating: 4,
-    image: '/images/deliveryguy.jpg',
+    image: '/images/lady-urbandrop.jpg',
     text: 'The convenience is unbeatable. I can order from multiple cuisines in one go and everything arrives together. The portion sizes are generous and the prices are reasonable. Highly recommend!',
     date: '5 days ago',
     favoriteDish: 'Ghanaian Waakye',
@@ -48,7 +48,7 @@ const testimonials = [
     name: 'Priya Patel',
     location: 'Leeds, UK',
     rating: 5,
-    image: '/images/veges.jpg',
+    image: '/images/lady-urbandrop.jpg',
     text: 'Urbandrop opened up a whole new world of flavors for me. I\'ve tried dishes from countries I\'ve never visited and each one has been an amazing culinary journey. The freshness and quality are outstanding.',
     date: '1 week ago',
     favoriteDish: 'Kenyan Nyama Choma',
@@ -58,6 +58,33 @@ const testimonials = [
 const CustomerTestimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const statsRef = useRef(null);
+  const statsInView = useInView(statsRef, {
+    triggerOnce: true,
+    threshold: 0.3,
+  });
+
+  // Counting animation values
+  const happyCustomers = useMotionValue(0);
+  const averageRating = useMotionValue(0);
+  const mealsDelivered = useMotionValue(0);
+  const partnerMerchants = useMotionValue(0);
+
+  // Transform motion values to display values
+  const happyCustomersDisplay = useTransform(happyCustomers, (latest) => `${Math.floor(latest)}K+`);
+  const averageRatingDisplay = useTransform(averageRating, (latest) => `${(latest / 10).toFixed(1)}★`);
+  const mealsDeliveredDisplay = useTransform(mealsDelivered, (latest) => `${Math.floor(latest / 1000000)}M+`);
+  const partnerMerchantsDisplay = useTransform(partnerMerchants, (latest) => `${Math.floor(latest)}+`);
+
+  // Start counting animation when in view
+  useEffect(() => {
+    if (statsInView) {
+      animate(happyCustomers, 50, { duration: 2, ease: "easeOut" });
+      animate(averageRating, 48, { duration: 2, ease: "easeOut" });
+      animate(mealsDelivered, 2000000, { duration: 2, ease: "easeOut" });
+      animate(partnerMerchants, 500, { duration: 2, ease: "easeOut" });
+    }
+  }, [statsInView, happyCustomers, averageRating, mealsDelivered, partnerMerchants]);
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -165,42 +192,44 @@ const CustomerTestimonials = () => {
             </motion.div>
           </AnimatePresence>
 
-          {/* Navigation Buttons */}
-          <button
-            onClick={goToPrevious}
-            className="absolute left-4 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-primary hover:text-white transition-all duration-300 z-20"
-            aria-label="Previous testimonial"
-          >
-            <ChevronLeft size={24} />
-          </button>
+          {/* Dots Indicator with Navigation */}
+          <div className="flex justify-center items-center mt-8 gap-4">
+            <button
+              onClick={goToPrevious}
+              className="bg-white shadow-lg rounded-full p-3 hover:bg-primary hover:text-white transition-all duration-300 z-20"
+              aria-label="Previous testimonial"
+            >
+              <ChevronLeft size={20} />
+            </button>
 
-          <button
-            onClick={goToNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-primary hover:text-white transition-all duration-300 z-20"
-            aria-label="Next testimonial"
-          >
-            <ChevronRight size={24} />
-          </button>
+            <div className="flex gap-2">
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => goToSlide(index)}
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                    index === currentIndex
+                      ? 'bg-primary scale-125'
+                      : 'bg-gray-300 hover:bg-primary/50'
+                  }`}
+                  aria-label={`Go to testimonial ${index + 1}`}
+                />
+              ))}
+            </div>
 
-          {/* Dots Indicator */}
-          <div className="flex justify-center mt-8 gap-2">
-            {testimonials.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentIndex
-                    ? 'bg-primary scale-125'
-                    : 'bg-gray-300 hover:bg-primary/50'
-                }`}
-                aria-label={`Go to testimonial ${index + 1}`}
-              />
-            ))}
+            <button
+              onClick={goToNext}
+              className="bg-white shadow-lg rounded-full p-3 hover:bg-primary hover:text-white transition-all duration-300 z-20"
+              aria-label="Next testimonial"
+            >
+              <ChevronRight size={20} />
+            </button>
           </div>
         </div>
 
         {/* Stats Section */}
         <motion.div
+          ref={statsRef}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -208,19 +237,35 @@ const CustomerTestimonials = () => {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
         >
           <div>
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">50K+</div>
+            <motion.div
+              className="text-3xl md:text-4xl font-bold text-primary mb-2"
+            >
+              <motion.span>{happyCustomersDisplay}</motion.span>
+            </motion.div>
             <div className="text-muted">Happy Customers</div>
           </div>
           <div>
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">4.8★</div>
+            <motion.div
+              className="text-3xl md:text-4xl font-bold text-primary mb-2"
+            >
+              <motion.span>{averageRatingDisplay}</motion.span>
+            </motion.div>
             <div className="text-muted">Average Rating</div>
           </div>
           <div>
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">2M+</div>
+            <motion.div
+              className="text-3xl md:text-4xl font-bold text-primary mb-2"
+            >
+              <motion.span>{mealsDeliveredDisplay}</motion.span>
+            </motion.div>
             <div className="text-muted">Meals Delivered</div>
           </div>
           <div>
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500+</div>
+            <motion.div
+              className="text-3xl md:text-4xl font-bold text-primary mb-2"
+            >
+              <motion.span>{partnerMerchantsDisplay}</motion.span>
+            </motion.div>
             <div className="text-muted">Partner Merchants</div>
           </div>
         </motion.div>

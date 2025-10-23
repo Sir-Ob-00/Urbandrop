@@ -15,8 +15,8 @@ const Features = () => {
       <SmartOrdering />
       <MerchantTools />
       <PersonalizedExperience />
-      <SeamlessPayments />
-      <FeaturesCTA />
+      {/* <SeamlessPayments /> */}
+     {/*  <FeaturesCTA /> */}
     </div>
   );
 };

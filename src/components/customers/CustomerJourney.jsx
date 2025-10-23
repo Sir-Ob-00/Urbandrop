@@ -8,28 +8,28 @@ const steps = [
     title: 'Discover & Browse',
     description: 'Explore thousands of authentic ingredients and ready-to-eat meals from local merchants.',
     details: ['Global cuisine selection', 'Real-time availability', 'Detailed product info'],
-    color: 'from-blue-500 to-blue-600',
+    color: 'from-green-600 to-green-600',
   },
   {
     icon: <ShoppingCart size={48} className="text-white" />,
     title: 'Add to Cart',
     description: 'Customize your order with special instructions and select delivery preferences.',
     details: ['Flexible quantities', 'Special requests', 'Scheduled delivery'],
-    color: 'from-green-500 to-green-600',
+    color: 'from-green-600 to-green-600',
   },
   {
     icon: <CreditCard size={48} className="text-white" />,
     title: 'Secure Checkout',
     description: 'Multiple payment options with instant confirmation and order tracking.',
     details: ['Bank-level security', 'Instant confirmation', 'Order tracking'],
-    color: 'from-purple-500 to-purple-600',
+    color: 'from-green-600 to-green-600',
   },
   {
     icon: <Truck size={48} className="text-white" />,
     title: 'Fresh Delivery',
     description: 'Receive your order fresh and on time with real-time delivery updates.',
     details: ['Live tracking', 'Quality guarantee', 'Contactless delivery'],
-    color: 'from-orange-500 to-red-500',
+    color: 'from-green-600 to-green-600',
   },
 ];
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Bot, Heart, Bell, Star, Target, Brain, Sparkles } from 'lucide-react';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
@@ -7,21 +6,21 @@ const PersonalizedExperience = () => {
   const features = [
     {
       icon: <Brain size={32} className="text-white" />,
-      title: 'AI Recommendations',
-      description: 'Smart suggestions based on your taste preferences and order history',
-      gradient: 'from-purple-500 to-pink-600',
+      title: 'Smart Recommendations',
+      description: 'Suggestions based on your taste preferences and order history',
+      gradient: 'from-green-500 to-teal-600',
     },
     {
       icon: <Heart size={32} className="text-white" />,
       title: 'Smart Favorites',
       description: 'Save and reorder your favorite dishes with personalized collections',
-      gradient: 'from-red-500 to-pink-600',
+      gradient: 'from-[#36b44a] to-[#f1be21]',
     },
     {
       icon: <Bell size={32} className="text-white" />,
       title: 'Custom Notifications',
       description: 'Get alerts for promotions, new dishes, and favorite restaurant updates',
-      gradient: 'from-blue-500 to-cyan-600',
+      gradient: 'from-[#36b44a] to-[#f1be21]',
     },
     {
       icon: <Target size={32} className="text-white" />,
@@ -33,13 +32,13 @@ const PersonalizedExperience = () => {
       icon: <Star size={32} className="text-white" />,
       title: 'Loyalty Rewards',
       description: 'Earn points and unlock special perks with every order',
-      gradient: 'from-yellow-500 to-orange-600',
+      gradient: 'from-green-500 to-teal-600',
     },
     {
       icon: <Sparkles size={32} className="text-white" />,
       title: 'Exclusive Access',
       description: 'Early access to new features and limited-time experiences',
-      gradient: 'from-indigo-500 to-purple-600',
+      gradient: 'from-[#36b44a] to-[#f1be21]',
     },
   ];
 
@@ -73,7 +72,7 @@ const PersonalizedExperience = () => {
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto leading-relaxed">
             Every interaction with Urbandrop is designed to feel personal and special.
-            Our AI learns your preferences to create the perfect dining experience every time.
+            We learn your preferences to create the perfect dining experience every time.
           </p>
         </motion.div>
 
@@ -112,7 +111,7 @@ const PersonalizedExperience = () => {
                   <Brain size={32} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-dark mb-1">AI-Powered Personalization</h3>
+                  <h3 className="text-2xl font-bold text-dark mb-1">Smart Personalization</h3>
                   <p className="text-muted">Gets smarter with every order you place</p>
                 </div>
               </div>
@@ -172,17 +171,6 @@ const PersonalizedExperience = () => {
                 </div>
               </motion.div>
 
-              {/* Floating Heart */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                viewport={{ once: true }}
-                className="absolute top-1/4 -right-4 bg-red-500 text-white rounded-2xl p-3 shadow-xl"
-              >
-                <Heart size={24} />
-              </motion.div>
-
               {/* Floating Notification */}
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
@@ -222,7 +210,7 @@ const PersonalizedExperience = () => {
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">You Order</h4>
               <p className="text-muted leading-relaxed">
-                Place orders and rate dishes to help our AI understand your preferences.
+                Place orders and rate dishes to help us understand your preferences.
               </p>
               <div className="absolute top-10 -right-4 w-8 h-0.5 bg-gradient-to-r from-purple-500 to-transparent hidden md:block"></div>
             </div>
@@ -231,9 +219,9 @@ const PersonalizedExperience = () => {
               <div className="bg-gradient-to-br from-[#36b44a] to-[#f1be21] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Brain size={32} className="text-white" />
               </div>
-              <h4 className="text-xl font-bold text-dark mb-3">AI Learns</h4>
+              <h4 className="text-xl font-bold text-dark mb-3">We Learn</h4>
               <p className="text-muted leading-relaxed">
-                Our intelligent system analyzes patterns in your ordering behavior.
+                Our system analyzes patterns in your ordering behavior.
               </p>
               <div className="absolute top-10 -right-4 w-8 h-0.5 bg-gradient-to-r from-pink-500 to-transparent hidden md:block"></div>
             </div>

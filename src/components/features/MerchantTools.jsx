@@ -10,7 +10,7 @@ const MerchantTools = () => {
       title: 'Analytics Dashboard',
       description: 'Real-time insights into sales, popular dishes, and customer trends',
       features: ['Sales reports', 'Customer analytics', 'Performance metrics'],
-      gradient: 'from-blue-500 to-indigo-600',
+      gradient: 'from-green-500 to-teal-600',
     },
     {
       icon: <Store size={32} className="text-white" />,
@@ -24,28 +24,28 @@ const MerchantTools = () => {
       title: 'Order Management',
       description: 'Streamlined system for processing and fulfilling customer orders',
       features: ['Order notifications', 'Status updates', 'Customer communication'],
-      gradient: 'from-purple-500 to-pink-600',
+      gradient: 'from-green-500 to-teal-600',
     },
     {
       icon: <TrendingUp size={32} className="text-white" />,
       title: 'Marketing Tools',
       description: 'Built-in promotion tools and featured listing opportunities',
       features: ['Discount campaigns', 'Featured listings', 'Customer targeting'],
-      gradient: 'from-orange-500 to-red-600',
+      gradient: 'from-green-500 to-teal-600',
     },
     {
       icon: <Settings size={32} className="text-white" />,
       title: 'Business Settings',
       description: 'Complete control over your business profile and preferences',
       features: ['Operating hours', 'Delivery zones', 'Payment settings'],
-      gradient: 'from-cyan-500 to-blue-600',
+      gradient: 'from-green-500 to-teal-600',
     },
     {
       icon: <Shield size={32} className="text-white" />,
       title: 'Security & Support',
       description: 'Enterprise-grade security with 24/7 dedicated merchant support',
       features: ['Data encryption', 'Fraud protection', 'Priority support'],
-      gradient: 'from-emerald-500 to-green-600',
+      gradient: 'from-green-500 to-teal-600',
     },
   ];
 
@@ -189,7 +189,7 @@ const MerchantTools = () => {
                     <Bell size={24} className="text-white" />
                   </div>
                   <div className="text-sm font-medium">New Order!</div>
-                  <div className="text-xs opacity-90">Jollof Rice - Table 3</div>
+                  <div className="text-xs opacity-90">Jollof Rice</div>
                 </div>
               </motion.div>
 
@@ -265,10 +265,7 @@ const MerchantTools = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-[#2c4d31] px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition-all">
-                Start Free Trial
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all">
-                Schedule Demo
+                Get the App
               </button>
             </div>
           </div>

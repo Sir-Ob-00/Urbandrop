@@ -12,7 +12,7 @@ const products = [
     rating: 4.8,
     reviews: 234,
     deliveryTime: '25-30 min',
-    image: '/images/veges.jpg',
+    image: 'src/assets/images/customer/jollof & kitchen.png',
     badge: 'Popular',
     merchant: 'Mama\'s Kitchen',
   },
@@ -25,7 +25,7 @@ const products = [
     rating: 4.9,
     reviews: 189,
     deliveryTime: '20-25 min',
-    image: '/images/healthy-ingredients-included-salad.jpg',
+    image: 'src/assets/images/customer/ampesi.png',
     badge: 'Chef\'s Choice',
     merchant: 'Golden Spoon',
   },
@@ -38,7 +38,7 @@ const products = [
     rating: 4.7,
     reviews: 156,
     deliveryTime: '30-35 min',
-    image: '/images/colorful-composition-vegetables-frame.jpg',
+    image: 'src/assets/images/customer/doro wat.jpg',
     badge: 'Spicy',
     merchant: 'Habesha Flavors',
   },
@@ -51,7 +51,7 @@ const products = [
     rating: 4.9,
     reviews: 312,
     deliveryTime: '35-40 min',
-    image: '/images/—Pngtree—bunny meat spring delicacy_6831463.png',
+    image: 'src/assets/images/customer/curry goat.jpg',
     badge: 'Signature',
     merchant: 'Island Spice',
   },
@@ -98,14 +98,6 @@ const FeaturedProducts = () => {
                 <div className="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-semibold">
                   {product.badge}
                 </div>
-
-                {/* Price Tag */}
-                <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-2 rounded-2xl shadow-lg">
-                  <div className="text-lg font-bold text-dark">${product.price}</div>
-                  {product.originalPrice && (
-                    <div className="text-sm text-muted line-through">${product.originalPrice}</div>
-                  )}
-                </div>
               </div>
 
               {/* Content */}
@@ -146,8 +138,8 @@ const FeaturedProducts = () => {
                 </div>
 
                 {/* Add to Cart Button */}
-                <button className="w-full mt-4 bg-primary text-white py-3 rounded-2xl font-semibold hover:bg-darkGreen transition-all transform hover:scale-105 shadow-lg">
-                  Add to Cart
+                <button className="w-full mt-4 bg-primary text-white py-3 rounded-2xl font-semibold hover:bg-primary transition-all transform hover:scale-105 shadow-lg">
+                  Order from App
                 </button>
               </div>
             </motion.div>

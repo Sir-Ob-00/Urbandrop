@@ -9,13 +9,13 @@ const SmartOrdering = () => {
       icon: <MapPin size={32} className="text-white" />,
       title: 'Real-Time Tracking',
       description: 'Watch your order journey from kitchen to doorstep with live GPS updates',
-      gradient: 'from-blue-500 to-blue-600',
+      gradient: 'bg-gradient-to-r from-[#2c4d31] to-[#36b44a]',
       stats: '99% Accuracy',
     },
     {
       icon: <Clock size={32} className="text-white" />,
       title: 'Predictive Delivery',
-      description: 'AI-powered ETAs that get more accurate as your order progresses',
+      description: 'ETAs that get more accurate as your order progresses',
       gradient: 'from-green-500 to-green-600',
       stats: '30min Avg',
     },
@@ -23,14 +23,14 @@ const SmartOrdering = () => {
       icon: <RefreshCw size={32} className="text-white" />,
       title: 'One-Click Reorders',
       description: 'Save your favorite meals and reorder with a single tap',
-      gradient: 'from-purple-500 to-purple-600',
+      gradient: 'from-green-500 to-green-600',
       stats: '2x Faster',
     },
     {
       icon: <Heart size={32} className="text-white" />,
       title: 'Smart Favorites',
-      description: 'AI learns your preferences and suggests meals you\'ll love',
-      gradient: 'from-pink-500 to-pink-600',
+      description: 'Learns your preferences and suggests meals you\'ll love',
+      gradient: 'bg-gradient-to-r from-[#2c4d31] to-[#36b44a]',
       stats: '85% Match Rate',
     },
   ];
@@ -177,13 +177,6 @@ const SmartOrdering = () => {
                 viewport={{ once: true }}
                 className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white rounded-2xl p-4 shadow-xl"
               >
-                <div className="text-center">
-                  <div className="text-2xl font-bold">
-                    <Zap size={24} className="text-white" />
-                  </div>
-                  <div className="text-sm font-medium">Smart ETA</div>
-                  <div className="text-xs opacity-90">Updates in real-time</div>
-                </div>
               </motion.div>
             </div>
           </motion.div>
@@ -208,7 +201,7 @@ const SmartOrdering = () => {
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">1. Smart Selection</h4>
               <p className="text-muted leading-relaxed">
-                AI-powered recommendations based on your taste preferences, dietary needs, and order history.
+                Recommendations based on your taste preferences, dietary needs, and order history.
               </p>
               <div className="absolute top-10 -right-4 w-8 h-0.5 bg-gradient-to-r from-blue-500 to-transparent hidden md:block"></div>
             </div>

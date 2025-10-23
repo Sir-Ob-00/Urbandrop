@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Sparkles, Zap, Star, ArrowRight, ChefHat, Truck } from 'lucide-react';
-import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
+import appMockup from '../../assets/images/features/rack-fruits.png';
 
 const FeaturesHero = () => {
   return (
@@ -56,20 +56,20 @@ const FeaturesHero = () => {
                 className="inline-flex items-center gap-3 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-6 py-3 rounded-full font-semibold shadow-2xl"
               >
                 <Sparkles size={20} className="animate-pulse" />
-                <span>Revolutionary Features</span>
+                <span>Ethnic Marketplace</span>
               </motion.div>
 
               <h1 className="text-5xl md:text-7xl font-black leading-tight">
-                Discover, Order &
+                Authentic Ethnic
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
-                  Enjoy — Smarter
+                  Groceries & Foods
                 </span>
               </h1>
 
               <p className="text-xl md:text-2xl text-[#2c4d31]/90 leading-relaxed max-w-lg">
-                Urbandrop is not just a delivery app — it's your gateway to authentic cuisines,
-                culinary mastery, and seamless food experiences that connect you with the world's flavors.
+                Discover authentic ethnic groceries and restaurant-quality foods from around the world,
+                delivered fresh to your doorstep with our comprehensive marketplace.
               </p>
             </div>
 
@@ -83,45 +83,26 @@ const FeaturesHero = () => {
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-4 border border-[#2c4d31]/20">
                 <div className="flex items-center gap-3 mb-2">
                   <Zap size={24} className="text-[#f1be21]" />
-                  <span className="font-bold text-[#2c4d31]">Lightning Fast</span>
+                  <span className="font-bold text-[#2c4d31]">Fresh Delivery</span>
                 </div>
-                <p className="text-[#2c4d31]/80 text-sm">30-minute delivery guarantee</p>
+                <p className="text-[#2c4d31]/80 text-sm">Authentic ethnic groceries</p>
               </div>
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-4 border border-[#2c4d31]/20">
                 <div className="flex items-center gap-3 mb-2">
                   <Star size={24} className="text-[#f1be21]" />
-                  <span className="font-bold text-[#2c4d31]">Premium Quality</span>
+                  <span className="font-bold text-[#2c4d31]">Restaurant Quality</span>
                 </div>
-                <p className="text-[#2c4d31]/80 text-sm">Trusted local merchants</p>
+                <p className="text-[#2c4d31]/80 text-sm">Premium restaurant foods</p>
               </div>
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-4 border border-[#2c4d31]/20">
                 <div className="flex items-center gap-3 mb-2">
                   <Sparkles size={24} className="text-[#36b44a]" />
-                  <span className="font-bold text-[#2c4d31]">Smart Features</span>
+                  <span className="font-bold text-[#2c4d31]">Global Selection</span>
                 </div>
-                <p className="text-[#2c4d31]/80 text-sm">AI-powered recommendations</p>
+                <p className="text-[#2c4d31]/80 text-sm">World cuisines at your doorstep</p>
               </div>
             </motion.div>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-10 py-5 rounded-2xl font-bold text-xl hover:shadow-2xl hover:shadow-[#2c4d31]/25 transition-all flex items-center justify-center gap-3"
-              >
-                Explore Features
-                <ArrowRight size={24} />
-              </motion.button>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="border-2 border-[#2c4d31]/30 text-[#2c4d31] px-10 py-5 rounded-2xl font-bold text-xl hover:bg-[#2c4d31]/10 hover:border-[#2c4d31]/50 transition-all flex items-center justify-center gap-3 backdrop-blur-sm"
-              >
-                Watch Demo
-                <Sparkles size={24} />
-              </motion.button>
-            </div>
           </motion.div>
 
           {/* Right Image */}
@@ -134,7 +115,7 @@ const FeaturesHero = () => {
             <div className="relative">
               <img
                 src={appMockup}
-                alt="Urbandrop app showcasing amazing features"
+                alt="Urbandrop marketplace showcasing ethnic groceries and restaurant foods"
                 className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
               />
 
@@ -150,8 +131,8 @@ const FeaturesHero = () => {
                     <ChefHat size={20} className="text-white" />
                   </div>
                   <div>
-                    <div className="font-bold text-dark text-sm">Recipe Learning</div>
-                    <div className="text-muted text-xs">Cook like a pro chef</div>
+                    <div className="font-bold text-dark text-sm">Authentic Spices</div>
+                    <div className="text-muted text-xs">Premium ethnic ingredients</div>
                   </div>
                 </div>
               </motion.div>
@@ -167,24 +148,9 @@ const FeaturesHero = () => {
                     <Truck size={20} className="text-white" />
                   </div>
                   <div>
-                    <div className="font-bold text-dark text-sm">Smart Delivery</div>
-                    <div className="text-muted text-xs">Real-time tracking</div>
+                    <div className="font-bold text-dark text-sm">Fresh Delivery</div>
+                    <div className="text-muted text-xs">Direct from merchants</div>
                   </div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1.2 }}
-                className="absolute top-1/2 -right-8 bg-[#2c4d31] text-white rounded-2xl p-4 shadow-xl max-w-xs"
-              >
-                <div className="text-center">
-                  <div className="text-2xl font-bold">
-                    <Sparkles size={24} className="text-white" />
-                  </div>
-                  <div className="text-sm font-medium">AI-Powered</div>
-                  <div className="text-xs opacity-90">Personalized experience</div>
                 </div>
               </motion.div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChefHat, Play, Clock, Users, Star, ArrowRight, Search, ShoppingCart } from 'lucide-react';
-import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
+import appMockup from '../../assets/images/features/cart png.png';
 
 const RecipesFeature = () => {
   const recipeSteps = [
@@ -10,12 +10,6 @@ const RecipesFeature = () => {
       title: 'Browse Authentic Recipes',
       description: 'Explore recipes from top local chefs and restaurants',
       icon: <Search size={32} className="text-white" />,
-    },
-    {
-      step: 2,
-      title: 'Watch Cooking Videos',
-      description: 'Step-by-step video tutorials from professional chefs',
-      icon: <Play size={32} className="text-white" />,
     },
     {
       step: 3,
@@ -38,6 +32,11 @@ const RecipesFeature = () => {
         <div className="absolute top-20 left-20 w-64 h-64 bg-[#2c4d31]/20 rounded-full"></div>
         <div className="absolute bottom-20 right-20 w-48 h-48 bg-[#36b44a]/20 rounded-full"></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#f1be21]/20 rounded-full"></div>
+        {/* Grocery Pattern */}
+        <div className="absolute inset-0 opacity-10" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232c4d31' fill-opacity='0.1'%3E%3Ccircle cx='7' cy='7' r='2'/%3E%3Ccircle cx='27' cy='7' r='2'/%3E%3Ccircle cx='47' cy='7' r='2'/%3E%3Ccircle cx='7' cy='27' r='2'/%3E%3Ccircle cx='27' cy='27' r='2'/%3E%3Ccircle cx='47' cy='27' r='2'/%3E%3Ccircle cx='7' cy='47' r='2'/%3E%3Ccircle cx='27' cy='47' r='2'/%3E%3Ccircle cx='47' cy='47' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          backgroundSize: '60px 60px'
+        }}></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
@@ -50,19 +49,18 @@ const RecipesFeature = () => {
         >
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-4 py-2 rounded-full font-semibold mb-6">
             <ChefHat size={16} />
-            <span>Featured Feature</span>
+            <span>Product Showcase</span>
           </div>
           <h2 className="text-4xl md:text-6xl font-bold text-[#2c4d31] mb-6">
-            Cook Like Your
+            Authentic Ethnic
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
-              Favorite Vendor
+              Groceries & Foods
             </span>
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto leading-relaxed">
-            Urbandrop doesn't just deliver food — it teaches you how to make it. Explore authentic recipes
-            from partnered restaurants and chefs, complete with step-by-step instructions, cooking videos,
-            and one-click ingredient ordering.
+            Discover authentic ethnic groceries and restaurant-quality foods from around the world.
+            From traditional spices to ready-made meals, find everything you need for an authentic dining experience.
           </p>
         </motion.div>
 
@@ -81,23 +79,23 @@ const RecipesFeature = () => {
                   <ChefHat size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-dark mb-2">Authentic Recipes</h3>
+                  <h3 className="text-2xl font-bold text-dark mb-2">Ethnic Groceries</h3>
                   <p className="text-muted leading-relaxed">
-                    Learn to cook traditional dishes from Africa, Asia, Europe, and the Caribbean.
-                    Each recipe is carefully curated by local chefs and restaurant owners.
+                    Authentic spices, herbs, and specialty ingredients from traditional markets
+                    around the world, sourced directly from local suppliers.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-3 flex-shrink-0">
+                <div className="bg-gradient-to-br from-[#36b44a] to-[#2c4d31] rounded-2xl p-3 flex-shrink-0">
                   <Play size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-dark mb-2">Video Tutorials</h3>
+                  <h3 className="text-2xl font-bold text-dark mb-2">Restaurant Foods</h3>
                   <p className="text-muted leading-relaxed">
-                    Watch professional cooking demonstrations with clear, step-by-step guidance.
-                    Perfect for both beginners and experienced home cooks.
+                    Ready-to-eat meals and dishes prepared by authentic ethnic restaurants,
+                    bringing restaurant-quality food to your home.
                   </p>
                 </div>
               </div>
@@ -107,10 +105,10 @@ const RecipesFeature = () => {
                   <Star size={24} className="text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-dark mb-2">Fresh Ingredients</h3>
+                  <h3 className="text-2xl font-bold text-dark mb-2">Fresh & Authentic</h3>
                   <p className="text-muted leading-relaxed">
-                    Order all the ingredients you need with one click. Get fresh, quality ingredients
-                    delivered alongside your recipe instructions.
+                    Experience the genuine flavors of different cultures with fresh, authentic
+                    ingredients and traditional cooking methods.
                   </p>
                 </div>
               </div>
@@ -119,16 +117,16 @@ const RecipesFeature = () => {
             <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
               <div className="grid grid-cols-2 gap-6 mb-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-1">500+</div>
-                  <div className="text-muted text-sm">Authentic Recipes</div>
+                  <div className="text-3xl font-bold text-primary mb-1">100+</div>
+                  <div className="text-muted text-sm">Ethnic Products</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-1">50+</div>
-                  <div className="text-muted text-sm">Partner Chefs</div>
+                  <div className="text-3xl font-bold text-primary mb-1">25+</div>
+                  <div className="text-muted text-sm">Partner Merchants</div>
                 </div>
               </div>
               <button className="w-full bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105 flex items-center justify-center gap-3">
-                Explore Recipes
+                Browse Products
                 <ArrowRight size={20} />
               </button>
             </div>
@@ -145,11 +143,11 @@ const RecipesFeature = () => {
             <div className="relative">
               <img
                 src={appMockup}
-                alt="Urbandrop recipes feature on mobile app"
+                alt="Urbandrop marketplace showcasing ethnic groceries and restaurant foods"
                 className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
               />
 
-              {/* Floating Recipe Card */}
+              {/* Floating Product Card */}
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -162,41 +160,26 @@ const RecipesFeature = () => {
                     <ChefHat size={20} className="text-white" />
                   </div>
                   <div>
-                    <div className="font-bold text-dark text-sm">Nigerian Jollof Rice</div>
-                    <div className="text-muted text-xs">By Chef Adebayo</div>
+                    <div className="font-bold text-dark text-sm">Authentic Spices</div>
+                    <div className="text-muted text-xs">Premium quality</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 text-xs text-muted">
                   <div className="flex items-center gap-1">
-                    <Clock size={12} />
-                    <span>45 min</span>
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <Users size={12} />
-                    <span>4 servings</span>
-                  </div>
-                  <div className="flex items-center gap-1">
                     <Star size={12} className="text-yellow-400 fill-current" />
                     <span>4.9</span>
+                  </div>
+                  <div className="text-xs text-primary font-medium">
+                    $12.99
                   </div>
                 </div>
               </motion.div>
 
-              {/* Floating Play Button */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                viewport={{ once: true }}
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary rounded-full p-4 shadow-xl"
-              >
-                <Play size={32} className="text-white ml-1" />
-              </motion.div>
             </div>
           </motion.div>
         </div>
 
-        {/* Recipe Steps */}
+        {/* Product Showcase */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -205,39 +188,41 @@ const RecipesFeature = () => {
           className="bg-white rounded-3xl p-8 md:p-12 shadow-xl"
         >
           <h3 className="text-3xl font-bold text-dark text-center mb-12">
-            How Recipe Learning Works
+            Our Product Categories
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {recipeSteps.map((step, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="text-center relative"
-              >
-                {/* Step Number */}
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm">
-                  {step.step}
-                </div>
+            <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#2c4d31]/10 to-[#36b44a]/10 flex items-center justify-center">
+                <img src="src\assets\images\features\groceries-1.avif" alt="Spices" className="w-16 h-16 object-cover rounded-lg" />
+              </div>
+              <h4 className="text-xl font-bold text-dark mb-2">Ethnic Groceries</h4>
+              <p className="text-muted text-sm leading-relaxed">Authentic spices, herbs, and specialty ingredients</p>
+            </div>
 
-                {/* Icon */}
-                <div className="bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-2xl p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
-                  {step.icon}
-                </div>
+            <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#36b44a]/10 to-[#f1be21]/10 flex items-center justify-center">
+                <img src="src\assets\images\features\ampesi.png" alt="Restaurant food" className="w-16 h-16 object-cover rounded-lg" />
+              </div>
+              <h4 className="text-xl font-bold text-dark mb-2">Restaurant Foods</h4>
+              <p className="text-muted text-sm leading-relaxed">Ready-to-eat meals from ethnic restaurants</p>
+            </div>
 
-                {/* Content */}
-                <h4 className="text-xl font-bold text-dark mb-2">{step.title}</h4>
-                <p className="text-muted text-sm leading-relaxed">{step.description}</p>
+            <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#f1be21]/10 to-[#2c4d31]/10 flex items-center justify-center">
+                <img src="src\assets\images\features\plantain.png" alt="Fresh produce" className="w-16 h-16 object-cover rounded-lg" />
+              </div>
+              <h4 className="text-xl font-bold text-dark mb-2">Fresh Produce</h4>
+              <p className="text-muted text-sm leading-relaxed">Traditional fruits and vegetables</p>
+            </div>
 
-                {/* Connection Line */}
-                {index < recipeSteps.length - 1 && (
-                  <div className="hidden lg:block absolute top-10 left-full w-8 h-0.5 bg-gradient-to-r from-primary to-transparent"></div>
-                )}
-              </motion.div>
-            ))}
+            <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#2c4d31]/10 to-[#36b44a]/10 flex items-center justify-center">
+                <img src="/images/healthy-ingredients-included-salad.jpg" alt="Specialty items" className="w-16 h-16 object-cover rounded-lg" />
+              </div>
+              <h4 className="text-xl font-bold text-dark mb-2">Specialty Items</h4>
+              <p className="text-muted text-sm leading-relaxed">Unique products from around the world</p>
+            </div>
           </div>
         </motion.div>
       </div>
