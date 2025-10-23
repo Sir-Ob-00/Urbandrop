@@ -2,6 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChefHat, Play, Clock, Users, Star, ArrowRight, Search, ShoppingCart } from 'lucide-react';
 import appMockup from '../../assets/images/features/cart png.png';
+import groceriesImage from '../../assets/images/features/groceries-1.avif';
+import ampesiImage from '../../assets/images/features/ampesi.png';
+import plantainImage from '../../assets/images/features/plantain.png';
+import healthySaladImage from '../../assets/images/features/fruits.png';
 
 const RecipesFeature = () => {
   const recipeSteps = [
@@ -194,7 +198,7 @@ const RecipesFeature = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#2c4d31]/10 to-[#36b44a]/10 flex items-center justify-center">
-                <img src="src\assets\images\features\groceries-1.avif" alt="Spices" className="w-16 h-16 object-cover rounded-lg" />
+                <img src={groceriesImage} alt="Spices" className="w-16 h-16 object-cover rounded-lg" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-2">Ethnic Groceries</h4>
               <p className="text-muted text-sm leading-relaxed">Authentic spices, herbs, and specialty ingredients</p>
@@ -202,7 +206,7 @@ const RecipesFeature = () => {
 
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#36b44a]/10 to-[#f1be21]/10 flex items-center justify-center">
-                <img src="src\assets\images\features\ampesi.png" alt="Restaurant food" className="w-16 h-16 object-cover rounded-lg" />
+                <img src={ampesiImage} alt="Restaurant food" className="w-16 h-16 object-cover rounded-lg" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-2">Restaurant Foods</h4>
               <p className="text-muted text-sm leading-relaxed">Ready-to-eat meals from ethnic restaurants</p>
@@ -210,7 +214,7 @@ const RecipesFeature = () => {
 
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#f1be21]/10 to-[#2c4d31]/10 flex items-center justify-center">
-                <img src="src\assets\images\features\plantain.png" alt="Fresh produce" className="w-16 h-16 object-cover rounded-lg" />
+                <img src={plantainImage} alt="Fresh produce" className="w-16 h-16 object-cover rounded-lg" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-2">Fresh Produce</h4>
               <p className="text-muted text-sm leading-relaxed">Traditional fruits and vegetables</p>
@@ -218,7 +222,7 @@ const RecipesFeature = () => {
 
             <div className="text-center bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="w-24 h-24 mx-auto mb-4 rounded-2xl overflow-hidden bg-gradient-to-br from-[#2c4d31]/10 to-[#36b44a]/10 flex items-center justify-center">
-                <img src="/images/healthy-ingredients-included-salad.jpg" alt="Specialty items" className="w-16 h-16 object-cover rounded-lg" />
+                <img src={healthySaladImage} alt="Specialty items" className="w-16 h-16 object-cover rounded-lg" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-2">Specialty Items</h4>
               <p className="text-muted text-sm leading-relaxed">Unique products from around the world</p>
