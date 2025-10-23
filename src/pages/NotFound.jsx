@@ -19,9 +19,9 @@ const NotFound = () => {
     },
     {
       icon: <Truck size={24} className="text-white" />,
-      title: 'Track Orders',
-      description: 'Monitor your deliveries in real-time',
-      link: '/',
+      title: 'Advertise',
+      description: 'Reach thousands of shoppers every day',
+      link: '/advertise',
     },
   ];
 

@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#2c4d31] text-white pt-16 pb-8 px-6">
       {/* Mobile Top Bar - Hidden on Desktop */}
-      <div className="md:hidden border-b border-white/20 pb-6 mb-8">
+      <div className="lg:hidden border-b border-white/20 pb-6 mb-8">
         <div className="flex items-center justify-between">
           {/* Left: Language Selector */}
           <div className="flex items-center gap-2">
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 text-sm">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
           <h2 className="text-4xl font-bold mb-3 text-white">Urbandrop</h2>

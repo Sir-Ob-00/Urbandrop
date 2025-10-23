@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <header className={`${isTop ? 'bg-[#f2f5f9]/95 backdrop-blur-sm' : 'bg-white shadow-sm'} fixed top-0 left-0 right-0 z-50 transition-all duration-200`}>
       {/* Top info bar (hidden at top) */}
-      <div className={`${isTop ? 'hidden bg-[#e6ece6]' : 'bg-[#e6ece6]'} text-[#5CB35E] text-sm transition-all duration-200 hidden md:block`}>
+      <div className={`${isTop ? 'hidden bg-[#e6ece6]' : 'bg-[#e6ece6]'} text-[#5CB35E] text-sm transition-all duration-200 hidden lg:block`}>
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
           <div className="flex items-center gap-3">
             <span className="font-medium">Find location</span>
@@ -70,7 +70,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-8">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.href;
             const isHovered = hovered === link.name;
@@ -103,7 +103,7 @@ const Navbar = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-dark"
+          className="lg:hidden text-dark"
         >
           {isOpen ? <X size={26} /> : <Menu size={26} />}
         </button>

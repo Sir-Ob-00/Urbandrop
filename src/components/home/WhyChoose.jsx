@@ -37,7 +37,7 @@ const WhyChoose = () => {
           // start far off the right edge so it visibly comes from the far end
           initial={{ opacity: 0, x: 1400, boxShadow: '0px 0px 0px rgba(0,0,0,0)' }}
           animate={isInView ? { opacity: 1, x: 0, boxShadow: '0 20px 40px rgba(92,179,94,0.18)' } : {}}
-          transition={{ duration: 1.0, ease: 'easeOut' }}
+          transition={{ duration: 0.5, ease: 'easeOut' }}
           className="w-full md:w-1/2 flex justify-center overflow-hidden h-full"
         >
           <img src={appImg} alt="delivery guy image" className="shadow-sm w-auto h-full max-w-none object-cover block" loading="eager" />

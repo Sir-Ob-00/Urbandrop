@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import dish1 from "../../assets/images/hero/food.png";
 import dish2 from "../../assets/images/hero/wele.png";
-import dish3 from "../../assets/images/hero/bag.png";
+import dish3 from "../../assets/images/hero/ampesi.png";
 import dish4 from "../../assets/images/hero/food.png";
 
 const HeroSection = () => {

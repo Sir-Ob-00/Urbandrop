@@ -20,15 +20,13 @@ const AdvertiseHero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{paddingTop: '140px'}}>
-      {/* Background: Left side white, right side green semi-circle */}
-      <div className="absolute inset-0">
-        {/* Green semi-circle on right side */}
-        <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-l-full"></div>
-      </div>
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-white" style={{paddingTop: '140px'}}>
+      {/* Background: Intricate background for the right side */}
+      <div className="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-br from-[#c3e6cb] to-[#9ed1b1] transform -skew-x-12 origin-bottom-left"></div>
+      <div className="absolute inset-y-0 right-0 w-1/2 bg-[#2c4d31]/10 transform -skew-x-6 origin-bottom-left"></div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[600px]">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 py-20 lg:py-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[700px]">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -84,66 +82,56 @@ const AdvertiseHero = () => {
             </div>            
           </motion.div>
 
-          {/* Right Visual - Image clipped to the green semi-circle */}
+          {/* Right Visual - Image */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative flex items-center justify-center h-full"
+            className="relative flex items-center justify-center h-[500px] lg:h-full -mr-16 lg:mr-0 z-20"
           >
-            {/* Image clipped to the green semi-circle shape */}
-            <div className="relative w-full h-full overflow-hidden">
-              <div
-                className="absolute right-0 top-0 w-full h-full"
-                style={{
-                  backgroundImage: `url(${deliveryRider})`,
-                  backgroundSize: '50% 100%',
-                  backgroundPosition: 'right center',
-                  backgroundRepeat: 'no-repeat',
-                  clipPath: 'circle(50% at 100% 50%)'
-                }}
-              ></div>
-
-              {/* Floating Elements */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                className="absolute top-1/4 left-1/4 bg-white rounded-2xl p-4 shadow-2xl max-w-xs z-10"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-[#2c4d31] rounded-xl flex items-center justify-center">
-                    <Target size={24} className="text-white" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-[#2c4d31] text-sm">Your Brand Here</div>
-                    <div className="text-[#2c4d31]/70 text-xs">Premium Placement</div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                className="absolute bottom-1/4 left-1/4 bg-white rounded-2xl p-4 shadow-2xl text-[#2c4d31] z-10"
-              >
-                <div className="text-2xl font-bold">3x</div>
-                <div className="text-sm opacity-90">More Visibility</div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1.2 }}
-                className="absolute top-1/2 left-1/2 bg-[#f1be21] rounded-2xl p-4 shadow-2xl text-[#2c4d31] z-10"
-              >
-                <div className="text-center">
-                  <div className="text-2xl font-bold">500K+</div>
-                  <div className="text-sm opacity-90">Impressions</div>
-                </div>
-              </motion.div>
+            <div className="w-[calc(100%+4rem)] lg:w-3/4 h-full relative p-4 lg:p-8 bg-white/60 backdrop-blur-lg rounded-3xl shadow-2xl transform rotate-3">
+              <img src={deliveryRider} alt="Delivery Rider" className="w-full h-full object-cover rounded-2xl shadow-lg transform -rotate-3" />
             </div>
+
+            {/* Floating Elements */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.8 }}
+              className="absolute top-0 left-1/2 -translate-x-1/2 bg-white rounded-2xl p-4 shadow-2xl max-w-xs z-30 transform -rotate-6"
+            >
+              <div className="flex items-center gap-3">
+                <div className="w-12 h-12 bg-[#2c4d31] rounded-xl flex items-center justify-center">
+                  <Target size={24} className="text-white" />
+                </div>
+                <div>
+                  <div className="font-bold text-[#2c4d31] text-sm">Your Brand Here</div>
+                  <div className="text-[#2c4d31]/70 text-xs">Premium Placement</div>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 1 }}
+              className="absolute bottom-0 right-0 translate-x-1/2 bg-white rounded-2xl p-4 shadow-2xl text-[#2c4d31] z-30 transform rotate-6"
+            >
+              <div className="text-2xl font-bold">3x</div>
+              <div className="text-sm opacity-90">More Visibility</div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 1.2 }}
+              className="absolute bottom-0 left-0 -translate-x-1/2 bg-[#f1be21] rounded-2xl p-4 shadow-2xl text-[#2c4d31] z-30 transform -rotate-3"
+            >
+              <div className="text-center">
+                <div className="text-2xl font-bold">500K+</div>
+                <div className="text-sm opacity-90">Impressions</div>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
