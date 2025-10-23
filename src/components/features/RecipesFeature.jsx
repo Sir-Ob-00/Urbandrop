@@ -32,12 +32,12 @@ const RecipesFeature = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-yellow-50 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-orange-200 rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-yellow-200 rounded-full"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-red-200 rounded-full"></div>
+        <div className="absolute top-20 left-20 w-64 h-64 bg-[#2c4d31]/20 rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-48 h-48 bg-[#36b44a]/20 rounded-full"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#f1be21]/20 rounded-full"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
@@ -48,14 +48,14 @@ const RecipesFeature = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-full font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-4 py-2 rounded-full font-semibold mb-6">
             <ChefHat size={16} />
             <span>Featured Feature</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-[#2c4d31] mb-6">
             Cook Like Your
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-red-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
               Favorite Vendor
             </span>
           </h2>
@@ -77,7 +77,7 @@ const RecipesFeature = () => {
           >
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl p-3 flex-shrink-0">
+                <div className="bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-2xl p-3 flex-shrink-0">
                   <ChefHat size={24} className="text-white" />
                 </div>
                 <div>
@@ -127,7 +127,7 @@ const RecipesFeature = () => {
                   <div className="text-muted text-sm">Partner Chefs</div>
                 </div>
               </div>
-              <button className="w-full bg-gradient-to-r from-orange-500 to-red-500 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105 flex items-center justify-center gap-3">
+              <button className="w-full bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105 flex items-center justify-center gap-3">
                 Explore Recipes
                 <ArrowRight size={20} />
               </button>
@@ -158,7 +158,7 @@ const RecipesFeature = () => {
                 className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-xl flex items-center justify-center">
                     <ChefHat size={20} className="text-white" />
                   </div>
                   <div>
@@ -224,7 +224,7 @@ const RecipesFeature = () => {
                 </div>
 
                 {/* Icon */}
-                <div className="bg-gradient-to-br from-orange-400 to-red-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-2xl p-6 w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                   {step.icon}
                 </div>
 

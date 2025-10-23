@@ -17,7 +17,7 @@ const AboutHero = () => {
             <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-yellow-400/20 rounded-full blur-lg animate-bounce delay-500"></div>
 
             {/* Slanted background overlay */}
-            <div className="hidden md:block absolute top-0 right-0 bottom-0 w-1/2 bg-white/10 -skew-x-12 origin-top-right backdrop-blur-sm" aria-hidden="true"></div>
+            <div className="hidden md:block absolute top-0 right-0 bottom-0 w-1/2 bg-white/60 -skew-x-12 origin-top-right backdrop-blur-sm" aria-hidden="true"></div>
 
             <div className="relative container mx-auto px-6 pt-32 md:pt-40 pb-32 md:pb-48">
                 <div className="md:grid md:grid-cols-2 md:gap-8 items-center">
@@ -40,8 +40,8 @@ const AboutHero = () => {
                         </motion.div>
 
                         <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
-                            Delivering <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">Freshness</span>.<br />
-                            Connecting <span className="bg-gradient-to-r from-blue-300 to-purple-300 bg-clip-text text-transparent">Communities</span>.
+                            Delivering <span className="bg-[#f1be21] bg-clip-text text-transparent">Freshness</span>.<br />
+                            Connecting <span className="bg-[#f1be21] bg-clip-text text-transparent">Communities</span>.
                         </h1>
 
                         <motion.p

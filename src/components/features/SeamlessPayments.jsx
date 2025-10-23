@@ -44,7 +44,7 @@ const SeamlessPayments = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9]">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -53,14 +53,14 @@ const SeamlessPayments = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-blue-500 text-white px-4 py-2 rounded-full font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-4 py-2 rounded-full font-semibold mb-6">
             <Shield size={16} />
             <span>Secure & Simple</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-[#2c4d31] mb-6">
             Multiple Payment
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
               Options
             </span>
           </h2>
@@ -100,12 +100,12 @@ const SeamlessPayments = () => {
             </div>
 
             {/* Security Features */}
-            <div className="bg-gradient-to-br from-green-50 to-blue-50 rounded-3xl p-8 border border-green-100">
+            <div className="bg-gradient-to-br from-[#fff5ea]/80 to-[#fcf7de]/80 rounded-3xl p-8 border border-[#2c4d31]/20">
               <h3 className="text-2xl font-bold text-dark mb-6">Security & Trust</h3>
               <div className="space-y-6">
                 {securityFeatures.map((feature, index) => (
                   <div key={index} className="flex items-start gap-4">
-                    <div className="bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl p-3 flex-shrink-0">
+                    <div className="bg-gradient-to-r from-[#2c4d31] to-[#36b44a] rounded-2xl p-3 flex-shrink-0">
                       {feature.icon}
                     </div>
                     <div>
@@ -213,7 +213,7 @@ const SeamlessPayments = () => {
                   </div>
 
                   {/* Pay Button */}
-                  <button className="w-full bg-gradient-to-r from-green-500 to-blue-500 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105">
+                  <button className="w-full bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105">
                     Pay Securely
                   </button>
                 </div>
@@ -225,7 +225,7 @@ const SeamlessPayments = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
                 viewport={{ once: true }}
-                className="absolute -top-4 -right-4 bg-green-500 text-white rounded-2xl p-4 shadow-xl"
+                className="absolute -top-4 -right-4 bg-[#2c4d31] text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
                   <Shield size={24} className="mx-auto mb-1" />

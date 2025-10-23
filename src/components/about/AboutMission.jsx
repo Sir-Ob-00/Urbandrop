@@ -91,7 +91,7 @@ const AboutMission = () => {
                         </span>
                     </motion.div>
 
-                    <h2 className="text-4xl md:text-5xl font-black text-[#183A37] mb-6 leading-tight">
+                    <h2 className="text-4xl md:text-5xl font-black text-[#183A37] my-6 leading-tight">
                         Our <span className="bg-gradient-to-r from-[#5CB35E] via-[#4a954d] to-[#3d7c40] bg-clip-text text-transparent">Mission</span>
                     </h2>
                     <p className="text-xl text-gray-600 leading-relaxed">

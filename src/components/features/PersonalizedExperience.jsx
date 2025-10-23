@@ -44,12 +44,12 @@ const PersonalizedExperience = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-pink-50 via-white to-purple-50 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-pink-200 rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-purple-200 rounded-full"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-blue-200 rounded-full"></div>
+        <div className="absolute top-20 left-20 w-64 h-64 bg-[#2c4d31]/20 rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-48 h-48 bg-[#36b44a]/20 rounded-full"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#f1be21]/20 rounded-full"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
@@ -60,14 +60,14 @@ const PersonalizedExperience = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-4 py-2 rounded-full font-semibold mb-6">
             <Sparkles size={16} />
             <span>Personal Touch</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-[#2c4d31] mb-6">
             Tailored Just for
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
               You
             </span>
           </h2>
@@ -106,9 +106,9 @@ const PersonalizedExperience = () => {
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-8 border border-purple-100">
+            <div className="bg-gradient-to-br from-[#fff5ea]/80 to-[#fcf7de]/80 rounded-3xl p-8 border border-[#2c4d31]/20">
               <div className="flex items-center gap-4 mb-6">
-                <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-4">
+                <div className="bg-gradient-to-r from-[#2c4d31] to-[#36b44a] rounded-2xl p-4">
                   <Brain size={32} className="text-white" />
                 </div>
                 <div>
@@ -158,7 +158,7 @@ const PersonalizedExperience = () => {
                 className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-xl flex items-center justify-center">
                     <Heart size={20} className="text-white" />
                   </div>
                   <div>
@@ -166,7 +166,7 @@ const PersonalizedExperience = () => {
                     <div className="text-muted text-xs">Based on your preferences</div>
                   </div>
                 </div>
-                <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-3">
+                <div className="bg-gradient-to-r from-[#fff5ea] to-[#fcf7de] rounded-lg p-3">
                   <div className="font-medium text-dark text-sm">Spicy Thai Curry</div>
                   <div className="text-muted text-xs">Your favorite spice level • 4.9★</div>
                 </div>
@@ -189,7 +189,7 @@ const PersonalizedExperience = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
                 viewport={{ once: true }}
-                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-2xl p-4 shadow-xl max-w-xs"
+                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="text-center">
                   <div className="text-2xl mb-2">
@@ -217,7 +217,7 @@ const PersonalizedExperience = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Bot size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">You Order</h4>
@@ -228,7 +228,7 @@ const PersonalizedExperience = () => {
             </div>
 
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-pink-500 to-red-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#36b44a] to-[#f1be21] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Brain size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">AI Learns</h4>
@@ -239,7 +239,7 @@ const PersonalizedExperience = () => {
             </div>
 
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#f1be21] to-[#2c4d31] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Target size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">Gets Personal</h4>
@@ -250,7 +250,7 @@ const PersonalizedExperience = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-green-500 to-teal-500 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#36b44a] to-[#2c4d31] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Star size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">Perfect Match</h4>

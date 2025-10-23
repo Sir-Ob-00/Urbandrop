@@ -50,12 +50,12 @@ const MerchantTools = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-blue-50 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-blue-200 rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-green-200 rounded-full"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-purple-200 rounded-full"></div>
+        <div className="absolute top-20 left-20 w-64 h-64 bg-[#2c4d31]/20 rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-48 h-48 bg-[#36b44a]/20 rounded-full"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-[#f1be21]/20 rounded-full"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
@@ -66,14 +66,14 @@ const MerchantTools = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-full font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-4 py-2 rounded-full font-semibold mb-6">
             <Store size={16} />
             <span>Merchant Power</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-[#2c4d31] mb-6">
             Empowering Local
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
               Merchants
             </span>
           </h2>
@@ -119,7 +119,7 @@ const MerchantTools = () => {
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 border border-blue-100">
+            <div className="bg-gradient-to-br from-[#fff5ea]/80 to-[#fcf7de]/80 rounded-3xl p-8 border border-[#2c4d31]/20">
               <div className="grid grid-cols-2 gap-6 mb-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-primary mb-1">24/7</div>
@@ -130,7 +130,7 @@ const MerchantTools = () => {
                   <div className="text-muted text-sm">Setup Time</div>
                 </div>
               </div>
-              <button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105">
+              <button className="w-full bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105">
                 Start Your Merchant Journey
               </button>
             </div>
@@ -160,7 +160,7 @@ const MerchantTools = () => {
                 className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-xl flex items-center justify-center">
                     <BarChart3 size={20} className="text-white" />
                   </div>
                   <div>
@@ -182,7 +182,7 @@ const MerchantTools = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 1 }}
                 viewport={{ once: true }}
-                className="absolute top-1/4 -right-4 bg-primary text-white rounded-2xl p-4 shadow-xl max-w-xs"
+                className="absolute top-1/4 -right-4 bg-[#2c4d31] text-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="text-center">
                   <div className="text-2xl mb-2">
@@ -199,7 +199,7 @@ const MerchantTools = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
                 viewport={{ once: true }}
-                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-2xl p-4 shadow-xl"
+                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
                   <div className="text-2xl font-bold">
@@ -255,7 +255,7 @@ const MerchantTools = () => {
           viewport={{ once: true }}
           className="text-center mt-16"
         >
-          <div className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-3xl p-8 md:p-12 text-white">
+          <div className="bg-gradient-to-r from-[#2c4d31] via-[#36b44a] to-[#f1be21] rounded-3xl p-8 md:p-12 text-white">
             <h3 className="text-3xl md:text-4xl font-bold mb-4">
               Ready to Grow Your Business?
             </h3>
@@ -264,7 +264,7 @@ const MerchantTools = () => {
               Setup takes less than 15 minutes.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-primary px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition-all">
+              <button className="bg-white text-[#2c4d31] px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition-all">
                 Start Free Trial
               </button>
               <button className="border-2 border-white text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/10 transition-all">

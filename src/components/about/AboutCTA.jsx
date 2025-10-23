@@ -62,7 +62,7 @@ const AboutCTA = () => {
                     </motion.div>
 
                     <h2 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight">
-                        Join the <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">Urbandrop</span> Community
+                        Join the <span className="bg-[#f1be21] bg-clip-text text-transparent">Urbandrop</span> Community
                     </h2>
 
                     <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -89,7 +89,7 @@ const AboutCTA = () => {
                         <motion.button
                             whileHover={{ scale: 1.05, boxShadow: "0 20px 40px -12px rgba(0, 0, 0, 0.3)" }}
                             whileTap={{ scale: 0.95 }}
-                            className="group bg-[#183A37] text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-[#2a4a47] transition-all duration-300 shadow-xl flex items-center justify-center gap-3"
+                            className="group bg-[#f1be21] text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-[#ddae1f] transition-all duration-300 shadow-xl flex items-center justify-center gap-3"
                         >
                             <UserPlus className="w-5 h-5" />
                             Become a Merchant

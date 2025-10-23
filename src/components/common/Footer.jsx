@@ -15,7 +15,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-br from-[#146d15] to-[#173a36] text-white pt-16 pb-8 px-6">
+    <footer className="bg-[#2c4d31] text-white pt-16 pb-8 px-6">
       {/* Mobile Top Bar - Hidden on Desktop */}
       <div className="md:hidden border-b border-white/20 pb-6 mb-8">
         <div className="flex items-center justify-between">

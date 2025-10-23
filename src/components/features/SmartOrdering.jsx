@@ -36,7 +36,7 @@ const SmartOrdering = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9]">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -45,14 +45,14 @@ const SmartOrdering = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-green-500 text-white px-4 py-2 rounded-full font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-4 py-2 rounded-full font-semibold mb-6">
             <Zap size={16} />
             <span>Smart Technology</span>
           </div>
-          <h2 className="text-4xl md:text-6xl font-bold text-dark mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold text-[#2c4d31] mb-6">
             Your Favorite Meals,
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2c4d31] to-[#36b44a]">
               Delivered Effortlessly
             </span>
           </h2>
@@ -93,9 +93,9 @@ const SmartOrdering = () => {
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-3xl p-8 border border-blue-100">
+            <div className="bg-gradient-to-br from-[#fff5ea]/80 to-[#fcf7de]/80 rounded-3xl p-8 border border-[#2c4d31]/20">
               <div className="flex items-center gap-4 mb-6">
-                <div className="bg-gradient-to-r from-blue-500 to-green-500 rounded-2xl p-4">
+                <div className="bg-gradient-to-r from-[#2c4d31] to-[#36b44a] rounded-2xl p-4">
                   <Truck size={32} className="text-white" />
                 </div>
                 <div>
@@ -145,7 +145,7 @@ const SmartOrdering = () => {
                 className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
               >
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-green-500 rounded-xl flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-xl flex items-center justify-center">
                     <Truck size={20} className="text-white" />
                   </div>
                   <div>
@@ -164,7 +164,7 @@ const SmartOrdering = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 1 }}
                 viewport={{ once: true }}
-                className="absolute top-1/4 -right-4 bg-primary text-white rounded-2xl p-3 shadow-xl"
+                className="absolute top-1/4 -right-4 bg-[#2c4d31] text-white rounded-2xl p-3 shadow-xl"
               >
                 <MapPin size={24} />
               </motion.div>
@@ -175,7 +175,7 @@ const SmartOrdering = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 1.2 }}
                 viewport={{ once: true }}
-                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-blue-500 to-green-500 text-white rounded-2xl p-4 shadow-xl"
+                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white rounded-2xl p-4 shadow-xl"
               >
                 <div className="text-center">
                   <div className="text-2xl font-bold">
@@ -203,7 +203,7 @@ const SmartOrdering = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Smartphone size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">1. Smart Selection</h4>
@@ -214,7 +214,7 @@ const SmartOrdering = () => {
             </div>
 
             <div className="text-center relative">
-              <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#36b44a] to-[#2c4d31] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Truck size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">2. Live Tracking</h4>
@@ -225,7 +225,7 @@ const SmartOrdering = () => {
             </div>
 
             <div className="text-center">
-              <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-[#f1be21] to-[#2c4d31] rounded-2xl p-6 w-20 h-20 mx-auto mb-6 flex items-center justify-center">
                 <Target size={32} className="text-white" />
               </div>
               <h4 className="text-xl font-bold text-dark mb-3">3. Perfect Timing</h4>

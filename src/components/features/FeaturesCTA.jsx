@@ -4,13 +4,13 @@ import { Download, Store, ArrowRight, Sparkles, Star, Users } from 'lucide-react
 
 const FeaturesCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-br from-[#2c4d31] via-[#36b44a] to-[#2c4d31] relative overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/20 via-transparent to-primary/10"></div>
-        <div className="absolute top-20 left-20 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[#36b44a]/20 via-transparent to-[#2c4d31]/10"></div>
+        <div className="absolute top-20 left-20 w-72 h-72 bg-[#36b44a]/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#f1be21]/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#2c4d31]/10 rounded-full blur-3xl animate-pulse delay-500"></div>
       </div>
 
       {/* Floating Elements */}
@@ -18,7 +18,7 @@ const FeaturesCTA = () => {
         {[...Array(25)].map((_, i) => (
           <motion.div
             key={i}
-            className="absolute w-2 h-2 bg-primary/40 rounded-full"
+            className="absolute w-2 h-2 bg-[#36b44a]/40 rounded-full"
             animate={{
               x: [0, Math.random() * 400 - 200],
               y: [0, Math.random() * 400 - 200],
@@ -54,7 +54,7 @@ const FeaturesCTA = () => {
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Experience the Simplicity
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#36b44a] to-[#f1be21]">
               of Urbandrop
             </span>
           </h2>
@@ -69,7 +69,7 @@ const FeaturesCTA = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-primary to-blue-500 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:shadow-2xl hover:shadow-primary/25 transition-all flex items-center justify-center gap-3"
+              className="bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white px-10 py-5 rounded-2xl font-bold text-xl hover:shadow-2xl hover:shadow-[#36b44a]/25 transition-all flex items-center justify-center gap-3"
             >
               <Download size={24} />
               Download the App
@@ -168,7 +168,7 @@ const FeaturesCTA = () => {
             <p className="text-white/80 mb-6">
               Still exploring? That's okay — the best discoveries happen when you're ready.
             </p>
-            <button className="bg-dark text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-800 transition-all transform hover:scale-105 shadow-xl flex items-center gap-3 mx-auto">
+            <button className="bg-[#2c4d31] text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-[#36b44a] transition-all transform hover:scale-105 shadow-xl flex items-center gap-3 mx-auto">
               Start Your Journey
               <ArrowRight size={20} />
             </button>

@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from 'framer-motion';
 import storyImage from '../../assets/images/slider-urbandrop.png';
 
@@ -84,7 +83,7 @@ const AboutStory = () => {
                             </span>
                         </motion.div>
 
-                        <h2 className="text-4xl md:text-5xl font-black text-[#183A37] mb-4 leading-tight">
+                        <h2 className="text-4xl md:text-5xl font-black text-[#183A37] my-4 leading-tight">
                             Our <span className="bg-gradient-to-r from-[#5CB35E] via-[#4a954d] to-[#3d7c40] bg-clip-text text-transparent">Story</span>
                         </h2>
 
@@ -95,11 +94,11 @@ const AboutStory = () => {
                             transition={{ duration: 0.6, delay: 0.3 }}
                             className="space-y-4"
                         >
-                            <p className="text-lg text-gray-700 leading-relaxed">
+                            <p className="text-lg text-gray-700 leading-relaxed mt-4">
                                 "Urbandrop began as a small idea — connecting corner shops with nearby customers. Today, it's a growing network of local commerce powered by innovation and care. Our journey has been one of constant learning and adaptation, always with our community of merchants and customers at heart."
                             </p>
 
-                            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg border border-gray-100">
+                            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg border border-gray-100 my-6">
                                 <div className="flex items-center gap-3 mb-3">
                                     <div className="w-10 h-10 bg-gradient-to-br from-[#5CB35E] to-[#4a954d] rounded-full flex items-center justify-center">
                                         <span className="text-white font-bold text-sm">U</span>
@@ -115,7 +114,7 @@ const AboutStory = () => {
                             </div>
 
                             {/* Timeline */}
-                            <div className="space-y-3">
+                            <div className="space-y-3 mt-4">
                                 {[
                                     { year: "2023", event: "Founded with 50 local merchants" },
                                     { year: "2024", event: "Expanded to 10 cities, 500+ merchants" },
