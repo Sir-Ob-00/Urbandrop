@@ -6,29 +6,28 @@ const plans = [
   {
     name: 'Starter',
     icon: <Star size={32} className="text-white" />,
-    price: 'GHS 200',
-    duration: 'per week',
+    weeklyPrice: 'GHS 200',
+    monthlyPrice: 'GHS 800',
     description: 'Perfect for small businesses testing advertising',
-    gradient: 'from-blue-500 to-blue-600',
+    gradient: 'from-[#2c4d31] to-[#36b44a]',
     features: [
-      '1 week banner placement',
+      'Banner placement',
       'Basic targeting options',
       'Performance reports',
       'Email support',
       'Standard placement',
     ],
     popular: false,
-    savings: null,
   },
   {
     name: 'Growth',
     icon: <Zap size={32} className="text-white" />,
-    price: 'GHS 600',
-    duration: 'per month',
+    weeklyPrice: 'GHS 500',
+    monthlyPrice: 'GHS 1,800',
     description: 'Ideal for growing brands expanding reach',
-    gradient: 'from-green-500 to-green-600',
+    gradient: 'from-[#f1be21] to-[#2c4d31]',
     features: [
-      '1 month banner + featured listings',
+      'Banner + featured listings',
       'Advanced targeting',
       'Real-time analytics',
       'Priority support',
@@ -36,17 +35,16 @@ const plans = [
       'A/B testing',
     ],
     popular: true,
-    savings: 'Save 15%',
   },
   {
     name: 'Premium',
     icon: <Crown size={32} className="text-white" />,
-    price: 'GHS 1,500',
-    duration: 'per 3 months',
+    weeklyPrice: 'GHS 1,200',
+    monthlyPrice: 'GHS 4,200',
     description: 'Complete solution for serious advertisers',
-    gradient: 'from-purple-500 to-purple-600',
+    gradient: 'from-[#36b44a] to-[#f1be21]',
     features: [
-      '3 months multiple placements',
+      'Multiple placements',
       'Custom campaign strategy',
       'Dedicated account manager',
       'Advanced analytics dashboard',
@@ -56,20 +54,27 @@ const plans = [
       'ROI optimization',
     ],
     popular: false,
-    savings: 'Save 25%',
   },
 ];
 
 const PricingPlans = () => {
   const [billingCycle, setBillingCycle] = useState('monthly');
 
+  const getCurrentPrice = (plan) => {
+    return billingCycle === 'weekly' ? plan.weeklyPrice : plan.monthlyPrice;
+  };
+
+  const getCurrentDuration = () => {
+    return billingCycle === 'weekly' ? 'per week' : 'per month';
+  };
+
   return (
-    <section className="py-20 bg-gradient-to-br from-background via-white to-background relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-primary rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-primary rounded-full"></div>
-      </div>
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
+      {/* Grocery Pattern Background */}
+      <div className="absolute inset-0 opacity-5" style={{
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232c4d31' fill-opacity='0.1'%3E%3Ccircle cx='7' cy='7' r='2'/%3E%3Ccircle cx='27' cy='7' r='2'/%3E%3Ccircle cx='47' cy='7' r='2'/%3E%3Ccircle cx='7' cy='27' r='2'/%3E%3Ccircle cx='27' cy='27' r='2'/%3E%3Ccircle cx='47' cy='27' r='2'/%3E%3Ccircle cx='7' cy='47' r='2'/%3E%3Ccircle cx='27' cy='47' r='2'/%3E%3Ccircle cx='47' cy='47' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        backgroundSize: '60px 60px'
+      }}></div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <motion.div
@@ -79,8 +84,8 @@ const PricingPlans = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            Pricing & <span className="text-primary">Plans</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2c4d31] mb-6">
+            Pricing & <span className="text-[#2c4d31]">Plans</span>
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto">
             Choose the perfect advertising package for your business goals and budget
@@ -88,18 +93,18 @@ const PricingPlans = () => {
 
           {/* Billing Toggle */}
           <div className="flex items-center justify-center gap-4 mt-8">
-            <span className={`text-sm ${billingCycle === 'weekly' ? 'text-primary font-semibold' : 'text-muted'}`}>
+            <span className={`text-sm ${billingCycle === 'weekly' ? 'text-[#2c4d31] font-semibold' : 'text-[#2c4d31]/70'}`}>
               Weekly
             </span>
             <button
               onClick={() => setBillingCycle(billingCycle === 'monthly' ? 'weekly' : 'monthly')}
-              className="relative w-14 h-7 bg-gray-200 rounded-full transition-colors"
+              className="relative w-14 h-7 bg-[#2c4d31]/20 rounded-full transition-colors"
             >
-              <div className={`absolute top-1 w-5 h-5 bg-white rounded-full shadow-md transition-transform ${
+              <div className={`absolute top-1 w-5 h-5 bg-[#2c4d31] rounded-full shadow-md transition-transform ${
                 billingCycle === 'monthly' ? 'translate-x-8' : 'translate-x-1'
               }`} />
             </button>
-            <span className={`text-sm ${billingCycle === 'monthly' ? 'text-primary font-semibold' : 'text-muted'}`}>
+            <span className={`text-sm ${billingCycle === 'monthly' ? 'text-[#2c4d31] font-semibold' : 'text-[#2c4d31]/70'}`}>
               Monthly
             </span>
           </div>
@@ -114,22 +119,9 @@ const PricingPlans = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
               className={`relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 ${
-                plan.popular ? 'ring-2 ring-primary scale-105' : ''
+                plan.popular ? 'ring-2 ring-[#2c4d31] scale-105' : ''
               }`}
             >
-              {/* Popular Badge */}
-              {plan.popular && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
-                  Most Popular
-                </div>
-              )}
-
-              {/* Savings Badge */}
-              {plan.savings && (
-                <div className="absolute -top-4 -right-4 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
-                  {plan.savings}
-                </div>
-              )}
 
               {/* Header */}
               <div className={`bg-gradient-to-br ${plan.gradient} rounded-t-3xl p-8 text-white text-center relative overflow-hidden`}>
@@ -144,8 +136,8 @@ const PricingPlans = () => {
                     {plan.icon}
                   </div>
                   <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                  <div className="text-4xl font-black mb-1">{plan.price}</div>
-                  <div className="text-white/80">{plan.duration}</div>
+                  <div className="text-4xl font-black mb-1">{getCurrentPrice(plan)}</div>
+                  <div className="text-white/80">{getCurrentDuration()}</div>
                   <p className="text-white/90 text-sm mt-4">{plan.description}</p>
                 </div>
               </div>
@@ -181,7 +173,7 @@ const PricingPlans = () => {
           viewport={{ once: true }}
           className="mt-16 text-center"
         >
-          <div className="bg-gradient-to-r from-primary via-primaryLight to-primary rounded-3xl p-8 md:p-12 shadow-2xl">
+          <div className="bg-gradient-to-r from-[#2c4d31] via-[#36b44a] to-[#f1be21] rounded-3xl p-8 md:p-12 shadow-2xl">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Need a Custom Solution?
             </h3>
@@ -190,10 +182,10 @@ const PricingPlans = () => {
               tailored to your specific business needs and goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
+              <button className="bg-white text-[#2c4d31] px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
                 Get Custom Quote
               </button>
-              <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all">
+              <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#2c4d31] transition-all">
                 Schedule Consultation
               </button>
             </div>

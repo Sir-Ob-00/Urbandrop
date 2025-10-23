@@ -6,7 +6,7 @@ const stories = [
   {
     id: 1,
     brand: 'FreshHarvest Foods',
-    logo: '🥕',
+    logo: '',
     industry: 'Organic Produce',
     testimonial: 'Our brand visibility doubled in just two weeks of advertising on Urbandrop. The targeted reach to health-conscious shoppers resulted in a 300% increase in our online orders.',
     results: {
@@ -20,7 +20,7 @@ const stories = [
   {
     id: 2,
     brand: 'Golden Grain Bakery',
-    logo: '🍞',
+    logo: '',
     industry: 'Artisan Bakery',
     testimonial: 'Urbandrop\'s category sponsorship gave us unprecedented access to bakery shoppers. We saw immediate results with our featured listings driving consistent sales growth.',
     results: {
@@ -34,7 +34,7 @@ const stories = [
   {
     id: 3,
     brand: 'SpiceRoute Trading',
-    logo: '🌶️',
+    logo: '',
     industry: 'Ethnic Spices',
     testimonial: 'The app banner campaigns reached exactly our target audience. Our international spice blends now have a 40% market share increase in the regions we advertised.',
     results: {
@@ -48,7 +48,7 @@ const stories = [
   {
     id: 4,
     brand: 'FreshCatch Seafood',
-    logo: '🐟',
+    logo: '',
     industry: 'Sustainable Seafood',
     testimonial: 'Urbandrop\'s performance tracking allowed us to optimize our campaigns in real-time. The data-driven approach resulted in exceptional ROI and customer acquisition.',
     results: {
@@ -59,15 +59,6 @@ const stories = [
     ceo: 'David Thompson',
     image: '/images/market-woman-1.jpg',
   },
-];
-
-const partners = [
-  { name: 'Coca-Cola', logo: '🥤' },
-  { name: 'Nestlé', logo: '🍫' },
-  { name: 'Unilever', logo: '🧴' },
-  { name: 'P&G', logo: '🧻' },
-  { name: 'Heinz', logo: '🍅' },
-  { name: 'Kellogg\'s', logo: '🥣' },
 ];
 
 const SuccessStories = () => {
@@ -109,8 +100,8 @@ const SuccessStories = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            Success <span className="text-primary">Stories</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2c4d31] mb-6">
+            Success <span className="text-[#2c4d31]">Stories</span>
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto">
             See how leading brands have transformed their business with Urbandrop advertising
@@ -126,18 +117,18 @@ const SuccessStories = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
-              className="bg-gradient-to-br from-background to-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden"
+              className="bg-gradient-to-br from-[#fff5ea]/50 to-white rounded-3xl p-8 md:p-12 shadow-2xl relative overflow-hidden"
             >
               {/* Background Pattern */}
-              <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16"></div>
-              <div className="absolute bottom-0 left-0 w-24 h-24 bg-primary/5 rounded-full translate-y-12 -translate-x-12"></div>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-[#2c4d31]/5 rounded-full -translate-y-16 translate-x-16"></div>
+              <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#2c4d31]/5 rounded-full translate-y-12 -translate-x-12"></div>
 
               <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 {/* Left Content */}
                 <div>
                   {/* Brand Info */}
                   <div className="flex items-center gap-4 mb-6">
-                    <div className="text-4xl">{currentStory.logo}</div>
+                    <div className="text-4xl font-bold text-[#2c4d31]">{currentStory.brand.charAt(0)}</div>
                     <div>
                       <h3 className="text-2xl font-bold text-dark">{currentStory.brand}</h3>
                       <p className="text-muted">{currentStory.industry}</p>
@@ -165,15 +156,15 @@ const SuccessStories = () => {
                   {/* Results */}
                   <div className="grid grid-cols-3 gap-4">
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">{currentStory.results.visibility}</div>
+                      <div className="text-2xl font-bold text-[#2c4d31]">{currentStory.results.visibility}</div>
                       <div className="text-sm text-muted">Visibility</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">{currentStory.results.orders}</div>
+                      <div className="text-2xl font-bold text-[#2c4d31]">{currentStory.results.orders}</div>
                       <div className="text-sm text-muted">Orders</div>
                     </div>
                     <div className="text-center">
-                      <div className="text-2xl font-bold text-primary">{currentStory.results.roi}</div>
+                      <div className="text-2xl font-bold text-[#2c4d31]">{currentStory.results.roi}</div>
                       <div className="text-sm text-muted">ROI</div>
                     </div>
                   </div>
@@ -181,8 +172,8 @@ const SuccessStories = () => {
 
                 {/* Right Visual */}
                 <div className="relative">
-                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 text-center">
-                    <TrendingUp size={64} className="mx-auto text-primary mb-4" />
+                  <div className="bg-gradient-to-br from-[#2c4d31]/10 to-[#36b44a]/5 rounded-2xl p-8 text-center">
+                    <TrendingUp size={64} className="mx-auto text-[#2c4d31] mb-4" />
                     <h4 className="text-2xl font-bold text-dark mb-2">Measurable Results</h4>
                     <p className="text-muted">Real campaigns, real growth</p>
 
@@ -191,7 +182,7 @@ const SuccessStories = () => {
                       <div className="flex justify-between items-center">
                         <span className="text-muted">Visibility Increase</span>
                         <motion.span
-                          className="font-bold text-primary"
+                          className="font-bold text-[#2c4d31]"
                           initial={{ opacity: 0 }}
                           animate={{ opacity: 1 }}
                           transition={{ delay: 0.5 }}
@@ -201,7 +192,7 @@ const SuccessStories = () => {
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2">
                         <motion.div
-                          className="bg-primary h-2 rounded-full"
+                          className="bg-[#2c4d31] h-2 rounded-full"
                           initial={{ width: 0 }}
                           animate={{ width: '80%' }}
                           transition={{ delay: 0.7, duration: 1 }}
@@ -214,68 +205,43 @@ const SuccessStories = () => {
             </motion.div>
           </AnimatePresence>
 
-          {/* Navigation */}
-          <button
-            onClick={goToPrevious}
-            className="absolute left-4 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-primary hover:text-white transition-all duration-300 z-20"
-            aria-label="Previous story"
-          >
-            <ArrowLeft size={24} />
-          </button>
+          {/* Dots and Navigation */}
+          <div className="flex justify-center items-center mt-8 gap-4">
+            <button
+              onClick={goToPrevious}
+              className="bg-white shadow-lg rounded-full p-3 hover:bg-[#2c4d31] hover:text-white transition-all duration-300 z-20"
+              aria-label="Previous story"
+            >
+              <ArrowLeft size={20} />
+            </button>
 
-          <button
-            onClick={goToNext}
-            className="absolute right-4 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-3 hover:bg-primary hover:text-white transition-all duration-300 z-20"
-            aria-label="Next story"
-          >
-            <ArrowRight size={24} />
-          </button>
+            <div className="flex gap-2">
+              {stories.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    setIsAutoPlaying(false);
+                    setCurrentIndex(index);
+                  }}
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                    index === currentIndex
+                      ? 'bg-[#2c4d31] scale-125'
+                      : 'bg-gray-300 hover:bg-[#2c4d31]/50'
+                  }`}
+                  aria-label={`Go to story ${index + 1}`}
+                />
+              ))}
+            </div>
 
-          {/* Dots */}
-          <div className="flex justify-center mt-8 gap-2">
-            {stories.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setIsAutoPlaying(false);
-                  setCurrentIndex(index);
-                }}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentIndex
-                    ? 'bg-primary scale-125'
-                    : 'bg-gray-300 hover:bg-primary/50'
-                }`}
-                aria-label={`Go to story ${index + 1}`}
-              />
-            ))}
+            <button
+              onClick={goToNext}
+              className="bg-white shadow-lg rounded-full p-3 hover:bg-[#2c4d31] hover:text-white transition-all duration-300 z-20"
+              aria-label="Next story"
+            >
+              <ArrowRight size={20} />
+            </button>
           </div>
         </div>
-
-        {/* Partners Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="text-center"
-        >
-          <h3 className="text-2xl font-bold text-dark mb-8">Trusted by Industry Leaders</h3>
-          <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-            {partners.map((partner, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="flex items-center gap-2 text-2xl"
-              >
-                <span>{partner.logo}</span>
-                <span className="text-muted font-medium">{partner.name}</span>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );

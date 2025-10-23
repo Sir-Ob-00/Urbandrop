@@ -7,14 +7,14 @@ const benefits = [
     icon: <Users size={40} className="text-white" />,
     title: 'Massive Audience Reach',
     description: 'Connect with thousands of active food and grocery shoppers daily across our platform.',
-    gradient: 'from-blue-500 to-blue-600',
+    gradient: 'from-[#2c4d31] to-[#36b44a]',
     stats: '50K+ Daily Users',
   },
   {
     icon: <Smartphone size={40} className="text-white" />,
     title: 'App & Web Exposure',
     description: 'Your brand appears in both our mobile app and website placements for maximum visibility.',
-    gradient: 'from-purple-500 to-purple-600',
+    gradient: 'from-[#f1be21] to-[#a37c04]',
     stats: 'Dual Platform',
   },
   {
@@ -28,33 +28,33 @@ const benefits = [
     icon: <DollarSign size={40} className="text-white" />,
     title: 'Flexible Budgets',
     description: 'Choose ad packages that fit your budget and marketing goals, from starter to enterprise.',
-    gradient: 'from-orange-500 to-red-500',
+    gradient: 'from-green-500 to-green-600',
     stats: 'Custom Pricing',
   },
   {
     icon: <Zap size={40} className="text-white" />,
     title: 'High Engagement',
     description: 'Our app users actively browse, order, and engage with listings throughout their journey.',
-    gradient: 'from-pink-500 to-rose-500',
+    gradient: 'from-[#f1be21] to-[#a37c04]',
     stats: 'High Engagement',
   },
   {
     icon: <BarChart3 size={40} className="text-white" />,
     title: 'Performance Tracking',
     description: 'Access campaign insights and analytics to measure your ROI and optimize performance.',
-    gradient: 'from-indigo-500 to-purple-600',
+    gradient: 'from-[#2c4d31] to-[#36b44a]',
     stats: 'Real-time Analytics',
   },
 ];
 
 const WhyAdvertise = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-background via-white to-background relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-primary rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-primary rounded-full"></div>
-      </div>
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
+      {/* Grocery Pattern Background */}
+      <div className="absolute inset-0 opacity-5" style={{
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232c4d31' fill-opacity='0.1'%3E%3Ccircle cx='7' cy='7' r='2'/%3E%3Ccircle cx='27' cy='7' r='2'/%3E%3Ccircle cx='47' cy='7' r='2'/%3E%3Ccircle cx='7' cy='27' r='2'/%3E%3Ccircle cx='27' cy='27' r='2'/%3E%3Ccircle cx='47' cy='27' r='2'/%3E%3Ccircle cx='7' cy='47' r='2'/%3E%3Ccircle cx='27' cy='47' r='2'/%3E%3Ccircle cx='47' cy='47' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        backgroundSize: '60px 60px'
+      }}></div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <motion.div
@@ -64,8 +64,8 @@ const WhyAdvertise = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            Why Advertise on <span className="text-primary">Urbandrop</span>?
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2c4d31] mb-6">
+            Why Advertise on <span className="text-[#2c4d31]">Urbandrop</span>?
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto">
             Join leading brands leveraging our engaged audience and innovative advertising solutions
@@ -87,7 +87,7 @@ const WhyAdvertise = () => {
               <div className={`absolute inset-0 bg-gradient-to-br ${benefit.gradient} opacity-0 group-hover:opacity-5 rounded-3xl transition-opacity duration-300`}></div>
 
               {/* Floating Stats Badge */}
-              <div className="absolute top-4 right-4 bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full">
+              <div className="absolute top-4 right-4 bg-[#2c4d31]/10 text-[#2c4d31] text-xs font-bold px-3 py-1 rounded-full">
                 {benefit.stats}
               </div>
 
@@ -97,7 +97,7 @@ const WhyAdvertise = () => {
               </div>
 
               {/* Content */}
-              <h3 className="text-2xl font-bold text-dark mb-4 group-hover:text-primary transition-colors">
+              <h3 className="text-2xl font-bold text-[#2c4d31] mb-4 group-hover:text-[#2c4d31] transition-colors">
                 {benefit.title}
               </h3>
               <p className="text-muted leading-relaxed">
@@ -118,19 +118,16 @@ const WhyAdvertise = () => {
           viewport={{ once: true }}
           className="mt-20 text-center"
         >
-          <div className="bg-gradient-to-r from-primary via-primaryLight to-primary rounded-3xl p-8 md:p-12 shadow-2xl">
+          <div className="bg-gradient-to-r from-[#2c4d31] via-[#36b44a] to-[#f1be21] rounded-3xl p-8 md:p-12 shadow-2xl">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Ready to Amplify Your Brand?
             </h3>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
               Join hundreds of successful brands that have transformed their business with Urbandrop advertising.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
+            <div className="text-center justify-center">
+              <button className="bg-white text-[#2c4d31] px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
                 Start Your Campaign
-              </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all">
-                View Case Studies
               </button>
             </div>
           </div>

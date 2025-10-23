@@ -8,7 +8,7 @@ const steps = [
     title: 'Submit Your Interest',
     description: 'Fill out our advertising form or contact our marketing team to express your interest.',
     details: ['Quick online form', 'Dedicated account manager', 'Custom consultation'],
-    gradient: 'from-blue-500 to-blue-600',
+    gradient: 'from-[#2c4d31] to-[#36b44a]',
     duration: '1-2 days',
   },
   {
@@ -24,7 +24,7 @@ const steps = [
     title: 'Launch & Track',
     description: 'Your ads go live and you can monitor performance in real-time through our dashboard.',
     details: ['Instant activation', 'Live monitoring', 'Performance alerts'],
-    gradient: 'from-purple-500 to-purple-600',
+    gradient: 'from-[#f1be21] to-[#a37c04]',
     duration: 'Ongoing',
   },
   {
@@ -32,19 +32,19 @@ const steps = [
     title: 'Optimize & Scale',
     description: 'Use campaign insights to optimize performance and scale successful campaigns.',
     details: ['Detailed analytics', 'A/B testing', 'Performance reports'],
-    gradient: 'from-orange-500 to-red-500',
+    gradient: 'from-[#f1be21] to-[#2c4d31]',
     duration: 'Continuous',
   },
 ];
 
 const AdvertiseProcess = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-background via-white to-background relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-primary rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-primary rounded-full"></div>
-      </div>
+    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
+      {/* Grocery Pattern Background */}
+      <div className="absolute inset-0 opacity-5" style={{
+        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232c4d31' fill-opacity='0.1'%3E%3Ccircle cx='7' cy='7' r='2'/%3E%3Ccircle cx='27' cy='7' r='2'/%3E%3Ccircle cx='47' cy='7' r='2'/%3E%3Ccircle cx='7' cy='27' r='2'/%3E%3Ccircle cx='27' cy='27' r='2'/%3E%3Ccircle cx='47' cy='27' r='2'/%3E%3Ccircle cx='7' cy='47' r='2'/%3E%3Ccircle cx='27' cy='47' r='2'/%3E%3Ccircle cx='47' cy='47' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        backgroundSize: '60px 60px'
+      }}></div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <motion.div
@@ -54,8 +54,8 @@ const AdvertiseProcess = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            How It <span className="text-primary">Works</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2c4d31] mb-6">
+            How It <span className="text-[#2c4d31]">Works</span>
           </h2>
           <p className="text-xl text-muted max-w-3xl mx-auto">
             Getting started with Urbandrop advertising is simple. Follow our streamlined process
@@ -65,7 +65,7 @@ const AdvertiseProcess = () => {
 
         <div className="relative">
           {/* Connection Line */}
-          <div className="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 via-green-500 to-orange-500"></div>
+          <div className="hidden lg:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-[#2c4d31] via-[#36b44a] to-[#f1be21]"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
@@ -78,12 +78,12 @@ const AdvertiseProcess = () => {
                 className="relative text-center group"
               >
                 {/* Step Number */}
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white text-primary rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg shadow-lg border-2 border-primary z-10">
+                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white text-[#2c4d31] rounded-full w-12 h-12 flex items-center justify-center font-bold text-lg shadow-lg border-2 border-[#2c4d31] z-10">
                   {index + 1}
                 </div>
 
                 {/* Duration Badge */}
-                <div className="absolute -top-4 -right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+                <div className="absolute -top-4 -right-4 bg-[#2c4d31] text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
                   {step.duration}
                 </div>
 
@@ -111,8 +111,8 @@ const AdvertiseProcess = () => {
                 {/* Arrow for mobile */}
                 {index < steps.length - 1 && (
                   <div className="lg:hidden mt-8 flex justify-center">
-                    <div className="w-8 h-0.5 bg-primary"></div>
-                    <div className="w-0 h-0 border-l-4 border-l-primary border-t-2 border-t-transparent border-b-2 border-b-transparent"></div>
+                    <div className="w-8 h-0.5 bg-[#2c4d31]"></div>
+                    <div className="w-0 h-0 border-l-4 border-l-[#2c4d31] border-t-2 border-t-transparent border-b-2 border-b-transparent"></div>
                   </div>
                 )}
               </motion.div>
@@ -128,7 +128,7 @@ const AdvertiseProcess = () => {
           viewport={{ once: true }}
           className="mt-20 text-center"
         >
-          <div className="bg-gradient-to-r from-primary via-primaryLight to-primary rounded-3xl p-8 md:p-12 shadow-2xl">
+          <div className="bg-gradient-to-r from-[#2c4d31] via-[#36b44a] to-[#f1be21] rounded-3xl p-8 md:p-12 shadow-2xl">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Ready to Start Advertising?
             </h3>
@@ -137,10 +137,10 @@ const AdvertiseProcess = () => {
               Your first campaign could launch within days.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
+              <button className="bg-white text-[#2c4d31] px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
                 Request Advertising Quote
               </button>
-              <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all">
+              <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#2c4d31] transition-all">
                 Schedule Consultation
               </button>
             </div>

@@ -148,7 +148,7 @@ const AdvertiseFAQ = () => {
               Contact Advertising Team
             </button>
             <button className="border-2 border-primary text-primary px-8 py-3 rounded-full font-semibold hover:bg-primary hover:text-white transition-all">
-              Schedule Demo Call
+              Schedule A Call
             </button>
           </div>
         </motion.div>
