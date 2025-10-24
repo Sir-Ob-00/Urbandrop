@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Star, Clock, Truck } from 'lucide-react';
+import jollofKitchenImage from '../../assets/images/customer/jollof & kitchen.png';
+import ampesiCustomerImage from '../../assets/images/customer/ampesi.png';
+import doroWatImage from '../../assets/images/customer/doro wat.jpg';
+import curryGoatImage from '../../assets/images/customer/curry goat.jpg';
 
 const products = [
   {
@@ -12,7 +16,7 @@ const products = [
     rating: 4.8,
     reviews: 234,
     deliveryTime: '25-30 min',
-    image: 'src/assets/images/customer/jollof & kitchen.png',
+    image: jollofKitchenImage,
     badge: 'Popular',
     merchant: 'Mama\'s Kitchen',
   },
@@ -25,7 +29,7 @@ const products = [
     rating: 4.9,
     reviews: 189,
     deliveryTime: '20-25 min',
-    image: 'src/assets/images/customer/ampesi.png',
+    image: ampesiCustomerImage,
     badge: 'Chef\'s Choice',
     merchant: 'Golden Spoon',
   },
@@ -38,7 +42,7 @@ const products = [
     rating: 4.7,
     reviews: 156,
     deliveryTime: '30-35 min',
-    image: 'src/assets/images/customer/doro wat.jpg',
+    image: doroWatImage,
     badge: 'Spicy',
     merchant: 'Habesha Flavors',
   },
@@ -51,7 +55,7 @@ const products = [
     rating: 4.9,
     reviews: 312,
     deliveryTime: '35-40 min',
-    image: 'src/assets/images/customer/curry goat.jpg',
+    image: curryGoatImage,
     badge: 'Signature',
     merchant: 'Island Spice',
   },
