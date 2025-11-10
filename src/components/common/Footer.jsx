@@ -10,8 +10,11 @@ const Footer = () => {
   ];
 
   const importantLinks = [
-    { name: "Be a Merchant", href: "/become-merchant" },
+    { name: "About", href: "/about-us" },
+    { name: "Features", href: "/features" },
+    { name: "Customer", href: "/customer" },
     { name: "Advertise on Urbandrop", href: "/advertise" },
+    { name: "Be a Merchant", href: "/become-merchant" },
   ];
 
   return (

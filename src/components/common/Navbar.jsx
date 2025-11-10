@@ -20,10 +20,6 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about-us" },
-    { name: "Features", href: "/features" },
-    { name: "Customer", href: "/customer" },
-    { name: "Advertise", href: "/advertise" },
     { name: "Contact Us", href: "/contact-us" },
   ];
 
@@ -154,15 +150,6 @@ const Navbar = () => {
                       Get The App
                     </a>
                   </li>
-              <li>
-                <a
-                  href="/become-merchant"
-                  className="bg-primary text-white px-5 py-2 rounded-lg font-medium hover:bg-dark transition"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Join as Merchant
-                </a>
-              </li>
             </ul>
           </motion.nav>
         )}

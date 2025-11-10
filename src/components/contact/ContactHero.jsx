@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle, Phone, Mail, MapPin, Hand, Zap } from 'lucide-react';
-import deliveryGuy from '../../assets/images/deliveryguy.jpg';
+import deliveryGuy from '../../assets/images/home/deliveryguy.jpg';
 
 const ContactHero = () => {
   return (
