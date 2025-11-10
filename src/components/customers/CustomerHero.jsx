@@ -57,40 +57,6 @@ const CustomerHero = () => {
                 className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
               />
 
-              {/* Floating Cards */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                    <ChefHat size={20} className="text-white" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-dark">Fresh Daily</div>
-                    <div className="text-sm text-muted">Quality guaranteed</div>
-                  </div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-4 shadow-xl"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                    <Truck size={20} className="text-white" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-dark">Fast Delivery</div>
-                    <div className="text-sm text-muted">30min or less</div>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>

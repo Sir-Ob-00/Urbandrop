@@ -111,41 +111,6 @@ const AdvertisingOptions = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Comparison Table */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20 bg-gradient-to-r from-background to-white rounded-3xl p-8 shadow-xl"
-        >
-          <h3 className="text-3xl font-bold text-dark text-center mb-8">
-            Compare Advertising Impact
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <div className="space-y-2">
-              <Eye size={32} className="mx-auto text-primary" />
-              <div className="text-2xl font-bold text-primary">10x</div>
-              <div className="text-muted">More Impressions</div>
-            </div>
-            <div className="space-y-2">
-              <TrendingUp size={32} className="mx-auto text-primary" />
-              <div className="text-2xl font-bold text-primary">5x</div>
-              <div className="text-muted">Higher Engagement</div>
-            </div>
-            <div className="space-y-2">
-              <Tag size={32} className="mx-auto text-primary" />
-              <div className="text-2xl font-bold text-primary">3x</div>
-              <div className="text-muted">Better Conversion</div>
-            </div>
-            <div className="space-y-2">
-              <Star size={32} className="mx-auto text-primary" />
-              <div className="text-2xl font-bold text-primary">ROI</div>
-              <div className="text-muted">Measurable Results</div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

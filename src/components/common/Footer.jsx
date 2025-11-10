@@ -24,10 +24,12 @@ const Footer = () => {
             <Globe size={16} className="text-white/80" />
             <select className="bg-transparent text-white/90 focus:outline-none text-sm">
               <option>English</option>
-              <option>Bangla</option>
+              <option>Hindu</option>
               <option>French</option>
+              <option>German</option>
               <option>Spanish</option>
-              <option>Arabic</option>
+              <option>Mandarin</option>
+              <option>Dutch</option>
             </select>
           </div>
 

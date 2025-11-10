@@ -49,12 +49,6 @@ const MapSection = () => {
                   </div>
                 </div>
 
-                {/* Map Label */}
-                <div className="absolute bottom-6 left-6 bg-white rounded-2xl p-4 shadow-lg max-w-xs">
-                  <h4 className="font-bold text-dark mb-1">Urbandrop Headquarters</h4>
-                  <p className="text-muted text-sm">22 Greenway Crescent, London, UK</p>
-                </div>
-
                 {/* Map Overlay Text */}
                 <div className="absolute top-6 right-6 bg-primary text-white rounded-2xl px-4 py-2 shadow-lg">
                   <div className="text-sm font-medium">Interactive Map</div>
@@ -164,44 +158,6 @@ const MapSection = () => {
             </div>
           </motion.div>
         </div>
-
-        {/* Nearby Amenities */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 text-center"
-        >
-          <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">
-              <Coffee size={32} className="text-primary" />
-            </div>
-            <div className="font-semibold text-dark">Cafes</div>
-            <div className="text-muted text-sm">2 min walk</div>
-          </div>
-          <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">
-              <ShoppingBag size={32} className="text-primary" />
-            </div>
-            <div className="font-semibold text-dark">Shops</div>
-            <div className="text-muted text-sm">5 min walk</div>
-          </div>
-          <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">
-              <Building size={32} className="text-primary" />
-            </div>
-            <div className="font-semibold text-dark">Banks</div>
-            <div className="text-muted text-sm">3 min walk</div>
-          </div>
-          <div className="bg-white rounded-2xl p-6 shadow-lg">
-            <div className="text-3xl mb-3">
-              <Utensils size={32} className="text-primary" />
-            </div>
-            <div className="font-semibold text-dark">Restaurants</div>
-            <div className="text-muted text-sm">1 min walk</div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

@@ -118,14 +118,6 @@ const AdvertiseCTA = () => {
               Start Advertising Today
               <ArrowRight size={24} />
             </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="border-2 border-white/30 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:bg-white/10 hover:border-white/50 transition-all flex items-center justify-center gap-3 backdrop-blur-sm"
-            >
-              <Phone size={24} />
-              Talk to Sales
-            </motion.button>
           </motion.div>
 
           {/* Contact Options */}

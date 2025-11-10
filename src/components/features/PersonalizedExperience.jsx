@@ -104,33 +104,6 @@ const PersonalizedExperience = () => {
                 </motion.div>
               ))}
             </div>
-
-            <div className="bg-gradient-to-br from-[#fff5ea]/80 to-[#fcf7de]/80 rounded-3xl p-8 border border-[#2c4d31]/20">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="bg-gradient-to-r from-[#2c4d31] to-[#36b44a] rounded-2xl p-4">
-                  <Brain size={32} className="text-white" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-dark mb-1">Smart Personalization</h3>
-                  <p className="text-muted">Gets smarter with every order you place</p>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-3 gap-4 text-center">
-                <div>
-                  <div className="text-2xl font-bold text-primary mb-1">85%</div>
-                  <div className="text-muted text-sm">Accuracy Rate</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-primary mb-1">2M+</div>
-                  <div className="text-muted text-sm">Recommendations</div>
-                </div>
-                <div>
-                  <div className="text-2xl font-bold text-primary mb-1">24/7</div>
-                  <div className="text-muted text-sm">Learning</div>
-                </div>
-              </div>
-            </div>
           </motion.div>
 
           {/* Right Image */}
@@ -147,46 +120,6 @@ const PersonalizedExperience = () => {
                 alt="Personalized Urbandrop experience"
                 className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
               />
-
-              {/* Floating Recommendation Card */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                viewport={{ once: true }}
-                className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
-              >
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-12 h-12 bg-gradient-to-br from-[#2c4d31] to-[#36b44a] rounded-xl flex items-center justify-center">
-                    <Heart size={20} className="text-white" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-dark text-sm">Recommended for You</div>
-                    <div className="text-muted text-xs">Based on your preferences</div>
-                  </div>
-                </div>
-                <div className="bg-gradient-to-r from-[#fff5ea] to-[#fcf7de] rounded-lg p-3">
-                  <div className="font-medium text-dark text-sm">Spicy Thai Curry</div>
-                  <div className="text-muted text-xs">Your favorite spice level • 4.9★</div>
-                </div>
-              </motion.div>
-
-              {/* Floating Notification */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1.2 }}
-                viewport={{ once: true }}
-                className="absolute bottom-1/4 -left-4 bg-gradient-to-r from-[#2c4d31] to-[#36b44a] text-white rounded-2xl p-4 shadow-xl max-w-xs"
-              >
-                <div className="text-center">
-                  <div className="text-2xl mb-2">
-                    <Sparkles size={24} className="text-white" />
-                  </div>
-                  <div className="text-sm font-medium">Special Offer!</div>
-                  <div className="text-xs opacity-90">50% off your favorites</div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>

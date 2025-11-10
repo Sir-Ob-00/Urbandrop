@@ -74,13 +74,6 @@ const AppDownloadSection = () => {
               </p>
             </div>
 
-            {/* Download Stats */}
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-              <div className="text-3xl md:text-4xl font-bold mb-2">
-                {downloads.toLocaleString()}+
-              </div>
-              <div className="text-white/80">Happy App Users</div>
-            </div>
 
             {/* Features Grid */}
             <div className="grid grid-cols-2 gap-4">
@@ -129,25 +122,6 @@ const AppDownloadSection = () => {
                 alt="Urbandrop Mobile App"
                 className="w-full max-w-md mx-auto rounded-3xl shadow-2xl"
               />
-
-              {/* Floating Notification */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                viewport={{ once: true }}
-                className="absolute -top-4 -right-4 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                    <Truck size={20} className="text-white" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-dark text-sm">Order Delivered!</div>
-                    <div className="text-muted text-xs">Your Jollof Rice is here</div>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>

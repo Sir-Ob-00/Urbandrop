@@ -164,51 +164,6 @@ const PricingPlans = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Custom Quote Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-16 text-center"
-        >
-          <div className="bg-gradient-to-r from-[#2c4d31] via-[#36b44a] to-[#f1be21] rounded-3xl p-8 md:p-12 shadow-2xl">
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Need a Custom Solution?
-            </h3>
-            <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Have unique requirements or a larger campaign? Our team creates bespoke advertising solutions
-              tailored to your specific business needs and goals.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-white text-[#2c4d31] px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl">
-                Get Custom Quote
-              </button>
-              <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#2c4d31] transition-all">
-                Schedule Consultation
-              </button>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* Money Back Guarantee */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          viewport={{ once: true }}
-          className="mt-12 text-center"
-        >
-          <div className="bg-white rounded-2xl p-6 shadow-lg inline-block">
-            <div className="flex items-center gap-3 text-muted">
-              <div className="bg-green-100 rounded-full p-2">
-                <Check size={20} className="text-green-600" />
-              </div>
-              <span className="font-medium">30-day money-back guarantee on all plans</span>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

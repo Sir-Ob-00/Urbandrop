@@ -38,9 +38,6 @@ const MerchantHero = () => {
             <button className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-darkGreen transition-all transform hover:scale-105 shadow-2xl">
               Join as a Merchant
             </button>
-            <button className="border-2 border-white text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-white hover:text-black transition-all">
-              Learn More
-            </button>
           </div>
         </motion.div>
       </div>

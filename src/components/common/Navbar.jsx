@@ -54,10 +54,12 @@ const Navbar = () => {
             <Globe size={16} className="text-[#5CB35E]" />
             <select className="bg-transparent text-[#5CB35E] focus:outline-none">
               <option>English</option>
-              <option>Bangla</option>
+              <option>Hindu</option>
               <option>French</option>
+              <option>German</option>
               <option>Spanish</option>
-              <option>Arabic</option>
+              <option>Mandarin</option>
+              <option>Dutch</option>
             </select>
           </div>
         </div>

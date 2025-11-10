@@ -1,19 +1,14 @@
 import React from "react";
-import HeroSection from "../components/home/HeroSection";
-// Highlights component removed
+import HeroSection from "../components/home/HeroSection"; // New import for the redesigned HeroSection
 import FeaturedProducts from "../components/home/FeaturedProducts";
 import CustomerReviews from "../components/home/CustomerReviews";
 import AppDownloandBanner from "../components/home/AppDownloandBanner";
-import HowItWorks from "../components/home/HowItWorks";
-import WhyChoose from "../components/home/WhyChoose";
 
 const Home = () => {
 	return (
 		<main className="bg-background text-dark font-sans">
-			<HeroSection />
-			<WhyChoose />
+			<HeroSection /> {/* Render the new HeroSection */}
 			<FeaturedProducts />
-			<HowItWorks />
 			<CustomerReviews />
 			<AppDownloandBanner />
 		</main>

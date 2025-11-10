@@ -226,49 +226,6 @@ const CustomerTestimonials = () => {
             </button>
           </div>
         </div>
-
-        {/* Stats Section */}
-        <motion.div
-          ref={statsRef}
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
-        >
-          <div>
-            <motion.div
-              className="text-3xl md:text-4xl font-bold text-primary mb-2"
-            >
-              <motion.span>{happyCustomersDisplay}</motion.span>
-            </motion.div>
-            <div className="text-muted">Happy Customers</div>
-          </div>
-          <div>
-            <motion.div
-              className="text-3xl md:text-4xl font-bold text-primary mb-2"
-            >
-              <motion.span>{averageRatingDisplay}</motion.span>
-            </motion.div>
-            <div className="text-muted">Average Rating</div>
-          </div>
-          <div>
-            <motion.div
-              className="text-3xl md:text-4xl font-bold text-primary mb-2"
-            >
-              <motion.span>{mealsDeliveredDisplay}</motion.span>
-            </motion.div>
-            <div className="text-muted">Meals Delivered</div>
-          </div>
-          <div>
-            <motion.div
-              className="text-3xl md:text-4xl font-bold text-primary mb-2"
-            >
-              <motion.span>{partnerMerchantsDisplay}</motion.span>
-            </motion.div>
-            <div className="text-muted">Partner Merchants</div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

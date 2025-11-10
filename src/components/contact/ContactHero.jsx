@@ -13,37 +13,6 @@ const ContactHero = () => {
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-white rounded-full"></div>
       </div>
 
-      {/* Floating Icons */}
-      <div className="absolute inset-0 overflow-hidden">
-        <motion.div
-          animate={{ y: [0, -20, 0] }}
-          transition={{ duration: 3, repeat: Infinity }}
-          className="absolute top-20 left-20 text-white/20"
-        >
-          <MessageCircle size={48} />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, 20, 0] }}
-          transition={{ duration: 4, repeat: Infinity, delay: 1 }}
-          className="absolute top-40 right-32 text-white/20"
-        >
-          <Phone size={40} />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, -15, 0] }}
-          transition={{ duration: 3.5, repeat: Infinity, delay: 2 }}
-          className="absolute bottom-40 left-32 text-white/20"
-        >
-          <Mail size={44} />
-        </motion.div>
-        <motion.div
-          animate={{ y: [0, 25, 0] }}
-          transition={{ duration: 4.5, repeat: Infinity, delay: 0.5 }}
-          className="absolute bottom-32 right-20 text-white/20"
-        >
-          <MapPin size={42} />
-        </motion.div>
-      </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -131,40 +100,6 @@ const ContactHero = () => {
                 alt="Urbandrop support team ready to help"
                 className="w-full max-w-lg mx-auto rounded-3xl shadow-2xl"
               />
-
-              {/* Floating Chat Bubble */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.8 }}
-                className="absolute -top-6 -left-6 bg-white rounded-2xl p-4 shadow-xl max-w-xs"
-              >
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                    <Hand size={20} className="text-white" />
-                  </div>
-                  <div>
-                    <div className="font-bold text-dark text-sm">Hi there!</div>
-                    <div className="text-muted text-xs">How can we help you today?</div>
-                  </div>
-                </div>
-              </motion.div>
-
-              {/* Floating Response Time */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                className="absolute -bottom-6 -right-6 bg-primary text-white rounded-2xl p-4 shadow-xl"
-              >
-                <div className="text-center">
-                  <div className="text-2xl font-bold">
-                    <Zap size={24} className="text-white" />
-                  </div>
-                  <div className="text-sm font-medium">Quick Response</div>
-                  <div className="text-xs opacity-90">Under &lt;2 hours</div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>
