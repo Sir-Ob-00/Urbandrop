@@ -11,7 +11,7 @@ const categories = [
   },
   {
     id: 2,
-    image: '/src/assets/images/home/foodies.jpg',
+    image: '/src/assets/images/home/recipe bit.jpg',
     title: 'UrbanRecipe',
     caption: ' Discover, Cook, & Share your culture'
   },

@@ -85,10 +85,10 @@ const AppDownloandBanner = ({ compact = false }) => {
 						Your <span className="text-[#5CB35E]">Groceries,</span> <br />
 						<span className="text-primary">Faster Than Ever.</span>
 					</h2>
-					<p className="mt-10 mb-16 text-gray-700 max-w-md mx-auto md:mx-0">
-						Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking right at your fingertips.
+					<p className="mt-10 mb-20 text-gray-700 max-w-md mx-auto md:mx-0">
+						Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking.
 					</p>
-					<div className="flex justify-center md:justify-start items-center gap-4 h-12 mb-10">
+					<div className="flex justify-center md:justify-start items-center gap-10 h-12 mb-16">
 						<a href="/404" className="hover:opacity-90 transition-opacity">
 							<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
 						</a>
@@ -102,12 +102,12 @@ const AppDownloandBanner = ({ compact = false }) => {
 
 				{/* Right Column: Image */}
 				<motion.div 
-					className="mt-8 md:mt-0"
+					className="mt-8 md:mt-0 self-end"
 					initial={isMobile ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 120, scale: 0.98 }}
 					animate={isMobile ? { opacity: 1, y: 0, scale: 1 } : {}}
 					whileInView={!isMobile ? { opacity: 1, y: 0, scale: 1 } : {}} viewport={{ amount: 0.3, once: true }} transition={{ duration: 0.5, ease: "easeOut" }}
 				>
-					<img src={sliderImg} alt="Urbandrop Slider" className="w-full md:w-auto max-w-full md:max-w-xl mx-auto" />
+					<img src={sliderImg} alt="Urbandrop Slider" className="w-full md:w-auto max-w-full md:max-w-2xl mx-auto block" />
 				</motion.div>
 			</div>
 		</section>

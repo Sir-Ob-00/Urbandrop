@@ -272,37 +272,37 @@ const WhyChooseUrbandrop = () => {
         </div>
 
         {/* CTA Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.8 }}
-          viewport={{ once: true }}
+        <div
           className="text-center mt-20"
         >
-          <div className="bg-gradient-to-r from-[#5CB35E] to-[#4a954d] rounded-3xl p-12 shadow-2xl relative overflow-hidden">
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute inset-0" style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M20 20c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10zm10 0c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10z'/%3E%3C/g%3E%3C/svg%3E")`,
-              }}></div>
-            </div>
+          <div className="rounded-3xl p-20 md:p-32 shadow-2xl relative overflow-hidden bg-cover bg-center"
+              style={{ backgroundImage: "url('/src/assets/images/home/foodies.jpg')" }}>
+            <div className="absolute inset-0 bg-black/60"></div>
 
             <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <motion.h3
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className="text-5xl md:text-7xl font-bold text-white mb-8"
+              >
                 Ready to Experience the Difference?
-              </h3>
-              <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-                Join thousands of customers who have discovered their new favorite flavors with Urbandrop
-              </p>
+              </motion.h3>
               <motion.button
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.4 }}
+                viewport={{ once: true }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-[#5CB35E] px-10 py-5 rounded-2xl font-bold text-lg hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl"
+                className="bg-white text-[#5CB35E] px-12 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl"
               >
                 Download Urbandrop App
               </motion.button>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
