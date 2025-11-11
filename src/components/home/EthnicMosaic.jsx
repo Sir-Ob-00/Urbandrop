@@ -169,14 +169,32 @@ const EthnicMosaic = () => {
   return (
     <section className="py-16 bg-white">
       <div className="w-full px-0">
-        <div className="text-center mb-12 px-6">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            Taste the World in One Drop
-          </h2>
-          <p className="text-xl text-gray-600">
+        <motion.div
+          className="text-center mb-12 px-6"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
+          <motion.h2
+            className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-800 mb-4"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true }}
+          >
+            Every Culture, One Marketplace
+          </motion.h2>
+          <motion.p
+            className="text-xl text-gray-600"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            viewport={{ once: true }}
+          >
             Discover ingredients from Africa, Asia, and beyond.
-          </p>
-        </div>
+          </motion.p>
+        </motion.div>
 
         <div className="grid grid-cols-5 gap-5 w-full max-w-screen-xl mx-auto px-4">
           {gridItems.map((item, index) => (

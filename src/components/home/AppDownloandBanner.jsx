@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
-import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 import sliderImg from '../../assets/images/slider-urbandrop.png';
 import appstoreImg from '../../assets/images/appstore-black.png';
 import playstoreImg from '../../assets/images/playstore-black.png';
@@ -14,11 +13,23 @@ const CountdownUnit = ({ value, label }) => (
 	</div>
 );
 
-// Calculate the launch date once and store it as a fixed value.
-// This is 70 days, 21 hours, and 15 minutes from a fixed point in time.
+// Calculate the launch date once and store it persistently
 const getLaunchDate = () => {
+    if (typeof window !== 'undefined') {
+        // Clear any existing stored date to reset the countdown
+        localStorage.removeItem('urbandrop_launch_date');
+        // Set launch date to 51 days and 19 hours from now
+        const d = new Date();
+        d.setDate(d.getDate() + 51);
+        d.setHours(d.getHours() + 19);
+        const launchTime = d.getTime();
+        localStorage.setItem('urbandrop_launch_date', launchTime.toString());
+        return launchTime;
+    }
+    // Fallback for SSR
     const d = new Date();
-    d.setDate(d.getDate() + 70);
+    d.setDate(d.getDate() + 51);
+    d.setHours(d.getHours() + 19);
     return d.getTime();
 }
 const launchDate = getLaunchDate();
@@ -70,14 +81,14 @@ const AppDownloandBanner = ({ compact = false }) => {
 					animate={isMobile ? { opacity: 1, x: 0, scale: 1 } : {}}
 					whileInView={!isMobile ? { opacity: 1, x: 0, scale: 1 } : {}} viewport={{ amount: 0.45, once: true }} transition={{ duration: 0.8, ease: "easeOut" }}
 				>
-					<h2 className="text-3xl text-black md:text-5xl font-extrabold leading-tight">
+					<h2 className="text-3xl text-black md:text-5xl lg:text-7xl font-extrabold leading-tight mt-10">
 						Your <span className="text-[#5CB35E]">Groceries,</span> <br />
 						<span className="text-primary">Faster Than Ever.</span>
 					</h2>
 					<p className="mt-10 mb-16 text-gray-700 max-w-md mx-auto md:mx-0">
 						Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking right at your fingertips.
 					</p>
-					<div className="flex justify-center md:justify-start items-center gap-4 h-12">
+					<div className="flex justify-center md:justify-start items-center gap-4 h-12 mb-10">
 						<a href="/404" className="hover:opacity-90 transition-opacity">
 							<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
 						</a>
@@ -104,7 +115,6 @@ const AppDownloandBanner = ({ compact = false }) => {
 		{/* Countdown & Launch Description Section */}
 		<section className="bg-white">
 			<div className={`max-w-7xl mx-auto px-6 ${compact ? 'py-6 md:py-8' : 'py-10 md:py-14'} text-center`}>
-				<p className="max-w-3xl mx-auto text-gray-700 mb-6">Get ready to experience the rich, diverse flavours of Ethnic cuisines delivered straight to your doorstep with Urbandrop. Stay tuned for the grand launch and embark on a culinary journey like no other!</p>
 				<div className="flex flex-wrap justify-center items-center gap-6">
 					<div className="flex gap-6 w-full max-w-md justify-between mx-auto md:mx-0">
 						<CountdownUnit value={timeLeft.days} label="Days" />

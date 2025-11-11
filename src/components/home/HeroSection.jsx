@@ -14,12 +14,7 @@ const HeroSection = () => {
       >
         <source src={heroVideo} type="video/mp4" />
       </video>
-      {/* Background Design Elements */}
-      <div className="absolute inset-0 z-1 opacity-20">
-        <div className="absolute top-1/4 left-1/4 w-48 h-48 bg-white rounded-full mix-blend-overlay animate-blob"></div>
-        <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-yellow-300 rounded-full mix-blend-overlay animation-delay-2000 animate-blob"></div>
-        <div className="absolute bottom-1/4 left-1/3 w-56 h-56 bg-blue-300 rounded-full mix-blend-overlay animation-delay-4000 animate-blob"></div>
-      </div>
+
 
       <div className="relative z-10 text-center p-4">
         <motion.h1

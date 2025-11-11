@@ -5,26 +5,26 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const categories = [
   {
     id: 1,
-    image: '/src/assets/images/home/customer-woman.jpg',
-    title: 'Customer',
-    caption: 'Shop Your Favorite Groceries'
+    image: '/src/assets/images/home/lady-urbandrop.jpg',
+    title: 'Shop it, How you say it',
+    caption: 'We speak your language'
   },
   {
     id: 2,
     image: '/src/assets/images/home/foodies.jpg',
-    title: 'Recipe',
-    caption: 'Cook with Global Flavors'
+    title: 'UrbanRecipe',
+    caption: ' Discover, Cook, & Share your culture'
   },
   {
     id: 3,
     image: '/src/assets/images/home/market-woman.jpg',
-    title: 'Merchant',
+    title: 'Sell Local. Go Global',
     caption: 'Sell and Grow Your Store'
   },
   {
     id: 4,
-    image: '/src/assets/images/home/deliver-person.jpg',
-    title: 'Rider',
+    image: '/src/assets/images/home/deliveryguy.jpg',
+    title: 'Rider: Delivering Culture',
     caption: 'Quick & Reliable Service'
   }
 ];
@@ -92,7 +92,10 @@ const FeaturedCategories = () => {
         <div
           className="relative"
           onMouseEnter={() => setIsAutoPlaying(false)}
-          onMouseLeave={() => setIsAutoPlaying(true)}
+          onMouseLeave={() => {
+            // Small delay before resuming auto-play to prevent immediate restart
+            setTimeout(() => setIsAutoPlaying(true), 500);
+          }}
         >
           {/* Slider Container */}
           <div className="relative h-96 md:h-[400px] overflow-hidden rounded-2xl">
@@ -134,13 +137,21 @@ const FeaturedCategories = () => {
                     {/* Hover Overlay for Center Image */}
                     {slide.isCenter && (
                       <motion.div
-                        className="absolute inset-0 bg-black bg-opacity-50 rounded-xl flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300"
+                        className="absolute inset-0 bg-black bg-opacity-50 rounded-xl flex flex-col justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300"
                         onHoverStart={() => setIsHovered(true)}
                         onHoverEnd={() => setIsHovered(false)}
                       >
-                        <div className="text-center text-white">
-                          <h3 className="text-2xl font-bold mb-2">{slide.caption}</h3>
+                        <div className="text-center text-white mb-6">
+                          <h3 className="text-2xl font-bold mb-4">{slide.caption}</h3>
                         </div>
+                        <motion.button
+                          className="bg-white text-[#5CB35E] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300"
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          onClick={() => window.location.href = '/get-the-app'}
+                        >
+                          Get Started
+                        </motion.button>
                       </motion.div>
                     )}
 
@@ -153,6 +164,7 @@ const FeaturedCategories = () => {
                     >
                       <h3 className="text-xl font-semibold text-gray-800">{slide.title}</h3>
                     </motion.div>
+
                   </div>
                 </motion.div>
               ))}

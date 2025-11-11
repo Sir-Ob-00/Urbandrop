@@ -67,8 +67,8 @@ const Navbar = () => {
           <img src={logo} alt="Urbandrop Logo" className={`h-8 w-auto ${isTop}`} />
         </a>
 
-        {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8">
+        {/* Desktop Nav - Centered */}
+        <nav className="hidden lg:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.href;
             const isHovered = hovered === link.name;
@@ -90,13 +90,15 @@ const Navbar = () => {
                 <span className={`relative z-10 transition-colors duration-200 ${isHovered || isActive ? 'text-white' : ''}`}>{link.name}</span>
               </a>
             )})}
-          <a
-            href="/get-the-app"
-            className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition"
-          >
-            Get The App
-          </a>
         </nav>
+
+        {/* Get The App Button */}
+        <a
+          href="/get-the-app"
+          className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition hidden lg:block"
+        >
+          Get The App
+        </a>
 
         {/* Mobile Menu Button */}
         <button
