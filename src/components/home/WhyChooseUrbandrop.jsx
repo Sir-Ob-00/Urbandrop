@@ -285,7 +285,7 @@ const WhyChooseUrbandrop = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                className="text-5xl md:text-7xl font-bold text-white mb-8"
+                className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-8"
               >
                 Ready to Experience the Difference?
               </motion.h3>

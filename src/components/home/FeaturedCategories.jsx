@@ -81,7 +81,7 @@ const FeaturedCategories = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-800 mb-4">
             Featured Categories
           </h2>
           <p className="text-xl text-gray-600">

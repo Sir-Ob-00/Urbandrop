@@ -1,116 +1,101 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Star, Smartphone, Tag, Zap, Eye, TrendingUp } from 'lucide-react';
+import React, { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-const adOptions = [
+gsap.registerPlugin(ScrollTrigger);
+
+// Import images
+import listingImg from '../../assets/images/advertising/listing-features.jpg';
+import appBannerImg from '../../assets/images/advertising/app banners.jpg';
+import inAppImg from '../../assets/images/advertising/app-in promotion.jpg';
+
+const panels = [
   {
-    icon: <Star size={32} className="text-white" />,
-    title: 'Featured Listings',
-    description: 'Highlight your products at the top of search results and category pages.',
-    features: ['Top search placement', 'Category dominance', 'Increased visibility'],
-    gradient: 'from-green-400 to-green-600',
-    mockup: 'Featured Product Card',
+    id: 'listing-products',
+    headline: 'Listing Products',
+    description: 'Get your unique products in front of thousands of eager customers actively seeking authentic ethnic groceries.',
+    imageSrc: listingImg,
+    alt: 'Ad mockup for listing products on Urbandrop',
+    bgColor: 'bg-gradient-to-br from-green-500 to-green-700',
   },
   {
-    icon: <Smartphone size={32} className="text-white" />,
-    title: 'App Banners',
-    description: 'Show your brand across Urbandrop\'s mobile screens with eye-catching visuals.',
-    features: ['Full-screen impact', 'High engagement', 'Brand storytelling'],
-    gradient: 'from-green-400 to-green-600',
-    mockup: 'App Banner Display',
+    id: 'app-banner',
+    headline: 'App Banner',
+    description: 'Reach a broad audience directly within the Urbandrop app with visually stunning and engaging banner advertisements.',
+    imageSrc: appBannerImg,
+    alt: 'Ad mockup for app banner on Urbandrop',
+    bgColor: 'bg-gradient-to-br from-yellow-500 to-yellow-700',
   },
   {
-    icon: <Tag size={32} className="text-white" />,
-    title: 'Category Sponsorships',
-    description: 'Dominate your product category and become the go-to brand for shoppers.',
-    features: ['Category exclusivity', 'Brand authority', 'Market leadership'],
-    gradient: 'from-green-400 to-green-600',
-    mockup: 'Category Hero Section',
-  },
-  {
-    icon: <Zap size={32} className="text-white" />,
-    title: 'In-App Promotions',
-    description: 'Time-limited discounts and offers featured prominently to engaged users.',
-    features: ['Urgency-driven sales', 'Flash promotions', 'Conversion boost'],
-    gradient: 'from-green-400 to-green-600',
-    mockup: 'Promotion Notification',
+    id: 'in-app-promotions',
+    headline: 'In-App Promotions',
+    description: 'Boost your sales and attract new customers with exclusive in-app promotions and featured deals directly to engaged users.',
+    imageSrc: inAppImg,
+    alt: 'Ad mockup for in-app promotions on Urbandrop',
+    bgColor: 'bg-gradient-to-br from-blue-500 to-blue-700',
   },
 ];
 
-const AdvertisingOptions = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+const AdvertisingOptions = ({ className }) => {
+  const containerRef = useRef();
+
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      // Set initial positions
+      gsap.set('.panel-1', { y: 0, opacity: 1, scale: 1 });
+      gsap.set('.panel-2', { y: '100vh', opacity: 0, scale: 0.8 });
+      gsap.set('.panel-3', { y: '200vh', opacity: 0, scale: 0.8 });
+
+      // Create timeline with ScrollTrigger
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: 'top top',
+          end: 'bottom bottom',
+          scrub: true,
+          pin: true,
+          pinSpacing: false,
+        },
+      });
+
+      // Animate panels stacking
+      tl.to('.panel-2', { y: 0, opacity: 1, scale: 1, duration: 1 })
+        .to('.panel-3', { y: 0, opacity: 1, scale: 1, duration: 1 }, 1);
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            Advertising <span className="text-primary">Options</span>
-          </h2>
-          <p className="text-xl text-muted max-w-3xl mx-auto">
-            Choose from our comprehensive range of advertising solutions designed to maximize your brand's impact
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {adOptions.map((option, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              className="group relative bg-gradient-to-br from-white to-gray-50 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100 overflow-hidden"
-              onHoverStart={() => setHoveredIndex(index)}
-              onHoverEnd={() => setHoveredIndex(null)}
+    <section ref={containerRef} className={`relative ${className}`} style={{ height: '300vh' }}>
+      <div className="sticky top-0 h-screen overflow-hidden">
+        {panels.map((panel, index) => {
+          const isReversed = index === 1; // Second panel has image on left
+          return (
+            <div
+              key={panel.id}
+              className={`panel-${index + 1} absolute inset-0 h-screen w-full flex flex-col ${isReversed ? 'md:flex-row-reverse' : 'md:flex-row'} items-center justify-between px-4 md:px-20 ${panel.bgColor}`}
             >
-              {/* Background Gradient */}
-              <div className={`absolute inset-0 bg-gradient-to-br ${option.gradient} opacity-0 group-hover:opacity-5 rounded-3xl transition-opacity duration-300`}></div>
-
-              {/* Mockup Preview */}
-              <div className="absolute top-4 right-4 opacity-20 group-hover:opacity-40 transition-opacity">
-                <div className="text-4xl">{option.mockup.split(' ')[0]}</div>
+              {/* Image */}
+              <div className={`w-full md:w-1/2 h-full flex items-center ${index === 1 ? 'mb-4' : 'mb-8'} md:mb-0`}>
+                <img
+                  src={panel.imageSrc}
+                  alt={panel.alt}
+                  className="w-full h-auto max-h-full object-contain rounded-lg shadow-lg"
+                />
               </div>
-
-              {/* Icon */}
-              <div className={`bg-gradient-to-br ${option.gradient} rounded-2xl p-4 w-fit mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                {option.icon}
+              {/* Text Content */}
+              <div className="text-white max-w-lg text-center md:text-left mb-8">
+                <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6">
+                  {panel.headline}
+                </h2>
+                <p className="text-base md:text-lg text-gray-200">
+                  {panel.description}
+                </p>
               </div>
-
-              {/* Content */}
-              <h3 className="text-2xl font-bold text-dark mb-4 group-hover:text-primary transition-colors">
-                {option.title}
-              </h3>
-              <p className="text-muted mb-6 leading-relaxed">
-                {option.description}
-              </p>
-
-              {/* Features List */}
-              <ul className="space-y-3 mb-6">
-                {option.features.map((feature, i) => (
-                  <li key={i} className="flex items-center text-sm text-muted">
-                    <div className={`w-2 h-2 rounded-full bg-gradient-to-r ${option.gradient} mr-3`}></div>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-
-              {/* CTA */}
-              <button className={`w-full bg-gradient-to-r ${option.gradient} text-white py-3 rounded-2xl font-semibold hover:shadow-lg transition-all transform hover:scale-105`}>
-                Learn More
-              </button>
-
-              {/* Hover Effect Line */}
-              <div className={`absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r ${option.gradient} group-hover:w-full transition-all duration-300 rounded-bl-3xl`}></div>
-            </motion.div>
-          ))}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

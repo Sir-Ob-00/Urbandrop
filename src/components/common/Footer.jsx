@@ -39,8 +39,8 @@ const Footer = () => {
           {/* Right: Location & Email */}
           <div className="flex flex-col items-end text-right">
             <span className="font-medium text-white/90 text-sm">Find location</span>
-            <a href="mailto:info@urbandrop.com" className="text-white/80 hover:text-white transition-colors text-xs">
-              info@urbandrop.com
+            <a href="mailto:DPO@urbandrop.io" className="text-white/80 hover:text-white transition-colors text-xs">
+              DPO@urbandrop.io
             </a>
           </div>
         </div>
@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
-          <div className="flex items-center gap-2"><Mail size={16} /> support@urbandrop.com</div>
+          <div className="flex items-center gap-2"><Mail size={16} /> DPO@urbandrop.io | support@urbandrop.io</div>
           <div className="flex items-center gap-2"><Phone size={16} /> +44 20 1234 5678</div>
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
         </div>

@@ -40,7 +40,7 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 0.5, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            the rich Ethnic
+            rich Ethnic
           </motion.span>
           <br />
           <motion.span

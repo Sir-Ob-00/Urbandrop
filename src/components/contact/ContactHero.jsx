@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MessageCircle, Phone, Mail, MapPin, Hand, Zap } from 'lucide-react';
+import { MessageCircle, Phone} from 'lucide-react';
 import deliveryGuy from '../../assets/images/home/deliveryguy.jpg';
 
 const ContactHero = () => {
@@ -30,10 +30,7 @@ const ContactHero = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm border border-white/30 rounded-full px-4 py-2"
               >
-                <MessageCircle size={16} className="text-white" />
-                <span className="text-sm font-medium">We're Here to Help</span>
               </motion.div>
-
               <h1 className="text-5xl md:text-7xl font-black leading-tight">
                 We'd Love to
                 <br />
@@ -43,28 +40,8 @@ const ContactHero = () => {
               <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-lg">
                 Whether you're a customer, merchant, or partner — our team is here to assist you every step of the way.
               </p>
+              
             </div>
-
-            {/* Quick Stats */}
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="grid grid-cols-3 gap-6"
-            >
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-1">24/7</div>
-                <div className="text-white/80 text-sm">Support</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-1">2hrs</div>
-                <div className="text-white/80 text-sm">Response</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold mb-1">5★</div>
-                <div className="text-white/80 text-sm">Rating</div>
-              </div>
-            </motion.div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">

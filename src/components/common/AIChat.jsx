@@ -1,30 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, Send, X, Bot } from 'lucide-react';
-import logo from '../../assets/images/urbandropLogo.png';
 
-const initialMessages = [
-    {
-        id: 1,
-        sender: 'ai',
-        text: 'Hello! I am the Urbandrop AI Assistant. How can I help you find the best ethnic groceries today?',
-    },
-    {
-        id: 2,
-        sender: 'user',
-        text: 'I am looking for ingredients to make Jollof rice.',
-    },
-    {
-        id: 3,
-        sender: 'ai',
-        text: "Excellent choice! For Jollof rice, you'll need long-grain parboiled rice, tomatoes, tomato paste, onions, scotch bonnet peppers, and vegetable oil. Would you like me to add these to your cart?",
-    },
-];
+const initialMessages = [];
 
 const AIChat = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState(initialMessages);
     const [inputValue, setInputValue] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
+    const [welcomeMessage, setWelcomeMessage] = useState('');
+    const [showBubble, setShowBubble] = useState(false);
     const chatContainerRef = useRef(null);
 
   // Auto-scroll to the latest message
@@ -34,9 +20,34 @@ const AIChat = () => {
         }
     }, [messages]);
 
+    // Fetch welcome message on component mount
+    useEffect(() => {
+        fetch('https://urbanchat-xy7h.onrender.com/welcome')
+            .then(res => res.json())
+            .then(data => {
+                const welcomeText = data.message || data;
+                setWelcomeMessage(welcomeText);
+                setMessages([{ id: Date.now(), sender: 'ai', text: welcomeText }]);
+            })
+            .catch(err => {
+                console.error('Error fetching welcome message:', err);
+                const fallback = 'Welcome to Urbandrop AI Assistant!';
+                setWelcomeMessage(fallback);
+                setMessages([{ id: Date.now(), sender: 'ai', text: fallback }]);
+            });
+    }, []);
+
+    // Show bubble only on home page first visit
+    useEffect(() => {
+        if (window.location.pathname === '/' && !localStorage.getItem('welcomeBubbleShown')) {
+            setShowBubble(true);
+            localStorage.setItem('welcomeBubbleShown', 'true');
+        }
+    }, []);
+
     const handleSendMessage = (e) => {
         e.preventDefault();
-        if (inputValue.trim() === '') return;
+        if (inputValue.trim() === '' || isLoading) return;
 
         const userMessage = {
             id: Date.now(),
@@ -46,21 +57,41 @@ const AIChat = () => {
 
         setMessages((prev) => [...prev, userMessage]);
         setInputValue('');
+        setIsLoading(true);
 
-        // Simulate AI response
-        setTimeout(() => {
-        const aiResponse = {
-            id: Date.now() + 1,
-            sender: 'ai',
-            text: 'Thanks for your message! I am currently in training, but I have noted your request.',
-        };
-        setMessages((prev) => [...prev, aiResponse]);
-        }, 1500);
+        fetch('https://urbanchat-xy7h.onrender.com/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: inputValue }),
+        })
+            .then(res => res.json())
+            .then(data => {
+                const aiResponse = {
+                    id: Date.now(),
+                    sender: 'ai',
+                    text: data.reply || 'Sorry, I couldn\'t process your request.',
+                };
+                setMessages((prev) => [...prev, aiResponse]);
+            })
+            .catch(err => {
+                console.error('Error sending message:', err);
+                const errorResponse = {
+                    id: Date.now(),
+                    sender: 'ai',
+                    text: 'Error: Unable to get response. Please try again.',
+                };
+                setMessages((prev) => [...prev, errorResponse]);
+            })
+            .finally(() => {
+                setIsLoading(false);
+            });
     };
 
     const drawerVariants = {
-        closed: { x: '100%' },
-        open: { x: '0%' },
+        closed: { y: '100%' },
+        open: { y: '0%' },
     };
 
     const messageVariants = {
@@ -70,6 +101,18 @@ const AIChat = () => {
 
     return (
     <>
+      {/* Welcome Message Bubble */}
+      {showBubble && welcomeMessage && !isOpen && (
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="fixed bottom-24 right-6 bg-white text-gray-800 p-3 rounded-lg shadow-lg max-w-xs text-sm z-40"
+        >
+          {welcomeMessage} How may I help you?
+          <div className="absolute bottom-0 right-6 transform translate-y-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-white"></div>
+        </motion.div>
+      )}
+
       {/* Floating Chat Icon */}
         <motion.button
             onClick={() => setIsOpen(true)}
@@ -100,12 +143,11 @@ const AIChat = () => {
                 animate="open"
                 exit="closed"
                 transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-                className="fixed top-0 right-0 h-full w-full max-w-md bg-gray-50 flex flex-col shadow-2xl z-50"
+                className="fixed bottom-0 right-0 h-3/4 w-3/4 md:w-1/2 bg-gray-50 flex flex-col shadow-2xl z-50"
             >
               {/* Header */}
                 <header className="flex items-center justify-between p-4 border-b border-gray-200 bg-white">
                         <div className="flex items-center gap-3">
-                            <img src={logo} alt="Urbandrop Logo" className="h-8 w-auto" />
                             <h2 className="font-bold text-lg text-gray-800">AI Assistant</h2>
                         </div>
                     <motion.button
@@ -147,6 +189,22 @@ const AIChat = () => {
                         </div>
                         </motion.div>
                     ))}
+                    {isLoading && (
+                        <motion.div
+                            variants={messageVariants}
+                            initial="hidden"
+                            animate="visible"
+                            transition={{ duration: 0.3 }}
+                            className="flex items-end gap-2 justify-start"
+                        >
+                            <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center self-start">
+                                <Bot size={20} className="text-gray-500" />
+                            </div>
+                            <div className="bg-white text-gray-800 border border-gray-200 rounded-2xl rounded-bl-lg p-3 max-w-xs md:max-w-sm">
+                                <p className="text-sm">Typing...</p>
+                            </div>
+                        </motion.div>
+                    )}
                 </div>
 
               {/* Input Bar */}
