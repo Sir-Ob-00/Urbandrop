@@ -4,28 +4,24 @@ import { Clock, Shield, Truck, Star, ChefHat, Heart, ChevronDown, ChevronUp } fr
 
 const features = [
   {
-    title: 'Lightning-Fast Delivery',
-    image: '/src/assets/images/home/deliveryguy.jpg'
+    title: 'Shop the Way You Speak',
+    description: 'Find ingredients using local or indigenous names whether it\'s kontomire, egusi, or atta flour. UrbanDrop understands your language.',
+    image: 'src/assets/images/home/shop the way.jpg'
   },
   {
-    title: 'Premium Quality Guarantee',
-    image: '/src/assets/images/home/food-items.jpg'
+    title: 'Discover Stores That Feel Like Home',
+    description: 'Explore shops and categories curated by culture from Caribbean and South Asian to West African and Middle Eastern. Everything you miss from home, all in one app.',
+    image: 'src/assets/images/home/discover store.jpg'
   },
   {
-    title: 'Reliable Service',
-    image: '/src/assets/images/home/deliver-person.jpg'
+    title: 'Authentic Products, Verified by Culture',
+    description: 'Every product on UrbanDrop is checked for authenticity and labeled with its true origin and traditional use, so you always know you\'re getting the real thing.',
+    image: 'src/assets/images/home/food-items.jpg'
   },
   {
-    title: 'Authentic Ethnic Flavors',
-    image: '/src/assets/images/home/foodies.jpg'
-  },
-  {
-    title: 'Recipe Inspiration',
-    image: '/src/assets/images/home/customer-woman.jpg'
-  },
-  {
-    title: 'Personalized Experience',
-    image: '/src/assets/images/home/lady-urbandrop.jpg'
+    title: 'More Than Shopping, It\'s Connection',
+    description: 'Get inspired with ethnic recipes, cooking guides, and cultural stories that celebrate where your food comes from and how it brings people together.',
+    image: 'src/assets/images/home/recipe bit.jpg'
   }
 ];
 
@@ -83,7 +79,7 @@ const WhyChooseUrbandrop = () => {
         backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%235CB35E' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
       }}></div>
 
-      <div className="relative max-w-7xl mx-auto px-6">
+      <div className="relative max-w-7xl mx-auto px-2 lg:px-0">
         {/* Header */}
         <motion.div
           className="text-center mb-20"
@@ -115,48 +111,50 @@ const WhyChooseUrbandrop = () => {
           </motion.h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 items-center">
           {/* Left: Feature Cards Scroller */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative h-[50vh] md:h-[70vh] flex items-center lg:flex-[1.5] mx-auto"
           >
-            <div className="relative h-[400px] overflow-hidden">
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#5CB35E] via-[#4a954d] to-[#3d7c40] rounded-full"></div>
-
-              <div className="feature-container pl-8 space-y-4 h-[320px] overflow-y-auto scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+            <div className="relative h-[50vh] md:h-[70vh] overflow-hidden">
+              <div className="feature-container pl-0 space-y-0 h-[35vh] md:h-[40vh] lg:h-[50vh] overflow-y-auto scrollbar-hide" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
                 {features.map((feature, index) => {
                   const isActive = index === activeIndex;
+                  const isSpecialActive = isActive && index > 0; // for 2,3,4 cards
 
                   return (
                     <motion.div
                       key={feature.title}
-                      className={`relative p-4 rounded-2xl cursor-pointer transition-all duration-500 ${
+                      className={`relative ${isSpecialActive ? 'p-8 md:p-16 lg:p-20' : 'p-6 md:p-8 lg:p-10'} rounded-3xl cursor-pointer transition-all duration-500 h-[35vh] md:h-[40vh] lg:h-[50vh] flex flex-col justify-center ${
                         isActive
-                          ? 'bg-gradient-to-r from-[#5CB35E]/20 to-[#4a954d]/20 border-2 border-[#5CB35E]/50 shadow-2xl'
+                          ? 'bg-gradient-to-r from-[#5CB35E]/20 to-[#4a954d]/20 border-2 border-[#5CB35E]/50 shadow-2xl scale-105'
                           : 'bg-white/5 border border-white/10 hover:bg-white/10'
                       }`}
                       onClick={() => goToFeature(index)}
-                      whileHover={{ scale: 1.02 }}
-                      whileTap={{ scale: 0.98 }}
+                      whileHover={{ scale: isActive ? 1.07 : 1.02 }}
+                      whileTap={{ scale: isActive ? 1.05 : 0.98 }}
                       initial={{ opacity: 0, x: -30 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.6, delay: index * 0.1 }}
                       viewport={{ once: true }}
                     >
-                      <h3 className={`text-3xl font-bold ${
-                        isActive ? 'text-white' : 'text-gray-700'
-                      }`}>
-                        {feature.title}
-                      </h3>
+                      <div className="px-4">
+                        <h3 className={`${isActive ? 'text-xl md:text-4xl lg:text-5xl xl:text-6xl' : 'text-lg md:text-3xl lg:text-4xl xl:text-5xl'} font-bold mb-2 md:mb-3 lg:mb-4 leading-tight text-gray-700`}>
+                          {feature.title}
+                        </h3>
+                        <p className={`text-xs md:text-base lg:text-lg xl:text-xl leading-relaxed text-gray-600`}>
+                          {feature.description}
+                        </p>
+                      </div>
 
                       {/* Active Indicator */}
                       {isActive && (
                         <motion.div
-                          className="absolute -left-8 top-1/2 transform -translate-y-1/2 w-4 h-4 bg-[#5CB35E] rounded-full border-4 border-white"
+                          className="absolute left-4 top-4 w-4 h-4 bg-[#5CB35E] rounded-full border-4 border-white"
                           initial={{ scale: 0 }}
                           animate={{ scale: 1 }}
                           transition={{ duration: 0.3 }}
@@ -169,7 +167,7 @@ const WhyChooseUrbandrop = () => {
             </div>
 
             {/* Navigation Arrows */}
-            <div className="flex justify-center mt-8 space-x-4">
+            <div className="absolute bottom-0 flex justify-center mt-6 md:mt-8 space-x-4">
               <motion.button
                 onClick={prevFeature}
                 className="p-3 bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition-all duration-300"
@@ -196,7 +194,7 @@ const WhyChooseUrbandrop = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
             viewport={{ once: true }}
-            className="relative h-[400px] overflow-hidden"
+            className="relative w-full h-[50vh] md:h-[70vh] lg:h-[80vh] overflow-hidden lg:flex-[1]"
           >
             <AnimatePresence mode="wait">
               {features.map((feature, index) => {
@@ -215,7 +213,7 @@ const WhyChooseUrbandrop = () => {
                     exit={{ opacity: 0, scale: 0.8, rotateY: -45 }}
                     transition={{ duration: 0.8, ease: 'easeInOut' }}
                   >
-                    <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-2xl">
+                    <div className="relative h-[40vh] md:h-[70vh] lg:h-[80vh] rounded-3xl overflow-hidden shadow-2xl">
                       <img
                         src={feature.image}
                         alt={feature.title}
@@ -226,13 +224,13 @@ const WhyChooseUrbandrop = () => {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
                       {/* Content Overlay */}
-                      <div className="absolute bottom-8 left-8 right-8">
-                        <h3 className="text-4xl font-bold text-white mb-4">
+                      <div className="absolute bottom-8 md:bottom-12 lg:bottom-16 left-4 md:left-8 right-4 md:right-8">
+                        <h3 className="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-2 md:mb-4">
                           {feature.title}
                         </h3>
                         <div className="flex items-center gap-2">
-                          <div className="w-16 h-1 bg-[#5CB35E] rounded-full"></div>
-                          <span className="text-[#5CB35E] font-semibold text-lg">Why Choose Us</span>
+                          <div className="w-12 md:w-16 h-1 bg-[#5CB35E] rounded-full"></div>
+                          <span className="text-[#5CB35E] font-semibold text-sm md:text-lg">Why Choose Us</span>
                         </div>
                       </div>
 

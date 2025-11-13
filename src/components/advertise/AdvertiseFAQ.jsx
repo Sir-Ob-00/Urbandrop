@@ -140,17 +140,6 @@ const AdvertiseFAQ = () => {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <p className="text-muted mb-6">
-            Still have questions? Our advertising specialists are here to help you succeed.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-darkGreen transition-all">
-              Contact Advertising Team
-            </button>
-            <button className="border-2 border-primary text-primary px-8 py-3 rounded-full font-semibold hover:bg-primary hover:text-white transition-all">
-              Schedule A Call
-            </button>
-          </div>
         </motion.div>
       </div>
     </section>

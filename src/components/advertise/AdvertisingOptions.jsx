@@ -32,7 +32,8 @@ const panels = [
     description: 'Boost your sales and attract new customers with exclusive in-app promotions and featured deals directly to engaged users.',
     imageSrc: inAppImg,
     alt: 'Ad mockup for in-app promotions on Urbandrop',
-    bgColor: 'bg-gradient-to-br from-blue-500 to-blue-700',
+    bgColor: 'bg-[#fff5ea]',
+    textColor: 'text-gray-800',
   },
 ];
 
@@ -85,11 +86,11 @@ const AdvertisingOptions = ({ className }) => {
                 />
               </div>
               {/* Text Content */}
-              <div className="text-white max-w-lg text-center md:text-left mb-8">
+              <div className={`${panel.textColor || 'text-white'} max-w-lg text-center md:text-left mb-8`}>
                 <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6">
                   {panel.headline}
                 </h2>
-                <p className="text-base md:text-lg text-gray-200">
+                <p className={`text-base md:text-lg ${panel.textColor ? panel.textColor + '/80' : 'text-gray-200'}`}>
                   {panel.description}
                 </p>
               </div>

@@ -72,13 +72,6 @@ const AdvertiseCTA = () => {
             viewport={{ once: true }}
             className="bg-gradient-to-r from-green-500 to-green-700 text-white px-8 py-4 rounded-2xl mb-8 inline-block shadow-2xl"
           >
-            <div className="flex items-center gap-3">
-              <Rocket size={24} className="animate-bounce" />
-              <div>
-                <div className="font-bold text-lg">Limited Time: 20% OFF First Month!</div>
-                <div className="text-sm opacity-90">Offer ends in {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m</div>
-              </div>
-            </div>
           </motion.div>
 
           {/* Main Headline */}

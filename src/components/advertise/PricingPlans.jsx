@@ -1,171 +1,127 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Check, Star, Zap, Crown, ArrowRight } from 'lucide-react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import image from '../../assets/images/advertising/friends-laughing-using-mobiles 2.png';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const plans = [
   {
     name: 'Starter',
-    icon: <Star size={32} className="text-white" />,
-    weeklyPrice: 'GHS 200',
-    monthlyPrice: 'GHS 800',
-    description: 'Perfect for small businesses testing advertising',
-    gradient: 'from-[#2c4d31] to-[#36b44a]',
+    gradient: 'bg-gradient-to-r from-green-500 to-green-700',
     features: [
       'Banner placement',
       'Basic targeting options',
       'Performance reports',
-      'Email support',
-      'Standard placement',
     ],
-    popular: false,
   },
   {
     name: 'Growth',
-    icon: <Zap size={32} className="text-white" />,
-    weeklyPrice: 'GHS 500',
-    monthlyPrice: 'GHS 1,800',
-    description: 'Ideal for growing brands expanding reach',
-    gradient: 'from-[#f1be21] to-[#2c4d31]',
+    gradient: 'bg-gradient-to-r from-yellow-500 to-yellow-700',
     features: [
       'Banner + featured listings',
       'Advanced targeting',
       'Real-time analytics',
-      'Priority support',
-      'Premium placement',
-      'A/B testing',
     ],
-    popular: true,
   },
   {
     name: 'Premium',
-    icon: <Crown size={32} className="text-white" />,
-    weeklyPrice: 'GHS 1,200',
-    monthlyPrice: 'GHS 4,200',
-    description: 'Complete solution for serious advertisers',
-    gradient: 'from-[#36b44a] to-[#f1be21]',
+    gradient: 'bg-gradient-to-r from-[#2d4d31] to-[#2d4d31]',
+    textColor: 'text-gray-800',
     features: [
       'Multiple placements',
       'Custom campaign strategy',
       'Dedicated account manager',
-      'Advanced analytics dashboard',
-      'VIP support',
-      'Custom creative design',
-      'Competitor analysis',
-      'ROI optimization',
     ],
-    popular: false,
   },
 ];
 
 const PricingPlans = () => {
-  const [billingCycle, setBillingCycle] = useState('monthly');
+  const containerRef = useRef();
 
-  const getCurrentPrice = (plan) => {
-    return billingCycle === 'weekly' ? plan.weeklyPrice : plan.monthlyPrice;
-  };
+  useEffect(() => {
+    const ctx = gsap.context(() => {
+      gsap.utils.toArray('.plan-section').forEach((section, i) => {
+        // Parallax effect on background
+        gsap.to(section.querySelector('.bg-element'), {
+          yPercent: -50,
+          ease: 'none',
+          scrollTrigger: {
+            trigger: section,
+            start: 'top bottom',
+            end: 'bottom top',
+            scrub: true,
+          },
+        });
+      });
 
-  const getCurrentDuration = () => {
-    return billingCycle === 'weekly' ? 'per week' : 'per month';
-  };
+      // Pin the image for the first two plans
+      ScrollTrigger.create({
+        trigger: containerRef.current,
+        start: 'top top',
+        end: () => "+=" + (2 * window.innerHeight),
+        pin: '.image-container',
+        pinSpacing: false,
+      });
+    }, containerRef);
+
+    return () => ctx.revert();
+  }, []);
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#fff5ea] via-[#fcf7de] to-[#ddeab9] relative overflow-hidden">
-      {/* Grocery Pattern Background */}
-      <div className="absolute inset-0 opacity-5" style={{
-        backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232c4d31' fill-opacity='0.1'%3E%3Ccircle cx='7' cy='7' r='2'/%3E%3Ccircle cx='27' cy='7' r='2'/%3E%3Ccircle cx='47' cy='7' r='2'/%3E%3Ccircle cx='7' cy='27' r='2'/%3E%3Ccircle cx='27' cy='27' r='2'/%3E%3Ccircle cx='47' cy='27' r='2'/%3E%3Ccircle cx='7' cy='47' r='2'/%3E%3Ccircle cx='27' cy='47' r='2'/%3E%3Ccircle cx='47' cy='47' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        backgroundSize: '60px 60px'
-      }}></div>
+    <div ref={containerRef} className="relative flex flex-col lg:flex-row overflow-hidden">
+      <div className="image-container absolute top-0 w-full h-1/2 lg:right-0 lg:h-screen lg:w-1/2 z-10">
+        <img src={image} alt="Friends laughing using mobiles" className="w-full h-full object-cover" />
+      </div>
+      <div className="lg:w-1/2 w-full order-2 lg:order-1">
+        {plans.map((plan, index) => (
+          <section key={index} className={`plan-section h-screen flex items-center bg-transparent lg:${plan.gradient} relative overflow-hidden`}>
+            {/* Decorative Background Elements */}
+            <div className="bg-element absolute inset-0 opacity-20 hidden lg:block">
+              <div className={`absolute top-20 left-20 w-32 h-32 border-4 ${plan.textColor ? 'border-gray-300' : 'border-white/30'} rounded-full`}></div>
+              <div className={`absolute bottom-20 right-20 w-24 h-24 border-4 ${plan.textColor ? 'border-gray-200' : 'border-white/20'} rounded-full`}></div>
+              <div className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 border-2 ${plan.textColor ? 'border-gray-100' : 'border-white/10'} rounded-full`}></div>
+            </div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold text-[#2c4d31] mb-6">
-            Pricing & <span className="text-[#2c4d31]">Plans</span>
-          </h2>
-          <p className="text-xl text-muted max-w-3xl mx-auto">
-            Choose the perfect advertising package for your business goals and budget
-          </p>
-
-          {/* Billing Toggle */}
-          <div className="flex items-center justify-center gap-4 mt-8">
-            <span className={`text-sm ${billingCycle === 'weekly' ? 'text-[#2c4d31] font-semibold' : 'text-[#2c4d31]/70'}`}>
-              Weekly
-            </span>
-            <button
-              onClick={() => setBillingCycle(billingCycle === 'monthly' ? 'weekly' : 'monthly')}
-              className="relative w-14 h-7 bg-[#2c4d31]/20 rounded-full transition-colors"
-            >
-              <div className={`absolute top-1 w-5 h-5 bg-[#2c4d31] rounded-full shadow-md transition-transform ${
-                billingCycle === 'monthly' ? 'translate-x-8' : 'translate-x-1'
-              }`} />
-            </button>
-            <span className={`text-sm ${billingCycle === 'monthly' ? 'text-[#2c4d31] font-semibold' : 'text-[#2c4d31]/70'}`}>
-              Monthly
-            </span>
-          </div>
-        </motion.div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {plans.map((plan, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              className={`relative bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 ${
-                plan.popular ? 'ring-2 ring-[#2c4d31] scale-105' : ''
-              }`}
-            >
-
-              {/* Header */}
-              <div className={`bg-gradient-to-br ${plan.gradient} rounded-t-3xl p-8 text-white text-center relative overflow-hidden`}>
-                {/* Background Pattern */}
-                <div className="absolute inset-0 opacity-10">
-                  <div className="absolute top-4 right-4 w-16 h-16 border border-white/20 rounded-full"></div>
-                  <div className="absolute bottom-4 left-4 w-12 h-12 border border-white/20 rounded-full"></div>
-                </div>
-
-                <div className="relative z-10">
-                  <div className={`bg-white/20 rounded-2xl p-4 w-fit mx-auto mb-4`}>
-                    {plan.icon}
-                  </div>
-                  <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                  <div className="text-4xl font-black mb-1">{getCurrentPrice(plan)}</div>
-                  <div className="text-white/80">{getCurrentDuration()}</div>
-                  <p className="text-white/90 text-sm mt-4">{plan.description}</p>
-                </div>
-              </div>
-
-              {/* Features */}
-              <div className="p-8">
-                <ul className="space-y-4 mb-8">
+            <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10">
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true }}
+                className={`text-center lg:text-left text-white lg:${plan.textColor || 'text-white'} max-w-lg bg-black/70 lg:bg-transparent rounded-lg p-4 lg:p-0`}
+              >
+                <h2 className="text-5xl md:text-6xl lg:text-8xl font-black leading-tight mb-8 drop-shadow-lg">
+                  {plan.name}
+                </h2>
+                <ul className="space-y-4 mb-12 text-center lg:text-left">
                   {plan.features.map((feature, i) => (
-                    <li key={i} className="flex items-center gap-3">
-                      <div className={`bg-gradient-to-r ${plan.gradient} rounded-full p-1`}>
-                        <Check size={14} className="text-white" />
-                      </div>
-                      <span className="text-muted">{feature}</span>
-                    </li>
+                    <motion.li
+                      key={i}
+                      initial={{ opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      transition={{ duration: 0.5, delay: i * 0.1 }}
+                      viewport={{ once: true }}
+                      className={`text-xl md:text-2xl lg:text-3xl drop-shadow-lg ${plan.textColor ? plan.textColor + '/90' : 'text-white/90'}`}
+                    >
+                      {feature}
+                    </motion.li>
                   ))}
                 </ul>
-
-                {/* CTA Button */}
-                <button className={`w-full bg-gradient-to-r ${plan.gradient} text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2`}>
+                <motion.button
+                  whileHover={{ scale: 1.05, boxShadow: plan.textColor ? '0 0 20px rgba(0,0,0,0.3)' : '0 0 20px rgba(255,255,255,0.3)' }}
+                  whileTap={{ scale: 0.95 }}
+                  className={`${plan.name === 'Premium' ? 'bg-white text-black' : 'bg-white text-black'} lg:${plan.name === 'Premium' ? 'bg-white text-gray-800' : plan.textColor ? 'bg-black text-white' : 'bg-white text-gray-800'} px-10 py-4 rounded-full font-bold text-2xl lg:text-3xl shadow-lg hover:shadow-xl transition-all`}
+                >
                   Get Started
-                  <ArrowRight size={20} />
-                </button>
-              </div>
-            </motion.div>
-          ))}
-        </div>
+                </motion.button>
+              </motion.div>
+            </div>
+          </section>
+        ))}
       </div>
-    </section>
+    </div>
   );
 };
 
