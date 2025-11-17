@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -39,6 +39,14 @@ const plans = [
 
 const PricingPlans = () => {
   const containerRef = useRef();
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  useEffect(() => {
+    const checkDesktop = () => setIsDesktop(window.innerWidth >= 1024);
+    checkDesktop();
+    window.addEventListener('resize', checkDesktop);
+    return () => window.removeEventListener('resize', checkDesktop);
+  }, []);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -76,7 +84,7 @@ const PricingPlans = () => {
       </div>
       <div className="lg:w-1/2 w-full order-2 lg:order-1">
         {plans.map((plan, index) => (
-          <section key={index} className={`plan-section h-screen flex items-center bg-transparent lg:${plan.gradient} relative overflow-hidden`}>
+          <section key={index} className={`plan-section h-screen flex items-center relative overflow-hidden ${isDesktop ? plan.gradient : 'bg-transparent'}`}>
             {/* Decorative Background Elements */}
             <div className="bg-element absolute inset-0 opacity-20 hidden lg:block">
               <div className={`absolute top-20 left-20 w-32 h-32 border-4 ${plan.textColor ? 'border-gray-300' : 'border-white/30'} rounded-full`}></div>

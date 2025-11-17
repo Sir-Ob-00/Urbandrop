@@ -12,7 +12,7 @@ const MerchantHero = () => {
         loop
         playsInline
       >
-        <source src="/Video/urbandrop video promo.mp4" type="video/mp4" />
+        <source src="src\assets\images\merchants\Video\urbandrop video promo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

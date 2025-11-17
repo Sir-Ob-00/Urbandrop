@@ -16,12 +16,12 @@ const features = [
   {
     title: 'Authentic Products, Verified by Culture',
     description: 'Every product on UrbanDrop is checked for authenticity and labeled with its true origin and traditional use, so you always know you\'re getting the real thing.',
-    image: 'src/assets/images/home/food-items.jpg'
+    image: 'src/assets/images/home/authentic-products.jpg'
   },
   {
     title: 'More Than Shopping, It\'s Connection',
     description: 'Get inspired with ethnic recipes, cooking guides, and cultural stories that celebrate where your food comes from and how it brings people together.',
-    image: 'src/assets/images/home/recipe bit.jpg'
+    image: 'src/assets/images/home/more-than-shopping.jpg'
   }
 ];
 

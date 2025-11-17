@@ -22,10 +22,10 @@ const AIChat = () => {
 
     // Fetch welcome message on component mount
     useEffect(() => {
-        fetch('https://urbanchat-xy7h.onrender.com/welcome')
+        fetch('https://urbanchat-xy7h.onrender.com')
             .then(res => res.json())
             .then(data => {
-                const welcomeText = data.message || data;
+                const welcomeText = typeof data.message === 'string' ? data.message : 'Welcome to Urbandrop AI Assistant!';
                 setWelcomeMessage(welcomeText);
                 setMessages([{ id: Date.now(), sender: 'ai', text: welcomeText }]);
             })
@@ -63,6 +63,7 @@ const AIChat = () => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
+                "Accept": "application/json",
             },
             body: JSON.stringify({ message: inputValue }),
         })
@@ -71,7 +72,7 @@ const AIChat = () => {
                 const aiResponse = {
                     id: Date.now(),
                     sender: 'ai',
-                    text: data.reply || 'Sorry, I couldn\'t process your request.',
+                    text: typeof data.reply === 'string' ? data.reply : 'Sorry, I couldn\'t process your request.',
                 };
                 setMessages((prev) => [...prev, aiResponse]);
             })
