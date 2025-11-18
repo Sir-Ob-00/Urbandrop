@@ -74,7 +74,7 @@ const AIChat = () => {
                 const aiResponse = {
                     id: Date.now(),
                     sender: 'ai',
-                    text: typeof data.reply === 'string' ? data.reply : 'Sorry, I couldn\'t process your request.',
+                    text: typeof data.message === 'string' ? data.message : 'Sorry, I couldn\'t process your request.',
                 };
                 setMessages((prev) => [...prev, aiResponse]);
             })
@@ -112,6 +112,15 @@ const AIChat = () => {
           className="fixed bottom-24 right-6 bg-white text-gray-800 p-3 rounded-lg shadow-lg max-w-xs text-sm z-40"
         >
           {welcomeMessage} How may I help you?
+          <div className="relative">
+            <button
+              onClick={() => setShowBubble(false)}
+              className="absolute -top-5 -right-5 w-6 h-6 bg-gray-500 hover:bg-gray-700 text-white rounded-full flex items-center justify-center text-xs transition-colors"
+              aria-label="Close welcome message"
+            >
+              <X size={12} />
+            </button>
+          </div>
           <div className="absolute bottom-0 right-6 transform translate-y-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-white"></div>
         </motion.div>
       )}
