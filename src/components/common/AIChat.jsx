@@ -4,6 +4,8 @@ import { MessageSquare, Send, X, Bot } from 'lucide-react';
 
 const initialMessages = [];
 
+const API_BASE_URL = import.meta.env.VITE_CHAT_API_URL || 'https://urbanchat-xy7h.onrender.com';
+
 const AIChat = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [messages, setMessages] = useState(initialMessages);
@@ -22,7 +24,7 @@ const AIChat = () => {
 
     // Fetch welcome message on component mount
     useEffect(() => {
-        fetch('https://urbanchat-xy7h.onrender.com')
+        fetch(API_BASE_URL)
             .then(res => res.json())
             .then(data => {
                 const welcomeText = typeof data.message === 'string' ? data.message : 'Welcome to Urbandrop AI Assistant!';
@@ -59,7 +61,7 @@ const AIChat = () => {
         setInputValue('');
         setIsLoading(true);
 
-        fetch('https://urbanchat-xy7h.onrender.com/chat', {
+        fetch(`${API_BASE_URL}/chat`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

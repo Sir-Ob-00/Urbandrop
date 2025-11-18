@@ -1,17 +1,18 @@
 import React from 'react';
 import MerchantHero from '../components/merchants/MerchantHero';
-import BenefitsSection from '../components/merchants/BenefitsSection';
-import MerchantSteps from '../components/merchants/MerchantSteps';
-import CommissionSection from '../components/merchants/CommissionSection';
+import WhyJoin from '../components/merchants/WhyJoin';
+import HowItWorks from '../components/merchants/HowItWorks';
+import MerchantFeatures from '../components/merchants/MerchantFeatures';
 import MerchantCTA from '../components/merchants/MerchantCTA';
 
 
 const BecomeMerchant = () => {
   return (
-    <div className="min-h-screen">
+    <div>
       <MerchantHero />
-      <MerchantSteps />
-      <CommissionSection />
+      <WhyJoin />
+      <HowItWorks />
+      <MerchantFeatures />
       <MerchantCTA />
     </div>
   );
