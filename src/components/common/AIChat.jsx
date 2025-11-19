@@ -133,7 +133,7 @@ const AIChat = () => {
             whileTap={{ scale: 0.95 }}
             aria-label="Open AI Chat"
         >
-        <MessageSquare size={32} />
+        <Bot size={32} />
         </motion.button>
 
         <AnimatePresence>
@@ -155,7 +155,7 @@ const AIChat = () => {
                 animate="open"
                 exit="closed"
                 transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-                className="fixed bottom-0 right-0 h-3/4 w-3/4 md:w-1/2 bg-gray-50 flex flex-col shadow-2xl z-50"
+                className="fixed bottom-0 right-0 h-3/4 w-3/4 md:w-[450px] bg-gray-50 flex flex-col rounded shadow-2xl z-50"
             >
               {/* Header */}
                 <header className="flex items-center justify-between p-4 border-b border-gray-200 bg-white">

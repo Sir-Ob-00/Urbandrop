@@ -2,7 +2,6 @@ import React from 'react';
 import AdvertiseHero from '../components/advertise/AdvertiseHero';
 import AdvertisingOptions from '../components/advertise/AdvertisingOptions';
 import PricingPlans from '../components/advertise/PricingPlans';
-import AdvertiseCTA from '../components/advertise/AdvertiseCTA';
 
 const Advertise = () => {
   return (
@@ -10,7 +9,6 @@ const Advertise = () => {
       <AdvertiseHero />
       <AdvertisingOptions/>
       <PricingPlans />
-      <AdvertiseCTA />
     </div>
   );
 };

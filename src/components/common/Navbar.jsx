@@ -116,7 +116,7 @@ const Navbar = () => {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="bg-white border-t border-gray-100 md:hidden overflow-hidden"
+            className="bg-white border-t border-gray-100 lg:hidden overflow-hidden"
           >
             <ul className="flex flex-col items-center space-y-4 py-6">
               {navLinks.map((link) => {

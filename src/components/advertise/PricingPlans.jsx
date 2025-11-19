@@ -43,14 +43,14 @@ const PricingPlans = () => {
         const isPremium = index === 2;
 
         return (
-          <section key={index} className="h-screen flex">
-            <div className={`flex w-full ${isStarter ? 'flex-row' : 'flex-row-reverse'}`}>
+          <section key={index} className="md:min-h-screen flex">
+            <div className={`flex flex-col md:flex-row w-full ${isStarter ? '' : 'md:flex-row-reverse'}`}>
               <motion.div
-                className="w-1/2 h-screen"
+                className="w-full md:w-1/2 h-64 md:h-screen"
                 initial={
                   isStarter ? { y: 400, opacity: 0 } :
                   isGrowth ? { y: -400, opacity: 0 } :
-                  { x: -400, opacity: 0 }
+                  { y: 400, opacity: 0 }
                 }
                 whileInView={{ y: 0, x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -63,20 +63,20 @@ const PricingPlans = () => {
                 />
               </motion.div>
               <motion.div
-                className={`w-1/2 flex flex-col justify-center p-12 text-white ${isStarter ? 'bg-gray-900' : isGrowth ? 'bg-blue-900' : 'bg-green-900'}`}
+                className={`w-full md:w-1/2 flex flex-col justify-center p-6 md:p-12 text-white ${isStarter ? 'bg-gray-900' : isGrowth ? 'bg-blue-900' : 'bg-green-900'}`}
                 initial={
                   isStarter ? { y: 400, opacity: 0 } :
                   isGrowth ? { y: -400, opacity: 0 } :
-                  { x: 400, opacity: 0 }
+                  { y: 400, opacity: 0 }
                 }
                 whileInView={{ y: 0, x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ amount: 0.1 }}
               >
-                <h2 className="text-5xl md:text-6xl lg:text-8xl font-black leading-tight mb-8">
+                <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-black leading-tight mb-6 md:mb-8">
                   {plan.name}
                 </h2>
-                <ul className="space-y-4 mb-12">
+                <ul className="space-y-3 md:space-y-4 mb-8 md:mb-12">
                   {plan.features.map((feature, i) => (
                     <motion.li
                       key={i}
@@ -84,7 +84,7 @@ const PricingPlans = () => {
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: i * 0.1 + 0.6 }}
                       viewport={{ once: true }}
-                      className="text-xl md:text-2xl lg:text-3xl"
+                      className="text-lg md:text-xl lg:text-2xl xl:text-3xl"
                     >
                       {feature}
                     </motion.li>
@@ -93,7 +93,7 @@ const PricingPlans = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-white text-black px-10 py-4 rounded-full font-bold text-2xl lg:text-3xl shadow-lg hover:shadow-xl transition-all"
+                  className="bg-white text-black px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-xl md:text-2xl lg:text-3xl shadow-lg hover:shadow-xl transition-all"
                 >
                   Get Started
                 </motion.button>

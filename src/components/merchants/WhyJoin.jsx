@@ -95,7 +95,7 @@ const WhyJoin = () => {
 
   return (
     <section ref={containerRef} className="relative">
-      <div className="py-20 bg-gray-900 text-white text-center">
+      <div className="py-20 bg-#f7ede3 text-green-600 text-center">
         <motion.h2
           className="text-5xl md:text-7xl font-black"
           initial={{ opacity: 0, y: -50 }}
