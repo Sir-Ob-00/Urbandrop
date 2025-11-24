@@ -29,9 +29,10 @@ const MerchantFeatures = () => {
           trigger: sectionRef.current,
           pin: true,
           scrub: 1,
-          snap: 1 / (totalPanels - 1),
+          // snap removed for manual control
           start: "top top",
-          end: () => "+=" + (sliderRef.current.offsetWidth - window.innerWidth),
+          // Increase scroll distance to 3x the width for slower, smoother movement
+          end: () => "+=" + (sliderRef.current.offsetWidth - window.innerWidth) * 3,
           invalidateOnRefresh: true,
         }
       });
@@ -42,15 +43,10 @@ const MerchantFeatures = () => {
 
   return (
     <section ref={sectionRef} className="relative overflow-hidden bg-gray-900 text-white">
-      {/* Header Overlay */}
-      <div className="absolute top-0 left-0 w-full z-20 pt-12 pointer-events-none">
-        <h2 className="text-4xl md:text-6xl font-extrabold text-center drop-shadow-lg">
-          Merchant <span className="text-[#00b36b]">Features</span>
-        </h2>
-      </div>
-
       {/* Horizontal Slider */}
       <div ref={sliderRef} className="flex h-screen" style={{ width: `${panels.length * 100}%` }}>
+
+        {/* Content Panels */}
         {panels.map((p, i) => (
           <div key={i} className="panel w-screen h-screen relative flex-shrink-0">
             <div
@@ -59,7 +55,7 @@ const MerchantFeatures = () => {
             />
             <div className="absolute inset-0 bg-black/60" />
             <div className="relative z-10 flex items-center justify-center h-full px-6">
-              <h3 className="text-4xl md:text-7xl font-extrabold text-center tracking-tight">
+              <h3 className="text-4xl md:text-8xl lg:text-9xl font-extrabold text-center tracking-tight drop-shadow-2xl">
                 {p.title}
               </h3>
             </div>
