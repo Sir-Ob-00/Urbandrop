@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Download, Smartphone, Star, Users, Award, Truck } from 'lucide-react';
+import { Download } from 'lucide-react';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const AppDownloadSection = () => {
@@ -20,101 +20,57 @@ const AppDownloadSection = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const features = [
-    {
-      icon: <Smartphone size={24} className="text-white" />,
-      title: 'Easy Ordering',
-      description: 'Tap to order, track in real-time',
-    },
-    {
-      icon: <Star size={24} className="text-white" />,
-      title: 'Exclusive Deals',
-      description: 'App-only discounts and offers',
-    },
-    {
-      icon: <Users size={24} className="text-white" />,
-      title: 'Community',
-      description: 'Connect with food lovers worldwide',
-    },
-    {
-      icon: <Award size={24} className="text-white" />,
-      title: 'Rewards Program',
-      description: 'Earn points on every order',
-    },
-  ];
-
   return (
-    <section className="py-20 bg-gradient-to-br from-primary via-primaryLight to-background relative overflow-hidden">
+    <section className="py-20 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #fff5ea 0%, #ffffff 100%)' }}>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-20 w-64 h-64 bg-white rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-48 h-48 bg-white rounded-full"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-white rounded-full"></div>
+        <div className="absolute top-20 left-20 w-64 h-64 bg-orange-200 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-20 w-48 h-48 bg-orange-100 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-orange-50 rounded-full blur-2xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
+          {/* Left Content - Coming from Right */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: 1000 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="text-white space-y-8"
+            className="text-primary space-y-8 order-2 lg:order-1"
           >
             <div>
-              <h2 className="text-4xl md:text-6xl font-bold mb-6">
+              <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
                 Get the Full
                 <br />
-                <span className="text-dark">Urbandrop</span> Experience
+                <span className="text-primaryDark">Urbandrop</span> Experience
               </h2>
-              <p className="text-xl text-white/90 leading-relaxed">
+              <p className="text-xl text-primary/80 leading-relaxed">
                 Download our app for lightning-fast ordering, exclusive deals,
                 and a seamless food discovery experience right at your fingertips.
               </p>
             </div>
 
-
-            {/* Features Grid */}
-            <div className="grid grid-cols-2 gap-4">
-              {features.map((feature, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white/10 backdrop-blur-sm rounded-xl p-4"
-                >
-                  <div className="bg-white/20 rounded-lg p-2 w-fit mb-3">
-                    {feature.icon}
-                  </div>
-                  <h4 className="font-semibold mb-1">{feature.title}</h4>
-                  <p className="text-sm text-white/80">{feature.description}</p>
-                </motion.div>
-              ))}
-            </div>
-
             {/* Download Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-white text-primary px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
+              <button className="bg-primary text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-primaryDark transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
                 Download for iOS
               </button>
-              <button className="bg-white text-primary px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
+              <button className="bg-white text-primary border-2 border-primary/20 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-green-50 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
                 Download for Android
               </button>
             </div>
           </motion.div>
 
-          {/* Right Image */}
+          {/* Right Image - Coming from Left */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: -1000 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="relative"
+            className="relative order-1 lg:order-2"
           >
             <div className="relative">
               <img
