@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import heroBanner1 from '../../assets/images/advertising/hero-banner-1.jpg';
+import heroBanner2 from '../../assets/images/advertising/hero-banner-2.jpg';
+
 const images = [
   {
-    src: '/src/assets/images/advertising/hero-banner-1.jpg',
+    src: heroBanner1,
     alt: 'Hero banner 1 for Urbandrop advertising',
   },
   {
-    src: '/src/assets/images/advertising/hero-banner-2.jpg',
+    src: heroBanner2,
     alt: 'Hero banner 2 for Urbandrop advertising',
   },
 ];
