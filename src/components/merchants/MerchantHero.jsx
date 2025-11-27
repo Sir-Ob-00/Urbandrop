@@ -1,9 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import heroVideo from '../../assets/images/merchants/Video/urbandrop video promo.mp4';
 
 const MerchantHero = () => {
   return (
-    <section className="relative min-h-screen flex items-center bg-black overflow-hidden" style={{paddingTop: '120px'}}>
+    <section className="relative min-h-screen flex items-center bg-black overflow-hidden" style={{ paddingTop: '120px' }}>
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
@@ -12,7 +13,7 @@ const MerchantHero = () => {
         loop
         playsInline
       >
-        <source src="src\assets\images\merchants\Video\urbandrop video promo.mp4" type="video/mp4" />
+        <source src={heroVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

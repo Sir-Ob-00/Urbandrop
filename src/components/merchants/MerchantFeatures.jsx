@@ -2,15 +2,22 @@ import React, { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import instantOrdersImg from '../../assets/images/merchants/instant order.jpg';
+import fastDeliveryImg from '../../assets/images/merchants/faster delivery.jpg';
+import realTimeEarningsImg from '../../assets/images/merchants/real-time-earnings.jpg';
+import analyticsImg from '../../assets/images/merchants/analytic.jpg';
+import securePaymentsImg from '../../assets/images/merchants/Secure-payment.jpg';
+import customerSupportImg from '../../assets/images/merchants/customer support.jpg';
+
 gsap.registerPlugin(ScrollTrigger);
 
 const panels = [
-  { title: "Instant Orders", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop" },
-  { title: "Fast Delivery", image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop" },
-  { title: "Real-time Earnings", image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2070&auto=format&fit=crop" },
-  { title: "Analytics Dashboard", image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" },
-  { title: "Secure Payments", image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070&auto=format&fit=crop" },
-  { title: "Customer Support", image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop" },
+  { title: "Instant Orders", image: instantOrdersImg },
+  { title: "Fast Delivery", image: fastDeliveryImg },
+  { title: "Real-time Earnings", image: realTimeEarningsImg },
+  { title: "Analytics Dashboard", image: analyticsImg },
+  { title: "Secure Payments", image: securePaymentsImg },
+  { title: "Customer Support", image: customerSupportImg },
 ];
 
 const MerchantFeatures = () => {
