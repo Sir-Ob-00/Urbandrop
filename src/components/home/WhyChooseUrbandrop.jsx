@@ -2,26 +2,32 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Shield, Truck, Star, ChefHat, Heart, ChevronDown, ChevronUp } from 'lucide-react';
 
+import shopTheWay from '../../assets/images/home/shop the way.jpg';
+import discoverStore from '../../assets/images/home/Discover Store.jpg';
+import authenticProducts from '../../assets/images/home/Authentic-products.jpg';
+import moreThanShopping from '../../assets/images/home/more-than-shopping.jpg';
+import foodies from '../../assets/images/home/foodies.jpg';
+
 const features = [
   {
     title: 'Shop the Way You Speak',
     description: 'Find ingredients using local or indigenous names whether it\'s kontomire, egusi, or atta flour. UrbanDrop understands your language.',
-    image: 'src/assets/images/home/shop the way.jpg'
+    image: shopTheWay
   },
   {
     title: 'Discover Stores That Feel Like Home',
     description: 'Explore shops and categories curated by culture from Caribbean and South Asian to West African and Middle Eastern. Everything you miss from home, all in one app.',
-    image: 'src/assets/images/home/discover store.jpg'
+    image: discoverStore
   },
   {
     title: 'Authentic Products, Verified by Culture',
     description: 'Every product on UrbanDrop is checked for authenticity and labeled with its true origin and traditional use, so you always know you\'re getting the real thing.',
-    image: 'src/assets/images/home/authentic-products.jpg'
+    image: authenticProducts
   },
   {
     title: 'More Than Shopping, It\'s Connection',
     description: 'Get inspired with ethnic recipes, cooking guides, and cultural stories that celebrate where your food comes from and how it brings people together.',
-    image: 'src/assets/images/home/more-than-shopping.jpg'
+    image: moreThanShopping
   }
 ];
 
@@ -129,11 +135,10 @@ const WhyChooseUrbandrop = () => {
                   return (
                     <motion.div
                       key={feature.title}
-                      className={`relative ${isSpecialActive ? 'p-8 md:p-16 lg:p-20' : 'p-6 md:p-8 lg:p-10'} rounded-3xl cursor-pointer transition-all duration-500 h-[35vh] md:h-[40vh] lg:h-[50vh] flex flex-col justify-center ${
-                        isActive
+                      className={`relative ${isSpecialActive ? 'p-8 md:p-16 lg:p-20' : 'p-6 md:p-8 lg:p-10'} rounded-3xl cursor-pointer transition-all duration-500 h-[35vh] md:h-[40vh] lg:h-[50vh] flex flex-col justify-center ${isActive
                           ? 'bg-gradient-to-r from-[#5CB35E]/20 to-[#4a954d]/20 border-2 border-[#5CB35E]/50 shadow-2xl scale-105'
                           : 'bg-white/5 border border-white/10 hover:bg-white/10'
-                      }`}
+                        }`}
                       onClick={() => goToFeature(index)}
                       whileHover={{ scale: isActive ? 1.07 : 1.02 }}
                       whileTap={{ scale: isActive ? 1.05 : 0.98 }}
@@ -274,7 +279,7 @@ const WhyChooseUrbandrop = () => {
           className="text-center mt-20"
         >
           <div className="rounded-3xl p-20 md:p-32 shadow-2xl relative overflow-hidden bg-cover bg-center"
-              style={{ backgroundImage: "url('/src/assets/images/home/foodies.jpg')" }}>
+            style={{ backgroundImage: `url(${foodies})` }}>
             <div className="absolute inset-0 bg-black/60"></div>
 
             <div className="relative z-10">
