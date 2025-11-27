@@ -7,11 +7,12 @@ const Footer = () => {
     { name: "Cookies Policy", href: "/cookies-policy" },
     { name: "Terms & Conditions", href: "/terms-conditions" },
     { name: "FAQs", href: "/faqs" },
+    { name: "Manage Cookies", action: "openCookiePreferences" },
   ];
 
   const importantLinks = [
     { name: "About", href: "/about-us" },
-    { name: "Features", href: "/features" },
+
     { name: "Customer", href: "/customer" },
     { name: "Advertise on Urbandrop", href: "/advertise" },
     { name: "Be a Merchant", href: "/become-merchant" },
@@ -76,7 +77,16 @@ const Footer = () => {
           <ul className="space-y-2">
             {legalLinks.map((link) => (
               <li key={link.name}>
-                <a href={link.href} className="hover:text-primary transition">{link.name}</a>
+                {link.action ? (
+                  <button
+                    onClick={() => window.dispatchEvent(new Event(link.action))}
+                    className="hover:text-primary transition text-left"
+                  >
+                    {link.name}
+                  </button>
+                ) : (
+                  <a href={link.href} className="hover:text-primary transition">{link.name}</a>
+                )}
               </li>
             ))}
           </ul>

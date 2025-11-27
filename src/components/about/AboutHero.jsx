@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-// import heroImage from '../../assets/images/hero/market-woman.jpg'; // Removed due to import error
+import heroImage from '../../assets/images/about/market-woman.jpg'; 
 
 const AboutHero = () => {
     return (
@@ -23,16 +23,6 @@ const AboutHero = () => {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
                     >
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.8 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.6, delay: 0.1 }}
-                            className="inline-block mb-6"
-                        >
-                            <span className="bg-white/20 backdrop-blur-sm text-white px-6 py-2 rounded-full text-sm font-semibold uppercase tracking-wider shadow-lg">
-                                Our Story
-                            </span>
-                        </motion.div>
 
                         <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
                             Delivering <span className="bg-[#f1be21] bg-clip-text text-transparent">Freshness</span>.<br />
@@ -65,14 +55,11 @@ const AboutHero = () => {
                                 className="relative z-10"
                             >
                                 <div className="w-full max-w-lg md:max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                                    {/* <img
+                                    { <img
                                         src={heroImage}
                                         alt="Friendly local merchant"
                                         className="w-full h-full object-cover"
-                                    /> */}
-                                    <div className="w-full h-96 bg-gray-300 flex items-center justify-center text-gray-600 font-semibold">
-                                        Image Placeholder
-                                    </div>
+                                    /> }
                                     {/* Overlay gradient */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                                 </div>
