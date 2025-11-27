@@ -149,7 +149,7 @@ const BenefitCard = ({ benefit, index }) => {
                     </div>
 
                     {/* Content */}
-                    <div className="absolute inset-0 p-12 flex flex-col justify-end z-10">
+                    <div className={`absolute inset-0 p-12 flex flex-col justify-end z-10 ${benefit.align === 'right' ? 'items-end text-right' : 'items-start text-left'}`}>
                         <motion.div
                             initial={{ y: 30, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
@@ -159,7 +159,7 @@ const BenefitCard = ({ benefit, index }) => {
                             <h3 className="text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-2xl tracking-tighter">
                                 {benefit.title}
                             </h3>
-                            <div className="h-1 w-20 bg-primary mb-6 rounded-full" />
+                            <div className={`h-1 w-20 bg-primary mb-6 rounded-full ${benefit.align === 'right' ? 'ml-auto' : ''}`} />
                             <p className="text-xl md:text-2xl text-white/90 font-light tracking-wide max-w-md">
                                 {benefit.subtitle}
                             </p>
@@ -195,7 +195,7 @@ const UrbandropBenefit = () => {
                     className="text-center mb-40"
                 >
                     <h2 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter">
-                        Why <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">UrbanDrop</span>?
+                        Why <span className="text-[#5CB35E]">Urban</span><span className="text-yellow-400">Drop</span>?
                     </h2>
                     <p className="text-2xl text-gray-400 max-w-3xl mx-auto font-light">
                         Elevating your lifestyle with every delivery.
