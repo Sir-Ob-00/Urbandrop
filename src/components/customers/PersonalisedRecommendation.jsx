@@ -1,34 +1,34 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
-import jollofKitchenImage from '../../assets/images/customer/jollof & kitchen.png';
-import ampesiCustomerImage from '../../assets/images/customer/ampesi.png';
-import doroWatImage from '../../assets/images/customer/doro wat.jpg';
+import jollofKitchenImage from '../../assets/images/customer/BITTER-GOURD_400x.jpg';
+import ampesiCustomerImage from '../../assets/images/customer/POUNDO-IYAN-BLUE-BAY-1KG×12.jpg';
+import doroWatImage from '../../assets/images/customer/DRPEPPER330ml.jpg';
 import deliverPersonImage from '../../assets/images/customer/deliver-person.jpg';
 
 const categories = [
     {
         id: 1,
         name: 'Top Picks Near You',
-        description: 'Highly rated spots in your area',
+        description: 'Highly rated groceries in your area',
         image: jollofKitchenImage,
     },
     {
         id: 2,
         name: 'Trending This Week',
-        description: 'The most popular dishes right now',
+        description: 'The most popular grocery right now',
         image: doroWatImage,
     },
     {
         id: 3,
         name: 'Fastest to Deliver',
-        description: 'Get your food in under 30 minutes',
+        description: 'Get your groceries in under 30 minutes',
         image: deliverPersonImage,
     },
     {
         id: 4,
         name: 'Budget-Friendly',
-        description: 'Delicious meals that save you money',
+        description: 'Delicious groceries that save you money',
         image: ampesiCustomerImage,
     },
 ];

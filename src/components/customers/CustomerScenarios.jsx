@@ -1,37 +1,37 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import scenarioMorning from '../../assets/images/customer/scenario_morning.png';
-import scenarioParty from '../../assets/images/customer/scenario_party.png';
-import scenarioHealth from '../../assets/images/customer/scenario_health.png';
-import scenarioStudent from '../../assets/images/customer/scenario_student.png';
+import groceriesImage from '../../assets/images/features/groceries-1.avif';
+import ethnicImage from '../../assets/images/features/ethnic-groceries.avif';
+import shopFromHomeImage from '../../assets/images/customer/customer-woman.jpg';
+import deliveryImage from '../../assets/images/customer/deliver-person.jpg';
 
 const scenarios = [
     {
         id: 1,
-        title: 'Late for Work?',
-        subtitle: 'Breakfast delivered fast.',
-        image: scenarioMorning,
+        title: 'Everything You Need',
+        subtitle: 'From fresh produce to pantry staples.',
+        image: groceriesImage,
         align: 'bottom-left',
     },
     {
         id: 2,
-        title: 'Hosting Friends?',
-        subtitle: 'Drinks & snacks delivered instantly.',
-        image: scenarioParty,
+        title: 'Authentic & Local',
+        subtitle: 'Hard-to-find ethnic ingredients at your fingertips.',
+        image: ethnicImage,
         align: 'center',
     },
     {
         id: 3,
-        title: 'Feeling Sick?',
-        subtitle: 'Pharmacy essentials at your doorstep.',
-        image: scenarioHealth,
+        title: 'Shop from Home',
+        subtitle: 'Skip the lines and shop with ease.',
+        image: shopFromHomeImage,
         align: 'bottom-right',
     },
     {
         id: 4,
-        title: 'Busy Student?',
-        subtitle: 'Groceries delivered right to your hostel.',
-        image: scenarioStudent,
+        title: 'Delivered to You',
+        subtitle: 'Fresh groceries brought right to your door.',
+        image: deliveryImage,
         align: 'top-left',
     },
 ];
@@ -47,7 +47,7 @@ const CustomerScenarios = () => {
                     viewport={{ once: true }}
                     className="text-4xl md:text-5xl font-bold text-dark"
                 >
-                    Made for Every Moment of <span className="text-primary">Your Day</span>
+                    Groceries Delivered at <span className="text-primary">Your Convenience</span>
                 </motion.h2>
             </div>
 
@@ -69,9 +69,9 @@ const CustomerScenarios = () => {
 
                         {/* Content */}
                         <div className={`absolute inset-0 p-12 md:p-24 flex flex-col ${scenario.align === 'bottom-left' ? 'justify-end items-start' :
-                                scenario.align === 'center' ? 'justify-center items-center text-center' :
-                                    scenario.align === 'bottom-right' ? 'justify-end items-end text-right' :
-                                        'justify-start items-start'
+                            scenario.align === 'center' ? 'justify-center items-center text-center' :
+                                scenario.align === 'bottom-right' ? 'justify-end items-end text-right' :
+                                    'justify-start items-start'
                             }`}>
                             <motion.div
                                 initial={{ opacity: 0, y: 30 }}

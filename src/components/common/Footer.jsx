@@ -6,7 +6,7 @@ const Footer = () => {
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Cookies Policy", href: "/cookies-policy" },
     { name: "Terms & Conditions", href: "/terms-conditions" },
-    { name: "FAQs", href: "/faqs" },
+
     { name: "Manage Cookies", action: "openCookiePreferences" },
   ];
 
