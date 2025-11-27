@@ -33,7 +33,7 @@ const AppDownloadSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content - Coming from Right */}
           <motion.div
-            initial={{ opacity: 0, x: 1000 }}
+            initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
@@ -66,7 +66,7 @@ const AppDownloadSection = () => {
 
           {/* Right Image - Coming from Left */}
           <motion.div
-            initial={{ opacity: 0, x: -1000 }}
+            initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
             viewport={{ once: true }}
