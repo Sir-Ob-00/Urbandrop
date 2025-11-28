@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 import ChinaFlag from '../../assets/images/home/China/Flag_of_the_People\'s_Republic_of_China.svg.png';
 import ChinaImg1 from '../../assets/images/home/China/4b346a648a9f1d32ee6f2ab583bd9d33_400x.png';
@@ -137,6 +138,7 @@ const countries = [
 
 const EthnicMosaic = () => {
   const [gridItems, setGridItems] = useState([]);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const initializeGrid = () => {
@@ -195,7 +197,7 @@ const EthnicMosaic = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Every Culture, One Marketplace
+            {t('home.mosaic.title')}
           </motion.h2>
           <motion.p
             className="text-xl text-gray-600"
@@ -204,7 +206,7 @@ const EthnicMosaic = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            Discover ingredients from Africa, Asia, and beyond.
+            {t('home.mosaic.subtitle')}
           </motion.p>
         </motion.div>
 

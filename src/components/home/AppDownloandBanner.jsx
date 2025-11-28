@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import sliderImg from '../../assets/images/slider-urbandrop.png';
 import appstoreImg from '../../assets/images/appstore-black.png';
 import playstoreImg from '../../assets/images/playstore-black.png';
@@ -15,22 +16,22 @@ const CountdownUnit = ({ value, label }) => (
 
 // Calculate the launch date once and store it persistently
 const getLaunchDate = () => {
-    if (typeof window !== 'undefined') {
-        // Clear any existing stored date to reset the countdown
-        localStorage.removeItem('urbandrop_launch_date');
-        // Set launch date to 51 days and 19 hours from now
-        const d = new Date();
-        d.setDate(d.getDate() + 51);
-        d.setHours(d.getHours() + 19);
-        const launchTime = d.getTime();
-        localStorage.setItem('urbandrop_launch_date', launchTime.toString());
-        return launchTime;
-    }
-    // Fallback for SSR
-    const d = new Date();
-    d.setDate(d.getDate() + 51);
-    d.setHours(d.getHours() + 19);
-    return d.getTime();
+	if (typeof window !== 'undefined') {
+		// Clear any existing stored date to reset the countdown
+		localStorage.removeItem('urbandrop_launch_date');
+		// Set launch date to 51 days and 19 hours from now
+		const d = new Date();
+		d.setDate(d.getDate() + 51);
+		d.setHours(d.getHours() + 19);
+		const launchTime = d.getTime();
+		localStorage.setItem('urbandrop_launch_date', launchTime.toString());
+		return launchTime;
+	}
+	// Fallback for SSR
+	const d = new Date();
+	d.setDate(d.getDate() + 51);
+	d.setHours(d.getHours() + 19);
+	return d.getTime();
 }
 const launchDate = getLaunchDate();
 
@@ -54,6 +55,7 @@ const calculateTimeLeft = () => {
 const AppDownloandBanner = ({ compact = false }) => {
 	const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 	const [isMobile, setIsMobile] = useState(() => (typeof window !== 'undefined' ? window.innerWidth <= 768 : false));
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		const timer = setInterval(() => {
@@ -72,59 +74,59 @@ const AppDownloandBanner = ({ compact = false }) => {
 
 	return (
 		<>
-		<section className="bg-gray-100">
-			<div className="max-w-7xl mx-auto px-6 py-12 md:py-0 md:grid md:grid-cols-2 items-center gap-8">
-				{/* Left Column: Text Content */}
-				<motion.div 
-					className="text-[#5CB35E] text-center md:text-left"
-					initial={isMobile ? { opacity: 1, x: 0, scale: 1 } : { opacity: 0, x: -220, scale: 0.98 }}
-					animate={isMobile ? { opacity: 1, x: 0, scale: 1 } : {}}
-					whileInView={!isMobile ? { opacity: 1, x: 0, scale: 1 } : {}} viewport={{ amount: 0.45, once: true }} transition={{ duration: 0.8, ease: "easeOut" }}
-				>
-					<h2 className="text-3xl text-black md:text-5xl lg:text-7xl font-extrabold leading-tight mt-10">
-						Your <span className="text-[#5CB35E]">Groceries,</span> <br />
-						<span className="text-primary">Faster Than Ever.</span>
-					</h2>
-					<p className="mt-10 mb-20 text-gray-700 max-w-md mx-auto md:mx-0">
-						Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking.
-					</p>
-					<div className="flex justify-center md:justify-start items-center gap-10 h-12 mb-16">
-						<a href="/404" className="hover:opacity-90 transition-opacity">
-							<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
-						</a>
-						<a href="/404" className="hover:opacity-90 transition-opacity">
-							<img src={playstoreImg} alt="Get it on Google Play" className="h-full" />
-						</a>
-					</div>
+			<section className="bg-gray-100">
+				<div className="max-w-7xl mx-auto px-6 py-12 md:py-0 md:grid md:grid-cols-2 items-center gap-8">
+					{/* Left Column: Text Content */}
+					<motion.div
+						className="text-[#5CB35E] text-center md:text-left"
+						initial={isMobile ? { opacity: 1, x: 0, scale: 1 } : { opacity: 0, x: -220, scale: 0.98 }}
+						animate={isMobile ? { opacity: 1, x: 0, scale: 1 } : {}}
+						whileInView={!isMobile ? { opacity: 1, x: 0, scale: 1 } : {}} viewport={{ amount: 0.45, once: true }} transition={{ duration: 0.8, ease: "easeOut" }}
+					>
+						<h2 className="text-3xl text-black md:text-5xl lg:text-7xl font-extrabold leading-tight mt-10">
+							{t('home.appDownload.title1')} <span className="text-[#5CB35E]">{t('home.appDownload.title2')}</span> <br />
+							<span className="text-primary">{t('home.appDownload.title3')}</span>
+						</h2>
+						<p className="mt-10 mb-20 text-gray-700 max-w-md mx-auto md:mx-0">
+							{t('home.appDownload.desc')}
+						</p>
+						<div className="flex justify-center md:justify-start items-center gap-10 h-12 mb-16">
+							<a href="/404" className="hover:opacity-90 transition-opacity">
+								<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
+							</a>
+							<a href="/404" className="hover:opacity-90 transition-opacity">
+								<img src={playstoreImg} alt="Get it on Google Play" className="h-full" />
+							</a>
+						</div>
 
-					{/* Countdown Timer will appear in separate section below */}
-				</motion.div>
+						{/* Countdown Timer will appear in separate section below */}
+					</motion.div>
 
-				{/* Right Column: Image */}
-				<motion.div 
-					className="mt-8 md:mt-0 self-end"
-					initial={isMobile ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 120, scale: 0.98 }}
-					animate={isMobile ? { opacity: 1, y: 0, scale: 1 } : {}}
-					whileInView={!isMobile ? { opacity: 1, y: 0, scale: 1 } : {}} viewport={{ amount: 0.3, once: true }} transition={{ duration: 0.5, ease: "easeOut" }}
-				>
-					<img src={sliderImg} alt="Urbandrop Slider" className="w-full md:w-auto max-w-full md:max-w-2xl mx-auto block" />
-				</motion.div>
-			</div>
-		</section>
+					{/* Right Column: Image */}
+					<motion.div
+						className="mt-8 md:mt-0 self-end"
+						initial={isMobile ? { opacity: 1, y: 0, scale: 1 } : { opacity: 0, y: 120, scale: 0.98 }}
+						animate={isMobile ? { opacity: 1, y: 0, scale: 1 } : {}}
+						whileInView={!isMobile ? { opacity: 1, y: 0, scale: 1 } : {}} viewport={{ amount: 0.3, once: true }} transition={{ duration: 0.5, ease: "easeOut" }}
+					>
+						<img src={sliderImg} alt="Urbandrop Slider" className="w-full md:w-auto max-w-full md:max-w-2xl mx-auto block" />
+					</motion.div>
+				</div>
+			</section>
 
-		{/* Countdown & Launch Description Section */}
-		<section className="bg-white">
-			<div className={`max-w-7xl mx-auto px-6 ${compact ? 'py-6 md:py-8' : 'py-10 md:py-14'} text-center`}>
-				<div className="flex flex-wrap justify-center items-center gap-6">
-					<div className="flex gap-6 w-full max-w-md justify-between mx-auto md:mx-0">
-						<CountdownUnit value={timeLeft.days} label="Days" />
-						<CountdownUnit value={timeLeft.hours} label="Hours" />
-						<CountdownUnit value={timeLeft.minutes} label="Minutes" />
-						<CountdownUnit value={timeLeft.seconds} label="Seconds" />
+			{/* Countdown & Launch Description Section */}
+			<section className="bg-white">
+				<div className={`max-w-7xl mx-auto px-6 ${compact ? 'py-6 md:py-8' : 'py-10 md:py-14'} text-center`}>
+					<div className="flex flex-wrap justify-center items-center gap-6">
+						<div className="flex gap-6 w-full max-w-md justify-between mx-auto md:mx-0">
+							<CountdownUnit value={timeLeft.days} label={t('home.appDownload.countdown.days')} />
+							<CountdownUnit value={timeLeft.hours} label={t('home.appDownload.countdown.hours')} />
+							<CountdownUnit value={timeLeft.minutes} label={t('home.appDownload.countdown.minutes')} />
+							<CountdownUnit value={timeLeft.seconds} label={t('home.appDownload.countdown.seconds')} />
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 		</>
 	);
 };

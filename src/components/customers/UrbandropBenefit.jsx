@@ -1,49 +1,12 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import deliverPerson from '../../assets/images/customer/deliver-person.jpg';
 
 import customerWoman from '../../assets/images/customer/customer-woman.jpg';
 import ladyUrbandrop from '../../assets/images/customer/lady-urbandrop.jpg';
 import scenarioHealth from '../../assets/images/customer/scenario_health.png';
 import scenarioStudent from '../../assets/images/customer/scenario_student.png';
-
-const benefits = [
-    {
-        id: 1,
-        title: 'Save Time',
-        subtitle: 'Get hours back in your day.',
-        image: deliverPerson,
-        align: 'left',
-    },
-    {
-        id: 2,
-        title: 'Enjoy Comfort',
-        subtitle: 'Everything you need, delivered.',
-        image: customerWoman,
-        align: 'right',
-    },
-    {
-        id: 3,
-        title: 'Experience Convenience',
-        subtitle: 'Shop from your favorite local stores.',
-        image: ladyUrbandrop,
-        align: 'left',
-    },
-    {
-        id: 4,
-        title: 'Feel Safe',
-        subtitle: 'Contactless delivery options available.',
-        image: scenarioHealth,
-        align: 'right',
-    },
-    {
-        id: 5,
-        title: 'Best Deals',
-        subtitle: 'Exclusive offers just for you.',
-        image: scenarioStudent,
-        align: 'left',
-    },
-];
 
 const Particle = ({ delay }) => (
     <motion.div
@@ -178,6 +141,46 @@ const BenefitCard = ({ benefit, index }) => {
 };
 
 const UrbandropBenefit = () => {
+    const { t } = useTranslation();
+
+    const benefits = [
+        {
+            id: 1,
+            title: t('customer.benefits.items.saveTime.title'),
+            subtitle: t('customer.benefits.items.saveTime.subtitle'),
+            image: deliverPerson,
+            align: 'left',
+        },
+        {
+            id: 2,
+            title: t('customer.benefits.items.comfort.title'),
+            subtitle: t('customer.benefits.items.comfort.subtitle'),
+            image: customerWoman,
+            align: 'right',
+        },
+        {
+            id: 3,
+            title: t('customer.benefits.items.convenience.title'),
+            subtitle: t('customer.benefits.items.convenience.subtitle'),
+            image: ladyUrbandrop,
+            align: 'left',
+        },
+        {
+            id: 4,
+            title: t('customer.benefits.items.safe.title'),
+            subtitle: t('customer.benefits.items.safe.subtitle'),
+            image: scenarioHealth,
+            align: 'right',
+        },
+        {
+            id: 5,
+            title: t('customer.benefits.items.deals.title'),
+            subtitle: t('customer.benefits.items.deals.subtitle'),
+            image: scenarioStudent,
+            align: 'left',
+        },
+    ];
+
     return (
         <section className="py-32 bg-[#050505] relative overflow-hidden">
             {/* Ambient Background */}
@@ -195,10 +198,10 @@ const UrbandropBenefit = () => {
                     className="text-center mb-40"
                 >
                     <h2 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter">
-                        Why <span className="text-[#5CB35E]">Urban</span><span className="text-yellow-400">Drop</span>?
+                        {t('customer.benefits.title1')} <span className="text-[#5CB35E]">{t('customer.benefits.title2')}</span><span className="text-yellow-400">{t('customer.benefits.title3')}</span>{t('customer.benefits.title4')}
                     </h2>
                     <p className="text-2xl text-gray-400 max-w-3xl mx-auto font-light">
-                        Elevating your lifestyle with every delivery.
+                        {t('customer.benefits.subtitle')}
                     </p>
                 </motion.div>
 

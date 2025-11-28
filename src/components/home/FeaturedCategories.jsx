@@ -1,45 +1,47 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 import ladyUrbandrop from '../../assets/images/home/lady-urbandrop.jpg';
 import recipeBit from '../../assets/images/home/recipe bit.jpg';
 import marketWoman from '../../assets/images/home/market-woman.jpg';
 import deliveryGuy from '../../assets/images/home/deliveryguy.jpg';
 
-const categories = [
-  {
-    id: 1,
-    image: ladyUrbandrop,
-    title: 'Shop it, How you say it',
-    description: 'We speak your language. Experience shopping that understands you.',
-    color: 'from-orange-400/80 to-red-500/80'
-  },
-  {
-    id: 2,
-    image: recipeBit,
-    title: 'UrbanRecipe',
-    description: 'Discover, Cook, & Share your culture with authentic ingredients.',
-    color: 'from-green-400/80 to-emerald-600/80'
-  },
-  {
-    id: 3,
-    image: marketWoman,
-    title: 'Sell Local. Go Global',
-    description: 'Empowering local merchants to reach a global audience.',
-    color: 'from-blue-400/80 to-indigo-600/80'
-  },
-  {
-    id: 4,
-    image: deliveryGuy,
-    title: 'Rider: Delivering Culture',
-    description: 'Quick & Reliable Service bringing home to your doorstep.',
-    color: 'from-purple-400/80 to-pink-600/80'
-  }
-];
-
 const FeaturedCategories = () => {
   const [activeId, setActiveId] = useState(1);
+  const { t } = useTranslation();
+
+  const categories = [
+    {
+      id: 1,
+      image: ladyUrbandrop,
+      title: t('home.featured.cat1.title'),
+      description: t('home.featured.cat1.desc'),
+      color: 'from-orange-400/80 to-red-500/80'
+    },
+    {
+      id: 2,
+      image: recipeBit,
+      title: t('home.featured.cat2.title'),
+      description: t('home.featured.cat2.desc'),
+      color: 'from-green-400/80 to-emerald-600/80'
+    },
+    {
+      id: 3,
+      image: marketWoman,
+      title: t('home.featured.cat3.title'),
+      description: t('home.featured.cat3.desc'),
+      color: 'from-blue-400/80 to-indigo-600/80'
+    },
+    {
+      id: 4,
+      image: deliveryGuy,
+      title: t('home.featured.cat4.title'),
+      description: t('home.featured.cat4.desc'),
+      color: 'from-purple-400/80 to-pink-600/80'
+    }
+  ];
 
   return (
     <section className="py-24 relative overflow-hidden bg-[#fff5ea]">
@@ -54,11 +56,11 @@ const FeaturedCategories = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
-            Featured Categories
+            {t('home.featured.title')}
           </h2>
           <div className="w-24 h-1 bg-gray-900 mx-auto rounded-full mb-6"></div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Explore our curated selection of services designed to bring the best of culture and convenience to you.
+            {t('home.featured.subtitle')}
           </p>
         </motion.div>
 
@@ -103,7 +105,7 @@ const FeaturedCategories = () => {
                       <h3 className="text-3xl font-bold mb-3 leading-tight">{category.title}</h3>
                       <p className="text-lg text-gray-200 mb-6 max-w-md">{category.description}</p>
                       <button className="flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur-md text-white px-6 py-3 rounded-full transition-all group">
-                        Explore Now
+                        {t('home.featured.exploreNow')}
                         <ArrowUpRight className="w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                       </button>
                     </motion.div>
@@ -154,7 +156,7 @@ const FeaturedCategories = () => {
                 <h3 className="text-2xl font-bold mb-2">{category.title}</h3>
                 <p className="text-gray-200 mb-4 text-sm">{category.description}</p>
                 <button className="flex items-center gap-2 text-sm font-semibold hover:underline">
-                  Explore Now <ArrowUpRight className="w-4 h-4" />
+                  {t('home.featured.exploreNow')} <ArrowUpRight className="w-4 h-4" />
                 </button>
               </div>
             </motion.div>

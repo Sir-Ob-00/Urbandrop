@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, CheckCircle, User, Mail, MessageSquare, Tag, Phone, MapPin, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +13,7 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [focusedField, setFocusedField] = useState(null);
+  const { t } = useTranslation();
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -32,10 +34,10 @@ const ContactForm = () => {
 
   const subjectOptions = [
     { value: '', label: '' },
-    { value: 'customer', label: 'Customer Support' },
-    { value: 'merchant', label: 'Merchant Support' },
-    { value: 'advertising', label: 'Advertising & Partnerships' },
-    { value: 'other', label: 'Other' },
+    { value: 'customer', label: t('contact.form.subjects.customer') },
+    { value: 'merchant', label: t('contact.form.subjects.merchant') },
+    { value: 'advertising', label: t('contact.form.subjects.advertising') },
+    { value: 'other', label: t('contact.form.subjects.other') },
   ];
 
   return (
@@ -53,18 +55,18 @@ const ContactForm = () => {
             transition={{ duration: 0.8 }}
           >
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Contact Information</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">{t('contact.form.sidebar.title')}</h3>
               <p className="text-gray-600 mb-8">
-                Fill out the form and our team will get back to you within 24 hours.
+                {t('contact.form.sidebar.desc')}
               </p>
             </div>
 
             <div className="space-y-6">
               {[
-                { icon: Phone, title: "Call Us", content: "+44 123 456 7890", link: "tel:+441234567890" },
-                { icon: Mail, title: "Email Us", content: "hello@urbandrop.co.uk", link: "mailto:hello@urbandrop.co.uk" },
-                { icon: MapPin, title: "Visit Us", content: "123 Urban Street, London, UK", link: "#" },
-                { icon: Clock, title: "Working Hours", content: "Mon - Fri: 9am - 6pm", link: null }
+                { icon: Phone, title: t('contact.form.sidebar.callUs'), content: "+44 123 456 7890", link: "tel:+441234567890" },
+                { icon: Mail, title: t('contact.form.sidebar.emailUs'), content: "hello@urbandrop.co.uk", link: "mailto:hello@urbandrop.co.uk" },
+                { icon: MapPin, title: t('contact.form.sidebar.visitUs'), content: "123 Urban Street, London, UK", link: "#" },
+                { icon: Clock, title: t('contact.form.sidebar.workingHours'), content: t('contact.form.sidebar.workingHoursContent'), link: null }
               ].map((item, index) => (
                 <motion.a
                   key={index}
@@ -102,7 +104,7 @@ const ContactForm = () => {
                     {/* Name */}
                     <div className="relative">
                       <label className={`absolute left-4 transition-all duration-300 pointer-events-none ${focusedField === 'name' || formData.name ? '-top-2.5 text-xs bg-white px-2 text-[#5CB35E]' : 'top-4 text-gray-400'}`}>
-                        Full Name
+                        {t('contact.form.fields.fullName')}
                       </label>
                       <input
                         type="text"
@@ -120,7 +122,7 @@ const ContactForm = () => {
                     {/* Email */}
                     <div className="relative">
                       <label className={`absolute left-4 transition-all duration-300 pointer-events-none ${focusedField === 'email' || formData.email ? '-top-2.5 text-xs bg-white px-2 text-[#5CB35E]' : 'top-4 text-gray-400'}`}>
-                        Email Address
+                        {t('contact.form.fields.email')}
                       </label>
                       <input
                         type="email"
@@ -139,7 +141,7 @@ const ContactForm = () => {
                   {/* Subject */}
                   <div className="relative">
                     <label className={`absolute left-4 transition-all duration-300 pointer-events-none ${focusedField === 'subject' || formData.subject ? '-top-2.5 text-xs bg-white px-2 text-[#5CB35E]' : 'top-4 text-gray-400'}`}>
-                      Subject
+                      {t('contact.form.fields.subject')}
                     </label>
                     <select
                       name="subject"
@@ -160,7 +162,7 @@ const ContactForm = () => {
                   {/* Message */}
                   <div className="relative">
                     <label className={`absolute left-4 transition-all duration-300 pointer-events-none ${focusedField === 'message' || formData.message ? '-top-2.5 text-xs bg-white px-2 text-[#5CB35E]' : 'top-4 text-gray-400'}`}>
-                      Your Message
+                      {t('contact.form.fields.message')}
                     </label>
                     <textarea
                       name="message"
@@ -183,11 +185,11 @@ const ContactForm = () => {
                     {isSubmitting ? (
                       <>
                         <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent"></div>
-                        Sending...
+                        {t('contact.form.submit.sending')}
                       </>
                     ) : (
                       <>
-                        Send Message <Send size={20} />
+                        {t('contact.form.submit.send')} <Send size={20} />
                       </>
                     )}
                   </button>
@@ -201,9 +203,9 @@ const ContactForm = () => {
                   <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mb-6">
                     <CheckCircle size={48} className="text-[#5CB35E]" />
                   </div>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-4">Message Sent!</h3>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-4">{t('contact.form.success.title')}</h3>
                   <p className="text-gray-600 max-w-md">
-                    Thank you for reaching out. We've received your message and will get back to you shortly.
+                    {t('contact.form.success.desc')}
                   </p>
                 </motion.div>
               )}

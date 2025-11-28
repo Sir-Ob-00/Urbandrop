@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import heroVideo from '../../assets/videos/home-hero video.mp4';
+import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative h-screen flex items-center justify-center text-green-600 overflow-hidden">
       <video
@@ -30,7 +33,7 @@ const HeroSection = () => {
             transition={{ duration: 2, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            Discover
+            {t('home.hero.discover')}
           </motion.span>
           <br />
           <motion.span
@@ -40,7 +43,7 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 0.5, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            rich Ethnic
+            {t('home.hero.richEthnic')}
           </motion.span>
           <br />
           <motion.span
@@ -49,15 +52,15 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 1, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            Flavors
+            {t('home.hero.flavors')}
           </motion.span>
         </motion.h1>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="/order" className="bg-yellow-400 text-[#183A37] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">
-            Order Now
+            {t('home.hero.orderNow')}
           </a>
           <a href="/become-merchant" className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#183A37] transition-all shadow-lg">
-            Become a Merchant
+            {t('home.hero.becomeMerchant')}
           </a>
         </div>
       </div>

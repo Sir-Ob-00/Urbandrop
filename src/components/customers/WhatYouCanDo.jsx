@@ -1,40 +1,43 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
-import bubbleMeals from '../../assets/images/customer/bubble_meals.png';
-import bubbleGroceries from '../../assets/images/customer/bubble_groceries.png';
-import bubbleParcels from '../../assets/images/customer/bubble_parcels.png';
+import bubbleMeals from '../../assets/images/customer/buy groceries.jpg';
+import bubbleGroceries from '../../assets/images/customer/buy errands.jpg';
+import bubbleParcels from '../../assets/images/customer/ethnic flavor.jpg';
 
 // Reusing images as per original file
 const bubbleErrands = bubbleParcels;
 const bubbleEthnic = bubbleMeals;
 
-const features = [
-    {
-        id: 2,
-        title: 'Buy Groceries',
-        description: 'Fresh produce and essentials delivered to your door.',
-        image: bubbleGroceries,
-        className: 'md:col-span-1 md:row-span-2', // Tall item on the left
-    },
-    {
-        id: 4,
-        title: 'Hire Errands',
-        description: 'Need a hand? We can handle your daily tasks.',
-        image: bubbleErrands,
-        className: 'md:col-span-2 md:row-span-1', // Wide item top right
-    },
-    {
-        id: 5,
-        title: 'Ethnic Flavors',
-        description: 'Discover authentic tastes from around the world.',
-        image: bubbleEthnic,
-        className: 'md:col-span-2 md:row-span-1', // Wide item bottom right
-    },
-];
-
 const WhatYouCanDo = () => {
+    const { t } = useTranslation();
+
+    const features = [
+        {
+            id: 2,
+            title: t('customer.whatYouCanDo.items.groceries.title'),
+            description: t('customer.whatYouCanDo.items.groceries.desc'),
+            image: bubbleGroceries,
+            className: 'md:col-span-1 md:row-span-2', // Tall item on the left
+        },
+        {
+            id: 4,
+            title: t('customer.whatYouCanDo.items.errands.title'),
+            description: t('customer.whatYouCanDo.items.errands.desc'),
+            image: bubbleErrands,
+            className: 'md:col-span-2 md:row-span-1', // Wide item top right
+        },
+        {
+            id: 5,
+            title: t('customer.whatYouCanDo.items.ethnic.title'),
+            description: t('customer.whatYouCanDo.items.ethnic.desc'),
+            image: bubbleEthnic,
+            className: 'md:col-span-2 md:row-span-1', // Wide item bottom right
+        },
+    ];
+
     return (
         <section className="py-24 bg-[#fff5ea] relative overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -48,10 +51,10 @@ const WhatYouCanDo = () => {
                     transition={{ duration: 0.6 }}
                 >
                     <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
-                        What You Can Do
+                        {t('customer.whatYouCanDo.title')}
                     </h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        One app for all your daily needs. Discover the possibilities with Urbandrop.
+                        {t('customer.whatYouCanDo.desc')}
                     </p>
                 </motion.div>
 
@@ -86,7 +89,7 @@ const WhatYouCanDo = () => {
                                         {feature.description}
                                     </p>
                                     <div className="flex items-center gap-2 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200 text-[#5CB35E]">
-                                        Learn More <ArrowRight className="w-4 h-4" />
+                                        {t('customer.whatYouCanDo.learnMore')} <ArrowRight className="w-4 h-4" />
                                     </div>
                                 </div>
                             </div>

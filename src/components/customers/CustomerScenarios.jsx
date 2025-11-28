@@ -1,42 +1,45 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import groceriesImage from '../../assets/images/features/groceries-1.avif';
 import ethnicImage from '../../assets/images/features/ethnic-groceries.avif';
 import shopFromHomeImage from '../../assets/images/customer/customer-woman.jpg';
 import deliveryImage from '../../assets/images/customer/deliver-person.jpg';
 
-const scenarios = [
-    {
-        id: 1,
-        title: 'Everything You Need',
-        subtitle: 'From fresh produce to pantry staples.',
-        image: groceriesImage,
-        align: 'bottom-left',
-    },
-    {
-        id: 2,
-        title: 'Authentic & Local',
-        subtitle: 'Hard-to-find ethnic ingredients at your fingertips.',
-        image: ethnicImage,
-        align: 'center',
-    },
-    {
-        id: 3,
-        title: 'Shop from Home',
-        subtitle: 'Skip the lines and shop with ease.',
-        image: shopFromHomeImage,
-        align: 'bottom-right',
-    },
-    {
-        id: 4,
-        title: 'Delivered to You',
-        subtitle: 'Fresh groceries brought right to your door.',
-        image: deliveryImage,
-        align: 'top-left',
-    },
-];
-
 const CustomerScenarios = () => {
+    const { t } = useTranslation();
+
+    const scenarios = [
+        {
+            id: 1,
+            title: t('customer.scenarios.items.everything.title'),
+            subtitle: t('customer.scenarios.items.everything.subtitle'),
+            image: groceriesImage,
+            align: 'bottom-left',
+        },
+        {
+            id: 2,
+            title: t('customer.scenarios.items.authentic.title'),
+            subtitle: t('customer.scenarios.items.authentic.subtitle'),
+            image: ethnicImage,
+            align: 'center',
+        },
+        {
+            id: 3,
+            title: t('customer.scenarios.items.shopHome.title'),
+            subtitle: t('customer.scenarios.items.shopHome.subtitle'),
+            image: shopFromHomeImage,
+            align: 'bottom-right',
+        },
+        {
+            id: 4,
+            title: t('customer.scenarios.items.delivered.title'),
+            subtitle: t('customer.scenarios.items.delivered.subtitle'),
+            image: deliveryImage,
+            align: 'top-left',
+        },
+    ];
+
     return (
         <section className="bg-black text-white">
             <div className="py-16 text-center bg-background">
@@ -47,7 +50,7 @@ const CustomerScenarios = () => {
                     viewport={{ once: true }}
                     className="text-4xl md:text-5xl font-bold text-dark"
                 >
-                    Groceries Delivered at <span className="text-primary">Your Convenience</span>
+                    {t('customer.scenarios.title1')} <span className="text-primary">{t('customer.scenarios.title2')}</span>
                 </motion.h2>
             </div>
 

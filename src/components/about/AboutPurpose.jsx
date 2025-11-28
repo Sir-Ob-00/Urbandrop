@@ -1,8 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import bgImage from '../../assets/images/about/generated/about_purpose_bg.png';
+import { useTranslation } from 'react-i18next';
 
 const AboutPurpose = () => {
+    const { t } = useTranslation();
     return (
         <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
             {/* Background Image with Parallax-like fixed effect */}
@@ -24,13 +26,13 @@ const AboutPurpose = () => {
                     transition={{ duration: 1 }}
                 >
                     <h2 className="text-5xl md:text-7xl lg:text-8xl font-thin text-white mb-8 tracking-tight">
-                        Built With a <span className="font-serif italic">Purpose</span>
+                        {t('about.purpose.title1')} <span className="font-serif italic">{t('about.purpose.title2')}</span>
                     </h2>
 
                     <div className="h-1 w-24 bg-white/50 mx-auto mb-8"></div>
 
                     <p className="text-xl md:text-3xl text-white/90 font-light max-w-3xl mx-auto leading-relaxed drop-shadow-lg">
-                        "To simplify daily movement and bring convenience closer to people."
+                        "{t('about.purpose.quote')}"
                     </p>
                 </motion.div>
             </div>

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, Shield, Truck, Star, ChefHat, Heart, ChevronDown, ChevronUp } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 import shopTheWay from '../../assets/images/home/shop the way.jpg';
 import discoverStore from '../../assets/images/home/Discover Store.jpg';
@@ -8,32 +9,33 @@ import authenticProducts from '../../assets/images/home/Authentic-products.jpg';
 import moreThanShopping from '../../assets/images/home/more-than-shopping.jpg';
 import foodies from '../../assets/images/home/foodies.jpg';
 
-const features = [
-  {
-    title: 'Shop the Way You Speak',
-    description: 'Find ingredients using local or indigenous names whether it\'s kontomire, egusi, or atta flour. UrbanDrop understands your language.',
-    image: shopTheWay
-  },
-  {
-    title: 'Discover Stores That Feel Like Home',
-    description: 'Explore shops and categories curated by culture from Caribbean and South Asian to West African and Middle Eastern. Everything you miss from home, all in one app.',
-    image: discoverStore
-  },
-  {
-    title: 'Authentic Products, Verified by Culture',
-    description: 'Every product on UrbanDrop is checked for authenticity and labeled with its true origin and traditional use, so you always know you\'re getting the real thing.',
-    image: authenticProducts
-  },
-  {
-    title: 'More Than Shopping, It\'s Connection',
-    description: 'Get inspired with ethnic recipes, cooking guides, and cultural stories that celebrate where your food comes from and how it brings people together.',
-    image: moreThanShopping
-  }
-];
-
 const WhyChooseUrbandrop = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const { t } = useTranslation();
+
+  const features = [
+    {
+      title: t('home.whyChoose.feature1.title'),
+      description: t('home.whyChoose.feature1.desc'),
+      image: shopTheWay
+    },
+    {
+      title: t('home.whyChoose.feature2.title'),
+      description: t('home.whyChoose.feature2.desc'),
+      image: discoverStore
+    },
+    {
+      title: t('home.whyChoose.feature3.title'),
+      description: t('home.whyChoose.feature3.desc'),
+      image: authenticProducts
+    },
+    {
+      title: t('home.whyChoose.feature4.title'),
+      description: t('home.whyChoose.feature4.desc'),
+      image: moreThanShopping
+    }
+  ];
 
   useEffect(() => {
     if (!isAutoPlaying) return;
@@ -102,7 +104,7 @@ const WhyChooseUrbandrop = () => {
             className="inline-block mb-8"
           >
             <span className="bg-gradient-to-r from-[#5CB35E] to-[#4a954d] text-white px-8 py-3 rounded-full text-sm font-bold uppercase tracking-wider shadow-2xl">
-              Why Choose Urbandrop
+              {t('home.whyChoose.badge')}
             </span>
           </motion.div>
 
@@ -113,7 +115,7 @@ const WhyChooseUrbandrop = () => {
             viewport={{ once: true }}
             className="text-6xl md:text-7xl font-black text-[#183A37] mb-6 leading-tight"
           >
-            Experience the <span className="bg-gradient-to-r from-[#5CB35E] via-[#4a954d] to-[#3d7c40] bg-clip-text text-transparent">Difference</span>
+            {t('home.whyChoose.title')} <span className="bg-gradient-to-r from-[#5CB35E] via-[#4a954d] to-[#3d7c40] bg-clip-text text-transparent">{t('home.whyChoose.difference')}</span>
           </motion.h2>
         </motion.div>
 
@@ -136,8 +138,8 @@ const WhyChooseUrbandrop = () => {
                     <motion.div
                       key={feature.title}
                       className={`relative ${isSpecialActive ? 'p-8 md:p-16 lg:p-20' : 'p-6 md:p-8 lg:p-10'} rounded-3xl cursor-pointer transition-all duration-500 h-[35vh] md:h-[40vh] lg:h-[50vh] flex flex-col justify-center ${isActive
-                          ? 'bg-gradient-to-r from-[#5CB35E]/20 to-[#4a954d]/20 border-2 border-[#5CB35E]/50 shadow-2xl scale-105'
-                          : 'bg-white/5 border border-white/10 hover:bg-white/10'
+                        ? 'bg-gradient-to-r from-[#5CB35E]/20 to-[#4a954d]/20 border-2 border-[#5CB35E]/50 shadow-2xl scale-105'
+                        : 'bg-white/5 border border-white/10 hover:bg-white/10'
                         }`}
                       onClick={() => goToFeature(index)}
                       whileHover={{ scale: isActive ? 1.07 : 1.02 }}
@@ -235,7 +237,7 @@ const WhyChooseUrbandrop = () => {
                         </h3>
                         <div className="flex items-center gap-2">
                           <div className="w-12 md:w-16 h-1 bg-[#5CB35E] rounded-full"></div>
-                          <span className="text-[#5CB35E] font-semibold text-sm md:text-lg">Why Choose Us</span>
+                          <span className="text-[#5CB35E] font-semibold text-sm md:text-lg">{t('home.whyChoose.whyChooseUs')}</span>
                         </div>
                       </div>
 
@@ -290,7 +292,7 @@ const WhyChooseUrbandrop = () => {
                 viewport={{ once: true }}
                 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-8"
               >
-                Ready to Experience the Difference?
+                {t('home.whyChoose.ctaTitle')}
               </motion.h3>
               <motion.button
                 initial={{ opacity: 0, y: 20 }}
@@ -301,7 +303,7 @@ const WhyChooseUrbandrop = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-[#5CB35E] px-12 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl"
               >
-                Download Urbandrop App
+                {t('home.whyChoose.ctaButton')}
               </motion.button>
             </div>
           </div>

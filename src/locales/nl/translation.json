@@ -1,0 +1,196 @@
+                "sendMessage": "Bericht Versturen",
+                "callSupport": "Bel Support"
+            },
+            "form": {
+                "sidebar": {
+                    "title": "Contactinformatie",
+                    "desc": "Vul het formulier in en ons team neemt binnen 24 uur contact met u op.",
+                    "callUs": "Bel Ons",
+                    "emailUs": "Mail Ons",
+                    "visitUs": "Bezoek Ons",
+                    "workingHours": "Werkuren",
+                    "workingHoursContent": "Ma - Vr: 9:00 - 18:00"
+                },
+                "fields": {
+                    "fullName": "Volledige Naam",
+                    "email": "E-mailadres",
+                    "subject": "Onderwerp",
+                    "message": "Uw Bericht"
+                },
+                "subjects": {
+                    "customer": "Klantenservice",
+                    "merchant": "Handelaarsondersteuning",
+                    "advertising": "Adverteren & Partnerschappen",
+                    "other": "Anders"
+                },
+                "submit": {
+                    "sending": "Verzenden...",
+                    "send": "Bericht Versturen"
+                },
+                "success": {
+                    "title": "Bericht Verzonden!",
+                    "desc": "Bedankt voor het contact opnemen. We hebben uw bericht ontvangen en nemen binnenkort contact met u op."
+                }
+            }
+        },
+        "customer": {
+            "hero": {
+                "title1": "Proef het",
+                "title2": "Authentieke",
+                "desc": "Ervaar de levendige smaken van Afrika, Azië en het Caribisch gebied, bezorgd aan uw voordeur.",
+                "downloadApp": "Download App",
+                "orderDelivered": "Bestelling Bezorgd",
+                "justNow": "Zojuist • 2 min geleden"
+            },
+            "recommendation": {
+                "title1": "Samengesteld",
+                "title2": "Voor Jou",
+                "subtitle": "Verken collecties afgestemd op uw smaak",
+                "explore": "Verken Collectie",
+                "categories": {
+                    "topPicks": {
+                        "name": "Topkeuzes in de Buurt",
+                        "desc": "Hoog beoordeelde boodschappen in uw omgeving"
+                    },
+                    "trending": {
+                        "name": "Trending Deze Week",
+                        "desc": "De populairste boodschappen op dit moment"
+                    },
+                    "fastest": {
+                        "name": "Snelst Bezorgd",
+                        "desc": "Ontvang uw boodschappen in minder dan 30 minuten"
+                    },
+                    "budget": {
+                        "name": "Budgetvriendelijk",
+                        "desc": "Heerlijke boodschappen die u geld besparen"
+                    }
+                }
+            },
+            "scenarios": {
+                "title1": "Boodschappen Bezorgd op",
+                "title2": "Uw Gemak",
+                "items": {
+                    "everything": {
+                        "title": "Alles Wat U Nodig Heeft",
+                        "subtitle": "Van verse producten tot voorraadkastbenodigdheden."
+                    },
+                    "authentic": {
+                        "title": "Authentiek & Lokaal",
+                        "subtitle": "Moeilijk te vinden etnische ingrediënten binnen handbereik."
+                    },
+                    "shopHome": {
+                        "title": "Winkel vanuit Huis",
+                        "subtitle": "Sla de rijen over en winkel met gemak."
+                    },
+                    "delivered": {
+                        "title": "Bij U Bezorgd",
+                        "subtitle": "Verse boodschappen direct naar uw deur gebracht."
+                    }
+                }
+            },
+            "whatYouCanDo": {
+                "title": "Wat U Kunt Doen",
+                "desc": "Eén app voor al uw dagelijkse behoeften. Ontdek de mogelijkheden met Urbandrop.",
+                "learnMore": "Meer Leren",
+                "items": {
+                    "groceries": {
+                        "title": "Boodschappen Kopen",
+                        "desc": "Verse producten en benodigdheden aan uw deur bezorgd."
+                    },
+                    "errands": {
+                        "title": "Klusjes Inhuren",
+                        "desc": "Hulp nodig? Wij kunnen uw dagelijkse taken afhandelen."
+                    },
+                    "ethnic": {
+                        "title": "Etnische Smaken",
+                        "desc": "Ontdek authentieke smaken van over de hele wereld."
+                    }
+                }
+            },
+            "benefits": {
+                "title1": "Waarom",
+                "title2": "Urban",
+                "title3": "Drop",
+                "title4": "?",
+                "subtitle": "Uw levensstijl verbeteren met elke levering.",
+                "items": {
+                    "saveTime": {
+                        "title": "Tijd Besparen",
+                        "subtitle": "Krijg uren terug in uw dag."
+                    },
+                    "comfort": {
+                        "title": "Geniet van Comfort",
+                        "subtitle": "Alles wat u nodig heeft, bezorgd."
+                    },
+                    "convenience": {
+                        "title": "Ervaar Gemak",
+                        "subtitle": "Winkel bij uw favoriete lokale winkels."
+                    },
+                    "safe": {
+                        "title": "Voel je Veilig",
+                        "subtitle": "Contactloze bezorgopties beschikbaar."
+                    },
+                    "deals": {
+                        "title": "Beste Deals",
+                        "subtitle": "Exclusieve aanbiedingen speciaal voor u."
+                    }
+                }
+            },
+            "appDownload": {
+                "title1": "Krijg de Volledige",
+                "title2": "Urbandrop",
+                "android": "Download voor Android"
+            }
+        },
+        "about": {
+            "hero": {
+                "title1": "Versheid",
+                "title2": "Bezorgen",
+                "title3": "Gemeenschappen",
+                "title4": "Verbinden",
+                "desc": "Bij Urbandrop herdefiniëren we hoe lokale bedrijven contact maken met klanten — door snelheid, eenvoud en technologie."
+            },
+            "purpose": {
+                "title1": "Gebouwd Met een",
+                "title2": "Doel",
+                "quote": "Om dagelijkse beweging te vereenvoudigen en gemak dichter bij mensen te brengen."
+            },
+            "ecosystem": {
+                "title": "Het Ecosysteem",
+                "subtitle": "Waar alles samenkomt.",
+                "customers": {
+                    "title": "Klanten",
+                    "subtitle": "Directe Toegang"
+                },
+                "merchants": {
+                    "title": "Handelaren",
+                    "subtitle": "Groeimotor"
+                },
+                "riders": {
+                    "title": "Koeriers",
+                    "subtitle": "Flexibele Inkomsten"
+                },
+                "businesses": {
+                    "title": "Bedrijven",
+                    "subtitle": "Logistiek Opgelost"
+                }
+            },
+            "process": {
+                "step1": "Verkennen",
+                "step2": "Verbinden",
+                "step3": "Bewegen",
+                "step4": "Voltooien"
+            },
+            "highlights": {
+                "title": "De Ervaring",
+                "subtitle": "Premium Standaard",
+                "item1": "Snel & Verbonden",
+                "item2": "Alle Kanten Ondersteund",
+                "item3": "Mobiele Workflow",
+                "item4": "Gemeenschapsgroei",
+                "item5": "Betrouwbaar & Veilig"
+            }
+        }
+    }
+}
+```

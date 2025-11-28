@@ -1,40 +1,42 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import jollofKitchenImage from '../../assets/images/customer/BITTER-GOURD_400x.jpg';
 import ampesiCustomerImage from '../../assets/images/customer/POUNDO-IYAN-BLUE-BAY-1KG×12.jpg';
 import doroWatImage from '../../assets/images/customer/DRPEPPER330ml.jpg';
 import deliverPersonImage from '../../assets/images/customer/deliver-person.jpg';
 
-const categories = [
-    {
-        id: 1,
-        name: 'Top Picks Near You',
-        description: 'Highly rated groceries in your area',
-        image: jollofKitchenImage,
-    },
-    {
-        id: 2,
-        name: 'Trending This Week',
-        description: 'The most popular grocery right now',
-        image: doroWatImage,
-    },
-    {
-        id: 3,
-        name: 'Fastest to Deliver',
-        description: 'Get your groceries in under 30 minutes',
-        image: deliverPersonImage,
-    },
-    {
-        id: 4,
-        name: 'Budget-Friendly',
-        description: 'Delicious groceries that save you money',
-        image: ampesiCustomerImage,
-    },
-];
-
 const PersonalisedRecommendation = () => {
     const [activeId, setActiveId] = useState(1);
+    const { t } = useTranslation();
+
+    const categories = [
+        {
+            id: 1,
+            name: t('customer.recommendation.categories.topPicks.name'),
+            description: t('customer.recommendation.categories.topPicks.desc'),
+            image: jollofKitchenImage,
+        },
+        {
+            id: 2,
+            name: t('customer.recommendation.categories.trending.name'),
+            description: t('customer.recommendation.categories.trending.desc'),
+            image: doroWatImage,
+        },
+        {
+            id: 3,
+            name: t('customer.recommendation.categories.fastest.name'),
+            description: t('customer.recommendation.categories.fastest.desc'),
+            image: deliverPersonImage,
+        },
+        {
+            id: 4,
+            name: t('customer.recommendation.categories.budget.name'),
+            description: t('customer.recommendation.categories.budget.desc'),
+            image: ampesiCustomerImage,
+        },
+    ];
 
     return (
         <section className="py-20 bg-background overflow-hidden">
@@ -48,9 +50,9 @@ const PersonalisedRecommendation = () => {
                 >
                     <div>
                         <h2 className="text-4xl md:text-5xl font-bold text-dark mb-2">
-                            Curated <span className="text-primary">For You</span>
+                            {t('customer.recommendation.title1')} <span className="text-primary">{t('customer.recommendation.title2')}</span>
                         </h2>
-                        <p className="text-muted text-lg">Explore collections tailored to your taste</p>
+                        <p className="text-muted text-lg">{t('customer.recommendation.subtitle')}</p>
                     </div>
 
                     {/* Mobile/Tablet indicator or controls could go here if needed */}
@@ -104,7 +106,7 @@ const PersonalisedRecommendation = () => {
                                                     {category.description}
                                                 </p>
                                                 <button className="flex items-center gap-2 bg-white/20 backdrop-blur-md text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all group">
-                                                    Explore Collection
+                                                    {t('customer.recommendation.explore')}
                                                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                                 </button>
                                             </motion.div>

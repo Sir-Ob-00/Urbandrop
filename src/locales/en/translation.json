@@ -1,0 +1,295 @@
+{
+    "navbar": {
+        "findLocation": "Find location",
+        "home": "Home",
+        "contactUs": "Contact Us",
+        "getTheApp": "Get The App"
+    },
+    "footer": {
+        "findLocation": "Find location",
+        "brandDescription": "Your trusted online recipe and grocery marketplace — connecting UK customers to local merchants.",
+        "getExclusiveDeals": "Get Exclusive deals",
+        "enterEmail": "Enter your email",
+        "subscribe": "Subscribe",
+        "legalPages": "Legal pages",
+        "privacyPolicy": "Privacy Policy",
+        "cookiesPolicy": "Cookies Policy",
+        "termsConditions": "Terms & Conditions",
+        "manageCookies": "Manage Cookies",
+        "importantLinks": "Important links",
+        "about": "About",
+        "customer": "Customer",
+        "advertise": "Advertise on Urbandrop",
+        "beMerchant": "Be a Merchant",
+        "rightsReserved": "Urbandrop Ltd. All rights reserved."
+    },
+    "home": {
+        "hero": {
+            "discover": "Discover",
+            "richEthnic": "rich Ethnic",
+            "flavors": "Flavors",
+            "orderNow": "Order Now",
+            "becomeMerchant": "Become a Merchant"
+        },
+        "mosaic": {
+            "title": "Every Culture, One Marketplace",
+            "subtitle": "Discover ingredients from Africa, Asia, and beyond."
+        },
+        "featured": {
+            "title": "Featured Categories",
+            "subtitle": "Explore our curated selection of services designed to bring the best of culture and convenience to you.",
+            "exploreNow": "Explore Now",
+            "cat1": {
+                "title": "Shop it, How you say it",
+                "desc": "We speak your language. Experience shopping that understands you."
+            },
+            "cat2": {
+                "title": "UrbanRecipe",
+                "desc": "Discover, Cook, & Share your culture with authentic ingredients."
+            },
+            "cat3": {
+                "title": "Sell Local. Go Global",
+                "desc": "Empowering local merchants to reach a global audience."
+            },
+            "cat4": {
+                "title": "Rider: Delivering Culture",
+                "desc": "Quick & Reliable Service bringing home to your doorstep."
+            }
+        },
+        "whyChoose": {
+            "badge": "Why Choose Urbandrop",
+            "title": "Experience the",
+            "difference": "Difference",
+            "whyChooseUs": "Why Choose Us",
+            "ctaTitle": "Ready to Experience the Difference?",
+            "ctaButton": "Download Urbandrop App",
+            "feature1": {
+                "title": "Shop the Way You Speak",
+                "desc": "Find ingredients using local or indigenous names whether it's kontomire, egusi, or atta flour. UrbanDrop understands your language."
+            },
+            "feature2": {
+                "title": "Discover Stores That Feel Like Home",
+                "desc": "Explore shops and categories curated by culture from Caribbean and South Asian to West African and Middle Eastern. Everything you miss from home, all in one app."
+            },
+            "feature3": {
+                "title": "Authentic Products, Verified by Culture",
+                "desc": "Every product on UrbanDrop is checked for authenticity and labeled with its true origin and traditional use, so you always know you're getting the real thing."
+            },
+            "feature4": {
+                "title": "More Than Shopping, It's Connection",
+                "desc": "Get inspired with ethnic recipes, cooking guides, and cultural stories that celebrate where your food comes from and how it brings people together."
+            }
+        },
+        "appDownload": {
+            "title1": "Your",
+            "title2": "Groceries,",
+            "title3": "Faster Than Ever.",
+            "desc": "Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking.",
+            "countdown": {
+                "days": "Days",
+                "hours": "Hours",
+                "minutes": "Minutes",
+                "seconds": "Seconds"
+            }
+        }
+    },
+    "contact": {
+        "hero": {
+            "badge": "Get in Touch",
+            "title1": "Let's Start a",
+            "title2": "Conversation.",
+            "desc": "Whether you have a question, feedback, or just want to say hello, we're here to listen and help you grow.",
+            "sendMessage": "Send Message",
+            "callSupport": "Call Support"
+        },
+        "form": {
+            "sidebar": {
+                "title": "Contact Information",
+                "desc": "Fill out the form and our team will get back to you within 24 hours.",
+                "callUs": "Call Us",
+                "emailUs": "Email Us",
+                "visitUs": "Visit Us",
+                "workingHours": "Working Hours",
+                "workingHoursContent": "Mon - Fri: 9am - 6pm"
+            },
+            "fields": {
+                "fullName": "Full Name",
+                "email": "Email Address",
+                "subject": "Subject",
+                "message": "Your Message"
+            },
+            "subjects": {
+                "customer": "Customer Support",
+                "merchant": "Merchant Support",
+                "advertising": "Advertising & Partnerships",
+                "other": "Other"
+            },
+            "submit": {
+                "sending": "Sending...",
+                "send": "Send Message"
+            },
+            "success": {
+                "title": "Message Sent!",
+                "desc": "Thank you for reaching out. We've received your message and will get back to you shortly."
+            }
+        }
+    },
+    "customer": {
+        "hero": {
+            "title1": "Taste the",
+            "title2": "Authentic",
+            "desc": "Experience the vibrant flavors of Africa, Asia, and the Caribbean delivered to your doorstep.",
+            "downloadApp": "Download App",
+            "orderDelivered": "Order Delivered",
+            "justNow": "Just now • 2 mins ago"
+        },
+        "recommendation": {
+            "title1": "Curated",
+            "title2": "For You",
+            "subtitle": "Explore collections tailored to your taste",
+            "explore": "Explore Collection",
+            "categories": {
+                "topPicks": {
+                    "name": "Top Picks Near You",
+                    "desc": "Highly rated groceries in your area"
+                },
+                "trending": {
+                    "name": "Trending This Week",
+                    "desc": "The most popular grocery right now"
+                },
+                "fastest": {
+                    "name": "Fastest to Deliver",
+                    "desc": "Get your groceries in under 30 minutes"
+                },
+                "budget": {
+                    "name": "Budget-Friendly",
+                    "desc": "Delicious groceries that save you money"
+                }
+            }
+        },
+        "scenarios": {
+            "title1": "Groceries Delivered at",
+            "title2": "Your Convenience",
+            "items": {
+                "everything": {
+                    "title": "Everything You Need",
+                    "subtitle": "From fresh produce to pantry staples."
+                },
+                "authentic": {
+                    "title": "Authentic & Local",
+                    "subtitle": "Hard-to-find ethnic ingredients at your fingertips."
+                },
+                "shopHome": {
+                    "title": "Shop from Home",
+                    "subtitle": "Skip the lines and shop with ease."
+                },
+                "delivered": {
+                    "title": "Delivered to You",
+                    "subtitle": "Fresh groceries brought right to your door."
+                }
+            }
+        },
+        "whatYouCanDo": {
+            "title": "What You Can Do",
+            "desc": "One app for all your daily needs. Discover the possibilities with Urbandrop.",
+            "learnMore": "Learn More",
+            "items": {
+                "groceries": {
+                    "title": "Buy Groceries",
+                    "desc": "Fresh produce and essentials delivered to your door."
+                },
+                "errands": {
+                    "title": "Hire Errands",
+                    "desc": "Need a hand? We can handle your daily tasks."
+                },
+                "ethnic": {
+                    "title": "Ethnic Flavors",
+                    "desc": "Discover authentic tastes from around the world."
+                }
+            }
+        },
+        "benefits": {
+            "title1": "Why",
+            "title2": "Urban",
+            "title3": "Drop",
+            "title4": "?",
+            "subtitle": "Elevating your lifestyle with every delivery.",
+            "items": {
+                "saveTime": {
+                    "title": "Save Time",
+                    "subtitle": "Get hours back in your day."
+                },
+                "comfort": {
+                    "title": "Enjoy Comfort",
+                    "subtitle": "Everything you need, delivered."
+                },
+                "convenience": {
+                    "title": "Experience Convenience",
+                    "subtitle": "Shop from your favorite local stores."
+                },
+                "safe": {
+                    "title": "Feel Safe",
+                    "subtitle": "Contactless delivery options available."
+                },
+                "deals": {
+                    "title": "Best Deals",
+                    "subtitle": "Exclusive offers just for you."
+                }
+            }
+        },
+        "appDownload": {
+            "title1": "Get the Full",
+            "title2": "Urbandrop",
+            "android": "Download for Android"
+        }
+    },
+    "about": {
+        "hero": {
+            "title1": "Delivering",
+            "title2": "Freshness",
+            "title3": "Connecting",
+            "title4": "Communities",
+            "desc": "At Urbandrop, we're redefining how local businesses connect with customers — through speed, simplicity, and technology."
+        },
+        "purpose": {
+            "title1": "Built With a",
+            "title2": "Purpose",
+            "quote": "To simplify daily movement and bring convenience closer to people."
+        },
+        "ecosystem": {
+            "title": "The Ecosystem",
+            "subtitle": "Where everything connects.",
+            "customers": {
+                "title": "Customers",
+                "subtitle": "Instant Access"
+            },
+            "merchants": {
+                "title": "Merchants",
+                "subtitle": "Growth Engine"
+            },
+            "riders": {
+                "title": "Riders",
+                "subtitle": "Flexible Earnings"
+            },
+            "businesses": {
+                "title": "Businesses",
+                "subtitle": "Logistics Solved"
+            }
+        },
+        "process": {
+            "step1": "Explore",
+            "step2": "Connect",
+            "step3": "Move",
+            "step4": "Complete"
+        },
+        "highlights": {
+            "title": "The Experience",
+            "subtitle": "Premium Standard",
+            "item1": "Fast & Connected",
+            "item2": "All Sides Supported",
+            "item3": "Mobile Workflow",
+            "item4": "Community Growth",
+            "item5": "Reliable & Secure"
+        }
+    }
+}

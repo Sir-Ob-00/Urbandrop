@@ -1,0 +1,297 @@
+{
+    "navbar": {
+        "findLocation": "Trouver un emplacement",
+        "home": "Accueil",
+        "contactUs": "Contactez-nous",
+        "getTheApp": "Obtenir l'application"
+    },
+    "footer": {
+        "findLocation": "Trouver un emplacement",
+        "brandDescription": "Votre marché de recettes et d'épicerie en ligne de confiance — connectant les clients britanniques aux commerçants locaux.",
+        "getExclusiveDeals": "Obtenez des offres exclusives",
+        "enterEmail": "Entrez votre email",
+        "subscribe": "S'abonner",
+        "legalPages": "Pages légales",
+        "privacyPolicy": "Politique de confidentialité",
+        "cookiesPolicy": "Politique de cookies",
+        "termsConditions": "Termes et conditions",
+        "manageCookies": "Gérer les cookies",
+        "importantLinks": "Liens importants",
+        "about": "À propos",
+        "customer": "Client",
+        "advertise": "Faire de la publicité sur Urbandrop",
+        "beMerchant": "Devenir marchand",
+        "rightsReserved": "Urbandrop Ltd. Tous droits réservés."
+    },
+    "home": {
+        "hero": {
+            "discover": "Découvrir",
+            "richEthnic": "Riches Saveurs",
+            "flavors": "Ethniques",
+            "orderNow": "Commander Maintenant",
+            "becomeMerchant": "Devenir Marchand"
+        },
+        "mosaic": {
+            "title": "Chaque Culture, Un Marché",
+            "subtitle": "Découvrez des ingrédients d'Afrique, d'Asie et d'ailleurs."
+        },
+        "featured": {
+            "title": "Catégories en Vedette",
+            "subtitle": "Explorez notre sélection de services conçus pour vous apporter le meilleur de la culture et de la commodité.",
+            "exploreNow": "Explorer Maintenant",
+            "cat1": {
+                "title": "Achetez-le, Comme vous le dites",
+                "desc": "Nous parlons votre langue. Vivez une expérience d'achat qui vous comprend."
+            },
+            "cat2": {
+                "title": "RecetteUrbaine",
+                "desc": "Découvrez, Cuisinez et Partagez votre culture avec des ingrédients authentiques."
+            },
+            "cat3": {
+                "title": "Vendre Local. Devenir Global",
+                "desc": "Permettre aux commerçants locaux d'atteindre un public mondial."
+            },
+            "cat4": {
+                "title": "Livreur : Livrer la Culture",
+                "desc": "Service Rapide et Fiable apportant la maison à votre porte."
+            }
+        },
+        "whyChoose": {
+            "badge": "Pourquoi Choisir Urbandrop",
+            "title": "Vivez la",
+            "difference": "Différence",
+            "whyChooseUs": "Pourquoi Nous Choisir",
+            "ctaTitle": "Prêt à Vivre la Différence ?",
+            "ctaButton": "Télécharger l'App Urbandrop",
+            "feature1": {
+                "title": "Achetez Comme Vous Parlez",
+                "desc": "Trouvez des ingrédients en utilisant des noms locaux ou indigènes, que ce soit kontomire, egusi ou farine atta. UrbanDrop comprend votre langue."
+            },
+            "feature2": {
+                "title": "Découvrez des Magasins Qui Ressemblent à la Maison",
+                "desc": "Explorez des magasins et des catégories sélectionnés par culture, des Caraïbes et de l'Asie du Sud à l'Afrique de l'Ouest et au Moyen-Orient. Tout ce qui vous manque de chez vous, tout dans une seule application."
+            },
+            "feature3": {
+                "title": "Produits Authentiques, Vérifiés par la Culture",
+                "desc": "Chaque produit sur UrbanDrop est vérifié pour son authenticité et étiqueté avec sa véritable origine et son utilisation traditionnelle, afin que vous sachiez toujours que vous obtenez la vraie chose."
+            },
+            "feature4": {
+                "title": "Plus Qu'un Achat, C'est une Connexion",
+                "desc": "Inspirez-vous avec des recettes ethniques, des guides de cuisine et des histoires culturelles qui célèbrent d'où vient votre nourriture et comment elle rassemble les gens."
+            }
+        },
+        "appDownload": {
+            "title1": "Vos",
+            "title2": "Courses,",
+            "title3": "Plus Vite Que Jamais.",
+            "desc": "Téléchargez l'application Urbandrop pour des offres exclusives, un paiement plus rapide et un suivi des commandes en temps réel.",
+            "countdown": {
+                "days": "Jours",
+                "hours": "Heures",
+                "minutes": "Minutes",
+                "seconds": "Secondes"
+            }
+        }
+    },
+    "contact": {
+        "hero": {
+            "badge": "Entrer en Contact",
+            "title1": "Commençons une",
+            "title2": "Conversation.",
+            "desc": "Que vous ayez une question, des commentaires ou que vous vouliez simplement dire bonjour, nous sommes là pour écouter et vous aider à grandir.",
+            "sendMessage": "Envoyer un Message",
+            "callSupport": "Appeler le Support"
+        },
+        "form": {
+            "sidebar": {
+                "title": "Informations de Contact",
+                "desc": "Remplissez le formulaire et notre équipe vous répondra dans les 24 heures.",
+                "callUs": "Appelez-nous",
+                "emailUs": "Envoyez-nous un Email",
+                "visitUs": "Visitez-nous",
+                "workingHours": "Heures de Travail",
+                "workingHoursContent": "Lun - Ven : 9h - 18h"
+            },
+            "fields": {
+                "fullName": "Nom Complet",
+                "email": "Adresse Email",
+                "subject": "Sujet",
+                "message": "Votre Message"
+            },
+            "subjects": {
+                "customer": "Support Client",
+                "merchant": "Support Marchand",
+                "advertising": "Publicité et Partenariats",
+                "other": "Autre"
+            },
+            "submit": {
+                "sending": "Envoi...",
+                "send": "Envoyer le Message"
+            },
+            "success": {
+                "title": "Message Envoyé !",
+                "desc": "Merci de nous avoir contactés. Nous avons bien reçu votre message et vous répondrons sous peu."
+            }
+        }
+    },
+    "customer": {
+        "hero": {
+            "title1": "Goûtez à",
+            "title2": "L'Authentique",
+            "desc": "Découvrez les saveurs vibrantes d'Afrique, d'Asie et des Caraïbes livrées à votre porte.",
+            "downloadApp": "Télécharger l'App",
+            "orderDelivered": "Commande Livrée",
+            "justNow": "À l'instant • il y a 2 min"
+        },
+        "recommendation": {
+            "title1": "Sélectionné",
+            "title2": "Pour Vous",
+            "subtitle": "Explorez des collections adaptées à vos goûts",
+            "explore": "Explorer la Collection",
+            "categories": {
+                "topPicks": {
+                    "name": "Meilleurs Choix Près de Chez Vous",
+                    "desc": "Épiceries très bien notées dans votre région"
+                },
+                "trending": {
+                    "name": "Tendance Cette Semaine",
+                    "desc": "L'épicerie la plus populaire en ce moment"
+                },
+                "fastest": {
+                    "name": "Livraison la Plus Rapide",
+                    "desc": "Recevez vos courses en moins de 30 minutes"
+                },
+                "budget": {
+                    "name": "Économique",
+                    "desc": "Des courses délicieuses qui vous font économiser de l'argent"
+                }
+            }
+        },
+        "scenarios": {
+            "title1": "Courses Livrées à",
+            "title2": "Votre Convenance",
+            "items": {
+                "everything": {
+                    "title": "Tout Ce Dont Vous Avez Besoin",
+                    "subtitle": "Des produits frais aux essentiels du garde-manger."
+                },
+                "authentic": {
+                    "title": "Authentique et Local",
+                    "subtitle": "Ingrédients ethniques difficiles à trouver à portée de main."
+                },
+                "shopHome": {
+                    "title": "Achetez de Chez Vous",
+                    "subtitle": "Évitez les files d'attente et achetez en toute simplicité."
+                },
+                "delivered": {
+                    "title": "Livré à Vous",
+                    "subtitle": "Courses fraîches apportées directement à votre porte."
+                }
+            }
+        },
+        "whatYouCanDo": {
+            "title": "Ce Que Vous Pouvez Faire",
+            "desc": "Une application pour tous vos besoins quotidiens. Découvrez les possibilités avec Urbandrop.",
+            "learnMore": "En Savoir Plus",
+            "items": {
+                "groceries": {
+                    "title": "Acheter des Courses",
+                    "desc": "Produits frais et essentiels livrés à votre porte."
+                },
+                "errands": {
+                    "title": "Engager des Courses",
+                    "desc": "Besoin d'un coup de main ? Nous pouvons gérer vos tâches quotidiennes."
+                },
+                "ethnic": {
+                    "title": "Saveurs Ethniques",
+                    "desc": "Découvrez des saveurs authentiques du monde entier."
+                }
+            }
+        },
+        "benefits": {
+            "title1": "Pourquoi",
+            "title2": "Urban",
+            "title3": "Drop",
+            "title4": "?",
+            "subtitle": "Élever votre style de vie à chaque livraison.",
+            "items": {
+                "saveTime": {
+                    "title": "Gagnez du Temps",
+                    "subtitle": "Récupérez des heures dans votre journée."
+                },
+                "comfort": {
+                    "title": "Profitez du Confort",
+                    "subtitle": "Tout ce dont vous avez besoin, livré."
+                },
+                "convenience": {
+                    "title": "Vivez la Commodité",
+                    "subtitle": "Achetez dans vos magasins locaux préférés."
+                },
+                "safe": {
+                    "title": "Sentez-vous en Sécurité",
+                    "subtitle": "Options de livraison sans contact disponibles."
+                },
+                "deals": {
+                    "title": "Meilleures Offres",
+                    "subtitle": "Offres exclusives rien que pour vous."
+                }
+            }
+        },
+        "appDownload": {
+            "title1": "Obtenez l'Expérience",
+            "title2": "Urbandrop",
+            "desc": "Téléchargez notre application pour des commandes ultra-rapides, des offres exclusives et une expérience de découverte alimentaire fluide à portée de main.",
+            "ios": "Télécharger pour iOS",
+            "android": "Télécharger pour Android"
+        }
+    },
+    "about": {
+        "hero": {
+            "title1": "Livrer de la",
+            "title2": "Fraîcheur",
+            "title3": "Connecter les",
+            "title4": "Communautés",
+            "desc": "Chez Urbandrop, nous redéfinissons la façon dont les entreprises locales se connectent avec les clients — par la vitesse, la simplicité et la technologie."
+        },
+        "purpose": {
+            "title1": "Construit Avec un",
+            "title2": "But",
+            "quote": "Pour simplifier les déplacements quotidiens et rapprocher la commodité des gens."
+        },
+        "ecosystem": {
+            "title": "L'Écosystème",
+            "subtitle": "Où tout se connecte.",
+            "customers": {
+                "title": "Clients",
+                "subtitle": "Accès Instantané"
+            },
+            "merchants": {
+                "title": "Marchands",
+                "subtitle": "Moteur de Croissance"
+            },
+            "riders": {
+                "title": "Livreurs",
+                "subtitle": "Gains Flexibles"
+            },
+            "businesses": {
+                "title": "Entreprises",
+                "subtitle": "Logistique Résolue"
+            }
+        },
+        "process": {
+            "step1": "Explorer",
+            "step2": "Connecter",
+            "step3": "Bouger",
+            "step4": "Compléter"
+        },
+        "highlights": {
+            "title": "L'Expérience",
+            "subtitle": "Standard Premium",
+            "item1": "Rapide & Connecté",
+            "item2": "Tous Côtés Supportés",
+            "item3": "Flux de Travail Mobile",
+            "item4": "Croissance Communautaire",
+            "item5": "Fiable & Sécurisé"
+        }
+    }
+}

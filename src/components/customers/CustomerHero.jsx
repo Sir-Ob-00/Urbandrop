@@ -1,9 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import heroImage from '../../assets/images/customer/lady-urbandrop.jpg';
 
 const CustomerHero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#fff5ea] text-gray-900">
       {/* Background Image with Overlay */}
@@ -53,14 +56,14 @@ const CustomerHero = () => {
             className="space-y-8"
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight tracking-tight text-gray-900">
-              Taste the <br />
+              {t('customer.hero.title1')} <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00b36b] to-[#00ff99]">
-                Authentic
+                {t('customer.hero.title2')}
               </span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-lg">
-              Experience the vibrant flavors of Africa, Asia, and the Caribbean delivered to your doorstep.
+              {t('customer.hero.desc')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -70,7 +73,7 @@ const CustomerHero = () => {
                 className="bg-[#00b36b] text-white px-8 py-4 rounded-full font-bold text-lg shadow-[0_0_20px_rgba(0,179,107,0.3)] hover:shadow-[0_0_30px_rgba(0,179,107,0.5)] transition-all flex items-center justify-center gap-3 group"
               >
                 <Download size={24} />
-                Download App
+                {t('customer.hero.downloadApp')}
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </motion.button>
             </div>
@@ -98,8 +101,8 @@ const CustomerHero = () => {
                     <Download size={24} className="text-white" />
                   </div>
                   <div>
-                    <p className="text-gray-900 font-bold">Order Delivered</p>
-                    <p className="text-gray-600 text-xs">Just now • 2 mins ago</p>
+                    <p className="text-gray-900 font-bold">{t('customer.hero.orderDelivered')}</p>
+                    <p className="text-gray-600 text-xs">{t('customer.hero.justNow')}</p>
                   </div>
                 </div>
               </div>

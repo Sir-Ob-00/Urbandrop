@@ -1,21 +1,28 @@
 import React from "react";
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, ShoppingCart, Globe } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const legalLinks = [
-    { name: "Privacy Policy", href: "/privacy-policy" },
-    { name: "Cookies Policy", href: "/cookies-policy" },
-    { name: "Terms & Conditions", href: "/terms-conditions" },
+  const { t, i18n } = useTranslation();
 
-    { name: "Manage Cookies", action: "openCookiePreferences" },
+  const changeLanguage = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
+
+  const legalLinks = [
+    { name: t('footer.privacyPolicy'), href: "/privacy-policy" },
+    { name: t('footer.cookiesPolicy'), href: "/cookies-policy" },
+    { name: t('footer.termsConditions'), href: "/terms-conditions" },
+
+    { name: t('footer.manageCookies'), action: "openCookiePreferences" },
   ];
 
   const importantLinks = [
-    { name: "About", href: "/about-us" },
+    { name: t('footer.about'), href: "/about-us" },
 
-    { name: "Customer", href: "/customer" },
-    { name: "Advertise on Urbandrop", href: "/advertise" },
-    { name: "Be a Merchant", href: "/become-merchant" },
+    { name: t('footer.customer'), href: "/customer" },
+    { name: t('footer.advertise'), href: "/advertise" },
+    { name: t('footer.beMerchant'), href: "/become-merchant" },
   ];
 
   return (
@@ -26,20 +33,24 @@ const Footer = () => {
           {/* Left: Language Selector */}
           <div className="flex items-center gap-2">
             <Globe size={16} className="text-white/80" />
-            <select className="bg-transparent text-white/90 focus:outline-none text-sm">
-              <option>English</option>
-              <option>Hindu</option>
-              <option>French</option>
-              <option>German</option>
-              <option>Spanish</option>
-              <option>Mandarin</option>
-              <option>Dutch</option>
+            <select
+              className="bg-transparent text-white/90 focus:outline-none text-sm"
+              onChange={changeLanguage}
+              value={i18n.language}
+            >
+              <option value="en">English</option>
+              <option value="hi">Hindu</option>
+              <option value="fr">French</option>
+              <option value="de">German</option>
+              <option value="es">Spanish</option>
+              <option value="zh">Mandarin</option>
+              <option value="nl">Dutch</option>
             </select>
           </div>
 
           {/* Right: Location & Email */}
           <div className="flex flex-col items-end text-right">
-            <span className="font-medium text-white/90 text-sm">Find location</span>
+            <span className="font-medium text-white/90 text-sm">{t('footer.findLocation')}</span>
             <a href="mailto:DPO@urbandrop.io" className="text-white/80 hover:text-white transition-colors text-xs">
               DPO@urbandrop.io
             </a>
@@ -52,28 +63,28 @@ const Footer = () => {
         <div>
           <h2 className="text-4xl font-bold mb-3 text-white">Urbandrop</h2>
           <p className="text-white">
-            Your trusted online recipe and grocery marketplace — connecting UK customers to local merchants.
+            {t('footer.brandDescription')}
           </p>
         </div>
 
         {/* Newsletter */}
         <div>
-          <h3 className="font-bold text-2xl mb-4 text-white">Get Exclusive deals</h3>
+          <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.getExclusiveDeals')}</h3>
           <div className="relative">
             <input
               type="email"
-              placeholder="Enter your email"
+              placeholder={t('footer.enterEmail')}
               className="w-full bg-white text-black placeholder-gray-500 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CB35E8C]"
             />
             <button className="absolute right-1 top-1/2 -translate-y-1/2 bg-[#257a278c] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#257a278c] transition-colors">
-              Subscribe
+              {t('footer.subscribe')}
             </button>
           </div>
         </div>
 
         {/* Legal Pages */}
         <div>
-          <h3 className="font-bold text-2xl mb-4 text-white">Legal pages</h3>
+          <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.legalPages')}</h3>
           <ul className="space-y-2">
             {legalLinks.map((link) => (
               <li key={link.name}>
@@ -94,7 +105,7 @@ const Footer = () => {
 
         {/* Important Links */}
         <div>
-          <h3 className="font-bold text-2xl mb-4 text-white">Important links</h3>
+          <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.importantLinks')}</h3>
           <ul className="space-y-2">
             {importantLinks.map((link) => (
               <li key={link.name}>
@@ -119,7 +130,7 @@ const Footer = () => {
           <div className="flex items-center gap-2"><Phone size={16} /> +44 20 1234 5678</div>
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
         </div>
-        © {new Date().getFullYear()} Urbandrop Ltd. All rights reserved.
+        © {new Date().getFullYear()} {t('footer.rightsReserved')}
       </div>
     </footer>
   );

@@ -1,8 +1,10 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import bgImage from '../../assets/images/about/deliveryguy.jpg';
+import { useTranslation } from 'react-i18next';
 
 const AboutProcess = () => {
+    const { t } = useTranslation();
     const targetRef = useRef(null);
     const { scrollYProgress } = useScroll({
         target: targetRef,
@@ -13,10 +15,10 @@ const AboutProcess = () => {
     const opacity = useTransform(scrollYProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
 
     const steps = [
-        { id: "01", label: "Explore" },
-        { id: "02", label: "Connect" },
-        { id: "03", label: "Move" },
-        { id: "04", label: "Complete" }
+        { id: "01", label: t('about.process.step1') },
+        { id: "02", label: t('about.process.step2') },
+        { id: "03", label: t('about.process.step3') },
+        { id: "04", label: t('about.process.step4') }
     ];
 
     return (

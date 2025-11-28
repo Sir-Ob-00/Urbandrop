@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion';
-import heroImage from '../../assets/images/about/market-woman.jpg'; 
+import heroImage from '../../assets/images/about/market-woman.jpg';
+import { useTranslation } from 'react-i18next';
 
 const AboutHero = () => {
+    const { t } = useTranslation();
     return (
         <section className="relative bg-gradient-to-br from-[#5CB35E] via-[#4a954d] to-[#3d7c40] overflow-hidden">
             {/* Background Pattern */}
@@ -25,8 +27,8 @@ const AboutHero = () => {
                     >
 
                         <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
-                            Delivering <span className="bg-[#f1be21] bg-clip-text text-transparent">Freshness</span>.<br />
-                            Connecting <span className="bg-[#f1be21] bg-clip-text text-transparent">Communities</span>.
+                            {t('about.hero.title1')} <span className="bg-[#f1be21] bg-clip-text text-transparent">{t('about.hero.title2')}</span>.<br />
+                            {t('about.hero.title3')} <span className="bg-[#f1be21] bg-clip-text text-transparent">{t('about.hero.title4')}</span>.
                         </h1>
 
                         <motion.p
@@ -35,7 +37,7 @@ const AboutHero = () => {
                             transition={{ duration: 0.6, delay: 0.4 }}
                             className="text-xl md:text-2xl text-white/90 max-w-lg mx-auto md:mx-0 leading-relaxed"
                         >
-                            At Urbandrop, we're redefining how local businesses connect with customers — through speed, simplicity, and technology.
+                            {t('about.hero.desc')}
                         </motion.p>
                     </motion.div>
 
@@ -55,11 +57,11 @@ const AboutHero = () => {
                                 className="relative z-10"
                             >
                                 <div className="w-full max-w-lg md:max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                                    { <img
+                                    {<img
                                         src={heroImage}
                                         alt="Friendly local merchant"
                                         className="w-full h-full object-cover"
-                                    /> }
+                                    />}
                                     {/* Overlay gradient */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                                 </div>

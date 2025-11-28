@@ -3,13 +3,15 @@ import logo from "../../assets/images/urbandropLogo.png";
 import { Menu, X, Facebook, Twitter, Instagram, Globe } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [hovered, setHovered] = useState(null);
   const [isTop, setIsTop] = useState(true);
   const location = useLocation();
-  
+  const { t, i18n } = useTranslation();
+
   // listen to scroll to toggle header styles
   React.useEffect(() => {
     const onScroll = () => setIsTop(window.scrollY < 20);
@@ -18,9 +20,13 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const changeLanguage = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
+
   const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Contact Us", href: "/contact-us" },
+    { name: t('navbar.home'), href: "/" },
+    { name: t('navbar.contactUs'), href: "/contact-us" },
   ];
 
   return (
@@ -29,7 +35,7 @@ const Navbar = () => {
       <div className={`${isTop ? 'hidden bg-[#e6ece6]' : 'bg-[#e6ece6]'} text-[#5CB35E] text-sm transition-all duration-200 hidden lg:block`}>
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
           <div className="flex items-center gap-3">
-            <span className="font-medium">Find location</span>
+            <span className="font-medium">{t('navbar.findLocation')}</span>
             <span className="text-gray-500">|</span>
             <a href="mailto:info@urbandrop.com" className="hover:underline">info@urbandrop.com</a>
           </div>
@@ -48,20 +54,24 @@ const Navbar = () => {
 
           <div className="flex items-center gap-3">
             <Globe size={16} className="text-[#5CB35E]" />
-            <select className="bg-transparent text-[#5CB35E] focus:outline-none">
-              <option>English</option>
-              <option>Hindu</option>
-              <option>French</option>
-              <option>German</option>
-              <option>Spanish</option>
-              <option>Mandarin</option>
-              <option>Dutch</option>
+            <select
+              className="bg-transparent text-[#5CB35E] focus:outline-none"
+              onChange={changeLanguage}
+              value={i18n.language}
+            >
+              <option value="en">English</option>
+              <option value="hi">Hindu</option>
+              <option value="fr">French</option>
+              <option value="de">German</option>
+              <option value="es">Spanish</option>
+              <option value="zh">Mandarin</option>
+              <option value="nl">Dutch</option>
             </select>
           </div>
         </div>
       </div>
 
-  <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
           <img src={logo} alt="Urbandrop Logo" className={`h-8 w-auto ${isTop}`} />
@@ -89,7 +99,8 @@ const Navbar = () => {
                 />
                 <span className={`relative z-10 transition-colors duration-200 ${isHovered || isActive ? 'text-white' : ''}`}>{link.name}</span>
               </a>
-            )})}
+            )
+          })}
         </nav>
 
         {/* Get The App Button */}
@@ -97,7 +108,7 @@ const Navbar = () => {
           href="/get-the-app"
           className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition hidden lg:block"
         >
-          Get The App
+          {t('navbar.getTheApp')}
         </a>
 
         {/* Mobile Menu Button */}
@@ -142,16 +153,17 @@ const Navbar = () => {
                       <span className={`relative z-10 transition-colors duration-200 ${isHovered || isActive ? 'text-white' : ''}`}>{link.name}</span>
                     </a>
                   </li>
-                )})}
-                  <li className="w-full flex justify-center">
-                    <a
-                      href="/get-the-app"
-                      className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition w-11/12 text-center"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Get The App
-                    </a>
-                  </li>
+                )
+              })}
+              <li className="w-full flex justify-center">
+                <a
+                  href="/get-the-app"
+                  className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition w-11/12 text-center"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {t('navbar.getTheApp')}
+                </a>
+              </li>
             </ul>
           </motion.nav>
         )}

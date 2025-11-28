@@ -1,0 +1,298 @@
+{
+    "navbar": {
+        "findLocation": "查找位置",
+        "home": "首页",
+        "contactUs": "联系我们",
+        "getTheApp": "获取应用"
+    },
+    "footer": {
+        "findLocation": "查找位置",
+        "brandDescription": "您值得信赖的在线食谱和杂货市场 — 连接英国客户与本地商家。",
+        "getExclusiveDeals": "获取独家优惠",
+        "enterEmail": "输入您的电子邮件",
+        "subscribe": "订阅",
+        "legalPages": "法律页面",
+        "privacyPolicy": "隐私政策",
+        "cookiesPolicy": "Cookie 政策",
+        "termsConditions": "条款和条件",
+        "manageCookies": "管理 Cookie",
+        "importantLinks": "重要链接",
+        "about": "关于我们",
+        "customer": "客户",
+        "advertise": "在 Urbandrop 上做广告",
+        "beMerchant": "成为商家",
+        "rightsReserved": "Urbandrop Ltd. 版权所有。"
+    },
+    "home": {
+        "hero": {
+            "discover": "发现",
+            "richEthnic": "丰富的民族",
+            "flavors": "风味",
+            "orderNow": "立即订购",
+            "becomeMerchant": "成为商家"
+        },
+        "mosaic": {
+            "title": "每种文化，一个市场",
+            "subtitle": "发现来自非洲、亚洲及其他地区的食材。"
+        },
+        "featured": {
+            "title": "精选类别",
+            "subtitle": "探索我们精心挑选的服务，旨在为您带来最好的文化和便利。",
+            "exploreNow": "立即探索",
+            "cat1": {
+                "title": "按您的说法购买",
+                "desc": "我们说您的语言。体验懂您的购物。"
+            },
+            "cat2": {
+                "title": "城市食谱",
+                "desc": "用正宗食材发现、烹饪并分享您的文化。"
+            },
+            "cat3": {
+                "title": "本地销售。走向全球",
+                "desc": "赋能本地商家接触全球受众。"
+            },
+            "cat4": {
+                "title": "骑手：传递文化",
+                "desc": "快速可靠的服务，将家带到您家门口。"
+            }
+        },
+        "whyChoose": {
+            "badge": "为什么选择 Urbandrop",
+            "title": "体验",
+            "difference": "差异",
+            "whyChooseUs": "为什么选择我们",
+            "ctaTitle": "准备好体验差异了吗？",
+            "ctaButton": "下载 Urbandrop 应用",
+            "feature1": {
+                "title": "按您说话的方式购物",
+                "desc": "使用本地或土著名称查找食材，无论是 kontomire、egusi 还是 atta 面粉。UrbanDrop 懂您的语言。"
+            },
+            "feature2": {
+                "title": "发现感觉像家的商店",
+                "desc": "探索按文化策划的商店和类别，从加勒比海和南亚到西非和中东。您想念家的一切，都在一个应用中。"
+            },
+            "feature3": {
+                "title": "正宗产品，文化验证",
+                "desc": "UrbanDrop 上的每件产品都经过真实性检查，并标有其真实产地和传统用途，因此您总是知道您得到的是真货。"
+            },
+            "feature4": {
+                "title": "不仅仅是购物，更是连接",
+                "desc": "从庆祝食物来源及其如何将人们聚集在一起的民族食谱、烹饪指南和文化故事中获得灵感。"
+            }
+        },
+        "appDownload": {
+            "title1": "您的",
+            "title2": "杂货，",
+            "title3": "比以往更快。",
+            "desc": "下载 Urbandrop 应用以获取独家优惠、更快的结账和实时订单跟踪。",
+            "countdown": {
+                "days": "天",
+                "hours": "小时",
+                "minutes": "分钟",
+                "seconds": "秒"
+            }
+        }
+    },
+    "contact": {
+        "hero": {
+            "badge": "取得联系",
+            "title1": "让我们开始",
+            "title2": "对话。",
+            "desc": "无论您有问题、反馈还是只是想打个招呼，我们都在这里倾听并帮助您成长。",
+            "sendMessage": "发送消息",
+            "callSupport": "致电支持"
+        },
+        "form": {
+            "sidebar": {
+                "title": "联系信息",
+                "desc": "填写表格，我们的团队将在 24 小时内回复您。",
+                "callUs": "致电我们",
+                "emailUs": "给我们发邮件",
+                "visitUs": "拜访我们",
+                "workingHours": "工作时间",
+                "workingHoursContent": "周一至周五：上午 9 点 - 下午 6 点"
+            },
+            "fields": {
+                "fullName": "全名",
+                "email": "电子邮件地址",
+                "subject": "主题",
+                "message": "您的消息"
+            },
+            "subjects": {
+                "customer": "客户支持",
+                "merchant": "商家支持",
+                "advertising": "广告与合作",
+                "other": "其他"
+            },
+            "submit": {
+                "sending": "发送中...",
+                "send": "发送消息"
+            },
+            "success": {
+                "title": "消息已发送！",
+                "desc": "感谢您联系我们。我们已收到您的消息，将尽快回复您。"
+            }
+        }
+    },
+    "customer": {
+        "hero": {
+            "title1": "品尝",
+            "title2": "正宗",
+            "desc": "体验送到您家门口的非洲、亚洲和加勒比海的充满活力的风味。",
+            "downloadApp": "下载应用",
+            "orderDelivered": "订单已送达",
+            "justNow": "刚刚 • 2 分钟前"
+        },
+        "recommendation": {
+            "title1": "为您",
+            "title2": "精选",
+            "subtitle": "探索适合您口味的系列",
+            "explore": "探索系列",
+            "categories": {
+                "topPicks": {
+                    "name": "附近的精选",
+                    "desc": "您所在地区的高评分杂货"
+                },
+                "trending": {
+                    "name": "本周热门",
+                    "desc": "目前最受欢迎的杂货"
+                },
+                "fastest": {
+                    "name": "最快送达",
+                    "desc": "在 30 分钟内收到您的杂货"
+                },
+                "budget": {
+                    "name": "预算友好",
+                    "desc": "为您省钱的美味杂货"
+                }
+            }
+        },
+        "scenarios": {
+            "title1": "杂货送达",
+            "title2": "您的便利",
+            "items": {
+                "everything": {
+                    "title": "您需要的一切",
+                    "subtitle": "从新鲜农产品到食品储藏室主食。"
+                },
+                "authentic": {
+                    "title": "正宗与本地",
+                    "subtitle": "触手可及的难找民族食材。"
+                },
+                "shopHome": {
+                    "title": "在家购物",
+                    "subtitle": "跳过排队，轻松购物。"
+                },
+                "delivered": {
+                    "title": "送达给您",
+                    "subtitle": "新鲜杂货直接送到您家门口。"
+                }
+            }
+        },
+        "whatYouCanDo": {
+            "title": "您可以做什么",
+            "desc": "一个应用满足您所有的日常需求。用 Urbandrop 发现可能性。",
+            "learnMore": "了解更多",
+            "items": {
+                "groceries": {
+                    "title": "购买杂货",
+                    "desc": "新鲜农产品和必需品送到您家门口。"
+                },
+                "errands": {
+                    "title": "雇佣跑腿",
+                    "desc": "需要帮忙吗？我们可以处理您的日常任务。"
+                },
+                "ethnic": {
+                    "title": "民族风味",
+                    "desc": "发现来自世界各地的正宗口味。"
+                }
+            }
+        },
+        "benefits": {
+            "title1": "为什么",
+            "title2": "Urban",
+            "title3": "Drop",
+            "title4": "?",
+            "subtitle": "通过每次交付提升您的生活方式。",
+            "items": {
+                "saveTime": {
+                    "title": "节省时间",
+                    "subtitle": "找回您一天中的时间。"
+                },
+                "comfort": {
+                    "title": "享受舒适",
+                    "subtitle": "您需要的一切，已送达。"
+                },
+                "convenience": {
+                    "title": "体验便利",
+                    "subtitle": "从您最喜欢的本地商店购物。"
+                },
+                "safe": {
+                    "title": "感到安全",
+                    "subtitle": "提供无接触配送选项。"
+                },
+                "deals": {
+                    "title": "最佳优惠",
+                    "subtitle": "专为您提供的独家优惠。"
+                }
+            }
+        },
+        "appDownload": {
+            "title1": "获取完整的",
+            "title2": "Urbandrop",
+```json
+                "android": "下载 Android 版"
+        }
+    }
+},
+"about": {
+    "hero": {
+        "title1": "传递",
+        "title2": "新鲜",
+        "title3": "连接",
+        "title4": "社区",
+        "desc": "在 Urbandrop，我们要重新定义本地企业如何通过速度、简单性和技术与客户建立联系。"
+    },
+    "purpose": {
+        "title1": "以此为",
+        "title2": "目的",
+        "quote": "简化日常活动并将便利带给人们。"
+    },
+    "ecosystem": {
+        "title": "生态系统",
+        "subtitle": "万物互联的地方。",
+        "customers": {
+            "title": "客户",
+            "subtitle": "即时访问"
+        },
+        "merchants": {
+            "title": "商家",
+            "subtitle": "增长引擎"
+        },
+        "riders": {
+            "title": "骑手",
+            "subtitle": "灵活收入"
+        },
+        "businesses": {
+            "title": "企业",
+            "subtitle": "物流解决方案"
+        }
+    },
+    "process": {
+        "step1": "探索",
+        "step2": "连接",
+        "step3": "移动",
+        "step4": "完成"
+    },
+    "highlights": {
+        "title": "体验",
+        "subtitle": "优质标准",
+        "item1": "快速且互联",
+        "item2": "支持各方",
+        "item3": "移动工作流程",
+        "item4": "社区增长",
+        "item5": "可靠且安全"
+    }
+}
+}
+```

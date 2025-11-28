@@ -2,15 +2,17 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import bgImage from '../../assets/images/about/generated/about_ecosystem_bg.png';
 import { FiArrowRight } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
 const AboutEcosystem = () => {
+    const { t } = useTranslation();
     const [activeItem, setActiveItem] = useState(0);
 
     const items = [
-        { id: 0, title: "Customers", subtitle: "Instant Access" },
-        { id: 1, title: "Merchants", subtitle: "Growth Engine" },
-        { id: 2, title: "Riders", subtitle: "Flexible Earnings" },
-        { id: 3, title: "Businesses", subtitle: "Logistics Solved" }
+        { id: 0, title: t('about.ecosystem.customers.title'), subtitle: t('about.ecosystem.customers.subtitle') },
+        { id: 1, title: t('about.ecosystem.merchants.title'), subtitle: t('about.ecosystem.merchants.subtitle') },
+        { id: 2, title: t('about.ecosystem.riders.title'), subtitle: t('about.ecosystem.riders.subtitle') },
+        { id: 3, title: t('about.ecosystem.businesses.title'), subtitle: t('about.ecosystem.businesses.subtitle') }
     ];
 
     return (
@@ -34,9 +36,9 @@ const AboutEcosystem = () => {
 
                     <div className="absolute bottom-12 left-12 z-10">
                         <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
-                            The Ecosystem
+                            {t('about.ecosystem.title')}
                         </h2>
-                        <p className="text-white/80 text-lg">Where everything connects.</p>
+                        <p className="text-white/80 text-lg">{t('about.ecosystem.subtitle')}</p>
                     </div>
                 </div>
 

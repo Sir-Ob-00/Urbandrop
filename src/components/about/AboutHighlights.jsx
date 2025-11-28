@@ -2,14 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import bgImage from '../../assets/images/about/generated/about_highlights_bg.png';
 import { FiZap, FiUsers, FiSmartphone, FiTrendingUp, FiShield } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
 const AboutHighlights = () => {
+    const { t } = useTranslation();
     const highlights = [
-        { icon: <FiZap />, label: "Fast & Connected" },
-        { icon: <FiUsers />, label: "All Sides Supported" },
-        { icon: <FiSmartphone />, label: "Mobile Workflow" },
-        { icon: <FiTrendingUp />, label: "Community Growth" },
-        { icon: <FiShield />, label: "Reliable & Secure" }
+        { icon: <FiZap />, label: t('about.highlights.item1') },
+        { icon: <FiUsers />, label: t('about.highlights.item2') },
+        { icon: <FiSmartphone />, label: t('about.highlights.item3') },
+        { icon: <FiTrendingUp />, label: t('about.highlights.item4') },
+        { icon: <FiShield />, label: t('about.highlights.item5') }
     ];
 
     return (
@@ -32,10 +34,10 @@ const AboutHighlights = () => {
                         viewport={{ once: true }}
                         className="text-4xl md:text-6xl font-serif text-white mb-4"
                     >
-                        The Experience
+                        {t('about.highlights.title')}
                     </motion.h2>
                     <p className="text-green-400 font-medium tracking-widest uppercase text-sm">
-                        Premium Standard
+                        {t('about.highlights.subtitle')}
                     </p>
                 </div>
 

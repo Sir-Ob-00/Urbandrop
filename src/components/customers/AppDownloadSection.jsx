@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const AppDownloadSection = () => {
   const [downloads, setDownloads] = useState(50000);
+  const { t } = useTranslation();
 
   // Simulate download counter animation
   useEffect(() => {
@@ -41,13 +43,12 @@ const AppDownloadSection = () => {
           >
             <div>
               <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
-                Get the Full
+                {t('customer.appDownload.title1')}
                 <br />
-                <span className="text-primaryDark">Urbandrop</span> Experience
+                <span className="text-primaryDark">{t('customer.appDownload.title2')}</span> {t('customer.appDownload.title3')}
               </h2>
               <p className="text-xl text-primary/80 leading-relaxed">
-                Download our app for lightning-fast ordering, exclusive deals,
-                and a seamless food discovery experience right at your fingertips.
+                {t('customer.appDownload.desc')}
               </p>
             </div>
 
@@ -55,11 +56,11 @@ const AppDownloadSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-primary text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-primaryDark transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
-                Download for iOS
+                {t('customer.appDownload.ios')}
               </button>
               <button className="bg-white text-primary border-2 border-primary/20 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-green-50 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
-                Download for Android
+                {t('customer.appDownload.android')}
               </button>
             </div>
           </motion.div>
