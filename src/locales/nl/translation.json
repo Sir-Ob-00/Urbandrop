@@ -277,10 +277,10 @@
             }
         },
         "process": {
-            "step1": "Verkennen",
-            "step2": "Verbinden",
-            "step3": "Bewegen",
-            "step4": "Voltooien"
+            "step1": "Downloaden",
+            "step2": "Bestellen",
+            "step3": "Ontvangen",
+            "step4": "Genieten"
         },
         "highlights": {
             "title": "De Ervaring",
@@ -807,76 +807,26 @@
             "email": "E-mail: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
         }
     },
-    "faqs": {
-        "title": "Frequently Asked Questions",
-        "subtitle": "Find answers to the most common questions about Urbandrop.",
-        "categories": {
-            "general": "General",
-            "ordering": "Ordering & Delivery",
-            "merchants": "Merchants"
+   "notFoundPage": {
+    "title": "Pagina Niet Gevonden",
+    "desc": "De pagina die je zoekt bestaat niet of is verplaatst.",
+    "goHome": "Ga naar Home",
+    "goBack": "Ga Terug",
+    "features": {
+        "browseMenu": {
+            "title": "Blader door Menu",
+            "desc": "Ontdek onze heerlijke opties"
         },
-        "items": {
-            "general": [
-                {
-                    "question": "What is Urbandrop?",
-                    "answer": "Urbandrop is an online marketplace that connects you with local merchants offering a wide variety of ethnic foods and groceries. You can order from multiple stores and have everything delivered to your door."
-                },
-                {
-                    "question": "Is Urbandrop available in my city?",
-                    "answer": "We are rapidly expanding across the UK. To see if we deliver to your area, please enter your postcode on the homepage."
-                }
-            ],
-            "ordering": [
-                {
-                    "question": "How do I place an order?",
-                    "answer": "Simply browse our categories or search for specific items, add them to your cart, and proceed to checkout. You'll need to create an account to complete your purchase."
-                },
-                {
-                    "question": "What are the delivery fees?",
-                    "answer": "Delivery fees vary based on your location and the merchants you order from. The total delivery fee will be calculated and displayed at checkout before you confirm your order."
-                },
-                {
-                    "question": "Can I track my order?",
-                    "answer": "Yes! Once your order is confirmed, you can track its status in real-time through your account dashboard or via the Urbandrop mobile app."
-                },
-                {
-                    "question": "What if an item is out of stock?",
-                    "answer": "If an item you ordered is out of stock, the merchant may contact you to suggest a substitution. If no suitable substitution is available, you will be refunded for that item."
-                }
-            ],
-            "merchants": [
-                {
-                    "question": "How do I become a merchant on Urbandrop?",
-                    "answer": "We're always looking for great local partners! Please visit our 'Become a Merchant' page and fill out the application form. Our team will get in touch with you shortly."
-                }
-            ]
+        "becomeMerchant": {
+            "title": "Word Handelaar",
+            "desc": "Word onderdeel van ons netwerk van verkopers"
         },
-        "notFound": {
-            "title": "Can't find the answer you're looking for?",
-            "desc": "Our support team is here to help. Get in touch with us for any questions.",
-            "button": "Contact Support"
+        "advertise": {
+            "title": "Adverteren",
+            "desc": "Promoot je merk bij ons"
         }
     },
-    "notFoundPage": {
-        "title": "Page Not Found",
-        "desc": "The page you are looking for doesn't exist or has been moved.",
-        "goHome": "Go Home",
-        "goBack": "Go Back",
-        "features": {
-            "browseMenu": {
-                "title": "Browse Menu",
-                "desc": "Explore our delicious options"
-            },
-            "becomeMerchant": {
-                "title": "Become a Merchant",
-                "desc": "Join our network of sellers"
-            },
-            "advertise": {
-                "title": "Advertise",
-                "desc": "Promote your brand with us"
-            }
-        },
-        "illustration": "We couldn't find the page, but we found these fresh ingredients!",
-        "searchSuggestion": "Try searching for what you need or visit our Help Center."
-    }
+    "illustration": "We konden de pagina niet vinden, maar we vonden wel deze verse ingrediënten!",
+    "searchSuggestion": "Probeer te zoeken naar wat je nodig hebt of bezoek ons Helpcentrum."
+}
 }

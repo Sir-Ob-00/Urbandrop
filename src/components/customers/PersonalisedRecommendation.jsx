@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import jollofKitchenImage from '../../assets/images/customer/BITTER-GOURD_400x.jpg';
-import ampesiCustomerImage from '../../assets/images/customer/POUNDO-IYAN-BLUE-BAY-1KG×12.jpg';
+import ampesiCustomerImage from '../../assets/images/customer/Budget Friendly.jpg';
 import doroWatImage from '../../assets/images/customer/DRPEPPER330ml.jpg';
 import deliverPersonImage from '../../assets/images/customer/deliver-person.jpg';
 

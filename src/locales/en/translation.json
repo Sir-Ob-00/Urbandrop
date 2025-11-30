@@ -21,7 +21,7 @@
         "customer": "Customer",
         "advertise": "Advertise on Urbandrop",
         "beMerchant": "Be a Merchant",
-        "rightsReserved": "Urbandrop Ltd. All rights reserved."
+        "rightsReserved": "Urbandrop Group Ltd. All rights reserved."
     },
     "home": {
         "hero": {
@@ -138,7 +138,7 @@
         "hero": {
             "title1": "Taste the",
             "title2": "Authentic",
-            "desc": "Experience the vibrant flavors of Africa, Asia, and the Caribbean delivered to your doorstep.",
+            "desc": "Authentic Ethnic Groceries delivered to your doorstep.",
             "downloadApp": "Download App",
             "orderDelivered": "Order Delivered",
             "justNow": "Just now • 2 mins ago"
@@ -277,10 +277,10 @@
             }
         },
         "process": {
-            "step1": "Explore",
-            "step2": "Connect",
-            "step3": "Move",
-            "step4": "Complete"
+            "step1": "Download",
+            "step2": "Order",
+            "step3": "Receive",
+            "step4": "Enjoy"
         },
         "highlights": {
             "title": "The Experience",
@@ -339,53 +339,6 @@
             "alt2": "Hero banner 2 for Urbandrop advertising",
             "prev": "Previous slide",
             "next": "Next slide"
-        },
-        "faq": {
-            "title": "Advertising",
-            "titleHighlight": "FAQ",
-            "subtitle": "Everything you need to know about advertising on Urbandrop",
-            "items": [
-                {
-                    "question": "What kind of ads can I run on Urbandrop?",
-                    "answer": "You can run various types of ads including app banners, featured product listings, category sponsorships, and in-app promotions. We support image ads, video ads, and interactive formats to showcase your products effectively."
-                },
-                {
-                    "question": "How do I pay for advertising campaigns?",
-                    "answer": "We offer flexible payment options including bank transfers, credit/debit cards, and mobile money. Payments are processed securely, and you only pay for the advertising services you use. We also offer invoicing for larger campaigns."
-                },
-                {
-                    "question": "Can I target specific locations or customer types?",
-                    "answer": "Yes! Our advanced targeting allows you to reach customers based on location, shopping behavior, product preferences, and more. You can target specific cities, regions, or focus on customers who frequently purchase certain types of products."
-                },
-                {
-                    "question": "How soon will my ad campaign go live?",
-                    "answer": "Most campaigns can go live within 24-48 hours after approval and payment. For larger or more complex campaigns, it may take up to 1 week to ensure optimal setup. We'll keep you updated throughout the process."
-                },
-                {
-                    "question": "Do you provide campaign performance reports?",
-                    "answer": "Absolutely! You'll receive detailed analytics including impressions, clicks, conversions, and ROI metrics. Real-time dashboards are available, and we provide weekly performance reports with insights and optimization recommendations."
-                },
-                {
-                    "question": "What's the minimum budget for advertising?",
-                    "answer": "Our Starter plan starts at GHS 200 for a week of banner placement. However, we work with businesses of all sizes and can create custom campaigns starting from as little as GHS 100 for targeted promotions."
-                },
-                {
-                    "question": "Can I modify my campaign after it starts?",
-                    "answer": "Yes, you can modify your campaign parameters, targeting, creative content, and budget at any time through our advertiser dashboard. Changes typically take effect within a few hours."
-                },
-                {
-                    "question": "Do you offer creative design services?",
-                    "answer": "For our Premium plans, we include professional creative design services. For other plans, we can recommend trusted design partners or provide templates and guidelines to help you create effective ad content."
-                },
-                {
-                    "question": "What happens if my campaign doesn't perform well?",
-                    "answer": "We offer a 30-day money-back guarantee on all plans. If you're not satisfied with the results, we'll work with you to optimize the campaign or provide a full refund. Our success is tied to your success."
-                },
-                {
-                    "question": "Can I advertise products from different categories?",
-                    "answer": "Yes! You can run multiple campaigns for different product categories simultaneously. This is especially effective for brands with diverse product lines or seasonal promotions."
-                }
-            ]
         }
     },
     "merchants": {
@@ -932,56 +885,6 @@
             "desc": "If you have any questions about our use of cookies, please contact:",
             "companyName": "UrbanDrop Group Limited",
             "email": "Email: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>"
-        }
-    },
-    "faqs": {
-        "title": "Frequently Asked Questions",
-        "subtitle": "Find answers to the most common questions about Urbandrop.",
-        "categories": {
-            "general": "General",
-            "ordering": "Ordering & Delivery",
-            "merchants": "Merchants"
-        },
-        "items": {
-            "general": [
-                {
-                    "question": "What is Urbandrop?",
-                    "answer": "Urbandrop is an online marketplace that connects you with local merchants offering a wide variety of ethnic foods and groceries. You can order from multiple stores and have everything delivered to your door."
-                },
-                {
-                    "question": "Is Urbandrop available in my city?",
-                    "answer": "We are rapidly expanding across the UK. To see if we deliver to your area, please enter your postcode on the homepage."
-                }
-            ],
-            "ordering": [
-                {
-                    "question": "How do I place an order?",
-                    "answer": "Simply browse our categories or search for specific items, add them to your cart, and proceed to checkout. You'll need to create an account to complete your purchase."
-                },
-                {
-                    "question": "What are the delivery fees?",
-                    "answer": "Delivery fees vary based on your location and the merchants you order from. The total delivery fee will be calculated and displayed at checkout before you confirm your order."
-                },
-                {
-                    "question": "Can I track my order?",
-                    "answer": "Yes! Once your order is confirmed, you can track its status in real-time through your account dashboard or via the Urbandrop mobile app."
-                },
-                {
-                    "question": "What if an item is out of stock?",
-                    "answer": "If an item you ordered is out of stock, the merchant may contact you to suggest a substitution. If no suitable substitution is available, you will be refunded for that item."
-                }
-            ],
-            "merchants": [
-                {
-                    "question": "How do I become a merchant on Urbandrop?",
-                    "answer": "We're always looking for great local partners! Please visit our 'Become a Merchant' page and fill out the application form. Our team will get in touch with you shortly."
-                }
-            ]
-        },
-        "notFound": {
-            "title": "Can't find the answer you're looking for?",
-            "desc": "Our support team is here to help. Get in touch with us for any questions.",
-            "button": "Contact Support"
         }
     },
     "notFoundPage": {

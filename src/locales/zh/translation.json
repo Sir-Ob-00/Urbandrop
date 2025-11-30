@@ -277,10 +277,10 @@
             }
         },
         "process": {
-            "step1": "探索",
-            "step2": "连接",
-            "step3": "移动",
-            "step4": "完成"
+            "step1": "下载",
+            "step2": "下单",
+            "step3": "接收",
+            "step4": "享受"
         },
         "highlights": {
             "title": "体验",
@@ -291,5 +291,619 @@
             "item4": "社区增长",
             "item5": "可靠且安全"
         }
+    },
+    "advertise": {
+        "options": {
+            "listingProducts": {
+                "headline": "产品列表",
+                "description": "让您的独特产品呈现在数千名积极寻找正宗民族杂货的客户面前。"
+            },
+            "appBanner": {
+                "headline": "应用横幅",
+                "description": "通过视觉吸引力强且高度互动的横幅广告，在 Urbandrop 应用内直接触达广泛受众。"
+            },
+            "inAppPromotions": {
+                "headline": "应用内促销",
+                "description": "通过独家应用内促销和精选优惠，提升销量并吸引新客户。"
+            }
+        },
+        "pricing": {
+            "starter": {
+                "name": "入门版",
+                "features": [
+                    "横幅展示位",
+                    "基础定向选项",
+                    "绩效报告"
+                ]
+            },
+            "growth": {
+                "name": "成长版",
+                "features": [
+                    "横幅 + 精选列表",
+                    "高级定向",
+                    "实时分析"
+                ]
+            },
+            "premium": {
+                "name": "高级版",
+                "features": [
+                    "多种展示位",
+                    "定制活动策略",
+                    "专属客户经理"
+                ]
+            },
+            "getStarted": "开始使用"
+        },
+        "hero": {
+            "alt1": "Urbandrop 广告主横幅 1",
+            "alt2": "Urbandrop 广告主横幅 2",
+            "prev": "上一张幻灯片",
+            "next": "下一张幻灯片"
+        }
+    },
+    "merchants": {
+        "hero": {
+            "title1": "与 Urbandrop 一起",
+            "title2": "发展您的业务",
+            "desc": "加入数百位可信赖的商家，通过我们的应用销售新鲜优质的食品。",
+            "cta": "加入成为商家"
+        },
+        "whyJoin": {
+            "title": "为什么加入我们",
+            "panels": {
+                "reach": {
+                    "title": "拓展您的覆盖面",
+                    "subtitle": "与来自不同地区的数千名客户建立联系。",
+                    "badge": "热门",
+                    "cta": "开始使用"
+                },
+                "sales": {
+                    "title": "增加销售额",
+                    "subtitle": "利用我们平台庞大的用户群提升收入。",
+                    "badge": "趋势",
+                    "cta": "立即加入"
+                },
+                "management": {
+                    "title": "轻松管理",
+                    "subtitle": "使用我们的直观工具轻松管理您的商店。",
+                    "badge": "简单",
+                    "cta": "今天开始"
+                },
+                "community": {
+                    "title": "社区支持",
+                    "subtitle": "加入成功商家的社区并获得支持。",
+                    "badge": "社区",
+                    "cta": "成为一部分"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "它是如何",
+            "titleHighlight": "运作的",
+            "steps": {
+                "list": {
+                    "title": "列出您的产品",
+                    "desc": "轻松上传并展示您的独特产品给广泛的受众。"
+                },
+                "receive": {
+                    "title": "接收订单",
+                    "desc": "即时获取新订单通知，并高效管理。"
+                },
+                "earn": {
+                    "title": "赚取与成长",
+                    "desc": "安全处理支付，每笔销售都能让您的收入增长。"
+                },
+                "analyze": {
+                    "title": "分析业绩",
+                    "desc": "访问详细分析，了解您的销售和客户行为。"
+                }
+            }
+        },
+        "features": {
+            "instantOrders": "即时订单",
+            "fastDelivery": "快速配送",
+            "realTimeEarnings": "实时收入",
+            "analytics": "分析仪表盘",
+            "securePayments": "安全支付",
+            "customerSupport": "客户支持"
+        },
+        "cta": {
+            "title": "今天就与 Urbandrop 一起成长！",
+            "desc": "加入并开始销售不到 10 分钟。加入数百名已经成功发展的商家。",
+            "button": "成为商家",
+            "contact": "联系销售团队",
+            "footer": "有问题吗？我们的团队将在每一步为您提供帮助。"
+        }
+    },
+    "privacyPolicy": {
+        "hero": {
+            "title": "隐私",
+            "highlight": "政策",
+            "subtitle": "您的隐私对我们很重要",
+            "effectiveDate": "生效日期: {{date}}"
+        },
+        "sections": {
+            "whoWeAre": {
+                "title": "我们是谁",
+                "content": [
+                    "UrbanDrop Group Limited 是一家在英格兰和威尔士注册的公司，注册号为 16026087。",
+                    "我们运营一个在线市场，将客户与销售杂货、熟食和民族食品的商家连接起来，以便进行配送或自取。"
+                ]
+            },
+            "infoCollect": {
+                "title": "我们收集的信息",
+                "intro": "我们收集个人信息以帮助提供、改进和管理我们的服务。这可能包括：",
+                "direct": {
+                    "title": "您直接提供的信息",
+                    "items": [
+                        "姓名、联系电话和送货地址。",
+                        "电子邮件地址和账户密码。",
+                        "支付和账单信息（通过我们的支付合作伙伴安全处理）。",
+                        "您提交的反馈、消息或评论。",
+                        "商家注册信息（针对企业用户），包括公司名称、营业地址和银行账户信息。"
+                    ]
+                },
+                "automatic": {
+                    "title": "自动收集的信息",
+                    "intro": "当您使用 UrbanDrop 时，我们可能会自动收集：",
+                    "items": [
+                        "设备和浏览器信息（IP 地址、操作系统、设备类型）。",
+                        "位置信息（如果您允许位置服务）。",
+                        "使用数据，例如访问的页面、应用内交互和订单活动。",
+                        "日志文件和诊断数据以改善性能和安全性。"
+                    ]
+                },
+                "thirdParty": {
+                    "title": "第三方信息",
+                    "intro": "我们可能会从以下渠道接收信息：",
+                    "items": [
+                        "支付提供商（例如，用于确认交易状态）。",
+                        "身份验证服务。",
+                        "配送合作伙伴（例如，订单配送状态）。",
+                        "分析和广告合作伙伴，帮助我们理解使用趋势。"
+                    ]
+                }
+            },
+            "howWeUse": {
+                "title": "我们如何使用您的信息",
+                "intro": "我们使用个人信息以：",
+                "items": [
+                    "处理和配送您的订单。",
+                    "与您沟通账户、订单及客户服务请求。",
+                    "验证您的身份并防止欺诈。",
+                    "管理支付、退款和账户余额。",
+                    "向商家提供履行订单所需的详细信息。",
+                    "个性化您的体验并推荐相关产品。",
+                    "改进平台功能、性能和内容。",
+                    "遵守法律和监管要求。"
+                ],
+                "legalBasis": {
+                    "intro": "我们仅在具有合法依据的情况下使用您的信息，例如：",
+                    "items": [
+                        "履行与您的合同（例如处理订单）。",
+                        "遵守法律义务。",
+                        "为合法商业利益（例如改善用户体验）。",
+                        "在获得您的同意时（例如营销）。"
+                    ]
+                }
+            },
+            "marketing": {
+                "title": "营销通信",
+                "content": [
+                    "如果您给予许可，我们可能会向您发送关于新产品、优惠或促销的营销邮件或通知。",
+                    "您可以随时选择退订："
+                ],
+                "items": [
+                    "点击营销邮件中的“退订”，或",
+                    "在 UrbanDrop 应用中调整您的偏好，或直接联系我们。"
+                ],
+                "note": "即使您选择退订，我们仍可能发送非促销信息（例如订单确认或账户通知）。"
+            },
+            "sharing": {
+                "title": "分享您的信息",
+                "intro": "我们可能会将有限的个人信息分享给：",
+                "items": [
+                    "<strong>商家：</strong> 用于准备、履行和配送您的订单。",
+                    "<strong>配送合作伙伴：</strong> 确保您的订单准确、安全地送达。",
+                    "<strong>支付处理商：</strong> 安全处理支付。",
+                    "<strong>IT 和云服务提供商：</strong> 帮助我们管理系统。",
+                    "<strong>分析和广告合作伙伴：</strong> 改进服务和营销效果。",
+                    "<strong>监管机构或执法部门：</strong> 法律要求或保护我们的权利时。"
+                ],
+                "note": "我们不会将您的个人信息出售给第三方。"
+            },
+            "retention": {
+                "title": "数据保留",
+                "intro": "我们会在达成收集目的所需的时间内保留您的个人信息，包括法律、会计或报告要求。",
+                "items": [
+                    "<strong>客户订单数据：</strong> 根据英国税法和消费者法规保留 6 年。",
+                    "<strong>商家数据：</strong> 在账户活跃期间保留，之后保留 6 年。",
+                    "<strong>支持消息和反馈：</strong> 为运营和法律参考保留。"
+                ],
+                "note": "当数据不再需要时，我们会安全地删除或匿名化。"
+            },
+            "security": {
+                "title": "数据安全",
+                "content": [
+                    "我们采用适当的技术和组织措施保护您的数据免遭未经授权的访问、披露、篡改或丢失。",
+                    "措施包括："
+                ],
+                "items": [
+                    "加密数据传输 (SSL/TLS)。",
+                    "安全支付网关（符合 PCI DSS）。",
+                    "访问控制和身份验证系统。",
+                    "定期安全监控和审计。"
+                ],
+                "note": "然而，没有任何在线服务是完全无风险的。您有责任保护您的账户信息。"
+            },
+            "international": {
+                "title": "国际传输",
+                "intro": "我们的某些服务提供商或合作伙伴可能会在英国或欧洲经济区 (EEA) 之外处理您的数据。在这种情况下，我们会提供适当的保障，例如：",
+                "items": [
+                    "英国或欧盟批准的充分性决定。",
+                    "标准合同条款 (SCC)。",
+                    "约束性公司规则或同等保护机制。"
+                ]
+            },
+            "rights": {
+                "title": "您的权利",
+                "intro": "根据英国 GDPR，您对个人信息享有以下权利：",
+                "items": [
+                    "<strong>访问</strong> – 请求您的数据副本。",
+                    "<strong>更正</strong> – 修正不准确或不完整的数据。",
+                    "<strong>删除（“被遗忘权”）</strong> – 当数据不再需要时请求删除。",
+                    "<strong>限制处理</strong> – 限制数据处理方式。",
+                    "<strong>可携带性</strong> – 以可用格式接收或转移数据至其他服务提供商。",
+                    "<strong>反对</strong> – 对合法利益或直接营销处理提出异议。",
+                    "<strong>撤回同意</strong> – 当处理基于同意时。"
+                ],
+                "contact": "如需行使上述权利，请通过 <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a> 联系我们。我们可能会要求验证您的身份后才处理请求。"
+            },
+            "cookies": {
+                "title": "Cookies 与追踪",
+                "content": [
+                    "UrbanDrop 使用 cookies 和类似技术以提升用户体验、记住偏好和分析流量。",
+                    "您可以在浏览器设置中管理或禁用 cookies，但可能会影响平台功能。",
+                    "更多详情，请参阅我们的 Cookie 政策。"
+                ]
+            },
+            "children": {
+                "title": "儿童隐私",
+                "content": "UrbanDrop 不针对 18 岁以下儿童，我们不会故意收集未成年人的个人信息。如果发现收集了此类信息，我们会立即删除。"
+            },
+            "links": {
+                "title": "指向其他网站的链接",
+                "content": "我们的平台可能包含第三方网站的链接。我们不对这些外部网站的内容、隐私实践或安全性负责。"
+            },
+            "updates": {
+                "title": "政策更新",
+                "content": "我们可能会不时更新本隐私政策。最新版本始终可在我们的网站或应用中查看。如有重大更改，我们将在生效前通过电子邮件或应用通知用户。"
+            },
+            "contact": {
+                "title": "联系我们",
+                "intro": "如有关于数据保护的疑问、问题或请求，请联系：",
+                "companyName": "UrbanDrop Group Limited",
+                "email": "电子邮件: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "ico": "您也有权向英国信息专员办公室 (ICO) 提出投诉。",
+                "website": "网站: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
+            }
+        }
+    },
+    "termsConditions": {
+        "title": "条款与条件",
+        "lastUpdated": "最后更新: {{date}}",
+        "intro": {
+            "title": "UrbanDrop 网站条款与条件",
+            "p1": "欢迎使用 UrbanDrop。本条款与条件（“条款”）适用于您访问和使用由 UrbanDrop Group Limited（“UrbanDrop”、“我们”或“我们的”）运营的 UrbanDrop 网站、移动应用及相关服务（统称“平台”）。",
+            "p2": "通过访问或使用本平台，您即同意这些条款。请在使用服务前仔细阅读。如您不同意，请勿使用本平台。"
+        },
+        "sections": {
+            "about": {
+                "title": "1. 关于 UrbanDrop",
+                "content": [
+                    "UrbanDrop 是一个在线市场，将客户与提供杂货、餐食及民族产品的独立商家连接，以便进行配送或自取。我们提供数字基础设施、支付处理和客户界面，但不生产、拥有或销售平台上列出的商品。",
+                    "当您通过 UrbanDrop 下单时，您是直接向商家购买，而非向 UrbanDrop 购买。"
+                ]
+            },
+            "eligibility": {
+                "title": "2. 使用资格",
+                "content": "您必须年满 18 岁才能使用本平台。使用本平台即表示您确认：",
+                "items": [
+                    "您具有签订具有法律约束力协议的能力。",
+                    "您仅会出于合法目的使用平台。",
+                    "在创建账户或下单时提供准确的信息。"
+                ]
+            },
+            "account": {
+                "title": "3. 您的账户",
+                "subsections": {
+                    "creation": {
+                        "title": "3.1 账户创建",
+                        "content": "下单时，您可能需要创建 UrbanDrop 账户。您必须提供准确的信息，包括姓名、送货地址和支付信息。"
+                    },
+                    "security": {
+                        "title": "3.2 账户安全",
+                        "content": "您有责任保护登录凭据的安全。账户下的任何活动均视为您的责任。"
+                    },
+                    "misuse": {
+                        "title": "3.3 滥用",
+                        "content": "对于欺诈行为、促销滥用或违反本条款的账户，UrbanDrop 可暂停或关闭。"
+                    }
+                }
+            },
+            "ordering": {
+                "title": "4. 下单与支付",
+                "subsections": {
+                    "placing": {
+                        "title": "4.1 下单",
+                        "content": "下单时，您向平台上列出的商家提出购买商品的意向。一旦商家接受订单，您与该商家之间即形成合同。"
+                    },
+                    "confirmation": {
+                        "title": "4.2 订单确认",
+                        "content": "订单被接受后，您将通过平台收到确认。若商品不可用或无法履行，商家可取消订单，此时不会向您收费。"
+                    },
+                    "payments": {
+                        "title": "4.3 支付",
+                        "content": "所有支付通过 UrbanDrop 的支付合作伙伴安全处理。您授权 UrbanDrop 代表商家收款。"
+                    },
+                    "pricing": {
+                        "title": "4.4 价格",
+                        "content": "价格由商家设定并包含适用税费。配送、服务及包装费用可能适用，并会在结账前显示。"
+                    }
+                }
+            },
+            "delivery": {
+                "title": "5. 配送与自取",
+                "subsections": {
+                    "areas": {
+                        "title": "5.1 配送区域",
+                        "content": "配送仅在 UrbanDrop 或其物流合作伙伴运营的区域提供。"
+                    },
+                    "partners": {
+                        "title": "5.2 配送合作伙伴",
+                        "content": "订单可由 UrbanDrop 的配送网络或商家直接配送。配送时间为预估值，可能因交通、天气或其他不可控因素而变化。"
+                    },
+                    "collection": {
+                        "title": "5.3 自取订单",
+                        "content": "如选择自取，请按指定时间到达。商家可能不会无限期为您保留商品。"
+                    }
+                }
+            },
+            "promotions": {
+                "title": "6. 促销与折扣",
+                "subsections": {
+                    "platform": {
+                        "title": "6.1 平台促销",
+                        "content": "UrbanDrop 可能会不定期提供促销或折扣。每项活动均有独立规则，并与本条款并行适用。"
+                    },
+                    "merchant": {
+                        "title": "6.2 商家促销",
+                        "content": "由商家发起的促销完全由商家承担资金。UrbanDrop 会审核批准，但不对其财务负责。"
+                    },
+                    "misuse": {
+                        "title": "6.3 滥用",
+                        "content": "如发现滥用或欺诈行为，UrbanDrop 有权暂停或移除相关促销。"
+                    }
+                }
+            },
+            "merchant": {
+                "title": "7. 商家责任",
+                "content": "UrbanDrop 上的每个商家均为独立企业。商家需自行负责：",
+                "items": [
+                    "商品信息、价格及图片的准确性。",
+                    "食品安全、卫生及正确的产品标签。",
+                    "遵守当地许可和经营法律法规。"
+                ],
+                "note": "UrbanDrop 不生产、测试或保证商家销售的商品。"
+            },
+            "conduct": {
+                "title": "8. 客户行为",
+                "content": "您同意不：",
+                "items": [
+                    "滥用平台或试图干扰其运行。",
+                    "骚扰、辱骂或威胁商家、配送员或客服人员。",
+                    "创建多个账户以利用促销活动。",
+                    "发布虚假评论或误导性反馈。"
+                ],
+                "note": "违反上述标准的账户，UrbanDrop 有权暂停或删除。"
+            },
+            "cancellation": {
+                "title": "9. 客户取消政策",
+                "subsections": {
+                    "before": {
+                        "title": "9.1 商家接受前",
+                        "content": "在商家接受订单前，您可随时免费取消订单。"
+                    },
+                    "after": {
+                        "title": "9.2 商家接受后",
+                        "content": "商家接受订单后，取消可能不可行，尤其是易腐或已准备的商品。若商家已开始处理订单，将全额收费。"
+                    },
+                    "merchant": {
+                        "title": "9.3 商家取消",
+                        "content": "若商品不可用、订单无法履行或配送不可行，商家可取消订单。在此情况下，您将获得全额退款。"
+                    },
+                    "progress": {
+                        "title": "9.4 配送中",
+                        "content": "订单已配送中时，无法取消。"
+                    },
+                    "repeated": {
+                        "title": "9.5 重复取消",
+                        "content": "多次在订单被接受后取消的客户，其账户可能被限制或暂停。"
+                    }
+                }
+            },
+            "returns": {
+                "title": "10. 退货与退款政策",
+                "subsections": {
+                    "general": {
+                        "title": "10.1 一般政策",
+                        "content": "由于 UrbanDrop 将客户直接与独立商家连接，退款和退货取决于订单商品性质及具体情况。"
+                    },
+                    "perishable": {
+                        "title": "10.2 易腐及已准备商品",
+                        "content": "对于新鲜农产品、冷藏或冷冻食品及熟食，订单配送或自取后通常不可退款或退货，除非：",
+                        "items": [
+                            "商品在交付时已损坏、过期或不安全食用。",
+                            "配送了错误商品。",
+                            "订单不完整。"
+                        ],
+                        "note": "您必须在交付后 24 小时内向 UrbanDrop 客服报告问题，可能需提供照片等证据。"
+                    },
+                    "nonPerishable": {
+                        "title": "10.3 非易腐商品",
+                        "content": "对于包装密封或非易腐商品，若商品有缺陷或描述不符，并保持未使用及原包装，商家可根据英国消费者法接受退货。"
+                    },
+                    "process": {
+                        "title": "10.4 退款流程",
+                        "content": "退款在商家确认符合条件后处理。UrbanDrop 会在批准后 5–10 个工作日内将款项返还至原支付方式。"
+                    },
+                    "merchantResp": {
+                        "title": "10.5 商家责任",
+                        "content": "每位商家负责处理其产品的退款请求。UrbanDrop 仅协助沟通和支付调整，并非最终决策者。"
+                    },
+                    "delivery": {
+                        "title": "10.6 配送问题",
+                        "content": "如订单延迟、丢失或配送错误，请立即联系 UrbanDrop 客服。退款或重新配送将根据配送记录和商家确认处理。"
+                    },
+                    "abuse": {
+                        "title": "10.7 退款滥用",
+                        "content": "无合理原因的重复退款请求可能导致账户被标记或暂停。"
+                    }
+                }
+            },
+            "ip": {
+                "title": "11. 知识产权",
+                "content": "平台上的所有商标、内容和技术均归 UrbanDrop Group Limited 或其许可方所有。未经书面许可，您不得复制、分发或修改平台的任何部分。"
+            },
+            "availability": {
+                "title": "12. 平台可用性",
+                "content": "我们尽力保持 UrbanDrop 24/7 可用，但可能因维护而暂停或更新服务。对于因此产生的临时中断或数据丢失，我们不承担责任。"
+            },
+            "privacy": {
+                "title": "13. 隐私与数据保护",
+                "content": "您的个人数据将根据我们的隐私政策收集和处理，可在平台查看。使用 UrbanDrop 即表示您同意将数据用于订单处理、防止欺诈及客户服务。"
+            },
+            "liability": {
+                "title": "14. 责任限制",
+                "subsections": {
+                    "role": {
+                        "title": "14.1 UrbanDrop 的角色",
+                        "content": "UrbanDrop 作为客户与商家之间的中介。我们不负责：",
+                        "items": [
+                            "商品质量、安全或真实性。",
+                            "商家履行的不正确或不完整订单。",
+                            "由第三方导致的配送问题。"
+                        ]
+                    },
+                    "indirect": {
+                        "title": "14.2 间接损失",
+                        "content": "我们不对使用平台产生的间接、附带或后果性损失负责。"
+                    },
+                    "maximum": {
+                        "title": "14.3 最大责任",
+                        "content": "我们对任何用户的总责任不超过受影响订单支付金额或 50 英镑，以较低者为准。"
+                    }
+                }
+            },
+            "termination": {
+                "title": "15. 账户终止",
+                "content": "若您：",
+                "items": [
+                    "违反本条款。",
+                    "从事欺诈或滥用活动。",
+                    "滥用促销或违反适用法律。"
+                ],
+                "note": "您可随时联系 UrbanDrop 客服请求删除账户。"
+            },
+            "links": {
+                "title": "16. 第三方链接",
+                "content": "平台可能包含指向第三方网站的链接。UrbanDrop 不对这些网站的内容或政策负责，访问风险由您自行承担。"
+            },
+            "changes": {
+                "title": "17. 条款变更",
+                "content": "UrbanDrop 可能定期更新本条款。条款在平台发布后生效。继续使用平台即表示您接受最新版本。"
+            },
+            "governing": {
+                "title": "18. 适用法律",
+                "content": "本条款受英格兰和威尔士法律管辖。与条款相关的争议将由英格兰和威尔士法院专属管辖。"
+            },
+            "contact": {
+                "title": "19. 联系方式",
+                "content": "如有问题、投诉或退款请求，请联系：",
+                "companyName": "UrbanDrop Group Limited",
+                "email": "电子邮件: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+            }
+        }
+    },
+    "cookiesPolicy": {
+        "title": "Cookie 政策",
+        "effectiveDate": "生效日期: {{date}}",
+        "whatAreCookies": {
+            "title": "什么是 Cookie？",
+            "desc": "Cookie 是您访问网站或使用应用时存储在设备上的小型文本文件。它们帮助我们记住您的偏好、提升性能并个性化您的体验。部分 Cookie 对平台正常运行至关重要，而其他 Cookie 则帮助我们了解用户如何使用服务，从而改进平台。"
+        },
+        "types": {
+            "essential": {
+                "title": "必要 Cookie",
+                "desc": "这些 Cookie 对平台的运行是必需的。它们启用核心功能，如安全登录、结账和账户管理。没有它们，某些服务无法提供。示例包括保持登录状态、管理购物车和安全处理支付。"
+            },
+            "performance": {
+                "title": "性能与分析 Cookie",
+                "desc": "这些 Cookie 帮助我们了解访问者如何使用 UrbanDrop，例如哪些页面最受欢迎或用户在哪些环节遇到错误。我们利用这些信息改进导航、速度和用户体验。示例包括 Google Analytics 和应用性能跟踪器。所有收集的数据均为汇总且匿名。"
+            },
+            "functionality": {
+                "title": "功能性 Cookie",
+                "desc": "这些 Cookie 会记住您的偏好设置，如语言、位置或送货地址，使您的体验更加便捷。"
+            },
+            "advertising": {
+                "title": "广告与营销 Cookie",
+                "desc": "这些 Cookie 允许我们和选定的合作伙伴向您展示相关优惠和促销信息，无论是在 UrbanDrop 还是其他网站或应用上。它们还可帮助限制您看到相同广告的次数。示例包括 Meta Pixel（Facebook/Instagram 广告）和 Google Ads 再营销。您可通过账户设置或浏览器隐私设置选择退出个性化广告。"
+            }
+        },
+        "thirdParty": {
+            "title": "第三方 Cookie",
+            "desc": "UrbanDrop 上的部分 Cookie 来自受信任的第三方，帮助我们提供特定服务，例如分析提供商（如 Google Analytics）、广告网络以及支付和配送合作伙伴。这些第三方可能会按照其隐私政策使用 Cookie，UrbanDrop 无法控制其 Cookie 设置。"
+        },
+        "managing": {
+            "title": "管理 Cookie",
+            "desc": "您可以通过浏览器或设备设置管理或禁用 Cookie。大多数浏览器允许您查看设备上存储的 Cookie、删除已有 Cookie，并阻止部分或全部 Cookie。如果禁用 Cookie，平台的某些功能可能无法正常运行（例如结账或保存地址）。您也可以通过首次访问网站时的 UrbanDrop Cookie 设置横幅或账户设置调整 Cookie 偏好。"
+        },
+        "consent": {
+            "title": "同意",
+            "desc": "首次访问 UrbanDrop 时，您会看到一个横幅，要求您同意使用非必要 Cookie。点击“全部接受”即表示您同意使用此处描述的所有 Cookie。您可以随时通过网站底部的“管理 Cookie”或个人资料更新偏好。必要 Cookie 不需同意，因为它们是提供您请求服务所必需的。"
+        },
+        "updates": {
+            "title": "政策更新",
+            "desc": "我们可能会不时更新此 Cookie 政策。最新版本将始终可在网站或应用查看。如更改重大，我们会在生效前通过电子邮件或应用通知用户。"
+        },
+        "contact": {
+            "title": "联系我们",
+            "desc": "如您对我们使用 Cookie 有任何疑问，请联系：",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "电子邮件: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>"
+        }
+    },
+    "notFoundPage": {
+        "title": "页面未找到",
+        "desc": "您访问的页面不存在或已被移动。",
+        "goHome": "返回首页",
+        "goBack": "返回上一页",
+        "features": {
+            "browseMenu": {
+                "title": "浏览菜单",
+                "desc": "探索我们的美味选项"
+            },
+            "becomeMerchant": {
+                "title": "成为商家",
+                "desc": "加入我们的卖家网络"
+            },
+            "advertise": {
+                "title": "广告推广",
+                "desc": "与我们一起推广您的品牌"
+            }
+        },
+        "illustration": "我们找不到页面，但找到了这些新鲜食材！",
+        "searchSuggestion": "尝试搜索您需要的内容或访问帮助中心。"
     }
+
 }

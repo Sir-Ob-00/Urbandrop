@@ -127,7 +127,7 @@ const Footer = () => {
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
           <div className="flex items-center gap-2"><Mail size={16} /> DPO@urbandrop.io | support@urbandrop.io</div>
-          <div className="flex items-center gap-2"><Phone size={16} /> +44 20 1234 5678</div>
+          <div className="flex items-center gap-2"><Phone size={16} /> +447466738584</div>
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
         </div>
         © {new Date().getFullYear()} {t('footer.rightsReserved')}

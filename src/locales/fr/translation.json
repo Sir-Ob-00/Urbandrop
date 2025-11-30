@@ -279,10 +279,10 @@
             }
         },
         "process": {
-            "step1": "Explorer",
-            "step2": "Connecter",
-            "step3": "Bouger",
-            "step4": "Compléter"
+            "step1": "Télécharger",
+            "step2": "Commander",
+            "step3": "Recevoir",
+            "step4": "Profiter"
         },
         "highlights": {
             "title": "L'Expérience",
@@ -341,53 +341,6 @@
             "alt2": "Bannière héros 2 pour la publicité Urbandrop",
             "prev": "Diapositive précédente",
             "next": "Diapositive suivante"
-        },
-        "faq": {
-            "title": "Publicité",
-            "titleHighlight": "FAQ",
-            "subtitle": "Tout ce que vous devez savoir sur la publicité sur Urbandrop",
-            "items": [
-                {
-                    "question": "Quel type de publicités puis-je diffuser sur Urbandrop ?",
-                    "answer": "Vous pouvez diffuser divers types de publicités, notamment des bannières d'application, des listes de produits en vedette, des parrainages de catégories et des promotions in-app. Nous prenons en charge les publicités illustrées, vidéo et les formats interactifs."
-                },
-                {
-                    "question": "Comment payer les campagnes publicitaires ?",
-                    "answer": "Nous proposons des options de paiement flexibles, notamment les virements bancaires, les cartes de crédit/débit et l'argent mobile. Les paiements sont traités en toute sécurité."
-                },
-                {
-                    "question": "Puis-je cibler des lieux ou des types de clients spécifiques ?",
-                    "answer": "Oui ! Notre ciblage avancé vous permet d'atteindre les clients en fonction de leur emplacement, de leur comportement d'achat, de leurs préférences de produits, et plus encore."
-                },
-                {
-                    "question": "Quand ma campagne publicitaire sera-t-elle mise en ligne ?",
-                    "answer": "La plupart des campagnes peuvent être mises en ligne dans les 24 à 48 heures après approbation et paiement."
-                },
-                {
-                    "question": "Fournissez-vous des rapports de performance de campagne ?",
-                    "answer": "Absolument ! Vous recevrez des analyses détaillées incluant les impressions, les clics, les conversions et les mesures de retour sur investissement."
-                },
-                {
-                    "question": "Quel est le budget minimum pour la publicité ?",
-                    "answer": "Notre plan de démarrage commence à un prix abordable pour une semaine de placement de bannière. Nous travaillons avec des entreprises de toutes tailles."
-                },
-                {
-                    "question": "Puis-je modifier ma campagne après son lancement ?",
-                    "answer": "Oui, vous pouvez modifier les paramètres de votre campagne, le ciblage, le contenu créatif et le budget à tout moment via notre tableau de bord annonceur."
-                },
-                {
-                    "question": "Proposez-vous des services de conception créative ?",
-                    "answer": "Pour nos plans Premium, nous incluons des services de conception créative professionnelle. Pour les autres plans, nous pouvons recommander des partenaires de confiance."
-                },
-                {
-                    "question": "Que se passe-t-il si ma campagne ne fonctionne pas bien ?",
-                    "answer": "Nous offrons une garantie de remboursement de 30 jours sur tous les plans. Si vous n'êtes pas satisfait, nous travaillerons avec vous pour optimiser la campagne."
-                },
-                {
-                    "question": "Puis-je faire de la publicité pour des produits de différentes catégories ?",
-                    "answer": "Oui ! Vous pouvez mener plusieurs campagnes pour différentes catégories de produits simultanément."
-                }
-            ]
         }
     },
     "merchants": {
@@ -934,56 +887,6 @@
             "desc": "Pour toute question, contactez :",
             "companyName": "UrbanDrop Group Limited",
             "email": "Email : <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
-        }
-    },
-    "faqs": {
-        "title": "Foire Aux Questions",
-        "subtitle": "Trouvez des réponses aux questions les plus courantes.",
-        "categories": {
-            "general": "Général",
-            "ordering": "Commandes & Livraison",
-            "merchants": "Marchands"
-        },
-        "items": {
-            "general": [
-                {
-                    "question": "Qu'est-ce qu'Urbandrop ?",
-                    "answer": "Urbandrop est un marché en ligne connectant les clients avec des commerçants locaux."
-                },
-                {
-                    "question": "Urbandrop est-il disponible dans ma ville ?",
-                    "answer": "Nous nous développons rapidement. Vérifiez votre code postal sur la page d'accueil."
-                }
-            ],
-            "ordering": [
-                {
-                    "question": "Comment passer une commande ?",
-                    "answer": "Parcourez nos catégories, ajoutez des articles au panier et passez à la caisse."
-                },
-                {
-                    "question": "Quels sont les frais de livraison ?",
-                    "answer": "Les frais varient selon l'emplacement et le marchand."
-                },
-                {
-                    "question": "Puis-je suivre ma commande ?",
-                    "answer": "Oui ! Suivez votre commande en temps réel via votre tableau de bord."
-                },
-                {
-                    "question": "Et si un article est en rupture de stock ?",
-                    "answer": "Le marchand peut suggérer un remplacement ou vous rembourser."
-                }
-            ],
-            "merchants": [
-                {
-                    "question": "Comment devenir marchand sur Urbandrop ?",
-                    "answer": "Visitez notre page 'Devenir Marchand' et remplissez le formulaire."
-                }
-            ]
-        },
-        "notFound": {
-            "title": "Vous ne trouvez pas la réponse ?",
-            "desc": "Notre équipe de support est là pour vous aider.",
-            "button": "Contacter le Support"
         }
     },
     "notFoundPage": {

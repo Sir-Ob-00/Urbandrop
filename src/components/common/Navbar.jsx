@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <span className="font-medium">{t('navbar.findLocation')}</span>
             <span className="text-gray-500">|</span>
-            <a href="mailto:info@urbandrop.com" className="hover:underline">info@urbandrop.com</a>
+            <a href="mailto:info@urbandrop.io" className="hover:underline">info@urbandrop.io</a>
           </div>
 
           <div className="flex items-center gap-4">
