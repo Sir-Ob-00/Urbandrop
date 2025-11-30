@@ -1,6 +1,7 @@
 import React, { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useTranslation } from 'react-i18next';
 
 import instantOrdersImg from '../../assets/images/merchants/instant order.jpg';
 import fastDeliveryImg from '../../assets/images/merchants/faster delivery.jpg';
@@ -11,18 +12,19 @@ import customerSupportImg from '../../assets/images/merchants/customer support.j
 
 gsap.registerPlugin(ScrollTrigger);
 
-const panels = [
-  { title: "Instant Orders", image: instantOrdersImg },
-  { title: "Fast Delivery", image: fastDeliveryImg },
-  { title: "Real-time Earnings", image: realTimeEarningsImg },
-  { title: "Analytics Dashboard", image: analyticsImg },
-  { title: "Secure Payments", image: securePaymentsImg },
-  { title: "Customer Support", image: customerSupportImg },
-];
-
 const MerchantFeatures = () => {
   const sectionRef = useRef(null);
   const sliderRef = useRef(null);
+  const { t } = useTranslation();
+
+  const panels = [
+    { title: t('merchants.features.instantOrders'), image: instantOrdersImg },
+    { title: t('merchants.features.fastDelivery'), image: fastDeliveryImg },
+    { title: t('merchants.features.realTimeEarnings'), image: realTimeEarningsImg },
+    { title: t('merchants.features.analytics'), image: analyticsImg },
+    { title: t('merchants.features.securePayments'), image: securePaymentsImg },
+    { title: t('merchants.features.customerSupport'), image: customerSupportImg },
+  ];
 
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {

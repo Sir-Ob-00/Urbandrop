@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const MerchantCTA = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 bg-gradient-to-br from-primary via-primaryLight to-background relative overflow-hidden">
       {/* Background Pattern */}
@@ -20,21 +23,20 @@ const MerchantCTA = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Start Growing with Urbandrop Today!
+            {t('merchants.cta.title')}
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-            It takes less than 10 minutes to join and begin selling.
-            Join hundreds of successful merchants already growing their businesses.
+            {t('merchants.cta.desc')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <button className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center gap-3">
-              Become a Merchant
+              {t('merchants.cta.button')}
               <ArrowRight size={24} />
             </button>
             <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all flex items-center gap-3">
               <Phone size={24} />
-              Contact Sales
+              {t('merchants.cta.contact')}
             </button>
           </div>
 
@@ -46,7 +48,7 @@ const MerchantCTA = () => {
             className="mt-12 text-white/80"
           >
             <p className="text-lg">
-              Have questions? Our team is here to help you every step of the way.
+              {t('merchants.cta.footer')}
             </p>
           </motion.div>
         </motion.div>

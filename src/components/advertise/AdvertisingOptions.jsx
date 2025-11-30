@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -12,24 +13,24 @@ import inAppImg from '../../assets/images/advertising/app-in promotion.jpg';
 const panels = [
   {
     id: 'listing-products',
-    headline: 'Listing Products',
-    description: 'Get your unique products in front of thousands of eager customers actively seeking authentic ethnic groceries.',
+    headlineKey: 'advertise.options.listingProducts.headline',
+    descriptionKey: 'advertise.options.listingProducts.description',
     imageSrc: listingImg,
     alt: 'Ad mockup for listing products on Urbandrop',
     bgColor: 'bg-gradient-to-br from-green-500 to-green-700',
   },
   {
     id: 'app-banner',
-    headline: 'App Banner',
-    description: 'Reach a broad audience directly within the Urbandrop app with visually stunning and engaging banner advertisements.',
+    headlineKey: 'advertise.options.appBanner.headline',
+    descriptionKey: 'advertise.options.appBanner.description',
     imageSrc: appBannerImg,
     alt: 'Ad mockup for app banner on Urbandrop',
     bgColor: 'bg-gradient-to-br from-yellow-500 to-yellow-700',
   },
   {
     id: 'in-app-promotions',
-    headline: 'In-App Promotions',
-    description: 'Boost your sales and attract new customers with exclusive in-app promotions and featured deals directly to engaged users.',
+    headlineKey: 'advertise.options.inAppPromotions.headline',
+    descriptionKey: 'advertise.options.inAppPromotions.description',
     imageSrc: inAppImg,
     alt: 'Ad mockup for in-app promotions on Urbandrop',
     bgColor: 'bg-[#fff5ea]',
@@ -39,6 +40,7 @@ const panels = [
 
 const AdvertisingOptions = ({ className }) => {
   const containerRef = useRef();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -88,10 +90,10 @@ const AdvertisingOptions = ({ className }) => {
               {/* Text Content */}
               <div className={`${panel.textColor || 'text-white'} max-w-lg text-center md:text-left mb-8`}>
                 <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6">
-                  {panel.headline}
+                  {t(panel.headlineKey)}
                 </h2>
                 <p className={`text-base md:text-lg ${panel.textColor ? panel.textColor + '/80' : 'text-gray-200'}`}>
-                  {panel.description}
+                  {t(panel.descriptionKey)}
                 </p>
               </div>
             </div>

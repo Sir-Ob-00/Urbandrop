@@ -293,5 +293,719 @@
             "item4": "Croissance Communautaire",
             "item5": "Fiable & Sécurisé"
         }
+    },
+    "advertise": {
+        "options": {
+            "listingProducts": {
+                "headline": "Lister des Produits",
+                "description": "Présentez vos produits uniques à des milliers de clients impatients à la recherche de produits d'épicerie ethniques authentiques."
+            },
+            "appBanner": {
+                "headline": "Bannière d'Application",
+                "description": "Atteignez un large public directement dans l'application Urbandrop avec des bannières publicitaires visuellement attrayantes."
+            },
+            "inAppPromotions": {
+                "headline": "Promotions In-App",
+                "description": "Augmentez vos ventes et attirez de nouveaux clients avec des promotions exclusives et des offres en vedette directement aux utilisateurs engagés."
+            }
+        },
+        "pricing": {
+            "starter": {
+                "name": "Démarrage",
+                "features": [
+                    "Placement de bannière",
+                    "Options de ciblage de base",
+                    "Rapports de performance"
+                ]
+            },
+            "growth": {
+                "name": "Croissance",
+                "features": [
+                    "Bannière + annonces en vedette",
+                    "Ciblage avancé",
+                    "Analyses en temps réel"
+                ]
+            },
+            "premium": {
+                "name": "Premium",
+                "features": [
+                    "Placements multiples",
+                    "Stratégie de campagne personnalisée",
+                    "Gestionnaire de compte dédié"
+                ]
+            },
+            "getStarted": "Commencer"
+        },
+        "hero": {
+            "alt1": "Bannière héros 1 pour la publicité Urbandrop",
+            "alt2": "Bannière héros 2 pour la publicité Urbandrop",
+            "prev": "Diapositive précédente",
+            "next": "Diapositive suivante"
+        },
+        "faq": {
+            "title": "Publicité",
+            "titleHighlight": "FAQ",
+            "subtitle": "Tout ce que vous devez savoir sur la publicité sur Urbandrop",
+            "items": [
+                {
+                    "question": "Quel type de publicités puis-je diffuser sur Urbandrop ?",
+                    "answer": "Vous pouvez diffuser divers types de publicités, notamment des bannières d'application, des listes de produits en vedette, des parrainages de catégories et des promotions in-app. Nous prenons en charge les publicités illustrées, vidéo et les formats interactifs."
+                },
+                {
+                    "question": "Comment payer les campagnes publicitaires ?",
+                    "answer": "Nous proposons des options de paiement flexibles, notamment les virements bancaires, les cartes de crédit/débit et l'argent mobile. Les paiements sont traités en toute sécurité."
+                },
+                {
+                    "question": "Puis-je cibler des lieux ou des types de clients spécifiques ?",
+                    "answer": "Oui ! Notre ciblage avancé vous permet d'atteindre les clients en fonction de leur emplacement, de leur comportement d'achat, de leurs préférences de produits, et plus encore."
+                },
+                {
+                    "question": "Quand ma campagne publicitaire sera-t-elle mise en ligne ?",
+                    "answer": "La plupart des campagnes peuvent être mises en ligne dans les 24 à 48 heures après approbation et paiement."
+                },
+                {
+                    "question": "Fournissez-vous des rapports de performance de campagne ?",
+                    "answer": "Absolument ! Vous recevrez des analyses détaillées incluant les impressions, les clics, les conversions et les mesures de retour sur investissement."
+                },
+                {
+                    "question": "Quel est le budget minimum pour la publicité ?",
+                    "answer": "Notre plan de démarrage commence à un prix abordable pour une semaine de placement de bannière. Nous travaillons avec des entreprises de toutes tailles."
+                },
+                {
+                    "question": "Puis-je modifier ma campagne après son lancement ?",
+                    "answer": "Oui, vous pouvez modifier les paramètres de votre campagne, le ciblage, le contenu créatif et le budget à tout moment via notre tableau de bord annonceur."
+                },
+                {
+                    "question": "Proposez-vous des services de conception créative ?",
+                    "answer": "Pour nos plans Premium, nous incluons des services de conception créative professionnelle. Pour les autres plans, nous pouvons recommander des partenaires de confiance."
+                },
+                {
+                    "question": "Que se passe-t-il si ma campagne ne fonctionne pas bien ?",
+                    "answer": "Nous offrons une garantie de remboursement de 30 jours sur tous les plans. Si vous n'êtes pas satisfait, nous travaillerons avec vous pour optimiser la campagne."
+                },
+                {
+                    "question": "Puis-je faire de la publicité pour des produits de différentes catégories ?",
+                    "answer": "Oui ! Vous pouvez mener plusieurs campagnes pour différentes catégories de produits simultanément."
+                }
+            ]
+        }
+    },
+    "merchants": {
+        "hero": {
+            "title1": "Développez Votre Entreprise avec",
+            "title2": "Urbandrop",
+            "desc": "Rejoignez des centaines de commerçants de confiance vendant des produits alimentaires frais et de qualité via notre application.",
+            "cta": "Rejoindre en tant que Marchand"
+        },
+        "whyJoin": {
+            "title": "POURQUOI NOUS REJOINDRE",
+            "panels": {
+                "reach": {
+                    "title": "Élargissez Votre Portée",
+                    "subtitle": "Connectez-vous avec des milliers de clients dans différentes régions.",
+                    "badge": "Populaire",
+                    "cta": "Commencer"
+                },
+                "sales": {
+                    "title": "Augmentez les Ventes",
+                    "subtitle": "Boostez vos revenus grâce à la large base d'utilisateurs de notre plateforme.",
+                    "badge": "Tendance",
+                    "cta": "Rejoindre Maintenant"
+                },
+                "management": {
+                    "title": "Gestion Facile",
+                    "subtitle": "Gérez votre magasin sans effort avec nos outils intuitifs.",
+                    "badge": "Simple",
+                    "cta": "Commencer Aujourd'hui"
+                },
+                "community": {
+                    "title": "Soutien Communautaire",
+                    "subtitle": "Rejoignez une communauté de commerçants prospères et obtenez du soutien.",
+                    "badge": "Communauté",
+                    "cta": "Faire Partie"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Comment Ça",
+            "titleHighlight": "Marche",
+            "steps": {
+                "list": {
+                    "title": "Listez Vos Produits",
+                    "desc": "Téléchargez et présentez facilement vos produits uniques à un vaste public."
+                },
+                "receive": {
+                    "title": "Recevez des Commandes",
+                    "desc": "Recevez des notifications instantanées pour les nouvelles commandes et gérez-les efficacement."
+                },
+                "earn": {
+                    "title": "Gagnez et Grandissez",
+                    "desc": "Traitez les paiements en toute sécurité et regardez vos revenus augmenter à chaque vente."
+                },
+                "analyze": {
+                    "title": "Analysez les Performances",
+                    "desc": "Accédez à des analyses détaillées pour comprendre vos ventes et le comportement des clients."
+                }
+            }
+        },
+        "features": {
+            "instantOrders": "Commandes Instantanées",
+            "fastDelivery": "Livraison Rapide",
+            "realTimeEarnings": "Gains en Temps Réel",
+            "analytics": "Tableau de Bord Analytique",
+            "securePayments": "Paiements Sécurisés",
+            "customerSupport": "Support Client"
+        },
+        "cta": {
+            "title": "Commencez à Grandir avec Urbandrop Aujourd'hui !",
+            "desc": "Il faut moins de 10 minutes pour rejoindre et commencer à vendre. Rejoignez des centaines de commerçants prospères qui développent déjà leurs activités.",
+            "button": "Devenir Marchand",
+            "contact": "Contacter les Ventes",
+            "footer": "Des questions ? Notre équipe est là pour vous aider à chaque étape."
+        }
+    },
+    "privacyPolicy": {
+        "hero": {
+            "title": "Politique de",
+            "highlight": "Confidentialité",
+            "subtitle": "Votre vie privée compte pour nous",
+            "effectiveDate": "Date d'entrée en vigueur : {{date}}"
+        },
+        "sections": {
+            "whoWeAre": {
+                "title": "Qui Sommes-Nous",
+                "content": [
+                    "UrbanDrop Group Limited est une société enregistrée en Angleterre et au Pays de Galles sous le numéro 16026087.",
+                    "Nous exploitons un marché en ligne connectant les clients avec des commerçants indépendants."
+                ]
+            },
+            "infoCollect": {
+                "title": "Informations Que Nous Collectons",
+                "intro": "Nous collectons des informations personnelles qui nous aident à fournir, améliorer et gérer nos services. Cela peut inclure :",
+                "direct": {
+                    "title": "Informations Que Vous Fournissez Directement",
+                    "items": [
+                        "Nom, numéro de contact et adresse de livraison.",
+                        "Adresse email et mot de passe du compte.",
+                        "Informations de paiement et de facturation.",
+                        "Commentaires, messages ou avis que vous soumettez.",
+                        "Détails d'inscription du marchand."
+                    ]
+                },
+                "automatic": {
+                    "title": "Informations Collectées Automatiquement",
+                    "intro": "Lorsque vous utilisez UrbanDrop, nous pouvons collecter automatiquement :",
+                    "items": [
+                        "Informations sur l'appareil et le navigateur.",
+                        "Données de localisation.",
+                        "Données d'utilisation telles que les pages visitées.",
+                        "Fichiers journaux et données de diagnostic."
+                    ]
+                },
+                "thirdParty": {
+                    "title": "Informations de Tiers",
+                    "intro": "Nous pouvons recevoir des informations de :",
+                    "items": [
+                        "Fournisseurs de paiement.",
+                        "Services de vérification d'identité.",
+                        "Partenaires de livraison.",
+                        "Partenaires d'analyse et de publicité."
+                    ]
+                }
+            },
+            "howWeUse": {
+                "title": "Comment Nous Utilisons Vos Informations",
+                "intro": "Nous utilisons les données personnelles pour :",
+                "items": [
+                    "Traiter et livrer vos commandes.",
+                    "Communiquer avec vous au sujet de votre compte.",
+                    "Vérifier votre identité et prévenir la fraude.",
+                    "Gérer les paiements et les remboursements.",
+                    "Fournir aux commerçants les détails de commande nécessaires.",
+                    "Personnaliser votre expérience.",
+                    "Améliorer la fonctionnalité de la plateforme.",
+                    "Se conformer aux obligations légales."
+                ],
+                "legalBasis": {
+                    "intro": "Nous n'utiliserons vos données que lorsque nous avons une base légale pour le faire.",
+                    "items": [
+                        "Pour exécuter notre contrat avec vous.",
+                        "Pour se conformer aux obligations légales.",
+                        "Pour des intérêts commerciaux légitimes.",
+                        "Avec votre consentement."
+                    ]
+                }
+            },
+            "marketing": {
+                "title": "Communications Marketing",
+                "content": [
+                    "Nous pouvons vous envoyer des emails marketing si vous nous en avez donné la permission.",
+                    "Vous pouvez vous désinscrire à tout moment."
+                ],
+                "items": [
+                    "En cliquant sur \"se désinscrire\" dans n'importe quel email marketing.",
+                    "En ajustant vos préférences dans l'application."
+                ],
+                "note": "Même si vous vous désinscrivez, nous pouvons toujours envoyer des messages non promotionnels."
+            },
+            "sharing": {
+                "title": "Partage de Vos Informations",
+                "intro": "Nous pouvons partager des données personnelles limitées avec :",
+                "items": [
+                    "<strong>Commerçants :</strong> pour préparer et livrer votre commande.",
+                    "<strong>Partenaires de Livraison :</strong> pour livrer votre commande.",
+                    "<strong>Processeurs de Paiement :</strong> pour traiter les paiements.",
+                    "<strong>Fournisseurs IT :</strong> qui nous aident à exploiter nos systèmes.",
+                    "<strong>Partenaires d'Analyse :</strong> pour améliorer les services.",
+                    "<strong>Régulateurs :</strong> lorsque la loi l'exige."
+                ],
+                "note": "Nous ne vendons pas vos données personnelles."
+            },
+            "retention": {
+                "title": "Conservation des Données",
+                "intro": "Nous conservons vos informations personnelles aussi longtemps que nécessaire.",
+                "items": [
+                    "<strong>Dossiers de commande client :</strong> conservés jusqu'à 6 ans.",
+                    "<strong>Données des marchands :</strong> conservées tant que le compte est actif.",
+                    "<strong>Messages de support :</strong> conservés pour référence."
+                ],
+                "note": "Lorsque les données ne sont plus nécessaires, nous les supprimons en toute sécurité."
+            },
+            "security": {
+                "title": "Sécurité des Données",
+                "content": [
+                    "Nous utilisons des mesures techniques et organisationnelles appropriées pour protéger vos données.",
+                    "Celles-ci incluent :"
+                ],
+                "items": [
+                    "Transmission de données cryptée.",
+                    "Passerelles de paiement sécurisées.",
+                    "Contrôles d'accès.",
+                    "Surveillance de sécurité régulière."
+                ],
+                "note": "Cependant, aucun service en ligne n'est entièrement sans risque."
+            },
+            "international": {
+                "title": "Transferts Internationaux",
+                "intro": "Certains de nos fournisseurs peuvent traiter vos données en dehors du Royaume-Uni ou de l'EEE. Nous assurons des garanties appropriées.",
+                "items": [
+                    "Décisions d'adéquation.",
+                    "Clauses Contractuelles Types.",
+                    "Règles d'entreprise contraignantes."
+                ]
+            },
+            "rights": {
+                "title": "Vos Droits",
+                "intro": "En vertu du RGPD britannique, vous avez des droits concernant vos données :",
+                "items": [
+                    "<strong>Accès</strong> – demander une copie de vos données.",
+                    "<strong>Rectification</strong> – corriger des données inexactes.",
+                    "<strong>Effacement</strong> – demander la suppression.",
+                    "<strong>Restriction</strong> – limiter le traitement.",
+                    "<strong>Portabilité</strong> – recevoir vos données.",
+                    "<strong>Objection</strong> – s'opposer au traitement.",
+                    "<strong>Retrait du Consentement</strong>."
+                ],
+                "contact": "Pour exercer ces droits, contactez-nous à <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>."
+            },
+            "cookies": {
+                "title": "Cookies et Suivi",
+                "content": [
+                    "UrbanDrop utilise des cookies pour améliorer l'expérience utilisateur.",
+                    "Vous pouvez gérer les cookies dans les paramètres de votre navigateur.",
+                    "Pour plus de détails, voir notre Politique de Cookies."
+                ]
+            },
+            "children": {
+                "title": "Confidentialité des Enfants",
+                "content": "UrbanDrop ne s'adresse pas aux enfants de moins de 18 ans."
+            },
+            "links": {
+                "title": "Liens vers d'Autres Sites",
+                "content": "Notre plateforme peut inclure des liens vers des sites tiers."
+            },
+            "updates": {
+                "title": "Mises à Jour de cette Politique",
+                "content": "Nous pouvons mettre à jour cette politique de temps à autre."
+            },
+            "contact": {
+                "title": "Contactez-Nous",
+                "intro": "Si vous avez des questions, contactez :",
+                "companyName": "UrbanDrop Group Limited",
+                "email": "Email : <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "ico": "Vous avez également le droit de déposer une plainte auprès de l'ICO.",
+                "website": "Site Web : <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
+            }
+        }
+    },
+    "termsConditions": {
+        "title": "Termes & Conditions",
+        "lastUpdated": "Dernière mise à jour : {{date}}",
+        "intro": {
+            "title": "Conditions Générales d'Utilisation d'UrbanDrop",
+            "p1": "Bienvenue sur UrbanDrop. Ces conditions régissent votre accès et votre utilisation de la plateforme.",
+            "p2": "En utilisant la plateforme, vous acceptez ces conditions."
+        },
+        "sections": {
+            "about": {
+                "title": "1. À propos d'UrbanDrop",
+                "content": [
+                    "UrbanDrop est un marché en ligne connectant les clients avec des commerçants indépendants.",
+                    "Lorsque vous commandez, vous achetez directement auprès du commerçant."
+                ]
+            },
+            "eligibility": {
+                "title": "2. Éligibilité",
+                "content": "Vous devez avoir au moins 18 ans pour utiliser la plateforme.",
+                "items": [
+                    "Vous avez la capacité juridique.",
+                    "Vous utiliserez la plateforme à des fins légales.",
+                    "Vous fournirez des informations exactes."
+                ]
+            },
+            "account": {
+                "title": "3. Votre Compte",
+                "subsections": {
+                    "creation": {
+                        "title": "3.1 Création de Compte",
+                        "content": "Vous devez fournir des détails exacts lors de la création d'un compte."
+                    },
+                    "security": {
+                        "title": "3.2 Sécurité du Compte",
+                        "content": "Vous êtes responsable de la sécurité de vos identifiants."
+                    },
+                    "misuse": {
+                        "title": "3.3 Mauvais Usage",
+                        "content": "UrbanDrop peut suspendre les comptes utilisés pour des activités frauduleuses."
+                    }
+                }
+            },
+            "ordering": {
+                "title": "4. Commandes et Paiements",
+                "subsections": {
+                    "placing": {
+                        "title": "4.1 Passer une Commande",
+                        "content": "Lorsque vous passez une commande, vous proposez d'acheter des produits à un commerçant."
+                    },
+                    "confirmation": {
+                        "title": "4.2 Confirmation de Commande",
+                        "content": "Vous recevrez une confirmation une fois votre commande acceptée."
+                    },
+                    "payments": {
+                        "title": "4.3 Paiements",
+                        "content": "Tous les paiements sont traités en toute sécurité."
+                    },
+                    "pricing": {
+                        "title": "4.4 Tarification",
+                        "content": "Les prix sont fixés par les commerçants et incluent les taxes applicables."
+                    }
+                }
+            },
+            "delivery": {
+                "title": "5. Livraison et Collecte",
+                "subsections": {
+                    "areas": {
+                        "title": "5.1 Zones de Livraison",
+                        "content": "La livraison est disponible uniquement dans les zones desservies."
+                    },
+                    "partners": {
+                        "title": "5.2 Partenaires de Livraison",
+                        "content": "Les commandes peuvent être livrées par UrbanDrop ou par le commerçant."
+                    },
+                    "collection": {
+                        "title": "5.3 Commandes à Emporter",
+                        "content": "Si vous choisissez la collecte, veuillez arriver à l'heure indiquée."
+                    }
+                }
+            },
+            "promotions": {
+                "title": "6. Promotions et Réductions",
+                "subsections": {
+                    "platform": {
+                        "title": "6.1 Promotions de la Plateforme",
+                        "content": "UrbanDrop peut offrir des promotions avec leurs propres règles."
+                    },
+                    "merchant": {
+                        "title": "6.2 Promotions des Marchands",
+                        "content": "Les promotions des marchands sont financées par eux."
+                    },
+                    "misuse": {
+                        "title": "6.3 Mauvais Usage",
+                        "content": "UrbanDrop se réserve le droit de suspendre les offres en cas d'abus."
+                    }
+                }
+            },
+            "merchant": {
+                "title": "7. Responsabilités du Marchand",
+                "content": "Chaque marchand est une entreprise indépendante responsable de :",
+                "items": [
+                    "L'exactitude des informations sur les produits.",
+                    "La sécurité alimentaire et l'hygiène.",
+                    "La conformité aux lois locales."
+                ],
+                "note": "UrbanDrop ne fabrique pas les produits."
+            },
+            "conduct": {
+                "title": "8. Conduite du Client",
+                "content": "Vous acceptez de ne pas :",
+                "items": [
+                    "Abuser de la plateforme.",
+                    "Harceler les commerçants ou les chauffeurs.",
+                    "Créer plusieurs comptes pour exploiter les promotions.",
+                    "Publier de faux avis."
+                ],
+                "note": "UrbanDrop peut suspendre tout compte violant ces normes."
+            },
+            "cancellation": {
+                "title": "9. Politique d'Annulation",
+                "subsections": {
+                    "before": {
+                        "title": "9.1 Avant Acceptation",
+                        "content": "Vous pouvez annuler gratuitement avant acceptation."
+                    },
+                    "after": {
+                        "title": "9.2 Après Acceptation",
+                        "content": "L'annulation peut ne pas être possible après acceptation."
+                    },
+                    "merchant": {
+                        "title": "9.3 Annulations par le Marchand",
+                        "content": "Les marchands peuvent annuler si les produits sont indisponibles."
+                    },
+                    "progress": {
+                        "title": "9.4 Livraison en Cours",
+                        "content": "Si la commande est en route, elle ne peut pas être annulée."
+                    },
+                    "repeated": {
+                        "title": "9.5 Annulations Répétées",
+                        "content": "Les annulations répétées peuvent entraîner des restrictions de compte."
+                    }
+                }
+            },
+            "returns": {
+                "title": "10. Politique de Retour et Remboursement",
+                "subsections": {
+                    "general": {
+                        "title": "10.1 Politique Générale",
+                        "content": "Les remboursements dépendent de la nature de l'article."
+                    },
+                    "perishable": {
+                        "title": "10.2 Articles Périssables",
+                        "content": "Pas de retour pour les produits périssables sauf si endommagés.",
+                        "items": [
+                            "Article endommagé ou périmé.",
+                            "Mauvais article livré.",
+                            "Commande incomplète."
+                        ],
+                        "note": "Signalez les problèmes sous 24h."
+                    },
+                    "nonPerishable": {
+                        "title": "10.3 Articles Non Périssables",
+                        "content": "Retours acceptés si défectueux.",
+                        "items": [
+                            "Article défectueux.",
+                            "Retourné non utilisé."
+                        ]
+                    },
+                    "process": {
+                        "title": "10.4 Processus de Remboursement",
+                        "content": "Remboursements traités sous 5-10 jours ouvrables."
+                    },
+                    "merchantResp": {
+                        "title": "10.5 Responsabilité du Marchand",
+                        "content": "Le marchand est responsable des demandes de remboursement."
+                    },
+                    "delivery": {
+                        "title": "10.6 Problèmes de Livraison",
+                        "content": "Contactez le support pour les problèmes de livraison."
+                    },
+                    "abuse": {
+                        "title": "10.7 Abus",
+                        "content": "Les réclamations abusives peuvent entraîner la suspension du compte."
+                    }
+                }
+            },
+            "ip": {
+                "title": "11. Propriété Intellectuelle",
+                "content": "Tout le contenu appartient à UrbanDrop ou ses concédants."
+            },
+            "availability": {
+                "title": "12. Disponibilité",
+                "content": "Nous visons une disponibilité 24/7 mais pouvons suspendre pour maintenance."
+            },
+            "privacy": {
+                "title": "13. Confidentialité",
+                "content": "Vos données sont traitées selon notre Politique de Confidentialité."
+            },
+            "liability": {
+                "title": "14. Limitation de Responsabilité",
+                "subsections": {
+                    "role": {
+                        "title": "14.1 Rôle d'UrbanDrop",
+                        "content": "Nous sommes un intermédiaire. Nous ne sommes pas responsables de :",
+                        "items": [
+                            "Qualité du produit.",
+                            "Commandes incorrectes.",
+                            "Problèmes de livraison par des tiers."
+                        ]
+                    },
+                    "indirect": {
+                        "title": "14.2 Pertes Indirectes",
+                        "content": "Nous ne sommes pas responsables des dommages indirects."
+                    },
+                    "maximum": {
+                        "title": "14.3 Responsabilité Maximale",
+                        "content": "Limitée au montant payé ou 50 £."
+                    }
+                }
+            },
+            "termination": {
+                "title": "15. Résiliation",
+                "content": "Nous pouvons suspendre votre compte si vous violez ces conditions.",
+                "items": [
+                    "Violation des conditions.",
+                    "Activité frauduleuse.",
+                    "Abus de promotions."
+                ],
+                "note": "Vous pouvez demander la suppression de votre compte."
+            },
+            "links": {
+                "title": "16. Liens Tiers",
+                "content": "Nous ne sommes pas responsables des sites tiers."
+            },
+            "changes": {
+                "title": "17. Changements",
+                "content": "Nous pouvons mettre à jour ces conditions."
+            },
+            "governing": {
+                "title": "18. Loi Applicable",
+                "content": "Régie par les lois d'Angleterre et du Pays de Galles."
+            },
+            "contact": {
+                "title": "19. Contact",
+                "content": "Pour toute question, contactez :",
+                "companyName": "UrbanDrop Group Limited",
+                "email": "Email : <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+            }
+        }
+    },
+    "cookiesPolicy": {
+        "title": "Politique de Cookies",
+        "effectiveDate": "(Date d'entrée en vigueur : {{date}})",
+        "whatAreCookies": {
+            "title": "Que sont les Cookies ?",
+            "desc": "Les cookies sont de petits fichiers texte placés sur votre appareil."
+        },
+        "types": {
+            "essential": {
+                "title": "Cookies Essentiels",
+                "desc": "Nécessaires au fonctionnement de la plateforme."
+            },
+            "performance": {
+                "title": "Cookies de Performance",
+                "desc": "Nous aident à comprendre comment les visiteurs utilisent UrbanDrop."
+            },
+            "functionality": {
+                "title": "Cookies de Fonctionnalité",
+                "desc": "Mémorisent vos préférences."
+            },
+            "advertising": {
+                "title": "Cookies Publicitaires",
+                "desc": "Permettent de vous montrer des offres pertinentes."
+            }
+        },
+        "thirdParty": {
+            "title": "Cookies Tiers",
+            "desc": "Certains cookies proviennent de partenaires tiers."
+        },
+        "managing": {
+            "title": "Gérer les Cookies",
+            "desc": "Vous pouvez gérer les cookies via les paramètres de votre navigateur."
+        },
+        "consent": {
+            "title": "Consentement",
+            "desc": "En cliquant sur \"Tout Accepter\", vous acceptez l'utilisation de tous les cookies."
+        },
+        "updates": {
+            "title": "Mises à Jour",
+            "desc": "Nous pouvons mettre à jour cette politique."
+        },
+        "contact": {
+            "title": "Contactez-Nous",
+            "desc": "Pour toute question, contactez :",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "Email : <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
+        }
+    },
+    "faqs": {
+        "title": "Foire Aux Questions",
+        "subtitle": "Trouvez des réponses aux questions les plus courantes.",
+        "categories": {
+            "general": "Général",
+            "ordering": "Commandes & Livraison",
+            "merchants": "Marchands"
+        },
+        "items": {
+            "general": [
+                {
+                    "question": "Qu'est-ce qu'Urbandrop ?",
+                    "answer": "Urbandrop est un marché en ligne connectant les clients avec des commerçants locaux."
+                },
+                {
+                    "question": "Urbandrop est-il disponible dans ma ville ?",
+                    "answer": "Nous nous développons rapidement. Vérifiez votre code postal sur la page d'accueil."
+                }
+            ],
+            "ordering": [
+                {
+                    "question": "Comment passer une commande ?",
+                    "answer": "Parcourez nos catégories, ajoutez des articles au panier et passez à la caisse."
+                },
+                {
+                    "question": "Quels sont les frais de livraison ?",
+                    "answer": "Les frais varient selon l'emplacement et le marchand."
+                },
+                {
+                    "question": "Puis-je suivre ma commande ?",
+                    "answer": "Oui ! Suivez votre commande en temps réel via votre tableau de bord."
+                },
+                {
+                    "question": "Et si un article est en rupture de stock ?",
+                    "answer": "Le marchand peut suggérer un remplacement ou vous rembourser."
+                }
+            ],
+            "merchants": [
+                {
+                    "question": "Comment devenir marchand sur Urbandrop ?",
+                    "answer": "Visitez notre page 'Devenir Marchand' et remplissez le formulaire."
+                }
+            ]
+        },
+        "notFound": {
+            "title": "Vous ne trouvez pas la réponse ?",
+            "desc": "Notre équipe de support est là pour vous aider.",
+            "button": "Contacter le Support"
+        }
+    },
+    "notFoundPage": {
+        "title": "Page Non Trouvée",
+        "desc": "La page que vous cherchez n'existe pas.",
+        "goHome": "Accueil",
+        "goBack": "Retour",
+        "features": {
+            "browseMenu": {
+                "title": "Parcourir le Menu",
+                "desc": "Explorez nos options délicieuses"
+            },
+            "becomeMerchant": {
+                "title": "Devenir Marchand",
+                "desc": "Rejoignez notre réseau de vendeurs"
+            },
+            "advertise": {
+                "title": "Publicité",
+                "desc": "Promouvez votre marque avec nous"
+            }
+        },
+        "illustration": "Nous n'avons pas trouvé la page, mais nous avons trouvé ces ingrédients frais !",
+        "searchSuggestion": "Essayez de chercher ce dont vous avez besoin."
     }
 }

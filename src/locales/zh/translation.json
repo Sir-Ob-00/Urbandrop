@@ -240,59 +240,56 @@
         "appDownload": {
             "title1": "获取完整的",
             "title2": "Urbandrop",
-```json
-                "android": "下载 Android 版"
-        }
-    }
-},
-"about": {
-    "hero": {
-        "title1": "传递",
-        "title2": "新鲜",
-        "title3": "连接",
-        "title4": "社区",
-        "desc": "在 Urbandrop，我们要重新定义本地企业如何通过速度、简单性和技术与客户建立联系。"
-    },
-    "purpose": {
-        "title1": "以此为",
-        "title2": "目的",
-        "quote": "简化日常活动并将便利带给人们。"
-    },
-    "ecosystem": {
-        "title": "生态系统",
-        "subtitle": "万物互联的地方。",
-        "customers": {
-            "title": "客户",
-            "subtitle": "即时访问"
-        },
-        "merchants": {
-            "title": "商家",
-            "subtitle": "增长引擎"
-        },
-        "riders": {
-            "title": "骑手",
-            "subtitle": "灵活收入"
-        },
-        "businesses": {
-            "title": "企业",
-            "subtitle": "物流解决方案"
+            "android": "下载 Android 版"
         }
     },
-    "process": {
-        "step1": "探索",
-        "step2": "连接",
-        "step3": "移动",
-        "step4": "完成"
-    },
-    "highlights": {
-        "title": "体验",
-        "subtitle": "优质标准",
-        "item1": "快速且互联",
-        "item2": "支持各方",
-        "item3": "移动工作流程",
-        "item4": "社区增长",
-        "item5": "可靠且安全"
+    "about": {
+        "hero": {
+            "title1": "传递",
+            "title2": "新鲜",
+            "title3": "连接",
+            "title4": "社区",
+            "desc": "在 Urbandrop，我们要重新定义本地企业如何通过速度、简单性和技术与客户建立联系。"
+        },
+        "purpose": {
+            "title1": "以此为",
+            "title2": "目的",
+            "quote": "简化日常活动并将便利带给人们。"
+        },
+        "ecosystem": {
+            "title": "生态系统",
+            "subtitle": "万物互联的地方。",
+            "customers": {
+                "title": "客户",
+                "subtitle": "即时访问"
+            },
+            "merchants": {
+                "title": "商家",
+                "subtitle": "增长引擎"
+            },
+            "riders": {
+                "title": "骑手",
+                "subtitle": "灵活收入"
+            },
+            "businesses": {
+                "title": "企业",
+                "subtitle": "物流解决方案"
+            }
+        },
+        "process": {
+            "step1": "探索",
+            "step2": "连接",
+            "step3": "移动",
+            "step4": "完成"
+        },
+        "highlights": {
+            "title": "体验",
+            "subtitle": "优质标准",
+            "item1": "快速且互联",
+            "item2": "支持各方",
+            "item3": "移动工作流程",
+            "item4": "社区增长",
+            "item5": "可靠且安全"
+        }
     }
 }
-}
-```

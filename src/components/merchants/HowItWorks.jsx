@@ -2,40 +2,43 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Package, Truck, Wallet, BarChart } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import listProducts from '../../assets/images/merchants/list-products.jpg';
 import receiveFulfill from '../../assets/images/merchants/receive-fulfill.jpg';
 import deliverEarn from '../../assets/images/merchants/deliver-earn.jpg';
 import merchantSignup from '../../assets/images/merchants/merchant-signup.jpg';
 import marketWoman from '../../assets/images/merchants/market-woman.jpg';
 
-const steps = [
-  {
-    id: 1,
-    title: 'List Your Products',
-    text: 'Easily upload and showcase your unique products to a vast audience.',
-    imageUrl: listProducts,
-  },
-  {
-    id: 2,
-    title: 'Receive Orders',
-    text: 'Get instant notifications for new orders and manage them efficiently.',
-    imageUrl: receiveFulfill,
-  },
-  {
-    id: 3,
-    title: 'Earn & Grow',
-    text: 'Process payments securely and watch your earnings grow with every sale.',
-    imageUrl: deliverEarn,
-  },
-  {
-    id: 4,
-    title: 'Analyze Performance',
-    text: 'Access detailed analytics to understand your sales and customer behavior.',
-    imageUrl: merchantSignup,
-  },
-];
-
 const HowItWorks = () => {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      id: 1,
+      title: t('merchants.howItWorks.steps.list.title'),
+      text: t('merchants.howItWorks.steps.list.desc'),
+      imageUrl: listProducts,
+    },
+    {
+      id: 2,
+      title: t('merchants.howItWorks.steps.receive.title'),
+      text: t('merchants.howItWorks.steps.receive.desc'),
+      imageUrl: receiveFulfill,
+    },
+    {
+      id: 3,
+      title: t('merchants.howItWorks.steps.earn.title'),
+      text: t('merchants.howItWorks.steps.earn.desc'),
+      imageUrl: deliverEarn,
+    },
+    {
+      id: 4,
+      title: t('merchants.howItWorks.steps.analyze.title'),
+      text: t('merchants.howItWorks.steps.analyze.desc'),
+      imageUrl: merchantSignup,
+    },
+  ];
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -82,7 +85,7 @@ const HowItWorks = () => {
 
         <div className="relative max-w-7xl mx-auto px-4 md:px-12">
           <h2 className="text-5xl md:text-7xl font-extrabold text-center mb-16 leading-tight">
-            How It <span className="text-[#00b36b]">Works</span>
+            {t('merchants.howItWorks.title')} <span className="text-[#00b36b]">{t('merchants.howItWorks.titleHighlight')}</span>
           </h2>
 
           {/* The backdrop-filter and bg-opacity will apply the glass effect to this container */}
@@ -124,11 +127,7 @@ const HowItWorks = () => {
                       {index === 2 && <Wallet size={48} className="text-[#00b36b] mb-4" />}
                       {index === 3 && <BarChart size={48} className="text-[#00b36b] mb-4" />}
                       <h3 className="text-5xl lg:text-7xl font-bold mb-4 transition-all duration-700 ease-in-out group-hover:text-3xl group-hover:lg:text-5xl">
-                        {step.title.replace(
-                          /(Products|Orders|Grow|Performance)/,
-                          '<span class="text-[#00b36b]">$1</span>'
-                        )
-                          .split('<span').map((part, i) => i === 0 ? part : <span key={i} className="text-[#00b36b]">{part.split('>')[1].split('<')[0]}</span>)}
+                        {step.title}
                       </h3>
                       <p className="text-lg">{step.text}</p>
                     </div>

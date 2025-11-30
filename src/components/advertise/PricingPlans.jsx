@@ -1,40 +1,31 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import starterImg from '../../assets/images/advertising/Starter.jpg';
 import growthImg from '../../assets/images/advertising/Growth.jpg';
 import premiumImg from '../../assets/images/advertising/Premium.jpg';
 
-const plans = [
-  {
-    name: 'Starter',
-    image: starterImg,
-    features: [
-      'Banner placement',
-      'Basic targeting options',
-      'Performance reports',
-    ],
-  },
-  {
-    name: 'Growth',
-    image: growthImg,
-    features: [
-      'Banner + featured listings',
-      'Advanced targeting',
-      'Real-time analytics',
-    ],
-  },
-  {
-    name: 'Premium',
-    image: premiumImg,
-    features: [
-      'Multiple placements',
-      'Custom campaign strategy',
-      'Dedicated account manager',
-    ],
-  },
-];
-
 const PricingPlans = () => {
+  const { t } = useTranslation();
+
+  const plans = [
+    {
+      name: t('advertise.pricing.starter.name'),
+      image: starterImg,
+      features: t('advertise.pricing.starter.features', { returnObjects: true }),
+    },
+    {
+      name: t('advertise.pricing.growth.name'),
+      image: growthImg,
+      features: t('advertise.pricing.growth.features', { returnObjects: true }),
+    },
+    {
+      name: t('advertise.pricing.premium.name'),
+      image: premiumImg,
+      features: t('advertise.pricing.premium.features', { returnObjects: true }),
+    },
+  ];
+
   return (
     <div className="relative flex flex-col">
       {plans.map((plan, index) => {
@@ -49,8 +40,8 @@ const PricingPlans = () => {
                 className="w-full md:w-1/2 h-64 md:h-screen"
                 initial={
                   isStarter ? { y: 400, opacity: 0 } :
-                  isGrowth ? { y: -400, opacity: 0 } :
-                  { y: 400, opacity: 0 }
+                    isGrowth ? { y: -400, opacity: 0 } :
+                      { y: 400, opacity: 0 }
                 }
                 whileInView={{ y: 0, x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -66,8 +57,8 @@ const PricingPlans = () => {
                 className={`w-full md:w-1/2 flex flex-col justify-center p-6 md:p-12 text-white ${isStarter ? 'bg-gray-900' : isGrowth ? 'bg-blue-900' : 'bg-green-900'}`}
                 initial={
                   isStarter ? { y: 400, opacity: 0 } :
-                  isGrowth ? { y: -400, opacity: 0 } :
-                  { y: 400, opacity: 0 }
+                    isGrowth ? { y: -400, opacity: 0 } :
+                      { y: 400, opacity: 0 }
                 }
                 whileInView={{ y: 0, x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
@@ -95,7 +86,7 @@ const PricingPlans = () => {
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-black px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-xl md:text-2xl lg:text-3xl shadow-lg hover:shadow-xl transition-all"
                 >
-                  Get Started
+                  {t('advertise.pricing.getStarted')}
                 </motion.button>
               </motion.div>
             </div>

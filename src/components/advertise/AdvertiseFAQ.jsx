@@ -1,62 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown, ChevronUp, HelpCircle, Target, DollarSign, BarChart3, Users } from 'lucide-react';
-
-const faqs = [
-  {
-    question: 'What kind of ads can I run on Urbandrop?',
-    answer: 'You can run various types of ads including app banners, featured product listings, category sponsorships, and in-app promotions. We support image ads, video ads, and interactive formats to showcase your products effectively.',
-    icon: <Target size={20} className="text-primary" />,
-  },
-  {
-    question: 'How do I pay for advertising campaigns?',
-    answer: 'We offer flexible payment options including bank transfers, credit/debit cards, and mobile money. Payments are processed securely, and you only pay for the advertising services you use. We also offer invoicing for larger campaigns.',
-    icon: <DollarSign size={20} className="text-primary" />,
-  },
-  {
-    question: 'Can I target specific locations or customer types?',
-    answer: 'Yes! Our advanced targeting allows you to reach customers based on location, shopping behavior, product preferences, and more. You can target specific cities, regions, or focus on customers who frequently purchase certain types of products.',
-    icon: <Users size={20} className="text-primary" />,
-  },
-  {
-    question: 'How soon will my ad campaign go live?',
-    answer: 'Most campaigns can go live within 24-48 hours after approval and payment. For larger or more complex campaigns, it may take up to 1 week to ensure optimal setup. We\'ll keep you updated throughout the process.',
-    icon: <BarChart3 size={20} className="text-primary" />,
-  },
-  {
-    question: 'Do you provide campaign performance reports?',
-    answer: 'Absolutely! You\'ll receive detailed analytics including impressions, clicks, conversions, and ROI metrics. Real-time dashboards are available, and we provide weekly performance reports with insights and optimization recommendations.',
-    icon: <BarChart3 size={20} className="text-primary" />,
-  },
-  {
-    question: 'What\'s the minimum budget for advertising?',
-    answer: 'Our Starter plan starts at GHS 200 for a week of banner placement. However, we work with businesses of all sizes and can create custom campaigns starting from as little as GHS 100 for targeted promotions.',
-    icon: <DollarSign size={20} className="text-primary" />,
-  },
-  {
-    question: 'Can I modify my campaign after it starts?',
-    answer: 'Yes, you can modify your campaign parameters, targeting, creative content, and budget at any time through our advertiser dashboard. Changes typically take effect within a few hours.',
-    icon: <Target size={20} className="text-primary" />,
-  },
-  {
-    question: 'Do you offer creative design services?',
-    answer: 'For our Premium plans, we include professional creative design services. For other plans, we can recommend trusted design partners or provide templates and guidelines to help you create effective ad content.',
-    icon: <HelpCircle size={20} className="text-primary" />,
-  },
-  {
-    question: 'What happens if my campaign doesn\'t perform well?',
-    answer: 'We offer a 30-day money-back guarantee on all plans. If you\'re not satisfied with the results, we\'ll work with you to optimize the campaign or provide a full refund. Our success is tied to your success.',
-    icon: <BarChart3 size={20} className="text-primary" />,
-  },
-  {
-    question: 'Can I advertise products from different categories?',
-    answer: 'Yes! You can run multiple campaigns for different product categories simultaneously. This is especially effective for brands with diverse product lines or seasonal promotions.',
-    icon: <Target size={20} className="text-primary" />,
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 const AdvertiseFAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
+  const { t } = useTranslation();
+
+  const faqs = useMemo(() => {
+    const items = t('advertise.faq.items', { returnObjects: true });
+    // Map icons to items based on index or some logic if needed.
+    // Since the original code had specific icons for specific questions, we can try to map them back.
+    // Or we can just cycle through them or use a default.
+    // Let's try to map them by index to match the original order.
+    const icons = [
+      <Target size={20} className="text-primary" />,
+      <DollarSign size={20} className="text-primary" />,
+      <Users size={20} className="text-primary" />,
+      <BarChart3 size={20} className="text-primary" />,
+      <BarChart3 size={20} className="text-primary" />,
+      <DollarSign size={20} className="text-primary" />,
+      <Target size={20} className="text-primary" />,
+      <HelpCircle size={20} className="text-primary" />,
+      <BarChart3 size={20} className="text-primary" />,
+      <Target size={20} className="text-primary" />,
+    ];
+
+    return items.map((item, index) => ({
+      ...item,
+      icon: icons[index] || <HelpCircle size={20} className="text-primary" />,
+    }));
+  }, [t]);
 
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -78,10 +52,10 @@ const AdvertiseFAQ = () => {
             </div>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-dark mb-6">
-            Advertising <span className="text-primary">FAQ</span>
+            {t('advertise.faq.title')} <span className="text-primary">{t('advertise.faq.titleHighlight')}</span>
           </h2>
           <p className="text-xl text-muted">
-            Everything you need to know about advertising on Urbandrop
+            {t('advertise.faq.subtitle')}
           </p>
         </motion.div>
 

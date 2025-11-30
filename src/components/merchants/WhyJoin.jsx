@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useTranslation } from 'react-i18next';
 import listProductsImg from '../../assets/images/merchants/list-products.jpg';
 import receiveFulfillImg from '../../assets/images/merchants/receive-fulfill.jpg';
 import deliverEarnImg from '../../assets/images/merchants/deliver-earn.jpg';
@@ -9,49 +10,50 @@ import merchantSignupImg from '../../assets/images/merchants/merchant-signup.jpg
 
 gsap.registerPlugin(ScrollTrigger);
 
-const panels = [
-  {
-    bgImage: listProductsImg,
-    accentColor: '#00b36b',
-    title: 'Expand Your Reach',
-    subtitle: 'Connect with thousands of customers across different regions.',
-    badge: 'Popular',
-    cta: 'Get Started',
-    previewImage: deliverEarnImg,
-  },
-  {
-    bgImage: receiveFulfillImg,
-    accentColor: '#ff6b6b',
-    title: 'Increase Sales',
-    subtitle: 'Boost your revenue with our platform\'s wide user base.',
-    badge: 'Trending',
-    cta: 'Join Now',
-    previewImage: merchantSignupImg,
-  },
-  {
-    bgImage: deliverEarnImg,
-    accentColor: '#4ecdc4',
-    title: 'Easy Management',
-    subtitle: 'Manage your store effortlessly with our intuitive tools.',
-    badge: 'Simple',
-    cta: 'Start Today',
-    previewImage: listProductsImg,
-  },
-  {
-    bgImage: merchantSignupImg,
-    accentColor: '#f9ca24',
-    title: 'Community Support',
-    subtitle: 'Join a community of successful merchants and get support.',
-    badge: 'Community',
-    cta: 'Become Part',
-    previewImage: receiveFulfillImg,
-  },
-];
-
 const WhyJoin = () => {
   const containerRef = useRef();
   const [rotateX, setRotateX] = useState(0);
   const [rotateY, setRotateY] = useState(0);
+  const { t } = useTranslation();
+
+  const panels = [
+    {
+      bgImage: listProductsImg,
+      accentColor: '#00b36b',
+      title: t('merchants.whyJoin.panels.reach.title'),
+      subtitle: t('merchants.whyJoin.panels.reach.subtitle'),
+      badge: t('merchants.whyJoin.panels.reach.badge'),
+      cta: t('merchants.whyJoin.panels.reach.cta'),
+      previewImage: deliverEarnImg,
+    },
+    {
+      bgImage: receiveFulfillImg,
+      accentColor: '#ff6b6b',
+      title: t('merchants.whyJoin.panels.sales.title'),
+      subtitle: t('merchants.whyJoin.panels.sales.subtitle'),
+      badge: t('merchants.whyJoin.panels.sales.badge'),
+      cta: t('merchants.whyJoin.panels.sales.cta'),
+      previewImage: merchantSignupImg,
+    },
+    {
+      bgImage: deliverEarnImg,
+      accentColor: '#4ecdc4',
+      title: t('merchants.whyJoin.panels.management.title'),
+      subtitle: t('merchants.whyJoin.panels.management.subtitle'),
+      badge: t('merchants.whyJoin.panels.management.badge'),
+      cta: t('merchants.whyJoin.panels.management.cta'),
+      previewImage: listProductsImg,
+    },
+    {
+      bgImage: merchantSignupImg,
+      accentColor: '#f9ca24',
+      title: t('merchants.whyJoin.panels.community.title'),
+      subtitle: t('merchants.whyJoin.panels.community.subtitle'),
+      badge: t('merchants.whyJoin.panels.community.badge'),
+      cta: t('merchants.whyJoin.panels.community.cta'),
+      previewImage: receiveFulfillImg,
+    },
+  ];
 
   const handleMouseMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -99,7 +101,7 @@ const WhyJoin = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          WHY JOIN US
+          {t('merchants.whyJoin.title')}
         </motion.h2>
       </div>
       {panels.map((panel, index) => {
@@ -121,7 +123,7 @@ const WhyJoin = () => {
                 className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl shadow-2xl p-8 md:p-12 max-w-4xl w-full"
                 style={{
                   transform: `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
-                  background: `linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05))`,
+                  background: `linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05))`,
                 }}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={handleMouseLeave}

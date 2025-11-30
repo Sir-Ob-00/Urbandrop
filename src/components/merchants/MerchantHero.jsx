@@ -1,8 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import heroVideo from '../../assets/images/merchants/Video/urbandrop video promo.mp4';
 
 const MerchantHero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center bg-black overflow-hidden" style={{ paddingTop: '120px' }}>
       {/* Video Background */}
@@ -29,15 +32,15 @@ const MerchantHero = () => {
           className="text-white space-y-8"
         >
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Grow Your Business with{' '}
-            <span className="text-primary">Urbandrop</span>
+            {t('merchants.hero.title1')} {' '}
+            <span className="text-primary">{t('merchants.hero.title2')}</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
-            Join hundreds of trusted merchants selling fresh and quality foodstuffs through our app.
+            {t('merchants.hero.desc')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
             <button className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-darkGreen transition-all transform hover:scale-105 shadow-2xl">
-              Join as a Merchant
+              {t('merchants.hero.cta')}
             </button>
           </div>
         </motion.div>

@@ -2,25 +2,28 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Home, ArrowLeft, Search, ShoppingBag, Truck } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const NotFound = () => {
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: <Search size={24} className="text-white" />,
-      title: 'Browse Menu',
-      description: 'Explore our diverse collection of authentic cuisines',
+      title: t('notFoundPage.features.browseMenu.title'),
+      description: t('notFoundPage.features.browseMenu.desc'),
       link: '/',
     },
     {
       icon: <ShoppingBag size={24} className="text-white" />,
-      title: 'Become Merchant',
-      description: 'Join our network of successful food vendors',
+      title: t('notFoundPage.features.becomeMerchant.title'),
+      description: t('notFoundPage.features.becomeMerchant.desc'),
       link: '/become-merchant',
     },
     {
       icon: <Truck size={24} className="text-white" />,
-      title: 'Advertise',
-      description: 'Reach thousands of shoppers every day',
+      title: t('notFoundPage.features.advertise.title'),
+      description: t('notFoundPage.features.advertise.desc'),
       link: '/advertise',
     },
   ];
@@ -58,11 +61,10 @@ const NotFound = () => {
           className="space-y-6"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-dark">
-            Oops! Page Not Found
+            {t('notFoundPage.title')}
           </h1>
           <p className="text-xl text-muted max-w-2xl mx-auto leading-relaxed">
-            The page you're looking for seems to have wandered off to find some fresh ingredients.
-            Don't worry, let's get you back to exploring amazing food!
+            {t('notFoundPage.desc')}
           </p>
         </motion.div>
 
@@ -78,14 +80,14 @@ const NotFound = () => {
             className="bg-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-darkGreen transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3"
           >
             <Home size={20} />
-            Go Home
+            {t('notFoundPage.goHome')}
           </Link>
           <button
             onClick={() => window.history.back()}
             className="border-2 border-primary text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-primary hover:text-white transition-all flex items-center justify-center gap-3"
           >
             <ArrowLeft size={20} />
-            Go Back
+            {t('notFoundPage.goBack')}
           </button>
         </motion.div>
 
@@ -130,7 +132,7 @@ const NotFound = () => {
               <div className="text-4xl">🍎</div>
             </div>
             <p className="text-muted italic">
-              "While you're here, why not explore our fresh selection?"
+              "{t('notFoundPage.illustration')}"
             </p>
           </div>
         </motion.div>
@@ -142,7 +144,7 @@ const NotFound = () => {
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-8 text-muted"
         >
-          <p>Can't find what you're looking for? Try our search or contact support.</p>
+          <p>{t('notFoundPage.searchSuggestion')}</p>
         </motion.div>
       </div>
     </div>
