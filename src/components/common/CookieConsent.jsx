@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronDown, ChevronUp, Shield, Check } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const CookieConsent = () => {
+    const { t } = useTranslation();
     const [showBanner, setShowBanner] = useState(false);
     const [showModal, setShowModal] = useState(false);
     const [preferences, setPreferences] = useState({
@@ -77,10 +79,10 @@ const CookieConsent = () => {
                             <div className="lg:w-2/3">
                                 <h3 className="text-lg font-bold text-gray-900 mb-2 flex items-center gap-2">
                                     <Shield className="w-5 h-5 text-green-600" />
-                                    We value your privacy
+                                    {t('cookieConsent.banner.title')}
                                 </h3>
                                 <p className="text-gray-600 text-sm leading-relaxed">
-                                    We use cookies to improve your experience. UrbanDrop uses essential cookies to make our site work, and optional cookies to help us understand how you use it, personalize content, and show you relevant offers. You can choose to accept all cookies, reject non-essential ones, or manage your preferences at any time.
+                                    {t('cookieConsent.banner.description')}
                                 </p>
                             </div>
                             <div className="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
@@ -88,19 +90,19 @@ const CookieConsent = () => {
                                     onClick={handleAcceptAll}
                                     className="px-6 py-2.5 bg-green-600 text-white rounded-lg font-medium hover:bg-green-700 transition-colors text-sm whitespace-nowrap"
                                 >
-                                    Accept All Cookies
+                                    {t('cookieConsent.banner.acceptAll')}
                                 </button>
                                 <button
                                     onClick={handleRejectNonEssential}
                                     className="px-6 py-2.5 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200 transition-colors text-sm whitespace-nowrap"
                                 >
-                                    Reject Non-Essential
+                                    {t('cookieConsent.banner.rejectNonEssential')}
                                 </button>
                                 <button
                                     onClick={() => setShowModal(true)}
                                     className="px-6 py-2.5 border border-gray-300 text-gray-600 rounded-lg font-medium hover:bg-gray-50 transition-colors text-sm whitespace-nowrap"
                                 >
-                                    Manage Preferences
+                                    {t('cookieConsent.banner.managePreferences')}
                                 </button>
                             </div>
                         </div>
@@ -129,8 +131,8 @@ const CookieConsent = () => {
                             {/* Header */}
                             <div className="p-6 border-b border-gray-100 flex items-center justify-between bg-gray-50">
                                 <div>
-                                    <h2 className="text-xl font-bold text-gray-900">Cookie Preferences</h2>
-                                    <p className="text-sm text-gray-500 mt-1">Manage how we use cookies on this site.</p>
+                                    <h2 className="text-xl font-bold text-gray-900">{t('cookieConsent.modal.title')}</h2>
+                                    <p className="text-sm text-gray-500 mt-1">{t('cookieConsent.modal.description')}</p>
                                 </div>
                                 <button
                                     onClick={() => setShowModal(false)}
@@ -148,71 +150,75 @@ const CookieConsent = () => {
                                         onClick={handleAcceptAll}
                                         className="flex-1 py-2 bg-green-50 text-green-700 border border-green-200 rounded-lg font-medium hover:bg-green-100 transition-colors text-sm"
                                     >
-                                        Accept All
+                                        {t('cookieConsent.modal.quickActions.acceptAll')}
                                     </button>
                                     <button
                                         onClick={handleRejectNonEssential}
                                         className="flex-1 py-2 bg-gray-50 text-gray-700 border border-gray-200 rounded-lg font-medium hover:bg-gray-100 transition-colors text-sm"
                                     >
-                                        Reject Non-Essential
+                                        {t('cookieConsent.modal.quickActions.rejectNonEssential')}
                                     </button>
                                 </div>
 
                                 {/* Categories */}
                                 <div className="space-y-4">
                                     <CookieCategory
-                                        title="Essential Cookies"
+                                        title={t('cookieConsent.modal.categories.essential.title')}
                                         description={
                                             <>
-                                                <p>These cookies are needed for UrbanDrop to function properly. They enable secure login, checkout, and payment processing. You can’t turn these off through our settings, but you can block them in your browser (which may affect functionality).</p>
-                                                <p className="mt-3"><span className="font-medium text-gray-700">Examples:</span> login sessions, shopping basket tracking, payment processing.</p>
+                                                <p>{t('cookieConsent.modal.categories.essential.description')}</p>
+                                                <p className="mt-3 text-gray-700">{t('cookieConsent.modal.categories.essential.examples')}</p>
                                             </>
                                         }
                                         isActive={preferences.essential}
                                         isLocked={true}
+                                        t={t}
                                     />
                                     <CookieCategory
-                                        title="Performance and Analytics Cookies"
+                                        title={t('cookieConsent.modal.categories.performance.title')}
                                         description={
                                             <>
-                                                <p>These help us understand how visitors use UrbanDrop like which pages are most visited or where users experience delays. They allow us to improve speed, reliability, and overall usability.</p>
-                                                <p className="mt-3"><span className="font-medium text-gray-700">Examples:</span> Google Analytics, app diagnostics.</p>
+                                                <p>{t('cookieConsent.modal.categories.performance.description')}</p>
+                                                <p className="mt-3 text-gray-700">{t('cookieConsent.modal.categories.performance.examples')}</p>
                                             </>
                                         }
                                         isActive={preferences.performance}
                                         onToggle={() => togglePreference('performance')}
+                                        t={t}
                                     />
                                     <CookieCategory
-                                        title="Functional Cookies"
+                                        title={t('cookieConsent.modal.categories.functional.title')}
                                         description={
                                             <>
-                                                <p>These remember your preferences, such as language, location, and saved addresses, so you don’t need to re-enter them each time.</p>
-                                                <p className="mt-3"><span className="font-medium text-gray-700">Examples:</span> preferred delivery address, saved shop filters.</p>
+                                                <p>{t('cookieConsent.modal.categories.functional.description')}</p>
+                                                <p className="mt-3 text-gray-700">{t('cookieConsent.modal.categories.functional.examples')}</p>
                                             </>
                                         }
                                         isActive={preferences.functional}
                                         onToggle={() => togglePreference('functional')}
+                                        t={t}
                                     />
                                     <CookieCategory
-                                        title="Advertising and Marketing Cookies"
+                                        title={t('cookieConsent.modal.categories.advertising.title')}
                                         description={
                                             <>
-                                                <p>We use these to show you personalized promotions and relevant ads, both on UrbanDrop and on other websites. They help us measure the performance of marketing campaigns and avoid showing the same ads repeatedly.</p>
-                                                <p className="mt-3"><span className="font-medium text-gray-700">Examples:</span> Meta Pixel, Google Ads Remarketing.</p>
+                                                <p>{t('cookieConsent.modal.categories.advertising.description')}</p>
+                                                <p className="mt-3 text-gray-700">{t('cookieConsent.modal.categories.advertising.examples')}</p>
                                             </>
                                         }
                                         isActive={preferences.advertising}
                                         onToggle={() => togglePreference('advertising')}
+                                        t={t}
                                     />
                                 </div>
 
                                 {/* Bottom Section */}
                                 <div className="mt-8 pt-6 border-t border-gray-100 text-sm text-gray-500">
                                     <p>
-                                        You can update your cookie choices anytime by selecting “Manage Cookies” in our website footer or app menu.
+                                        {t('cookieConsent.modal.footer.text1')}
                                     </p>
                                     <p className="mt-2">
-                                        For more details, see our <a href="/cookies-policy" className="text-green-600 hover:underline font-medium">Cookie Policy</a> and <a href="/privacy-policy" className="text-green-600 hover:underline font-medium">Privacy Policy</a>.
+                                        {t('cookieConsent.modal.footer.text2')} <a href="/cookies-policy" className="text-green-600 hover:underline font-medium">{t('cookieConsent.modal.footer.cookiePolicy')}</a> {t('cookieConsent.modal.footer.and')} <a href="/privacy-policy" className="text-green-600 hover:underline font-medium">{t('cookieConsent.modal.footer.privacyPolicy')}</a>.
                                     </p>
                                 </div>
                             </div>
@@ -223,7 +229,7 @@ const CookieConsent = () => {
                                     onClick={handleSavePreferences}
                                     className="px-8 py-3 bg-green-600 text-white rounded-xl font-bold shadow-lg shadow-green-200 hover:bg-green-700 hover:shadow-xl hover:-translate-y-0.5 transition-all"
                                 >
-                                    Save Preferences
+                                    {t('cookieConsent.modal.footer.savePreferences')}
                                 </button>
                             </div>
                         </motion.div>
@@ -234,7 +240,7 @@ const CookieConsent = () => {
     );
 };
 
-const CookieCategory = ({ title, description, isActive, isLocked, onToggle }) => {
+const CookieCategory = ({ title, description, isActive, isLocked, onToggle, t }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     return (
@@ -246,14 +252,14 @@ const CookieCategory = ({ title, description, isActive, isLocked, onToggle }) =>
                     </button>
                     <div>
                         <h4 className="font-semibold text-gray-900">{title}</h4>
-                        <p className="text-xs text-gray-500 mt-0.5">{isLocked ? 'Always Active' : (isActive ? 'Active' : 'Inactive')}</p>
+                        <p className="text-xs text-gray-500 mt-0.5">{isLocked ? t('cookieConsent.modal.status.alwaysActive') : (isActive ? t('cookieConsent.modal.status.active') : t('cookieConsent.modal.status.inactive'))}</p>
                     </div>
                 </div>
 
                 <div className="ml-4">
                     {isLocked ? (
                         <div className="text-green-600 flex items-center gap-1 text-sm font-medium bg-green-50 px-3 py-1 rounded-full">
-                            <Check className="w-4 h-4" /> Required
+                            <Check className="w-4 h-4" /> {t('cookieConsent.modal.status.required')}
                         </div>
                     ) : (
                         <button

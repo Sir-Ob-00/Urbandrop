@@ -26,7 +26,7 @@ const AppRoutes = () => {
         <Route path="/customer" element={<Customer />} />
 
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/advertise" element={<Advertise />} />        <Route path="/faqs" element={<FAQs />} />
+        <Route path="/advertise" element={<Advertise />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-conditions" element={<TermsCondition />} />
         <Route path="/cookies-policy" element={<CookiesPolicy />} />

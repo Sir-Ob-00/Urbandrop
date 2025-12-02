@@ -232,65 +232,60 @@
                     "subtitle": "Contactloze bezorgopties beschikbaar."
                 },
                 "deals": {
-                    "title": "Beste Deals",
-                    "subtitle": "Exclusieve aanbiedingen speciaal voor u."
+                    "title2": "Bezorgen",
+                    "title3": "Gemeenschappen",
+                    "title4": "Verbinden",
+                    "desc": "Bij Urbandrop herdefiniëren we hoe lokale bedrijven contact maken met klanten — door snelheid, eenvoud en technologie."
+                },
+                "purpose": {
+                    "title1": "Gebouwd Met een",
+                    "title2": "Doel",
+                    "quote": "Om dagelijkse beweging te vereenvoudigen en gemak dichter bij mensen te brengen."
+                },
+                "ecosystem": {
+                    "title": "Het Ecosysteem",
+                    "subtitle": "Waar alles samenkomt.",
+                    "customers": {
+                        "title": "Klanten",
+                        "subtitle": "Directe Toegang"
+                    },
+                    "merchants": {
+                        "title": "Handelaren",
+                        "subtitle": "Groeimotor"
+                    },
+                    "riders": {
+                        "title": "Koeriers",
+                        "subtitle": "Flexibele Inkomsten"
+                    },
+                    "businesses": {
+                        "title": "Bedrijven",
+                        "subtitle": "Logistiek Opgelost"
+                    }
+                },
+                "process": {
+                    "step1": "Downloaden",
+                    "step2": "Bestellen",
+                    "step3": "Ontvangen",
+                    "step4": "Genieten"
+                },
+                "highlights": {
+                    "title": "De Ervaring",
+                    "subtitle": "Premium Standaard",
+                    "item1": "Snel & Verbonden",
+                    "item2": "Alle Kanten Ondersteund",
+                    "item3": "Mobiele Workflow",
+                    "item4": "Gemeenschapsgroei",
+                    "item5": "Betrouwbaar & Veilig"
                 }
             }
-        },
-        "appDownload": {
-            "title1": "Krijg de Volledige",
-            "title2": "Urbandrop",
-            "android": "Download voor Android"
         }
     },
     "about": {
-        "hero": {
-            "title1": "Versheid",
-            "title2": "Bezorgen",
-            "title3": "Gemeenschappen",
-            "title4": "Verbinden",
-            "desc": "Bij Urbandrop herdefiniëren we hoe lokale bedrijven contact maken met klanten — door snelheid, eenvoud en technologie."
-        },
-        "purpose": {
-            "title1": "Gebouwd Met een",
-            "title2": "Doel",
-            "quote": "Om dagelijkse beweging te vereenvoudigen en gemak dichter bij mensen te brengen."
-        },
-        "ecosystem": {
-            "title": "Het Ecosysteem",
-            "subtitle": "Waar alles samenkomt.",
-            "customers": {
-                "title": "Klanten",
-                "subtitle": "Directe Toegang"
-            },
-            "merchants": {
-                "title": "Handelaren",
-                "subtitle": "Groeimotor"
-            },
-            "riders": {
-                "title": "Koeriers",
-                "subtitle": "Flexibele Inkomsten"
-            },
-            "businesses": {
-                "title": "Bedrijven",
-                "subtitle": "Logistiek Opgelost"
-            }
-        },
-        "process": {
-            "step1": "Downloaden",
-            "step2": "Bestellen",
-            "step3": "Ontvangen",
-            "step4": "Genieten"
-        },
-        "highlights": {
-            "title": "De Ervaring",
-            "subtitle": "Premium Standaard",
-            "item1": "Snel & Verbonden",
-            "item2": "Alle Kanten Ondersteund",
-            "item3": "Mobiele Workflow",
-            "item4": "Gemeenschapsgroei",
-            "item5": "Betrouwbaar & Veilig"
-        }
+        "title": "1. Over UrbanDrop",
+        "content": [
+            "UrbanDrop is een online marktplaats die klanten verbindt met onafhankelijke handelaren die boodschappen, maaltijden en etnische producten aanbieden voor bezorging of afhaling. Wij bieden de digitale infrastructuur, betalingsverwerking en klanteninterface, maar wij produceren, bezitten of verkopen de items die op het Platform worden vermeld niet.",
+            "Wanneer u een bestelling plaatst via UrbanDrop, koopt u rechtstreeks van de handelaar, niet van UrbanDrop."
+        ]
     },
     "advertise": {
         "options": {
@@ -333,6 +328,80 @@
                 ]
             },
             "getStarted": "Aan de slag"
+        }
+    },
+    "merchants": {
+        "hero": {
+            "title1": "Laat je bedrijf groeien met",
+            "title2": "Urbandrop",
+            "desc": "Sluit je aan bij honderden vertrouwde handelaren die verse en kwalitatieve voedingsmiddelen via onze app verkopen.",
+            "cta": "Word handelaar"
+        },
+        "whyJoin": {
+            "title": "WAAROM BIJ ONS AANSLUITEN",
+            "panels": {
+                "reach": {
+                    "title": "Vergroot je bereik",
+                    "subtitle": "Maak verbinding met duizenden klanten in verschillende regio’s.",
+                    "badge": "Populair",
+                    "cta": "Aan de slag"
+                },
+                "sales": {
+                    "title": "Verhoog je verkoop",
+                    "subtitle": "Vergroot je omzet dankzij onze grote gebruikersbasis.",
+                    "badge": "Trending",
+                    "cta": "Word lid"
+                },
+                "management": {
+                    "title": "Eenvoudig beheer",
+                    "subtitle": "Beheer je winkel moeiteloos met onze intuïtieve tools.",
+                    "badge": "Eenvoudig",
+                    "cta": "Begin vandaag"
+                },
+                "community": {
+                    "title": "Community-ondersteuning",
+                    "subtitle": "Word lid van een succesvolle community van handelaren en ontvang ondersteuning.",
+                    "badge": "Community",
+                    "cta": "Word deel"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Hoe het",
+            "titleHighlight": "Werkt",
+            "steps": {
+                "list": {
+                    "title": "Plaats je producten",
+                    "desc": "Upload en presenteer eenvoudig je unieke producten aan een groot publiek."
+                },
+                "receive": {
+                    "title": "Ontvang bestellingen",
+                    "desc": "Krijg directe meldingen voor nieuwe bestellingen en beheer ze efficiënt."
+                },
+                "earn": {
+                    "title": "Verdien & Groei",
+                    "desc": "Verwerk betalingen veilig en zie je inkomsten groeien bij elke verkoop."
+                },
+                "analyze": {
+                    "title": "Analyseer prestaties",
+                    "desc": "Krijg toegang tot uitgebreide analyses om je verkoop en klantgedrag te begrijpen."
+                }
+            }
+        },
+        "features": {
+            "instantOrders": "Directe bestellingen",
+            "fastDelivery": "Snelle levering",
+            "realTimeEarnings": "Inkomsten in real-time",
+            "analytics": "Analytics-dashboard",
+            "securePayments": "Veilige betalingen",
+            "customerSupport": "Klantenondersteuning"
+        },
+        "cta": {
+            "title": "Begin vandaag nog met groeien via Urbandrop!",
+            "desc": "Het duurt minder dan 10 minuten om je aan te melden en te beginnen met verkopen. Sluit je aan bij honderden succesvolle handelaren die hun bedrijf al laten groeien.",
+            "button": "Word handelaar",
+            "contact": "Contact verkoopteam",
+            "footer": "Vragen? Ons team staat klaar om je bij elke stap te helpen."
         }
     },
     "privacyPolicy": {
@@ -518,13 +587,6 @@
             "p2": "Door toegang te krijgen tot of gebruik te maken van het Platform, gaat u akkoord met deze Voorwaarden. Lees ze zorgvuldig door voordat u de dienst gebruikt. Als u niet akkoord gaat, mag u het Platform niet gebruiken."
         },
         "sections": {
-            "about": {
-                "title": "1. Over UrbanDrop",
-                "content": [
-                    "UrbanDrop is een online marktplaats die klanten verbindt met onafhankelijke handelaren die boodschappen, maaltijden en etnische producten aanbieden voor bezorging of afhaling. Wij bieden de digitale infrastructuur, betalingsverwerking en klanteninterface, maar wij produceren, bezitten of verkopen de items die op het Platform worden vermeld niet.",
-                    "Wanneer u een bestelling plaatst via UrbanDrop, koopt u rechtstreeks van de handelaar, niet van UrbanDrop."
-                ]
-            },
             "eligibility": {
                 "title": "2. Geschiktheid",
                 "content": "U moet ten minste 18 jaar oud zijn om het Platform te gebruiken. Door het te gebruiken, bevestigt u dat:",
@@ -807,26 +869,79 @@
             "email": "E-mail: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
         }
     },
-   "notFoundPage": {
-    "title": "Pagina Niet Gevonden",
-    "desc": "De pagina die je zoekt bestaat niet of is verplaatst.",
-    "goHome": "Ga naar Home",
-    "goBack": "Ga Terug",
-    "features": {
-        "browseMenu": {
-            "title": "Blader door Menu",
-            "desc": "Ontdek onze heerlijke opties"
+    "notFoundPage": {
+        "title": "Pagina Niet Gevonden",
+        "desc": "De pagina die je zoekt bestaat niet of is verplaatst.",
+        "goHome": "Ga naar Home",
+        "goBack": "Ga Terug",
+        "features": {
+            "browseMenu": {
+                "title": "Blader door Menu",
+                "desc": "Ontdek onze heerlijke opties"
+            },
+            "becomeMerchant": {
+                "title": "Word Handelaar",
+                "desc": "Word onderdeel van ons netwerk van verkopers"
+            },
+            "advertise": {
+                "title": "Adverteren",
+                "desc": "Promoot je merk bij ons"
+            }
         },
-        "becomeMerchant": {
-            "title": "Word Handelaar",
-            "desc": "Word onderdeel van ons netwerk van verkopers"
-        },
-        "advertise": {
-            "title": "Adverteren",
-            "desc": "Promoot je merk bij ons"
-        }
+        "illustration": "We konden de pagina niet vinden, maar we vonden wel deze verse ingrediënten!",
+        "searchSuggestion": "Probeer te zoeken naar wat je nodig hebt of bezoek ons Helpcentrum."
     },
-    "illustration": "We konden de pagina niet vinden, maar we vonden wel deze verse ingrediënten!",
-    "searchSuggestion": "Probeer te zoeken naar wat je nodig hebt of bezoek ons Helpcentrum."
-}
+    "cookieConsent": {
+        "banner": {
+            "title": "Wij waarderen uw privacy",
+            "description": "Wij gebruiken cookies om uw ervaring te verbeteren. UrbanDrop gebruikt essentiële cookies om onze site te laten werken, en optionele cookies om ons te helpen begrijpen hoe u deze gebruikt, inhoud te personaliseren en u relevante aanbiedingen te tonen. U kunt ervoor kiezen om alle cookies te accepteren, niet-essentiële cookies te weigeren of uw voorkeuren op elk moment te beheren.",
+            "acceptAll": "Alle cookies accepteren",
+            "rejectNonEssential": "Niet-essentiële weigeren",
+            "managePreferences": "Voorkeuren beheren"
+        },
+        "modal": {
+            "title": "Cookievoorkeuren",
+            "description": "Beheer hoe wij cookies op deze site gebruiken.",
+            "quickActions": {
+                "acceptAll": "Alles accepteren",
+                "rejectNonEssential": "Niet-essentiële weigeren"
+            },
+            "categories": {
+                "essential": {
+                    "title": "Essentiële cookies",
+                    "description": "Deze cookies zijn nodig om UrbanDrop goed te laten functioneren. Ze maken veilig inloggen, afrekenen en betalingsverwerking mogelijk. U kunt deze niet uitschakelen via onze instellingen, maar u kunt ze blokkeren in uw browser (wat de functionaliteit kan beïnvloeden).",
+                    "examples": "Voorbeelden: inlogsessies, winkelmandje bijhouden, betalingsverwerking."
+                },
+                "performance": {
+                    "title": "Prestatie- en analytische cookies",
+                    "description": "Deze helpen ons te begrijpen hoe bezoekers UrbanDrop gebruiken, zoals welke pagina's het meest worden bezocht of waar gebruikers vertragingen ervaren. Ze stellen ons in staat om snelheid, betrouwbaarheid en algehele bruikbaarheid te verbeteren.",
+                    "examples": "Voorbeelden: Google Analytics, app-diagnostiek."
+                },
+                "functional": {
+                    "title": "Functionele cookies",
+                    "description": "Deze onthouden uw voorkeuren, zoals taal, locatie en opgeslagen adressen, zodat u ze niet elke keer opnieuw hoeft in te voeren.",
+                    "examples": "Voorbeelden: voorkeursbezorgadres, opgeslagen winkelfilters."
+                },
+                "advertising": {
+                    "title": "Advertentie- en marketingcookies",
+                    "description": "Wij gebruiken deze om u gepersonaliseerde promoties en relevante advertenties te tonen, zowel op UrbanDrop als op andere websites. Ze helpen ons de prestaties van marketingcampagnes te meten en te voorkomen dat dezelfde advertenties herhaaldelijk worden getoond.",
+                    "examples": "Voorbeelden: Meta Pixel, Google Ads Remarketing."
+                }
+            },
+            "footer": {
+                "text1": "U kunt uw cookiekeuzes op elk moment bijwerken door \"Cookies beheren\" te selecteren in onze websitevoettekst of app-menu.",
+                "text2": "Voor meer details, zie ons",
+                "cookiePolicy": "Cookiebeleid",
+                "and": "en",
+                "privacyPolicy": "Privacybeleid",
+                "savePreferences": "Voorkeuren opslaan"
+            },
+            "status": {
+                "alwaysActive": "Altijd actief",
+                "active": "Actief",
+                "inactive": "Inactief",
+                "required": "Vereist"
+            }
+        }
+    }
 }

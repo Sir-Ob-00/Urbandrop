@@ -41,6 +41,13 @@ i18n
         resources,
         fallbackLng: 'en',
         debug: true,
+        detection: {
+            order: ['querystring', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
+            lookupQuerystring: 'lng',
+            lookupSessionStorage: 'i18nextLng',
+            caches: ['sessionStorage'],
+            excludeCacheFor: ['cimode'],
+        },
         interpolation: {
             escapeValue: false, // not needed for react as it escapes by default
         },

@@ -7,7 +7,7 @@
     },
     "footer": {
         "findLocation": "Find location",
-        "brandDescription": "Your trusted online recipe and grocery marketplace — connecting UK customers to local merchants.",
+        "brandDescription": "Your trusted online recipe and grocery marketplace â€” connecting UK customers to local merchants.",
         "getExclusiveDeals": "Get Exclusive deals",
         "enterEmail": "Enter your email",
         "subscribe": "Subscribe",
@@ -141,7 +141,7 @@
             "desc": "Authentic Ethnic Groceries delivered to your doorstep.",
             "downloadApp": "Download App",
             "orderDelivered": "Order Delivered",
-            "justNow": "Just now • 2 mins ago"
+            "justNow": "Just now â€¢ 2 mins ago"
         },
         "recommendation": {
             "title1": "Curated",
@@ -182,246 +182,23 @@
                 "shopHome": {
                     "title": "Shop from Home",
                     "subtitle": "Skip the lines and shop with ease."
-                },
-                "delivered": {
-                    "title": "Delivered to You",
-                    "subtitle": "Fresh groceries brought right to your door."
                 }
             }
-        },
-        "whatYouCanDo": {
-            "title": "What You Can Do",
-            "desc": "One app for all your daily needs. Discover the possibilities with Urbandrop.",
-            "learnMore": "Learn More",
-            "items": {
-                "groceries": {
-                    "title": "Buy Groceries",
-                    "desc": "Fresh produce and essentials delivered to your door."
-                },
-                "errands": {
-                    "title": "Hire Errands",
-                    "desc": "Need a hand? We can handle your daily tasks."
-                },
-                "ethnic": {
-                    "title": "Ethnic Flavors",
-                    "desc": "Discover authentic tastes from around the world."
-                }
-            }
-        },
-        "benefits": {
-            "title1": "Why",
-            "title2": "Urban",
-            "title3": "Drop",
-            "title4": "?",
-            "subtitle": "Elevating your lifestyle with every delivery.",
-            "items": {
-                "saveTime": {
-                    "title": "Save Time",
-                    "subtitle": "Get hours back in your day."
-                },
-                "comfort": {
-                    "title": "Enjoy Comfort",
-                    "subtitle": "Everything you need, delivered."
-                },
-                "convenience": {
-                    "title": "Experience Convenience",
-                    "subtitle": "Shop from your favorite local stores."
-                },
-                "safe": {
-                    "title": "Feel Safe",
-                    "subtitle": "Contactless delivery options available."
-                },
-                "deals": {
-                    "title": "Best Deals",
-                    "subtitle": "Exclusive offers just for you."
-                }
-            }
-        },
-        "appDownload": {
-            "title1": "Get the Full",
-            "title2": "Urbandrop",
-            "android": "Download for Android"
         }
     },
     "about": {
-        "hero": {
-            "title1": "Delivering",
-            "title2": "Freshness",
-            "title3": "Connecting",
-            "title4": "Communities",
-            "desc": "At Urbandrop, we're redefining how local businesses connect with customers — through speed, simplicity, and technology."
-        },
-        "purpose": {
-            "title1": "Built With a",
-            "title2": "Purpose",
-            "quote": "To simplify daily movement and bring convenience closer to people."
-        },
-        "ecosystem": {
-            "title": "The Ecosystem",
-            "subtitle": "Where everything connects.",
-            "customers": {
-                "title": "Customers",
-                "subtitle": "Instant Access"
-            },
-            "merchants": {
-                "title": "Merchants",
-                "subtitle": "Growth Engine"
-            },
-            "riders": {
-                "title": "Riders",
-                "subtitle": "Flexible Earnings"
-            },
-            "businesses": {
-                "title": "Businesses",
-                "subtitle": "Logistics Solved"
-            }
-        },
-        "process": {
-            "step1": "Download",
-            "step2": "Order",
-            "step3": "Receive",
-            "step4": "Enjoy"
-        },
-        "highlights": {
-            "title": "The Experience",
-            "subtitle": "Premium Standard",
-            "item1": "Fast & Connected",
-            "item2": "All Sides Supported",
-            "item3": "Mobile Workflow",
-            "item4": "Community Growth",
-            "item5": "Reliable & Secure"
-        }
+        "title": "1. About UrbanDrop",
+        "content": [
+            "UrbanDrop is an online marketplace that connects customers with independent merchants offering groceries, meals, and ethnic products for delivery or collection. We provide the digital infrastructure, payment processing, and customer interface, but we do not produce, own, or sell the items listed on the Platform.",
+            "When you place an order through UrbanDrop, you are purchasing directly from the merchant, not from UrbanDrop."
+        ]
     },
     "advertise": {
-        "options": {
-            "listingProducts": {
-                "headline": "Listing Products",
-                "description": "Get your unique products in front of thousands of eager customers actively seeking authentic ethnic groceries."
-            },
-            "appBanner": {
-                "headline": "App Banner",
-                "description": "Reach a broad audience directly within the Urbandrop app with visually stunning and engaging banner advertisements."
-            },
-            "inAppPromotions": {
-                "headline": "In-App Promotions",
-                "description": "Boost your sales and attract new customers with exclusive in-app promotions and featured deals directly to engaged users."
-            }
-        },
-        "pricing": {
-            "starter": {
-                "name": "Starter",
-                "features": [
-                    "Banner placement",
-                    "Basic targeting options",
-                    "Performance reports"
-                ]
-            },
-            "growth": {
-                "name": "Growth",
-                "features": [
-                    "Banner + featured listings",
-                    "Advanced targeting",
-                    "Real-time analytics"
-                ]
-            },
-            "premium": {
-                "name": "Premium",
-                "features": [
-                    "Multiple placements",
-                    "Custom campaign strategy",
-                    "Dedicated account manager"
-                ]
-            },
-            "getStarted": "Get Started"
-        },
-        "hero": {
-            "alt1": "Hero banner 1 for Urbandrop advertising",
-            "alt2": "Hero banner 2 for Urbandrop advertising",
-            "prev": "Previous slide",
-            "next": "Next slide"
-        }
-    },
-    "merchants": {
-        "hero": {
-            "title1": "Grow Your Business with",
-            "title2": "Urbandrop",
-            "desc": "Join hundreds of trusted merchants selling fresh and quality foodstuffs through our app.",
-            "cta": "Join as a Merchant"
-        },
-        "whyJoin": {
-            "title": "WHY JOIN US",
-            "panels": {
-                "reach": {
-                    "title": "Expand Your Reach",
-                    "subtitle": "Connect with thousands of customers across different regions.",
-                    "badge": "Popular",
-                    "cta": "Get Started"
-                },
-                "sales": {
-                    "title": "Increase Sales",
-                    "subtitle": "Boost your revenue with our platform's wide user base.",
-                    "badge": "Trending",
-                    "cta": "Join Now"
-                },
-                "management": {
-                    "title": "Easy Management",
-                    "subtitle": "Manage your store effortlessly with our intuitive tools.",
-                    "badge": "Simple",
-                    "cta": "Start Today"
-                },
-                "community": {
-                    "title": "Community Support",
-                    "subtitle": "Join a community of successful merchants and get support.",
-                    "badge": "Community",
-                    "cta": "Become Part"
-                }
-            }
-        },
-        "howItWorks": {
-            "title": "How It",
-            "titleHighlight": "Works",
-            "steps": {
-                "list": {
-                    "title": "List Your Products",
-                    "desc": "Easily upload and showcase your unique products to a vast audience."
-                },
-                "receive": {
-                    "title": "Receive Orders",
-                    "desc": "Get instant notifications for new orders and manage them efficiently."
-                },
-                "earn": {
-                    "title": "Earn & Grow",
-                    "desc": "Process payments securely and watch your earnings grow with every sale."
-                },
-                "analyze": {
-                    "title": "Analyze Performance",
-                    "desc": "Access detailed analytics to understand your sales and customer behavior."
-                }
-            }
-        },
-        "features": {
-            "instantOrders": "Instant Orders",
-            "fastDelivery": "Fast Delivery",
-            "realTimeEarnings": "Real-time Earnings",
-            "analytics": "Analytics Dashboard",
-            "securePayments": "Secure Payments",
-            "customerSupport": "Customer Support"
-        },
-        "cta": {
-            "title": "Start Growing with Urbandrop Today!",
-            "desc": "It takes less than 10 minutes to join and begin selling. Join hundreds of successful merchants already growing their businesses.",
-            "button": "Become a Merchant",
-            "contact": "Contact Sales",
-            "footer": "Have questions? Our team is here to help you every step of the way."
-        }
+        "title": "Advertise",
+        "desc": "Promote your brand with us"
     },
     "privacyPolicy": {
-        "hero": {
-            "title": "Privacy",
-            "highlight": "Policy",
-            "subtitle": "Your privacy matters to us",
-            "effectiveDate": "Effective Date: {{date}}"
-        },
+        "effectiveDate": "Effective Date: {{date}}",
         "sections": {
             "whoWeAre": {
                 "title": "Who We Are",
@@ -549,13 +326,13 @@
                 "title": "Your Rights",
                 "intro": "Under the UK GDPR, you have the following rights regarding your personal data:",
                 "items": [
-                    "<strong>Access</strong> – to request a copy of your data.",
-                    "<strong>Rectification</strong> – to correct inaccurate or incomplete data.",
-                    "<strong>Erasure (\"Right to be Forgotten\")</strong> – to request deletion of your data when it's no longer needed.",
-                    "<strong>Restriction</strong> – to limit how your data is processed.",
-                    "<strong>Portability</strong> – to receive your data in a usable format or have it transferred to another provider.",
-                    "<strong>Objection</strong> – to object to processing for legitimate interest or direct marketing.",
-                    "<strong>Withdrawal of Consent</strong> – if processing is based on consent."
+                    "<strong>Access</strong> â€“ to request a copy of your data.",
+                    "<strong>Rectification</strong> â€“ to correct inaccurate or incomplete data.",
+                    "<strong>Erasure (\"Right to be Forgotten\")</strong> â€“ to request deletion of your data when it's no longer needed.",
+                    "<strong>Restriction</strong> â€“ to limit how your data is processed.",
+                    "<strong>Portability</strong> â€“ to receive your data in a usable format or have it transferred to another provider.",
+                    "<strong>Objection</strong> â€“ to object to processing for legitimate interest or direct marketing.",
+                    "<strong>Withdrawal of Consent</strong> â€“ if processing is based on consent."
                 ],
                 "contact": "To exercise any of these rights, contact us at <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>. We may ask for verification before fulfilling your request."
             },
@@ -598,13 +375,6 @@
             "p2": "By accessing or using the Platform, you agree to these Terms. Please read them carefully before using the service. If you do not agree, you must not use the Platform."
         },
         "sections": {
-            "about": {
-                "title": "1. About UrbanDrop",
-                "content": [
-                    "UrbanDrop is an online marketplace that connects customers with independent merchants offering groceries, meals, and ethnic products for delivery or collection. We provide the digital infrastructure, payment processing, and customer interface, but we do not produce, own, or sell the items listed on the Platform.",
-                    "When you place an order through UrbanDrop, you are purchasing directly from the merchant, not from UrbanDrop."
-                ]
-            },
             "eligibility": {
                 "title": "2. Eligibility",
                 "content": "You must be at least 18 years old to use the Platform. By using it, you confirm that:",
@@ -759,7 +529,7 @@
                     },
                     "process": {
                         "title": "10.4 Refund Process",
-                        "content": "Refunds are processed once the merchant confirms eligibility. UrbanDrop will credit the amount to your original payment method within 5–10 business days after approval."
+                        "content": "Refunds are processed once the merchant confirms eligibility. UrbanDrop will credit the amount to your original payment method within 5â€“10 business days after approval."
                     },
                     "merchantResp": {
                         "title": "10.5 Merchant Responsibility",
@@ -805,7 +575,7 @@
                     },
                     "maximum": {
                         "title": "14.3 Maximum Liability",
-                        "content": "Our total liability to any user will not exceed the amount paid for the affected order or £50, whichever is lower."
+                        "content": "Our total liability to any user will not exceed the amount paid for the affected order or Â£50, whichever is lower."
                     }
                 }
             },
@@ -900,13 +670,62 @@
             "becomeMerchant": {
                 "title": "Become a Merchant",
                 "desc": "Join our network of sellers"
-            },
-            "advertise": {
-                "title": "Advertise",
-                "desc": "Promote your brand with us"
             }
         },
         "illustration": "We couldn't find the page, but we found these fresh ingredients!",
         "searchSuggestion": "Try searching for what you need or visit our Help Center."
+    },
+    "cookieConsent": {
+        "banner": {
+            "title": "We value your privacy",
+            "description": "We use cookies to improve your experience. UrbanDrop uses essential cookies to make our site work, and optional cookies to help us understand how you use it, personalize content, and show you relevant offers. You can choose to accept all cookies, reject non-essential ones, or manage your preferences at any time.",
+            "acceptAll": "Accept All Cookies",
+            "rejectNonEssential": "Reject Non-Essential",
+            "managePreferences": "Manage Preferences"
+        },
+        "modal": {
+            "title": "Cookie Preferences",
+            "description": "Manage how we use cookies on this site.",
+            "quickActions": {
+                "acceptAll": "Accept All",
+                "rejectNonEssential": "Reject Non-Essential"
+            },
+            "categories": {
+                "essential": {
+                    "title": "Essential Cookies",
+                    "description": "These cookies are needed for UrbanDrop to function properly. They enable secure login, checkout, and payment processing. You canâ€™t turn these off through our settings, but you can block them in your browser (which may affect functionality).",
+                    "examples": "Examples: login sessions, shopping basket tracking, payment processing."
+                },
+                "performance": {
+                    "title": "Performance and Analytics Cookies",
+                    "description": "These help us understand how visitors use UrbanDrop like which pages are most visited or where users experience delays. They allow us to improve speed, reliability, and overall usability.",
+                    "examples": "Examples: Google Analytics, app diagnostics."
+                },
+                "functional": {
+                    "title": "Functional Cookies",
+                    "description": "These remember your preferences, such as language, location, and saved addresses, so you donâ€™t need to re-enter them each time.",
+                    "examples": "Examples: preferred delivery address, saved shop filters."
+                },
+                "advertising": {
+                    "title": "Advertising and Marketing Cookies",
+                    "description": "We use these to show you personalized promotions and relevant ads, both on UrbanDrop and on other websites. They help us measure the performance of marketing campaigns and avoid showing the same ads repeatedly.",
+                    "examples": "Examples: Meta Pixel, Google Ads Remarketing."
+                }
+            },
+            "footer": {
+                "text1": "You can update your cookie choices anytime by selecting â€œManage Cookiesâ€ in our website footer or app menu.",
+                "text2": "For more details, see our",
+                "cookiePolicy": "Cookie Policy",
+                "and": "and",
+                "privacyPolicy": "Privacy Policy",
+                "savePreferences": "Save Preferences"
+            },
+            "status": {
+                "alwaysActive": "Always Active",
+                "active": "Active",
+                "inactive": "Inactive",
+                "required": "Required"
+            }
+        }
     }
 }

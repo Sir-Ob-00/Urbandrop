@@ -45,11 +45,8 @@ const AppDownloadSection = () => {
               <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
                 {t('customer.appDownload.title1')}
                 <br />
-                <span className="text-primaryDark">{t('customer.appDownload.title2')}</span> {t('customer.appDownload.title3')}
+                <span className="text-primaryDark">{t('customer.appDownload.title2')}</span>
               </h2>
-              <p className="text-xl text-primary/80 leading-relaxed">
-                {t('customer.appDownload.desc')}
-              </p>
             </div>
 
             {/* Download Buttons */}
