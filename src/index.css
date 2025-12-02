@@ -35,5 +35,12 @@
 
 /* Prevent accidental horizontal page overflow on small viewports */
 html, body {
-	overflow-x: hidden;
+	overflow-x: clip;
+}
+
+/* Fallback for older browsers */
+@supports not (overflow-x: clip) {
+  html, body {
+    overflow-x: hidden;
+  }
 }

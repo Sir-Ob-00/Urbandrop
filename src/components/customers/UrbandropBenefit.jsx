@@ -165,20 +165,6 @@ const UrbandropBenefit = () => {
             image: ladyUrbandrop,
             align: 'left',
         },
-        {
-            id: 4,
-            title: t('customer.benefits.items.safe.title'),
-            subtitle: t('customer.benefits.items.safe.subtitle'),
-            image: scenarioHealth,
-            align: 'right',
-        },
-        {
-            id: 5,
-            title: t('customer.benefits.items.deals.title'),
-            subtitle: t('customer.benefits.items.deals.subtitle'),
-            image: scenarioStudent,
-            align: 'left',
-        },
     ];
 
     return (
