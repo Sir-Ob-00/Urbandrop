@@ -278,6 +278,12 @@
                     "item5": "Betrouwbaar & Veilig"
                 }
             }
+        },
+        "appDownload": {
+            "title1": "Proef de echte",
+            "title2": "UrbanDrop Ervaring",
+            "ios": "Download voor Apple",
+            "android": "Download voor Android"
         }
     },
     "about": {
