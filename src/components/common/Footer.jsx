@@ -31,21 +31,9 @@ const Footer = () => {
       <div className="lg:hidden border-b border-white/20 pb-6 mb-8">
         <div className="flex items-center justify-between">
           {/* Left: Language Selector */}
+          {/* Left: Language Selector - Moved to Navbar */}
           <div className="flex items-center gap-2">
-            <Globe size={16} className="text-white/80" />
-            <select
-              className="bg-transparent text-white/90 focus:outline-none text-sm"
-              onChange={changeLanguage}
-              value={i18n.language}
-            >
-              <option value="en">English</option>
-              <option value="hi">Hindu</option>
-              <option value="fr">French</option>
-              <option value="de">German</option>
-              <option value="es">Spanish</option>
-              <option value="zh">Mandarin</option>
-              <option value="nl">Dutch</option>
-            </select>
+            {/* Language selector moved to mobile navbar */}
           </div>
 
           {/* Right: Location & Email */}

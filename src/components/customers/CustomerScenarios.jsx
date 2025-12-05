@@ -58,14 +58,7 @@ const CustomerScenarios = () => {
 
                 {/* Scenarios Stack */}
                 {scenarios.map((scenario, index) => {
-                    // Logic:
-                    // We want the transitions to be snappy and the last item to hold.
-                    // Total items: 4.
-                    // Item 1: Base (z-0).
-                    // Item 2: Slides up (z-10).
-                    // Item 3: Slides up (z-20).
-                    // Item 4: Slides up (z-30).
-
+                   
                     // We have 3 transitions to cover.
                     // Let's use 0.0 to 0.9 for transitions, keeping 0.1 buffer at the end.
                     const totalTransitionRange = 0.9;

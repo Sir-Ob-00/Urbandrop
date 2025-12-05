@@ -241,7 +241,44 @@
     },
     "advertise": {
         "title": "Advertise",
-        "desc": "Promote your brand with us"
+        "desc": "Promote your brand with us",
+        "hero": {
+            "alt1": "Advertising Banner 1",
+            "alt2": "Advertising Banner 2",
+            "alt3": "Advertising Banner 3",
+            "prev": "Previous Slide",
+            "next": "Next Slide"
+        },
+        "pricing": {
+            "getStarted": "Get Started",
+            "starter": {
+                "name": "Starter",
+                "features": [
+                    "Basic listing",
+                    "Standard support",
+                    "Community access"
+                ]
+            },
+            "growth": {
+                "name": "Growth",
+                "features": [
+                    "Enhanced listing",
+                    "Priority support",
+                    "Analytics dashboard",
+                    "Marketing tools"
+                ]
+            },
+            "premium": {
+                "name": "Premium",
+                "features": [
+                    "Featured listing",
+                    "24/7 Dedicated support",
+                    "Advanced analytics",
+                    "Custom marketing campaigns",
+                    "API access"
+                ]
+            }
+        }
     },
     "privacyPolicy": {
         "effectiveDate": "Effective Date: {{date}}",

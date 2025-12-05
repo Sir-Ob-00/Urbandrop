@@ -155,6 +155,24 @@ const Navbar = () => {
                   </li>
                 )
               })}
+              <li className="w-full flex justify-center pb-4">
+                <div className="flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full">
+                  <Globe size={16} className="text-[#5CB35E]" />
+                  <select
+                    className="bg-transparent text-[#5CB35E] focus:outline-none text-sm"
+                    onChange={changeLanguage}
+                    value={i18n.language}
+                  >
+                    <option value="en">English</option>
+                    <option value="hi">Hindu</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="es">Spanish</option>
+                    <option value="zh">Mandarin</option>
+                    <option value="nl">Dutch</option>
+                  </select>
+                </div>
+              </li>
               <li className="w-full flex justify-center">
                 <a
                   href="/get-the-app"

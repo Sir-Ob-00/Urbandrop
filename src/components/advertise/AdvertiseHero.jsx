@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import heroBanner1 from '../../assets/images/advertising/hero-banner-1.jpg';
 import heroBanner2 from '../../assets/images/advertising/hero-banner-2.jpg';
+import heroBanner3 from '../../assets/images/advertising/hero-banner-3.jpg';
 
 const AdvertiseHero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,6 +18,10 @@ const AdvertiseHero = () => {
     {
       src: heroBanner2,
       alt: t('advertise.hero.alt2'),
+    },
+    {
+      src: heroBanner3,
+      alt: t('advertise.hero.alt3'),
     },
   ];
 
