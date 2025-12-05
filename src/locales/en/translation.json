@@ -21,7 +21,8 @@
         "customer": "Customer",
         "advertise": "Advertise on Urbandrop",
         "beMerchant": "Be a Merchant",
-        "rightsReserved": "Urbandrop Group Ltd. All rights reserved."
+        "rightsReserved": "Urbandrop Group Ltd. All rights reserved.",
+        "companyNumber": "Company number"
     },
     "home": {
         "hero": {
@@ -277,6 +278,20 @@
                     "Custom marketing campaigns",
                     "API access"
                 ]
+            }
+        },
+        "options": {
+            "listingProducts": {
+                "headline": "List Your Products",
+                "description": "Showcase your inventory to thousands of local customers looking for authentic ethnic groceries."
+            },
+            "appBanner": {
+                "headline": "Premium App Banners",
+                "description": "Get high visibility with premium banner placements right on the app home screen."
+            },
+            "inAppPromotions": {
+                "headline": "In-App Promotions",
+                "description": "Run targeted promotions and special offers to drive sales and attract new customers."
             }
         }
     },

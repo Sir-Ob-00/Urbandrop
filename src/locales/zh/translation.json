@@ -15,75 +15,24 @@
         "privacyPolicy": "隐私政策",
         "cookiesPolicy": "Cookie 政策",
         "termsConditions": "条款和条件",
-        "manageCookies": "管理 Cookie",
-        "importantLinks": "重要链接",
-        "about": "关于我们",
-        "customer": "客户",
-        "advertise": "在 Urbandrop 上做广告",
-        "beMerchant": "成为商家",
-        "rightsReserved": "Urbandrop Ltd. 版权所有。"
+        "flavors": "风味",
+        "orderNow": "立即订购",
+        "becomeMerchant": "成为商家"
     },
-    "home": {
-        "hero": {
-            "discover": "发现",
-            "richEthnic": "丰富的民族",
-            "flavors": "风味",
-            "orderNow": "立即订购",
-            "becomeMerchant": "成为商家"
+    "mosaic": {
+        "title": "每种文化，一个市场",
+        "subtitle": "发现来自非洲、亚洲及其他地区的食材。"
+    },
+    "featured": {
+        "title": "精选类别",
+        "subtitle": "探索我们精心挑选的服务，旨在为您带来最好的文化和便利。",
+        "exploreNow": "立即探索",
+        "cat1": {
+            "title": "按您的说法购买",
+            "desc": "我们说您的语言。体验懂您的购物。"
         },
-        "mosaic": {
-            "title": "每种文化，一个市场",
-            "subtitle": "发现来自非洲、亚洲及其他地区的食材。"
-        },
-        "featured": {
-            "title": "精选类别",
-            "subtitle": "探索我们精心挑选的服务，旨在为您带来最好的文化和便利。",
-            "exploreNow": "立即探索",
-            "cat1": {
-                "title": "按您的说法购买",
-                "desc": "我们说您的语言。体验懂您的购物。"
-            },
-            "cat2": {
-                "title": "城市食谱",
-                "desc": "用正宗食材发现、烹饪并分享您的文化。"
-            },
-            "cat3": {
-                "title": "本地销售。走向全球",
-                "desc": "赋能本地商家接触全球受众。"
-            },
-            "cat4": {
-                "title": "骑手：传递文化",
-                "desc": "快速可靠的服务，将家带到您家门口。"
-            }
-        },
-        "whyChoose": {
-            "badge": "为什么选择 Urbandrop",
-            "title": "体验",
-            "difference": "差异",
-            "whyChooseUs": "为什么选择我们",
-            "ctaTitle": "准备好体验差异了吗？",
-            "ctaButton": "下载 Urbandrop 应用",
-            "feature1": {
-                "title": "按您说话的方式购物",
-                "desc": "使用本地或土著名称查找食材，无论是 kontomire、egusi 还是 atta 面粉。UrbanDrop 懂您的语言。"
-            },
-            "feature2": {
-                "title": "发现感觉像家的商店",
-                "desc": "探索按文化策划的商店和类别，从加勒比海和南亚到西非和中东。您想念家的一切，都在一个应用中。"
-            },
-            "feature3": {
-                "title": "正宗产品，文化验证",
-                "desc": "UrbanDrop 上的每件产品都经过真实性检查，并标有其真实产地和传统用途，因此您总是知道您得到的是真货。"
-            },
-            "feature4": {
-                "title": "不仅仅是购物，更是连接",
-                "desc": "从庆祝食物来源及其如何将人们聚集在一起的民族食谱、烹饪指南和文化故事中获得灵感。"
-            }
-        },
-        "appDownload": {
-            "title1": "您的",
-            "title2": "杂货，",
-            "title3": "比以往更快。",
+        "cat2": {
+            "title": "城市食谱",
             "desc": "下载 Urbandrop 应用以获取独家优惠、更快的结账和实时订单跟踪。",
             "countdown": {
                 "days": "天",

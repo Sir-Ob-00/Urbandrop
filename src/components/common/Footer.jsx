@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, ShoppingCart, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Globe, Youtube, Linkedin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -108,9 +108,15 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto border-t border-white mt-12 pt-8 flex flex-col items-center gap-6 text-white">
         {/* Social Media Icons - Mobile Only */}
         <div className="md:hidden flex items-center gap-6">
-          <Facebook size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
-          <Twitter size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
-          <Instagram size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+          <a href="https://www.instagram.com/urbandrop.io?igsh=MTBsbXVsdjR6dzNocw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <Instagram size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+          </a>
+          <a href="https://youtube.com/@urbandropgroup?si=gDd_BU7TLc3NJOzO" target="_blank" rel="noopener noreferrer">
+            <Youtube size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+          </a>
+          <a href="https://www.linkedin.com/company/108883908/admin/dashboard/" target="_blank" rel="noopener noreferrer">
+            <Linkedin size={20} className="text-white/80 hover:text-white cursor-pointer transition-colors" />
+          </a>
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
@@ -119,6 +125,9 @@ const Footer = () => {
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
         </div>
         © {new Date().getFullYear()} {t('footer.rightsReserved')}
+        <div className="text-xs text-white/60">
+          {t('footer.companyNumber')}: 16026087
+        </div>
       </div>
     </footer>
   );

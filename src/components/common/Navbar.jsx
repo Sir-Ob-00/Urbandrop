@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../../assets/images/urbandropLogo.png";
-import { Menu, X, Facebook, Twitter, Instagram, Globe } from "lucide-react";
+import { Menu, X, Instagram, Globe, Youtube, Linkedin } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -41,14 +41,14 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="/404">
-              <Facebook size={16} className="text-[#5CB35E]" />
-            </a>
-            <a href="/404">
-              <Twitter size={16} className="text-[#5CB35E]" />
-            </a>
-            <a href="/404">
+            <a href="https://www.instagram.com/urbandrop.io?igsh=MTBsbXVsdjR6dzNocw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <Instagram size={16} className="text-[#5CB35E]" />
+            </a>
+            <a href="https://youtube.com/@urbandropgroup?si=gDd_BU7TLc3NJOzO" target="_blank" rel="noopener noreferrer">
+              <Youtube size={16} className="text-[#5CB35E]" />
+            </a>
+            <a href="https://www.linkedin.com/company/108883908/admin/dashboard/" target="_blank" rel="noopener noreferrer">
+              <Linkedin size={16} className="text-[#5CB35E]" />
             </a>
           </div>
 

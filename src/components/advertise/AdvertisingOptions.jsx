@@ -84,7 +84,7 @@ const AdvertisingOptions = ({ className }) => {
                 <img
                   src={panel.imageSrc}
                   alt={panel.alt}
-                  className="w-full h-auto max-h-full object-contain rounded-lg shadow-lg"
+                  className={`w-full h-auto max-h-full object-contain rounded-lg shadow-lg ${index === 1 ? 'scale-125' : ''}`}
                 />
               </div>
               {/* Text Content */}

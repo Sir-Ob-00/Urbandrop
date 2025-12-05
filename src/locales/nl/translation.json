@@ -21,7 +21,8 @@
         "customer": "Klant",
         "advertise": "Adverteren op Urbandrop",
         "beMerchant": "Word handelaar",
-        "rightsReserved": "Urbandrop Ltd. Alle rechten voorbehouden."
+        "rightsReserved": "Urbandrop Group Ltd. Alle rechten voorbehouden.",
+        "companyNumber": "Bedrijfsnummer"
     },
     "home": {
         "hero": {

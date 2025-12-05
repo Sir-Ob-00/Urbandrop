@@ -21,7 +21,8 @@
         "customer": "Cliente",
         "advertise": "Anunciarse en Urbandrop",
         "beMerchant": "Ser comerciante",
-        "rightsReserved": "Urbandrop Ltd. Todos los derechos reservados."
+        "rightsReserved": "Urbandrop Ltd. Todos los derechos reservados.",
+        "companyNumber": "Número de empresa"
     },
     "home": {
         "hero": {
