@@ -80,6 +80,20 @@
                 "title": "More Than Shopping, It's Connection",
                 "desc": "Get inspired with ethnic recipes, cooking guides, and cultural stories that celebrate where your food comes from and how it brings people together."
             }
+        },
+        "appDownload": {
+            "title1": "Taste the",
+            "title2": "Urbandrop Experience",
+            "title3": "Faster Than Ever",
+            "desc": "Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking.",
+            "ios": "Download for Apple",
+            "android": "Download for Android",
+            "countdown": {
+                "days": "Days",
+                "hours": "Hours",
+                "minutes": "Minutes",
+                "seconds": "Seconds"
+            }
         }
     },
     "contact": {
@@ -227,10 +241,18 @@
             }
         },
         "appDownload": {
-            "title1": "Taste the actual",
+            "title1": "Taste the",
             "title2": "Urbandrop Experience",
+            "title3": "Faster Than Ever",
+            "desc": "Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking.",
             "ios": "Download for Apple",
-            "android": "Download for Android"
+            "android": "Download for Android",
+            "countdown": {
+                "days": "Days",
+                "hours": "Hours",
+                "minutes": "Minutes",
+                "seconds": "Seconds"
+            }
         }
     },
     "about": {
@@ -238,7 +260,128 @@
         "content": [
             "UrbanDrop is an online marketplace that connects customers with independent merchants offering groceries, meals, and ethnic products for delivery or collection. We provide the digital infrastructure, payment processing, and customer interface, but we do not produce, own, or sell the items listed on the Platform.",
             "When you place an order through UrbanDrop, you are purchasing directly from the merchant, not from UrbanDrop."
-        ]
+        ],
+        "hero": {
+            "title1": "Bridging",
+            "title2": "Cultures",
+            "title3": "Connecting",
+            "title4": "Communities",
+            "desc": "We are more than just a marketplace. We are a digital bridge connecting you to the flavors, traditions, and people that make your community unique."
+        },
+        "ecosystem": {
+            "title": "The Ecosystem",
+            "subtitle": "Where everything comes together.",
+            "customers": {
+                "title": "Customers",
+                "subtitle": "Direct Access"
+            },
+            "merchants": {
+                "title": "Merchants",
+                "subtitle": "Growth Engine"
+            },
+            "riders": {
+                "title": "Riders",
+                "subtitle": "Flexible Earnings"
+            },
+            "businesses": {
+                "title": "Businesses",
+                "subtitle": "Logistics Solved"
+            }
+        },
+        "highlights": {
+            "title": "The Experience",
+            "subtitle": "Premium Standard",
+            "item1": "Fast & Connected",
+            "item2": "All Sides Supported",
+            "item3": "Mobile Workflow",
+            "item4": "Community Growth",
+            "item5": "Reliable & Secure"
+        },
+        "process": {
+            "step1": "Download",
+            "step2": "Order",
+            "step3": "Receive",
+            "step4": "Enjoy"
+        },
+        "purpose": {
+            "title1": "Built With a",
+            "title2": "Purpose",
+            "quote": "To simplify daily movement and bring convenience closer to people."
+        }
+    },
+    "merchants": {
+        "hero": {
+            "title1": "Grow your business with",
+            "title2": "Urbandrop",
+            "desc": "Join hundreds of trusted merchants selling fresh and quality foods through our app.",
+            "cta": "Become a Merchant"
+        },
+        "whyJoin": {
+            "title": "WHY JOIN US",
+            "panels": {
+                "reach": {
+                    "title": "Expand your reach",
+                    "subtitle": "Connect with thousands of customers across different regions.",
+                    "badge": "Popular",
+                    "cta": "Get Started"
+                },
+                "sales": {
+                    "title": "Increase your sales",
+                    "subtitle": "Boost your revenue with our large user base.",
+                    "badge": "Trending",
+                    "cta": "Join Now"
+                },
+                "management": {
+                    "title": "Easy management",
+                    "subtitle": "Manage your store effortlessly with our intuitive tools.",
+                    "badge": "Simple",
+                    "cta": "Start Today"
+                },
+                "community": {
+                    "title": "Community support",
+                    "subtitle": "Join a successful community of merchants and receive support.",
+                    "badge": "Community",
+                    "cta": "Be Part"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "How It",
+            "titleHighlight": "Works",
+            "steps": {
+                "list": {
+                    "title": "List your products",
+                    "desc": "Easily upload and showcase your unique products to a large audience."
+                },
+                "receive": {
+                    "title": "Receive orders",
+                    "desc": "Get instant notifications for new orders and manage them efficiently."
+                },
+                "earn": {
+                    "title": "Earn & Grow",
+                    "desc": "Process payments securely and watch your earnings grow with every sale."
+                },
+                "analyze": {
+                    "title": "Analyze performance",
+                    "desc": "Access comprehensive analytics to understand your sales and customer behavior."
+                }
+            }
+        },
+        "features": {
+            "instantOrders": "Instant Orders",
+            "fastDelivery": "Fast Delivery",
+            "realTimeEarnings": "Real-time Earnings",
+            "analytics": "Analytics Dashboard",
+            "securePayments": "Secure Payments",
+            "customerSupport": "Customer Support"
+        },
+        "cta": {
+            "title": "Start growing with Urbandrop today!",
+            "desc": "It takes less than 10 minutes to sign up and start selling. Join hundreds of successful merchants already growing their business.",
+            "button": "Become a Merchant",
+            "contact": "Contact Sales Team",
+            "footer": "Questions? Our team is ready to help you every step of the way."
+        }
     },
     "advertise": {
         "title": "Advertise",
@@ -296,7 +439,12 @@
         }
     },
     "privacyPolicy": {
-        "effectiveDate": "Effective Date: {{date}}",
+        "hero": {
+            "title": "Privacy",
+            "highlight": "Policy",
+            "subtitle": "Your privacy matters to us.",
+            "effectiveDate": "Effective Date: {{date}}"
+        },
         "sections": {
             "whoWeAre": {
                 "title": "Who We Are",
@@ -464,249 +612,6 @@
             }
         }
     },
-    "termsConditions": {
-        "title": "Terms & Conditions",
-        "lastUpdated": "Last Updated: {{date}}",
-        "intro": {
-            "title": "UrbanDrop Website Terms and Conditions",
-            "p1": "Welcome to UrbanDrop. These Terms and Conditions (\"Terms\") govern your access to and use of the UrbanDrop website, mobile application, and related services (collectively, the \"Platform\") operated by UrbanDrop Group Limited (\"UrbanDrop,\" \"we,\" \"us,\" or \"our\").",
-            "p2": "By accessing or using the Platform, you agree to these Terms. Please read them carefully before using the service. If you do not agree, you must not use the Platform."
-        },
-        "sections": {
-            "eligibility": {
-                "title": "2. Eligibility",
-                "content": "You must be at least 18 years old to use the Platform. By using it, you confirm that:",
-                "items": [
-                    "You have the legal capacity to enter into binding agreements.",
-                    "You will use the Platform only for lawful purposes.",
-                    "You will provide accurate information when creating an account or placing an order."
-                ]
-            },
-            "account": {
-                "title": "3. Your Account",
-                "subsections": {
-                    "creation": {
-                        "title": "3.1 Account Creation",
-                        "content": "To place an order, you may need to create an UrbanDrop account. You must provide accurate details including your name, delivery address, and payment information."
-                    },
-                    "security": {
-                        "title": "3.2 Account Security",
-                        "content": "You are responsible for keeping your login credentials secure. Any activity under your account is considered your responsibility."
-                    },
-                    "misuse": {
-                        "title": "3.3 Misuse",
-                        "content": "UrbanDrop may suspend or close accounts used for fraudulent activity, promotion abuse, or violations of these Terms."
-                    }
-                }
-            },
-            "ordering": {
-                "title": "4. Ordering and Payments",
-                "subsections": {
-                    "placing": {
-                        "title": "4.1 Placing an Order",
-                        "content": "When you place an order, you are offering to buy products from a merchant listed on UrbanDrop. Once the merchant accepts your order, a contract forms between you and that merchant."
-                    },
-                    "confirmation": {
-                        "title": "4.2 Order Confirmation",
-                        "content": "You will receive confirmation through the Platform once your order is accepted. Merchants may cancel orders if items are unavailable or cannot be fulfilled, in which case you will not be charged."
-                    },
-                    "payments": {
-                        "title": "4.3 Payments",
-                        "content": "All payments are processed securely through UrbanDrop's payment partners. You authorize UrbanDrop to collect payments on behalf of the merchant."
-                    },
-                    "pricing": {
-                        "title": "4.4 Pricing",
-                        "content": "Prices are set by merchants and include applicable taxes. Delivery, service, and packaging fees may apply and will be displayed before checkout."
-                    }
-                }
-            },
-            "delivery": {
-                "title": "5. Delivery and Collection",
-                "subsections": {
-                    "areas": {
-                        "title": "5.1 Delivery Areas",
-                        "content": "Delivery is available only in areas where UrbanDrop or its logistics partners operate."
-                    },
-                    "partners": {
-                        "title": "5.2 Delivery Partners",
-                        "content": "Orders may be delivered by UrbanDrop's delivery network or by the merchant directly. Delivery times are estimates and may vary due to traffic, weather, or other factors outside our control."
-                    },
-                    "collection": {
-                        "title": "5.3 Collection Orders",
-                        "content": "If you choose collection, please arrive at the stated time. Merchants may refuse to hold items beyond a reasonable period."
-                    }
-                }
-            },
-            "promotions": {
-                "title": "6. Promotions and Discounts",
-                "subsections": {
-                    "platform": {
-                        "title": "6.1 Platform Promotions",
-                        "content": "UrbanDrop may occasionally offer promotions or discounts. Each has its own rules, which apply alongside these Terms."
-                    },
-                    "merchant": {
-                        "title": "6.2 Merchant Promotions",
-                        "content": "Promotions created by merchants are funded solely by the merchant. UrbanDrop reviews and approves such offers but is not financially responsible for them."
-                    },
-                    "misuse": {
-                        "title": "6.3 Misuse",
-                        "content": "UrbanDrop reserves the right to suspend or remove offers if misuse or fraudulent activity is detected."
-                    }
-                }
-            },
-            "merchant": {
-                "title": "7. Merchant Responsibilities",
-                "content": "Each merchant on UrbanDrop is an independent business. Merchants are solely responsible for:",
-                "items": [
-                    "The accuracy of product information, prices, and images.",
-                    "Food safety, hygiene, and proper product labelling.",
-                    "Compliance with local licensing and trading laws."
-                ],
-                "note": "UrbanDrop does not manufacture, test, or guarantee the products sold by merchants."
-            },
-            "conduct": {
-                "title": "8. Customer Conduct",
-                "content": "You agree not to:",
-                "items": [
-                    "Misuse the Platform or attempt to interfere with its operation.",
-                    "Harass, abuse, or threaten merchants, drivers, or customer support.",
-                    "Create multiple accounts to exploit promotions.",
-                    "Post false reviews or misleading feedback."
-                ],
-                "note": "UrbanDrop reserves the right to suspend or delete any account that violates these standards."
-            },
-            "cancellation": {
-                "title": "9. Customer Cancellation Policy",
-                "subsections": {
-                    "before": {
-                        "title": "9.1 Before Merchant Acceptance",
-                        "content": "You may cancel an order free of charge at any time before it has been accepted by the merchant."
-                    },
-                    "after": {
-                        "title": "9.2 After Merchant Acceptance",
-                        "content": "Once a merchant has accepted your order, cancellation may not be possible, especially for perishable or prepared items. If the merchant has already begun preparing your order, you will be charged in full."
-                    },
-                    "merchant": {
-                        "title": "9.3 Merchant Cancellations",
-                        "content": "Merchants may cancel an order if products are unavailable, the order cannot be fulfilled, or if delivery is not possible. In these cases, you will receive a full refund."
-                    },
-                    "progress": {
-                        "title": "9.4 Delivery in Progress",
-                        "content": "If your order is already out for delivery, it cannot be cancelled."
-                    },
-                    "repeated": {
-                        "title": "9.5 Repeated Cancellations",
-                        "content": "Customers who repeatedly cancel orders after acceptance may have their accounts restricted or suspended."
-                    }
-                }
-            },
-            "returns": {
-                "title": "10. Returns and Refunds Policy",
-                "subsections": {
-                    "general": {
-                        "title": "10.1 General Policy",
-                        "content": "Because UrbanDrop connects customers directly with independent merchants, refunds and returns depend on the nature of the item ordered and the circumstances of the request."
-                    },
-                    "perishable": {
-                        "title": "10.2 Perishable and Prepared Items",
-                        "content": "For perishable goods such as fresh produce, chilled or frozen foods, and cooked meals, refunds or returns are not generally available once an order is delivered or collected, unless:",
-                        "items": [
-                            "The item is damaged, expired, or unsafe to consume at the time of delivery.",
-                            "The wrong item was delivered.",
-                            "The order was incomplete."
-                        ],
-                        "note": "You must report these issues to UrbanDrop Support within 24 hours of delivery. Supporting evidence such as photos may be required."
-                    },
-                    "nonPerishable": {
-                        "title": "10.3 Non-Perishable Items",
-                        "content": "For packaged, sealed, or non-perishable items, merchants may accept returns in line with UK consumer law if:",
-                        "items": [
-                            "The item is faulty or not as described.",
-                            "It is returned unused and in its original packaging."
-                        ]
-                    },
-                    "process": {
-                        "title": "10.4 Refund Process",
-                        "content": "Refunds are processed once the merchant confirms eligibility. UrbanDrop will credit the amount to your original payment method within 5â€“10 business days after approval."
-                    },
-                    "merchantResp": {
-                        "title": "10.5 Merchant Responsibility",
-                        "content": "Each merchant is responsible for handling refund requests related to their products. UrbanDrop facilitates communication and payment adjustments but is not the final decision-maker."
-                    },
-                    "delivery": {
-                        "title": "10.6 Delivery Issues",
-                        "content": "If your order is delayed, lost, or delivered to the wrong address, please contact UrbanDrop Support immediately. Refunds or redelivery will be considered based on delivery records and merchant confirmation."
-                    },
-                    "abuse": {
-                        "title": "10.7 Abuse of Refunds",
-                        "content": "Repeated refund claims without valid reason may result in your account being flagged or suspended."
-                    }
-                }
-            },
-            "ip": {
-                "title": "11. Intellectual Property",
-                "content": "All trademarks, content, and technology on the Platform belong to UrbanDrop Group Limited or its licensors. You may not copy, distribute, or modify any part of the Platform without written permission."
-            },
-            "availability": {
-                "title": "12. Platform Availability",
-                "content": "We aim to keep UrbanDrop available 24/7, but we may need to suspend or update services for maintenance. We are not liable for temporary interruptions or data loss arising from such events."
-            },
-            "privacy": {
-                "title": "13. Privacy and Data Protection",
-                "content": "Your personal data is collected and processed in accordance with our Privacy Policy, available on the Platform. By using UrbanDrop, you consent to the use of your data for order processing, fraud prevention, and customer service."
-            },
-            "liability": {
-                "title": "14. Limitation of Liability",
-                "subsections": {
-                    "role": {
-                        "title": "14.1 UrbanDrop's Role",
-                        "content": "UrbanDrop acts as an intermediary between customers and merchants. We are not responsible for:",
-                        "items": [
-                            "Product quality, safety, or authenticity.",
-                            "Incorrect or incomplete orders fulfilled by merchants.",
-                            "Delivery issues caused by third parties."
-                        ]
-                    },
-                    "indirect": {
-                        "title": "14.2 Indirect Losses",
-                        "content": "We are not liable for indirect, incidental, or consequential damages arising from Platform use."
-                    },
-                    "maximum": {
-                        "title": "14.3 Maximum Liability",
-                        "content": "Our total liability to any user will not exceed the amount paid for the affected order or Â£50, whichever is lower."
-                    }
-                }
-            },
-            "termination": {
-                "title": "15. Account Termination",
-                "content": "UrbanDrop may suspend or close your account at any time if you:",
-                "items": [
-                    "Breach these Terms.",
-                    "Engage in fraudulent or abusive activity.",
-                    "Misuse promotions or violate applicable laws."
-                ],
-                "note": "You may request account deletion at any time by contacting UrbanDrop Support."
-            },
-            "links": {
-                "title": "16. Third-Party Links",
-                "content": "The Platform may include links to third-party websites. UrbanDrop is not responsible for the content or policies of those sites and accessing them is at your own risk."
-            },
-            "changes": {
-                "title": "17. Changes to These Terms",
-                "content": "UrbanDrop may update these Terms periodically. Changes take effect when published on the Platform. Continued use of UrbanDrop means you accept the latest version."
-            },
-            "governing": {
-                "title": "18. Governing Law",
-                "content": "These Terms are governed by the laws of England and Wales. Any disputes arising from or related to these Terms will be subject to the exclusive jurisdiction of the courts of England and Wales."
-            },
-            "contact": {
-                "title": "19. Contact",
-                "content": "For questions, complaints, or refund requests, contact:",
-                "companyName": "UrbanDrop Group Limited",
-                "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
-            }
-        }
-    },
     "cookiesPolicy": {
         "title": "Cookies Policy",
         "effectiveDate": "Effective Date: {{date}}",
@@ -823,6 +728,256 @@
                 "active": "Active",
                 "inactive": "Inactive",
                 "required": "Required"
+            }
+        }
+    },
+    "termsConditions": {
+        "title": "Terms & Conditions",
+        "lastUpdated": "Last updated: {{date}}",
+        "intro": {
+            "title": "UrbanDrop Website Terms & Conditions",
+            "p1": "Welcome to UrbanDrop. These Terms and Conditions (\"Terms\") govern your access to and use of the UrbanDrop website, mobile application, and related services (collectively the \"Platform\") operated by UrbanDrop Group Limited (\"UrbanDrop,\" \"we,\" \"us,\" or \"our\").",
+            "p2": "By accessing or using the Platform, you agree to these Terms. Please read them carefully before using the service. If you do not agree, you must not use the Platform."
+        },
+        "sections": {
+            "about": {
+                "title": "1. About UrbanDrop",
+                "content": [
+                    "UrbanDrop is an online marketplace that connects customers with independent merchants offering groceries, meals, and ethnic products for delivery or collection. We provide the digital infrastructure, payment processing, and customer interface, but we do not produce, own, or sell the items listed on the Platform.",
+                    "When you place an order through UrbanDrop, you are purchasing directly from the merchant, not from UrbanDrop."
+                ]
+            },
+            "eligibility": {
+                "title": "2. Eligibility",
+                "content": "You must be at least 18 years old to use the Platform. By using it, you confirm that:",
+                "items": [
+                    "You have the legal capacity to enter into binding agreements.",
+                    "You will use the Platform only for lawful purposes.",
+                    "You will provide accurate information when creating an account or placing an order."
+                ]
+            },
+            "account": {
+                "title": "3. Your Account",
+                "subsections": {
+                    "creation": {
+                        "title": "3.1 Account Creation",
+                        "content": "To place an order, you may need to create an UrbanDrop account. You must provide accurate details including your name, delivery address, and payment information."
+                    },
+                    "security": {
+                        "title": "3.2 Account Security",
+                        "content": "You are responsible for keeping your login credentials secure. Any activity under your account is considered your responsibility."
+                    },
+                    "misuse": {
+                        "title": "3.3 Misuse",
+                        "content": "UrbanDrop may suspend or close accounts used for fraudulent activities, abuse of promotions, or violations of these Terms."
+                    }
+                }
+            },
+            "ordering": {
+                "title": "4. Ordering and Payments",
+                "subsections": {
+                    "placing": {
+                        "title": "4.1 Placing an Order",
+                        "content": "When you place an order, you are offering to purchase products from a merchant listed on UrbanDrop. Once the merchant accepts your order, a contract is formed between you and that merchant."
+                    },
+                    "confirmation": {
+                        "title": "4.2 Order Confirmation",
+                        "content": "You will receive a confirmation via the Platform once your order is accepted. Merchants may cancel orders if items are unavailable or cannot be fulfilled, in which case no charge will be made."
+                    },
+                    "payments": {
+                        "title": "4.3 Payments",
+                        "content": "All payments are processed securely via UrbanDrop's payment partners. You authorize UrbanDrop to collect payments on behalf of the merchant."
+                    },
+                    "pricing": {
+                        "title": "4.4 Pricing",
+                        "content": "Prices are set by merchants and include applicable taxes. Delivery, service, and packaging fees may apply and will be displayed before checkout."
+                    }
+                }
+            },
+            "delivery": {
+                "title": "5. Delivery and Collection",
+                "subsections": {
+                    "areas": {
+                        "title": "5.1 Delivery Areas",
+                        "content": "Delivery is available only in areas where UrbanDrop or its logistics partners operate."
+                    },
+                    "partners": {
+                        "title": "5.2 Delivery Partners",
+                        "content": "Orders may be delivered by UrbanDrop's delivery network or directly by the merchant. Delivery times are estimates and may vary due to traffic, weather, or other factors outside our control."
+                    },
+                    "collection": {
+                        "title": "5.3 Collection Orders",
+                        "content": "If you choose collection, please arrive at the scheduled time. Merchants may refuse to hold items longer than a reasonable period."
+                    }
+                }
+            },
+            "promotions": {
+                "title": "6. Promotions and Discounts",
+                "subsections": {
+                    "platform": {
+                        "title": "6.1 Platform Promotions",
+                        "content": "UrbanDrop may occasionally offer promotions or discounts. Each has its own rules, which apply alongside these Terms."
+                    },
+                    "merchant": {
+                        "title": "6.2 Merchant Promotions",
+                        "content": "Promotions created by merchants are solely funded by the merchant. UrbanDrop reviews and approves such offers but is not financially responsible for them."
+                    },
+                    "misuse": {
+                        "title": "6.3 Misuse",
+                        "content": "UrbanDrop reserves the right to suspend or remove offers if abuse or fraudulent activity is detected."
+                    }
+                }
+            },
+            "merchant": {
+                "title": "7. Merchant Responsibilities",
+                "content": "Each merchant on UrbanDrop is an independent business. Merchants are solely responsible for:",
+                "items": [
+                    "The accuracy of product information, pricing, and images.",
+                    "Food safety, hygiene, and proper product labelling.",
+                    "Compliance with local licensing and trading laws."
+                ],
+                "note": "UrbanDrop does not manufacture, test, or guarantee the products sold by merchants."
+            },
+            "conduct": {
+                "title": "8. Customer Conduct",
+                "content": "You agree not to:",
+                "items": [
+                    "Misuse the Platform or attempt to disrupt its operation.",
+                    "Harass, abuse, or threaten merchants, drivers, or customer support.",
+                    "Create multiple accounts to exploit promotions.",
+                    "Post false reviews or misleading feedback."
+                ],
+                "note": "UrbanDrop reserves the right to suspend or ban any account violating these standards."
+            },
+            "cancellation": {
+                "title": "9. Customer Cancellation Policy",
+                "subsections": {
+                    "before": {
+                        "title": "9.1 Before Merchant Acceptance",
+                        "content": "You can cancel an order free of charge at any time before it is accepted by the merchant."
+                    },
+                    "after": {
+                        "title": "9.2 After Merchant Acceptance",
+                        "content": "Once a merchant has accepted your order, cancellation may not be possible, especially for perishable or prepared items. If the merchant has already started preparing your order, you will be charged the full amount."
+                    },
+                    "merchant": {
+                        "title": "9.3 Cancellations by Merchant",
+                        "content": "Merchants may cancel an order if products are unavailable, the order cannot be fulfilled, or if delivery is not possible. In these cases, you will receive a full refund."
+                    },
+                    "progress": {
+                        "title": "9.4 Delivery in Progress",
+                        "content": "If your order is already on its way for delivery, it cannot be cancelled."
+                    },
+                    "repeated": {
+                        "title": "9.5 Repeated Cancellations",
+                        "content": "Customers who repeatedly cancel orders after acceptance may have their account restricted or suspended."
+                    }
+                }
+            },
+            "returns": {
+                "title": "10. Return and Refund Policy",
+                "subsections": {
+                    "general": {
+                        "title": "10.1 General Policy",
+                        "content": "As UrbanDrop connects customers directly with independent merchants, refunds and returns depend on the nature of the item ordered and the circumstances of the request."
+                    },
+                    "perishable": {
+                        "title": "10.2 Perishable and Prepared Items",
+                        "content": "For perishable goods such as fresh produce, chilled or frozen foods, and cooked meals, refunds or returns are generally not available once an order has been delivered or collected, unless:",
+                        "items": [
+                            "The item is damaged, expired, or unsafe for consumption at the time of delivery.",
+                            "The wrong item was delivered.",
+                            "The order was incomplete."
+                        ],
+                        "note": "You must report these issues to UrbanDrop Support within 24 hours of delivery. Supporting evidence such as photos may be required."
+                    },
+                    "nonPerishable": {
+                        "title": "10.3 Non-Perishable Items",
+                        "content": "For packaged, sealed, or non-perishable items, merchants may accept returns in accordance with UK consumer law if:",
+                        "items": [
+                            "The item is faulty or not as described.",
+                            "It is returned unused and in its original packaging."
+                        ]
+                    },
+                    "process": {
+                        "title": "10.4 Refund Process",
+                        "content": "Refunds are processed once the merchant confirms eligibility. UrbanDrop will credit the amount back to your original payment method within 5–10 business days of approval."
+                    },
+                    "merchantResp": {
+                        "title": "10.5 Merchant Responsibility",
+                        "content": "Each merchant is responsible for handling refund requests related to their products. UrbanDrop facilitates communication and payment adjustments but is not the final decision-maker."
+                    },
+                    "delivery": {
+                        "title": "10.6 Delivery Issues",
+                        "content": "If your order is delayed, lost, or delivered to the wrong address, please contact UrbanDrop Support immediately. Refunds or redelivery will be considered based on delivery tracking and merchant confirmation."
+                    },
+                    "abuse": {
+                        "title": "10.7 Refund Abuse",
+                        "content": "Repeated refund claims without valid cause may result in your account being flagged or suspended."
+                    }
+                }
+            },
+            "ip": {
+                "title": "11. Intellectual Property",
+                "content": "All trademarks, content, and technology on the Platform are owned by UrbanDrop Group Limited or its licensors. You may not copy, distribute, or modify any part of the Platform without written permission."
+            },
+            "availability": {
+                "title": "12. Platform Availability",
+                "content": "We aim to keep UrbanDrop available 24/7, but we may suspend or update services for maintenance. We are not liable for any temporary interruptions or data loss resulting from such events."
+            },
+            "privacy": {
+                "title": "13. Privacy and Data Protection",
+                "content": "Your personal data is collected and processed in accordance with our Privacy Policy, available on the Platform. By using UrbanDrop, you consent to the use of your data for order processing, fraud prevention, and customer service."
+            },
+            "liability": {
+                "title": "14. Limitation of Liability",
+                "subsections": {
+                    "role": {
+                        "title": "14.1 Role of UrbanDrop",
+                        "content": "UrbanDrop acts as an intermediary between customers and merchants. We are not responsible for:",
+                        "items": [
+                            "Product quality, safety, or authenticity.",
+                            "Incorrect or incomplete orders fulfilled by merchants.",
+                            "Delivery issues caused by third parties."
+                        ]
+                    },
+                    "indirect": {
+                        "title": "14.2 Indirect Losses",
+                        "content": "We are not liable for any indirect, incidental, or consequential damages arising from the use of the Platform."
+                    },
+                    "maximum": {
+                        "title": "14.3 Maximum Liability",
+                        "content": "Our total liability to any user shall not exceed the amount paid for the relevant order or £50, whichever is lower."
+                    }
+                }
+            },
+            "termination": {
+                "title": "15. Account Termination",
+                "content": "UrbanDrop may suspend or close your account at any time if you:",
+                "items": [
+                    "Violate these Terms.",
+                    "Engage in fraudulent or abusive activities.",
+                    "Misuse promotions or violate applicable laws."
+                ],
+                "note": "You may request account deletion at any time by contacting UrbanDrop Support."
+            },
+            "links": {
+                "title": "16. Third-Party Links",
+                "content": "The Platform may contain links to third-party websites. UrbanDrop is not responsible for the content or policies of those sites, and accessing them is at your own risk."
+            },
+            "changes": {
+                "title": "17. Changes to these Terms",
+                "content": "UrbanDrop may update these Terms periodically. Changes will be effective upon posting on the Platform. Continued use of UrbanDrop constitutes acceptance of the latest version."
+            },
+            "governing": {
+                "title": "18. Governing Law",
+                "content": "These Terms are governed by the laws of England and Wales. Any disputes arising from or related to these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales."
+            },
+            "contact": {
+                "title": "19. Contact",
+                "content": "For questions, complaints, or refund requests, please contact:",
+                "companyName": "UrbanDrop Group Limited",
+                "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
             }
         }
     }

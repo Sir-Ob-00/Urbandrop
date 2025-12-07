@@ -118,7 +118,7 @@ const AppDownloandBanner = ({ compact = false }) => {
 			<section className="bg-white">
 				<div className={`max-w-7xl mx-auto px-6 ${compact ? 'py-6 md:py-8' : 'py-10 md:py-14'} text-center`}>
 					<div className="flex flex-wrap justify-center items-center gap-6">
-						<div className="flex gap-6 w-full max-w-md justify-between mx-auto md:mx-0">
+						<div className="flex gap-6 w-full max-w-md justify-center mx-auto">
 							<CountdownUnit value={timeLeft.days} label={t('home.appDownload.countdown.days')} />
 							<CountdownUnit value={timeLeft.hours} label={t('home.appDownload.countdown.hours')} />
 							<CountdownUnit value={timeLeft.minutes} label={t('home.appDownload.countdown.minutes')} />
