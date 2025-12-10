@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 import bubbleMeals from '../../assets/images/customer/buy groceries.jpg';
 import bubbleGroceries from '../../assets/images/customer/buy errands.jpg';
-import bubbleParcels from '../../assets/images/customer/ethnic flavor.jpg';
+import bubbleParcels from '../../assets/images/customer/ethnic-flavor.jpg';
 
 // Reusing images as per original file
 const bubbleErrands = bubbleParcels;
