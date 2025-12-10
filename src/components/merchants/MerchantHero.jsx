@@ -39,9 +39,9 @@ const MerchantHero = () => {
             {t('merchants.hero.desc')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
-            <button className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-darkGreen transition-all transform hover:scale-105 shadow-2xl">
+            <a href="/#launch-countdown" className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-darkGreen transition-all transform hover:scale-105 shadow-2xl">
               {t('merchants.hero.cta')}
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

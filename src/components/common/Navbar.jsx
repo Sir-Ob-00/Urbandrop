@@ -105,7 +105,7 @@ const Navbar = () => {
 
         {/* Get The App Button */}
         <a
-          href="/get-the-app"
+          href="/#launch-countdown"
           className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition hidden lg:block"
         >
           {t('navbar.getTheApp')}
@@ -175,7 +175,7 @@ const Navbar = () => {
               </li>
               <li className="w-full flex justify-center">
                 <a
-                  href="/get-the-app"
+                  href="/#launch-countdown"
                   className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition w-11/12 text-center"
                   onClick={() => setIsOpen(false)}
                 >

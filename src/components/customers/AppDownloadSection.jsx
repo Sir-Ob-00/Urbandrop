@@ -51,14 +51,14 @@ const AppDownloadSection = () => {
 
             {/* Download Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-primary text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-primaryDark transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
+              <a href="/#launch-countdown" className="bg-primary text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-primaryDark transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
                 {t('customer.appDownload.ios')}
-              </button>
-              <button className="bg-white text-primary border-2 border-primary/20 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-green-50 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
+              </a>
+              <a href="/#launch-countdown" className="bg-white text-primary border-2 border-primary/20 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-green-50 transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
                 {t('customer.appDownload.android')}
-              </button>
+              </a>
             </div>
           </motion.div>
 

@@ -30,10 +30,10 @@ const MerchantCTA = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center gap-3">
+            <a href="/#launch-countdown" className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center gap-3">
               {t('merchants.cta.button')}
               <ArrowRight size={24} />
-            </button>
+            </a>
             <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all flex items-center gap-3">
               <Phone size={24} />
               {t('merchants.cta.contact')}

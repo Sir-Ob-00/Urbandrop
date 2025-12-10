@@ -67,7 +67,8 @@ const CustomerHero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <motion.button
+              <motion.a
+                href="/#launch-countdown"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-[#00b36b] text-white px-8 py-4 rounded-full font-bold text-lg shadow-[0_0_20px_rgba(0,179,107,0.3)] hover:shadow-[0_0_30px_rgba(0,179,107,0.5)] transition-all flex items-center justify-center gap-3 group"
@@ -75,7 +76,7 @@ const CustomerHero = () => {
                 <Download size={24} />
                 {t('customer.hero.downloadApp')}
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
 

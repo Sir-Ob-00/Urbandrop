@@ -2,11 +2,8 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import deliverPerson from '../../assets/images/customer/deliver-person.jpg';
-
 import customerWoman from '../../assets/images/customer/customer-woman.jpg';
 import ladyUrbandrop from '../../assets/images/customer/lady-urbandrop.jpg';
-import scenarioHealth from '../../assets/images/customer/scenario_health.png';
-import scenarioStudent from '../../assets/images/customer/scenario_student.png';
 
 const Particle = ({ delay }) => (
     <motion.div

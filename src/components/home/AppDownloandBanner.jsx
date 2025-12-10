@@ -75,10 +75,10 @@ const AppDownloandBanner = ({ compact = false }) => {
 							{t('home.appDownload.desc')}
 						</p>
 						<div className="flex justify-center md:justify-start items-center gap-10 h-12 mb-16">
-							<a href="/404" className="hover:opacity-90 transition-opacity">
+							<a href="#launch-countdown" className="hover:opacity-90 transition-opacity">
 								<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
 							</a>
-							<a href="/404" className="hover:opacity-90 transition-opacity">
+							<a href="#launch-countdown" className="hover:opacity-90 transition-opacity">
 								<img src={playstoreImg} alt="Get it on Google Play" className="h-full" />
 							</a>
 						</div>
@@ -99,7 +99,7 @@ const AppDownloandBanner = ({ compact = false }) => {
 			</section>
 
 			{/* Countdown & Launch Description Section */}
-			<section className="bg-white">
+			<section id="launch-countdown" className="bg-white">
 				<div className={`max-w-7xl mx-auto px-6 ${compact ? 'py-6 md:py-8' : 'py-10 md:py-14'} text-center`}>
 					<div className="flex flex-wrap justify-center items-center gap-6">
 						<div className="flex gap-4 md:gap-20 w-full max-w-4xl justify-center mx-auto">

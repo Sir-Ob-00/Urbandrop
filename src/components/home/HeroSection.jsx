@@ -56,10 +56,10 @@ const HeroSection = () => {
           </motion.span>
         </motion.h1>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <a href="/order" className="bg-yellow-400 text-[#183A37] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">
+          <a href="#launch-countdown" className="bg-yellow-400 text-[#183A37] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">
             {t('home.hero.orderNow')}
           </a>
-          <a href="/become-merchant" className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#183A37] transition-all shadow-lg">
+          <a href="#launch-countdown" className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#183A37] transition-all shadow-lg">
             {t('home.hero.becomeMerchant')}
           </a>
         </div>
