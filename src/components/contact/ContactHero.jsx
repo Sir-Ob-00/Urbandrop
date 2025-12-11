@@ -33,14 +33,14 @@ const ContactHero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#5CB35E] text-white px-8 py-4 rounded-xl font-medium text-lg hover:bg-[#4a944c] transition-colors flex items-center justify-center gap-3 shadow-lg hover:shadow-xl">
+              <a href="mailto:Info@urbandrop.io" className="bg-[#5CB35E] text-white px-8 py-4 rounded-xl font-medium text-lg hover:bg-[#4a944c] transition-colors flex items-center justify-center gap-3 shadow-lg hover:shadow-xl">
                 <MessageCircle size={20} />
                 {t('contact.hero.sendMessage')}
-              </button>
-              <button className="bg-[#5CB35E] text-white px-8 py-4 rounded-xl font-medium text-lg hover:bg-[#4a944c] transition-all flex items-center justify-center gap-3 shadow-lg hover:shadow-xl">
+              </a>
+              <a href="tel:+447466738584" className="bg-[#5CB35E] text-white px-8 py-4 rounded-xl font-medium text-lg hover:bg-[#4a944c] transition-all flex items-center justify-center gap-3 shadow-lg hover:shadow-xl">
                 <Phone size={20} />
                 {t('contact.hero.callSupport')}
-              </button>
+              </a>
             </div>
           </motion.div>
 

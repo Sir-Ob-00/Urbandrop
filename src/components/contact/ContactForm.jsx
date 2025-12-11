@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, CheckCircle, User, Mail, MessageSquare, Tag, Phone, MapPin, Clock } from 'lucide-react';
+import { Send, CheckCircle, User, Mail, MessageSquare, Tag, Phone, Clock } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
@@ -63,9 +63,8 @@ const ContactForm = () => {
 
             <div className="space-y-6">
               {[
-                { icon: Phone, title: t('contact.form.sidebar.callUs'), content: "+44 123 456 7890", link: "tel:+441234567890" },
-                { icon: Mail, title: t('contact.form.sidebar.emailUs'), content: "hello@urbandrop.co.uk", link: "mailto:hello@urbandrop.co.uk" },
-                { icon: MapPin, title: t('contact.form.sidebar.visitUs'), content: "123 Urban Street, London, UK", link: "#" },
+                { icon: Phone, title: t('contact.form.sidebar.callUs'), content: "+44 7466 738584", link: "tel:+447466738584" },
+                { icon: Mail, title: t('contact.form.sidebar.emailUs'), content: "Info@urbandrop.io", link: "mailto:Info@urbandrop.io" },
                 { icon: Clock, title: t('contact.form.sidebar.workingHours'), content: t('contact.form.sidebar.workingHoursContent'), link: null }
               ].map((item, index) => (
                 <motion.a

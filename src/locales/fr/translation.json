@@ -106,7 +106,7 @@
         "form": {
             "sidebar": {
                 "title": "Informations de Contact",
-                "desc": "Remplissez le formulaire et notre équipe vous répondra dans les 24 heures.",
+                "desc": "Remplissez le formulaire et notre équipe vous recontactera bientôt.",
                 "callUs": "Appelez-nous",
                 "emailUs": "Envoyez-nous un Email",
                 "visitUs": "Visitez-nous",
@@ -585,7 +585,7 @@
                 "title": "Contactez-Nous",
                 "intro": "Si vous avez des questions, contactez :",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "Email : <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "email": "Email : <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
                 "ico": "Vous avez également le droit de déposer une plainte auprès de l'ICO.",
                 "website": "Site Web : <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
             }
@@ -837,7 +837,7 @@
                 "title": "19. Contact",
                 "content": "Pour toute question, contactez :",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "Email : <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+                "email": "Email : <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
             }
         }
     },
@@ -886,7 +886,7 @@
             "title": "Contactez-Nous",
             "desc": "Pour toute question, contactez :",
             "companyName": "UrbanDrop Group Limited",
-            "email": "Email : <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
+            "email": "Email : <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
         }
     },
     "notFoundPage": {

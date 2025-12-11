@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import starterImg from '../../assets/images/advertising/Starter.jpg';
@@ -81,13 +82,15 @@ const PricingPlans = () => {
                     </motion.li>
                   ))}
                 </ul>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="bg-white text-black px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-xl md:text-2xl lg:text-3xl shadow-lg hover:shadow-xl transition-all"
-                >
-                  {t('advertise.pricing.getStarted')}
-                </motion.button>
+                <Link to="/contact-us">
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="bg-white text-black px-8 md:px-10 py-3 md:py-4 rounded-full font-bold text-xl md:text-2xl lg:text-3xl shadow-lg hover:shadow-xl transition-all"
+                  >
+                    {t('advertise.pricing.getStarted')}
+                  </motion.button>
+                </Link>
               </motion.div>
             </div>
           </section>

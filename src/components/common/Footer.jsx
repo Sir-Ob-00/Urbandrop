@@ -28,23 +28,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#2c4d31] text-white pt-16 pb-8 px-6">
       {/* Mobile Top Bar - Hidden on Desktop */}
-      <div className="lg:hidden border-b border-white/20 pb-6 mb-8">
-        <div className="flex items-center justify-between">
-          {/* Left: Language Selector */}
-          {/* Left: Language Selector - Moved to Navbar */}
-          <div className="flex items-center gap-2">
-            {/* Language selector moved to mobile navbar */}
-          </div>
 
-          {/* Right: Location & Email */}
-          <div className="flex flex-col items-end text-right">
-            <span className="font-medium text-white/90 text-sm">{t('footer.findLocation')}</span>
-            <a href="mailto:DPO@urbandrop.io" className="text-white/80 hover:text-white transition-colors text-xs">
-              DPO@urbandrop.io
-            </a>
-          </div>
-        </div>
-      </div>
 
       <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
@@ -120,7 +104,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
-          <div className="flex items-center gap-2"><Mail size={16} /> DPO@urbandrop.io | support@urbandrop.io</div>
+          <div className="flex items-center gap-2"><Mail size={16} /> Info@urbandrop.io | support@urbandrop.io</div>
           <div className="flex items-center gap-2"><Phone size={16} /> +447466738584</div>
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
         </div>

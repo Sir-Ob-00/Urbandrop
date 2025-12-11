@@ -106,7 +106,7 @@
         "form": {
             "sidebar": {
                 "title": "Contactinformatie",
-                "desc": "Vul het formulier in en ons team neemt binnen 24 uur contact met u op.",
+                "desc": "Vul het formulier in en ons team neemt binnenkort contact met u op.",
                 "callUs": "Bel Ons",
                 "emailUs": "Mail Ons",
                 "visitUs": "Bezoek Ons",
@@ -579,7 +579,7 @@
                 "title": "Neem Contact Op",
                 "intro": "Als u vragen, zorgen of verzoeken inzake gegevensbescherming heeft, neem dan contact op met:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "E-mail: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "email": "E-mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
                 "ico": "U heeft ook het recht om een klacht in te dienen bij het Information Commissioner's Office (ICO) in het VK.",
                 "website": "Website: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
             }
@@ -824,7 +824,7 @@
                 "title": "19. Contact",
                 "content": "Voor vragen, klachten of terugbetalingsverzoeken, neem contact op met:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "E-mail: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+                "email": "E-mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
             }
         }
     },
@@ -873,7 +873,7 @@
             "title": "Neem Contact Op",
             "desc": "Voor vragen of zorgen over cookies of dit Beleid, neem contact op met:",
             "companyName": "UrbanDrop Group Limited",
-            "email": "E-mail: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
+            "email": "E-mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
         }
     },
     "notFoundPage": {

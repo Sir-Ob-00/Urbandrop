@@ -108,7 +108,7 @@
         "form": {
             "sidebar": {
                 "title": "Contact Information",
-                "desc": "Fill out the form and our team will get back to you within 24 hours.",
+                "desc": "Fill out the form and our team will get back to you soon.",
                 "callUs": "Call Us",
                 "emailUs": "Email Us",
                 "visitUs": "Visit Us",
@@ -572,13 +572,13 @@
                 "title": "Your Rights",
                 "intro": "Under the UK GDPR, you have the following rights regarding your personal data:",
                 "items": [
-                    "<strong>Access</strong> â€“ to request a copy of your data.",
-                    "<strong>Rectification</strong> â€“ to correct inaccurate or incomplete data.",
-                    "<strong>Erasure (\"Right to be Forgotten\")</strong> â€“ to request deletion of your data when it's no longer needed.",
-                    "<strong>Restriction</strong> â€“ to limit how your data is processed.",
-                    "<strong>Portability</strong> â€“ to receive your data in a usable format or have it transferred to another provider.",
-                    "<strong>Objection</strong> â€“ to object to processing for legitimate interest or direct marketing.",
-                    "<strong>Withdrawal of Consent</strong> â€“ if processing is based on consent."
+                    "<strong>Access:</strong> to request a copy of your data.",
+                    "<strong>Rectification:</strong> to correct inaccurate or incomplete data.",
+                    "<strong>Erasure (\"Right to be Forgotten\"):</strong> to request deletion of your data when it's no longer needed.",
+                    "<strong>Restriction:</strong> to limit how your data is processed.",
+                    "<strong>Portability:</strong> to receive your data in a usable format or have it transferred to another provider.",
+                    "<strong>Objection:</strong> to object to processing for legitimate interest or direct marketing.",
+                    "<strong>Withdrawal of Consent:</strong> if processing is based on consent."
                 ],
                 "contact": "To exercise any of these rights, contact us at <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>. We may ask for verification before fulfilling your request."
             },
@@ -606,7 +606,7 @@
                 "title": "Contact Us",
                 "intro": "If you have any questions, concerns, or data protection requests, contact:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "Email: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
                 "ico": "You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) in the UK.",
                 "website": "Website: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
             }
@@ -657,7 +657,7 @@
             "title": "Contact Us",
             "desc": "If you have any questions about our use of cookies, please contact:",
             "companyName": "UrbanDrop Group Limited",
-            "email": "Email: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>"
+            "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
         }
     },
     "notFoundPage": {
@@ -696,7 +696,7 @@
             "categories": {
                 "essential": {
                     "title": "Essential Cookies",
-                    "description": "These cookies are needed for UrbanDrop to function properly. They enable secure login, checkout, and payment processing. You canâ€™t turn these off through our settings, but you can block them in your browser (which may affect functionality).",
+                    "description": "These cookies are needed for UrbanDrop to function properly. They enable secure login, checkout, and payment processing. You can not turn these off through our settings, but you can block them in your browser (which may affect functionality).",
                     "examples": "Examples: login sessions, shopping basket tracking, payment processing."
                 },
                 "performance": {
@@ -706,7 +706,7 @@
                 },
                 "functional": {
                     "title": "Functional Cookies",
-                    "description": "These remember your preferences, such as language, location, and saved addresses, so you donâ€™t need to re-enter them each time.",
+                    "description": "These remember your preferences, such as language, location, and saved addresses, so you do not need to re-enter them each time.",
                     "examples": "Examples: preferred delivery address, saved shop filters."
                 },
                 "advertising": {
@@ -716,7 +716,7 @@
                 }
             },
             "footer": {
-                "text1": "You can update your cookie choices anytime by selecting â€œManage Cookiesâ€ in our website footer or app menu.",
+                "text1": "You can update your cookie choices anytime by selecting \"Manage Cookies\" in our website footer or app menu.",
                 "text2": "For more details, see our",
                 "cookiePolicy": "Cookie Policy",
                 "and": "and",
@@ -977,7 +977,7 @@
                 "title": "19. Contact",
                 "content": "For questions, complaints, or refund requests, please contact:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+                "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
             }
         }
     }

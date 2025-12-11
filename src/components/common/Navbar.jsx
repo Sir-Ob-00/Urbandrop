@@ -66,6 +66,9 @@ const Navbar = () => {
               <option value="es">Spanish</option>
               <option value="zh">Mandarin</option>
               <option value="nl">Dutch</option>
+              <option value="it">Italian</option>
+              <option value="sw">Swahili</option>
+              <option value="ar">Arabic</option>
             </select>
           </div>
         </div>
@@ -170,6 +173,9 @@ const Navbar = () => {
                     <option value="es">Spanish</option>
                     <option value="zh">Mandarin</option>
                     <option value="nl">Dutch</option>
+                    <option value="it">Italian</option>
+                    <option value="sw">Swahili</option>
+                    <option value="ar">Arabic</option>
                   </select>
                 </div>
               </li>

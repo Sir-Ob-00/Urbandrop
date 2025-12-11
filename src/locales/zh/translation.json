@@ -54,7 +54,7 @@
         "form": {
             "sidebar": {
                 "title": "联系信息",
-                "desc": "填写表格，我们的团队将在 24 小时内回复您。",
+                "desc": "填写表格，我们的团队会尽快与您联系。",
                 "callUs": "致电我们",
                 "emailUs": "给我们发邮件",
                 "visitUs": "拜访我们",
@@ -533,7 +533,7 @@
                 "title": "联系我们",
                 "intro": "如有关于数据保护的疑问、问题或请求，请联系：",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "电子邮件: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "email": "电子邮件: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
                 "ico": "您也有权向英国信息专员办公室 (ICO) 提出投诉。",
                 "website": "网站: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
             }
@@ -781,7 +781,7 @@
                 "title": "19. 联系方式",
                 "content": "如有问题、投诉或退款请求，请联系：",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "电子邮件: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+                "email": "电子邮件: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
             }
         }
     },
@@ -830,7 +830,7 @@
             "title": "联系我们",
             "desc": "如您对我们使用 Cookie 有任何疑问，请联系：",
             "companyName": "UrbanDrop Group Limited",
-            "email": "电子邮件: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>"
+            "email": "电子邮件: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
         }
     },
     "notFoundPage": {

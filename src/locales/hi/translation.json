@@ -106,7 +106,7 @@
         "form": {
             "sidebar": {
                 "title": "संपर्क जानकारी",
-                "desc": "फॉर्म भरें और हमारी टीम 24 घंटे के भीतर आपसे संपर्क करेगी।",
+                "desc": "फॉर्म भरें और हमारी टीम जल्द ही आपसे संपर्क करेगी।",
                 "callUs": "हमें कॉल करें",
                 "emailUs": "हमें ईमेल करें",
                 "visitUs": "हमसे मिलें",
@@ -562,7 +562,7 @@
                 "title": "संपर्क करें",
                 "intro": "यदि आपके कोई प्रश्न हैं, तो संपर्क करें:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "ईमेल: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>",
+                "email": "ईमेल: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
                 "ico": "आपको ICO में शिकायत दर्ज करने का भी अधिकार है।",
                 "website": "वेबसाइट: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
             }
@@ -807,7 +807,7 @@
                 "title": "19. संपर्क",
                 "content": "प्रश्नों के लिए, संपर्क करें:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "ईमेल: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+                "email": "ईमेल: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
             }
         }
     },
@@ -856,7 +856,7 @@
             "title": "संपर्क",
             "desc": "प्रश्नों के लिए, संपर्क करें:",
             "companyName": "UrbanDrop Group Limited",
-            "email": "ईमेल: <a href=\"mailto:DPO@urbandrop.io\" className=\"text-primary hover:underline\">DPO@urbandrop.io</a>"
+            "email": "ईमेल: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
         }
     },
     "notFoundPage": {

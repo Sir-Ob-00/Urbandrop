@@ -139,14 +139,16 @@ const WhyJoin = () => {
                     </div>
                     <h3 className="text-3xl md:text-5xl font-bold mb-4 text-white">{panel.title}</h3>
                     <p className="text-lg md:text-xl text-gray-200 mb-6">{panel.subtitle}</p>
-                    <motion.button
-                      className="px-8 py-4 rounded-full font-semibold text-white shadow-lg hover:shadow-xl transition"
-                      style={{ backgroundColor: panel.accentColor }}
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      {panel.cta}
-                    </motion.button>
+                    <a href="/#launch-countdown">
+                      <motion.button
+                        className="px-8 py-4 rounded-full font-semibold text-white shadow-lg hover:shadow-xl transition"
+                        style={{ backgroundColor: panel.accentColor }}
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        {panel.cta}
+                      </motion.button>
+                    </a>
                   </div>
                   <div className="flex-shrink-0">
                     <img
