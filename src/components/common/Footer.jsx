@@ -1,25 +1,55 @@
-import React from "react";
-import { Mail, Phone, MapPin, Instagram, Globe, Youtube, Linkedin } from "lucide-react";
+import React, { useState } from "react";
+import { Link, useLocation } from 'react-router-dom';
+import { Phone, MapPin, Globe, Linkedin, Instagram, Youtube, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+  const location = useLocation();
+  const [email, setEmail] = useState('');
+  const [subscribed, setSubscribed] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const changeLanguage = (e) => {
-    i18n.changeLanguage(e.target.value);
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    if (email && email.includes('@')) {
+      setLoading(true);
+      try {
+        const response = await fetch("https://formsubmit.co/ajax/Info@urbandrop.io", {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            email: email,
+            _subject: "New Newsletter Subscription from Urbandrop",
+            _template: "table"
+          })
+        });
+
+        if (response.ok) {
+          setSubscribed(true);
+          setEmail('');
+          setTimeout(() => setSubscribed(false), 5000);
+        }
+      } catch (error) {
+        console.error("Newsletter subscription error:", error);
+      } finally {
+        setLoading(false);
+      }
+    }
   };
 
   const legalLinks = [
     { name: t('footer.privacyPolicy'), href: "/privacy-policy" },
     { name: t('footer.cookiesPolicy'), href: "/cookies-policy" },
     { name: t('footer.termsConditions'), href: "/terms-conditions" },
-
     { name: t('footer.manageCookies'), action: "openCookiePreferences" },
   ];
 
   const importantLinks = [
     { name: t('footer.about'), href: "/about-us" },
-
     { name: t('footer.customer'), href: "/customer" },
     { name: t('footer.advertise'), href: "/advertise" },
     { name: t('footer.beMerchant'), href: "/become-merchant" },
@@ -27,9 +57,6 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#2c4d31] text-white pt-16 pb-8 px-6">
-      {/* Mobile Top Bar - Hidden on Desktop */}
-
-
       <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
@@ -39,18 +66,33 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Newsletter */}
+        {/* Newsletter*/}
         <div>
           <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.getExclusiveDeals')}</h3>
           <div className="relative">
-            <input
-              type="email"
-              placeholder={t('footer.enterEmail')}
-              className="w-full bg-white text-black placeholder-gray-500 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CB35E8C]"
-            />
-            <button className="absolute right-1 top-1/2 -translate-y-1/2 bg-[#257a278c] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#257a278c] transition-colors">
-              {t('footer.subscribe')}
-            </button>
+            {subscribed ? (
+              <div className="bg-[#5CB35E]/20 text-[#5CB35E] px-4 py-3 rounded-md font-medium text-center">
+                {t('footer.thanksForSubscribing')}
+              </div>
+            ) : (
+              <form onSubmit={handleSubscribe} className="relative">
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder={t('footer.enterEmail')}
+                  className="w-full bg-white text-black placeholder-gray-500 px-4 py-3 rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CB35E8C]"
+                  required
+                />
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="absolute right-1 top-1/2 -translate-y-1/2 bg-[#257a278c] text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-[#257a278c] transition-colors disabled:opacity-70"
+                >
+                  {loading ? '...' : t('footer.subscribe')}
+                </button>
+              </form>
+            )}
           </div>
         </div>
 
@@ -63,12 +105,18 @@ const Footer = () => {
                 {link.action ? (
                   <button
                     onClick={() => window.dispatchEvent(new Event(link.action))}
-                    className="hover:text-primary transition text-left"
+                    className="hover:text-[#5CB35E] transition text-left"
                   >
                     {link.name}
                   </button>
                 ) : (
-                  <a href={link.href} className="hover:text-primary transition">{link.name}</a>
+                  <Link
+                    to={link.href}
+                    onClick={() => window.scrollTo(0, 0)}
+                    className={`${location.pathname === link.href ? 'text-[#5CB35E] font-medium' : 'hover:text-[#5CB35E] transition'}`}
+                  >
+                    {link.name}
+                  </Link>
                 )}
               </li>
             ))}
@@ -81,7 +129,13 @@ const Footer = () => {
           <ul className="space-y-2">
             {importantLinks.map((link) => (
               <li key={link.name}>
-                <a href={link.href} className="hover:text-primary transition">{link.name}</a>
+                <Link
+                  to={link.href}
+                  onClick={() => window.scrollTo(0, 0)}
+                  className={`${location.pathname === link.href ? 'text-[#5CB35E] font-medium' : 'hover:text-[#5CB35E] transition'}`}
+                >
+                  {link.name}
+                </Link>
               </li>
             ))}
           </ul>
