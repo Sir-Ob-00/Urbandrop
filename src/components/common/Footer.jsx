@@ -60,11 +60,17 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
-          <h2 className="text-4xl font-bold mb-3 text-white">Urbandrop</h2>
+          <h2 className="text-4xl font-bold mb-3 text-white">
+            <span className="text-5xl inline">U</span>
+            <span className="inline">rban</span>
+            <span className="text-5xl inline">D</span>
+            <span className="inline">rop</span>
+          </h2>
           <p className="text-white">
             {t('footer.brandDescription')}
           </p>
         </div>
+
 
         {/* Newsletter*/}
         <div>

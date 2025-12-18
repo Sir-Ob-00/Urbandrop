@@ -12,6 +12,9 @@ import translationNL from './locales/nl/translation.json';
 import translationIT from './locales/it/translation.json';
 import translationSW from './locales/sw/translation.json';
 import translationAR from './locales/ar/translation.json';
+import translationTW from './locales/tw/translation.json';
+import translationYO from './locales/yo/translation.json';
+import translationAF from './locales/af/translation.json';
 
 const resources = {
     en: {
@@ -43,6 +46,15 @@ const resources = {
     },
     ar: {
         translation: translationAR,
+    },
+    tw: {
+        translation: translationTW,
+    },
+    yo: {
+        translation: translationYO,
+    },
+    af: {
+        translation: translationAF,
     },
 };
 

@@ -1,0 +1,984 @@
+﻿{
+    "navbar": {
+    "findLocation": "Hwehwɛ Beaeɛ",
+    "home": "Fie",
+    "contactUs": "Frɛ Yɛn",
+    "getTheApp": "Fa App No"
+},
+"footer": {
+    "findLocation": "Hwehwɛ Beaeɛ",
+    "brandDescription": "Wo gyidi wɔ yɛn online aduane ne grocery gua a ɛka UK amanfoɔ ne local adwumayɛfoɔ ho.",
+    "getExclusiveDeals": "Fa Nhyehyɛeɛ Pa Bi",
+    "enterEmail": "Fa wo email kɔ mu",
+    "subscribe": "Kɔ so nsa aka ho",
+    "legalPages": "Mmara Nkɔmɔ",
+    "privacyPolicy": "Ahodwira Nhyehyɛeɛ",
+    "cookiesPolicy": "Cookies Nhyehyɛeɛ",
+    "termsConditions": "Mmara ne Nsɛm",
+    "manageCookies": "Si Cookies So",
+    "importantLinks": "Nkɔmɔ A Ɛho Hia",
+    "about": "Fa ho",
+    "customer": "Onyinaafoɔ",
+    "advertise": "Fa Adwumaden Di Urbandrop Ho",
+    "beMerchant": "Bɛyɛ Adwumayɛfoɔ",
+    "rightsReserved": "Urbandrop Group Ltd. Nkwa so nyinaa yɛde akyɛ.",
+    "companyNumber": "Adwumayɛ Nɔma"
+},
+"home": {
+    "hero": {
+        "discover": "Hwehwɛ",
+        "richEthnic": "Amammerɛ A Ɛwɔ Mu",
+        "flavors": "Nnuane Anomaa",
+        "orderNow": "Tɔ Seesei",
+        "becomeMerchant": "Bɛyɛ Adwumayɛfoɔ"
+    },
+    "mosaic": {
+        "title": "Amammerɛ Biara, Gua Koro",
+        "subtitle": "Hwehwɛ nnuane fi Afrika, Asia, ne baabi foforɔ."
+    },
+    "featured": {
+        "title": "Nsɛm A Wɔde Hyɛ Mu",
+        "subtitle": "Hwehwɛ yɛn nsɛm a yɛapɛ ho adwuma a ɛbɛma woanya amammerɛ ne anigyeɛ pa.",
+        "exploreNow": "Hwehwɛ Seesei",
+        "cat1": {
+            "title": "Tɔ Mu, Sɛnea Woka No",
+            "desc": "Yɛte w'ankasa kasa. Hwehwɛ tɔ mu a ɛte wo ho."
+        },
+        "cat2": {
+            "title": "UrbanRecipe",
+            "desc": "Hwehwɛ, Dware, na Kyɛ w'amammerɛ a ɛwɔ mu pɛpɛɛpɛ."
+        },
+        "cat3": {
+            "title": "Tɔn Fie. Kɔ Wiase Nyinaa",
+            "desc": "Yɛboa local adwumayɛfoɔ ma wɔde wɔn nneɛma kɔ wiase nyinaa."
+        },
+        "cat4": {
+            "title": "Rider: De Amammerɛ Ba Fie",
+            "desc": "Ntɛm ne Nkwa ho Service a ɛde adeɛ ba w'efie anim."
+        }
+    },
+    "whyChoose": {
+        "badge": "Adɛn Na Wobɛpaw Urbandrop",
+        "title": "Sua",
+        "difference": "Nsakraeɛ No",
+        "whyChooseUs": "Adɛn Na Wobɛpaw Yɛn",
+        "ctaTitle": "Wopɛ sɛ Wuhu Nsakraeɛ No?",
+        "ctaButton": "Fa Urbandrop App No",
+        "feature1": {
+            "title": "Tɔ Mu Sɛnea Woka Kasa",
+            "desc": "Hwehwɛ nnuane wɔ local anaa indigenous din so, sɛ ɛyɛ kontomire, egusi, anaa atta flour. UrbanDrop te w'ankasa kasa."
+        },
+        "feature2": {
+            "title": "Hwehwɛ Aduan Gua A Ɛte Sɛ Fie",
+            "desc": "Hwehwɛ gua ne nsɛm a wɔapɛ ho adwuma fi Caribbean ne South Asian kɔ West African ne Middle Eastern. Adeɛ a wopɛ fi fie, nyinaa wɔ app koro mu."
+        },
+        "feature3": {
+            "title": "Aduan Nokware, A Amammerɛ Ahyɛ So",
+            "desc": "Adeɛ biara a ɛwɔ UrbanDrop so yɛn hwɛ ho yiye na wɔde ne baabi a ɛfiri ne amammerɛ di dwuma."
+        },
+        "feature4": {
+            "title": "Ɛyɛ More Than Shopping, ɛyɛ Nkabom",
+            "desc": "Fa amammerɛ recipes, cooking guides, ne stories a ɛfa amammerɛ ho bɔ w'ani, na ɛma nkurɔfoɔ hyia."
+        }
+    },
+    "appDownload": {
+        "title1": "Tɔ Nsa",
+        "title2": "Urbandrop Ahyɛnsodeɛ No",
+        "title3": "Ntɛm Sen Da Biara",
+        "desc": "Fa Urbandrop app no na nya nhyehyɛeɛ pa, ntɛm checkout, ne real-time order tracking.",
+        "ios": "Fa Apple So",
+        "android": "Fa Android So",
+        "countdown": {
+            "days": "Da",
+            "hours": "Dɔnhwere",
+            "minutes": "Simin",
+            "seconds": "Sɛkɔnd"
+        }
+    }
+},
+    "contact": {
+    "hero": {
+        "badge": "Fa Wo Ho Bɔ Yɛn",
+        "title1": "Ma Yɛn Nhyehyɛ",
+        "title2": "Nkɔmmɔ",
+        "desc": "Sɛ wowɔ nsɛmmisa, adwene bi, anaa wopɛ sɛ woka akyea kɛkɛ a, yɛwɔ ha rete wo na yɛbɛboa wo.",
+        "sendMessage": "Soma Krataa",
+        "callSupport": "Frɛ Support"
+    },
+    "form": {
+        "sidebar": {
+            "title": "Nkɔmɔ Foforɔ Ho Nsɛm",
+            "desc": "Fa form no hyɛ mu na yɛn team bɛsan akɔ wo nkyɛn ntɛm ara.",
+            "callUs": "Frɛ Yɛn",
+            "emailUs": "Fa Email",
+            "visitUs": "Ba Fie",
+            "workingHours": "Adwuma Bere",
+            "workingHoursContent": "Mon - Fri: Anɔpa 9 - Anwummerɛ 6"
+        },
+        "fields": {
+            "fullName": "Din Foforɔ",
+            "email": "Email Address",
+            "subject": "Asɛm",
+            "message": "Wo Krataa"
+        },
+        "subjects": {
+            "customer": "Onyinaafoɔ Support",
+            "merchant": "Adwumayɛfoɔ Support",
+            "advertising": "Adwumaden & Ntɔn Ho Nkɔmɔ",
+            "other": "Foforɔ"
+        },
+        "submit": {
+            "sending": "Re-soma...",
+            "send": "Soma Krataa"
+        },
+        "success": {
+            "title": "Krataa Asoma!",
+            "desc": "Medase sɛ wopɛɛ sɛ woka akyerɛ yɛn. Yɛn anya wo krataa na yɛbɛsan akɔ wo nkyɛn ntɛm ara."
+        }
+    }
+},
+"customer": {
+    "hero": {
+        "title1": "Tɔ Nsa",
+        "title2": "Aduan Nokware",
+        "desc": "Aduan amammerɛ a ɛyɛ nokware de brɛ w'efie anim.",
+        "downloadApp": "Fa App No",
+        "orderDelivered": "Adeɛ Asoma",
+        "justNow": "Seesei pɛ • Simin 2 a atwa mu"
+    },
+    "recommendation": {
+        "title1": "Ahyɛdeɛ",
+        "title2": "Ama Wo",
+        "subtitle": "Hwehwɛ collections a ɛfata w'ani so",
+        "explore": "Hwehwɛ Collection",
+        "categories": {
+            "topPicks": {
+                "name": "Nsɛm A Ɛwɔ W'akyi",
+                "desc": "Aduan a wɔahyɛ ho nsɛm wɔ w'ɛfa mu"
+            },
+            "trending": {
+                "name": "Nsɛm A Wɔpɛ Wɔ Week Yi",
+                "desc": "Aduan a ɛda hɔ ma nnɛ yi"
+            },
+            "fastest": {
+                "name": "Ntɛm Sen Biara",
+                "desc": "Fa w'adwumayɛ mu adeɛ wɔ simin 30 mu"
+            },
+            "budget": {
+                "name": "Aduan A Ɛyɛ Mframa",
+                "desc": "Aduan a ɛyɛ dɛ a ɛboa w'akoa sika"
+            }
+        }
+    },
+    "scenarios": {
+        "title1": "Aduan A Wɔde Brɛ Wo",
+        "title2": "W'Anigyeɛ Ho",
+        "items": {
+            "everything": {
+                "title": "Adeɛ Nyinaa A Wopɛ",
+                "subtitle": "Fi fresho produce kɔ pantry staples."
+            },
+            "authentic": {
+                "title": "Nokware & Local",
+                "subtitle": "Amammerɛ nnuane a ɛyɛ den wɔ w'asɔre mu."
+            },
+            "shopHome": {
+                "title": "Tɔ Fie",
+                "subtitle": "Gyae line no na tɔ mu a ɛyɛ mmerɛ."
+            },
+            "delivered": {
+                "title": "Wɔde Brɛ Wo",
+                "subtitle": "Fresho aduan de brɛ w'efie anim."
+            }
+        }
+    },
+    "whatYouCanDo": {
+        "title": "Deɛ Wobɛtumi Ayɛ",
+        "desc": "App koro ma wo nneɛma a wopɛ da biara. Hwehwɛ nea ɛbɛyɛ yiye wɔ Urbandrop.",
+        "learnMore": "Sua Ho Bi",
+        "items": {
+            "groceries": {
+                "title": "Tɔ Aduan",
+                "desc": "Fresho produce ne essentials de brɛ w'efie anim."
+            },
+            "errands": {
+                "title": "Yɛ Adwuma Kakra",
+                "desc": "Wopɛ mmoa bi? Yɛbɛboa wo nneɛma da biara."
+            },
+            "ethnic": {
+                "title": "Amammerɛ Nnuane",
+                "desc": "Hwehwɛ nokware nnuane fi wiase nyinaa."
+            }
+        }
+    },
+    "benefits": {
+        "title1": "Adɛn",
+        "title2": "Na",
+        "title3": "Urban",
+        "title4": "Drop?",
+        "subtitle": "Ma w'asetenam nteɛsoɔ wɔ adeɛ biara a wɔde brɛ wo.",
+        "items": {
+            "saveTime": {
+                "title": "Sie Bere",
+                "subtitle": "Fa bere no nyinaa san nya w'ankasa da mu."
+            },
+            "comfort": {
+                "title": "Enjoy Ahomeka",
+                "subtitle": "Adeɛ a wopɛ nyinaa, wɔde brɛ wo."
+            },
+            "convenience": {
+                "title": "Nya Anigyeɛ",
+                "subtitle": "Tɔ fi w'ahyɛdeɛ gua a wopɛ mu."
+            },
+            "safe": {
+                "title": "Feel Safe",
+                "subtitle": "Contactless delivery wɔ hɔ."
+            },
+            "deals": {
+                "title": "Nhyehyɛeɛ Pa",
+                "subtitle": "Adwene pa a ɛwɔ wo dea pɛ."
+            }
+        }
+    },
+    "appDownload": {
+        "title1": "Tɔ Nsa",
+        "title2": "Urbandrop Ahyɛnsodeɛ No",
+        "title3": "Ntɛm Sen Da Biara",
+        "desc": "Fa Urbandrop app no na nya nhyehyɛeɛ pa, ntɛm checkout, ne real-time order tracking.",
+        "ios": "Fa Apple So",
+        "android": "Fa Android So",
+        "countdown": {
+            "days": "Da",
+            "hours": "Dɔnhwere",
+            "minutes": "Simin",
+            "seconds": "Sɛkɔnd"
+        }
+    }
+},
+   "about": {
+    "title": "1. Fa UrbanDrop Ho",
+    "content": [
+        "UrbanDrop yɛ online gua a ɛka customers ne adwumayɛfoɔ a wɔtɔn groceries, aduane, ne amammerɛ nneɛma a wɔde brɛ anaa wopɛ sɛ wopɛ. Yɛma digital infrastructure, payment processing, ne customer interface, nanso yɛnyɛ producer, yɛn de, anaa yɛtɔn adeɛ no.",
+        "Sɛ wotɔ adeɛ fa UrbanDrop so a, wopɛ fi adwumayɛfoɔ nkyɛn pɛ, ɛnyɛ UrbanDrop nko."
+    ],
+    "hero": {
+        "title1": "Hyɛ",
+        "title2": "Amammerɛ Mu",
+        "title3": "Ka",
+        "title4": "Nkabom",
+        "desc": "Yɛnyɛ gua nko. Yɛyɛ digital bridge a ɛde wo kɔ flavors, amammerɛ, ne nkurɔfoɔ a ɛma w'community yɛ fɛ."
+    },
+    "ecosystem": {
+        "title": "Ecosystem No",
+        "subtitle": "Baabi a adeɛ nyinaa hyia.",
+        "customers": {
+            "title": "Customers",
+            "subtitle": "Direct Access"
+        },
+        "merchants": {
+            "title": "Adwumayɛfoɔ",
+            "subtitle": "Growth Engine"
+        },
+        "riders": {
+            "title": "Riders",
+            "subtitle": "Flexible Earnings"
+        },
+        "businesses": {
+            "title": "Adwumayɛ",
+            "subtitle": "Logistics a wɔahyɛ ho"
+        }
+    },
+    "highlights": {
+        "title": "Ahyɛnsodeɛ No",
+        "subtitle": "Premium Standard",
+        "item1": "Ntɛm & Connected",
+        "item2": "Wɔboa Nkwa Nyinaa",
+        "item3": "Mobile Workflow",
+        "item4": "Community Growth",
+        "item5": "Reliable & Secure"
+    },
+    "process": {
+        "step1": "Fa App No",
+        "step2": "Tɔ Adeɛ",
+        "step3": "Gye Adeɛ",
+        "step4": "Enjoy"
+    },
+    "purpose": {
+        "title1": "Yɛde",
+        "title2": "Adwene",
+        "quote": "Sɛnea ɛbɛma nnawɔtwe mu nneɛma ayɛ mmerɛ na ɛde anigyeɛ bɛba nkurɔfoɔ nkyɛn."
+    }
+},
+"merchants": {
+    "hero": {
+        "title1": "Ma w'adwuma nyɛ kɛseɛ wɔ",
+        "title2": "Urbandrop",
+        "desc": "Fa ka ho sɛ woyɛ adwumayɛfoɔ a wɔtɔn fresho ne quality aduane wɔ yɛn app mu.",
+        "cta": "Bɛyɛ Adwumayɛfoɔ"
+    },
+    "whyJoin": {
+        "title": "ADƐN NA WOBƐKA HO",
+        "panels": {
+            "reach": {
+                "title": "Fa w'ahoɔden kɔ akyirikyiri",
+                "subtitle": "Ka ho nkurɔfoɔ mpempem fi mmerɛ ne baabi foforɔ.",
+                "badge": "Popular",
+                "cta": "Hyɛ Ho"
+            },
+            "sales": {
+                "title": "Ma w'ayɔnkofa so",
+                "subtitle": "Ka w'ayɔnkofa so wɔ yɛn large user base so.",
+                "badge": "Trending",
+                "cta": "Ka Ho Seesei"
+            },
+            "management": {
+                "title": "Management a ɛyɛ mmerɛ",
+                "subtitle": "Di w'adi na gua ho nsɛm mfeɛ mmerɛ wɔ yɛn tools a ɛyɛ intuitive mu.",
+                "badge": "Simple",
+                "cta": "Hyɛ Ho Seesei"
+            },
+            "community": {
+                "title": "Community Support",
+                "subtitle": "Fa ka nkabom adwumayɛfoɔ nkorɔfoɔ a wɔyɛ successful ho na nya support.",
+                "badge": "Community",
+                "cta": "Ka Ho"
+            }
+        }
+    },
+    "howItWorks": {
+        "title": "Sɛnea",
+        "titleHighlight": "Ɛyɛ Adwuma",
+        "steps": {
+            "list": {
+                "title": "Kyerɛw w'adeɛ",
+                "desc": "Fa upload na kyerɛ w'adeɛ a ɛyɛ unique ma nkurɔfoɔ bebree."
+            },
+            "receive": {
+                "title": "Gye Orders",
+                "desc": "Fa notifications ntɛm wɔ orders foforɔ ho na di dwuma wɔ ho mmerɛ."
+            },
+            "earn": {
+                "title": "Fa Sika na Ma Nso",
+                "desc": "Fa payments securely na hwɛ sɛ w'ayɔnkofa so nyinaa kɔ soro wɔ adeɛ biara a wotɔn."
+            },
+            "analyze": {
+                "title": "Hwɛ Performance",
+                "desc": "Fa analytics kɔ ho na hu w'ayɔnkofa ne customer behavior."
+            }
+        }
+    },
+    "features": {
+        "instantOrders": "Orders Ntɛm",
+        "fastDelivery": "Ntɛm Delivery",
+        "realTimeEarnings": "Real-time Sika",
+        "analytics": "Analytics Dashboard",
+        "securePayments": "Payments a ɛyɛ Secure",
+        "customerSupport": "Customer Support"
+    },
+    "cta": {
+        "title": "Hyɛ mu ma w'adwuma nyɛ kɛseɛ wɔ Urbandrop nnɛ!",
+        "desc": "Ɛyɛ simin 10 nko na w'ahyɛ mu na wotɔ adeɛ. Ka ho adwumayɛfoɔ mpempem a wɔyɛ successful.",
+        "button": "Bɛyɛ Adwumayɛfoɔ",
+        "contact": "Frɛ Sales Team",
+        "footer": "Nsɛmmisa bi wɔ hɔ? Yɛn team wɔ ha sɛ wɔbɛboa wo wɔ kwan biara so."
+    }
+},
+"advertise": {
+    "title": "Fa Adwumaden Di",
+    "desc": "Hyɛ w'brand ho nsɛm yɛn ho",
+    "hero": {
+        "alt1": "Advertising Banner 1",
+        "alt2": "Advertising Banner 2",
+        "alt3": "Advertising Banner 3",
+        "prev": "Slide Atoɔ So",
+        "next": "Slide Atoɔ So Atoɔ So"
+    },
+    "pricing": {
+        "getStarted": "Hyɛ Ho",
+        "starter": {
+            "name": "Starter",
+            "features": [
+                "Basic listing",
+                "Standard support",
+                "Community access"
+            ]
+        },
+        "growth": {
+            "name": "Growth",
+            "features": [
+                "Enhanced listing",
+                "Priority support",
+                "Analytics dashboard",
+                "Marketing tools"
+            ]
+        },
+        "premium": {
+            "name": "Premium",
+            "features": [
+                "Featured listing",
+                "24/7 Dedicated support",
+                "Advanced analytics",
+                "Custom marketing campaigns",
+                "API access"
+            ]
+        }
+    },
+    "options": {
+        "listingProducts": {
+            "headline": "Kyerɛw W'adeɛ",
+            "description": "Kyerɛ w'adeɛ wɔ local customers a wɔpɛ nokware ethnic groceries anim."
+        },
+        "appBanner": {
+            "headline": "Premium App Banners",
+            "description": "Nya high visibility wɔ app home screen banners so."
+        },
+        "inAppPromotions": {
+            "headline": "In-App Promotions",
+            "description": "Fa promotions ne special offers a ɛbɛma wotɔn adeɛ na akɔfa customers foforɔ aba."
+        }
+    }
+},
+    "privacyPolicy": {
+    "hero": {
+        "title": "Ahofadi",
+        "highlight": "Nsɛm",
+        "subtitle": "Yɛhwɛ wo ahofadi so.",
+        "effectiveDate": "Ɔda a ɛyɛ Adwuma: {{date}}"
+    },
+    "sections": {
+        "whoWeAre": {
+            "title": "Hena Yɛyɛ",
+            "content": [
+                "UrbanDrop Group Limited yɛ kompany a wɔregister wɔ England ne Wales, company number 16026087.",
+                "Yɛyɛ online gua a ɛde customers bɔ adwumayɛfoɔ ho a wɔtɔn groceries, aduane a wɔadwene wie, ne amammerɛ nneɛma a wɔde brɛ anaa wopɛ sɛ wopɛ."
+            ]
+        },
+        "infoCollect": {
+            "title": "Nsem a Yɛboaboa Ano",
+            "intro": "Yɛboaboa personal information ano a ɛboa yɛn ma yɛde som, yɛma no yɛ papa, na yɛdi yɛn dwuma so. Eyi betumi akɔ so sɛ:",
+            "direct": {
+                "title": "Nsem a Wode Ma Yɛn Pɛpɛɛpɛ",
+                "items": [
+                    "Din, nkontabuo number, ne delivery address.",
+                    "Email address ne account password.",
+                    "Payment ne billing information (yɛyɛ secure fa yɛn payment partners so).",
+                    "Feedback, messages, anaa reviews a wode ma yɛn.",
+                    "Merchant registration details (ma business users), fa company din, trading address, ne bank account details ka ho."
+                ]
+            },
+            "automatic": {
+                "title": "Nsem a Yɛboaboa Ano Ntɛm",
+                "intro": "Sɛ wode UrbanDrop di dwuma a, yɛbɛboaboa ano ntɛm sɛ:",
+                "items": [
+                    "Device ne browser information (IP address, operating system, device type).",
+                    "Location data (sɛ woma location services kwan).",
+                    "Usage data te sɛ pages a wotɔɔ mu, app interactions, ne order activity.",
+                    "Log files ne diagnostic data a ɛboa performance ne security."
+                ]
+            },
+            "thirdParty": {
+                "title": "Nsem fi Nnipa Foforɔ",
+                "intro": "Yɛbɛnya nsem fi:",
+                "items": [
+                    "Payment providers (sɛ wopɛ sɛ wuhu transaction status).",
+                    "Identity verification services.",
+                    "Delivery partners (sɛ wopɛ sɛ wuhu order delivery status).",
+                    "Analytics ne advertising partners a ɛboa yɛn ma yɛte usage trends."
+                ]
+            }
+        },
+        "howWeUse": {
+            "title": "Sɛnea Yɛde Wo Nsem Di Dwuma",
+            "intro": "Yɛde personal data di dwuma sɛ:",
+            "items": [
+                "Di wo orders so na de brɛ wo.",
+                "Ka wo ho asɛm kyerɛ wo fa wo account, orders, ne customer support requests ho.",
+                "Sɔ w’ahofadi na bɔ hwɛ sɛ ɛnyɛ fraud.",
+                "Di payments, refunds, ne credits so.",
+                "Ma merchants nsa ka order details a ɛho hia.",
+                "Personalize wo experience na ka products a ɛfata wo ho.",
+                "Boa platform functionality, performance, ne content.",
+                "Di legal ne regulatory obligations so."
+            ],
+            "legalBasis": {
+                "intro": "Yɛde data no bɛyɛ adwuma sɛ wɔwɔ legal basis ma eyi sɛ:",
+                "items": [
+                    "Sɛ yɛyɛ contract a yɛwɔ wo ho (sɛ tumi fulfil order).",
+                    "Sɛ yɛdi legal obligations so.",
+                    "Ma legitimate business interests (sɛ yɛbɛboa user experience).",
+                    "Sɛ woma consent (sɛ marketing)."
+                ]
+            }
+        },
+        "marketing": {
+            "title": "Marketing Communications",
+            "content": [
+                "Yɛbɛtumi asoma marketing emails anaa notifications fa products foforɔ, offers, anaa promotions ho sɛ woma yɛn kwan.",
+                "Wobɛtumi a yɛreyi ho fi bere biara sɛ:"
+            ],
+            "items": [
+                "Click “unsubscribe” wɔ email biara mu, anaa",
+                "Adjust w’preferences wɔ UrbanDrop app mu anaa frɛ yɛn."
+            ],
+            "note": "Sɛ woyi ho fi a, yɛbɛtumi de non-promotional messages so (sɛ order confirmations anaa account notices)."
+        },
+        "sharing": {
+            "title": "Sɛnea Yɛde Wo Nsem Kyɛ",
+            "intro": "Yɛbɛkyɛ limited personal data ma:",
+            "items": [
+                "<strong>Merchants:</strong> sɛ wɔbɛtumi ayɛ, fulfil, na de brɛ wo order.",
+                "<strong>Delivery Partners:</strong> sɛ wɔde wo order brɛ wo pɛpɛɛpɛ ne anigyeɛ mu.",
+                "<strong>Payment Processors:</strong> sɛ wɔde di payments so securely.",
+                "<strong>IT ne Cloud Providers:</strong> a ɛboa yɛn ma yɛyɛ yɛn systems adwuma.",
+                "<strong>Analytics ne Advertising Partners:</strong> sɛ wɔbɛboa yɛn ma services ne marketing yɛ papa.",
+                "<strong>Regulators anaa Law Enforcement:</strong> sɛ ɔhyɛ no ma ɛho hia anaa sɛ yɛbɛbɔ yɛn ho ban."
+            ],
+            "note": "Yɛntɔn wo personal data kɔ nnipa foforɔ nkyɛn."
+        },
+        "retention": {
+            "title": "Data Retention",
+            "intro": "Yɛkyɛ wo personal information bere a ɛsɛ sɛ yɛde yɛ dwuma a wɔboaboa ano no, fa legal, accounting, anaa reporting requirements ka ho.",
+            "items": [
+                "<strong>Customer order records:</strong> yɛkyɛ ma mfeɛ 6 wɔ UK tax ne consumer laws so.",
+                "<strong>Merchant data:</strong> yɛkyɛ kɔsi sɛ account no da so active na mfeɛ 6 akyi.",
+                "<strong>Support messages ne feedback:</strong> yɛkyɛ ma operational ne legal reference."
+            ],
+            "note": "Sɛ data no nhu hia bio a, yɛbɛpɔw anaa yɛbɛyɛ anonymize no."
+        },
+        "security": {
+            "title": "Data Security",
+            "content": [
+                "Yɛde technical ne organizational measures a ɛfata bɔ wo data ho ban fi unauthorized access, disclosure, alteration, anaa loss.",
+                "Eyi mu bi ne:"
+            ],
+            "items": [
+                "Encrypted data transmission (SSL/TLS).",
+                "Secure payment gateways (PCI DSS compliant).",
+                "Access controls ne authentication systems.",
+                "Regular security monitoring ne audits."
+            ],
+            "note": "Nanso, online service biara nni hɔ a ɛnyɛ risk-free. Wo na wo hwɛ wo account credentials so."
+        },
+        "international": {
+            "title": "International Transfers",
+            "intro": "Nnipa foforɔ anaa partners betumi adwuma wo data wɔ UK anaa European Economic Area (EEA) akyi. Sɛ eyi si a, yɛde safeguards a ɛfata yɛ:",
+            "items": [
+                "Adequacy decisions a UK anaa EU apaw.",
+                "Standard Contractual Clauses (SCCs).",
+                "Binding corporate rules anaa protection mechanisms a ɛte sɛ no."
+            ]
+        },
+        "rights": {
+            "title": "Wo Ahofadi",
+            "intro": "Wɔ UK GDPR, wowɔ rights yi fa wo personal data ho:",
+            "items": [
+                "<strong>Access:</strong> bisa wo data copy.",
+                "<strong>Rectification:</strong> correct inaccurate anaa incomplete data.",
+                "<strong>Erasure (\"Right to be Forgotten\"):</strong> bisa sɛ wɔpɔw wo data sɛ ɛnhia bio.",
+                "<strong>Restriction:</strong> kɔ so tumi limit processing.",
+                "<strong>Portability:</strong> nya wo data wɔ usable format anaa transfer kɔ ɔfoforo nkyɛn.",
+                "<strong>Objection:</strong> gyae processing ma legitimate interest anaa direct marketing.",
+                "<strong>Withdrawal of Consent:</strong> sɛ processing yɛ based on consent."
+            ],
+            "contact": "Sɛ wopɛ sɛ wode rights yi di dwuma, frɛ yɛn wɔ <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>. Yɛbɛtumi bisa verification ansa na yɛbɛyɛ wo request."
+        },
+        "cookies": {
+            "title": "Cookies ne Tracking",
+            "content": [
+                "UrbanDrop de cookies ne similar technologies ma user experience yɛ papa, kae preferences, na analyze traffic.",
+                "Wobɛtumi manage anaa disable cookies wɔ browser settings mu, nanso ɛbɛtumi affect Platform functionality.",
+                "Sɛ wopɛ nsɛm pii, hwɛ yɛn Cookie Policy."
+            ]
+        },
+        "children": {
+            "title": "Mma Ahofadi",
+            "content": "UrbanDrop nni hɔ ma mma a wɔyɛ mfe 18 ase, na yɛnni nim sɛ yɛboaboa personal data fi minors ho. Sɛ yɛhu a yɛaboaboa saa data a, yɛbɛpɔw no ntɛm."
+        },
+        "links": {
+            "title": "Links kɔ Sites Foforɔ",
+            "content": "Yɛn Platform betumi akyerɛ links kɔ third-party websites. Yɛn nni ho nhwɛso fa content, privacy practices, anaa security wɔ external sites no ho."
+        },
+        "updates": {
+            "title": "Updates wɔ Policy Yi Mu",
+            "content": "Yɛbɛtumi update Privacy Policy yi bere biara. Latest version no bɛda ho wɔ yɛn website anaa app so. Sɛ nsakraeɛ yɛ kɛseɛ a, yɛbɛka kyerɛ users wɔ email anaa app notification ansa na ɛyɛ adwuma."
+        },
+        "contact": {
+            "title": "Frɛ Yɛn",
+            "intro": "Sɛ wowɔ nsɛmmisa, adwene, anaa data protection requests, frɛ:",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
+            "ico": "Wɔwɔ ho kwan sɛ wobɛkɔ Information Commissioner's Office (ICO) wɔ UK.",
+            "website": "Website: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
+        }
+    }
+},
+    "cookiesPolicy": {
+    "title": "Cookies Nhyehyɛe",
+    "effectiveDate": "Ɔda a ɛyɛ Adwuma: {{date}}",
+    "whatAreCookies": {
+        "title": "Dɛn ne Cookies?",
+        "desc": "Cookies yɛ nkutoa ketewa a wɔde gu wo device so sɛ wopɛ sɛ wotumi kɔ website anaa di app dwuma. Wɔboa yɛn kae wo preferences, boa performance, na personalize wo experience. Cookies bi ho hia ma Platform yɛ adwuma yiye, na afoforo boa yɛn ma yɛte sɛnea users di yɛn services dwuma na yɛbɛtumi ayɛ adwuma no papa."
+    },
+    "types": {
+        "essential": {
+            "title": "Cookies a ɛho Hia",
+            "desc": "Saa cookies yi ho hia ma Platform yɛ adwuma. Wɔma core features yɛ adwuma te sɛ secure login, checkout, ne account management. Sɛ wɔnni hɔ a, services bi rentumi nyɛ adwuma. Examples ne sɛ wo login session, cart management, ne secure payment processing."
+        },
+        "performance": {
+            "title": "Performance ne Analytics Cookies",
+            "desc": "Saa cookies yi boa yɛn ma yɛte sɛnea visitors de UrbanDrop yɛ adwuma, sɛnea pages a wɔpɛ paa anaa baabi a users nya errors. Yɛde data yi bɛboa navigation, speed, ne user experience. Examples ne Google Analytics ne app performance trackers. Data a yɛboaboa ano nyinaa yɛ aggregated ne anonymous."
+        },
+        "functionality": {
+            "title": "Functionality Cookies",
+            "desc": "Saa cookies yi kae wo preferences te sɛ language, location, anaa delivery address ma wo experience yɛ mmerɛ."
+        },
+        "advertising": {
+            "title": "Advertising ne Marketing Cookies",
+            "desc": "Saa cookies yi ma yɛn ne yɛn partners tumi kyerɛ wo offers ne promotions a ɛfata wo, wɔ UrbanDrop ne websites anaa apps foforɔ so. Wɔboa yɛn ma yɛntumi nkyerɛ saa ad no mpɛn pii. Examples ne Meta Pixel (Facebook/Instagram Ads) ne Google Ads Remarketing. Wobɛtumi ayi personalized ads fi w’account settings anaa browser privacy settings mu."
+        }
+    },
+    "thirdParty": {
+        "title": "Third-Party Cookies",
+        "desc": "Cookies bi wɔ UrbanDrop fi trusted third parties a ɛboa yɛn ma yɛde certain services yɛ adwuma, sɛ analytics providers (e.g., Google Analytics), advertising networks, ne payment ne delivery partners. Saa third parties yi betumi de cookies di dwuma sɛnea wɔn privacy policies ka ho. UrbanDrop nni control wɔ wɔn cookie settings so."
+    },
+    "managing": {
+        "title": "Sɛnea Wubetumi di Cookies So",
+        "desc": "Wobɛtumi manage anaa disable cookies wɔ browser anaa device settings mu. Browsers bebree ma wubetumi hu cookies a wɔde gu wo device so, pɔw existing cookies, na block cookies bi anaa nyinaa. Sɛ woyi cookies a, Platform bi rentumi nyɛ adwuma yiye (e.g., checkout anaa saved addresses). Wobɛtumi adjust cookie preferences nso wɔ UrbanDrop Cookie Settings banner bere a wopɛ website anaa account settings mu."
+    },
+    "consent": {
+        "title": "Kɔyɛ Adwene Ma Cookies",
+        "desc": "Sɛ wopɛ UrbanDrop a edi kan a, wubɛhu banner a ɛbisa wo consent sɛ yɛde non-essential cookies di dwuma. Sɛ wopɛ sɛ wopaw “Accept All”, wopaw sɛ yɛde cookies nyinaa di dwuma sɛnea ɛkyerɛw ha. Wobɛtumi update preferences bere biara sɛ wopaw “Manage Cookies” wɔ site footer anaa w’profile mu. Essential cookies nhu consent efisɛ ɛho hia ma service a wopɛ no."
+    },
+    "updates": {
+        "title": "Updates wɔ Policy Yi Mu",
+        "desc": "Yɛbɛtumi update Cookie Policy yi bere biara. Latest version no bɛda ho wɔ website anaa app so. Sɛ nsakraeɛ yɛ kɛseɛ a, yɛbɛka kyerɛ users wɔ email anaa app notification ansa na ɛyɛ adwuma."
+    },
+    "contact": {
+        "title": "Frɛ Yɛn",
+        "desc": "Sɛ wowɔ nsɛmmisa fa yɛde cookies di dwuma ho a, frɛ:",
+        "companyName": "UrbanDrop Group Limited",
+        "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
+    }
+},
+"notFoundPage": {
+    "title": "Krataa no Nnhu",
+    "desc": "Krataa a worehwehwɛ no nni hɔ anaa wɔakɔ faako foforɔ.",
+    "goHome": "Kɔ Fie",
+    "goBack": "San Kɔ",
+    "features": {
+        "browseMenu": {
+            "title": "Hwɛ Menu",
+            "desc": "Hwɛ yɛn aduane a ɛyɛ dɛ"
+        },
+        "becomeMerchant": {
+            "title": "Bɛyɛ Merchant",
+            "desc": "Ka yɛn network of sellers ho"
+        }
+    },
+    "illustration": "Yɛnnhuu krataa no, nanso yɛhuu nneɛma foforɔ a ɛyɛ fres!",
+    "searchSuggestion": "Sɔ hwɛ nea wopɛ anaa kɔ yɛn Help Center."
+},
+"cookieConsent": {
+    "banner": {
+        "title": "Yɛhwɛ wo ahofadi so",
+        "description": "Yɛde cookies di dwuma ma wo experience yɛ papa. UrbanDrop de essential cookies ma site yɛ adwuma, na optional cookies boa yɛn ma yɛte sɛnea wode di dwuma, personalize content, ne kyerɛ wo offers a ɛfata wo. Wobɛtumi paw Accept All Cookies, reject non-essential, anaa manage preferences bere biara.",
+        "acceptAll": "Paw Cookies Nyinaa",
+        "rejectNonEssential": "Gyae Non-Essential",
+        "managePreferences": "Manage Preferences"
+    },
+    "modal": {
+        "title": "Cookie Preferences",
+        "description": "Di dwuma sɛnea yɛde cookies di dwuma wɔ site yi.",
+        "quickActions": {
+            "acceptAll": "Paw Nyinaa",
+            "rejectNonEssential": "Gyae Non-Essential"
+        },
+        "categories": {
+            "essential": {
+                "title": "Cookies a ɛho Hia",
+                "description": "Saa cookies yi ho hia ma UrbanDrop yɛ adwuma yiye. Wɔma secure login, checkout, ne payment processing yɛ adwuma. Wobɛntumi mfa wɔn nkɔ w’settings mu, nanso wobɛtumi block wɔ browser mu (ɛbɛtumi affect functionality).",
+                "examples": "Examples: login sessions, shopping basket tracking, payment processing."
+            },
+            "performance": {
+                "title": "Performance ne Analytics Cookies",
+                "description": "Saa cookies yi boa yɛn ma yɛte sɛnea visitors de UrbanDrop yɛ adwuma, pages a wɔpɛ paa, anaa baabi a delays ba. Wɔboa yɛn ma speed, reliability, ne usability yɛ papa.",
+                "examples": "Examples: Google Analytics, app diagnostics."
+            },
+            "functional": {
+                "title": "Functional Cookies",
+                "description": "Saa cookies kae wo preferences te sɛ language, location, saved addresses, enti w’anhia sɛ wode bio.",
+                "examples": "Examples: preferred delivery address, saved shop filters."
+            },
+            "advertising": {
+                "title": "Advertising ne Marketing Cookies",
+                "description": "Yɛde yi kyerɛ wo personalized promotions ne relevant ads, wɔ UrbanDrop ne websites foforɔ. Wɔboa yɛn ma yɛtumi measure marketing performance na yɛnnhyɛ saa ads pii da.",
+                "examples": "Examples: Meta Pixel, Google Ads Remarketing."
+            }
+        },
+        "footer": {
+            "text1": "Wobɛtumi update cookie choices bere biara sɛ wopaw \"Manage Cookies\" wɔ website footer anaa app menu.",
+            "text2": "Sɛ wopɛ nsɛm pii, hwɛ yɛn",
+            "cookiePolicy": "Cookie Policy",
+            "and": "ne",
+            "privacyPolicy": "Privacy Policy",
+            "savePreferences": "Save Preferences"
+        },
+        "status": {
+            "alwaysActive": "Da So Active",
+            "active": "Active",
+            "inactive": "Inactive",
+            "required": "Ho Hia"
+        }
+    }
+},
+    "termsConditions": {
+    "title": "Mmara ne Nsɛm a Ɛda Hɔ",
+    "lastUpdated": "Ɛda a wɔasakra no: {{date}}",
+    "intro": {
+        "title": "UrbanDrop Website Mmara ne Nsɛm a Ɛda Hɔ",
+        "p1": "Akwaaba wo UrbanDrop. Saa Mmara ne Nsɛm a Ɛda Hɔ (\"Mmara\") no hyɛ wo ho nsow wɔ UrbanDrop website, mobile app, ne services a ɛka ho nyinaa (\"Platform\") a UrbanDrop Group Limited (\"UrbanDrop,\" \"yɛn,\" \"yɛn de,\" anaa \"yɛn deɛ\") di dwuma.",
+        "p2": "Sɛ wopɛ sɛ wode Platform di dwuma a, wopaw sɛ wobedi Mmara yi so. Kenkan yiye ansa na wode service no di dwuma. Sɛ wunnye nni a, ɛnsɛ sɛ wode Platform di dwuma."
+    },
+    "sections": {
+        "about": {
+            "title": "1. Fa UrbanDrop Ho",
+            "content": [
+                "UrbanDrop yɛ online marketplace a ɛbɔ customers ne independent merchants a wɔde groceries, aduane, ne ethnic products bɛma delivery anaa collection ho. Yɛde digital infrastructure, payment processing, ne customer interface yɛ adwuma, nanso yɛn ara yɛnnyɛ products no, yɛnnyɛ owner, na yɛnnsan ntɔn wɔn a wɔwɔ Platform so.",
+                "Sɛ wopaw order wɔ UrbanDrop so a, wopɛ sɛ wotɔn fi merchant no nko ara, na ɛnyɛ UrbanDrop."
+            ]
+        },
+        "eligibility": {
+            "title": "2. Sɛ Wobɛtumi de Platform di dwuma",
+            "content": "Wosɛ sɛ wowɔ mfe 18 anaa sen no ansa na wode Platform di dwuma. Sɛ wode di dwuma a, wopaw sɛ:",
+            "items": [
+                "Wunya ho tumi sɛ wobɛtumi hyɛ contracts a ɛyɛ binding mu.",
+                "Wode Platform di dwuma ma nsɛm a ɛyɛ legal nko ara.",
+                "Wode nsɛm a ɛyɛ nokware bɛma wɔ account creation anaa order placement bere mu."
+            ]
+        },
+        "account": {
+            "title": "3. Wo Account",
+            "subsections": {
+                "creation": {
+                    "title": "3.1 Account Creation",
+                    "content": "Sɛ wopɛ sɛ wopaw order a, ɛsɛ sɛ wokyerɛw UrbanDrop account. Wɔbɛhwehwɛ sɛ wode nsɛm a ɛyɛ nokware bɛma te sɛ din, delivery address, ne payment information."
+                },
+                "security": {
+                    "title": "3.2 Account Security",
+                    "content": "Woyɛ responsible ma sɛnea wode login credentials bɛyɛ secure. Biribiara a ɛba wo account so yɛ wo responsibility."
+                },
+                "misuse": {
+                    "title": "3.3 Misuse",
+                    "content": "UrbanDrop betumi suspend anaa close accounts a wɔde yɛ fraud, abuse promotions, anaa woyi Mmara yi so."
+                }
+            }
+        },
+        "ordering": {
+            "title": "4. Ordering ne Payments",
+            "subsections": {
+                "placing": {
+                    "title": "4.1 Placing an Order",
+                    "content": "Sɛ wopaw order a, wopaw sɛ wotɔn products fi merchant a wɔda UrbanDrop so. Sɛ merchant accept order no a, contract bɛda ho ntam wo ne merchant no ntam."
+                },
+                "confirmation": {
+                    "title": "4.2 Order Confirmation",
+                    "content": "Wobɛnya confirmation fi Platform no so sɛ w’order no accept. Merchants betumi cancel order sɛ items nni hɔ anaa rentumi nyɛ adwuma, ɛnna ɛno akyi, w’ankɔ yɛ charge biara."
+                },
+                "payments": {
+                    "title": "4.3 Payments",
+                    "content": "Payments nyinaa yɛ securely processed via UrbanDrop payment partners. Woma UrbanDrop tumi collect payments ma merchant no."
+                },
+                "pricing": {
+                    "title": "4.4 Pricing",
+                    "content": "Prices yɛ set by merchants na taxes ka ho. Delivery, service, ne packaging fees betumi ka ho na ɛbɛda ho ansa na checkout."
+                }
+            }
+        },
+        "delivery": {
+            "title": "5. Delivery ne Collection",
+            "subsections": {
+                "areas": {
+                    "title": "5.1 Delivery Areas",
+                    "content": "Delivery wɔ nko ara areas a UrbanDrop anaa logistics partners yɛ adwuma."
+                },
+                "partners": {
+                    "title": "5.2 Delivery Partners",
+                    "content": "Orders betumi adi delivery via UrbanDrop delivery network anaa direct fi merchant. Delivery bere yɛ estimates na ɛbɛtumi sesa ɛfiri traffic, weather, anaa nsɛm foforɔ a ɛwɔ yɛn tumi mu."
+                },
+                "collection": {
+                    "title": "5.3 Collection Orders",
+                    "content": "Sɛ wopaw collection a, bra bere a wɔahyɛ ho. Merchants betumi refuse sɛ wɔnkɔda items ho sen bere a ɛyɛ reasonable."
+                }
+            }
+        },
+        "promotions": {
+            "title": "6. Promotions ne Discounts",
+            "subsections": {
+                "platform": {
+                    "title": "6.1 Platform Promotions",
+                    "content": "UrbanDrop betumi de promotions anaa discounts aba. Biribiara wɔ ne rules a ɛbɛka Mmara yi ho."
+                },
+                "merchant": {
+                    "title": "6.2 Merchant Promotions",
+                    "content": "Promotions a merchants yɛ no yɛ wɔn own funding nko ara. UrbanDrop bɛhwɛ ne approve, nanso yɛnni responsibility wɔ sika ho."
+                },
+                "misuse": {
+                    "title": "6.3 Misuse",
+                    "content": "UrbanDrop reserve tumi sɛ wɔbɛsuspend anaa remove offers sɛ abuse anaa fraud ba mu."
+                }
+            }
+        },
+        "merchant": {
+            "title": "7. Merchant Responsibilities",
+            "content": "Merchants a wɔwɔ UrbanDrop yɛ independent businesses. Wɔyɛ responsible ma:",
+            "items": [
+                "Accuracy of product information, pricing, ne images.",
+                "Food safety, hygiene, ne proper product labelling.",
+                "Compliance with local licensing ne trading laws."
+            ],
+            "note": "UrbanDrop nnyi manufacturing, testing, anaa guarantee products a merchants toɔ no ho."
+        },
+        "conduct": {
+            "title": "8. Customer Conduct",
+            "content": "Wopaw sɛ wo remfa:",
+            "items": [
+                "Misuse Platform anaa bɔ ho nkɔfa.",
+                "Harass, abuse, anaa threat merchants, drivers, anaa customer support.",
+                "Create multiple accounts de exploit promotions.",
+                "Post false reviews anaa misleading feedback."
+            ],
+            "note": "UrbanDrop reserve tumi suspend anaa ban account a ɛwɔ violation."
+        },
+        "cancellation": {
+            "title": "9. Customer Cancellation Policy",
+            "subsections": {
+                "before": {
+                    "title": "9.1 Ansan Merchant Accept",
+                    "content": "Wobɛtumi cancel order free ansa na merchant accept."
+                },
+                "after": {
+                    "title": "9.2 Akɔsi Merchant Accept",
+                    "content": "Sɛ merchant accept order no a, cancellation rentumi nyɛ, especially perishable anaa prepared items. Sɛ merchant de aduane resiesie a, wopɛ sɛ wopaw full charge."
+                },
+                "merchant": {
+                    "title": "9.3 Cancellations fi Merchant",
+                    "content": "Merchants betumi cancel order sɛ products nni hɔ, order rentumi nyɛ adwuma, anaa delivery rentumi nyɛ. Wobɛnya full refund."
+                },
+                "progress": {
+                    "title": "9.4 Delivery wɔ Progress Mu",
+                    "content": "Sɛ w’order wɔ delivery mu a, ɛrentumi nkyɛ cancel."
+                },
+                "repeated": {
+                    "title": "9.5 Repeated Cancellations",
+                    "content": "Customers a wɔrepeat cancel orders betumi nya account restricted anaa suspended."
+                }
+            }
+        },
+        "returns": {
+            "title": "10. Return ne Refund Policy",
+            "subsections": {
+                "general": {
+                    "title": "10.1 General Policy",
+                    "content": "Efisɛ UrbanDrop bɔ customers ne independent merchants ho nkɔ, refunds ne returns bɛyɛ based on item nature ne request circumstances."
+                },
+                "perishable": {
+                    "title": "10.2 Perishable ne Prepared Items",
+                    "content": "Sɛ ɛyɛ fresh produce, chilled/frozen foods, ne cooked meals a, refunds/returns nni hɔ sɛ order wɔ delivered anaa collected, gye sɛ:",
+                    "items": [
+                        "Item no bɔne, expired, anaa unsafe for consumption bere a delivery.",
+                        "Wrong item deliver.",
+                        "Order nni complete."
+                    ],
+                    "note": "Report issues kyerɛ UrbanDrop Support wɔ 24 hours delivery akyi. Photos betumi hia."
+                },
+                "nonPerishable": {
+                    "title": "10.3 Non-Perishable Items",
+                    "content": "Sɛ ɛyɛ packaged, sealed, anaa non-perishable items, merchants betumi accept returns sɛ UK consumer law ka ho:",
+                    "items": [
+                        "Item no faulty anaa nkyerɛ nea ɛda ho.",
+                        "Wɔde san brɛ sɛ unused ne original packaging."
+                    ]
+                },
+                "process": {
+                    "title": "10.4 Refund Process",
+                    "content": "Refund bɛyɛ processing sɛ merchant confirm eligibility. UrbanDrop bɛcredit w’payment method mu within 5–10 business days."
+                },
+                "merchantResp": {
+                    "title": "10.5 Merchant Responsibility",
+                    "content": "Merchants yɛ responsible handling refund requests fi wɔn products ho. UrbanDrop facilitate communication ne payment adjustment nanso yɛnni final decision."
+                },
+                "delivery": {
+                    "title": "10.6 Delivery Issues",
+                    "content": "Sɛ order delayed, lost, anaa delivered wrong address, frɛ UrbanDrop Support. Refunds/redelivery betumi hwehwɛ based on tracking ne merchant confirmation."
+                },
+                "abuse": {
+                    "title": "10.7 Refund Abuse",
+                    "content": "Repeat refund claims a ɛnni valid cause betumi result wɔ account flagged anaa suspended."
+                }
+            }
+        },
+        "ip": {
+            "title": "11. Intellectual Property",
+            "content": "Trademarks, content, ne technology a ɛwɔ Platform so yɛ UrbanDrop Group Limited anaa licensors. Wobɛntumi nkyerɛw, distribute, anaa modify Platform biara sɛ wunnya written permission."
+        },
+        "availability": {
+            "title": "12. Platform Availability",
+            "content": "Yɛbɔ mmɔden sɛ UrbanDrop bɛda hɔ 24/7, nanso betumi suspend/update services ma maintenance. Yɛnni liability wɔ temporary interruptions anaa data loss."
+        },
+        "privacy": {
+            "title": "13. Privacy ne Data Protection",
+            "content": "W’personal data yɛ collected ne processed sɛnea Privacy Policy ka ho, a ɛwɔ Platform. Sɛ wode UrbanDrop di dwuma a, woma consent sɛ yɛde data di dwuma ma order processing, fraud prevention, ne customer service."
+        },
+        "liability": {
+            "title": "14. Limitation of Liability",
+            "subsections": {
+                "role": {
+                    "title": "14.1 Role of UrbanDrop",
+                    "content": "UrbanDrop yɛ intermediary ntam customers ne merchants. Yɛnni responsibility ma:",
+                    "items": [
+                        "Product quality, safety, authenticity.",
+                        "Incorrect anaa incomplete orders fi merchants.",
+                        "Delivery issues a third parties yɛ."
+                    ]
+                },
+                "indirect": {
+                    "title": "14.2 Indirect Losses",
+                    "content": "Yɛnni liability ma indirect, incidental, anaa consequential damages fi Platform usage."
+                },
+                "maximum": {
+                    "title": "14.3 Maximum Liability",
+                    "content": "Yɛn total liability ma user biara rentumi nkyɛ amount a wɔtɔ order no anaa £50, nea ɛkɔ fam."
+                }
+            }
+        },
+        "termination": {
+            "title": "15. Account Termination",
+            "content": "UrbanDrop betumi suspend anaa close w’account sɛ wopaw:",
+            "items": [
+                "Woyi Mmara yi so.",
+                "Fraud anaa abusive activities.",
+                "Misuse promotions anaa violate laws."
+            ],
+            "note": "Wobɛtumi request account deletion bere biara frɛ UrbanDrop Support."
+        },
+        "links": {
+            "title": "16. Third-Party Links",
+            "content": "Platform betumi yɛ links kɔ third-party websites. UrbanDrop nni responsibility ma content anaa policies a ɛwɔ hɔ, na sɛ wokɔ a, woyɛ own risk so."
+        },
+        "changes": {
+            "title": "17. Nsakraeɛ wɔ Mmara Yi Mu",
+            "content": "UrbanDrop betumi update Mmara yi bere biara. Changes bɛyɛ effective bere a wɔde hyɛ Platform so. Sɛ wode UrbanDrop di dwuma a, ɛkyerɛ sɛ wopaw latest version no."
+        },
+        "governing": {
+            "title": "18. Governing Law",
+            "content": "Mmara yi yɛ governed by laws of England ne Wales. Disputes a ɛfiri anaa fa Mmara yi ho bɛyɛ subject to exclusive jurisdiction of courts of England ne Wales."
+        },
+        "contact": {
+            "title": "19. Frɛ Yɛn",
+            "content": "Sɛ wowɔ nsɛmmisa, complaints, anaa refund requests a, frɛ:",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
+        }
+    }
+}
+}
