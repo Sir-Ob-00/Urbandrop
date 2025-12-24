@@ -1,26 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 
-const sections = [
-	{ id: "who-we-are", titleKey: "privacyPolicy.sections.whoWeAre.title", number: "1" },
-	{ id: "information-we-collect", titleKey: "privacyPolicy.sections.infoCollect.title", number: "2" },
-	{ id: "how-we-use-your-information", titleKey: "privacyPolicy.sections.howWeUse.title", number: "3" },
-	{ id: "marketing-communications", titleKey: "privacyPolicy.sections.marketing.title", number: "4" },
-	{ id: "sharing-your-information", titleKey: "privacyPolicy.sections.sharing.title", number: "5" },
-	{ id: "data-retention", titleKey: "privacyPolicy.sections.retention.title", number: "6" },
-	{ id: "data-security", titleKey: "privacyPolicy.sections.security.title", number: "7" },
-	{ id: "international-transfers", titleKey: "privacyPolicy.sections.international.title", number: "8" },
-	{ id: "your-rights", titleKey: "privacyPolicy.sections.rights.title", number: "9" },
-	{ id: "cookies-and-tracking", titleKey: "privacyPolicy.sections.cookies.title", number: "10" },
-	{ id: "childrens-privacy", titleKey: "privacyPolicy.sections.children.title", number: "11" },
-	{ id: "links-to-other-sites", titleKey: "privacyPolicy.sections.links.title", number: "12" },
-	{ id: "updates-to-this-policy", titleKey: "privacyPolicy.sections.updates.title", number: "13" },
-	{ id: "contact-us", titleKey: "privacyPolicy.sections.contact.title", number: "14" },
-];
+
+
+import SEO from "../components/common/SEO";
 
 const PrivacyPolicy = () => {
 	const { t } = useTranslation();
-	const [activeSection, setActiveSection] = useState('');
 
 	const effectiveDate = new Date().toLocaleDateString('en-US', {
 		year: 'numeric',
@@ -28,33 +14,16 @@ const PrivacyPolicy = () => {
 		day: 'numeric'
 	});
 
-	useEffect(() => {
-		const handleScroll = () => {
-			const sectionElements = sections.map(section => ({
-				id: section.id,
-				element: document.getElementById(section.id),
-				title: t(section.titleKey)
-			}));
+	// useEffect removed - scroll spy logic was unused
 
-			const scrollPosition = window.scrollY + 200; // Offset for better detection
-
-			for (let i = sectionElements.length - 1; i >= 0; i--) {
-				const section = sectionElements[i];
-				if (section.element && section.element.offsetTop <= scrollPosition) {
-					setActiveSection(section.id);
-					break;
-				}
-			}
-		};
-
-		window.addEventListener('scroll', handleScroll);
-		handleScroll(); // Initial check
-
-		return () => window.removeEventListener('scroll', handleScroll);
-	}, [t]);
 
 	return (
 		<main className="min-h-screen bg-gradient-to-br from-[#f2f5f9] to-[#e8f4f8]">
+			<SEO
+				title="Privacy Policy - Urbandrop"
+				description="Read Urbandrop's Privacy Policy to understand how we collect, use, and protect your data."
+				canonical="https://urbandrop.io/privacy-policy"
+			/>
 			{/* Hero Section */}
 			<section className="relative pt-32 pb-20 overflow-hidden">
 				<div className="absolute inset-0 bg-gradient-to-r from-[#183A37]/10 to-[#5CB35E]/10"></div>

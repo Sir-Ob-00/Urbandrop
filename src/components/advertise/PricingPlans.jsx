@@ -32,7 +32,7 @@ const PricingPlans = () => {
       {plans.map((plan, index) => {
         const isStarter = index === 0;
         const isGrowth = index === 1;
-        const isPremium = index === 2;
+
 
         return (
           <section key={index} className="md:min-h-screen flex">

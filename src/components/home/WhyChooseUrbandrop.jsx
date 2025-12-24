@@ -11,7 +11,7 @@ import foodies from '../../assets/images/home/foodies.jpg';
 
 const WhyChooseUrbandrop = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+  const [isAutoPlaying] = useState(true);
   const { t } = useTranslation();
 
   const features = [
@@ -50,7 +50,7 @@ const WhyChooseUrbandrop = () => {
     }, 4000);
 
     return () => clearInterval(interval);
-  }, [isAutoPlaying]);
+  }, [isAutoPlaying, features.length]);
 
   const nextFeature = () => {
     setActiveIndex((prevIndex) => (prevIndex + 1) % features.length);

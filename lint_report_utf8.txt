@@ -1,0 +1,112 @@
+﻿
+> urbandrop@0.0.0 lint
+> eslint .
+
+
+C:\Projects\Urbandrop\src\App.jsx
+  2:10  error  'useState' is defined but never used. Allowed unused vars must match /^[A-Z_]/u   no-unused-vars
+  2:20  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\about\AboutEcosystem.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\about\AboutHero.jsx
+  1:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\about\AboutHighlights.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\about\AboutProcess.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\about\AboutPurpose.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\advertise\AdvertiseHero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\advertise\PricingPlans.jsx
+   3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  35:15  error  'isPremium' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\common\AIChat.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  29:19  error  'data' is defined but never used                                               no-unused-vars
+
+C:\Projects\Urbandrop\src\components\common\CookieConsent.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\common\Navbar.jsx
+  4:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\common\Preloader.jsx
+   2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                    no-unused-vars
+  38:6   warning  React Hook useEffect has a missing dependency: 'icons.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Projects\Urbandrop\src\components\contact\ContactForm.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\contact\ContactHero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\customers\AppDownloadSection.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u              no-unused-vars
+  8:10  error  'downloads' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\customers\CustomerHero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\customers\CustomerScenarios.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                           no-unused-vars
+  70:31  error  React Hook "useTransform" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+C:\Projects\Urbandrop\src\components\customers\PersonalisedRecommendation.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\customers\UrbandropBenefit.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\customers\WhatYouCanDo.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\home\AppDownloandBanner.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\home\EthnicMosaic.jsx
+    2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  180:30  error  'index' is defined but never used                                              no-unused-vars
+
+C:\Projects\Urbandrop\src\components\home\FeaturedCategories.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\home\HeroSection.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\home\WhyChooseUrbandrop.jsx
+   2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                       no-unused-vars
+  14:25  error    'setIsAutoPlaying' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                    no-unused-vars
+  53:6   warning  React Hook useEffect has a missing dependency: 'features.length'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Projects\Urbandrop\src\components\merchants\MerchantCTA.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\merchants\MerchantHero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\components\merchants\WhyJoin.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\context\AppContext.jsx
+  3:14  error  Fast refresh only works when a file only exports components. Move your React context(s) to a separate file  react-refresh/only-export-components
+
+C:\Projects\Urbandrop\src\pages\CookiesPolicy.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\pages\NotFound.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Projects\Urbandrop\src\pages\PrivacyPolicy.jsx
+  23:9  error  'activeSection' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 41 problems (39 errors, 2 warnings)
+

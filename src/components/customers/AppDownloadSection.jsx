@@ -1,26 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const AppDownloadSection = () => {
-  const [downloads, setDownloads] = useState(50000);
   const { t } = useTranslation();
-
-  // Simulate download counter animation
-  useEffect(() => {
-    const targetDownloads = 75000;
-    const increment = Math.ceil(targetDownloads / 100);
-    const interval = setInterval(() => {
-      setDownloads(prev => {
-        const next = prev + increment;
-        return next >= targetDownloads ? targetDownloads : next;
-      });
-    }, 50);
-
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <section className="py-20 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #fff5ea 0%, #ffffff 100%)' }}>

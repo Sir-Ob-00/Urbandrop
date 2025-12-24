@@ -3,6 +3,8 @@ import { ShieldCheck, BarChart, Settings, Megaphone } from 'lucide-react';
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
+import SEO from "../components/common/SEO";
+
 const CookiesPolicy = () => {
 	const { t, i18n } = useTranslation();
 	const effectiveDate = new Date().toLocaleDateString(i18n.language, {
@@ -13,6 +15,11 @@ const CookiesPolicy = () => {
 
 	return (
 		<main className="bg-white pt-32 pb-16">
+			<SEO
+				title="Cookies Policy - Urbandrop"
+				description="Learn how Urbandrop uses cookies to enhance your experience."
+				canonical="https://urbandrop.io/cookies-policy"
+			/>
 			<div className="container mx-auto px-6">
 				<div className="text-center mb-16">
 					<h1 className="text-4xl md:text-5xl font-extrabold text-dark">{t('cookiesPolicy.title')}</h1>

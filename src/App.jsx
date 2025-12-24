@@ -1,5 +1,4 @@
 // src/App.jsx
-import { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
 import { AppProvider } from "./context/AppContext";
@@ -8,17 +7,6 @@ import AIChat from "./components/common/AIChat";
 // import Preloader from "./components/common/Preloader"; // Removed Preloader import
 
 function App() {
-  // const [isLoading, setIsLoading] = useState(true); // Removed isLoading state
-
-  // useEffect(() => {
-  //   // Simulate initial app loading
-  //   const timer = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2500); // Show preloader for 2.5 seconds
-
-  //   return () => clearTimeout(timer);
-  // }, []);
-
   return (
     <AppProvider>
       <BrowserRouter>
@@ -26,8 +14,8 @@ function App() {
           {/* {isLoading ? (
             <Preloader onComplete={() => setIsLoading(false)} />
           ) : ( */}
-            <AppRoutes />
-            <AIChat />
+          <AppRoutes />
+          <AIChat />
           {/* )} */}
         </ErrorBoundary>
       </BrowserRouter>

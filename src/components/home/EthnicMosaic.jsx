@@ -15,7 +15,7 @@ import GhanaImg2 from '../../assets/images/home/Ghana/Gino-Tomato-Puree-210g.jpg
 import GhanaImg3 from '../../assets/images/home/Ghana/Titus Sardine in Soybean & Chilli Oil.jpg';
 import GhanaImg4 from '../../assets/images/home/grocery-1.jpg';
 import GhanaImg5 from '../../assets/images/home/grocery-2.jpg';
-import GhanaImg6 from '../../assets/images/home/grocery-13.jpg'; 
+import GhanaImg6 from '../../assets/images/home/grocery-13.jpg';
 
 
 import IndiaFlag from '../../assets/images/home/India/Flag_of_India.png';
@@ -79,7 +79,7 @@ import SomaliaImg5 from '../../assets/images/home/Somalia/SAKTHI-FISH-FRY-MASALA
 import SouthAfricaFlag from '../../assets/images/home/South_Africa/Flag_of_South_Africa.svg.png';
 import SouthAfricaImg1 from '../../assets/images/home/South_Africa/Copy of nestle-milo-singapore-1.8kgs.jpg';
 import SouthAfricaImg2 from '../../assets/images/home/South_Africa/HALDIRAMSFROZENMIXVEGPARATHA400G_400x.png';
-import SouthAfricaImg3 from '../../assets/images/home/South_Africa/Uncle-Johns-Bread-800g.jpg'; 
+import SouthAfricaImg3 from '../../assets/images/home/South_Africa/Uncle-Johns-Bread-800g.jpg';
 import SouthAfricaImg4 from '../../assets/images/home/grocery-9.jpg';
 import SouthAfricaImg5 from '../../assets/images/home/grocery-10.jpg';
 
@@ -177,7 +177,7 @@ const EthnicMosaic = () => {
 
     const interval = setInterval(() => {
       setGridItems(prevItems =>
-        prevItems.map((item, index) => {
+        prevItems.map((item) => {
           // Create a wave effect by staggering the changes
           const shouldChange = Math.random() > 0.7; // 30% chance to change each item
           if (!shouldChange) return item;

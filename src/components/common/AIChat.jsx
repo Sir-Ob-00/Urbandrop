@@ -26,7 +26,7 @@ const AIChat = () => {
     useEffect(() => {
         fetch(API_BASE_URL)
             .then(res => res.json())
-            .then(data => {
+            .then(() => {
                 const welcomeText = 'Welcome to the UrbanDrop!. Click on the Chat Icon to start chatting!.';
                 setWelcomeMessage(welcomeText);
                 setMessages([{ id: Date.now(), sender: 'ai', text: 'Welcome to the UrbanDrop!. How may i help you?' }]);
@@ -191,8 +191,8 @@ const AIChat = () => {
                                         )}
                                         <div
                                             className={`max-w-xs md:max-w-sm p-3 rounded-2xl ${msg.sender === 'user'
-                                                    ? 'bg-[#00b36b] text-white rounded-br-lg'
-                                                    : 'bg-white text-gray-800 border border-gray-200 rounded-bl-lg'
+                                                ? 'bg-[#00b36b] text-white rounded-br-lg'
+                                                : 'bg-white text-gray-800 border border-gray-200 rounded-bl-lg'
                                                 }`}
                                         >
                                             <p className="text-sm">{msg.text}</p>

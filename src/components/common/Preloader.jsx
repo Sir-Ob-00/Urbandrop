@@ -3,16 +3,16 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ShoppingBag, Truck, ChefHat, Leaf } from 'lucide-react';
 import logo from '../../assets/images/urban-logo.png';
 
+const iconsData = [
+  { Icon: ShoppingBag, label: 'Loading fresh groceries...' },
+  { Icon: Truck, label: 'Preparing delivery...' },
+  { Icon: ChefHat, label: 'Cooking up features...' },
+  { Icon: Leaf, label: 'Serving fresh content...' },
+];
+
 const Preloader = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
   const [currentIcon, setCurrentIcon] = useState(0);
-
-  const icons = [
-    { icon: <ShoppingBag size={32} className="text-white" />, label: 'Loading fresh groceries...' },
-    { icon: <Truck size={32} className="text-white" />, label: 'Preparing delivery...' },
-    { icon: <ChefHat size={32} className="text-white" />, label: 'Cooking up features...' },
-    { icon: <Leaf size={32} className="text-white" />, label: 'Serving fresh content...' },
-  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -31,11 +31,13 @@ const Preloader = ({ onComplete }) => {
 
   useEffect(() => {
     const iconInterval = setInterval(() => {
-      setCurrentIcon(prev => (prev + 1) % icons.length);
+      setCurrentIcon(prev => (prev + 1) % iconsData.length);
     }, 800);
 
     return () => clearInterval(iconInterval);
   }, []);
+
+  const CurrentIconComponent = iconsData[currentIcon].Icon;
 
   return (
     <AnimatePresence>
@@ -76,10 +78,10 @@ const Preloader = ({ onComplete }) => {
             className="flex flex-col items-center space-y-4"
           >
             <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center">
-              {icons[currentIcon].icon}
+              <CurrentIconComponent size={32} className="text-white" />
             </div>
             <p className="text-white/80 text-sm font-medium">
-              {icons[currentIcon].label}
+              {iconsData[currentIcon].label}
             </p>
           </motion.div>
 

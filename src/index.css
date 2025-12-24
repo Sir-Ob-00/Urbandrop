@@ -1,14 +1,21 @@
 /* Write your global styles here, or import other style files */
 
-@import './App.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 /* Utility: visually hide scrollbars but keep scrolling */
 .no-scrollbar {
-	-ms-overflow-style: none; /* IE and Edge */
-	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
 }
+
 .no-scrollbar::-webkit-scrollbar {
-	display: none; /* Chrome, Safari, Opera */
+	display: none;
+	/* Chrome, Safari, Opera */
 }
 
 /* Prevent transient scrollbars and layout overflow for the WhyChoose section (Chrome) */
@@ -34,13 +41,16 @@
 }
 
 /* Prevent accidental horizontal page overflow on small viewports */
-html, body {
+html,
+body {
 	overflow-x: clip;
 }
 
 /* Fallback for older browsers */
 @supports not (overflow-x: clip) {
-  html, body {
-    overflow-x: hidden;
-  }
+
+	html,
+	body {
+		overflow-x: hidden;
+	}
 }

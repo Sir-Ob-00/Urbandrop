@@ -1,6 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+import SEO from "../components/common/SEO";
+
 const TermsCondition = () => {
 	const { t, i18n } = useTranslation();
 	const lastUpdated = new Date().toLocaleDateString(i18n.language, {
@@ -11,6 +13,11 @@ const TermsCondition = () => {
 
 	return (
 		<main className="bg-white pt-32 pb-16">
+			<SEO
+				title="Terms and Conditions - Urbandrop"
+				description="Check Urbandrop's Terms and Conditions for using our delivery platform and services."
+				canonical="https://urbandrop.io/terms-conditions"
+			/>
 			<div className="container mx-auto px-6">
 				<div className="text-center mb-16">
 					<h1 className="text-4xl md:text-5xl font-extrabold text-dark">{t('termsConditions.title')}</h1>

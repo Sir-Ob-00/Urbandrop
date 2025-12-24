@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Home, ArrowLeft, Search, ShoppingBag, Truck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import SEO from "../components/common/SEO";
 
 const NotFound = () => {
   const { t } = useTranslation();
@@ -28,8 +29,14 @@ const NotFound = () => {
     },
   ];
 
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-white to-primaryLight flex items-center justify-center px-6">
+      <SEO
+        title="Page Not Found - Urbandrop"
+        description="The page you are looking for does not exist."
+      />
       <div className="max-w-4xl mx-auto text-center">
         {/* Animated 404 */}
         <motion.div
