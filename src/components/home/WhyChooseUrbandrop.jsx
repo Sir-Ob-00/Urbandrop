@@ -310,11 +310,11 @@ const WhyChooseUrbandrop = () => {
             viewport={{ once: true }}
             className="rounded-3xl p-8 md:p-12 relative overflow-hidden bg-white/5"
           >
-            <h3 className="text-3xl md:text-4xl font-bold text-[#183A37] mb-6">{t('home.whyChoose.trustedBy')}</h3>
+
 
             <div className="w-full overflow-hidden">
               {/* Single marquee: scrolls all logos continuously left */}
-              <div className="marquee flex items-center gap-6 will-change-transform" role="list" aria-label={t('home.whyChoose.trustedBy')}>
+              <div className="marquee flex items-center gap-6 will-change-transform" role="list">
                 {brandLogos.length > 0 && brandLogos.concat(brandLogos).map((logo, idx) => (
                   <div key={`logo-${idx}`} role="listitem" className="flex-shrink-0 w-20 md:w-28 lg:w-36 flex items-center justify-center">
                     <img src={logo.src} alt={logo.name} className="max-h-8 md:max-h-12 lg:max-h-16 object-contain opacity-95 hover:opacity-100 hover:scale-105 transition-all duration-200" />
