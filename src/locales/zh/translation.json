@@ -19,29 +19,79 @@
         "orderNow": "立即订购",
         "becomeMerchant": "成为商家"
     },
+    "home": {
+        "hero": {
+        "discover": "发现",
+        "richEthnic": "丰富的民族",
+        "flavors": "风味",
+        "orderNow": "立即下单",
+        "becomeMerchant": "成为商家"
+    },
     "mosaic": {
-        "title": "每种文化，一个市场",
-        "subtitle": "发现来自非洲、亚洲及其他地区的食材。"
+        "title": "多元文化，一个平台",
+        "subtitle": "探索来自非洲、亚洲及世界各地的食材。"
     },
     "featured": {
-        "title": "精选类别",
-        "subtitle": "探索我们精心挑选的服务，旨在为您带来最好的文化和便利。",
+        "title": "精选分类",
+        "subtitle": "探索我们精心策划的服务，为您带来文化与便利的完美结合。",
         "exploreNow": "立即探索",
         "cat1": {
-            "title": "按您的说法购买",
-            "desc": "我们说您的语言。体验懂您的购物。"
+            "title": "按你熟悉的方式购物",
+            "desc": "我们懂你的语言，带来真正理解你的购物体验。"
         },
         "cat2": {
-            "title": "城市食谱",
-            "desc": "下载 Urbandrop 应用以获取独家优惠、更快的结账和实时订单跟踪。",
-            "countdown": {
-                "days": "天",
-                "hours": "小时",
-                "minutes": "分钟",
-                "seconds": "秒"
-            }
+            "title": "UrbanRecipe",
+            "desc": "发现、烹饪并分享你的文化，选用正宗食材。"
+        },
+        "cat3": {
+            "title": "立足本地，走向全球",
+            "desc": "助力本地商家触达全球消费者。"
+        },
+        "cat4": {
+            "title": "骑手：传递文化",
+            "desc": "快速可靠的服务，把家的味道送到你门口。"
         }
     },
+    "whyChoose": {
+        "badge": "为什么选择 Urbandrop",
+        "title": "体验",
+        "difference": "不同之处",
+        "whyChooseUs": "为什么选择我们",
+        "ctaTitle": "准备好体验不同了吗？",
+        "ctaButton": "下载 Urbandrop 应用",
+        "trustedBy": "深受信赖",
+        "feature1": {
+            "title": "用你熟悉的语言购物",
+            "desc": "无论是 kontomire、egusi 还是 atta 面粉，都可以用本地或传统名称搜索。UrbanDrop 懂你的语言。"
+        },
+        "feature2": {
+            "title": "发现让你有归属感的商店",
+            "desc": "探索按文化精选的商店和分类，从加勒比、南亚到西非和中东。你思念的一切，都在一个应用中。"
+        },
+        "feature3": {
+            "title": "正宗产品，经文化验证",
+            "desc": "UrbanDrop 上的每一款产品都经过真实性审核，并标注真实来源和传统用途，让你放心购买真正的好货。"
+        },
+        "feature4": {
+            "title": "不仅是购物，更是连接",
+            "desc": "通过民族食谱、烹饪指南和文化故事获取灵感，感受食物的来源以及它如何将人们连接在一起。"
+        }
+    },
+    "appDownload": {
+        "title1": "品味",
+        "title2": "Urbandrop 体验",
+        "title3": "前所未有的速度",
+        "desc": "下载 Urbandrop 应用，享受专属优惠、更快结账以及实时订单追踪。",
+        "ios": "下载 Apple 版",
+        "android": "下载 Android 版",
+        "countdown": {
+            "days": "天",
+            "hours": "小时",
+            "minutes": "分钟",
+            "seconds": "秒"
+        }
+    }
+},
     "contact": {
         "hero": {
             "badge": "取得联系",
