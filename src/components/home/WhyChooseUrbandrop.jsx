@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Clock, Shield, Truck, Star, ChefHat, Heart, ChevronDown, ChevronUp } from 'lucide-react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 import shopTheWay from '../../assets/images/home/shop the way.jpg';
 import discoverStore from '../../assets/images/home/Discover Store.jpg';
 import authenticProducts from '../../assets/images/home/Authentic-products.jpg';
 import moreThanShopping from '../../assets/images/home/more-than-shopping.jpg';
-import foodies from '../../assets/images/home/foodies.jpg';
 
 // Dynamically load brand logos (compatible with environments that don't support import.meta.globEager)
 const brandFiles = import.meta.glob('../../assets/images/home/brands/*.{png,jpg,jpeg,webp,avif}');

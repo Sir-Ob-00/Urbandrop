@@ -63,9 +63,9 @@ const Preloader = ({ onComplete }) => {
             className="mb-8"
           >
             <div className="w-24 h-24 bg-white rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-2xl p-3">
-              <img src={logo} alt="Urbandrop Logo" className="w-full h-full object-contain" />
+              <img src={logo} alt="Urbandrop™ Logo" className="w-full h-full object-contain" />
             </div>
-            <h1 className="text-3xl font-bold text-white">Urbandrop</h1>
+            <h1 className="text-3xl font-bold text-white">Urbandrop<span className="text-sm align-super">™</span></h1>
           </motion.div>
 
           {/* Animated Icon */}

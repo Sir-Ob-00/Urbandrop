@@ -9,8 +9,8 @@ const Advertise = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Advertise with Us - Urbandrop"
-        description="Bootstrap your brand visibility by advertising on the Urbandrop platform."
+        title="Advertise with Us - Urbandrop™"
+        description="Bootstrap your brand visibility by advertising on the Urbandrop™ platform."
         canonical="https://urbandrop.io/advertise"
       />
       <AdvertiseHero />

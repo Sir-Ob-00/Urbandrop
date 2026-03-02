@@ -11,8 +11,8 @@ const AboutUs = () => {
     return (
         <>
             <SEO
-                title="About Us - Urbandrop"
-                description="Learn about Urbandrop's mission to revolutionize urban logistics and connect communities."
+                title="About Us - Urbandrop™"
+                description="Learn about Urbandrop™'s mission to revolutionize urban logistics and connect communities."
                 canonical="https://urbandrop.io/about-us"
             />
             <main className="bg-white">

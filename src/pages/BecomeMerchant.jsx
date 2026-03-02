@@ -12,8 +12,8 @@ const BecomeMerchant = () => {
   return (
     <div>
       <SEO
-        title="Become a Merchant - Urbandrop"
-        description="Join Urbandrop as a merchant partner. Expand your reach and grow your business with our delivery network."
+        title="Become a Merchant - Urbandrop™"
+        description="Join Urbandrop™ as a merchant partner. Expand your reach and grow your business with our delivery network."
         canonical="https://urbandrop.io/become-merchant"
       />
       <MerchantHero />

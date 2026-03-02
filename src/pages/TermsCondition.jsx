@@ -14,8 +14,8 @@ const TermsCondition = () => {
 	return (
 		<main className="bg-white pt-32 pb-16">
 			<SEO
-				title="Terms and Conditions - Urbandrop"
-				description="Check Urbandrop's Terms and Conditions for using our delivery platform and services."
+			title="Terms and Conditions - Urbandrop™"
+			description="Check Urbandrop™'s Terms and Conditions for using our delivery platform and services."
 				canonical="https://urbandrop.io/terms-conditions"
 			/>
 			<div className="container mx-auto px-6">

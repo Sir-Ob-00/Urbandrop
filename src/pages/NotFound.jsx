@@ -34,7 +34,7 @@ const NotFound = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-white to-primaryLight flex items-center justify-center px-6">
       <SEO
-        title="Page Not Found - Urbandrop"
+        title="Page Not Found - Urbandrop™"
         description="The page you are looking for does not exist."
       />
       <div className="max-w-4xl mx-auto text-center">

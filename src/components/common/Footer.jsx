@@ -65,6 +65,7 @@ const Footer = () => {
             <span className="inline">rban</span>
             <span className="text-5xl inline">D</span>
             <span className="inline">rop</span>
+            <span className="text-sm align-super">™</span>
           </h2>
           <p className="text-white">
             {t('footer.brandDescription')}

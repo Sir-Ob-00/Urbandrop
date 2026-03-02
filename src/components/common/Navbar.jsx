@@ -80,7 +80,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
-          <img src={logo} alt="Urbandrop Logo" className={`h-8 w-auto ${isTop}`} />
+          <img src={logo} alt="Urbandrop™ Logo" className={`h-8 w-auto ${isTop}`} />
+          <span className="text-sm align-super">™</span>
         </a>
 
         {/* Desktop Nav - Centered */}
