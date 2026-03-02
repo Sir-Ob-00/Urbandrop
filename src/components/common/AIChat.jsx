@@ -49,7 +49,11 @@ const AIChat = () => {
 
     const handleSendMessage = (e) => {
         e.preventDefault();
-        if (inputValue.trim() === '' || isLoading) return;
+        // console.log('handleSendMessage called');
+        if (inputValue.trim() === '' || isLoading) {
+            console.log('Input is empty or loading:', { inputValue, isLoading });
+            return;
+        }
 
         const userMessage = {
             id: Date.now(),
@@ -61,16 +65,22 @@ const AIChat = () => {
         setInputValue('');
         setIsLoading(true);
 
-        fetch(`${API_BASE_URL}/chat`, {
+        const url = `${API_BASE_URL}/chat`;
+        // console.log('Sending fetch to:', url, 'with message:', inputValue);
+
+        fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                "Accept": "application/json",
             },
             body: JSON.stringify({ message: inputValue }),
         })
-            .then(res => res.json())
+            .then(res => {
+                // console.log('Fetch response status:', res.status);
+                return res.json();
+            })
             .then(data => {
+                // console.log('Fetch response data:', data);
                 const aiResponse = {
                     id: Date.now(),
                     sender: 'ai',
