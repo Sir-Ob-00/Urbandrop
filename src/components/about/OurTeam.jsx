@@ -1,12 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
+import Roy from '../../assets/images/about/team/Roy.jpeg';
+import Rockson from '../../assets/images/about/team/Rockson.jpeg';
+import Eric1 from '../../assets/images/about/team/Eric-1.jpeg';
+import Eric2 from '../../assets/images/about/team/Eric-2.jpeg';
+import Appiah1 from '../../assets/images/about/team/Appiah-1.jpeg';
+import Appiah2 from '../../assets/images/about/team/Appiah-2.jpeg';
+
 const team = [
-  { name: 'Amina Mensah', role: 'Co‑Founder & CEO', img: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1000&q=80' },
-  { name: 'Daniel Okoye', role: 'Head of Product', img: 'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=1000&q=80' },
-  { name: 'Fatima Adu', role: 'Chief Marketing Officer', img: 'https://images.unsplash.com/photo-1545996124-7d1f1c4b9d46?w=1000&q=80' },
-  { name: 'Kwame Boateng', role: 'Head of Operations', img: 'https://images.unsplash.com/photo-1544630621-2cfd4aa1be5e?w=1000&q=80' },
-  { name: 'Nia Johnson', role: 'Design Lead', img: 'https://images.unsplash.com/photo-1544006659-f0b21884ce1d?w=1000&q=80' }
+  { name: 'Amina Mensah', role: 'Co‑Founder & CEO', img: Roy },
+  { name: 'Daniel Okoye', role: 'Head of Product', img: Rockson },
+  { name: 'Fatima Adu', role: 'Chief Marketing Officer', img: Eric1 },
+  { name: 'Kwame Boateng', role: 'Head of Operations', img: Appiah1 },
+  { name: 'Nia Johnson', role: 'Design Lead', img: Appiah2 }
 ];
 
 // hex clip-path polygon (regular hexagon)
