@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 /**
  * ReportBugModal - A reusable modal for reporting technical issues and security vulnerabilities
@@ -79,11 +79,11 @@ const ReportBugModal = ({ isOpen, onClose }) => {
     }, [isOpen, onClose]);
 
     // Handle outside click to close modal
-    const handleOutsideClick = (e) => {
+    const handleOutsideClick = useCallback((e) => {
         if (modalRef.current && !modalRef.current.contains(e.target)) {
             onClose();
         }
-    };
+    }, [onClose]);
 
     // Lock body scroll when modal is open
     useEffect(() => {
@@ -95,7 +95,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
             document.removeEventListener('mousedown', handleOutsideClick);
             document.body.style.overflow = 'unset';
         };
-    }, [isOpen, onClose]);
+    }, [isOpen, handleOutsideClick]);
 
     // Handle form field changes
     const handleChange = (e) => {
