@@ -81,10 +81,19 @@ const TermsAndConditions = () => {
     const scrollToSection = (id) => {
         setActiveSection(id);
         setIsMenuOpen(false);
+        const el = document.getElementById(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            try {
+                history.replaceState(null, '', `#${id}`);
+            } catch {
+                // ignore if history is not available
+            }
+        }
     };
 
     return (
-        <main className="bg-white pt-32 pb-16 min-h-screen relative overflow-hidden">
+        <main className="bg-white pt-32 pb-16 min-h-screen relative">
             {/* Decorative Ring Background */}
             <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
                 {/* Large rings */}
@@ -127,7 +136,7 @@ const TermsAndConditions = () => {
             </div>
 
             <div className="container mx-auto px-6 max-w-6xl">
-                <div className="relative flex gap-4 items-start">
+                <div className="flex gap-4">
 
                     {/* Mobile: Floating Arrow Button */}
                     {/* Position: Below header initially, sticky when scrolled */}
@@ -186,9 +195,9 @@ const TermsAndConditions = () => {
                         />
                     )}
 
-                    {/* Desktop: Sticky Side Navigation */}
-                    <aside className="hidden lg:block lg:w-1/4 self-start">
-                        <div className="sticky top-32 bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                    {/* Desktop: Sticky Side Navigation (sticks with content and respects container) */}
+                    <aside className="hidden lg:block w-72">
+                        <div className="sticky top-28 self-start ml-4 max-h-[calc(100vh-8rem)] overflow-y-auto z-40 bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                             <h3 className="text-sm font-bold text-gray-900 uppercase tracking-widest mb-6">Table of Contents</h3>
                             <nav className="flex flex-col space-y-2">
                                 {sections.map((section) => (
@@ -212,7 +221,7 @@ const TermsAndConditions = () => {
                     </aside>
 
                     {/* Main Content Areas */}
-                    <div className="lg:w-3/4 lg:pl-4">
+                    <div className="flex-1 min-h-screen">
 
                         {activeSection === 'general' && (
                             <TermsSection id="general" title="General Terms" icon={sections[0].icon} colorTheme="primary">
