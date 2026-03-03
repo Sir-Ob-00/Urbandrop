@@ -84,7 +84,27 @@ const TermsAndConditions = () => {
     };
 
     return (
-        <main className="bg-white pt-32 pb-16 min-h-screen">
+        <main className="bg-white pt-32 pb-16 min-h-screen relative overflow-hidden">
+            {/* Decorative Ring Background */}
+            <div className="absolute inset-0 pointer-events-none overflow-hidden" aria-hidden="true">
+                {/* Large rings */}
+                <div className="absolute -top-20 -left-20 w-96 h-96 rounded-full border border-primary/10" />
+                <div className="absolute top-40 -right-32 w-64 h-64 rounded-full border border-primary/5" />
+                <div className="absolute top-96 left-1/4 w-48 h-48 rounded-full border border-secondary/10" />
+                <div className="absolute bottom-40 -left-16 w-72 h-72 rounded-full border border-primary/5" />
+                <div className="absolute bottom-20 right-1/4 w-56 h-56 rounded-full border border-secondary/10" />
+                
+                {/* Smaller accent rings */}
+                <div className="absolute top-60 right-20 w-24 h-24 rounded-full border border-primary/20" />
+                <div className="absolute top-1/3 left-10 w-16 h-16 rounded-full border border-secondary/15" />
+                <div className="absolute bottom-1/3 right-10 w-20 h-20 rounded-full border border-primary/15" />
+                
+                {/* Filled circles with very low opacity */}
+                <div className="absolute top-80 -left-8 w-8 h-8 rounded-full bg-primary/5" />
+                <div className="absolute top-1/2 right-40 w-6 h-6 rounded-full bg-secondary/5" />
+                <div className="absolute bottom-60 left-1/3 w-10 h-10 rounded-full bg-primary/5" />
+            </div>
+            
             <SEO
                 title="Terms and Conditions - Urbandrop™"
                 description="Check Urbandrop™'s Terms and Conditions for using our delivery platform and services."
@@ -107,7 +127,7 @@ const TermsAndConditions = () => {
             </div>
 
             <div className="container mx-auto px-6 max-w-6xl">
-                <div className="relative flex gap-4">
+                <div className="relative flex gap-4 items-start">
 
                     {/* Mobile: Floating Arrow Button */}
                     {/* Position: Below header initially, sticky when scrolled */}
@@ -167,7 +187,7 @@ const TermsAndConditions = () => {
                     )}
 
                     {/* Desktop: Sticky Side Navigation */}
-                    <aside className="hidden lg:block lg:w-1/4">
+                    <aside className="hidden lg:block lg:w-1/4 self-start">
                         <div className="sticky top-32 bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
                             <h3 className="text-sm font-bold text-gray-900 uppercase tracking-widest mb-6">Table of Contents</h3>
                             <nav className="flex flex-col space-y-2">

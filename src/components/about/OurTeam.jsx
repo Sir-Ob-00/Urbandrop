@@ -1,97 +1,97 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import Roy from '../../assets/images/about/team/Roy.jpeg';
+
 import Rockson from '../../assets/images/about/team/Rockson.jpeg';
-import Eric1 from '../../assets/images/about/team/Eric-1.jpeg';
-import Eric2 from '../../assets/images/about/team/Eric-2.jpeg';
-import Appiah1 from '../../assets/images/about/team/Appiah-1.jpeg';
 import Appiah2 from '../../assets/images/about/team/Appiah-2.jpeg';
+import Gilbert from '../../assets/images/about/team/Gilbert.jpeg';
+import Roy from '../../assets/images/about/team/Roy.jpeg';
+import Eric1 from '../../assets/images/about/team/Eric-1.jpeg';
+
 
 const team = [
-  { name: 'Amina Mensah', role: 'Co‑Founder & CEO', img: Roy },
-  { name: 'Daniel Okoye', role: 'Head of Product', img: Rockson },
-  { name: 'Fatima Adu', role: 'Chief Marketing Officer', img: Eric1 },
-  { name: 'Kwame Boateng', role: 'Head of Operations', img: Appiah1 },
-  { name: 'Nia Johnson', role: 'Design Lead', img: Appiah2 }
+  { name: 'Armah Rockson', role: 'Project Manager', img: Rockson },
+  { name: 'Appiah Kumah Miracle', role: 'Software developer', img: Appiah2 },
+  { name: 'Gilbert Elikplim Kukah', role: 'Backend Developer', img: Gilbert },
+  { name: 'Atiwen Solomon', role: 'Backend Developer', img: Roy },
+  { name: 'Owusu-Ansah Eric', role: 'Frontend Lead Developer', img: Eric1 }
 ];
 
-// hex clip-path polygon (regular hexagon)
-const hex = 'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)';
-
-const DesktopPortrait = ({ member, style, idx }) => (
-  <motion.figure
-    initial={{ opacity: 0, y: 20 }}
+const TeamCard = ({ member, idx }) => (
+  <motion.div
+    initial={{ opacity: 0, y: 40 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ delay: 0.08 * idx, duration: 0.6 }}
-    whileHover={{ scale: 1.04 }}
-    className="md:absolute"
-    style={{ ...style, willChange: 'transform, opacity' }}
-    aria-label={`${member.name} — ${member.role}`}
+    transition={{ delay: 0.1 * idx, duration: 0.5 }}
+    whileHover={{ y: -8, transition: { duration: 0.3 } }}
+    className="group cursor-pointer"
   >
-    <div style={{ width: 260, height: 260, clipPath: hex, overflow: 'hidden', boxShadow: '0 30px 60px rgba(0,0,0,0.55)' }}>
-      <img src={member.img} alt={`${member.name}, ${member.role}`} className="w-full h-full object-cover block" />
+    <div className="relative overflow-hidden rounded-2xl shadow-lg">
+      {/* Image container */}
+      <div className="relative aspect-[3/4] overflow-hidden bg-gray-200">
+        <img 
+          src={member.img} 
+          alt={`${member.name}, ${member.role}`} 
+          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+        />
+        {/* Gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-300" />
+      </div>
+      
+      {/* Name and Role overlay at bottom */}
+      <div className="absolute bottom-0 left-0 right-0 p-5 text-center bg-gradient-to-t from-dark/90 to-transparent">
+        <h3 className="font-heading text-xl font-bold text-white mb-1">{member.name}</h3>
+        <p className="text-xs uppercase tracking-widest text-primary font-medium">{member.role}</p>
+      </div>
+      
+      {/* Decorative accent bar */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-1 bg-primary w-0 group-hover:w-20 transition-all duration-300 rounded-t" />
     </div>
-
-    <figcaption style={{ position: 'absolute', left: 18, bottom: 18 }} className="text-white">
-      <div className="font-serif text-2xl md:text-2xl font-semibold leading-tight">{member.name}</div>
-      <div className="text-xs uppercase tracking-widest text-gray-200 mt-1">{member.role}</div>
-    </figcaption>
-  </motion.figure>
+  </motion.div>
 );
 
 const OurTeam = () => {
-  // desktop absolute placements (percent + translate offsets)
-  const placements = [
-    // smallest z = back layer
-    { left: '10%', top: '8%', rotate: '-6deg', z: 30 },
-    { left: '34%', top: '2%', rotate: '4deg', z: 40 },
-    { left: '56%', top: '8%', rotate: '-3deg', z: 35 },
-    { left: '28%', top: '34%', rotate: '8deg', z: 45 },
-    { left: '62%', top: '34%', rotate: '-8deg', z: 50 }
-  ];
-
   return (
-    <section className="relative bg-black text-white py-20 md:py-28 overflow-hidden">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-10 md:mb-14">
-          <p className="text-xs md:text-sm uppercase tracking-widest text-gray-400 mb-3">Our People</p>
-          <h2 className="text-3xl md:text-5xl font-serif font-black">Meet the Team</h2>
-          <p className="text-gray-400 mt-3 max-w-2xl mx-auto">A cinematic editorial collage — five voices layered together.</p>
+    <section className="relative bg-background text-dark py-20 md:py-28 overflow-hidden">
+      {/* Subtle pattern overlay */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 1px 1px, #5CB35E 1px, transparent 0)`,
+          backgroundSize: '32px 32px'
+        }} />
+      </div>
+      
+      <div className="relative max-w-6xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <motion.span 
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            className="inline-block text-xs md:text-sm uppercase tracking-[0.3em] text-primary mb-4 font-semibold"
+          >
+            Our People
+          </motion.span>
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="text-4xl md:text-5xl lg:text-6xl font-heading font-black text-dark"
+          >
+            Meet the Team
+          </motion.h2>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-muted mt-4 max-w-xl mx-auto text-sm md:text-base"
+          >
+            The passionate people behind Urbandrop, dedicated to bringing African flavors to your doorstep.
+          </motion.p>
         </div>
 
-        <div className="relative md:h-[520px] w-full flex items-center justify-center">
-          {/* subtle film vignette */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/60 pointer-events-none" />
-
-          {/* Desktop layered hex portraits */}
-          <div className="hidden md:block relative w-full h-full">
-            {team.map((m, i) => {
-              const place = placements[i];
-              const style = {
-                left: place.left,
-                top: place.top,
-                zIndex: place.z,
-                transform: `translate(-50%, -50%) rotate(${place.rotate})`
-              };
-              return <DesktopPortrait key={m.name} member={m} style={style} idx={i} />;
-            })}
-          </div>
-
-          {/* Mobile stacked overlapping */}
-          <div className="md:hidden w-full flex justify-center items-center gap-6">
-            {team.map((m, i) => (
-              <motion.div key={m.name} whileHover={{ scale: 1.03 }} className="-ml-6 last:ml-0 first:ml-0">
-                <div style={{ width: 120, height: 120, clipPath: hex, overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.5)' }}>
-                  <img src={m.img} alt={`${m.name}, ${m.role}`} className="w-full h-full object-cover block" />
-                </div>
-                <div className="mt-3 text-center">
-                  <div className="font-serif text-base font-semibold text-white">{m.name}</div>
-                  <div className="text-xs uppercase tracking-widest text-gray-300">{m.role}</div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+        {/* Team Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-6">
+          {team.map((member, idx) => (
+            <TeamCard key={member.name} member={member} idx={idx} />
+          ))}
         </div>
       </div>
     </section>

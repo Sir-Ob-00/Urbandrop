@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import { Link, useLocation } from 'react-router-dom';
 import { Phone, MapPin, Globe, Linkedin, Instagram, Youtube, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import ReportBugModal from "./ReportBugModal";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -9,6 +10,7 @@ const Footer = () => {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [isBugModalOpen, setIsBugModalOpen] = useState(false);
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
@@ -46,6 +48,7 @@ const Footer = () => {
     { name: t('footer.cookiesPolicy'), href: "/cookies-policy" },
     { name: t('footer.termsConditions'), href: "/terms-and-conditions" },
     { name: t('footer.manageCookies'), action: "openCookiePreferences" },
+    { name: 'Report a Bug', action: 'reportBug' },
   ];
 
   const importantLinks = [
@@ -56,6 +59,7 @@ const Footer = () => {
   ];
 
   return (
+    <Fragment>
     <footer className="bg-[#2c4d31] text-white pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
@@ -109,7 +113,14 @@ const Footer = () => {
           <ul className="space-y-2">
             {legalLinks.map((link) => (
               <li key={link.name}>
-                {link.action ? (
+                {link.action === 'reportBug' ? (
+                  <button
+                    onClick={() => setIsBugModalOpen(true)}
+                    className="hover:text-[#5CB35E] transition text-left"
+                  >
+                    {link.name}
+                  </button>
+                ) : link.action ? (
                   <button
                     onClick={() => window.dispatchEvent(new Event(link.action))}
                     className="hover:text-[#5CB35E] transition text-left"
@@ -175,6 +186,8 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    <ReportBugModal isOpen={isBugModalOpen} onClose={() => setIsBugModalOpen(false)} />
+    </Fragment>
   );
 };
 

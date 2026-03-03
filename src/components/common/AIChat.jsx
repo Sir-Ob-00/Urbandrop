@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MessageSquare, Send, X, Bot } from 'lucide-react';
+import { MessageSquare, Send, X, Bot, Bug } from 'lucide-react';
+import ReportBugModal from './ReportBugModal';
 
 const initialMessages = [];
 
@@ -8,6 +9,7 @@ const API_BASE_URL = import.meta.env.VITE_CHAT_API_URL || 'https://urbanchat-xy7
 
 const AIChat = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [isBugModalOpen, setIsBugModalOpen] = useState(false);
     const [messages, setMessages] = useState(initialMessages);
     const [inputValue, setInputValue] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -145,6 +147,18 @@ const AIChat = () => {
             >
                 <Bot size={32} />
             </motion.button>
+            
+            {/* Report Bug Button */}
+            <motion.button
+                onClick={() => setIsBugModalOpen(true)}
+                className="fixed bottom-24 right-6 w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white shadow-lg z-40 hover:bg-red-600 transition-colors"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}
+                aria-label="Report a bug"
+                title="Report a Technical Issue"
+            >
+                <Bug size={20} />
+            </motion.button>
 
             <AnimatePresence>
                 {isOpen && (
@@ -268,6 +282,7 @@ const AIChat = () => {
                     </>
                 )}
             </AnimatePresence>
+            <ReportBugModal isOpen={isBugModalOpen} onClose={() => setIsBugModalOpen(false)} />
         </>
     );
 };

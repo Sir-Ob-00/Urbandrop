@@ -1,318 +1,321 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useEffect, useRef, useState } from 'react';
 
-const StoryBlock = ({ children, index, icon }) => {
-    const isEven = index % 2 === 0;
+const StoryChapter = ({ number, label, title, children, index }) => {
+    const [isVisible, setIsVisible] = useState(false);
+    const ref = useRef(null);
+    
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => setIsVisible(true), index * 150);
+                }
+            },
+            { threshold: 0.1, rootMargin: '-50px' }
+        );
+        
+        if (ref.current) {
+            observer.observe(ref.current);
+        }
+        
+        return () => observer.disconnect();
+    }, [index]);
     
     return (
-        <motion.div
-            initial={{ opacity: 0, x: isEven ? -30 : 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: index * 0.15 }}
-            viewport={{ once: true }}
-            className="group relative"
+        <div 
+            ref={ref}
+            className="pt-16 pb-16 border-t"
+            style={{ borderColor: 'rgba(242, 245, 249, 0.1)' }}
         >
-            {/* Timeline connector */}
-            <div className="hidden md:block absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary via-secondary to-accent1"></div>
-            
-            {/* Timeline dot */}
-            <div className="hidden md:flex absolute left-0 top-8 w-16 justify-center items-center z-10">
-                <motion.div
-                    whileHover={{ scale: 1.2 }}
-                    className="w-3 h-3 rounded-full bg-white border-4 border-primary shadow-lg"
-                />
-            </div>
-
-            {/* Card */}
-            <div className="md:ml-32 relative overflow-hidden rounded-2xl transition-all duration-300">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 opacity-80"></div>
-                <div className="absolute top-0 right-0 w-40 h-40 bg-gradient-to-bl from-primary/10 to-transparent rounded-full -mr-20 -mt-20 group-hover:scale-125 transition-transform duration-500"></div>
-                
-                <div className="relative p-8 md:p-10 lg:p-12 border border-primary/10 backdrop-blur-sm rounded-2xl bg-white/60 hover:bg-white/80 shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <div className="flex items-start gap-4 md:gap-6">
-                        {icon && (
-                            <motion.div
-                                whileHover={{ rotate: 10, scale: 1.1 }}
-                                className="text-5xl md:text-6xl flex-shrink-0"
-                            >
-                                {icon}
-                            </motion.div>
-                        )}
-                        <div className="flex-1">
-                            {children}
-                        </div>
+            <div className="grid md:grid-cols-[260px_1fr] gap-8 md:gap-12">
+                {/* Left Panel - slides in from left */}
+                <div className={`md:border-r md:pr-12 flex flex-col transition-all duration-700 delay-100 ${
+                    isVisible ? 'opacity-100 translate-x-0' : 'opacity-40 -translate-x-8'
+                }`}>
+                    {/* Ghost Number */}
+                    <div 
+                        className="hidden md:block text-[6rem] font-black leading-none text-transparent mb-8 select-none"
+                        style={{ WebkitTextStroke: isVisible ? '1px rgba(212, 175, 55, 0.7)' : '1px rgba(242, 245, 249, 0.15)' }}
+                    >
+                        {number}
+                    </div>
+                    
+                    {/* Label & Title */}
+                    <div className="mt-auto">
+                        <span className="block text-[0.58rem] tracking-[0.28em] uppercase font-bold mb-3"
+                            style={{ color: 'rgba(242, 245, 249, 0.38)' }}>
+                            {label}
+                        </span>
+                        <h3 className="font-fraunces text-[clamp(1.5rem,2.2vw,2rem)] font-bold leading-[1.15] text-[#f2f5f9]">
+                            {title}
+                        </h3>
                     </div>
                 </div>
+                
+                {/* Right Panel - fades in from bottom */}
+                <div className={`font-syne transition-all duration-700 ${
+                    isVisible ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-8'
+                }`}>
+                    {children}
+                </div>
             </div>
-        </motion.div>
+        </div>
     );
 };
 
-const HighlightQuote = ({ quote }) => {
+const ClosingBand = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const ref = useRef(null);
+    
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                }
+            },
+            { threshold: 0.1 }
+        );
+        
+        if (ref.current) {
+            observer.observe(ref.current);
+        }
+        
+        return () => observer.disconnect();
+    }, []);
+    
     return (
-        <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="my-20 md:my-32 relative"
+        <div 
+            ref={ref}
+            className={`grid md:grid-cols-[1fr_auto] gap-8 md:gap-12 items-end py-16 transition-all duration-700 ${
+                isVisible ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-8'
+            }`}
         >
-            {/* Decorative background elements */}
-            <div className="absolute -left-10 -top-10 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
-            <div className="absolute -right-10 -bottom-10 w-32 h-32 bg-secondary/5 rounded-full blur-3xl"></div>
+            {/* Closing Quote */}
+            <blockquote className="font-fraunces italic text-[clamp(1.3rem,2vw,1.5rem)] leading-[1.55] font-light text-[#f2f5f9]">
+                "Food is more than ingredients — it's memory, comfort, identity. In a country that has welcomed so many,{' '}
+                <span className="text-[#D4AF37] font-bold not-italic">they deserve a better way to feel at home</span>. 
+                This is our mission. And we are just getting started."
+            </blockquote>
             
-            <div className="relative z-10 bg-gradient-to-br from-primary/8 via-white to-secondary/8 border-2 border-primary/20 rounded-3xl p-8 md:p-16 lg:p-20 backdrop-blur-sm shadow-2xl">
-                <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
-                    <motion.div
-                        initial={{ scale: 0.8, opacity: 0 }}
-                        whileInView={{ scale: 1, opacity: 1 }}
-                        transition={{ delay: 0.1 }}
-                        className="text-7xl md:text-8xl text-primary/30 font-serif leading-none flex-shrink-0"
-                    >
-                        "
-                    </motion.div>
-                    <div className="flex-1">
-                        <motion.p
-                            initial={{ opacity: 0 }}
-                            whileInView={{ opacity: 1 }}
-                            transition={{ delay: 0.3, duration: 0.8 }}
-                            className="text-2xl md:text-4xl font-black text-gray-900 leading-tight"
-                        >
-                            {quote}
-                        </motion.p>
-                        <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: '100%' }}
-                            transition={{ delay: 0.5, duration: 0.8 }}
-                            className="h-1.5 bg-gradient-to-r from-primary via-secondary to-accent1 rounded-full mt-8 w-32"
-                        ></motion.div>
-                    </div>
-                    <motion.div
-                        initial={{ scale: 0.8, opacity: 0 }}
-                        whileInView={{ scale: 1, opacity: 1 }}
-                        transition={{ delay: 0.1 }}
-                        className="text-7xl md:text-8xl text-primary/30 font-serif leading-none flex-shrink-0 hidden md:block"
-                    >
-                        "
-                    </motion.div>
-                </div>
+            {/* Brand */}
+            <div className="text-right">
+                {/* Kente Bar */}
+                <div 
+                    className="w-14 h-[3px] mx-auto md:mx-0 md:ml-auto mb-4"
+                    style={{
+                        background: 'repeating-linear-gradient(90deg, #D4AF37 0px, #D4AF37 10px, #5CB35E 10px, #5CB35E 20px, #F74242 20px, #F74242 30px)'
+                    }}
+                />
+                <div className="font-syne text-[0.6rem] tracking-[0.25em] uppercase text-[#879EA4] mb-1">Est. 2022</div>
+                <div className="font-fraunces text-2xl font-bold text-[#f2f5f9]">Urbandrop</div>
             </div>
-        </motion.div>
+        </div>
     );
 };
 
 const OurStory = () => {
+    const [mounted, setMounted] = useState(false);
+    const cursorRef = useRef(null);
+    
+    useEffect(() => {
+        setMounted(true);
+    }, []);
+    
+    // Custom cursor
+    useEffect(() => {
+        const cursor = cursorRef.current;
+        if (!cursor) return;
+        
+        const moveCursor = (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        };
+        
+        document.addEventListener('mousemove', moveCursor);
+        
+        return () => {
+            document.removeEventListener('mousemove', moveCursor);
+        };
+    }, []);
+    
     return (
-        <section className="relative bg-gradient-to-b from-white via-slate-50 to-white py-24 md:py-40 overflow-hidden">
-            {/* Animated background gradient orbs */}
+        <>
+            {/* Inject Fonts */}
             <style>{`
-                @keyframes blob {
-                    0%, 100% { transform: translate(0, 0) scale(1); }
-                    33% { transform: translate(30px, -50px) scale(1.1); }
-                    66% { transform: translate(-20px, 20px) scale(0.9); }
+                @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Syne:wght@400;500;600;700;800&display=swap');
+                
+                :root {
+                    --fraunces: 'Fraunces', serif;
+                    --syne: 'Syne', sans-serif;
                 }
-                .animate-blob {
-                    animation: blob 7s infinite;
+                
+                .font-fraunces {
+                    font-family: var(--fraunces);
                 }
-                .animation-delay-2000 {
-                    animation-delay: 2s;
-                }
-                .animation-delay-4000 {
-                    animation-delay: 4s;
+                
+                .font-syne {
+                    font-family: var(--syne);
                 }
             `}</style>
-
-            <div className="absolute top-20 left-10 w-96 h-96 bg-primary/5 rounded-full mix-blend-multiply filter blur-3xl animate-blob opacity-70"></div>
-            <div className="absolute top-40 right-10 w-96 h-96 bg-secondary/5 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000 opacity-70"></div>
-            <div className="absolute -bottom-8 left-1/2 w-96 h-96 bg-accent1/5 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000 opacity-70"></div>
-
-            {/* Hero Intro with elegant design */}
-            <motion.div
-                initial={{ opacity: 0, y: -30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="mb-24 md:mb-32 text-center relative z-10 px-6"
+            
+            {/* Custom Cursor */}
+            <div 
+                ref={cursorRef}
+                className="fixed pointer-events-none z-[9999] hidden md:block"
+                style={{ 
+                    left: -4, 
+                    top: -4,
+                    transform: 'translate(-50%, -50%)'
+                }}
             >
-                <motion.div
-                    initial={{ width: 0 }}
-                    whileInView={{ width: '100%' }}
-                    transition={{ delay: 0.2, duration: 0.8 }}
-                    className="h-1 bg-gradient-to-r from-transparent via-primary to-transparent rounded-full mx-auto mb-8 max-w-xs"
-                ></motion.div>
-                
-                <motion.p
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: 0.1, duration: 0.6 }}
-                    className="text-sm md:text-base font-semibold tracking-widest text-primary uppercase mb-6"
-                >
-                    Our Journey
-                </motion.p>
-
-                <motion.h2
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.2, duration: 0.8 }}
-                    className="text-6xl md:text-8xl font-black text-gray-900 mb-6 leading-tight"
-                >
-                    Our Story
-                </motion.h2>
-                
-                <motion.p
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: 0.3, duration: 0.6 }}
-                    className="text-xl md:text-2xl text-gray-600 font-light max-w-2xl mx-auto leading-relaxed"
-                >
-                    Born from a moment of empathy, built on a mission to bring culture closer to home
-                </motion.p>
-
-                <motion.div
-                    initial={{ width: 0 }}
-                    whileInView={{ width: '100%' }}
-                    transition={{ delay: 0.4, duration: 0.8 }}
-                    className="h-1 bg-gradient-to-r from-transparent via-secondary to-transparent rounded-full mx-auto mt-8 max-w-xs"
-                ></motion.div>
-            </motion.div>
-
-            <div className="max-w-6xl mx-auto px-6 relative z-10">
-                {/* Story Narrative - Enhanced Layout */}
-                <div className="space-y-24 md:space-y-32 mb-24">
-                    <StoryBlock index={0} icon="🌍">
-                        <h3 className="text-2xl md:text-3xl font-black text-gray-900 mb-4">The Move & Realization</h3>
-                        <p className="text-gray-700 leading-relaxed text-lg mb-4 font-light">
-                            When I moved from Ghana to the UK in 2022, I was filled with hope, excitement, and a deep connection to the culture I was leaving behind. But it didn't take long to notice something was missing — something many immigrants like me quietly endure.
-                        </p>
-                        <p className="text-gray-700 leading-relaxed text-lg font-light">
-                            Shopping for Ghanaian groceries, or anything African or Caribbean, often meant long trips to scattered shops, limited selections, and very little convenience. While mainstream grocery delivery apps served UK and European brands with ease, there was nothing that truly catered to ethnic communities — the very people who bring so much richness and diversity to this country.
-                        </p>
-                    </StoryBlock>
-
-                    <StoryBlock index={1} icon="❤️">
-                        <h3 className="text-2xl md:text-3xl font-black text-gray-900 mb-4">The Personal Turning Point</h3>
-                        <p className="text-gray-700 leading-relaxed text-lg mb-4 font-light">
-                            One moment that stayed with me was when my wife's mother, after a long day, travelled to get groceries from an African store. Exhausted, she boarded a bus home and without even realizing it left all her shopping behind when she got off. Hearing her pain made something click.
-                        </p>
-                        <p className="text-gray-700 leading-relaxed text-lg font-light">
-                            It wasn't just about missing food from home. It was about how hard people have to work, how far they have to go, just to stay connected to their culture and feed their families the meals they love.
-                        </p>
-                    </StoryBlock>
-                </div>
-
-                {/* Highlight Quote - Elegant and Bold */}
-                <HighlightQuote quote="Food is more than just ingredients — it's memory, comfort, identity." />
-
-                {/* Story Continuation */}
-                <div className="space-y-24 md:space-y-32 mb-24">
-                    <StoryBlock index={2} icon="💡">
-                        <h3 className="text-2xl md:text-3xl font-black text-gray-900 mb-4">The Birth of Urbandrop</h3>
-                        <p className="text-gray-700 leading-relaxed text-lg font-light">
-                            That's where the idea for Urbandrop was born.
-                        </p>
-                    </StoryBlock>
-
-                    <StoryBlock index={3} icon="🚀">
-                        <h3 className="text-2xl md:text-3xl font-black text-gray-900 mb-4">Our Mission</h3>
-                        <p className="text-gray-700 leading-relaxed text-lg mb-4 font-light">
-                            Urbandrop exists to bring relief and dignity to this experience. We're building a digital marketplace that makes it easier for Afro-Caribbean, Asian, and other ethnic communities to shop for the groceries they know and love right from their phones. No long trips. No heavy bags. Just fresh, culturally familiar products delivered with care.
-                        </p>
-                        <p className="text-gray-700 leading-relaxed text-lg font-light">
-                            We believe in a country that has welcomed so many people from across the world, they deserve a better, more convenient way to feel at home.
-                        </p>
-                    </StoryBlock>
-                </div>
-
-                {/* Closing Signature - Elegant and Powerful */}
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    viewport={{ once: true }}
-                    className="relative py-20 md:py-28"
-                >
-                    {/* Decorative top divider */}
-                    <div className="flex items-center justify-center gap-4 mb-16 md:mb-20">
-                        <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: '100%' }}
-                            transition={{ delay: 0.1, duration: 0.8 }}
-                            className="flex-1 h-0.5 bg-gradient-to-r from-transparent to-primary/50"
-                        ></motion.div>
-                        <motion.div
-                            animate={{ rotate: 360 }}
-                            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                            className="text-3xl flex-shrink-0"
-                        >
-                            ✦
-                        </motion.div>
-                        <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: '100%' }}
-                            transition={{ delay: 0.1, duration: 0.8 }}
-                            className="flex-1 h-0.5 bg-gradient-to-l from-transparent to-primary/50"
-                        ></motion.div>
-                    </div>
-
-                    <div className="text-center max-w-4xl mx-auto">
-                        <motion.h3
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.2, duration: 0.8 }}
-                            className="text-5xl md:text-7xl font-black text-gray-900 leading-tight mb-4"
-                        >
-                            This is our mission.
-                        </motion.h3>
-                        <motion.h3
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.4, duration: 0.8 }}
-                            className="text-5xl md:text-7xl font-black text-gray-900 leading-tight mb-4"
-                        >
-                            This is our story.
-                        </motion.h3>
-                        <motion.h3
-                            initial={{ opacity: 0, y: 10 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.6, duration: 0.8 }}
-                            className="text-5xl md:text-7xl font-black leading-tight bg-gradient-to-r from-primary via-secondary to-accent1 bg-clip-text text-transparent"
-                        >
-                            And we're just getting started.
-                        </motion.h3>
-                        
-                        <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: '100%' }}
-                            transition={{ delay: 0.8, duration: 0.8 }}
-                            className="h-1.5 bg-gradient-to-r from-primary via-secondary to-accent1 rounded-full mx-auto mt-12 max-w-xs"
-                        ></motion.div>
-                    </div>
-
-                    {/* Decorative bottom divider */}
-                    <div className="flex items-center justify-center gap-4 mt-16 md:mt-20">
-                        <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: '100%' }}
-                            transition={{ delay: 1, duration: 0.8 }}
-                            className="flex-1 h-0.5 bg-gradient-to-r from-transparent to-primary/50"
-                        ></motion.div>
-                        <motion.div
-                            animate={{ rotate: -360 }}
-                            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-                            className="text-3xl flex-shrink-0"
-                        >
-                            ✦
-                        </motion.div>
-                        <motion.div
-                            initial={{ width: 0 }}
-                            whileInView={{ width: '100%' }}
-                            transition={{ delay: 1, duration: 0.8 }}
-                            className="flex-1 h-0.5 bg-gradient-to-l from-transparent to-primary/50"
-                        ></motion.div>
-                    </div>
-                </motion.div>
+                <div className="w-2 h-2 rounded-full bg-[#D4AF37]" />
             </div>
-        </section>
+            
+            {/* Noise Overlay */}
+            <div 
+                className="fixed inset-0 pointer-events-none z-[9998] opacity-[0.03]"
+                style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")`
+                }}
+            />
+            
+            {/* Main Section */}
+            <section 
+                className="w-full py-32"
+                style={{ 
+                    backgroundColor: '#183A37',
+                    '--bg': '#2c4d31',
+                    '--paper': '#f2f5f9',
+                    '--gold': '#D4AF37',
+                    '--green': '#2c4d31',
+                    '--line': 'rgba(242, 245, 249, 0.1)',
+                    '--muted': 'rgba(242, 245, 249, 0.38)'
+                }}
+            >
+                <div className="max-w-[1280px] mx-auto px-6 md:px-12">
+                    
+                    {/* INTRO ROW */}
+                    <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-8 md:gap-12 mb-12 pb-12 border-b transition-all duration-700"
+                        style={{ borderColor: 'rgba(242, 245, 249, 0.1)' }}
+                    >
+                        {/* Left: Pill Tag + Meta */}
+                        <div className="order-2 md:order-1">
+                            {/* Pill Tag */}
+                            <div
+                                className={`inline-flex items-center text-[0.58rem] tracking-[0.28em] uppercase font-bold mb-6 transition-all duration-700 ${
+                                    mounted ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-8'
+                                }`}
+                                style={{ 
+                                    color: 'rgba(212, 175, 55, 0.7)',
+                                    border: '1px solid rgba(212, 175, 55, 0.4)',
+                                    transitionDelay: '0.05s'
+                                }}
+                            >
+                                <span style={{ color: '#D4AF37', marginRight: 6 }}>&#9679;</span>
+                                Our Story
+                            </div>
+                            
+                            {/* Meta */}
+                            <div
+                                className={`font-syne text-[0.6rem] tracking-[0.25em] uppercase transition-all duration-700 ${
+                                    mounted ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-8'
+                                }`}
+                                style={{ 
+                                    color: 'rgba(242, 245, 249, 0.38)',
+                                    transitionDelay: '0.15s'
+                                }}
+                            >
+                                Ghana &#8594; United Kingdom / Founded 2022
+                            </div>
+                        </div>
+                        
+                        {/* Right: Giant Headline */}
+                        <div className="order-1 md:order-2">
+                            <h1 
+                                className={`font-fraunces font-black text-[clamp(4rem,14vw,12rem)] leading-[0.85] tracking-[-0.03em] text-[#f2f5f9] transition-all duration-700 ${
+                                    mounted ? 'opacity-100 translate-y-0' : 'opacity-40 translate-y-8'
+                                }`}
+                                style={{ transitionDelay: '0.2s' }}
+                            >
+                                Our<br />
+                                <span className="italic text-[#D4AF37]" style={{ fontWeight: 300 }}>Story.</span>
+                            </h1>
+                        </div>
+                    </div>
+                    
+                    {/* CHAPTERS */}
+                    <div className="mb-12">
+                        
+                        {/* Chapter 01 */}
+                        <StoryChapter 
+                            number="01" 
+                            label="The Gap" 
+                            title={<>Something was quietly <em>missing</em>.</>}
+                            index={0}
+                        >
+                            <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80 mb-6">
+                                When I moved from Ghana to the UK in 2022, I arrived with hope and a deep connection to the culture I was leaving behind. It didn't take long to feel what so many immigrants silently endure.
+                            </p>
+                            <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80">
+                                Shopping for Ghanaian groceries — anything African or Caribbean — meant <strong>long trips to scattered shops</strong>, limited selections, and almost no convenience. Mainstream delivery apps served UK and European brands with ease. But nothing truly served ethnic communities — the very people enriching this country every single day.
+                            </p>
+                        </StoryChapter>
+                        
+                        {/* Chapter 02 */}
+                        <StoryChapter 
+                            number="02" 
+                            label="The Moment" 
+                            title={<>A bus ride that <em>changed everything</em>.</>}
+                            index={1}
+                        >
+                            <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80 mb-8">
+                                One evening, my wife's mother made the journey to shop at an African grocery store after a long day. Exhausted on the bus ride home, she stepped off — and left every bag behind without realising it.
+                            </p>
+                            {/* Pull Quote */}
+                            <blockquote className="font-fraunces italic text-[1.15rem] leading-[1.55] font-light text-[#f2f5f9] pl-6 border-l-2" style={{ borderColor: '#5CB35E' }}>
+                                "It wasn't just about missing food from home. It was about how hard people work, how far they travel — simply to stay connected to who they are."
+                            </blockquote>
+                        </StoryChapter>
+                        
+                        {/* Chapter 03 */}
+                        <StoryChapter 
+                            number="03" 
+                            label="The Mission" 
+                            title={<>That's where <em>Urbandrop</em> was born.</>}
+                            index={2}
+                        >
+                            <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80 mb-8">
+                                We are building a digital marketplace — so Afro-Caribbean, Asian, and other ethnic communities can shop for the food they love right from their phones. <strong>No long trips. No heavy bags.</strong> Fresh, familiar products delivered with care and dignity.
+                            </p>
+                            
+                            {/* Pillar Grid */}
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+                                <div className="group cursor-default">
+                                    <div className="font-fraunces italic text-[1.3rem] font-light text-[#f2f5f9] mb-2">Memory</div>
+                                    <div className="w-5 h-[1px] bg-[#5CB35E] mb-2 group-hover:bg-[#f2f5f9]/30 transition-colors duration-0.4"></div>
+                                    <div className="font-syne text-[0.58rem] tracking-[0.25em] uppercase" style={{ color: 'rgba(242, 245, 249, 0.38)' }}>Where you're from</div>
+                                </div>
+                                <div className="group cursor-default">
+                                    <div className="font-fraunces italic text-[1.3rem] font-light text-[#f2f5f9] mb-2">Comfort</div>
+                                    <div className="w-5 h-[1px] bg-[#5CB35E] mb-2 group-hover:bg-[#f2f5f9]/30 transition-colors duration-0.4"></div>
+                                    <div className="font-syne text-[0.58rem] tracking-[0.25em] uppercase" style={{ color: 'rgba(242, 245, 249, 0.38)' }}>Taste of home</div>
+                                </div>
+                                <div className="group cursor-default">
+                                    <div className="font-fraunces italic text-[1.3rem] font-light text-[#f2f5f9] mb-2">Identity</div>
+                                    <div className="w-5 h-[1px] bg-[#5CB35E] mb-2 group-hover:bg-[#f2f5f9]/30 transition-colors duration-0.4"></div>
+                                    <div className="font-syne text-[0.58rem] tracking-[0.25em] uppercase" style={{ color: 'rgba(242, 245, 249, 0.38)' }}>Who you are</div>
+                                </div>
+                            </div>
+                        </StoryChapter>
+                    </div>
+                    
+                    {/* CLOSING BAND */}
+                    <ClosingBand />
+                    
+                </div>
+            </section>
+        </>
     );
 };
 
