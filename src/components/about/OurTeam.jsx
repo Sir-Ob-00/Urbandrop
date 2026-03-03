@@ -43,11 +43,12 @@ const DesktopPortrait = ({ member, style, idx }) => (
 const OurTeam = () => {
   // desktop absolute placements (percent + translate offsets)
   const placements = [
-    { left: '10%', top: '8%', rotate: '-6deg', z: 40 },
-    { left: '34%', top: '2%', rotate: '4deg', z: 50 },
-    { left: '56%', top: '8%', rotate: '-3deg', z: 60 },
+    // smallest z = back layer
+    { left: '10%', top: '8%', rotate: '-6deg', z: 30 },
+    { left: '34%', top: '2%', rotate: '4deg', z: 40 },
+    { left: '56%', top: '8%', rotate: '-3deg', z: 35 },
     { left: '28%', top: '34%', rotate: '8deg', z: 45 },
-    { left: '62%', top: '34%', rotate: '-8deg', z: 55 }
+    { left: '62%', top: '34%', rotate: '-8deg', z: 50 }
   ];
 
   return (
