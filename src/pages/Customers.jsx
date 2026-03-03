@@ -4,6 +4,7 @@ import PersonalisedRecommendation from '../components/customers/PersonalisedReco
 import CustomerScenarios from '../components/customers/CustomerScenarios';
 import WhatYouCanDo from '../components/customers/WhatYouCanDo';
 import UrbandropBenefit from '../components/customers/UrbandropBenefit';
+import CustomerFAQ from '../components/customers/CustomerFAQ';
 import AppDownloadSection from '../components/customers/AppDownloadSection';
 
 import SEO from "../components/common/SEO";
@@ -21,6 +22,7 @@ const Customers = () => {
       <CustomerScenarios />
       <WhatYouCanDo />
       <UrbandropBenefit />
+      <CustomerFAQ />
       <AppDownloadSection />
     </div>
   );

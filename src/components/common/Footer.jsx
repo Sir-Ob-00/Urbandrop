@@ -44,7 +44,7 @@ const Footer = () => {
   const legalLinks = [
     { name: t('footer.privacyPolicy'), href: "/privacy-policy" },
     { name: t('footer.cookiesPolicy'), href: "/cookies-policy" },
-    { name: t('footer.termsConditions'), href: "/terms-conditions" },
+    { name: t('footer.termsConditions'), href: "/terms-and-conditions" },
     { name: t('footer.manageCookies'), action: "openCookiePreferences" },
   ];
 

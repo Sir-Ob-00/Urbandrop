@@ -10,7 +10,7 @@ import Customer from "../pages/Customers";
 
 import ContactUs from "../pages/ContactUs";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
-import TermsCondition from "../pages/TermsCondition";
+import TermsAndConditions from "../pages/TermsAndConditions";
 import Advertise from "../pages/Advertise";
 import CookiesPolicy from "../pages/CookiesPolicy";
 import NotFound from "../pages/NotFound";
@@ -28,7 +28,7 @@ const AppRoutes = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/advertise" element={<Advertise />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/terms-conditions" element={<TermsCondition />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
         <Route path="/cookies-policy" element={<CookiesPolicy />} />
       </Route>
 

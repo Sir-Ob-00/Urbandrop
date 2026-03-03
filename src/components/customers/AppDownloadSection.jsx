@@ -35,7 +35,7 @@ const AppDownloadSection = () => {
             </div>
 
             {/* Download Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <a href="/#launch-countdown" className="bg-primary text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-primaryDark transition-all transform hover:scale-105 shadow-xl flex items-center justify-center gap-3">
                 <Download size={24} />
                 {t('customer.appDownload.ios')}
@@ -45,6 +45,13 @@ const AppDownloadSection = () => {
                 {t('customer.appDownload.android')}
               </a>
             </div>
+
+            <a href="/terms-and-conditions#customers" className="inline-flex items-center text-sm font-medium text-primary hover:text-primaryDark hover:underline transition-colors mt-4">
+              View Customer Terms & Conditions
+              <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </motion.div>
 
           {/* Right Image - Coming from Left */}

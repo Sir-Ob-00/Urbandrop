@@ -45,11 +45,17 @@ const MerchantCTA = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
-            className="mt-12 text-white/80"
+            className="mt-12 text-white/80 flex flex-col items-center gap-4"
           >
             <p className="text-lg">
               {t('merchants.cta.footer')}
             </p>
+            <a href="/terms-and-conditions#merchants" className="inline-flex items-center text-sm font-medium text-white hover:text-white/80 hover:underline transition-colors">
+              Review Merchant Terms & Conditions
+              <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </motion.div>
         </motion.div>
       </div>

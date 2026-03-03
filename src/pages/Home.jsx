@@ -3,6 +3,7 @@ import HeroSection from "../components/home/HeroSection"; // New import for the 
 import EthnicMosaic from "../components/home/EthnicMosaic";
 import FeaturedCategories from "../components/home/FeaturedCategories";
 import WhyChooseUrbandrop from "../components/home/WhyChooseUrbandrop";
+import BrandSlider from "../components/home/BrandSlider";
 import AppDownloandBanner from "../components/home/AppDownloandBanner";
 
 import SEO from "../components/common/SEO";
@@ -19,6 +20,7 @@ const Home = () => {
 			<EthnicMosaic />
 			<FeaturedCategories />
 			<WhyChooseUrbandrop />
+			<BrandSlider />
 			<AppDownloandBanner />
 		</main>
 	);

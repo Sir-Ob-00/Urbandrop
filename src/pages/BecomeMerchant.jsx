@@ -3,6 +3,7 @@ import MerchantHero from '../components/merchants/MerchantHero';
 import WhyJoin from '../components/merchants/WhyJoin';
 import HowItWorks from '../components/merchants/HowItWorks';
 import MerchantFeatures from '../components/merchants/MerchantFeatures';
+import MerchantFAQ from '../components/merchants/MerchantFAQ';
 import MerchantCTA from '../components/merchants/MerchantCTA';
 
 
@@ -20,6 +21,7 @@ const BecomeMerchant = () => {
       <WhyJoin />
       <HowItWorks />
       <MerchantFeatures />
+      <MerchantFAQ />
       <MerchantCTA />
     </div>
   );
