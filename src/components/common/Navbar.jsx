@@ -81,7 +81,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
           <img src={logo} alt="Urbandrop™ Logo" className={`h-8 w-auto ${isTop}`} />
-          <span className="text-sm align-super">™</span>
+          <span className="text-sm align-super">®</span>
         </a>
 
         {/* Desktop Nav - Centered */}

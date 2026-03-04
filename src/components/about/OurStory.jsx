@@ -107,7 +107,7 @@ const ClosingBand = () => {
                         background: 'repeating-linear-gradient(90deg, #D4AF37 0px, #D4AF37 10px, #5CB35E 10px, #5CB35E 20px, #F74242 20px, #F74242 30px)'
                     }}
                 />
-                <div className="font-syne text-[0.6rem] tracking-[0.25em] uppercase text-[#879EA4] mb-1">Est. 2022</div>
+                <div className="font-syne text-[0.6rem] tracking-[0.25em] uppercase text-[#879EA4] mb-1">Est. 2026</div>
                 <div className="font-fraunces text-2xl font-bold text-[#f2f5f9]">Urbandrop</div>
             </div>
         </div>
@@ -226,7 +226,7 @@ const OurStory = () => {
                                     transitionDelay: '0.15s'
                                 }}
                             >
-                                Ghana &#8594; United Kingdom / Founded 2022
+                                United Kingdom / Founded 2026
                             </div>
                         </div>
                         
