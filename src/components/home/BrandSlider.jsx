@@ -50,7 +50,7 @@ const BrandSlider = () => {
                     <div
                         key={`logo-${idx}`}
                         role="listitem"
-                        className="flex-shrink-0 w-32 md:w-40 lg:w-48 flex items-center justify-center"
+                        className="flex-shrink-0 w-38 md:w-40 lg:w-48 flex items-center justify-center"
                     >
                         <img
                         src={logo.src}
