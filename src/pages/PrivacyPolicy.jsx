@@ -21,7 +21,7 @@ const PrivacyPolicy = () => {
 		<main className="min-h-screen bg-gradient-to-br from-[#f2f5f9] to-[#e8f4f8]">
 			<SEO
 			title="Privacy Policy - Urbandrop™"
-			description="Read Urbandrop™'s Privacy Policy to understand how we collect, use, and protect your data."
+			description="Read Urbandrop®'s Privacy Policy to understand how we collect, use, and protect your data."
 				canonical="https://urbandrop.io/privacy-policy"
 			/>
 			{/* Hero Section */}

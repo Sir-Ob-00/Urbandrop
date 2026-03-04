@@ -16,7 +16,7 @@ const CookiesPolicy = () => {
 	return (
 		<main className="bg-white pt-32 pb-16">
 			<SEO
-			title="Cookies Policy - Urbandrop™"
+			title="Cookies Policy - Urbandrop®"
 			description="Learn how Urbandrop™ uses cookies to enhance your experience."
 				canonical="https://urbandrop.io/cookies-policy"
 			/>

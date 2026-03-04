@@ -15,8 +15,8 @@ const SEO = ({
     const siteUrl = 'https://urbandrop.io'; // Replace with actual domain if different
     const currentUrl = canonical || `${siteUrl}${location.pathname}`;
     const defaultImage = `${siteUrl}/images/og-image.jpg`; // Ensure this asset exists or use a valid default
-    const metaDescription = description || "Urbandrop™ - The Home of Ethnic Groceries and Recipes";
-    const metaTitle = title ? `${title} | Urbandrop™` : "Urbandrop™";
+    const metaDescription = description || "Urbandrop® - The Home of Ethnic Groceries and Recipes";
+    const metaTitle = title ? `${title} | Urbandrop®` : "Urbandrop®";
 
     return (
         <Helmet>
@@ -52,7 +52,7 @@ const SEO = ({
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Organization",
-                    "name": "Urbandrop™",
+                    "name": "Urbandrop®",
                     "url": siteUrl,
                     "logo": `${siteUrl}/logo.png`,
                     "contactPoint": {

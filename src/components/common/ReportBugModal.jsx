@@ -1,11 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 /**
- * ReportBugModal - A reusable modal for reporting technical issues and security vulnerabilities
- * 
- * @param {Object} props
- * @param {boolean} props.isOpen - Controls modal visibility
- * @param {Function} props.onClose - Callback to close modal
+    ReportBugModal - A reusable modal for reporting technical issues and security vulnerabilities 
  */
 const ReportBugModal = ({ isOpen, onClose }) => {
     const modalRef = useRef(null);
@@ -157,41 +153,33 @@ const ReportBugModal = ({ isOpen, onClose }) => {
         setIsSubmitting(true);
         
         try {
-            // Prepare unified backend payload
-            const payload = {
-                issueType: formData.issueType,
-                pageUrl: formData.pageUrl,
-                browserInfo: formData.browserInfo,
-                stepsToReproduce: formData.stepsToReproduce,
-                attachment: formData.attachment?.name || null,
-                status: 'open', // Default status
-                
-                // Conditional fields based on issue type
-                ...(formData.issueType === 'security' ? {
-                    affectedEndpoint: formData.affectedEndpoint,
-                    description: formData.description,
-                    impactLevel: formData.impactLevel,
-                    attemptedAction: '',
-                    actualResult: ''
-                } : {
-                    attemptedAction: formData.attemptedAction,
-                    actualResult: formData.actualResult,
-                    affectedEndpoint: '',
-                    description: '',
-                    impactLevel: ''
-                })
-            };
+            // Build email body with bug report details
+            const issueLabel = formData.issueType === 'security' ? 'Security Vulnerability' : 
+                issueTypes.find(t => t.value === formData.issueType)?.label || formData.issueType;
             
-            // Simulate API call - replace with actual endpoint
-            console.log('Submitting bug report:', payload);
-            await new Promise(resolve => setTimeout(resolve, 1500));
+            let emailBody = `Bug Report - Urbandrop\n\n`;
+            emailBody += `Issue Type: ${issueLabel}\n`;
+            emailBody += `Page URL: ${formData.pageUrl}\n`;
+            emailBody += `Browser Info: ${formData.browserInfo}\n\n`;
             
-            // In production, use:
-            // const response = await fetch('/api/report-bug', {
-            //     method: 'POST',
-            //     headers: { 'Content-Type': 'application/json' },
-            //     body: JSON.stringify(payload)
-            // });
+            if (formData.issueType === 'security') {
+                emailBody += `--- Security Vulnerability Details ---\n`;
+                emailBody += `Affected Endpoint: ${formData.affectedEndpoint}\n`;
+                emailBody += `Impact Level: ${formData.impactLevel}\n`;
+                emailBody += `Description: ${formData.description}\n`;
+                emailBody += `Steps to Reproduce: ${formData.stepsToReproduce}\n`;
+            } else {
+                emailBody += `--- Issue Details ---\n`;
+                emailBody += `What were you trying to do?: ${formData.attemptedAction}\n`;
+                emailBody += `What happened instead?: ${formData.actualResult}\n`;
+                if (formData.stepsToReproduce) {
+                    emailBody += `Steps to Reproduce: ${formData.stepsToReproduce}\n`;
+                }
+            }
+            
+            // Open email client with bug report
+            const mailtoUrl = `mailto:bugs@urbandrop.io?subject=${encodeURIComponent(`Bug Report: ${issueLabel}`)}&body=${encodeURIComponent(emailBody)}`;
+            window.location.href = mailtoUrl;
             
             setSubmitSuccess(true);
             
@@ -227,7 +215,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
         
         if (formData.issueType === 'security') {
             return formData.affectedEndpoint && formData.description && 
-                   formData.stepsToReproduce && formData.impactLevel;
+                formData.stepsToReproduce && formData.impactLevel;
         }
         
         return formData.attemptedAction && formData.actualResult;

@@ -115,7 +115,7 @@ const TermsAndConditions = () => {
             </div>
             
             <SEO
-                title="Terms and Conditions - Urbandrop™"
+                title="Terms and Conditions - Urbandrop®"
                 description="Check Urbandrop™'s Terms and Conditions for using our delivery platform and services."
                 canonical="https://urbandrop.io/terms-and-conditions"
             />

@@ -13,7 +13,7 @@ const Customers = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="For Customers - Urbandrop™"
+        title="For Customers - Urbandrop®"
         description="Experience convenient, fast, and reliable delivery with Urbandrop™. Shop from your favorite local stores."
         canonical="https://urbandrop.io/customer"
       />

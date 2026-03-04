@@ -1,4 +1,4 @@
-{
+﻿{
     "navbar": {
         "findLocation": "Find location",
         "home": "Home",
@@ -20,7 +20,7 @@
         "about": "About",
         "customer": "Customer",
         "advertise": "Advertise on Urbandrop",
-        "beMerchant": "Be a Merchant",
+        "beMerchant": "Become a Merchant",
         "rightsReserved": "Urbandrop Group Ltd. All rights reserved.",
         "companyNumber": "Company number"
     },

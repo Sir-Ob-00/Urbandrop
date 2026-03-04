@@ -93,7 +93,7 @@ const ClosingBand = () => {
         >
             {/* Closing Quote */}
             <blockquote className="font-fraunces italic text-[clamp(1.3rem,2vw,1.5rem)] leading-[1.55] font-light text-[#f2f5f9]">
-                "Food is more than ingredients — it's memory, comfort, identity. In a country that has welcomed so many,{' '}
+                "Food is more than ingredients it's memory, comfort, identity. In a country that has welcomed so many,{' '}
                 <span className="text-[#D4AF37] font-bold not-italic">they deserve a better way to feel at home</span>. 
                 This is our mission. And we are just getting started."
             </blockquote>
@@ -258,7 +258,7 @@ const OurStory = () => {
                                 When I moved from Ghana to the UK in 2022, I arrived with hope and a deep connection to the culture I was leaving behind. It didn't take long to feel what so many immigrants silently endure.
                             </p>
                             <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80">
-                                Shopping for Ghanaian groceries — anything African or Caribbean — meant <strong>long trips to scattered shops</strong>, limited selections, and almost no convenience. Mainstream delivery apps served UK and European brands with ease. But nothing truly served ethnic communities — the very people enriching this country every single day.
+                                Shopping for Ghanaian groceries anything African or Caribbean meant <strong>long trips to scattered shops</strong>, limited selections, and almost no convenience. Mainstream delivery apps served UK and European brands with ease. But nothing truly served ethnic communities the very people enriching this country every single day.
                             </p>
                         </StoryChapter>
                         
@@ -270,11 +270,11 @@ const OurStory = () => {
                             index={1}
                         >
                             <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80 mb-8">
-                                One evening, my wife's mother made the journey to shop at an African grocery store after a long day. Exhausted on the bus ride home, she stepped off — and left every bag behind without realising it.
+                                One evening, my wife's mother made the journey to shop at an African grocery store after a long day. Exhausted on the bus ride home, she stepped off and left every bag behind without realising it.
                             </p>
                             {/* Pull Quote */}
                             <blockquote className="font-fraunces italic text-[1.15rem] leading-[1.55] font-light text-[#f2f5f9] pl-6 border-l-2" style={{ borderColor: '#5CB35E' }}>
-                                "It wasn't just about missing food from home. It was about how hard people work, how far they travel — simply to stay connected to who they are."
+                                "It wasn't just about missing food from home. It was about how hard people work, how far they travel simply to stay connected to who they are."
                             </blockquote>
                         </StoryChapter>
                         
@@ -286,7 +286,7 @@ const OurStory = () => {
                             index={2}
                         >
                             <p className="font-syne text-[0.97rem] leading-[1.95] font-normal text-[#f2f5f9] opacity-80 mb-8">
-                                We are building a digital marketplace — so Afro-Caribbean, Asian, and other ethnic communities can shop for the food they love right from their phones. <strong>No long trips. No heavy bags.</strong> Fresh, familiar products delivered with care and dignity.
+                                We are building a digital marketplace so Afro-Caribbean, Asian, and other ethnic communities can shop for the food they love right from their phones. <strong>No long trips. No heavy bags.</strong> Fresh, familiar products delivered with care and dignity.
                             </p>
                             
                             {/* Pillar Grid */}

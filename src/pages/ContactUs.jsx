@@ -11,7 +11,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Contact Us - Urbandrop"
+        title="Contact Us - Urbandrop®"
         description="Get in touch with Urbandrop for support, inquiries, or partnerships. We are here to help."
         canonical="https://urbandrop.io/contact-us"
       />
