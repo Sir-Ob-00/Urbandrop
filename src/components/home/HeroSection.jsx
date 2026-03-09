@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import heroVideo from '../../assets/videos/home-hero video.mp4';
+/* import heroVideo from 'https://res.cloudinary.com/df6hdqpjl/video/upload/v1773093477/home-hero_video_xk8c8m.mp4'; */
 import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
@@ -15,7 +15,7 @@ const HeroSection = () => {
         loop
         playsInline
       >
-        <source src={heroVideo} type="video/mp4" />
+        <source src="https://res.cloudinary.com/df6hdqpjl/video/upload/v1773093477/home-hero_video_xk8c8m.mp4" type="video/mp4" />
       </video>
 
 
