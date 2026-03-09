@@ -52,7 +52,7 @@ const SEO = ({
                 {JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "Organization",
-                    "name": "Urbandrop®",
+                    "name": "UrbanDrop®",
                     "url": siteUrl,
                     "logo": `${siteUrl}/logo.png`,
                     "contactPoint": {
