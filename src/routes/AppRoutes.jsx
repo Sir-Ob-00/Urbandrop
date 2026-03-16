@@ -14,6 +14,7 @@ import TermsAndConditions from "../pages/TermsAndConditions";
 import Advertise from "../pages/Advertise";
 import CookiesPolicy from "../pages/CookiesPolicy";
 import NotFound from "../pages/NotFound";
+import BetaSignupPage from "../pages/BetaSignupPage";
 
 const AppRoutes = () => {
   return (
@@ -35,6 +36,7 @@ const AppRoutes = () => {
       {/* Routes using a simpler layout (no nav/footer) */}
       <Route element={<SimpleLayout />}>
         {/* Add any pages that need a simple layout here in the future */}
+        <Route path="/beta" element={<BetaSignupPage />} />
       </Route>
 
       {/* 404 Not Found Route - must be last */}
