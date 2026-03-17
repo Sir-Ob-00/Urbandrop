@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global body background */
+body {
+  background: linear-gradient(135deg, #fff5ea 0%, #fef3e0 100%);
+  min-height: 100vh;
+}
+
 
 /* Utility: visually hide scrollbars but keep scrolling */
 .no-scrollbar {
