@@ -104,6 +104,7 @@ const FeaturedCategories = () => {
                     >
                       <h3 className="text-3xl font-bold mb-3 leading-tight">{category.title}</h3>
                       <p className="text-lg text-gray-200 mb-6 max-w-md">{category.description}</p>
+                      {/* Explore more buttons */}
                       {/* <button className="flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur-md text-white px-6 py-3 rounded-full transition-all group">
                         {t('home.featured.exploreNow')}
                         <ArrowUpRight className="w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -155,9 +156,10 @@ const FeaturedCategories = () => {
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                 <h3 className="text-2xl font-bold mb-2">{category.title}</h3>
                 <p className="text-gray-200 mb-4 text-sm">{category.description}</p>
-                <button className="flex items-center gap-2 text-sm font-semibold hover:underline">
+                {/* Explore more button */}
+                {/* <button className="flex items-center gap-2 text-sm font-semibold hover:underline">
                   {t('home.featured.exploreNow')} <ArrowUpRight className="w-4 h-4" />
-                </button>
+                </button> */}
               </div>
             </motion.div>
           ))}
