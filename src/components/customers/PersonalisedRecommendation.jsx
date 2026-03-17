@@ -105,10 +105,12 @@ const PersonalisedRecommendation = () => {
                                                 <p className="text-gray-200 mb-6 text-lg max-w-md">
                                                     {category.description}
                                                 </p>
-                                                <button className="flex items-center gap-2 bg-white/20 backdrop-blur-md text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all group">
+
+                                                {/* Explore Button */}
+                                               {/*  <button className="flex items-center gap-2 bg-white/20 backdrop-blur-md text-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-primary transition-all group">
                                                     {t('customer.recommendation.explore')}
                                                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                                                </button>
+                                                </button> */}
                                             </motion.div>
                                         )}
                                     </AnimatePresence>

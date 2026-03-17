@@ -21,7 +21,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-center p-4">
         <motion.h1
-          className="text-5xl md:text-8xl xl:text-9xl font-extrabold leading-tight mb-8 md:mt-20"
+          className="text-2xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight mb-6 md:mt-10"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -33,7 +33,7 @@ const HeroSection = () => {
             transition={{ duration: 2, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            {t('home.hero.discover')}
+            Authentic Ethnic Food &
           </motion.span>
           <br />
           <motion.span
@@ -43,7 +43,7 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 0.5, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            {t('home.hero.richEthnic')}
+            Groceries Delivered to Your
           </motion.span>
           <br />
           <motion.span
@@ -52,9 +52,18 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 1, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            {t('home.hero.flavors')}
+            Doorstep
           </motion.span>
         </motion.h1>
+        <motion.p
+          className="text-lg md:text-2xl text-gray-200 max-w-2xl mx-auto mb-8"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.5 }}
+          viewport={{ once: true }}
+        >
+          Discover African, Caribbean, Asian and international stores near you with UrbanDrop.
+        </motion.p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#launch-countdown" className="bg-yellow-400 text-[#183A37] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">
             {t('home.hero.orderNow')}

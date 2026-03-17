@@ -93,7 +93,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`relative inline-block focus:outline-none overflow-hidden px-1 ${isTop ? 'text-dark' : 'text-dark'}`}
+                className={`relative inline-block focus:outline-none overflow-hidden px-3 py-1 ${isTop ? 'text-dark' : 'text-dark'}`}
                 onMouseEnter={() => setHovered(link.name)}
                 onMouseLeave={() => setHovered(null)}
                 onFocus={() => setHovered(link.name)}
@@ -144,7 +144,7 @@ const Navbar = () => {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="text-dark relative inline-block focus:outline-none overflow-hidden px-1"
+                      className="text-dark relative inline-block focus:outline-none overflow-hidden px-3 py-1"
                       onClick={() => setIsOpen(false)}
                       onMouseEnter={() => setHovered(link.name)}
                       onMouseLeave={() => setHovered(null)}
