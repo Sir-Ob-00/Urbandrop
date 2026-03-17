@@ -65,10 +65,10 @@ const HeroSection = () => {
           Discover African, Caribbean, Asian and international stores near you with UrbanDrop.
         </motion.p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <a href="#launch-countdown" className="bg-yellow-400 text-[#183A37] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">
+          <a href="#launch-countdown" className="bg-yellow-400 text-[#183A37] px-4 py-2 lg:px-6 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">
             {t('home.hero.orderNow')}
           </a>
-          <a href="#launch-countdown" className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#183A37] transition-all shadow-lg">
+          <a href="#launch-countdown" className="border-2 border-white text-white px-4 py-2 lg:px-6 rounded-full font-bold text-lg hover:bg-white hover:text-[#183A37] transition-all shadow-lg">
             {t('home.hero.becomeMerchant')}
           </a>
         </div>
