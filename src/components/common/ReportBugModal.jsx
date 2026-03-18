@@ -49,16 +49,35 @@ const ReportBugModal = ({ isOpen, onClose }) => {
         { value: 'Critical', label: 'Critical' }
     ];
 
-    // Auto-fill browser info and page URL on mount/open
+    const getBrowserInfo = () => {
+        if (typeof navigator === 'undefined') return '';
+        const ua = navigator.userAgent || '';
+        const platform = navigator.platform || '';
+        let browser = 'Unknown Browser';
+
+        if (/Edg\//.test(ua)) browser = 'Microsoft Edge';
+        else if (/OPR\//.test(ua) || /Opera/.test(ua)) browser = 'Opera';
+        else if (/Chrome\//.test(ua)) browser = 'Chrome';
+        else if (/Safari\//.test(ua) && !/Chrome\//.test(ua)) browser = 'Safari';
+        else if (/Firefox\//.test(ua)) browser = 'Firefox';
+
+        const device = /Mobi|Android/i.test(ua) ? 'Mobile' : 'Desktop';
+        const os = /Win/i.test(platform) ? 'Windows'
+            : /Mac/i.test(platform) ? 'macOS'
+            : /Linux/i.test(platform) ? 'Linux'
+            : /iPhone|iPad|iPod/i.test(ua) ? 'iOS'
+            : /Android/i.test(ua) ? 'Android'
+            : 'Unknown OS';
+
+        return `${browser} on ${os} (${device})`;
+    };
+
+    // Auto-fill browser info on mount/open
     useEffect(() => {
         if (isOpen) {
-            const browserInfo = typeof navigator !== 'undefined' ? navigator.userAgent : '';
-            const pageUrl = typeof window !== 'undefined' ? window.location.href : '';
-            
             setFormData(prev => ({
                 ...prev,
-                browserInfo,
-                pageUrl
+                browserInfo: getBrowserInfo()
             }));
         }
     }, [isOpen]);
@@ -188,8 +207,8 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                 setSubmitSuccess(false);
                 setFormData({
                     issueType: '',
-                    pageUrl: typeof window !== 'undefined' ? window.location.href : '',
-                    browserInfo: typeof navigator !== 'undefined' ? navigator.userAgent : '',
+                    pageUrl: '',
+                    browserInfo: getBrowserInfo(),
                     attemptedAction: '',
                     actualResult: '',
                     stepsToReproduce: '',
@@ -462,7 +481,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                 </div>
                             )}
                             
-                            {/* Auto-captured Fields (Hidden/Read-only) */}
+                            {/* Auto-captured / User-provided Fields */}
                             {formData.issueType && (
                                 <div className="space-y-3 pt-2">
                                     {/* Page URL */}
@@ -475,8 +494,9 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                             id="pageUrl"
                                             name="pageUrl"
                                             value={formData.pageUrl}
-                                            readOnly
-                                            className="w-full px-4 py-2 rounded-lg border border-gray-100 bg-gray-50 text-gray-600 text-sm"
+                                            onChange={handleChange}
+                                            placeholder="https://www.urbandrop.io/path"
+                                            className="w-full px-4 py-2 rounded-lg border border-gray-200 bg-white text-gray-700 text-sm focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
                                         />
                                     </div>
                                     

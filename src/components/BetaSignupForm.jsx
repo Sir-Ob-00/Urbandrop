@@ -171,10 +171,13 @@ const BetaSignupForm = () => {
             <img src={logo} alt="UrbanDrop Logo" className="w-48 h-48 object-contain" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-darkGreen bg-clip-text text-transparent mb-2">
-            Join the Beta
+            Join Our Beta testing program
           </h2>
           <p className="text-gray-600 text-base max-w-md mx-auto">
-            Be among the first to experience UrbanDrop. Sign up now and help shape the future.
+            Influence the future of Urbandrop. Your feedback will directly shape our service to you.
+            <br />
+            <br />
+            Tell us what works, what doesn't, and help us ensure our cultural accuracy is unmatched
           </p>
         </div>
 
@@ -234,7 +237,7 @@ const BetaSignupForm = () => {
             </div>
           </div>
 
-          {/* Form Row 2 - Country and Phone */}
+          {/* Form Row 2 - Country and Location */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Country - Searchable Dropdown */}
             <div className="relative group" ref={dropdownRef}>
@@ -295,50 +298,50 @@ const BetaSignupForm = () => {
               )}
             </div>
 
-            {/* Phone */}
-            <div className="group">
+            {/* Location */}
+            <div>
               <label className="block text-sm font-bold text-gray-700 mb-2">
-                Phone Number <span className="text-gray-500 text-xs font-normal">(Optional)</span>
+                City / State <span className="text-red-500">*</span>
               </label>
-              <div className="relative">
-                <input
-                  type="tel"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  onFocus={() => setFocusedField("phone")}
-                  onBlur={() => setFocusedField(null)}
-                  placeholder="+1 234 567 890"
-                  className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                    focusedField === "phone"
-                      ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                      : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                  }`}
-                />
-              </div>
+              <input
+                type="text"
+                name="location"
+                required
+                value={formData.location}
+                onChange={handleChange}
+                onFocus={() => setFocusedField("location")}
+                onBlur={() => setFocusedField(null)}
+                placeholder="London/ Ohio..."
+                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
+                  focusedField === "location"
+                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
+                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
+                }`}
+              />
             </div>
           </div>
 
-          {/* Form Row 3 - Location */}
-          <div>
+          {/* Form Row 3 - Phone */}
+          <div className="group">
             <label className="block text-sm font-bold text-gray-700 mb-2">
-              ZIP Code / City / State <span className="text-red-500">*</span>
+              Phone Number <span className="text-gray-500 text-xs font-normal">(Optional)</span>
             </label>
-            <input
-              type="text"
-              name="location"
-              required
-              value={formData.location}
-              onChange={handleChange}
-              onFocus={() => setFocusedField("location")}
-              onBlur={() => setFocusedField(null)}
-              placeholder="10001, New York, NY"
-              className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                focusedField === "location"
-                  ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                  : "border-gray-200 bg-gray-50 hover:border-gray-300"
-              }`}
-            />
+            <div className="relative">
+              <input
+                type="tel"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                onFocus={() => setFocusedField("phone")}
+                onBlur={() => setFocusedField(null)}
+                placeholder="+44 234 567 890"
+                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
+                  focusedField === "phone"
+                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
+                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
+                }`}
+              />
+            </div>
           </div>
 
           {/* Form Row 4 - Device */}
