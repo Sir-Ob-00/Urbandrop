@@ -117,7 +117,23 @@ const BetaSignupForm = () => {
       
       const responseData = await response.json().catch(() => ({}));
       if (responseData.result === "error") {
-          throw new Error(responseData.error || "Submission failed inside Google Apps Script");
+        const backendMessage =
+          responseData.error ||
+          responseData.message ||
+          "Submission failed inside Google Apps Script";
+        const normalized = String(backendMessage).toLowerCase();
+        const isDuplicateEmail =
+          normalized.includes("email already exist") ||
+          normalized.includes("email already exists") ||
+          normalized.includes("duplicate");
+
+        if (isDuplicateEmail) {
+          setError("email already exist");
+        } else {
+          setError(backendMessage);
+        }
+        setIsSubmitting(false);
+        return;
       }
 
       setIsSuccess(true);
@@ -133,7 +149,18 @@ const BetaSignupForm = () => {
       setCountrySearch("");
     } catch (err) {
       console.error("Submission error:", err);
-      setError("An error occurred. Please try again later.");
+      const rawMessage = err?.message || "";
+      const normalized = rawMessage.toLowerCase();
+      const isDuplicateEmail =
+        normalized.includes("email already exist") ||
+        normalized.includes("email already exists") ||
+        normalized.includes("duplicate");
+
+      if (isDuplicateEmail) {
+        setError("email already exist");
+      } else {
+        setError("An error occurred. Please try again later.");
+      }
     } finally {
       setIsSubmitting(false);
     }
