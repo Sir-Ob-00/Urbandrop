@@ -23,7 +23,14 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    
+    // Slight delay for UI feedback
+    await new Promise(resolve => setTimeout(resolve, 800));
+
+    const subjectContent = formData.subject ? ` - ${formData.subject}` : '';
+    const mailtoLink = `mailto:support@urbandrop.io?subject=${encodeURIComponent('Contact Form Submission' + subjectContent)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+    window.location.href = mailtoLink;
+
     setIsSubmitting(false);
     setIsSubmitted(true);
     setTimeout(() => {
@@ -63,8 +70,7 @@ const ContactForm = () => {
 
             <div className="space-y-6">
               {[
-                { icon: Phone, title: t('contact.form.sidebar.callUs'), content: "+44 7466 738584", link: "tel:+447466738584" },
-                { icon: Mail, title: t('contact.form.sidebar.emailUs'), content: "Info@urbandrop.io", link: "mailto:Info@urbandrop.io" },
+                { icon: Mail, title: t('contact.form.sidebar.emailUs'), content: "support@urbandrop.io", link: "mailto:support@urbandrop.io" },
                 { icon: Clock, title: t('contact.form.sidebar.workingHours'), content: t('contact.form.sidebar.workingHoursContent'), link: null }
               ].map((item, index) => (
                 <motion.a

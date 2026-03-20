@@ -36,8 +36,10 @@ const AppRoutes = () => {
       {/* Routes using a simpler layout (no nav/footer) */}
       <Route element={<SimpleLayout />}>
         {/* Add any pages that need a simple layout here in the future */}
-        <Route path="/beta" element={<BetaSignupPage />} />
       </Route>
+
+      {/* Standalone full-screen pages */}
+      <Route path="/beta" element={<BetaSignupPage />} />
 
       {/* 404 Not Found Route - must be last */}
       <Route path="*" element={<NotFound />} />

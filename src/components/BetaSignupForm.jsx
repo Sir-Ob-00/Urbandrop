@@ -3,13 +3,13 @@ import countriesData from "../data/countries.json";
 import logo from "../assets/images/logo-1.png";
 import CyberButton from "../components/common/CyberButton";
 
-const BetaSignupForm = () => {
+const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to UrbanDrop Beta!" }) => {
   const [formData, setFormData] = useState({
-    fullName: "",
+    full_name: "",
     email: "",
     phone: "",
     country: "",
-    location: "",
+    city_state: "",
     device: "",
   });
 
@@ -71,8 +71,10 @@ const BetaSignupForm = () => {
     setError(null);
 
     // Basic validation check
-    const requiredFields = ['fullName', 'email', 'country', 'location', 'device'];
-    const missingFields = requiredFields.filter(field => !formData[field]);
+    const requiredFields = ["full_name", "email", "country", "city_state", "device"];
+    const missingFields = requiredFields.filter(
+      (field) => !String(formData[field] ?? "").trim()
+    );
 
     if (missingFields.length > 0) {
       setError("Please fill in all required fields.");
@@ -82,45 +84,54 @@ const BetaSignupForm = () => {
 
     try {
       // In Vite, env variables are available under import.meta.env
-      const scriptUrl = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
+      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
 
       const payload = {
         ...formData,
         company: "", // empty by default
+        source: source,
         timestamp: new Date().toISOString(),
       };
 
-      if (!scriptUrl) {
-        setError("Script URL is not configured.");
-        console.error("Error: The URL for the app script is missing.");
+      if (!apiBaseUrl) {
+        setError("API base URL is not configured.");
+        console.error("Error: VITE_API_BASE_URL is missing.");
         setIsSubmitting(false);
         return;
       }
 
-      // Convert payload to URLSearchParams to send as x-www-form-urlencoded
-      const formParams = new URLSearchParams();
-      for (const key in payload) {
-        formParams.append(key, payload[key]);
-      }
+      const endpoint = `${apiBaseUrl.replace(/\/+$/, "")}/beta-testers`;
 
-      // POST to Google Apps Script. 
-      // Sending x-www-form-urlencoded bypasses the CORS preflight OPTIONS request.
-      const response = await fetch(scriptUrl, {
+      // POST to backend API as JSON
+      const response = await fetch(endpoint, {
         method: "POST",
-        body: formParams,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
       });
 
       if (!response.ok) {
-        console.error("Error: The URL for the app script is not hitting. Status:", response.status, response.statusText);
-        throw new Error("Failed to reach the Google Apps Script endpoint.");
+        let errorMessage = "Failed to submit to the backend.";
+        try {
+          const errorPayload = await response.json();
+          errorMessage =
+            errorPayload?.error ||
+            errorPayload?.message ||
+            errorMessage;
+        } catch {
+          // Ignore JSON parsing errors
+        }
+        console.error("Error: backend request failed. Status:", response.status, response.statusText);
+        throw new Error(errorMessage);
       }
       
       const responseData = await response.json().catch(() => ({}));
-      if (responseData.result === "error") {
+      if (responseData?.result === "error") {
         const backendMessage =
           responseData.error ||
           responseData.message ||
-          "Submission failed inside Google Apps Script";
+          "Submission failed inside the backend.";
         const normalized = String(backendMessage).toLowerCase();
         const isDuplicateEmail =
           normalized.includes("email already exist") ||
@@ -138,11 +149,11 @@ const BetaSignupForm = () => {
 
       setIsSuccess(true);
       setFormData({
-        fullName: "",
+        full_name: "",
         email: "",
         phone: "",
         country: "",
-        location: "",
+        city_state: "",
         device: "",
         company: "",
       });
@@ -175,7 +186,7 @@ const BetaSignupForm = () => {
             ✓
           </div>
           <h3 className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-3">
-            Welcome to UrbanDrop Beta!
+            {successMessageTitle}
           </h3>
           <p className="text-gray-600 text-base mb-6">
             You've successfully joined our beta testing program.
@@ -223,15 +234,15 @@ const BetaSignupForm = () => {
               <div className="relative">
                 <input
                   type="text"
-                  name="fullName"
+                  name="full_name"
                   required
-                  value={formData.fullName}
+                  value={formData.full_name}
                   onChange={handleChange}
-                  onFocus={() => setFocusedField("fullName")}
+                  onFocus={() => setFocusedField("full_name")}
                   onBlur={() => setFocusedField(null)}
                   placeholder="Jane Doe"
                   className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                    focusedField === "fullName"
+                    focusedField === "full_name"
                       ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
                       : "border-gray-200 bg-gray-50 hover:border-gray-300"
                   }`}
@@ -332,15 +343,15 @@ const BetaSignupForm = () => {
               </label>
               <input
                 type="text"
-                name="location"
+                name="city_state"
                 required
-                value={formData.location}
+                value={formData.city_state}
                 onChange={handleChange}
-                onFocus={() => setFocusedField("location")}
+                onFocus={() => setFocusedField("city_state")}
                 onBlur={() => setFocusedField(null)}
                 placeholder="London/ Ohio..."
                 className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "location"
+                  focusedField === "city_state"
                     ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
                     : "border-gray-200 bg-gray-50 hover:border-gray-300"
                 }`}

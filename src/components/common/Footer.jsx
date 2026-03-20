@@ -56,6 +56,7 @@ const Footer = () => {
     { name: t('footer.customer'), href: "/customer" },
     { name: t('footer.advertise'), href: "/advertise" },
     { name: t('footer.beMerchant'), href: "/become-merchant" },
+    { name: "Join Beta", href: "/beta" },
   ];
 
   return (

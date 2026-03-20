@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../../assets/images/urbandropLogo.png";
 import { Menu, X, Instagram, Globe, Youtube, Linkedin } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
@@ -27,6 +27,7 @@ const Navbar = () => {
   const navLinks = [
     { name: t('navbar.home'), href: "/" },
     { name: t('navbar.contactUs'), href: "/contact-us" },
+    { name: "Join Beta", href: "/beta", isCTA: true },
   ];
 
   return (
@@ -89,6 +90,19 @@ const Navbar = () => {
           {navLinks.map((link) => {
             const isActive = location.pathname === link.href;
             const isHovered = hovered === link.name;
+            
+            if (link.isCTA) {
+              return (
+                <Link
+                  key={link.name}
+                  to={link.href}
+                  className="bg-gradient-to-r from-green-500 to-[#5CB35E] text-white px-5 py-2 rounded-lg font-bold shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5 ml-4 border border-green-400"
+                >
+                  {link.name}
+                </Link>
+              );
+            }
+            
             return (
               <a
                 key={link.name}
@@ -140,6 +154,21 @@ const Navbar = () => {
               {navLinks.map((link) => {
                 const isActive = location.pathname === link.href;
                 const isHovered = hovered === link.name;
+                
+                if (link.isCTA) {
+                  return (
+                    <li key={link.name} className="w-full flex justify-center pb-2">
+                      <Link
+                        to={link.href}
+                        className="bg-gradient-to-r from-green-500 to-[#5CB35E] text-white px-6 py-2 rounded-lg font-bold shadow hover:shadow-md transition w-11/12 text-center border border-green-400"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {link.name}
+                      </Link>
+                    </li>
+                  );
+                }
+                
                 return (
                   <li key={link.name}>
                     <a
