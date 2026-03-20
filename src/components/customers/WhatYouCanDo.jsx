@@ -88,9 +88,10 @@ const WhatYouCanDo = () => {
                                     <p className="text-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mb-4 line-clamp-2">
                                         {feature.description}
                                     </p>
-                                    <div className="flex items-center gap-2 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200 text-[#5CB35E]">
+                                    {/* Learn More Link */}
+                                   {/*  <div className="flex items-center gap-2 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-200 text-[#5CB35E]">
                                         {t('customer.whatYouCanDo.learnMore')} <ArrowRight className="w-4 h-4" />
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </motion.div>

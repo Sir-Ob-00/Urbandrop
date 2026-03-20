@@ -7,6 +7,7 @@ const brandFiles = import.meta.glob('../../assets/images/home/Brands/*', { eager
 
 const BrandSlider = () => {
     const [brandLogos, setBrandLogos] = useState([]);
+    const marqueeDurationSeconds = 20;
 
 
     useEffect(() => {
@@ -42,7 +43,7 @@ const BrandSlider = () => {
             <div
               className="marquee flex items-center gap-8 will-change-transform"
               role="list"
-              style={{ animationDuration: `${brandLogos.length * 2 || 0}s` }}
+              style={{ animationDuration: `${marqueeDurationSeconds}s` }}
             >
                 {brandLogos.length > 0 &&
                 // duplicate once for seamless animation

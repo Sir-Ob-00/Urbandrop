@@ -74,12 +74,20 @@ const AppDownloandBanner = ({ compact = false }) => {
 						<p className="mt-10 mb-20 text-gray-700 max-w-md mx-auto md:mx-0">
 							{t('home.appDownload.desc')}
 						</p>
-						<div className="flex justify-center md:justify-start items-center gap-10 h-12 mb-16">
+						<div className="flex flex-wrap justify-center md:justify-start items-center gap-6 h-auto mb-16">
 							<a href="#launch-countdown" className="hover:opacity-90 transition-opacity">
-								<img src={appstoreImg} alt="Download on the App Store" className="h-full" />
+								<img
+									src={appstoreImg}
+									alt="Download on the App Store"
+									className="h-10 sm:h-12 md:h-14 w-auto object-contain shrink-0"
+								/>
 							</a>
 							<a href="#launch-countdown" className="hover:opacity-90 transition-opacity">
-								<img src={playstoreImg} alt="Get it on Google Play" className="h-full" />
+								<img
+									src={playstoreImg}
+									alt="Get it on Google Play"
+									className="h-10 sm:h-12 md:h-14 w-auto object-contain shrink-0"
+								/>
 							</a>
 						</div>
 

@@ -176,8 +176,15 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
-          <div className="flex items-center gap-2"><Mail size={16} /> Info@urbandrop.io | support@urbandrop.io</div>
-          <div className="flex items-center gap-2"><Phone size={16} /> +447466738584</div>
+          <a href="mailto:support@urbandrop.io" className="flex items-center gap-2"><Mail size={16} />support@urbandrop.io</a>
+          <a
+            href="https://wa.me/447466738584?text=Hi%20this%20is%20UrbanDrop!%20How%20may%20we%20help%20you%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2"
+          >
+            <Phone size={16} /> +447466738584
+          </a>
           <div className="flex items-center gap-2"><MapPin size={16} /> London, United Kingdom</div>
         </div>
         © {new Date().getFullYear()} {t('footer.rightsReserved')}
