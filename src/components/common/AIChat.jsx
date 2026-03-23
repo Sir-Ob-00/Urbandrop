@@ -5,7 +5,7 @@ import ReportBugModal from './ReportBugModal';
 
 const initialMessages = [];
 
-const API_BASE_URL = import.meta.env.VITE_CHAT_API_URL || 'https://urbanchat-xy7h.onrender.com';
+const API_BASE_URL = import.meta.env.VITE_CHAT_API_URL || 'https://urbanchat.kantatech.io';
 
 const AIChat = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +68,6 @@ const AIChat = () => {
         setIsLoading(true);
 
         const url = `${API_BASE_URL}/chat`;
-        // console.log('Sending fetch to:', url, 'with message:', inputValue);
 
         fetch(url, {
             method: 'POST',
@@ -78,11 +77,9 @@ const AIChat = () => {
             body: JSON.stringify({ message: inputValue }),
         })
             .then(res => {
-                // console.log('Fetch response status:', res.status);
                 return res.json();
             })
             .then(data => {
-                // console.log('Fetch response data:', data);
                 const aiResponse = {
                     id: Date.now(),
                     sender: 'ai',

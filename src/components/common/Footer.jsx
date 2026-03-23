@@ -13,32 +13,37 @@ const Footer = () => {
   const [isBugModalOpen, setIsBugModalOpen] = useState(false);
 
   const handleSubscribe = async (e) => {
-    e.preventDefault();
-    if (email && email.includes('@')) {
-      setLoading(true);
-      try {
-        const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
-        const response = await fetch(`${apiBaseUrl}/newsletter/subscribe`, {
-          method: "POST",
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-          },
-          body: JSON.stringify({ email })
-        });
+  e.preventDefault();
+  if (email && email.includes('@')) {
+    setLoading(true);
+    try {
+      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+      const apiKey = import.meta.env.VITE_API_KEY;
 
-        if (response.ok) {
-          setSubscribed(true);
-          setEmail('');
-          setTimeout(() => setSubscribed(false), 5000);
-        }
-      } catch (error) {
-        console.error("Newsletter subscription error:", error);
-      } finally {
-        setLoading(false);
+      const response = await fetch(`${apiBaseUrl}/newsletter/subscribe`, {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'x-api-key': apiKey, // ✅ REQUIRED
+        },
+        body: JSON.stringify({ email })
+      });
+
+      if (response.ok) {
+        setSubscribed(true);
+        setEmail('');
+        setTimeout(() => setSubscribed(false), 5000);
+      } else {
+        console.error("Failed:", response.status);
       }
+    } catch (error) {
+      console.error("Newsletter subscription error:", error);
+    } finally {
+      setLoading(false);
     }
-  };
+  }
+};
 
   const legalLinks = [
     { name: t('footer.privacyPolicy'), href: "/privacy-policy" },
