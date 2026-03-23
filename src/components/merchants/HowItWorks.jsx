@@ -84,7 +84,7 @@ const HowItWorks = () => {
         <div className="blob-animate-3 absolute top-[25%] left-[20%] w-80 h-80 bg-purple-200 rounded-full filter blur-3xl opacity-20"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 md:px-12">
-          <h2 className="text-5xl md:text-7xl font-extrabold text-center mb-16 leading-tight">
+          <h2 className="text-center mb-16">
             {t('merchants.howItWorks.title')} <span className="text-[#00b36b]">{t('merchants.howItWorks.titleHighlight')}</span>
           </h2>
 
@@ -126,10 +126,10 @@ const HowItWorks = () => {
                       {index === 1 && <Truck size={48} className="text-[#00b36b] mb-4" />}
                       {index === 2 && <Wallet size={48} className="text-[#00b36b] mb-4" />}
                       {index === 3 && <BarChart size={48} className="text-[#00b36b] mb-4" />}
-                      <h3 className="text-5xl lg:text-7xl font-bold mb-4 transition-all duration-700 ease-in-out group-hover:text-3xl group-hover:lg:text-5xl">
+                      <h3 className="text-h2 group-hover:text-h3 mb-4 transition-all duration-700 ease-in-out">
                         {step.title}
                       </h3>
-                      <p className="text-lg">{step.text}</p>
+                      <p>{step.text}</p>
                     </div>
                   </div>
 

@@ -1,7 +1,10 @@
-﻿{
+{
     "navbar": {
         "findLocation": "Find location",
         "home": "Home",
+        "aboutUs": "About Us",
+        "customer": "Customer",
+        "merchant": "Merchant",
         "contactUs": "Contact Us",
         "getTheApp": "Get The App"
     },
@@ -99,9 +102,9 @@
     "contact": {
         "hero": {
             "badge": "Get in Touch",
-            "title1": "Let's Start a",
-            "title2": "Conversation.",
-            "desc": "Whether you have a question, feedback, or just want to say hello, we're here to listen and help you grow.",
+            "title1": "Talk to",
+            "title2": "UrbanDrop",
+            "desc": "Whether you have a question, feedback, or just want to say hello, we are here to listen and support you.",
             "sendMessage": "Send Message",
             "callSupport": "Call Support"
         },
@@ -138,8 +141,8 @@
     },
     "customer": {
         "hero": {
-            "title1": "Taste the",
-            "title2": "Authentic",
+            "title1": "Experience Authentic",
+            "title2": "Flavors",
             "desc": "Authentic Ethnic Groceries delivered to your doorstep.",
             "downloadApp": "Download App",
             "orderDelivered": "Order Delivered",
@@ -605,7 +608,7 @@
                 "title": "Contact Us",
                 "intro": "If you have any questions, concerns, or data protection requests, contact:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
+                "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">support@urbandrop.io</a>",
                 "ico": "You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) in the UK.",
                 "website": "Website: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
             }
@@ -656,7 +659,7 @@
             "title": "Contact Us",
             "desc": "If you have any questions about our use of cookies, please contact:",
             "companyName": "UrbanDrop Group Limited",
-            "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
+            "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">support@urbandrop.io</a>"
         }
     },
     "notFoundPage": {
@@ -976,7 +979,7 @@
                 "title": "19. Contact",
                 "content": "For questions, complaints, or refund requests, please contact:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
+                "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
             }
         }
     }

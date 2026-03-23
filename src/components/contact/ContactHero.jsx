@@ -23,11 +23,11 @@ const ContactHero = () => {
               <span className="inline-block text-[#5CB35E] font-semibold tracking-wider uppercase mb-4 text-sm">
                 {t('contact.hero.badge')}
               </span>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight tracking-tight mb-6">
+              <h1 className="text-gray-900 tracking-tight mb-6">
                 {t('contact.hero.title1')} <br />
                 <span className="text-[#5CB35E]">{t('contact.hero.title2')}</span>
               </h1>
-              <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg">
+              <p className="text-gray-600 max-w-lg">
                 {t('contact.hero.desc')}
               </p>
             </div>

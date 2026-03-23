@@ -31,11 +31,11 @@ const MerchantHero = () => {
           transition={{ duration: 0.8 }}
           className="text-white space-y-8"
         >
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 className="mb-6">
             {t('merchants.hero.title1')} {' '}
             <span className="text-primary">{t('merchants.hero.title2')}</span>
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-white/90 max-w-3xl mx-auto">
             {t('merchants.hero.desc')}
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">

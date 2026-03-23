@@ -32,11 +32,11 @@ const AboutHighlights = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-4xl md:text-6xl font-serif text-white mb-4"
+                        className="text-white mb-4"
                     >
                         {t('about.highlights.title')}
                     </motion.h2>
-                    <p className="text-green-400 font-medium tracking-widest uppercase text-sm">
+                    <p className="text-small text-green-400 font-medium tracking-widest uppercase">
                         {t('about.highlights.subtitle')}
                     </p>
                 </div>
@@ -55,9 +55,9 @@ const AboutHighlights = () => {
                             <div className="text-3xl text-green-400 mb-4">
                                 {item.icon}
                             </div>
-                            <h3 className="text-white font-medium leading-tight">
+                            <p className="text-white font-medium leading-tight">
                                 {item.label}
-                            </h3>
+                            </p>
                         </motion.div>
                     ))}
                 </div>

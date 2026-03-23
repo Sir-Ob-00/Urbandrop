@@ -49,10 +49,10 @@ const PersonalisedRecommendation = () => {
                     className="mb-12 flex items-end justify-between"
                 >
                     <div>
-                        <h2 className="text-4xl md:text-5xl font-bold text-dark mb-2">
+                        <h2 className="text-dark mb-2">
                             {t('customer.recommendation.title1')} <span className="text-primary">{t('customer.recommendation.title2')}</span>
                         </h2>
-                        <p className="text-muted text-lg">{t('customer.recommendation.subtitle')}</p>
+                        <p className="text-muted">{t('customer.recommendation.subtitle')}</p>
                     </div>
 
                     {/* Mobile/Tablet indicator or controls could go here if needed */}
@@ -87,7 +87,7 @@ const PersonalisedRecommendation = () => {
                                     {/* Title - Always visible but transforms */}
                                     <motion.h3
                                         layout="position"
-                                        className={`font-bold text-white mb-2 leading-tight ${activeId === category.id ? 'text-3xl' : 'text-xl'
+                                        className={`text-white mb-2 leading-tight ${activeId === category.id ? 'text-h3' : 'text-h4'
                                             }`}
                                     >
                                         {category.name}
@@ -102,7 +102,7 @@ const PersonalisedRecommendation = () => {
                                                 exit={{ opacity: 0, height: 0 }}
                                                 transition={{ duration: 0.3 }}
                                             >
-                                                <p className="text-gray-200 mb-6 text-lg max-w-md">
+                                                <p className="text-gray-200 mb-6 max-w-md">
                                                     {category.description}
                                                 </p>
 
@@ -134,8 +134,8 @@ const PersonalisedRecommendation = () => {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                             <div className="absolute bottom-0 left-0 p-6">
-                                <h3 className="text-xl font-bold text-white">{category.name}</h3>
-                                <p className="text-sm text-gray-300">{category.description}</p>
+                                <h3 className="text-h4 text-white mb-1">{category.name}</h3>
+                                <p className="text-small text-gray-300">{category.description}</p>
                             </div>
                         </div>
                     ))}

@@ -50,10 +50,10 @@ const WhatYouCanDo = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
+                    <h2 className="text-gray-900 mb-6">
                         {t('customer.whatYouCanDo.title')}
                     </h2>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                    <p className="text-gray-600 max-w-2xl mx-auto">
                         {t('customer.whatYouCanDo.desc')}
                     </p>
                 </motion.div>
@@ -84,7 +84,7 @@ const WhatYouCanDo = () => {
                             {/* Content */}
                             <div className="absolute inset-0 p-6 flex flex-col justify-end text-white">
                                 <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                    <h3 className="text-2xl md:text-3xl font-bold mb-2">{feature.title}</h3>
+                                    <h3 className="mb-2">{feature.title}</h3>
                                     <p className="text-gray-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 mb-4 line-clamp-2">
                                         {feature.description}
                                     </p>

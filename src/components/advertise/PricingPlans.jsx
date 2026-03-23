@@ -65,7 +65,7 @@ const PricingPlans = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 viewport={{ amount: 0.1 }}
               >
-                <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-black leading-tight mb-6 md:mb-8">
+                <h2 className="font-black mb-6 md:mb-8">
                   {plan.name}
                 </h2>
                 <ul className="space-y-3 md:space-y-4 mb-8 md:mb-12">
@@ -76,7 +76,7 @@ const PricingPlans = () => {
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.5, delay: i * 0.1 + 0.6 }}
                       viewport={{ once: true }}
-                      className="text-lg md:text-xl lg:text-2xl xl:text-3xl"
+                      className="text-h3"
                     >
                       {feature}
                     </motion.li>

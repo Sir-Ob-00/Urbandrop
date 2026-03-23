@@ -39,8 +39,8 @@ const TeamCard = ({ member, idx }) => (
       
       {/* Name and Role overlay at bottom */}
       <div className="absolute bottom-0 left-0 right-0 p-5 text-center bg-gradient-to-t from-dark/90 to-transparent">
-        <h3 className="font-heading text-xl font-bold text-white mb-1">{member.name}</h3>
-        <p className="text-xs uppercase tracking-widest text-primary font-medium">{member.role}</p>
+        <h3 className="text-h4 text-white mb-1">{member.name}</h3>
+        <p className="text-small uppercase tracking-widest text-primary font-medium">{member.role}</p>
       </div>
       
       {/* Decorative accent bar */}
@@ -73,7 +73,7 @@ const OurTeam = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-heading font-black text-dark"
+            className="text-dark"
           >
             Meet the Team
           </motion.h2>
@@ -81,7 +81,7 @@ const OurTeam = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-muted mt-4 max-w-xl mx-auto text-sm md:text-base"
+            className="text-muted mt-4 max-w-xl mx-auto"
           >
             The passionate people behind Urbandrop, dedicated to bringing African flavors to your doorstep.
           </motion.p>

@@ -68,11 +68,14 @@ const TermsAndConditions = () => {
     useEffect(() => {
         if (hash) {
             const targetId = hash.replace('#', '');
-            const element = document.getElementById(targetId);
-            if (element) {
+            const validIds = sections.map(s => s.id);
+            if (validIds.includes(targetId)) {
+                setActiveSection(targetId);
                 setTimeout(() => {
-                    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    setActiveSection(targetId);
+                    const element = document.getElementById(targetId);
+                    if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
                 }, 100);
             }
         }
@@ -123,10 +126,10 @@ const TermsAndConditions = () => {
             {/* Page Header */}
             <div className="bg-gray-50 py-12 border-b border-gray-100 mb-12">
                 <div className="container mx-auto px-6 max-w-6xl flex flex-col items-center text-center">
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
+                    <h1 className="font-extrabold text-gray-900 mb-4 tracking-tight">
                         Terms & Conditions
                     </h1>
-                    <p className="text-lg text-gray-500 max-w-2xl">
+                    <p className="text-gray-500 max-w-2xl">
                         Please read these terms carefully before using our platform. They outline your rights and responsibilities when using Urbandrop.
                     </p>
                     <p className="text-sm font-medium text-primary mt-6 tracking-wide uppercase">
@@ -225,18 +228,18 @@ const TermsAndConditions = () => {
 
                         {activeSection === 'general' && (
                             <TermsSection id="general" title="General Terms" icon={sections[0].icon} colorTheme="primary">
-                                <p className="lead text-xl text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6 text-h4">
                                     {t('termsConditions.intro.title')}
                                 </p>
                                 <p>{t('termsConditions.intro.p1')}</p>
                                 <p>{t('termsConditions.intro.p2')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.about.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.about.title')}</h3>
                                 {t('termsConditions.sections.about.content', { returnObjects: true }).map((paragraph, index) => (
                                     <p key={index}>{paragraph}</p>
                                 ))}
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.eligibility.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.eligibility.title')}</h3>
                                 <p>{t('termsConditions.sections.eligibility.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.eligibility.items', { returnObjects: true }).map((item, index) => (
@@ -244,41 +247,41 @@ const TermsAndConditions = () => {
                                     ))}
                                 </ul>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.account.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.account.subsections.creation.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.account.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.account.subsections.creation.title')}</h4>
                                 <p>{t('termsConditions.sections.account.subsections.creation.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.account.subsections.security.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.account.subsections.security.title')}</h4>
                                 <p>{t('termsConditions.sections.account.subsections.security.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.account.subsections.misuse.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.account.subsections.misuse.title')}</h4>
                                 <p>{t('termsConditions.sections.account.subsections.misuse.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.ordering.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.placing.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.ordering.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.placing.title')}</h4>
                                 <p>{t('termsConditions.sections.ordering.subsections.placing.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.confirmation.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.confirmation.title')}</h4>
                                 <p>{t('termsConditions.sections.ordering.subsections.confirmation.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.payments.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.payments.title')}</h4>
                                 <p>{t('termsConditions.sections.ordering.subsections.payments.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.pricing.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.ordering.subsections.pricing.title')}</h4>
                                 <p>{t('termsConditions.sections.ordering.subsections.pricing.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.delivery.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.delivery.subsections.areas.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.delivery.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.delivery.subsections.areas.title')}</h4>
                                 <p>{t('termsConditions.sections.delivery.subsections.areas.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.delivery.subsections.partners.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.delivery.subsections.partners.title')}</h4>
                                 <p>{t('termsConditions.sections.delivery.subsections.partners.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.delivery.subsections.collection.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.delivery.subsections.collection.title')}</h4>
                                 <p>{t('termsConditions.sections.delivery.subsections.collection.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.promotions.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.promotions.subsections.platform.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.promotions.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.promotions.subsections.platform.title')}</h4>
                                 <p>{t('termsConditions.sections.promotions.subsections.platform.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.promotions.subsections.merchant.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.promotions.subsections.merchant.title')}</h4>
                                 <p>{t('termsConditions.sections.promotions.subsections.merchant.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.promotions.subsections.misuse.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.promotions.subsections.misuse.title')}</h4>
                                 <p>{t('termsConditions.sections.promotions.subsections.misuse.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.merchant.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.merchant.title')}</h3>
                                 <p>{t('termsConditions.sections.merchant.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.merchant.items', { returnObjects: true }).map((item, index) => (
@@ -287,7 +290,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>{t('termsConditions.sections.merchant.note')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.conduct.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.conduct.title')}</h3>
                                 <p>{t('termsConditions.sections.conduct.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.conduct.items', { returnObjects: true }).map((item, index) => (
@@ -296,22 +299,22 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>{t('termsConditions.sections.conduct.note')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.cancellation.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.before.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.cancellation.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.before.title')}</h4>
                                 <p>{t('termsConditions.sections.cancellation.subsections.before.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.after.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.after.title')}</h4>
                                 <p>{t('termsConditions.sections.cancellation.subsections.after.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.merchant.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.merchant.title')}</h4>
                                 <p>{t('termsConditions.sections.cancellation.subsections.merchant.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.progress.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.progress.title')}</h4>
                                 <p>{t('termsConditions.sections.cancellation.subsections.progress.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.repeated.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.cancellation.subsections.repeated.title')}</h4>
                                 <p>{t('termsConditions.sections.cancellation.subsections.repeated.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.returns.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.general.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.returns.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.general.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.general.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.perishable.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.perishable.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.perishable.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.returns.subsections.perishable.items', { returnObjects: true }).map((item, index) => (
@@ -319,45 +322,45 @@ const TermsAndConditions = () => {
                                     ))}
                                 </ul>
                                 <p>{t('termsConditions.sections.returns.subsections.perishable.note')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.nonPerishable.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.nonPerishable.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.nonPerishable.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.returns.subsections.nonPerishable.items', { returnObjects: true }).map((item, index) => (
                                         <li key={index}>{item}</li>
                                     ))}
                                 </ul>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.process.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.process.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.process.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.merchantResp.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.merchantResp.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.merchantResp.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.delivery.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.delivery.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.delivery.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.abuse.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.returns.subsections.abuse.title')}</h4>
                                 <p>{t('termsConditions.sections.returns.subsections.abuse.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.ip.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.ip.title')}</h3>
                                 <p>{t('termsConditions.sections.ip.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.availability.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.availability.title')}</h3>
                                 <p>{t('termsConditions.sections.availability.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.privacy.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.privacy.title')}</h3>
                                 <p>{t('termsConditions.sections.privacy.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.liability.title')}</h3>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.liability.subsections.role.title')}</h4>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.liability.title')}</h3>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.liability.subsections.role.title')}</h4>
                                 <p>{t('termsConditions.sections.liability.subsections.role.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.liability.subsections.role.items', { returnObjects: true }).map((item, index) => (
                                         <li key={index}>{item}</li>
                                     ))}
                                 </ul>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.liability.subsections.indirect.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.liability.subsections.indirect.title')}</h4>
                                 <p>{t('termsConditions.sections.liability.subsections.indirect.content')}</p>
-                                <h4 className="text-base font-semibold text-gray-900 mt-6 mb-2">{t('termsConditions.sections.liability.subsections.maximum.title')}</h4>
+                                <h4 className="text-gray-900 mt-6 mb-2">{t('termsConditions.sections.liability.subsections.maximum.title')}</h4>
                                 <p>{t('termsConditions.sections.liability.subsections.maximum.content')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.termination.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.termination.title')}</h3>
                                 <p>{t('termsConditions.sections.termination.content')}</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     {t('termsConditions.sections.termination.items', { returnObjects: true }).map((item, index) => (
@@ -366,24 +369,24 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>{t('termsConditions.sections.termination.note')}</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">{t('termsConditions.sections.links.title')}</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">{t('termsConditions.sections.links.title')}</h3>
                                 <p>{t('termsConditions.sections.links.content')}</p>
                             </TermsSection>
                         )}
 
                         {activeSection === 'merchants' && (
                             <TermsSection id="merchants" title="Merchant Terms & Conditions" icon={sections[1].icon} colorTheme="accent1">
-                                <p className="lead text-xl text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6 text-h4">
                                     These Merchant Terms and Conditions govern the relationship between UrbanDrop Group Limited and the merchant entity or individual that registers to sell goods via the UrbanDrop platform.
                                 </p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">1. Role of UrbanDrop</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">1. Role of UrbanDrop</h3>
                                 <p>
                                     UrbanDrop operates an online marketplace that enables Merchants to offer goods to customers and facilitates order placement, payment processing, and customer support. UrbanDrop does not manufacture, prepare, store, or supply food or grocery items.
                                 </p>
                                 <p>All contracts for the sale of goods are formed directly between the Merchant and the customer. The Merchant is the seller of record for all orders fulfilled through the Platform.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">2. Merchant Eligibility and Onboarding</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">2. Merchant Eligibility and Onboarding</h3>
                                 <p>By registering as a Merchant, you confirm that:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>You are legally established and authorised to trade in the United Kingdom</li>
@@ -394,7 +397,7 @@ const TermsAndConditions = () => {
                                 <p>UrbanDrop reserves the right to reject, suspend, or terminate Merchant accounts that fail to meet these requirements.</p>
                                 <p className="mt-4">You agree that your electronic acceptance of these Terms constitutes a legally binding agreement between you and UrbanDrop. UrbanDrop maintains electronic records of Merchant acceptance including the date, timestamp, IP address, and version of Terms at acceptance.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">3. Merchant Obligations</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">3. Merchant Obligations</h3>
                                 <p>The Merchant is solely responsible for:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>The quality, safety, legality, and accuracy of all products listed</li>
@@ -406,7 +409,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>The Merchant must not substitute items without customer approval unless explicitly permitted by Platform functionality.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">4. Orders and Fulfilment</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">4. Orders and Fulfilment</h3>
                                 <p>The Merchant agrees to:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>Accept and fulfil orders in good faith</li>
@@ -415,7 +418,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>UrbanDrop may monitor order acceptance rates, cancellation rates, and fulfilment performance. Repeated failures may result in penalties, reduced visibility, suspension, or termination.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">5. Pricing and Promotions</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">5. Pricing and Promotions</h3>
                                 <p>Merchants set their own prices but acknowledge that:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>Prices must be fair, transparent, and compliant with consumer protection law</li>
@@ -424,7 +427,7 @@ const TermsAndConditions = () => {
                                     <li>Merchants may not inflate prices in a way that misleads customers or breaches applicable law</li>
                                 </ul>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">6. Payments and Settlement</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">6. Payments and Settlement</h3>
                                 <p>UrbanDrop collects payments from customers on behalf of Merchants and acts as a commercial agent for payment processing purposes.</p>
                                 <p className="mt-4">Merchants are entitled to receive the net value of completed orders, calculated as:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
@@ -436,7 +439,7 @@ const TermsAndConditions = () => {
                                 <p className="mt-4 font-semibold text-gray-900">Payment Processing via Stripe:</p>
                                 <p>UrbanDrop uses Stripe to provide payment processing services. By agreeing to these Terms, you agree to be bound by the Stripe Services Agreement. You authorise UrbanDrop to share accurate business information with Stripe for onboarding, compliance, fraud prevention, and payment processing.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">7. Refunds, Complaints, and Chargebacks</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">7. Refunds, Complaints, and Chargebacks</h3>
                                 <p>UrbanDrop may issue refunds to customers in accordance with its refund policy. Where a refund or chargeback arises due to:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>Incorrect items</li>
@@ -447,7 +450,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>The Merchant bears full financial responsibility. UrbanDrop may deduct refunded amounts from future payouts or invoice the Merchant directly.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">8. Food Safety and Compliance</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">8. Food Safety and Compliance</h3>
                                 <p>Merchants must comply with all UK food safety and hygiene regulations, allergen labelling requirements, and product traceability obligations.</p>
                                 <p className="mt-4">Merchants must immediately notify UrbanDrop of:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
@@ -457,7 +460,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>Failure to do so is grounds for immediate termination.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">9. Permitted Products and Prohibited Items</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">9. Permitted Products and Prohibited Items</h3>
                                 <p className="font-semibold text-gray-900 mb-2">9.1 Permitted Products</p>
                                 <p>Merchants may only list and sell food and grocery products that are lawful to sell in the United Kingdom and expressly permitted by UrbanDrop through the Platform.</p>
                                 <p className="font-semibold text-gray-900 mb-2 mt-4">9.2 Prohibited Products</p>
@@ -471,7 +474,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p className="text-red-600 font-semibold">Any attempt to list or sell alcohol, tobacco, or prohibited substances is a material breach of these Terms.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">10. Delivery</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">10. Delivery</h3>
                                 <p>Where delivery is facilitated via the Platform, the Merchant remains responsible for:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>Proper packaging</li>
@@ -480,7 +483,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>UrbanDrop is not responsible for the quality of goods after preparation but before delivery, except where required by law.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">11. Insurance and Indemnity</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">11. Insurance and Indemnity</h3>
                                 <p>Merchants must maintain adequate insurance, including public liability and product liability insurance.</p>
                                 <p className="mt-4">The Merchant agrees to indemnify and hold harmless UrbanDrop against all claims, losses, damages, fines, penalties, and legal costs arising from:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
@@ -491,7 +494,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>This obligation survives termination.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">12. Platform Use and Conduct</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">12. Platform Use and Conduct</h3>
                                 <p>Merchants must not:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>Manipulate ratings or reviews</li>
@@ -501,7 +504,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>UrbanDrop may suspend or terminate access for any breach.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">13. Suspension and Termination</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">13. Suspension and Termination</h3>
                                 <p>UrbanDrop may suspend or terminate the Merchant account immediately where:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>There is a serious breach of these Terms</li>
@@ -511,7 +514,7 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>Merchants may terminate with notice, subject to outstanding obligations. Termination does not affect accrued rights, liabilities, or indemnities.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">14. Limitation of Liability</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">14. Limitation of Liability</h3>
                                 <p>To the maximum extent permitted by law:</p>
                                 <ul className="list-disc pl-6 mb-4 text-gray-600">
                                     <li>UrbanDrop is not liable for loss of profits, revenue, or business</li>
@@ -519,29 +522,29 @@ const TermsAndConditions = () => {
                                 </ul>
                                 <p>Nothing in these Terms limits liability where such limitation is unlawful.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">15. Data Protection</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">15. Data Protection</h3>
                                 <p>Merchants must process customer data in accordance with the UK GDPR and only for order fulfilment. Use of customer data for marketing or unrelated activities is strictly prohibited.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">16. Amendments</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">16. Amendments</h3>
                                 <p>UrbanDrop may update these Terms from time to time. Continued use of the Platform constitutes acceptance of updated Terms.</p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">17. Governing Law and Jurisdiction</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">17. Governing Law and Jurisdiction</h3>
                                 <p>The laws of England and Wales govern these Terms. The courts of England and Wales have exclusive jurisdiction.</p>
                             </TermsSection>
                         )}
 
                         {activeSection === 'customers' && (
                             <TermsSection id="customers" title="Customer Terms" icon={sections[2].icon} colorTheme="accent2">
-                                <p className="lead text-xl text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6 text-h4">
                                     Information regarding ordering, payment, and receiving deliveries as a customer on the Urbandrop platform.
                                 </p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">1. Placing Orders</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">1. Placing Orders</h3>
                                 <p>
                                     When you place an order on Urbandrop, it constitutes an offer to purchase the specified items. The contract is formed when you receive an order confirmation. We reserve the right to decline any order.
                                 </p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">2. Pricing & Payment</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">2. Pricing & Payment</h3>
                                 <p>
                                     All prices are displayed in the local currency and include applicable taxes unless otherwise stated. Delivery fees are calculated at checkout. Payment must be made validly before an order is fulfilled. We use secure third-party payment gateways to process transactions.
                                 </p>
@@ -562,7 +565,7 @@ const TermsAndConditions = () => {
                                     </div>
                                 </div>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">3. Delivery Logistics</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">3. Delivery Logistics</h3>
                                 <p>
                                     Delivery times provided are estimates. While we strive to ensure prompt delivery, factors such as weather, traffic, and merchant preparation times can cause delays. Urbandrop is not liable for reasonably foreseeable delays.
                                 </p>
@@ -571,7 +574,7 @@ const TermsAndConditions = () => {
 
                         {activeSection === 'promos' && (
                             <TermsSection id="promos" title="Promotions & Discounts" icon={sections[3].icon} colorTheme="accent3">
-                                <p className="lead text-xl text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6 text-h4">
                                     Rules surrounding the use of promo codes, vouchers, and special discount events.
                                 </p>
 
@@ -610,21 +613,21 @@ const TermsAndConditions = () => {
 
                         {activeSection === 'riders' && (
                             <TermsSection id="riders" title="Rider & Delivery Partner Terms" icon={sections[4].icon} colorTheme="secondary">
-                                <p className="lead text-xl text-gray-600 mb-6">
+                                <p className="text-gray-600 mb-6 text-h4">
                                     Expectations and guidelines for independent delivery partners working with Urbandrop.
                                 </p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">1. Independent Contractor Status</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">1. Independent Contractor Status</h3>
                                 <p>
                                     Riders act as independent contractors, not employees. You are responsible for your own tax obligations, insurance, and vehicle maintenance.
                                 </p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">2. Service Standards</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">2. Service Standards</h3>
                                 <p>
                                     Riders are expected to maintain a professional demeanor, adhere to all local traffic laws, and ensure goods are transported safely and hygienically. Tampering with customer orders is grounds for immediate termination and potential legal action.
                                 </p>
 
-                                <h3 className="text-lg font-bold text-gray-900 mt-8 mb-3">3. Payments</h3>
+                                <h3 className="text-gray-900 mt-8 mb-3">3. Payments</h3>
                                 <p>
                                     Earnings are calculated per delivery based on distance and dynamic pricing factors. Payouts are generated automatically on a weekly cycle to your nominated bank account.
                                 </p>

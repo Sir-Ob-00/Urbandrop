@@ -17,17 +17,14 @@ const Footer = () => {
     if (email && email.includes('@')) {
       setLoading(true);
       try {
-        const response = await fetch("https://formsubmit.co/ajax/Info@urbandrop.io", {
+        const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+        const response = await fetch(`${apiBaseUrl}/newsletter/subscribe`, {
           method: "POST",
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
           },
-          body: JSON.stringify({
-            email: email,
-            _subject: "New Newsletter Subscription from Urbandrop",
-            _template: "table"
-          })
+          body: JSON.stringify({ email })
         });
 
         if (response.ok) {
@@ -65,7 +62,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-4 gap-10 text-sm">
         {/* Brand */}
         <div>
-          <h2 className="text-4xl font-bold mb-3 text-white">
+          <h2 className="mb-3 text-white">
             <span className="text-5xl inline">U</span>
             <span className="inline">rban</span>
             <span className="text-5xl inline">D</span>
@@ -78,9 +75,8 @@ const Footer = () => {
         </div>
 
 
-        {/* Newsletter*/}
         <div>
-          <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.getExclusiveDeals')}</h3>
+          <h4 className="text-white mb-4">{t('footer.getExclusiveDeals')}</h4>
           <div className="relative">
             {subscribed ? (
               <div className="bg-[#5CB35E]/20 text-[#5CB35E] px-4 py-3 rounded-md font-medium text-center">
@@ -110,7 +106,7 @@ const Footer = () => {
 
         {/* Legal Pages */}
         <div>
-          <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.legalPages')}</h3>
+          <h4 className="text-white mb-4">{t('footer.legalPages')}</h4>
           <ul className="space-y-2">
             {legalLinks.map((link) => (
               <li key={link.name}>
@@ -144,7 +140,7 @@ const Footer = () => {
 
         {/* Important Links */}
         <div>
-          <h3 className="font-bold text-2xl mb-4 text-white">{t('footer.importantLinks')}</h3>
+          <h4 className="text-white mb-4">{t('footer.importantLinks')}</h4>
           <ul className="space-y-2">
             {importantLinks.map((link) => (
               <li key={link.name}>

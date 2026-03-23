@@ -4,8 +4,41 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* Main Page Titles / Hero Sections */
+  h1, .text-h1 {
+    @apply font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight;
+  }
+  
+  /* Major Section Headings */
+  h2, .text-h2 {
+    @apply font-heading text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  
+  /* Sub-sections / Card Titles */
+  h3, .text-h3 {
+    @apply font-heading text-2xl sm:text-3xl lg:text-4xl font-semibold leading-snug;
+  }
+  
+  /* Small Titles */
+  h4, .text-h4 {
+    @apply font-heading text-xl sm:text-2xl font-semibold leading-snug;
+  }
+  
+  /* Standard Body Text & Subtexts */
+  p, .text-body {
+    @apply font-body text-base sm:text-lg text-gray-600 leading-relaxed;
+  }
+  
+  /* Small utility text */
+  .text-small {
+    @apply font-body text-sm text-gray-500;
+  }
+}
+
 /* Global body background */
 body {
+  @apply font-body text-gray-800;
   background: linear-gradient(135deg, #fff5ea 0%, #fef3e0 100%);
   min-height: 100vh;
 }

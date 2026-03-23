@@ -26,6 +26,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: t('navbar.home'), href: "/" },
+    { name: t('navbar.aboutUs'), href: "/about-us" },
+    { name: t('navbar.customer'), href: "/customer" },
+    { name: t('navbar.merchant'), href: "/become-merchant" },
     { name: t('navbar.contactUs'), href: "/contact-us" },
     { name: "Join Beta", href: "/beta", isCTA: true },
   ];
@@ -38,7 +41,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <span className="font-medium">{t('navbar.findLocation')}</span>
             <span className="text-gray-500">|</span>
-            <a href="mailto:info@urbandrop.io" className="hover:underline">info@urbandrop.io</a>
+            <a href="mailto:support@urbandrop.io" className="hover:underline">support@urbandrop.io</a>
           </div>
 
           <div className="flex items-center gap-4">
@@ -86,7 +89,7 @@ const Navbar = () => {
         </a>
 
         {/* Desktop Nav - Centered */}
-        <nav className="hidden lg:flex items-center gap-8 absolute left-1/2 transform -translate-x-1/2">
+        <nav className="hidden lg:flex items-center gap-3 xl:gap-5 absolute left-1/2 transform -translate-x-1/2">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.href;
             const isHovered = hovered === link.name;
@@ -96,7 +99,7 @@ const Navbar = () => {
                 <Link
                   key={link.name}
                   to={link.href}
-                  className="bg-gradient-to-r from-green-500 to-[#5CB35E] text-white px-5 py-2 rounded-lg font-bold shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5 ml-4 border border-green-400"
+                  className="bg-gradient-to-r from-green-500 to-[#5CB35E] text-white px-4 py-1.5 rounded-lg font-bold font-heading text-sm xl:text-base shadow-md hover:shadow-lg transition transform hover:-translate-y-0.5 ml-2 border border-green-400 whitespace-nowrap"
                 >
                   {link.name}
                 </Link>
@@ -107,7 +110,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className={`relative inline-block focus:outline-none overflow-hidden px-3 py-1 ${isTop ? 'text-dark' : 'text-dark'}`}
+                className={`relative inline-block focus:outline-none overflow-hidden px-2 xl:px-3 py-1 font-heading text-sm xl:text-base whitespace-nowrap ${isTop ? 'text-dark' : 'text-dark'}`}
                 onMouseEnter={() => setHovered(link.name)}
                 onMouseLeave={() => setHovered(null)}
                 onFocus={() => setHovered(link.name)}
@@ -160,7 +163,7 @@ const Navbar = () => {
                     <li key={link.name} className="w-full flex justify-center pb-2">
                       <Link
                         to={link.href}
-                        className="bg-gradient-to-r from-green-500 to-[#5CB35E] text-white px-6 py-2 rounded-lg font-bold shadow hover:shadow-md transition w-11/12 text-center border border-green-400"
+                        className="bg-gradient-to-r from-green-500 to-[#5CB35E] text-white px-6 py-2 rounded-lg font-bold font-heading shadow hover:shadow-md transition w-[200px] text-center border border-green-400"
                         onClick={() => setIsOpen(false)}
                       >
                         {link.name}
@@ -173,7 +176,7 @@ const Navbar = () => {
                   <li key={link.name}>
                     <a
                       href={link.href}
-                      className="text-dark relative inline-block focus:outline-none overflow-hidden px-3 py-1"
+                      className="text-dark font-heading relative inline-block focus:outline-none overflow-hidden px-3 py-1"
                       onClick={() => setIsOpen(false)}
                       onMouseEnter={() => setHovered(link.name)}
                       onMouseLeave={() => setHovered(null)}
@@ -218,7 +221,7 @@ const Navbar = () => {
               <li className="w-full flex justify-center">
                 <a
                   href="/#launch-countdown"
-                  className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition w-11/12 text-center"
+                  className="bg-[#5CB35E] text-white px-5 py-2 rounded-lg font-medium hover:bg-[#4a954d] transition w-[200px] text-center"
                   onClick={() => setIsOpen(false)}
                 >
                   {t('navbar.getTheApp')}

@@ -26,7 +26,7 @@ const AboutHero = () => {
                         transition={{ duration: 0.7, delay: 0.2, ease: "easeOut" }}
                     >
 
-                        <h1 className="text-5xl md:text-7xl font-black leading-tight mb-6">
+                        <h1 className="mb-6">
                             {t('about.hero.title1')} <span className="bg-[#f1be21] bg-clip-text text-transparent">{t('about.hero.title2')}</span>.<br />
                             {t('about.hero.title3')} <span className="bg-[#f1be21] bg-clip-text text-transparent">{t('about.hero.title4')}</span>.
                         </h1>
@@ -35,7 +35,7 @@ const AboutHero = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.4 }}
-                            className="text-xl md:text-2xl text-white/90 max-w-lg mx-auto md:mx-0 leading-relaxed"
+                            className="text-white/90 max-w-lg mx-auto md:mx-0"
                         >
                             {t('about.hero.desc')}
                         </motion.p>

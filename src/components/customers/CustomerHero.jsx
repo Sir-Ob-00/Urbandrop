@@ -55,14 +55,14 @@ const CustomerHero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="space-y-8"
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight tracking-tight text-gray-900">
+            <h1 className="text-gray-900 tracking-tight">
               {t('customer.hero.title1')} <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00b36b] to-[#00ff99]">
                 {t('customer.hero.title2')}
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-lg">
+            <p className="text-gray-600 max-w-lg">
               {t('customer.hero.desc')}
             </p>
 
@@ -103,7 +103,7 @@ const CustomerHero = () => {
                   </div>
                   <div>
                     <p className="text-gray-900 font-bold">{t('customer.hero.orderDelivered')}</p>
-                    <p className="text-gray-600 text-xs">{t('customer.hero.justNow')}</p>
+                    <p className="text-small text-gray-600">{t('customer.hero.justNow')}</p>
                   </div>
                 </div>
               </div>

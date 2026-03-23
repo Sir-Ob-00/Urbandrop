@@ -64,9 +64,9 @@ const MerchantFeatures = () => {
             />
             <div className="absolute inset-0 bg-black/60" />
             <div className="relative z-10 flex items-center justify-center h-full px-6">
-              <h3 className="text-4xl md:text-8xl lg:text-9xl font-extrabold text-center tracking-tight drop-shadow-2xl">
+              <h2 className="text-center drop-shadow-2xl lg:text-8xl xl:text-9xl">
                 {p.title}
-              </h3>
+              </h2>
             </div>
           </div>
         ))}

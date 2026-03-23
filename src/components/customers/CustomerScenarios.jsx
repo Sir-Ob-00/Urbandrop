@@ -43,10 +43,10 @@ const ScenarioItem = ({ scenario, index, scrollYProgress, totalScenarios }) => {
 
             {/* Content */}
             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-                <h3 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl tracking-tight">
+                <h2 className="text-white mb-6 drop-shadow-2xl">
                     {scenario.title}
-                </h3>
-                <p className="text-2xl md:text-3xl font-light text-gray-100 drop-shadow-lg">
+                </h2>
+                <p className="text-body text-gray-100 drop-shadow-lg">
                     {scenario.subtitle}
                 </p>
             </div>
@@ -98,7 +98,7 @@ const CustomerScenarios = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg"
+                        className="text-white drop-shadow-lg"
                     >
                         {t('customer.scenarios.title1')} <span className="text-primary">{t('customer.scenarios.title2')}</span>
                     </motion.h2>

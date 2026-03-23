@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const MerchantCTA = () => {
   const { t } = useTranslation();
@@ -22,10 +23,10 @@ const MerchantCTA = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h2 className="text-white mb-6">
             {t('merchants.cta.title')}
           </h2>
-          <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
+          <p className="text-white/90 mb-12">
             {t('merchants.cta.desc')}
           </p>
 
@@ -34,10 +35,10 @@ const MerchantCTA = () => {
               {t('merchants.cta.button')}
               <ArrowRight size={24} />
             </a>
-            <button className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all flex items-center gap-3">
+            <a href="https://wa.me/447466738584" target="_blank" rel="noopener noreferrer" className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all flex items-center gap-3">
               <Phone size={24} />
               {t('merchants.cta.contact')}
-            </button>
+            </a>
           </div>
 
           <motion.div
@@ -47,15 +48,15 @@ const MerchantCTA = () => {
             viewport={{ once: true }}
             className="mt-12 text-white/80 flex flex-col items-center gap-4"
           >
-            <p className="text-lg">
+            <p>
               {t('merchants.cta.footer')}
             </p>
-            <a href="/terms-and-conditions#merchants" className="inline-flex items-center text-sm font-medium text-white hover:text-white/80 hover:underline transition-colors">
+            <Link to="/terms-and-conditions#merchants" className="bg-white/10 hover:bg-white/20 border border-white/20 px-6 py-3 rounded-xl inline-flex items-center text-sm font-bold text-white transition-all shadow-sm backdrop-blur-sm mt-2">
               Review Merchant Terms & Conditions
-              <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-            </a>
+            </Link>
           </motion.div>
         </motion.div>
       </div>

@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import countriesData from "../data/countries.json";
 import logo from "../assets/images/logo-1.png";
 import CyberButton from "../components/common/CyberButton";
+import { Instagram, Youtube, Linkedin } from "lucide-react";
 
 const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to UrbanDrop Beta!" }) => {
   const [formData, setFormData] = useState({
@@ -191,9 +192,20 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           <p className="text-gray-600 text-base mb-6">
             You've successfully joined our beta testing program.
           </p>
-          <p className="text-gray-500 text-sm">
+          <p className="text-gray-500 text-sm mb-6">
             Our team will contact you when testing begins. Check your email for updates.
           </p>
+          <div className="flex items-center justify-center gap-5 mt-2">
+            <a href="https://www.instagram.com/urbandrop.io?igsh=MTBsbXVsdjR6dzNocw%3D%3D&utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <Instagram size={20} />
+            </a>
+            <a href="https://youtube.com/@urbandropgroup?si=gDd_BU7TLc3NJOzO" aria-label="YouTube" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <Youtube size={20} />
+            </a>
+            <a href="https://www.linkedin.com/company/108883908/admin/dashboard/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <Linkedin size={20} />
+            </a>
+          </div>
         </div>
       </div>
     );
@@ -410,9 +422,6 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 <option value="iPhone" className="text-gray-700">
                   iPhone
                 </option>
-                <option value="Other" className="text-gray-700">
-                  Other
-                </option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-400">
                 <svg className="fill-current h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -423,19 +432,21 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           </div>
 
           {/* Submit Button */}
-          <CyberButton type="submit" disabled={isSubmitting} className="w-full mt-8">
-            {isSubmitting ? (
-              <>
-                <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                </svg>
-                Submitting...
-              </>
-            ) : (
-              "Join the Beta Now"
-            )}
-          </CyberButton>
+          <div className="flex justify-center mt-8">
+            <CyberButton type="submit" disabled={isSubmitting} className="w-[85%] max-w-[280px] md:max-w-none md:w-full flex justify-center items-center">
+              {isSubmitting ? (
+                <div className="flex items-center justify-center gap-2">
+                  <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  </svg>
+                  <span>Submitting...</span>
+                </div>
+              ) : (
+                "Join the Beta Now"
+              )}
+            </CyberButton>
+          </div>
 
           {/* Additional Info */}
           <p className="text-center text-sm text-gray-500 pt-2">

@@ -62,7 +62,7 @@ const ContactForm = () => {
             transition={{ duration: 0.8 }}
           >
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">{t('contact.form.sidebar.title')}</h3>
+              <h3 className="text-gray-900 mb-6">{t('contact.form.sidebar.title')}</h3>
               <p className="text-gray-600 mb-8">
                 {t('contact.form.sidebar.desc')}
               </p>
@@ -83,8 +83,8 @@ const ContactForm = () => {
                     <item.icon size={20} />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900">{item.title}</h4>
-                    <p className="text-gray-600 text-sm">{item.content}</p>
+                    <h4 className="text-gray-900">{item.title}</h4>
+                    <p className="text-small text-gray-600">{item.content}</p>
                   </div>
                 </motion.a>
               ))}
@@ -185,7 +185,7 @@ const ContactForm = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#1a1a1a] text-white py-5 rounded-2xl font-bold text-lg hover:bg-black transition-all transform hover:scale-[1.01] shadow-xl flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
+                    className="w-full bg-[#5CB35E] text-white py-5 rounded-2xl font-bold text-lg hover:bg-[#4a954d] transition-all transform hover:scale-[1.01] shadow-xl flex items-center justify-center gap-3 disabled:opacity-70 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? (
                       <>
@@ -208,7 +208,7 @@ const ContactForm = () => {
                   <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mb-6">
                     <CheckCircle size={48} className="text-[#5CB35E]" />
                   </div>
-                  <h3 className="text-3xl font-bold text-gray-900 mb-4">{t('contact.form.success.title')}</h3>
+                  <h3 className="text-gray-900 mb-4">{t('contact.form.success.title')}</h3>
                   <p className="text-gray-600 max-w-md">
                     {t('contact.form.success.desc')}
                   </p>

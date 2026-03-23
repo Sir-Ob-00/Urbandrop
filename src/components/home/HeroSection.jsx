@@ -21,7 +21,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-center p-4">
         <motion.h1
-          className="text-2xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight mb-6 md:mt-10"
+          className="text-3xl sm:text-h1 text-white mb-6 md:mt-10 leading-tight"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -56,7 +56,7 @@ const HeroSection = () => {
           </motion.span>
         </motion.h1>
         <motion.p
-          className="text-lg md:text-2xl text-gray-200 max-w-2xl mx-auto mb-8"
+          className="text-sm sm:text-lg text-white max-w-2xl mx-auto mb-8 font-body"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1.5 }}

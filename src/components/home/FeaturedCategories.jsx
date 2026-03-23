@@ -55,11 +55,11 @@ const FeaturedCategories = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+          <h2 className="text-gray-900 mb-4">
             {t('home.featured.title')}
           </h2>
           <div className="w-24 h-1 bg-gray-900 mx-auto rounded-full mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 max-w-2xl mx-auto">
             {t('home.featured.subtitle')}
           </p>
         </motion.div>
@@ -102,8 +102,8 @@ const FeaturedCategories = () => {
                       transition={{ duration: 0.3, delay: 0.1 }}
                       className="text-white"
                     >
-                      <h3 className="text-3xl font-bold mb-3 leading-tight">{category.title}</h3>
-                      <p className="text-lg text-gray-200 mb-6 max-w-md">{category.description}</p>
+                      <h3 className="mb-3">{category.title}</h3>
+                      <p className="text-gray-200 mb-6 max-w-md">{category.description}</p>
                       {/* Explore more buttons */}
                       {/* <button className="flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur-md text-white px-6 py-3 rounded-full transition-all group">
                         {t('home.featured.exploreNow')}
@@ -117,7 +117,7 @@ const FeaturedCategories = () => {
                       exit={{ opacity: 0 }}
                       className="absolute bottom-8 left-8"
                     >
-                      <h3 className="text-2xl font-bold text-white/90 vertical-text origin-bottom-left transform -rotate-90 translate-x-8 whitespace-nowrap">
+                      <h3 className="text-white/90 vertical-text origin-bottom-left transform -rotate-90 translate-x-8 whitespace-nowrap">
                         {category.title}
                       </h3>
                     </motion.div>
@@ -154,8 +154,8 @@ const FeaturedCategories = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
 
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <h3 className="text-2xl font-bold mb-2">{category.title}</h3>
-                <p className="text-gray-200 mb-4 text-sm">{category.description}</p>
+                <h3 className="mb-2">{category.title}</h3>
+                <p className="text-small text-gray-200 mb-4">{category.description}</p>
                 {/* Explore more button */}
                 {/* <button className="flex items-center gap-2 text-sm font-semibold hover:underline">
                   {t('home.featured.exploreNow')} <ArrowUpRight className="w-4 h-4" />

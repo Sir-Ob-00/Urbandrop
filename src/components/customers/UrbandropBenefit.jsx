@@ -116,11 +116,11 @@ const BenefitCard = ({ benefit, index }) => {
                             transition={{ delay: 0.2, duration: 0.8 }}
                             style={{ translateZ: 80 }}
                         >
-                            <h3 className="text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-2xl tracking-tighter">
+                            <h3 className="text-h2 text-white mb-4 drop-shadow-2xl">
                                 {benefit.title}
                             </h3>
                             <div className={`h-1 w-20 bg-primary mb-6 rounded-full ${benefit.align === 'right' ? 'ml-auto' : ''}`} />
-                            <p className="text-xl md:text-2xl text-white/90 font-light tracking-wide max-w-md">
+                            <p className="text-body text-white/90 max-w-md">
                                 {benefit.subtitle}
                             </p>
                         </motion.div>
@@ -180,10 +180,10 @@ const UrbandropBenefit = () => {
                     viewport={{ once: true }}
                     className="text-center mb-40"
                 >
-                    <h2 className="text-6xl md:text-8xl font-bold text-white mb-8 tracking-tighter">
+                    <h2 className="text-white mb-8">
                         {t('customer.benefits.title1')} <span className="text-[#5CB35E]">{t('customer.benefits.title2')}</span><span className="text-yellow-400">{t('customer.benefits.title3')}</span>{t('customer.benefits.title4')}
                     </h2>
-                    <p className="text-2xl text-gray-400 max-w-3xl mx-auto font-light">
+                    <p className="text-gray-400 max-w-3xl mx-auto">
                         {t('customer.benefits.subtitle')}
                     </p>
                 </motion.div>

@@ -89,10 +89,10 @@ const AdvertisingOptions = ({ className }) => {
               </div>
               {/* Text Content */}
               <div className={`${panel.textColor || 'text-white'} max-w-lg text-center md:text-left mb-8`}>
-                <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6">
+                <h2 className="mb-6">
                   {t(panel.headlineKey)}
                 </h2>
-                <p className={`text-base md:text-lg ${panel.textColor ? panel.textColor + '/80' : 'text-gray-200'}`}>
+                <p className={`${panel.textColor ? panel.textColor + '/80' : 'text-gray-200'}`}>
                   {t(panel.descriptionKey)}
                 </p>
               </div>

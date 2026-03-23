@@ -95,7 +95,6 @@ const WhyJoin = () => {
     <section ref={containerRef} className="relative">
       <div className="py-20 bg-#f7ede3 text-green-600 text-center">
         <motion.h2
-          className="text-5xl md:text-7xl font-black"
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -137,8 +136,8 @@ const WhyJoin = () => {
                     <div className="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-semibold mb-4" style={{ color: panel.accentColor }}>
                       {panel.badge}
                     </div>
-                    <h3 className="text-3xl md:text-5xl font-bold mb-4 text-white">{panel.title}</h3>
-                    <p className="text-lg md:text-xl text-gray-200 mb-6">{panel.subtitle}</p>
+                    <h3 className="mb-4 text-white">{panel.title}</h3>
+                    <p className="text-gray-200 mb-6">{panel.subtitle}</p>
                     <a href="/#launch-countdown">
                       <motion.button
                         className="px-8 py-4 rounded-full font-semibold text-white shadow-lg hover:shadow-xl transition"

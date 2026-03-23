@@ -263,7 +263,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                 {/* Header */}
                 <div className="sticky top-0 bg-white border-b border-gray-100 px-6 py-4 rounded-t-2xl z-10">
                     <div className="flex items-center justify-between">
-                        <h2 id="modal-title" className="text-xl font-bold text-gray-900">
+                        <h2 id="modal-title" className="text-gray-900">
                             Report a Technical Issue
                         </h2>
                         <button
@@ -291,7 +291,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-semibold text-gray-900 mb-2">Report Submitted!</h3>
+                            <h3 className="text-gray-900 mb-2">Report Submitted!</h3>
                             <p className="text-gray-600">Thank you for helping us improve.</p>
                         </div>
                     ) : (

@@ -114,7 +114,7 @@ const WhyChooseUrbandrop = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
-            className="text-6xl md:text-7xl font-black text-[#183A37] mb-6 leading-tight"
+            className="text-[#183A37] mb-6"
           >
             {t('home.whyChoose.title')} <span className="bg-gradient-to-r from-[#5CB35E] via-[#4a954d] to-[#3d7c40] bg-clip-text text-transparent">{t('home.whyChoose.difference')}</span>
           </motion.h2>
@@ -151,10 +151,10 @@ const WhyChooseUrbandrop = () => {
                       viewport={{ once: true }}
                     >
                       <div className="px-4">
-                        <h3 className={`${isActive ? 'text-xl md:text-4xl lg:text-5xl xl:text-6xl' : 'text-lg md:text-3xl lg:text-4xl xl:text-5xl'} font-bold mb-2 md:mb-3 lg:mb-4 leading-tight text-gray-700`}>
+                        <h3 className={`${isActive ? 'text-h2' : 'text-h3'} mb-2 md:mb-3 lg:mb-4 text-gray-700`}>
                           {feature.title}
                         </h3>
-                        <p className={`text-xs md:text-base lg:text-lg xl:text-xl leading-relaxed text-gray-600`}>
+                        <p className={`${isActive ? 'text-body font-medium' : 'text-small'} text-gray-600`}>
                           {feature.description}
                         </p>
                       </div>
@@ -233,7 +233,7 @@ const WhyChooseUrbandrop = () => {
 
                       {/* Content Overlay */}
                       <div className="absolute bottom-8 md:bottom-12 lg:bottom-16 left-4 md:left-8 right-4 md:right-8">
-                        <h3 className="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-2 md:mb-4">
+                        <h3 className="text-h2 text-white mb-2 md:mb-4">
                           {feature.title}
                         </h3>
                         <div className="flex items-center gap-2">

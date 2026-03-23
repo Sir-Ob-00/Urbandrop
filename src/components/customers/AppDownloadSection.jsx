@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
 
 const AppDownloadSection = () => {
@@ -27,7 +28,7 @@ const AppDownloadSection = () => {
             className="text-primary space-y-8 order-2 lg:order-1"
           >
             <div>
-              <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
+              <h2 className="mb-6 text-primary">
                 {t('customer.appDownload.title1')}
                 <br />
                 <span className="text-primaryDark">{t('customer.appDownload.title2')}</span>
@@ -46,12 +47,12 @@ const AppDownloadSection = () => {
               </a>
             </div>
 
-            <a href="/terms-and-conditions#customers" className="inline-flex items-center text-sm font-medium text-primary hover:text-primaryDark hover:underline transition-colors mt-4">
+            <Link to="/terms-and-conditions#customers" className="inline-flex items-center text-sm font-medium text-primary hover:text-primaryDark hover:underline transition-colors mt-4">
               View Customer Terms & Conditions
               <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-            </a>
+            </Link>
           </motion.div>
 
           {/* Right Image - Coming from Left */}

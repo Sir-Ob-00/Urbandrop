@@ -50,12 +50,12 @@ const AboutProcess = () => {
                             transition={{ delay: index * 0.2, duration: 0.8 }}
                             className="group cursor-default"
                         >
-                            <h3 className="text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white/20 to-transparent mb-2 group-hover:from-white/40 transition-all duration-500">
+                            <div className="font-heading text-6xl md:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-white/20 to-transparent mb-2 group-hover:from-white/40 transition-all duration-500">
                                 {step.id}
-                            </h3>
-                            <p className="text-2xl md:text-3xl font-medium text-white tracking-wide uppercase group-hover:text-green-400 transition-colors duration-300">
+                            </div>
+                            <h3 className="text-white tracking-wide uppercase group-hover:text-green-400 transition-colors duration-300">
                                 {step.label}
-                            </p>
+                            </h3>
                             <div className="w-12 h-1 bg-green-500 mx-auto mt-6 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
                         </motion.div>
                     ))}
