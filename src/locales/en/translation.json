@@ -1,4 +1,4 @@
-{
+﻿{
     "navbar": {
         "findLocation": "Find location",
         "home": "Home",
@@ -147,7 +147,7 @@
             "desc": "Authentic Ethnic Groceries delivered to your doorstep.",
             "downloadApp": "Download App",
             "orderDelivered": "Order Delivered",
-            "justNow": "Just now â€¢ 2 mins ago"
+            "justNow": "Just now in 2 mins"
         },
         "recommendation": {
             "title1": "Curated",
