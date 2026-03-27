@@ -48,12 +48,12 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
     setFormData((prev) => {
       let newPhone = prev.phone;
       if (!newPhone) {
-        newPhone = country.dialCode ? `${country.dialCode} ` : "";
+        newPhone = country.dialCode ? country.dialCode + " " : "";
       } else if (country.dialCode) {
         if (newPhone.startsWith('+')) {
-          newPhone = newPhone.replace(/^\+\d+\s*/, `${country.dialCode} `);
+          newPhone = newPhone.replace(/^\+\d+\s*/, country.dialCode + " ");
         } else {
-          newPhone = `${country.dialCode} ${newPhone}`;
+          newPhone = country.dialCode + " " + newPhone;
         }
       }
       return {
@@ -77,10 +77,38 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       (field) => !String(formData[field] ?? "").trim()
     );
 
-    if (missingFields.length > 0) {
-      setError("Please fill in all required fields.");
+    // Check if country is selected (either from dropdown or manual entry matching)
+    if (!formData.country && !countrySearch.trim()) {
+      setError("Please select a country from the dropdown or type to search.");
       setIsSubmitting(false);
       return;
+    }
+    
+    // If user typed a country but didn't select from dropdown, try to match it
+    if (!formData.country && countrySearch.trim()) {
+      const matchedCountry = countriesData.find(
+        c => c.name.toLowerCase() === countrySearch.trim().toLowerCase()
+      );
+      if (matchedCountry) {
+        setFormData(prev => ({ ...prev, country: matchedCountry.name }));
+      } else {
+        setError('"' + countrySearch + '" is not a valid country. Please select from the dropdown.');
+        setIsSubmitting(false);
+        return;
+      }
+    }
+
+    // Phone number validation - more than 13 digits excluding country code
+    if (formData.phone && formData.phone.trim()) {
+      // Extract digits only from the phone number
+      const digitsOnly = formData.phone.replace(/\D/g, '');
+      
+      // Check if we have enough digits (more than 13)
+      if (digitsOnly.length <= 13) {
+        setError("Please enter a valid phone number with more than 13 digits (excluding country code).");
+        setIsSubmitting(false);
+        return;
+      }
     }
 
     try {
@@ -101,7 +129,8 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
         return;
       }
 
-      const endpoint = `${apiBaseUrl.replace(/\/+$/, "")}/beta-testers`;
+      const baseUrl = apiBaseUrl.replace(/\/+$/, "");
+      const endpoint = baseUrl + "/beta-testers";
 
       // POST to backend API as JSON
       const response = await fetch(endpoint, {
@@ -161,7 +190,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
             isServerError = true;
             errorMessage = "Network connection failed. Please check your internet connection and try again.";
           } else {
-            errorMessage = `Request failed with status ${response.status}. Please try again.`;
+            errorMessage = "Request failed with status " + response.status + ". Please try again.";
           }
         }
         
@@ -255,7 +284,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       console.log("Catch block - Raw message:", rawMessage);
 
       if (isDuplicateEmail) {
-        setError("This email address is already registered for the beta program. If you believe this is an error, please contact our support team.");
+        setError("This email address is already registered for the beta program.");
       } else if (isServerError) {
         setError(rawMessage || "Unable to connect to our servers. Please check your internet connection and try again in a few minutes.");
       } else {
@@ -347,11 +376,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                   onFocus={() => setFocusedField("full_name")}
                   onBlur={() => setFocusedField(null)}
                   placeholder="Jane Doe"
-                  className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                    focusedField === "full_name"
-                      ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                      : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                  }`}
+                  className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "full_name" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
                 />
               </div>
             </div>
@@ -371,11 +396,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                   onFocus={() => setFocusedField("email")}
                   onBlur={() => setFocusedField(null)}
                   placeholder="jane@example.com"
-                  className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                    focusedField === "email"
-                      ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                      : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                  }`}
+                  className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "email" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
                 />
               </div>
             </div>
@@ -405,11 +426,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 }}
                 onBlur={() => setFocusedField(null)}
                 placeholder="Type at least 3 letters..."
-                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "country"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "country" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
                 autoComplete="off"
               />
 
@@ -456,11 +473,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 onFocus={() => setFocusedField("city_state")}
                 onBlur={() => setFocusedField(null)}
                 placeholder="London/ Ohio..."
-                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "city_state"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "city_state" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               />
             </div>
           </div>
@@ -479,11 +492,8 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 onFocus={() => setFocusedField("phone")}
                 onBlur={() => setFocusedField(null)}
                 placeholder="+44 234 567 890"
-                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "phone"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                maxLength={20}
+                className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "phone" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               />
             </div>
           </div>
@@ -501,11 +511,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 onChange={handleChange}
                 onFocus={() => setFocusedField("device")}
                 onBlur={() => setFocusedField(null)}
-                className={`w-full appearance-none px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 font-medium ${
-                  focusedField === "device"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                className={"w-full appearance-none px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 font-medium " + (focusedField === "device" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               >
                 <option value="" disabled className="text-gray-400">
                   Select a device
