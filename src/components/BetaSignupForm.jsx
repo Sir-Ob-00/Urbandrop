@@ -397,7 +397,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           {/* Form Row 4 - Device */}
           <div>
             <label className="block text-sm font-bold text-gray-700 mb-2">
-              Device Information <span className="text-red-500">*</span>
+              Device OS <span className="text-red-500">*</span>
             </label>
             <div className="relative">
               <select
