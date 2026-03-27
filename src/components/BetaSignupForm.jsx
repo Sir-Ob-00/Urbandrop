@@ -98,14 +98,14 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       }
     }
 
-    // Phone number validation - more than 13 digits excluding country code
+    // Phone number validation - minimum 7 digits total for valid international numbers
     if (formData.phone && formData.phone.trim()) {
       // Extract digits only from the phone number
       const digitsOnly = formData.phone.replace(/\D/g, '');
       
-      // Check if we have enough digits (more than 13)
-      if (digitsOnly.length <= 13) {
-        setError("Please enter a valid phone number with more than 13 digits (excluding country code).");
+      // Check if we have enough digits (at least 7 total for valid phone)
+      if (digitsOnly.length < 7) {
+        setError("Please enter a valid phone number with at least 7 digits.");
         setIsSubmitting(false);
         return;
       }
