@@ -317,10 +317,10 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
             {successMessageTitle}
           </h3>
           <p className="text-gray-600 text-base mb-6">
-            You've successfully joined our beta testing program.
+            Thanks for subscribing to participate in the Beta Testing program.
           </p>
           <p className="text-gray-500 text-sm mb-6">
-            Our team will contact you when testing begins. Check your email for updates.
+            Our team will contact you when testing begins. Download link will be sent to your email.
           </p>
           <div className="flex items-center justify-center gap-5 mt-2">
             <a href="https://www.instagram.com/urbandrop.io?igsh=MTBsbXVsdjR6dzNocw%3D%3D&utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
