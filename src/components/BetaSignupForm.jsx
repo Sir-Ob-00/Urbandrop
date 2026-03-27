@@ -166,8 +166,12 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           if (isDuplicateEmail) {
             errorMessage = "This email address is already registered for the beta program. If you believe this is an error, please contact our support team.";
           } else if (response.status >= 500) {
-            // For 500 errors, use the backend message if available, otherwise generic server error
-            if (backendMessage && backendMessage !== "Failed to submit to the backend.") {
+            // For 500 errors, check if it's a database error first
+            const isDatabaseError = normalized.includes("failing row") || normalized.includes("constraint");
+            if (isDatabaseError) {
+              isServerError = true;
+              errorMessage = "A server error occurred while saving your information. Please try again later or contact support.";
+            } else if (backendMessage && backendMessage !== "Failed to submit to the backend.") {
               errorMessage = backendMessage;
             } else {
               isServerError = true;
@@ -276,6 +280,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
         normalized.includes("unavailable") ||
         normalized.includes("timeout") ||
         normalized.includes("fetch") ||
+        normalized.includes("failing row") ||
         rawMessage.includes("Failed to fetch") ||
         rawMessage.includes("NetworkError");
 
@@ -286,7 +291,12 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       if (isDuplicateEmail) {
         setError("This email address is already registered for the beta program.");
       } else if (isServerError) {
-        setError(rawMessage || "Unable to connect to our servers. Please check your internet connection and try again in a few minutes.");
+        // excluding raw database errors to users
+        if (normalized.includes("failing row")) {
+          setError("A server error occurred while saving your information. Please try again later or contact support if the problem persists.");
+        } else {
+          setError(rawMessage || "Unable to connect to our servers. Please check your internet connection and try again in a few minutes.");
+        }
       } else {
         setError("An unexpected error occurred. Please try again later. If the problem persists, please contact our support team.");
       }
