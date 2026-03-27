@@ -501,7 +501,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           {/* Form Row 4 - Device */}
           <div>
             <label className="block text-sm font-bold text-gray-700 mb-2">
-              Device Information <span className="text-red-500">*</span>
+              Device OS <span className="text-red-500">*</span>
             </label>
             <div className="relative">
               <select
@@ -514,7 +514,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 className={"w-full appearance-none px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 font-medium " + (focusedField === "device" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               >
                 <option value="" disabled className="text-gray-400">
-                  Select a device
+                  Select an OS
                 </option>
                 <option value="Android" className="text-gray-700">
                   Android
