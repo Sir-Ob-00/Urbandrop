@@ -414,13 +414,13 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 }`}
               >
                 <option value="" disabled className="text-gray-400">
-                  Select a device
+                  Select an OS
                 </option>
                 <option value="Android" className="text-gray-700">
                   Android
                 </option>
                 <option value="iPhone" className="text-gray-700">
-                  iPhone
+                  Apple(iPhone)
                 </option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-400">
