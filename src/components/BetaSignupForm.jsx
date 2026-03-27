@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import countriesData from "../data/countries.json";
 import logo from "../assets/images/logo-1.png";
 import CyberButton from "../components/common/CyberButton";
-import { Instagram, Youtube, Linkedin } from "lucide-react";
+import { Instagram, Youtube, Linkedin, Facebook } from "lucide-react";
 
 const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to UrbanDrop Beta!" }) => {
   const [formData, setFormData] = useState({
@@ -114,33 +114,93 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
 
       if (!response.ok) {
         let errorMessage = "Failed to submit to the backend.";
+        let isServerError = false;
+        let isDuplicateEmail = false;
+        
         try {
           const errorPayload = await response.json();
-          errorMessage =
-            errorPayload?.error ||
-            errorPayload?.message ||
-            errorMessage;
+          const backendMessage = errorPayload?.error || errorPayload?.message || errorMessage;
+          
+          // Check if this is a duplicate email error
+          const normalized = String(backendMessage).toLowerCase();
+          isDuplicateEmail =
+            normalized.includes("email already exist") ||
+            normalized.includes("email already exists") ||
+            normalized.includes("duplicate") ||
+            normalized.includes("already registered") ||
+            normalized.includes("email taken") ||
+            normalized.includes("unique constraint") ||
+            normalized.includes("duplicate entry") ||
+            normalized.includes("duplicate key") ||
+            normalized.includes("already been registered");
+          
+          if (isDuplicateEmail) {
+            errorMessage = "This email address is already registered for the beta program. If you believe this is an error, please contact our support team.";
+          } else if (response.status >= 500) {
+            // For 500 errors, use the backend message if available, otherwise generic server error
+            if (backendMessage && backendMessage !== "Failed to submit to the backend.") {
+              errorMessage = backendMessage;
+            } else {
+              isServerError = true;
+              errorMessage = "Server is temporarily unavailable. Please try again in a few minutes.";
+            }
+          } else if (response.status === 429) {
+            errorMessage = "Too many requests. Please wait a moment and try again.";
+          } else if (response.status === 0 || response.statusText === "Network Error") {
+            isServerError = true;
+            errorMessage = "Network connection failed. Please check your internet connection and try again.";
+          } else {
+            errorMessage = backendMessage;
+          }
         } catch {
-          // Ignore JSON parsing errors
+          // If JSON parsing fails, check status code
+          if (response.status >= 500) {
+            isServerError = true;
+            errorMessage = "Server is temporarily unavailable. Please try again in a few minutes.";
+          } else if (response.status === 0 || response.statusText === "Network Error") {
+            isServerError = true;
+            errorMessage = "Network connection failed. Please check your internet connection and try again.";
+          } else {
+            errorMessage = `Request failed with status ${response.status}. Please try again.`;
+          }
         }
+        
         console.error("Error: backend request failed. Status:", response.status, response.statusText);
+        console.log("In !response.ok block - Is duplicate email:", isDuplicateEmail);
         throw new Error(errorMessage);
       }
       
       const responseData = await response.json().catch(() => ({}));
-      if (responseData?.result === "error") {
+      console.log("Backend response data:", responseData);
+      console.log("Response status:", response.status);
+      
+      // Check for both error formats: result === "error" OR status === "FAILED"
+      if (responseData?.result === "error" || responseData?.status === "FAILED") {
         const backendMessage =
           responseData.error ||
           responseData.message ||
           "Submission failed inside the backend.";
         const normalized = String(backendMessage).toLowerCase();
+        
+        console.log("Backend error message:", backendMessage);
+        console.log("Normalized message:", normalized);
+        
+        // Enhanced duplicate email detection
         const isDuplicateEmail =
           normalized.includes("email already exist") ||
           normalized.includes("email already exists") ||
-          normalized.includes("duplicate");
+          normalized.includes("duplicate") ||
+          normalized.includes("already registered") ||
+          normalized.includes("email taken") ||
+          normalized.includes("unique constraint") ||
+          normalized.includes("duplicate entry") ||
+          normalized.includes("duplicate key") ||
+          normalized.includes("already been registered");
+
+        console.log("Is duplicate email detected:", isDuplicateEmail);
 
         if (isDuplicateEmail) {
-          setError("email already exist");
+          setError("This email address is already registered for the beta program. If you believe this is an error, please contact our support team.");
         } else {
           setError(backendMessage);
         }
@@ -161,17 +221,45 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       setCountrySearch("");
     } catch (err) {
       console.error("Submission error:", err);
+      console.error("Error message:", err?.message);
+      console.error("Error stack:", err?.stack);
+      
       const rawMessage = err?.message || "";
       const normalized = rawMessage.toLowerCase();
+      
+      // Enhanced duplicate email detection in catch block
       const isDuplicateEmail =
         normalized.includes("email already exist") ||
         normalized.includes("email already exists") ||
-        normalized.includes("duplicate");
+        normalized.includes("duplicate") ||
+        normalized.includes("already registered") ||
+        normalized.includes("email taken") ||
+        normalized.includes("unique constraint") ||
+        normalized.includes("duplicate entry") ||
+        normalized.includes("duplicate key") ||
+        normalized.includes("already been registered");
+
+      // Enhanced server/network error detection
+      const isServerError =
+        normalized.includes("server") ||
+        normalized.includes("network") ||
+        normalized.includes("connection") ||
+        normalized.includes("unavailable") ||
+        normalized.includes("timeout") ||
+        normalized.includes("fetch") ||
+        rawMessage.includes("Failed to fetch") ||
+        rawMessage.includes("NetworkError");
+
+      console.log("Catch block - Is duplicate email:", isDuplicateEmail);
+      console.log("Catch block - Is server error:", isServerError);
+      console.log("Catch block - Raw message:", rawMessage);
 
       if (isDuplicateEmail) {
-        setError("email already exist");
+        setError("This email address is already registered for the beta program. If you believe this is an error, please contact our support team.");
+      } else if (isServerError) {
+        setError(rawMessage || "Unable to connect to our servers. Please check your internet connection and try again in a few minutes.");
       } else {
-        setError("An error occurred. Please try again later.");
+        setError("An unexpected error occurred. Please try again later. If the problem persists, please contact our support team.");
       }
     } finally {
       setIsSubmitting(false);
@@ -204,6 +292,12 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
             </a>
             <a href="https://www.linkedin.com/company/108883908/admin/dashboard/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
               <Linkedin size={20} />
+            </a>
+            <a href="https://www.facebook.com/urbandropgroupltd" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <Facebook size={20} />
+            </a>
+            <a href="https://www.tiktok.com/@urbanrecipe?_r=1&_t=ZN-952wO10Niwp" aria-label="TikTok" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
             </a>
           </div>
         </div>
@@ -420,7 +514,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                   Android
                 </option>
                 <option value="iPhone" className="text-gray-700">
-                  iPhone
+                  Apple(iPhone)
                 </option>
               </select>
               <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-400">
