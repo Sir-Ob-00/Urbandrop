@@ -529,7 +529,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 <option value="Android" className="text-gray-700">
                   Android
                 </option>
-                <option value="iPhone" className="text-gray-700">
+                <option value="iOS" className="text-gray-700">
                   Apple(iPhone)
                 </option>
               </select>
