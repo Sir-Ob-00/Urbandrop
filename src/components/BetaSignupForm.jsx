@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import countriesData from "../data/countries.json";
 import logo from "../assets/images/logo-1.png";
 import CyberButton from "../components/common/CyberButton";
-import { Instagram, Youtube, Linkedin } from "lucide-react";
+import { Instagram, Youtube, Linkedin, Facebook } from "lucide-react";
 
 const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to UrbanDrop Beta!" }) => {
   const [formData, setFormData] = useState({
@@ -48,12 +48,12 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
     setFormData((prev) => {
       let newPhone = prev.phone;
       if (!newPhone) {
-        newPhone = country.dialCode ? `${country.dialCode} ` : "";
+        newPhone = country.dialCode ? country.dialCode + " " : "";
       } else if (country.dialCode) {
         if (newPhone.startsWith('+')) {
-          newPhone = newPhone.replace(/^\+\d+\s*/, `${country.dialCode} `);
+          newPhone = newPhone.replace(/^\+\d+\s*/, country.dialCode + " ");
         } else {
-          newPhone = `${country.dialCode} ${newPhone}`;
+          newPhone = country.dialCode + " " + newPhone;
         }
       }
       return {
@@ -77,10 +77,38 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       (field) => !String(formData[field] ?? "").trim()
     );
 
-    if (missingFields.length > 0) {
-      setError("Please fill in all required fields.");
+    // Check if country is selected (either from dropdown or manual entry matching)
+    if (!formData.country && !countrySearch.trim()) {
+      setError("Please select a country from the dropdown or type to search.");
       setIsSubmitting(false);
       return;
+    }
+    
+    // If user typed a country but didn't select from dropdown, try to match it
+    if (!formData.country && countrySearch.trim()) {
+      const matchedCountry = countriesData.find(
+        c => c.name.toLowerCase() === countrySearch.trim().toLowerCase()
+      );
+      if (matchedCountry) {
+        setFormData(prev => ({ ...prev, country: matchedCountry.name }));
+      } else {
+        setError('"' + countrySearch + '" is not a valid country. Please select from the dropdown.');
+        setIsSubmitting(false);
+        return;
+      }
+    }
+
+    // Phone number validation - minimum 7 digits total for valid international numbers
+    if (formData.phone && formData.phone.trim()) {
+      // Extract digits only from the phone number
+      const digitsOnly = formData.phone.replace(/\D/g, '');
+      
+      // Check if we have enough digits (at least 7 total for valid phone)
+      if (digitsOnly.length < 7) {
+        setError("Please enter a valid phone number with at least 7 digits.");
+        setIsSubmitting(false);
+        return;
+      }
     }
 
     try {
@@ -101,7 +129,8 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
         return;
       }
 
-      const endpoint = `${apiBaseUrl.replace(/\/+$/, "")}/beta-testers`;
+      const baseUrl = apiBaseUrl.replace(/\/+$/, "");
+      const endpoint = baseUrl + "/beta-testers";
 
       // POST to backend API as JSON
       const response = await fetch(endpoint, {
@@ -114,33 +143,97 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
 
       if (!response.ok) {
         let errorMessage = "Failed to submit to the backend.";
+        let isServerError = false;
+        let isDuplicateEmail = false;
+        
         try {
           const errorPayload = await response.json();
-          errorMessage =
-            errorPayload?.error ||
-            errorPayload?.message ||
-            errorMessage;
+          const backendMessage = errorPayload?.error || errorPayload?.message || errorMessage;
+          
+          // Check if this is a duplicate email error
+          const normalized = String(backendMessage).toLowerCase();
+          isDuplicateEmail =
+            normalized.includes("email already exist") ||
+            normalized.includes("email already exists") ||
+            normalized.includes("duplicate") ||
+            normalized.includes("already registered") ||
+            normalized.includes("email taken") ||
+            normalized.includes("unique constraint") ||
+            normalized.includes("duplicate entry") ||
+            normalized.includes("duplicate key") ||
+            normalized.includes("already been registered");
+          
+          if (isDuplicateEmail) {
+            errorMessage = "This email address is already registered for the beta program. If you believe this is an error, please contact our support team.";
+          } else if (response.status >= 500) {
+            // For 500 errors, check if it's a database error first
+            const isDatabaseError = normalized.includes("failing row") || normalized.includes("constraint");
+            if (isDatabaseError) {
+              isServerError = true;
+              errorMessage = "A server error occurred while saving your information. Please try again later or contact support.";
+            } else if (backendMessage && backendMessage !== "Failed to submit to the backend.") {
+              errorMessage = backendMessage;
+            } else {
+              isServerError = true;
+              errorMessage = "Server is temporarily unavailable. Please try again in a few minutes.";
+            }
+          } else if (response.status === 429) {
+            errorMessage = "Too many requests. Please wait a moment and try again.";
+          } else if (response.status === 0 || response.statusText === "Network Error") {
+            isServerError = true;
+            errorMessage = "Network connection failed. Please check your internet connection and try again.";
+          } else {
+            errorMessage = backendMessage;
+          }
         } catch {
-          // Ignore JSON parsing errors
+          // If JSON parsing fails, check status code
+          if (response.status >= 500) {
+            isServerError = true;
+            errorMessage = "Server is temporarily unavailable. Please try again in a few minutes.";
+          } else if (response.status === 0 || response.statusText === "Network Error") {
+            isServerError = true;
+            errorMessage = "Network connection failed. Please check your internet connection and try again.";
+          } else {
+            errorMessage = "Request failed with status " + response.status + ". Please try again.";
+          }
         }
+        
         console.error("Error: backend request failed. Status:", response.status, response.statusText);
+        console.log("In !response.ok block - Is duplicate email:", isDuplicateEmail);
         throw new Error(errorMessage);
       }
       
       const responseData = await response.json().catch(() => ({}));
-      if (responseData?.result === "error") {
+      console.log("Backend response data:", responseData);
+      console.log("Response status:", response.status);
+      
+      // Check for both error formats: result === "error" OR status === "FAILED"
+      if (responseData?.result === "error" || responseData?.status === "FAILED") {
         const backendMessage =
           responseData.error ||
           responseData.message ||
           "Submission failed inside the backend.";
         const normalized = String(backendMessage).toLowerCase();
+        
+        console.log("Backend error message:", backendMessage);
+        console.log("Normalized message:", normalized);
+        
+        // Enhanced duplicate email detection
         const isDuplicateEmail =
           normalized.includes("email already exist") ||
           normalized.includes("email already exists") ||
-          normalized.includes("duplicate");
+          normalized.includes("duplicate") ||
+          normalized.includes("already registered") ||
+          normalized.includes("email taken") ||
+          normalized.includes("unique constraint") ||
+          normalized.includes("duplicate entry") ||
+          normalized.includes("duplicate key") ||
+          normalized.includes("already been registered");
+
+        console.log("Is duplicate email detected:", isDuplicateEmail);
 
         if (isDuplicateEmail) {
-          setError("email already exist");
+          setError("This email address is already registered for the beta program. If you believe this is an error, please contact our support team.");
         } else {
           setError(backendMessage);
         }
@@ -161,17 +254,51 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       setCountrySearch("");
     } catch (err) {
       console.error("Submission error:", err);
+      console.error("Error message:", err?.message);
+      console.error("Error stack:", err?.stack);
+      
       const rawMessage = err?.message || "";
       const normalized = rawMessage.toLowerCase();
+      
+      // Enhanced duplicate email detection in catch block
       const isDuplicateEmail =
         normalized.includes("email already exist") ||
         normalized.includes("email already exists") ||
-        normalized.includes("duplicate");
+        normalized.includes("duplicate") ||
+        normalized.includes("already registered") ||
+        normalized.includes("email taken") ||
+        normalized.includes("unique constraint") ||
+        normalized.includes("duplicate entry") ||
+        normalized.includes("duplicate key") ||
+        normalized.includes("already been registered");
+
+      // Enhanced server/network error detection
+      const isServerError =
+        normalized.includes("server") ||
+        normalized.includes("network") ||
+        normalized.includes("connection") ||
+        normalized.includes("unavailable") ||
+        normalized.includes("timeout") ||
+        normalized.includes("fetch") ||
+        normalized.includes("failing row") ||
+        rawMessage.includes("Failed to fetch") ||
+        rawMessage.includes("NetworkError");
+
+      console.log("Catch block - Is duplicate email:", isDuplicateEmail);
+      console.log("Catch block - Is server error:", isServerError);
+      console.log("Catch block - Raw message:", rawMessage);
 
       if (isDuplicateEmail) {
-        setError("email already exist");
+        setError("This email address is already registered for the beta program.");
+      } else if (isServerError) {
+        // excluding raw database errors to users
+        if (normalized.includes("failing row")) {
+          setError("A server error occurred while saving your information. Please try again later or contact support if the problem persists.");
+        } else {
+          setError(rawMessage || "Unable to connect to our servers. Please check your internet connection and try again in a few minutes.");
+        }
       } else {
-        setError("An error occurred. Please try again later.");
+        setError("An unexpected error occurred. Please try again later. If the problem persists, please contact our support team.");
       }
     } finally {
       setIsSubmitting(false);
@@ -190,10 +317,10 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
             {successMessageTitle}
           </h3>
           <p className="text-gray-600 text-base mb-6">
-            You've successfully joined our beta testing program.
+            Thanks for subscribing to participate in the Beta Testing program.
           </p>
           <p className="text-gray-500 text-sm mb-6">
-            Our team will contact you when testing begins. Check your email for updates.
+            Our team will contact you when testing begins. Download link will be sent to your email.
           </p>
           <div className="flex items-center justify-center gap-5 mt-2">
             <a href="https://www.instagram.com/urbandrop.io?igsh=MTBsbXVsdjR6dzNocw%3D%3D&utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
@@ -204,6 +331,12 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
             </a>
             <a href="https://www.linkedin.com/company/108883908/admin/dashboard/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
               <Linkedin size={20} />
+            </a>
+            <a href="https://www.facebook.com/urbandropgroupltd" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <Facebook size={20} />
+            </a>
+            <a href="https://www.tiktok.com/@urbanrecipe?_r=1&_t=ZN-952wO10Niwp" aria-label="TikTok" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
             </a>
           </div>
         </div>
@@ -253,11 +386,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                   onFocus={() => setFocusedField("full_name")}
                   onBlur={() => setFocusedField(null)}
                   placeholder="Jane Doe"
-                  className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                    focusedField === "full_name"
-                      ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                      : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                  }`}
+                  className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "full_name" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
                 />
               </div>
             </div>
@@ -277,11 +406,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                   onFocus={() => setFocusedField("email")}
                   onBlur={() => setFocusedField(null)}
                   placeholder="jane@example.com"
-                  className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                    focusedField === "email"
-                      ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                      : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                  }`}
+                  className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "email" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
                 />
               </div>
             </div>
@@ -311,11 +436,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 }}
                 onBlur={() => setFocusedField(null)}
                 placeholder="Type at least 3 letters..."
-                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "country"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "country" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
                 autoComplete="off"
               />
 
@@ -362,11 +483,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 onFocus={() => setFocusedField("city_state")}
                 onBlur={() => setFocusedField(null)}
                 placeholder="London/ Ohio..."
-                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "city_state"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "city_state" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               />
             </div>
           </div>
@@ -385,11 +502,8 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 onFocus={() => setFocusedField("phone")}
                 onBlur={() => setFocusedField(null)}
                 placeholder="+44 234 567 890"
-                className={`w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 ${
-                  focusedField === "phone"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                maxLength={20}
+                className={"w-full px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 placeholder-gray-400 " + (focusedField === "phone" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               />
             </div>
           </div>
@@ -407,11 +521,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 onChange={handleChange}
                 onFocus={() => setFocusedField("device")}
                 onBlur={() => setFocusedField(null)}
-                className={`w-full appearance-none px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 font-medium ${
-                  focusedField === "device"
-                    ? "border-primary bg-orange-50 shadow-lg shadow-orange-200"
-                    : "border-gray-200 bg-gray-50 hover:border-gray-300"
-                }`}
+                className={"w-full appearance-none px-4 py-3 border-2 rounded-xl outline-none transition-all duration-300 font-medium " + (focusedField === "device" ? "border-primary bg-orange-50 shadow-lg shadow-orange-200" : "border-gray-200 bg-gray-50 hover:border-gray-300")}
               >
                 <option value="" disabled className="text-gray-400">
                   Select an OS
@@ -419,7 +529,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
                 <option value="Android" className="text-gray-700">
                   Android
                 </option>
-                <option value="iPhone" className="text-gray-700">
+                <option value="iOS" className="text-gray-700">
                   Apple(iPhone)
                 </option>
               </select>
