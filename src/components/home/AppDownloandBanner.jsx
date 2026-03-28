@@ -16,8 +16,8 @@ const CountdownUnit = ({ value, label }) => (
 	</div>
 );
 
-// Fixed launch date: April 1st, 2026
-const LAUNCH_DATE = new Date('2026-04-01T00:00:00').getTime();
+// Fixed launch date: May 1st, 2026
+const LAUNCH_DATE = new Date('2026-05-01T00:00:00').getTime();
 
 const calculateTimeLeft = () => {
 	const now = new Date().getTime();
