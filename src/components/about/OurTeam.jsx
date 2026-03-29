@@ -17,8 +17,8 @@ const team = [
   { name: 'Gilbert Elikplim Kukah', role: 'Backend Developer', img: Gilbert },
   { name: 'Atiwen Solomon', role: 'Backend Developer', img: Roy },
   { name: 'Owusu-Ansah Eric', role: 'Frontend Lead Developer', img: Eric1 },
-  { name: 'Joshua', role: 'AI and ML Engineer', img: Joshua },
-  { name: 'Anthony', role: 'Frontend Engineer', img: Anthony },
+  { name: 'Asemani Joshua', role: 'AI and ML Engineer', img: Joshua },
+  { name: 'Afriyie Anthony', role: 'Frontend Engineer', img: Anthony },
 ];
 
 const TeamCard = ({ member, idx }) => (
