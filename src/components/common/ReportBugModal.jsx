@@ -78,7 +78,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
         { value: 'broken', label: 'Broken feature / functionality not working' },
         { value: 'login', label: 'Login or authentication issue' },
         { value: 'payment', label: 'Payment issue' },
-        { value: 'ui', label: 'UI display problem' },
+        { value: 'ui', label: 'User Interface' },
         { value: 'performance', label: 'Performance / slow loading' },
         { value: 'data', label: 'Data issue' },
         { value: 'other', label: 'Other technical issue' }

@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import bgImage from '../../assets/images/about/generated/about_highlights_bg.png';
-import { FiZap, FiUsers, FiSmartphone, FiTrendingUp, FiShield } from 'react-icons/fi';
+import { FiZap, FiSmartphone, FiTrendingUp, FiShield } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 
 const AboutHighlights = () => {
     const { t } = useTranslation();
     const highlights = [
         { icon: <FiZap />, label: t('about.highlights.item1') },
-        { icon: <FiUsers />, label: t('about.highlights.item2') },
+       /*  { icon: <FiUsers />, label: t('about.highlights.item2') }, */
         { icon: <FiSmartphone />, label: t('about.highlights.item3') },
         { icon: <FiTrendingUp />, label: t('about.highlights.item4') },
         { icon: <FiShield />, label: t('about.highlights.item5') }

@@ -36,11 +36,11 @@ const CustomerFAQ = () => {
             items: [
                 {
                     question: "What payment methods do you accept?",
-                    answer: "We accept all major credit and debit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay."
+                    answer: "We accept all major credit and debit cards (Visa, MasterCard, American Express) and Apple Pay."
                 },
                 {
                     question: "Are my payment details secure?",
-                    answer: "Yes, we use industry-standard SSL encryption to protect your payment details. We do not store your full credit card information on our servers."
+                    answer: "Yes, we use industry-standard SSL encryption to protect your payment details. We do not store any credit card details."
                 }
             ]
         },
@@ -49,7 +49,7 @@ const CustomerFAQ = () => {
             items: [
                 {
                     question: "How long does delivery usually take?",
-                    answer: "Standard delivery typically takes 3-5 business days. Expedited shipping options are available at checkout for faster delivery."
+                    answer: "Standard delivery takes 15–25 minutes, depending on the distance. Expedited delivery is available at checkout for prioritised delivery.”."
                 },
                 {
                     question: "How can I track my order?",
@@ -62,11 +62,7 @@ const CustomerFAQ = () => {
             items: [
                 {
                     question: "What is your return policy?",
-                    answer: "We accept returns within 30 days of delivery. Items must be in their original condition and packaging. Some exclusions apply; please refer to our full return policy for details."
-                },
-                {
-                    question: "How long does it take to process a refund?",
-                    answer: "Once we receive your returned item, it typically takes 5-7 business days to process your refund. The funds will be credited back to your original payment method."
+                    answer: "Non-Perishable Products\nYou may return your order within 14 days of delivery and return unused items within a further 14 days for a full refund. Items must be returned in their original condition.\n\nIf goods are faulty, not as described, or unfit for purpose, you are entitled to a full refund within 30 days of receipt.\n\nPerishable Products\nDue to the perishable nature of fresh goods, we do not accept returns or cancellations once they have been delivered.\n\nIf your order arrives damaged, incorrect, or unsafe to consume, you must notify us within 24 hours of delivery. Photo evidence may be required. Approved claims may be resolved with a replacement, store credit, or refund for the affected item(s)."
                 }
             ]
         },
@@ -164,7 +160,7 @@ const CustomerFAQ = () => {
                                             {category.items.map((item, itemIndex) => (
                                                 <div key={itemIndex} className="bg-gray-50 rounded-lg p-5">
                                                     <p className="font-medium text-gray-900 mb-2">{item.question}</p>
-                                                    <p className="text-gray-600 leading-relaxed">{item.answer}</p>
+                                                     <p className="text-gray-600 leading-relaxed whitespace-pre-line">{item.answer}</p>
                                                 </div>
                                             ))}
                                         </div>
