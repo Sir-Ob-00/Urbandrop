@@ -8,6 +8,7 @@ import Gilbert from '../../assets/images/about/team/Gilbert.jpeg';
 import Roy from '../../assets/images/about/team/Roy.jpeg';
 import Eric1 from '../../assets/images/about/team/Eric-1.jpeg';
 import Joshua from '../../assets/images/about/team/Joshua.jpeg';
+import Anthony from '../../assets/images/about/team/Anthony.jpeg';
 
 
 const team = [
@@ -16,7 +17,8 @@ const team = [
   { name: 'Gilbert Elikplim Kukah', role: 'Backend Developer', img: Gilbert },
   { name: 'Atiwen Solomon', role: 'Backend Developer', img: Roy },
   { name: 'Owusu-Ansah Eric', role: 'Frontend Lead Developer', img: Eric1 },
-  { name: 'Joshua', role: 'AI and ML Engineer', img: Joshua }
+  { name: 'Joshua', role: 'AI and ML Engineer', img: Joshua },
+  { name: 'Anthony', role: 'Frontend Engineer', img: Anthony },
 ];
 
 const TeamCard = ({ member, idx }) => (
