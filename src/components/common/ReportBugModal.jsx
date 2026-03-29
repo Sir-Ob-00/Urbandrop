@@ -332,9 +332,12 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                         <FloatingField id="pageUrl" label="Page URL">
                                             <input type="text" id="pageUrl" name="pageUrl" value={formData.pageUrl} onChange={handleChange} className={inputClass} />
                                         </FloatingField>
-                                        <FloatingField id="browserInfo" label="Browser & Device">
-                                            <input type="text" id="browserInfo" name="browserInfo" value={formData.browserInfo} readOnly className={inputClass} />
-                                        </FloatingField>
+                                        <div>
+                                            <label htmlFor="browserInfo" className="block text-xs font-medium text-gray-500 mb-1.5 uppercase tracking-wider">
+                                                Browser and Device Auto Detected
+                                            </label>
+                                            <input type="text" id="browserInfo" name="browserInfo" value={formData.browserInfo} readOnly disabled className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-600 text-sm cursor-not-allowed select-none" />
+                                        </div>
                                     </div>
                                 )}
 
