@@ -260,15 +260,21 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                         ) : (
                             <>
                                 {/* Issue Type - Full Width */}
-                                <FloatingField id="issueType" label="Issue Type" required error={errors.issueType}>
-                                    <select id="issueType" name="issueType" value={formData.issueType} onChange={handleChange} className={selectClass}>
+                                <div>
+                                    <label htmlFor="issueType" className="block text-xs font-medium text-gray-500 mb-1.5 uppercase tracking-wider">
+                                        Issue Type <span className="text-red-500">*</span>
+                                    </label>
+                                    <select id="issueType" name="issueType" value={formData.issueType} onChange={handleChange} className={`w-full px-4 py-3 rounded-xl border text-sm text-gray-800 outline-none transition-all cursor-pointer ${
+                                        errors.issueType ? 'border-red-400' : 'border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20'
+                                    }`}>
                                         <option value="">Select an issue type...</option>
                                         {issueTypes.map(type => (
                                             <option key={type.value} value={type.value}>{type.label}</option>
                                         ))}
                                         <option value="security">Security Vulnerability</option>
                                     </select>
-                                </FloatingField>
+                                    {errors.issueType && <p className="mt-1 text-xs text-red-500 pl-1">{errors.issueType}</p>}
+                                </div>
 
                                 {/* Security Fields - 2 col desktop, 1 col mobile */}
                                 {isSecurityIssue && (
