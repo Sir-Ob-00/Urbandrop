@@ -21,6 +21,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState(null);
+  const [errorType, setErrorType] = useState(null);
   const [focusedField, setFocusedField] = useState(null);
 
   // Filter countries based on search term
@@ -70,6 +71,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
+    setErrorType(null);
 
     // Basic validation check
     const requiredFields = ["full_name", "email", "country", "city_state", "device"];
@@ -79,6 +81,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
 
     // Check if country is selected (either from dropdown or manual entry matching)
     if (!formData.country && !countrySearch.trim()) {
+      setErrorType("general");
       setError("Please select a country from the dropdown or type to search.");
       setIsSubmitting(false);
       return;
@@ -92,22 +95,26 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       if (matchedCountry) {
         setFormData(prev => ({ ...prev, country: matchedCountry.name }));
       } else {
+        setErrorType("general");
         setError('"' + countrySearch + '" is not a valid country. Please select from the dropdown.');
         setIsSubmitting(false);
         return;
       }
     }
 
-    // Phone number validation - minimum 7 digits total for valid international numbers
+    // Phone number validation - only validate if user entered something beyond the dial code
     if (formData.phone && formData.phone.trim()) {
-      // Extract digits only from the phone number
-      const digitsOnly = formData.phone.replace(/\D/g, '');
-      
-      // Check if we have enough digits (at least 7 total for valid phone)
-      if (digitsOnly.length < 7) {
-        setError("Please enter a valid phone number with at least 7 digits.");
-        setIsSubmitting(false);
-        return;
+      // Strip any dial code prefix (e.g. "+44 ") to check if user entered actual digits
+      const withoutDialCode = formData.phone.replace(/^\+\d+\s*/, "").trim();
+
+      if (withoutDialCode.length > 0) {
+        const digitsOnly = formData.phone.replace(/\D/g, '');
+        if (digitsOnly.length < 7) {
+          setErrorType("general");
+          setError("Please enter a valid phone number with at least 7 digits.");
+          setIsSubmitting(false);
+          return;
+        }
       }
     }
 
@@ -123,6 +130,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       };
 
       if (!apiBaseUrl) {
+        setErrorType("general");
         setError("API base URL is not configured.");
         console.error("Error: VITE_API_BASE_URL is missing.");
         setIsSubmitting(false);
@@ -164,6 +172,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
             normalized.includes("already been registered");
           
           if (isDuplicateEmail) {
+            setErrorType("duplicate");
             errorMessage = "This email address is already registered for the beta program. If you believe this is an error, please contact our support team.";
           } else if (response.status >= 500) {
             // For 500 errors, check if it's a database error first
@@ -233,8 +242,10 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
         console.log("Is duplicate email detected:", isDuplicateEmail);
 
         if (isDuplicateEmail) {
+          setErrorType("duplicate");
           setError("This email address is already registered for the beta program. If you believe this is an error, please contact our support team.");
         } else {
+          setErrorType("general");
           setError(backendMessage);
         }
         setIsSubmitting(false);
@@ -289,15 +300,19 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
       console.log("Catch block - Raw message:", rawMessage);
 
       if (isDuplicateEmail) {
+        setErrorType("duplicate");
         setError("This email address is already registered for the beta program.");
       } else if (isServerError) {
         // excluding raw database errors to users
         if (normalized.includes("failing row")) {
+          setErrorType("general");
           setError("A server error occurred while saving your information. Please try again later or contact support if the problem persists.");
         } else {
+          setErrorType("general");
           setError(rawMessage || "Unable to connect to our servers. Please check your internet connection and try again in a few minutes.");
         }
       } else {
+        setErrorType("general");
         setError("An unexpected error occurred. Please try again later. If the problem persists, please contact our support team.");
       }
     } finally {
@@ -571,22 +586,24 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           <div className="bg-white rounded-3xl shadow-2xl w-full max-w-sm overflow-hidden transform transition-all scale-100 opacity-100 animate-in zoom-in duration-300">
             <div className="p-8 text-center">
               {/* Error Icon */}
-              <div className="w-20 h-20 bg-gradient-to-br from-red-100 to-pink-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-6 text-4xl font-bold shadow-lg">
-                ⚠️
+              <div className={"w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-4xl font-bold shadow-lg " + (errorType === "duplicate" ? "bg-gradient-to-br from-amber-100 to-orange-100 text-amber-600" : "bg-gradient-to-br from-red-100 to-pink-100 text-red-600")}>
+                {errorType === "duplicate" ? "📧" : "⚠️"}
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Oops! Something went wrong</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                {errorType === "duplicate" ? "Email Already Registered" : "Oops! Something went wrong"}
+              </h3>
               <p className="text-gray-600 text-base mb-8 leading-relaxed">{error}</p>
               
               <button
-                onClick={() => setError(null)}
+                onClick={() => { setError(null); setErrorType(null); }}
                 type="button"
-                className="w-full py-3 px-4 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-semibold rounded-xl transition-all transform hover:scale-105 active:scale-95 shadow-lg"
+                className={"w-full py-3 px-4 text-white font-semibold rounded-xl transition-all transform hover:scale-105 active:scale-95 shadow-lg " + (errorType === "duplicate" ? "bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600" : "bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600")}
               >
-                Try Again
+                {errorType === "duplicate" ? "Okay, Got It" : "Try Again"}
               </button>
 
               <button
-                onClick={() => setError(null)}
+                onClick={() => { setError(null); setErrorType(null); }}
                 type="button"
                 className="w-full mt-3 py-2 px-4 text-gray-600 font-medium rounded-xl hover:bg-gray-100 transition-all"
               >
