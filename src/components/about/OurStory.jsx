@@ -181,10 +181,10 @@ const OurStory = () => {
             />
             
             {/* Main Section */}
-            <section 
-                className="w-full py-32"
-                style={{ 
-                    backgroundColor: '#183A37',
+            <section
+                className="w-full pt-16 pb-32"
+                style={{
+                    backgroundColor: '#2c4d31',
                     '--bg': '#2c4d31',
                     '--paper': '#f2f5f9',
                     '--gold': '#D4AF37',
