@@ -24,7 +24,7 @@ const AIChat = () => {
   const [messages, setMessages] = useState([
     { 
       id: 1, 
-      text: 'Hey there! 👋 Welcome to UrbanDrop Support. How can I help you today?', 
+      text: 'Hey there! 👋 I\'m Zuri, your UrbanDrop assistant. How can I help you today?', 
       sender: 'ai', 
       timestamp: new Date() 
     }
@@ -283,7 +283,7 @@ const AIChat = () => {
                     transition={{ delay: 0.15 }}
                     className="text-white font-bold text-2xl leading-tight"
                   >
-                    Chat with Us
+                    Chat with Zuri
                   </motion.h3>
                   <motion.p
                     initial={{ opacity: 0, y: 5 }}
@@ -291,7 +291,7 @@ const AIChat = () => {
                     transition={{ delay: 0.25 }}
                     className="text-white/85 text-sm mt-2 font-medium"
                   >
-                    Get instant support 💚
+                    UrbanDrop's AI Assistant 💚
                   </motion.p>
                 </div>
 
