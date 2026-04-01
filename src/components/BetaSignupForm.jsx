@@ -4,7 +4,7 @@ import logo from "../assets/images/logo-1.png";
 import CyberButton from "../components/common/CyberButton";
 import { Instagram, Youtube, Linkedin, Facebook } from "lucide-react";
 
-const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to UrbanDrop Beta!" }) => {
+const BetaSignupForm = ({ source = "direct", successMessageTitle = "You've Been Added!" }) => {
   const [formData, setFormData] = useState({
     full_name: "",
     email: "",
@@ -331,11 +331,8 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "Welcome to U
           <h3 className="text-2xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-3">
             {successMessageTitle}
           </h3>
-          <p className="text-gray-600 text-base mb-6">
-            Thanks for subscribing to participate in the Beta Testing program.
-          </p>
           <p className="text-gray-500 text-sm mb-6">
-            Our team will contact you when testing begins. Download link will be sent to your email.
+            We will contact you when testing begins. Keep an eye on your inbox for a Beta test invitation from us.
           </p>
           <div className="flex items-center justify-center gap-5 mt-2">
             <a href="https://www.instagram.com/urbandrop.io?igsh=MTBsbXVsdjR6dzNocw%3D%3D&utm_source=qr" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-transform bg-white p-3 rounded-full shadow-md text-[#5CB35E]">
