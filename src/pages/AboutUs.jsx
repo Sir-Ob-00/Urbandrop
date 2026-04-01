@@ -3,7 +3,7 @@ import AboutHero from "../components/about/AboutHero";
 import OurStory from "../components/about/OurStory";
 import AboutProcess from "../components/about/AboutProcess";
 import AboutHighlights from "../components/about/AboutHighlights";
-import OurTeam from "../components/about/OurTeam";
+/* import OurTeam from "../components/about/OurTeam"; */
 
 import SEO from "../components/common/SEO";
 
@@ -20,7 +20,7 @@ const AboutUs = () => {
                 <OurStory />
                 <AboutProcess />
                 <AboutHighlights />
-                <OurTeam />
+               {/*  <OurTeam /> */}
             </main>
         </>
     );

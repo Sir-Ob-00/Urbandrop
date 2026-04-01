@@ -93,7 +93,7 @@ const ClosingBand = () => {
         >
             {/* Closing Quote */}
             <blockquote className="font-fraunces italic text-[clamp(1.3rem,2vw,1.5rem)] leading-[1.55] font-light text-[#f2f5f9]">
-                "Food is more than ingredients it's memory, comfort, identity. In a country that has welcomed so many,{' '}
+                "Food is more than ingredients; it's memory, comfort, identity. In a country that has welcomed so many,{' '}
                 <span className="text-[#D4AF37] font-bold not-italic">they deserve a better way to feel at home</span>. 
                 This is our mission. And we are just getting started."
             </blockquote>
@@ -181,10 +181,10 @@ const OurStory = () => {
             />
             
             {/* Main Section */}
-            <section 
-                className="w-full py-32"
-                style={{ 
-                    backgroundColor: '#183A37',
+            <section
+                className="w-full pt-16 pb-32"
+                style={{
+                    backgroundColor: '#2c4d31',
                     '--bg': '#2c4d31',
                     '--paper': '#f2f5f9',
                     '--gold': '#D4AF37',

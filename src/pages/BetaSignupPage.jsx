@@ -25,7 +25,7 @@ const BetaSignupPage = () => {
       >
         {/* Form Section */}
         <div className="w-full max-w-xl pointer-events-auto">
-          <BetaSignupForm source="beta-page" successMessageTitle="You're on the list 🚀" />
+          <BetaSignupForm source="beta-page" successMessageTitle="You've Been Added!" />
         </div>
       </div>
 

@@ -10,7 +10,7 @@
     },
     "footer": {
         "findLocation": "Find location",
-        "brandDescription": "Your trusted online recipe and grocery marketplace connecting UK customers to local merchants.",
+        "brandDescription": "Your trusted online Ethnic recipe and grocery marketplace connecting customers to local merchants.",
         "getExclusiveDeals": "Get Exclusive deals",
         "thanksForSubscribing": "thank you for subscribing",
         "enterEmail": "Enter your email",
@@ -57,8 +57,8 @@
                 "desc": "Empowering local merchants to reach a global audience."
             },
             "cat4": {
-                "title": "Rider: Delivering Culture",
-                "desc": "Quick & Reliable Service bringing home to your doorstep."
+                "title": "Reliable service",
+                "desc": "Right to your doorstep."
             }
         },
         "whyChoose": {
@@ -206,7 +206,7 @@
                 },
                 "errands": {
                     "title": "Run Errands",
-                    "desc": "Need a helping hand? We can handle your daily tasks."
+                    "desc": "Skip the long and stressful shop commute. Get your ethnic groceries delivered."
                 },
                 "ethnic": {
                     "title": "Ethnic Flavors",
