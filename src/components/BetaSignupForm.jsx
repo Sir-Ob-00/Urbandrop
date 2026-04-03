@@ -24,6 +24,13 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "You've Been 
   const [errorType, setErrorType] = useState(null);
   const [focusedField, setFocusedField] = useState(null);
 
+  // Scroll to top when success state changes
+  useEffect(() => {
+    if (isSuccess) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [isSuccess]);
+
   // Filter countries based on search term
   const filteredCountries = countrySearch.length >= 3
     ? countriesData.filter(c => c.name.toLowerCase().includes(countrySearch.toLowerCase()))
