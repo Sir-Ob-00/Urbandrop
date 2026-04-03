@@ -186,7 +186,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-sm text-center sm:text-left">
           <a href="mailto:support@urbandrop.io" className="flex items-center gap-2"><Mail size={16} />support@urbandrop.io</a>
           <a
-            href="https://wa.me/447466738584?text=Hi%20this%20is%20UrbanDrop!%20How%20may%20we%20help%20you%3F"
+            href="https://wa.me/447466738584?text=Hi%20UrbanDrop%2C%20I%E2%80%99d%20like%20to%20learn%20more%20about%20your%20services.%20Could%20you%20assist%20me%3F"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2"
