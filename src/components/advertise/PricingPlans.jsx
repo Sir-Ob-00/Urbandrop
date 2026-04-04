@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import starterImg from '../../assets/images/advertising/Starter.jpg';
@@ -45,7 +44,7 @@ const PricingPlans = () => {
                       { y: 400, opacity: 0 }
                 }
                 whileInView={{ y: 0, x: 0, opacity: 1 }}
-                transition={{ duration: 0.8, delay: 0.2 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
                 viewport={{ amount: 0.1 }}
               >
                 <img
@@ -62,7 +61,7 @@ const PricingPlans = () => {
                       { y: 400, opacity: 0 }
                 }
                 whileInView={{ y: 0, x: 0, opacity: 1 }}
-                transition={{ duration: 0.8, delay: 0.4 }}
+                transition={{ duration: 0.4, delay: 0.3 }}
                 viewport={{ amount: 0.1 }}
               >
                 <h2 className="font-black mb-6 md:mb-8">
@@ -74,7 +73,7 @@ const PricingPlans = () => {
                       key={i}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.5, delay: i * 0.1 + 0.6 }}
+                      transition={{ duration: 0.3, delay: i * 0.1 + 0.4 }}
                       viewport={{ once: true }}
                       className="text-h3"
                     >
@@ -82,7 +81,11 @@ const PricingPlans = () => {
                     </motion.li>
                   ))}
                 </ul>
-                <Link to="/contact-us">
+                <a
+                  href="https://wa.me/447466738584?text=Hello%20Team,%20I%20would%20like%20to%20enquire%20about%20running%20ads%20on%20urbandrop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -90,7 +93,7 @@ const PricingPlans = () => {
                   >
                     {t('advertise.pricing.getStarted')}
                   </motion.button>
-                </Link>
+                </a>
               </motion.div>
             </div>
           </section>

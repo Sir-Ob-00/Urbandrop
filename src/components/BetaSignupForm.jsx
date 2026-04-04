@@ -510,7 +510,7 @@ const BetaSignupForm = ({ source = "direct", successMessageTitle = "You've Been 
           {/* Form Row 3 - Phone */}
           <div className="group">
             <label className="block text-sm font-bold text-gray-700 mb-2">
-              Phone Number <span className="text-gray-500 text-xs font-normal">(Optional)</span>
+              Phone Number {/* <span className="text-gray-500 text-xs font-normal">(Optional)</span> */}
             </label>
             <div className="relative">
               <input

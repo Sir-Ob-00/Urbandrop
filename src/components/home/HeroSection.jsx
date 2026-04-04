@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-/* import heroVideo from 'https://res.cloudinary.com/df6hdqpjl/video/upload/v1773093477/home-hero_video_xk8c8m.mp4'; */
 import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
