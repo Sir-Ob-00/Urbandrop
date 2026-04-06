@@ -30,7 +30,7 @@ const Navbar = () => {
     { name: t('navbar.customer'), href: "/customer" },
     { name: t('navbar.merchant'), href: "/become-merchant" },
     { name: t('navbar.contactUs'), href: "/contact-us" },
-    { name: "Join Beta", href: "/beta", isCTA: true },
+    // { name: "Join Beta", href: "/beta", isCTA: true },
   ];
 
   return (

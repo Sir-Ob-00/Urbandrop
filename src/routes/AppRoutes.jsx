@@ -39,7 +39,8 @@ const AppRoutes = () => {
       </Route>
 
       {/* Standalone full-screen pages */}
-      <Route path="/beta" element={<BetaSignupPage />} />
+      {/* <Route path="/beta" element={<BetaSignupPage />} /> */}
+      
 
       {/* 404 Not Found Route - must be last */}
       <Route path="*" element={<NotFound />} />
