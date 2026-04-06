@@ -38,8 +38,9 @@ const MerchantHero = () => {
           <p className="text-white/90 max-w-3xl mx-auto">
             {t('merchants.hero.desc')}
           </p>
+          {/* Become a merchant button */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
-            <a href="/#launch-countdown" className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg hover:bg-darkGreen transition-all transform hover:scale-105 shadow-2xl">
+            <a href="/#launch-countdown" className="bg-primary text-white px-10 py-5 rounded-full font-bold text-lg transition-all transform hover:scale-105 shadow-2xl">
               {t('merchants.hero.cta')}
             </a>
           </div>

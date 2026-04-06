@@ -16,10 +16,9 @@ export default {
         darkGreen: "#173a36",    // darker green for hover states
       },
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'], // ✅ brand font
-        heading: ["Red Hat Display", "sans-serif"],
+        sans: ['Red Hat Display', 'sans-serif'], // ✅ brand 
+        heading: ['Red Hat Display', 'sans-serif'],
         body: ['Inter', 'sans-serif'],
-        other: ['Nunito Sans', 'sans-serif'],
       },
     },
   },
