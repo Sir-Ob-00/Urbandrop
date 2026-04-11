@@ -11,11 +11,12 @@ import SEO from "../components/common/SEO";
 const Home = () => {
 	return (
 		<main className="bg-background text-dark font-sans">
-			<SEO
-				title="Urbandrop® - The Home of Ethnic Groceries and Recipes"
-				description="Discover Urbandrop™, your go-to platform for ethnic groceries and authentic recipes, delivered fast from local merchants."
-				canonical="https://urbandrop.io/"
-			/>
+<SEO
+			title="Urbandrop® - The Home of Ethnic Groceries and Recipes"
+			description="Discover Urbandrop™, your go-to platform for ethnic groceries and authentic recipes, delivered fast from local merchants."
+			canonical="https://urbandrop.io/"
+			ogUrl="https://urbandrop.io"
+		/>
 			<HeroSection /> {/* Render the new HeroSection */}
 			<EthnicMosaic />
 			<FeaturedCategories />

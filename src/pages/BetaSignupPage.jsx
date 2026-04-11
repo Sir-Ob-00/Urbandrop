@@ -9,8 +9,13 @@ const BetaSignupPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <SEO
-        title="Join UrbanDrop Beta | Early Access"
-        description="Join the UrbanDrop beta program to get early access and exclusive deals on ethnic groceries and recipes. Sign up today!"
+        title="Join UrbanDrop Beta"
+        description="Get early access to UrbanDrop and help shape the future of delivery."
+        canonical="https://urbandrop.io/beta"
+        ogType="website"
+        ogTitle="Join UrbanDrop Beta"
+        ogDescription="Get early access to UrbanDrop and help shape the future of delivery."
+        ogUrl="https://urbandrop.io/beta"
       />
 
       <Navbar />

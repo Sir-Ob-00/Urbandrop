@@ -9,14 +9,22 @@ const SEO = ({
     keywords,
     image,
     type = 'website',
-    structuredData
+    structuredData,
+    ogType,
+    ogTitle,
+    ogDescription,
+    ogUrl
 }) => {
     const location = useLocation();
-    const siteUrl = 'https://urbandrop.io'; // Replace with actual domain if different
+    const siteUrl = 'https://urbandrop.io';
     const currentUrl = canonical || `${siteUrl}${location.pathname}`;
-    const defaultImage = `${siteUrl}/images/og-image.jpg`; // Ensure this asset exists or use a valid default
+    const defaultImage = `${siteUrl}/images/og-image.jpg`;
     const metaDescription = description || "UrbanDrop® - The Home of Ethnic Groceries and Recipes";
     const metaTitle = title ? `${title} | UrbanDrop®` : "UrbanDrop®";
+    const metaOgUrl = ogUrl || currentUrl;
+    const metaOgType = ogType || type;
+    const metaOgTitle = ogTitle || metaTitle;
+    const metaOgDescription = ogDescription || metaDescription;
 
     return (
         <Helmet>
@@ -27,10 +35,10 @@ const SEO = ({
             <link rel="canonical" href={currentUrl} />
 
             {/* Open Graph / Facebook */}
-            <meta property="og:type" content={type} />
-            <meta property="og:url" content={currentUrl} />
-            <meta property="og:title" content={metaTitle} />
-            <meta property="og:description" content={metaDescription} />
+            <meta property="og:type" content={metaOgType} />
+            <meta property="og:url" content={metaOgUrl} />
+            <meta property="og:title" content={metaOgTitle} />
+            <meta property="og:description" content={metaOgDescription} />
             <meta property="og:image" content={image || defaultImage} />
 
             {/* Twitter */}
