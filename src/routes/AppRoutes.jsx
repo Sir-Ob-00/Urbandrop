@@ -15,6 +15,7 @@ import Advertise from "../pages/Advertise";
 import CookiesPolicy from "../pages/CookiesPolicy";
 import NotFound from "../pages/NotFound";
 import BetaSignupPage from "../pages/BetaSignupPage";
+import FeedbackPage from "../pages/FeedbackPage";
 
 const AppRoutes = () => {
   return (
@@ -40,7 +41,7 @@ const AppRoutes = () => {
 
       {/* Standalone full-screen pages */}
       <Route path="/beta" element={<BetaSignupPage />} />
-      
+      <Route path="/feedback" element={<FeedbackPage />} />
 
       {/* 404 Not Found Route - must be last */}
       <Route path="*" element={<NotFound />} />
