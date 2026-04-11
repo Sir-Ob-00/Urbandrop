@@ -676,6 +676,10 @@
             "becomeMerchant": {
                 "title": "Become a Merchant",
                 "desc": "Join our network of sellers"
+            },
+            "advertise": {
+                "title": "Advertise with Us",
+                "desc": "Promote your brand to millions"
             }
         },
         "illustration": "We couldn't find the page, but we found these fresh ingredients!",
