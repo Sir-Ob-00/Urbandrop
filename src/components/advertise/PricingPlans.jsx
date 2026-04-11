@@ -37,7 +37,7 @@ const PricingPlans = () => {
           <section key={index} className="md:min-h-screen flex">
             <div className={`flex flex-col md:flex-row w-full ${isStarter ? '' : 'md:flex-row-reverse'}`}>
               <motion.div
-                className="w-full md:w-1/2 h-64 md:h-screen"
+                className="w-full md:w-1/2 h-64 md:min-h-screen"
                 initial={
                   isStarter ? { y: 400, opacity: 0 } :
                     isGrowth ? { y: -400, opacity: 0 } :
