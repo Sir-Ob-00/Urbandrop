@@ -15,6 +15,8 @@ import FinalPage from "./pages/FinalPage";
 export default function UrbanDropFeedback() {
   const [page, setPage] = useState(0);
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
   const [details, setDetails] = useState({ name: "", date: new Date().toISOString().split("T")[0], phone: "" });
   const [tasks, setTasks] = useState({});
   const [ratings, setRatings] = useState({});
@@ -29,14 +31,41 @@ export default function UrbanDropFeedback() {
 
   const go = (p) => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     const data = { details, tasks, ratings, nps, npsWhy, thoughts, bugs, features, yn, oneChange, anythingElse };
-    console.log("Submitted:", data);
-    setSubmitted(true);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    console.log("Submitting feedback:", data);
+    
+    setLoading(true);
+    setError("");
+    
+    try {
+      const response = await fetch("https://urbanchat.kantatech.io/feedbacks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: details.name,
+          answers: data
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log("Feedback submitted successfully:", result);
+      setSubmitted(true);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch (err) {
+      console.error("Submission error:", err);
+      setError("Failed to submit feedback. Please try again.");
+      setLoading(false);
+    }
   };
 
   const updateBug = (i, field, val) => { const b = [...bugs]; b[i] = { ...b[i], [field]: val }; setBugs(b); };
+  const addBug = () => { setBugs([...bugs, { what: "", where: "", expect: "" }]); };
+  const deleteBug = (i) => { if (i > 2) { setBugs(bugs.filter((_, idx) => idx !== i)); } };
   const updateFeature = (i, field, val) => { const f = [...features]; f[i] = { ...f[i], [field]: val }; setFeatures(f); };
 
   const isDisabled = {
@@ -74,9 +103,9 @@ export default function UrbanDropFeedback() {
       {page === 3 && <RatingsPage ratings={ratings} setRatings={setRatings} onBack={() => go(2)} onNext={() => go(4)} disabled={isDisabled} />}
       {page === 4 && <NpsPage nps={nps} setNps={setNps} npsWhy={npsWhy} setNpsWhy={setNpsWhy} onBack={() => go(3)} onNext={() => go(5)} disabled={isDisabled} />}
       {page === 5 && <ThoughtsPage thoughts={thoughts} setThoughts={setThoughts} onBack={() => go(4)} onNext={() => go(6)} disabled={isDisabled} />}
-      {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} onBack={() => go(5)} onNext={() => go(7)} />}
+      {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} deleteBug={deleteBug} addBug={addBug} onBack={() => go(5)} onNext={() => go(7)} />}
       {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} onBack={() => go(6)} onNext={() => go(8)} />}
-      {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} />}
+      {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} loading={loading} error={error} />}
     </div>
   );
 }
