@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { TOTAL_PAGES, RATING_QS, THOUGHT_FIELDS, YN_QS } from "./constants";
 import { styles } from "./styles";
 import SuccessScreen from "./components/SuccessScreen";
@@ -13,11 +14,12 @@ import FeaturesPage from "./pages/FeaturesPage";
 import FinalPage from "./pages/FinalPage";
 
 export default function UrbanDropFeedback() {
+  const navigate = useNavigate();
   const [page, setPage] = useState(0);
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [details, setDetails] = useState({ name: "", date: new Date().toISOString().split("T")[0], phone: "" });
+  const [details, setDetails] = useState({ name: "", email: "", date: new Date().toISOString().split("T")[0], phone: "" });
   const [tasks, setTasks] = useState({});
   const [ratings, setRatings] = useState({});
   const [nps, setNps] = useState(null);
@@ -28,8 +30,26 @@ export default function UrbanDropFeedback() {
   const [yn, setYn] = useState({});
   const [oneChange, setOneChange] = useState("");
   const [anythingElse, setAnythingElse] = useState("");
+  const [countdown, setCountdown] = useState(5);
 
   const go = (p) => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); };
+
+  useEffect(() => {
+    if (submitted) {
+      const countdownTimer = setInterval(() => {
+        setCountdown(prev => prev - 1);
+      }, 1000);
+      
+      const redirectTimer = setTimeout(() => {
+        navigate("/");
+      }, 5000);
+      
+      return () => {
+        clearInterval(countdownTimer);
+        clearTimeout(redirectTimer);
+      };
+    }
+  }, [submitted, navigate]);
 
   const handleSubmit = async () => {
     const data = { details, tasks, ratings, nps, npsWhy, thoughts, bugs, features, yn, oneChange, anythingElse };
@@ -39,11 +59,11 @@ export default function UrbanDropFeedback() {
     setError("");
     
     try {
-      const response = await fetch("https://urbanchat-dev.kantatech.io/feedbacks", {
+      const response = await fetch("https://urbandrop-dev.kantatech.io/feedbacks", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          email: details.name,
+          email: details.email,
           answers: data
         })
       });
@@ -54,8 +74,13 @@ export default function UrbanDropFeedback() {
 
       const result = await response.json();
       console.log("Feedback submitted successfully:", result);
-      setSubmitted(true);
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      
+      if (result.status === "SUCCESS") {
+        setSubmitted(true);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        throw new Error(result.message || "Unexpected response from server");
+      }
     } catch (err) {
       console.error("Submission error:", err);
       setError("Failed to submit feedback. Please try again.");
@@ -70,8 +95,13 @@ export default function UrbanDropFeedback() {
   const addFeature = () => { setFeatures([...features, { idea: "", why: "" }]); };
   const deleteFeature = (i) => { if (i > 2) { setFeatures(features.filter((_, idx) => idx !== i)); } };
 
+  const isValidEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const isDisabled = {
-    0: !details.name.trim() || !details.phone.trim(),
+    0: !details.name.trim() || !details.email.trim() || !details.phone.trim() || !isValidEmail(details.email),
     1: [1, 2, 3].some(n => !tasks[n]?.trim()),
     2: [4, 5, 6].some(n => !tasks[n]?.trim()),
     3: Object.keys(ratings).length < RATING_QS.length,
@@ -84,7 +114,7 @@ export default function UrbanDropFeedback() {
 
   const progress = ((page + 1) / TOTAL_PAGES) * 100;
 
-  if (submitted) return <SuccessScreen />;
+  if (submitted) return <SuccessScreen countdown={countdown} />;
 
   return (
     <div style={styles.wrapper}>

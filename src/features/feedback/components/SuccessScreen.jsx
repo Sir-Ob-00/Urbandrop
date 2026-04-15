@@ -1,6 +1,8 @@
 import { styles } from "../styles";
 
-export default function SuccessScreen() {
+export default function SuccessScreen({ countdown }) {
+  const progressPercent = (countdown / 5) * 100;
+
   return (
     <div style={styles.wrapper}>
       <div style={styles.topBar}>
@@ -18,6 +20,13 @@ export default function SuccessScreen() {
         </div>
         <h2 style={{ fontSize: 24, fontWeight: 800, marginBottom: 8 }}>Feedback received</h2>
         <p style={{ color: "#4A6A4A", fontSize: 15 }}>Thanks for your time. This directly shapes what we build next.</p>
+        
+        <div style={{ width: "100%", marginTop: 30 }}>
+          <div style={{ height: 6, background: "#E2EADE", borderRadius: 3, overflow: "hidden", marginBottom: 8 }}>
+            <div style={{ height: "100%", background: "#4BAF4F", width: `${progressPercent}%`, transition: "width 0.1s linear" }} />
+          </div>
+          <p style={{ color: "#7A9A7A", fontSize: 13, textAlign: "center" }}>Redirecting in {countdown} second{countdown !== 1 ? "s" : ""}...</p>
+        </div>
       </div>
     </div>
   );
