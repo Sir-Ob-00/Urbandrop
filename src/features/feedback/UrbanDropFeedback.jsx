@@ -67,6 +67,8 @@ export default function UrbanDropFeedback() {
   const addBug = () => { setBugs([...bugs, { what: "", where: "", expect: "" }]); };
   const deleteBug = (i) => { if (i > 2) { setBugs(bugs.filter((_, idx) => idx !== i)); } };
   const updateFeature = (i, field, val) => { const f = [...features]; f[i] = { ...f[i], [field]: val }; setFeatures(f); };
+  const addFeature = () => { setFeatures([...features, { idea: "", why: "" }]); };
+  const deleteFeature = (i) => { if (i > 2) { setFeatures(features.filter((_, idx) => idx !== i)); } };
 
   const isDisabled = {
     0: !details.name.trim() || !details.phone.trim(),
@@ -104,7 +106,7 @@ export default function UrbanDropFeedback() {
       {page === 4 && <NpsPage nps={nps} setNps={setNps} npsWhy={npsWhy} setNpsWhy={setNpsWhy} onBack={() => go(3)} onNext={() => go(5)} disabled={isDisabled} />}
       {page === 5 && <ThoughtsPage thoughts={thoughts} setThoughts={setThoughts} onBack={() => go(4)} onNext={() => go(6)} disabled={isDisabled} />}
       {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} deleteBug={deleteBug} addBug={addBug} onBack={() => go(5)} onNext={() => go(7)} />}
-      {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} onBack={() => go(6)} onNext={() => go(8)} />}
+      {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} deleteFeature={deleteFeature} addFeature={addFeature} onBack={() => go(6)} onNext={() => go(8)} />}
       {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} loading={loading} error={error} />}
     </div>
   );
