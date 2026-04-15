@@ -39,7 +39,7 @@ export default function UrbanDropFeedback() {
     setError("");
     
     try {
-      const response = await fetch("https://urbanchat.kantatech.io/feedbacks", {
+      const response = await fetch("https://urbanchat-dev.kantatech.io/feedbacks", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
