@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { TOTAL_PAGES, RATING_QS, THOUGHT_FIELDS, YN_QS } from "./constants";
 import { styles } from "./styles";
 import SuccessScreen from "./components/SuccessScreen";
@@ -13,9 +14,12 @@ import FeaturesPage from "./pages/FeaturesPage";
 import FinalPage from "./pages/FinalPage";
 
 export default function UrbanDropFeedback() {
+  const navigate = useNavigate();
   const [page, setPage] = useState(0);
   const [submitted, setSubmitted] = useState(false);
-  const [details, setDetails] = useState({ name: "", date: new Date().toISOString().split("T")[0], phone: "" });
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [details, setDetails] = useState({ name: "", email: "", date: new Date().toISOString().split("T")[0], phone: "" });
   const [tasks, setTasks] = useState({});
   const [ratings, setRatings] = useState({});
   const [nps, setNps] = useState(null);
@@ -26,21 +30,80 @@ export default function UrbanDropFeedback() {
   const [yn, setYn] = useState({});
   const [oneChange, setOneChange] = useState("");
   const [anythingElse, setAnythingElse] = useState("");
+  const [elapsedTime, setElapsedTime] = useState(0);
 
   const go = (p) => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); };
 
-  const handleSubmit = () => {
+  useEffect(() => {
+    if (submitted) {
+      const startTime = Date.now();
+      
+      const elapsedTimer = setInterval(() => {
+        const elapsed = Date.now() - startTime;
+        if (elapsed >= 5000) {
+          navigate("/");
+        } else {
+          setElapsedTime(elapsed);
+        }
+      }, 50);
+      
+      return () => clearInterval(elapsedTimer);
+    }
+  }, [submitted, navigate]);
+
+  const countdown = Math.ceil((5000 - elapsedTime) / 1000);
+
+  const handleSubmit = async () => {
     const data = { details, tasks, ratings, nps, npsWhy, thoughts, bugs, features, yn, oneChange, anythingElse };
-    console.log("Submitted:", data);
-    setSubmitted(true);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    console.log("Submitting feedback:", data);
+    
+    setLoading(true);
+    setError("");
+    
+    try {
+      const response = await fetch("https://urbandrop-dev.kantatech.io/feedbacks", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email: details.email,
+          answers: data
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log("Feedback submitted successfully:", result);
+      
+      if (result.status === "SUCCESS") {
+        setSubmitted(true);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        throw new Error(result.message || "Unexpected response from server");
+      }
+    } catch (err) {
+      console.error("Submission error:", err);
+      setError("Failed to submit feedback. Please try again.");
+      setLoading(false);
+    }
   };
 
   const updateBug = (i, field, val) => { const b = [...bugs]; b[i] = { ...b[i], [field]: val }; setBugs(b); };
+  const addBug = () => { setBugs([...bugs, { what: "", where: "", expect: "" }]); };
+  const deleteBug = (i) => { if (i > 2) { setBugs(bugs.filter((_, idx) => idx !== i)); } };
   const updateFeature = (i, field, val) => { const f = [...features]; f[i] = { ...f[i], [field]: val }; setFeatures(f); };
+  const addFeature = () => { setFeatures([...features, { idea: "", why: "" }]); };
+  const deleteFeature = (i) => { if (i > 2) { setFeatures(features.filter((_, idx) => idx !== i)); } };
+
+  const isValidEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
 
   const isDisabled = {
-    0: !details.name.trim() || !details.phone.trim(),
+    0: !details.name.trim() || !details.email.trim() || !details.phone.trim() || !isValidEmail(details.email),
     1: [1, 2, 3].some(n => !tasks[n]?.trim()),
     2: [4, 5, 6].some(n => !tasks[n]?.trim()),
     3: Object.keys(ratings).length < RATING_QS.length,
@@ -53,7 +116,7 @@ export default function UrbanDropFeedback() {
 
   const progress = ((page + 1) / TOTAL_PAGES) * 100;
 
-  if (submitted) return <SuccessScreen />;
+  if (submitted) return <SuccessScreen elapsedTime={elapsedTime} countdown={countdown} />;
 
   return (
     <div style={styles.wrapper}>
@@ -74,9 +137,9 @@ export default function UrbanDropFeedback() {
       {page === 3 && <RatingsPage ratings={ratings} setRatings={setRatings} onBack={() => go(2)} onNext={() => go(4)} disabled={isDisabled} />}
       {page === 4 && <NpsPage nps={nps} setNps={setNps} npsWhy={npsWhy} setNpsWhy={setNpsWhy} onBack={() => go(3)} onNext={() => go(5)} disabled={isDisabled} />}
       {page === 5 && <ThoughtsPage thoughts={thoughts} setThoughts={setThoughts} onBack={() => go(4)} onNext={() => go(6)} disabled={isDisabled} />}
-      {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} onBack={() => go(5)} onNext={() => go(7)} />}
-      {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} onBack={() => go(6)} onNext={() => go(8)} />}
-      {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} />}
+      {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} deleteBug={deleteBug} addBug={addBug} onBack={() => go(5)} onNext={() => go(7)} />}
+      {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} deleteFeature={deleteFeature} addFeature={addFeature} onBack={() => go(6)} onNext={() => go(8)} />}
+      {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} loading={loading} error={error} />}
     </div>
   );
 }
