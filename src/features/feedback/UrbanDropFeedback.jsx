@@ -30,26 +30,28 @@ export default function UrbanDropFeedback() {
   const [yn, setYn] = useState({});
   const [oneChange, setOneChange] = useState("");
   const [anythingElse, setAnythingElse] = useState("");
-  const [countdown, setCountdown] = useState(5);
+  const [elapsedTime, setElapsedTime] = useState(0);
 
   const go = (p) => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); };
 
   useEffect(() => {
     if (submitted) {
-      const countdownTimer = setInterval(() => {
-        setCountdown(prev => prev - 1);
-      }, 1000);
+      const startTime = Date.now();
       
-      const redirectTimer = setTimeout(() => {
-        navigate("/");
-      }, 5000);
+      const elapsedTimer = setInterval(() => {
+        const elapsed = Date.now() - startTime;
+        if (elapsed >= 5000) {
+          navigate("/");
+        } else {
+          setElapsedTime(elapsed);
+        }
+      }, 50);
       
-      return () => {
-        clearInterval(countdownTimer);
-        clearTimeout(redirectTimer);
-      };
+      return () => clearInterval(elapsedTimer);
     }
   }, [submitted, navigate]);
+
+  const countdown = Math.ceil((5000 - elapsedTime) / 1000);
 
   const handleSubmit = async () => {
     const data = { details, tasks, ratings, nps, npsWhy, thoughts, bugs, features, yn, oneChange, anythingElse };
@@ -114,7 +116,7 @@ export default function UrbanDropFeedback() {
 
   const progress = ((page + 1) / TOTAL_PAGES) * 100;
 
-  if (submitted) return <SuccessScreen countdown={countdown} />;
+  if (submitted) return <SuccessScreen elapsedTime={elapsedTime} countdown={countdown} />;
 
   return (
     <div style={styles.wrapper}>
