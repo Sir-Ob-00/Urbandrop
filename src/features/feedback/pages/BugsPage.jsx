@@ -21,7 +21,7 @@ export default function BugsPage({ bugs, updateBug, deleteBug, addBug, onBack, o
           <Field label="What happened?" small>
             <input style={styles.input} value={b.what} onChange={e => updateBug(i, "what", e.target.value)} />
           </Field>
-          <Field label="Which screen?" small>
+          <Field label="Where in the app?" small>
             <input style={styles.input} value={b.where} onChange={e => updateBug(i, "where", e.target.value)} />
           </Field>
           <Field label="What did you expect?" small>
