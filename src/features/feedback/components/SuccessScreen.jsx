@@ -12,6 +12,7 @@ export default function SuccessScreen({ elapsedTime, countdown }) {
   }, []);
   const progressPercent = (elapsedTime / 5000) * 100;
   const backgroundImageUrl = new URL('../../../assets/images/beta/beta-background.jpeg', import.meta.url).href;
+  const logoUrl = new URL('../../../assets/images/logo-1.png', import.meta.url).href;
 
   return (
     <>
@@ -19,7 +20,10 @@ export default function SuccessScreen({ elapsedTime, countdown }) {
       <div style={{ position: "relative", zIndex: 1, width: "100%" }}>
         <div style={{ ...styles.wrapper, margin: "40px auto" }}>
         <div style={styles.topBar}>
-        <div style={styles.logo}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        <div style={styles.logo} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+          <img src={logoUrl} alt="UrbanDrop" style={{ height: 28, width: 28 }} />
+          <div style={{ fontWeight: "bold" }}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        </div>
         <div style={styles.stepCount}>Done</div>
       </div>
       <div style={{ ...styles.progressTrack, marginBottom: 0 }}>

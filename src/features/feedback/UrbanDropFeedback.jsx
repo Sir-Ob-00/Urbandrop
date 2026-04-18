@@ -128,6 +128,7 @@ export default function UrbanDropFeedback() {
   if (submitted) return <SuccessScreen elapsedTime={elapsedTime} countdown={countdown} />;
 
   const backgroundImageUrl = new URL('../../assets/images/beta/beta-background.jpeg', import.meta.url).href;
+  const logoUrl = new URL('../../assets/images/logo-1.png', import.meta.url).href;
 
   return (
     <>
@@ -137,7 +138,10 @@ export default function UrbanDropFeedback() {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
       <div style={styles.topBar}>
-        <div style={styles.logo}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        <div style={styles.logo} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+          <img src={logoUrl} alt="UrbanDrop" style={{ height: 28, width: 28 }} />
+          <div style={{ fontWeight: "bold" }}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        </div>
         <div style={styles.stepCount}>{page + 1} / {TOTAL_PAGES}</div>
       </div>
 
