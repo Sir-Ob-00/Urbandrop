@@ -11,7 +11,7 @@ export default function TasksPage1({ tasks, setTasks, onBack, onNext, disabled }
       <p style={styles.pageDesc}>Do each task in order. Write your honest reaction.</p>
       {TASKS.slice(0, 3).map(t => (
         <div key={t.num}>
-          <TaskCard num={t.num} title={t.title} instruction={t.instruction} />
+          <TaskCard num={t.num} title={t.title} instruction={t.instruction} tip={t.num === 2 ? "If you don't have a shop in mind, try searching for \"Bethel SuperMarket\"" : null} />
           <Field label={t.question}>
             <textarea style={styles.textarea} value={tasks[t.num] || ""} onChange={e => setTasks({ ...tasks, [t.num]: e.target.value })} />
           </Field>

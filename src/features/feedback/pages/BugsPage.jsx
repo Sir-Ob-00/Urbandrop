@@ -6,12 +6,12 @@ import { Trash2 } from "lucide-react";
 export default function BugsPage({ bugs, updateBug, deleteBug, addBug, onBack, onNext }) {
   return (
     <div style={styles.page}>
-      <div style={styles.pageTitle}>Bug <span style={{ color: "#4BAF4F" }}>Reports</span></div>
-      <p style={styles.pageDesc}>If something was broken, describe it. Skip if none.</p>
+      <div style={styles.pageTitle}>Issues &amp; <span style={{ color: "#4BAF4F" }}>Problems</span></div>
+      <p style={styles.pageDesc}>If something didn't work as expected, tell us. Skip if none.</p>
       {bugs.map((b, i) => (
         <div key={i} style={styles.entry}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <div style={styles.entryLabel}>Bug {i + 1}</div>
+            <div style={styles.entryLabel}>Issue {i + 1}</div>
             {i > 2 && (
               <button onClick={() => deleteBug(i)} style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}>
                 <Trash2 size={18} color="#c33" strokeWidth={2} />
@@ -30,7 +30,7 @@ export default function BugsPage({ bugs, updateBug, deleteBug, addBug, onBack, o
         </div>
       ))}
       <button onClick={addBug} style={{ width: "100%", padding: "12px", marginBottom: 20, border: "2px dashed #E2EADE", borderRadius: 10, background: "#fff", fontFamily: "'Nunito', sans-serif", fontSize: 14, fontWeight: 700, color: "#4BAF4F", cursor: "pointer", transition: "all 0.15s" }}>
-        + Add Another Bug
+        + Add Another Issue
       </button>
       <NavBar onBack={onBack} onNext={onNext} />
     </div>

@@ -19,7 +19,7 @@ export default function UrbanDropFeedback() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [details, setDetails] = useState({ name: "", email: "", date: new Date().toISOString().split("T")[0], phone: "" });
+  const [details, setDetails] = useState({ name: "", email: "", phone: "" });
   const [tasks, setTasks] = useState({});
   const [ratings, setRatings] = useState({});
   const [nps, setNps] = useState(null);
@@ -108,7 +108,7 @@ export default function UrbanDropFeedback() {
     2: [4, 5, 6].some(n => !tasks[n]?.trim()),
     3: Object.keys(ratings).length < RATING_QS.length,
     4: nps === null,
-    5: THOUGHT_FIELDS.some(f => !thoughts[f.key]?.trim()),
+    5: false,
     6: false,
     7: false,
     8: Object.keys(yn).length < YN_QS.length,
