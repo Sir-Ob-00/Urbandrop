@@ -19,7 +19,7 @@ export default function UrbanDropFeedback() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [details, setDetails] = useState({ name: "", email: "", date: new Date().toISOString().split("T")[0], phone: "" });
+  const [details, setDetails] = useState({ name: "", email: "", phone: "" });
   const [tasks, setTasks] = useState({});
   const [ratings, setRatings] = useState({});
   const [nps, setNps] = useState(null);
@@ -33,6 +33,15 @@ export default function UrbanDropFeedback() {
   const [elapsedTime, setElapsedTime] = useState(0);
 
   const go = (p) => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); };
+
+  useEffect(() => {
+    document.documentElement.style.overflowX = "visible";
+    document.body.style.overflowX = "visible";
+    return () => {
+      document.documentElement.style.overflowX = "";
+      document.body.style.overflowX = "";
+    };
+  }, []);
 
   useEffect(() => {
     if (submitted) {
@@ -108,7 +117,7 @@ export default function UrbanDropFeedback() {
     2: [4, 5, 6].some(n => !tasks[n]?.trim()),
     3: Object.keys(ratings).length < RATING_QS.length,
     4: nps === null,
-    5: THOUGHT_FIELDS.some(f => !thoughts[f.key]?.trim()),
+    5: false,
     6: false,
     7: false,
     8: Object.keys(yn).length < YN_QS.length,
@@ -118,12 +127,21 @@ export default function UrbanDropFeedback() {
 
   if (submitted) return <SuccessScreen elapsedTime={elapsedTime} countdown={countdown} />;
 
+  const backgroundImageUrl = new URL('../../assets/images/beta/beta-background.jpeg', import.meta.url).href;
+  const logoUrl = new URL('../../assets/images/logo-1.png', import.meta.url).href;
+
   return (
-    <div style={styles.wrapper}>
-      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <>
+      <div style={{ backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", position: "fixed", inset: 0, width: "100vw", height: "100vh", zIndex: -1 }} />
+      <div style={{ position: "relative", zIndex: 1, width: "100%" }}>
+        <div style={{ ...styles.wrapper, margin: "40px auto" }}>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
       <div style={styles.topBar}>
-        <div style={styles.logo}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        <div style={styles.logo} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+          <img src={logoUrl} alt="UrbanDrop" style={{ height: 28, width: 28 }} />
+          <div style={{ fontWeight: "bold" }}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        </div>
         <div style={styles.stepCount}>{page + 1} / {TOTAL_PAGES}</div>
       </div>
 
@@ -140,6 +158,8 @@ export default function UrbanDropFeedback() {
       {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} deleteBug={deleteBug} addBug={addBug} onBack={() => go(5)} onNext={() => go(7)} />}
       {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} deleteFeature={deleteFeature} addFeature={addFeature} onBack={() => go(6)} onNext={() => go(8)} />}
       {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} loading={loading} error={error} />}
-    </div>
+      </div>
+      </div>
+    </>
   );
 }

@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+
+# feedback flow md file
+FEEDBACK_FLOW_SCAN.md

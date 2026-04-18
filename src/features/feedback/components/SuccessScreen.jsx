@@ -1,12 +1,29 @@
 import { styles } from "../styles";
+import { useEffect } from "react";
 
 export default function SuccessScreen({ elapsedTime, countdown }) {
+  useEffect(() => {
+    document.documentElement.style.overflowX = "visible";
+    document.body.style.overflowX = "visible";
+    return () => {
+      document.documentElement.style.overflowX = "";
+      document.body.style.overflowX = "";
+    };
+  }, []);
   const progressPercent = (elapsedTime / 5000) * 100;
+  const backgroundImageUrl = new URL('../../../assets/images/beta/beta-background.jpeg', import.meta.url).href;
+  const logoUrl = new URL('../../../assets/images/logo-1.png', import.meta.url).href;
 
   return (
-    <div style={styles.wrapper}>
-      <div style={styles.topBar}>
-        <div style={styles.logo}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+    <>
+      <div style={{ backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", position: "fixed", inset: 0, width: "100vw", height: "100vh", zIndex: -1 }} />
+      <div style={{ position: "relative", zIndex: 1, width: "100%" }}>
+        <div style={{ ...styles.wrapper, margin: "40px auto" }}>
+        <div style={styles.topBar}>
+        <div style={styles.logo} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+          <img src={logoUrl} alt="UrbanDrop" style={{ height: 28, width: 28 }} />
+          <div style={{ fontWeight: "bold" }}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
+        </div>
         <div style={styles.stepCount}>Done</div>
       </div>
       <div style={{ ...styles.progressTrack, marginBottom: 0 }}>
@@ -27,7 +44,9 @@ export default function SuccessScreen({ elapsedTime, countdown }) {
           </div>
           <p style={{ color: "#7A9A7A", fontSize: 13, textAlign: "center" }}>Redirecting in {countdown} second{countdown !== 1 ? "s" : ""}...</p>
         </div>
+        </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

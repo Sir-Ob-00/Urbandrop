@@ -25,9 +25,6 @@ export default function WelcomePage({ details, setDetails, onNext, disabled }) {
           <input style={{ ...styles.input, borderColor: isEmailInvalid ? "#c33" : "#E2EADE" }} type="email" value={details.email} onChange={e => setDetails({ ...details, email: e.target.value })} placeholder="your@email.com" />
           {isEmailInvalid && <p style={{ fontSize: 12, color: "#c33", marginTop: 4 }}>Please enter a valid email address</p>}
         </Field>
-        <Field label="Date">
-          <input style={styles.input} type="date" value={details.date} onChange={e => setDetails({ ...details, date: e.target.value })} />
-        </Field>
         <Field label="Phone model" hint="e.g. iPhone 14, Samsung S23">
           <input style={styles.input} value={details.phone} onChange={e => setDetails({ ...details, phone: e.target.value })} placeholder="Your device" />
         </Field>
