@@ -1,5 +1,5 @@
 export const styles = {
-  wrapper: { maxWidth: 600, margin: "40px auto", padding: "40px 24px", minHeight: "100vh", fontFamily: "'Nunito', sans-serif", color: "#1A2E1A", background: "#FAFDF9" },
+  wrapper: { maxWidth: 600, margin: "0 auto", padding: "40px 24px 60px", minHeight: "auto", fontFamily: "'Nunito', sans-serif", color: "#1A2E1A", background: "#FAFDF9", borderRadius: 12 },
   topBar: { display: "flex", alignItems: "center", justifyContent: "space-between", padding: "8px 0 24px" },
   logo: { fontSize: 22, fontWeight: 800, letterSpacing: -0.3 },
   stepCount: { fontSize: 13, fontWeight: 600, color: "#3D9141", background: "#EAF7EB", padding: "4px 12px", borderRadius: 20 },

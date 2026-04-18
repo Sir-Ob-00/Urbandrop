@@ -35,6 +35,15 @@ export default function UrbanDropFeedback() {
   const go = (p) => { setPage(p); window.scrollTo({ top: 0, behavior: "smooth" }); };
 
   useEffect(() => {
+    document.documentElement.style.overflowX = "visible";
+    document.body.style.overflowX = "visible";
+    return () => {
+      document.documentElement.style.overflowX = "";
+      document.body.style.overflowX = "";
+    };
+  }, []);
+
+  useEffect(() => {
     if (submitted) {
       const startTime = Date.now();
       
@@ -118,9 +127,14 @@ export default function UrbanDropFeedback() {
 
   if (submitted) return <SuccessScreen elapsedTime={elapsedTime} countdown={countdown} />;
 
+  const backgroundImageUrl = new URL('../../assets/images/beta/beta-background.jpeg', import.meta.url).href;
+
   return (
-    <div style={styles.wrapper}>
-      <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <>
+      <div style={{ backgroundImage: `url('${backgroundImageUrl}')`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", backgroundAttachment: "fixed", position: "fixed", inset: 0, width: "100vw", height: "100vh", zIndex: -1 }} />
+      <div style={{ position: "relative", zIndex: 1, width: "100%" }}>
+        <div style={{ ...styles.wrapper, margin: "40px auto" }}>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
       <div style={styles.topBar}>
         <div style={styles.logo}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
@@ -140,6 +154,8 @@ export default function UrbanDropFeedback() {
       {page === 6 && <BugsPage bugs={bugs} updateBug={updateBug} deleteBug={deleteBug} addBug={addBug} onBack={() => go(5)} onNext={() => go(7)} />}
       {page === 7 && <FeaturesPage features={features} updateFeature={updateFeature} deleteFeature={deleteFeature} addFeature={addFeature} onBack={() => go(6)} onNext={() => go(8)} />}
       {page === 8 && <FinalPage yn={yn} setYn={setYn} oneChange={oneChange} setOneChange={setOneChange} anythingElse={anythingElse} setAnythingElse={setAnythingElse} onBack={() => go(7)} onSubmit={handleSubmit} disabled={isDisabled} loading={loading} error={error} />}
-    </div>
+      </div>
+      </div>
+    </>
   );
 }
