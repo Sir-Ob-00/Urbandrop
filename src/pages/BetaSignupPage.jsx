@@ -3,7 +3,7 @@ import BetaSignupForm from "../components/BetaSignupForm";
 import SEO from "../components/common/SEO";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
-import betaBackground from "../assets/images/beta/beta background.jpeg";
+import betaBackground from "../assets/images/beta/beta-background.jpeg";
 
 const BetaSignupPage = () => {
   return (
