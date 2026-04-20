@@ -356,7 +356,7 @@ export default function UrbanDropFeedback() {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
       <div style={styles.topBar}>
-        <div style={styles.logo} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+        <div style={{ ...styles.logo, display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
           <img src={logoUrl} alt="UrbanDrop" style={{ height: 28, width: 28 }} />
           <div style={{ fontWeight: "bold" }}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
         </div>
