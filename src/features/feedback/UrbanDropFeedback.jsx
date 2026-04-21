@@ -168,7 +168,7 @@ export default function UrbanDropFeedback() {
     try {
       const accumulatedData = getAccumulatedPageData(currentPage);
 
-      const response = await fetch("https://urbandrop-dev.kantatech.io/feedbacks", {
+      const response = await fetch("https://urbandrop-staging.kantatech.io/feedbacks", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -288,7 +288,7 @@ export default function UrbanDropFeedback() {
     setError("");
     
     try {
-      const response = await fetch("https://urbandrop-dev.kantatech.io/feedbacks", {
+      const response = await fetch("https://urbandrop-staging.kantatech.io/feedbacks", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
