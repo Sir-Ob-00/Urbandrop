@@ -20,7 +20,7 @@ export default function SuccessScreen({ elapsedTime, countdown }) {
       <div style={{ position: "relative", zIndex: 1, width: "100%" }}>
         <div style={{ ...styles.wrapper, margin: "40px auto" }}>
         <div style={styles.topBar}>
-        <div style={styles.logo} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
+        <div style={{ ...styles.logo, display: "flex", flexDirection: "column", alignItems: "center", gap: 6 }}>
           <img src={logoUrl} alt="UrbanDrop" style={{ height: 28, width: 28 }} />
           <div style={{ fontWeight: "bold" }}>Urban<span style={{ color: "#4BAF4F" }}>Drop</span></div>
         </div>
