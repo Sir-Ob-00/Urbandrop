@@ -32,7 +32,7 @@ const HeroSection = () => {
             transition={{ duration: 2, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            Authentic Ethnic Food &
+            {t('home.hero.title1')}
           </motion.span>
           <br />
           <motion.span
@@ -42,7 +42,7 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 0.5, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            Groceries Delivered to Your
+            {t('home.hero.title2')}
           </motion.span>
           <br />
           <motion.span
@@ -51,7 +51,7 @@ const HeroSection = () => {
             transition={{ duration: 2, delay: 1, ease: 'easeInOut' }}
             style={{ overflow: 'hidden', whiteSpace: 'nowrap', display: 'inline-block' }}
           >
-            Doorstep
+            {t('home.hero.title3')}
           </motion.span>
         </motion.h1>
         <motion.p
@@ -61,7 +61,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 1.5 }}
           viewport={{ once: true }}
         >
-          Discover African, Caribbean, Asian and international stores near you with UrbanDrop.
+          {t('home.hero.description')}
         </motion.p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#launch-countdown" className="bg-yellow-400 text-[#183A37] px-4 py-2 lg:px-6 rounded-full font-bold text-lg hover:bg-yellow-300 transition-all shadow-lg">

@@ -1,9 +1,13 @@
-﻿{
+{
     "navbar": {
         "findLocation": "Hwehwɛ Beaeɛ",
         "home": "Fie",
+        "aboutUs": "Fa ho",
+        "customer": "Onyinaafoɔ",
+        "merchant": "Bɛyɛ Adwumayɛfoɔ",
         "contactUs": "Frɛ Yɛn",
-        "getTheApp": "Fa App No"
+        "getTheApp": "Fa App No",
+        "joinBeta": "Ka Beta Ho"
     },
     "footer": {
         "findLocation": "Hwehwɛ Beaeɛ",
@@ -26,9 +30,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Hwehwɛ",
-            "richEthnic": "Amammerɛ A Ɛwɔ Mu",
-            "flavors": "Nnuane Anomaa",
+            "title1": "Nnuane Anomaa a Ɛfirii Mpɔtam &",
+            "title2": "Nneɛma a Wuhia a Yɛde Bɛbrɛ Wo wɔ",
+            "title3": "Wo Ponano",
+            "description": "Hwehwɛ Abibiman, Caribbean, Asia ne amanaman mu nneɛma a ɛbɛn wo wɔ UrbanDrop so.",
             "orderNow": "Tɔ Seesei",
             "becomeMerchant": "Bɛyɛ Adwumayɛfoɔ"
         },
@@ -251,6 +256,88 @@
                     "minutes": "Simin",
                     "seconds": "Sɛkɔnd"
                 }
+            },
+            "faq": {
+                "title": "Nsɛmmisa A Wɔtaa Bisa",
+                "subtitle": "Hwehwɛ mmuaeɛ ma nsɛmmisa a wɔtaa bisa fa Urbandrop ho.",
+                "searchPlaceholder": "Hwehwɛ nsɛmmisa bi...",
+                "noResults": "Yɛnnye nneɛma biara a ɛfa \"{{query}}\" ho. Hwehwɛ asɛmfua foforɔ.",
+                "categories": [
+                    {
+                        "category": "Akaunti ne Login",
+                        "items": [
+                            {
+                                "question": "Mɛyɛ dɛn na manya akaunti?",
+                                "answer": "Sɛ wopɛ sɛ wonya akaunti a, klik 'Sign Up' wɔ fie krataa no atifi nifa. Hyɛ wo ho nsɛm mu, wo din, email ne password a ɛyɛ den. Wobɛnya email a ɛkyerɛ sɛ wo akaunti no ayɛ krado."
+                            },
+                            {
+                                "question": "Me werɛ afi me password. Mɛyɛ dɛn na masan anya?",
+                                "answer": "Klik 'Forgot Password' wɔ login krataa no so. Fa wo email a wode hyɛɛ mu no kɔ mu na yɛbɛsoma wo sɛnea wobɛyɛ wo password foforɔ."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Aduan Tɔ ne Checkout",
+                        "items": [
+                            {
+                                "question": "Mɛyɛ dɛn na matɔ aduan?",
+                                "answer": "Hwehwɛ yɛn nneɛma mu, paw nea wopɛ na klik 'Add to Cart'. Sɛ woawie a, klik cart icon no na kɔ checkout. Di akwankyerɛ no so na fa wo delivery ne payment ho nsɛm hyɛ mu."
+                            },
+                            {
+                                "question": "Metaumi sakra anaa mayɛ aduan a matɔ no cancel?",
+                                "answer": "Wobɛtumi asakra anaa woayɛ wo order no cancel wɔ dɔnhwere 1 mu. Kɔ 'My Orders' wɔ wo akaunti mu, paw order no na paw sɛ wopɛ sɛ wosakra anaa woyɛ cancel. Sɛ dɔnhwere 1 atwa mu a, frɛ yɛn adwumayɛfoɔ."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Akatua",
+                        "items": [
+                            {
+                                "question": "Payment akwan bɛn na mugye?",
+                                "answer": "Yɛgye credit ne debit cards nyinaa (Visa, MasterCard, American Express) ne Apple Pay."
+                            },
+                            {
+                                "question": "Me payment ho nsɛm hyɛ asereɛ?",
+                                "answer": "Aane, yɛde SSL encryption a ɛyɛ dwuma wɔ wiase nyinaa na ɛbɔ wo payment ho ban. Yɛmfa wo card ho nsɛm nsie."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Aduan Brɛ ne Tracking",
+                        "items": [
+                            {
+                                "question": "Bere bɛn na aduan no bɛba?",
+                                "answer": "Delivery taa gye simin 15-25, ɛgyina baabi a wowɔ. Express delivery nso wɔ hɔ ma obi a opɛ sɛ ne dea ba ntɛm ara."
+                            },
+                            {
+                                "question": "Mɛyɛ dɛn na mahu baabi a me nneɛma no wɔ?",
+                                "answer": "Sɛ yɛsoma wo nneɛma no a, wobɛnya email a tracking link wɔ mu. Wobɛtumi nso akɔ 'My Orders' wɔ wo akaunti mu na woahu nea ɛrekɔ so."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Adeɛ San de Ma ne Sika San Gye",
+                        "items": [
+                            {
+                                "question": "Sɛnea mugye nneɛma san de ma te sɛn?",
+                                "answer": "Nneɛma A Ɛnnsɛe Ntɛm\nWobɛtumi de nneɛma a wotɔeɛ no asan abrɛ yɛn wɔ nna 14 mu, na woasan de nneɛma a wonni dwuma ho asan abrɛ yɛn foforɔ wɔ nna 14 mu na yɛasan de wo sika nyinaa ama wo. Nneɛma no sate sɛ nea wanya no.\n\nSɛ nneɛma no nnyɛ anaa ɛnte sɛ nea wɔkaa ho asɛm a, wobɛtumi agye wo sika nyinaa wɔ nna 30 mu.\n\nNneɛma A Ɛsɛe Ntɛm\nƐnam sɛ fresho nneɛma sɛe ntɛm nti, yɛngye nneɛma san anaa yɛnyɛ cancel sɛ yɛde brɛ wo wie a.\n\nSɛ nneɛma no sɛe anaa ɛnnyɛ a, ɛsɛ sɛ woka kyerɛ yɛn wɔ nnɔnhwere 24 mu. Wobɛtumi ayere mfonini. Sɛ yɛgyi tom a, yɛbɛtumi de foforɔ abrɛ wo anaa yɛasan de wo sika ama wo."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Technical Nsɛm",
+                        "items": [
+                            {
+                                "question": "Website no nnyɛ adwuma yiye. Mɛyɛ dɛn?",
+                                "answer": "Hohoro wo browser cache ne cookies, anaa fa incognito window kɔ mu. Sɛ anyɛ adwuma a, frɛ yɛn technical support."
+                            },
+                            {
+                                "question": "Metumi nya mmoa wɔ mobile app no ho?",
+                                "answer": "Hwɛ sɛ wowɔ version foforɔ no. Sɛ ɛkɔ so a, yi app no na san fa foforɔ anaa frɛ app support team."
+                            }
+                        ]
+                    }
+                ]
             }
         },
         "about": {
@@ -301,13 +388,45 @@
                 "step3": "Gye Adeɛ",
                 "step4": "Enjoy"
             },
+            "ourStory": {
+                "badge": "Yɛn Abakɔsɛm",
+                "founded": "UK / Wɔhyehyɛɛ no 2026",
+                "title": "Yɛn<br/><highlight>Abakɔsɛm.</highlight>",
+                "chapter1": {
+                    "label": "Adeɛ a Ɛhia",
+                    "title": "Na biribi <1>reyera</1> komm.",
+                    "p1": "Berɛ a metu fii Ghana kɔɔ UK wɔ afe 2022 mu no, mede anidasoɔ ne amammerɛ a megyaa no hɔ no kɔe. Enkyɛe koraa na memaa me nsa so hunuu deɛ nnipa pii a wɔtu ba ha no hu amane wɔ komm mu.",
+                    "p2": "Sɛ wopɛ sɛ wotɔ Ghana nneɛma — anaa biribiara a ɛfa Afrika anaa Caribbean ho a — ɛkyerɛ sɛ <1>wobɛtu kwan atenten akɔ nkuro foforɔ so</1>, na nneɛma a ɛwɔ hɔ no nso nnu pii, na ɛnyɛ mmerɛ koraa. Delivery apps akɛseɛ no de UK ne European brands ma mmerɛ so. Na mmom na biribiara nni hɔ a ɛboa amammerɛ ahodoɔ — nnipa koro no ara a wɔma ɔman yi yɛ fɛ da biara da no."
+                },
+                "chapter2": {
+                    "label": "Mmerɛ No",
+                    "title": "Bɔseɛ mu kwan a <1>sesaa biribiara</1>.",
+                    "p1": "Anwummerɛ bi no, me yere maame tuu kwan kɔtɔɔ nneɛma wɔ Afrikafoɔ aduane sotɔɔ bi mu wɔ adwumayɛ berɛ tenten akyi. Na wabrɛ yie wɔ bɔseɛ no mu a ɔrekɔ fie no, ɔsii bɔseɛ no mu na ɔgyaa ne nkotokuo nyinaa hɔ a wanhunu.",
+                    "quote": "Na ɛnyɛ sɛ nnuane a ɛfi fie na akyere no nko. Na ɛfa sɛnea nnipa yɛ adwumaden, sɛnea wɔtu kwan atenten koraa sɛnea ɛbɛyɛ a wɔne wɔn a wɔyɛ no bɛtena ase."
+                },
+                "chapter3": {
+                    "label": "Yɛn Botaeɛ",
+                    "title": "Ɛhɔ na <1>Urbandrop</1> fii aseɛ.",
+                    "p1": "Yɛreyɛ digital marketplace sɛnea ɛbɛyɛ a Afro-Caribbean, Asia ne amammerɛ ahodoɔ foforɔ bɛtumi atɔ nnuane a wɔdɔ afi wɔn fon so tẽẽ. <1>Kwan tenten biara nni mu. Nkotokuo adesoa biara nni mu.</1> Nneɛma a ɛyɛ fɛ na wanim firi a wɔde ma wo wɔ ɔkwan a ɛyɛ fɛ so.",
+                    "memory": "Nkaeɛ",
+                    "memoryDesc": "Baabi a wofi",
+                    "comfort": "Dwoodwoo",
+                    "comfortDesc": "Fie dɛ",
+                    "identity": "Yɛn ho nsɛm",
+                    "identityDesc": "Deɛ woyɛ"
+                },
+                "closing": {
+                    "quote": "Aduane yɛ biribi a ɛborɔ nnuane nko; ɛyɛ nkaeɛ, dwoodwoo, ne deɛ yɛyɛ. Wɔ ɔman a agye nnipa pii yi mu no, <1>fata sɛ wɔnya ɔkwan pa a wɔbɛfa so ate nka sɛ wɔwɔ fie</1>. Yei ne yɛn botaeɛ. Na yei ne mfiaseɛ pɛ.",
+                    "est": "Est. 2026"
+                }
+            },
             "purpose": {
                 "title1": "Yɛde",
                 "title2": "Adwene",
                 "quote": "Sɛnea ɛbɛma nnawɔtwe mu nneɛma ayɛ mmerɛ na ɛde anigyeɛ bɛba nkurɔfoɔ nkyɛn."
-            }
-        },
-        "merchants": {
+        }
+    },
+    "merchants": {
             "hero": {
                 "title1": "Ma w'adwuma nyɛ kɛseɛ wɔ",
                 "title2": "Urbandrop",
@@ -378,10 +497,84 @@
                 "desc": "Ɛyɛ simin 10 nko na w'ahyɛ mu na wotɔ adeɛ. Ka ho adwumayɛfoɔ mpempem a wɔyɛ successful.",
                 "button": "Bɛyɛ Adwumayɛfoɔ",
                 "contact": "Frɛ Sales Team",
-                "footer": "Nsɛmmisa bi wɔ hɔ? Yɛn team wɔ ha sɛ wɔbɛboa wo wɔ kwan biara so."
-            }
-        },
-        "advertise": {
+                "footer": "Nsɛmmisa bi wɔ hɔ? Yɛn team wɔ ha sɛ wɔbɛboa wo wɔ kwan biara so.",
+                "termsLink": "Hwɛ Adwadifoɔ Mmara ne Tebea horow"
+            },
+            "faq": {
+                "title": "Adwadifoɔ Nsemmisa a Wɔtaa Bisa",
+                "subtitle": "Biribiara a ɛsɛ sɛ wunim fa Urbandrop so tɔn ho.",
+                "searchPlaceholder": "Hwehwɛ mmoa...",
+                "noResults": "Yɛannya nea wohwehwɛ no \"{{query}}\". Yɛsrɛ wo, hwehwɛ asɛmfua foforo.",
+                "categories": [
+                    {
+                        "category": "Mfitiaseɛ",
+                        "items": [
+                            {
+                                "question": "Mɛyɛ dɛn na mabɛyɛ odwadifoɔ wɔ Urbandrop so?",
+                                "answer": "Sɛ wopɛ sɛ wobɛyɛ odwadifoɔ a, tuatua 'Bɛyɛ Odwadifoɔ' so na fa wo nnwuma ho nsɛm ma. Yɛn team bɛhwɛ w'asɛm no mu na wɔakyerɛ wo kwan a wobɛfa so adu baabi a ɛsɛ sɛ wodu."
+                            },
+                            {
+                                "question": "Nkrataa bɛn na mehia na matumi de me ho akyerɛw?",
+                                "answer": "Wobɛhia adwumayɛ krataa a ɛfata, wo ID ho nhwɛso, ne wo bank account ho nsɛm a wɔde bɛtua wo ka. Mmara horow no betumi asesa wɔ baabi a wowɔ."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Nneɛma ne Ndwuma Sohwɛ",
+                        "items": [
+                            {
+                                "question": "Mɛyɛ dɛn na made nneɛma aka me sotɔɔ ho?",
+                                "answer": "Kɔ wo Merchant Dashboard mu, kɔ 'Products' faaba, na tuatua 'Add New Product' so. Kyerɛw nneɛma no ho nsɛm, fa mfonini gu so, na hyehyɛ ne boɔ ne dodow a wowɔ."
+                            },
+                            {
+                                "question": "Metumi ahwɛ nneɛma dodow a mewɔ so ntɛm ara?",
+                                "answer": "Aane, yɛn platform no hwɛ nneɛma dodow a wowɔ so gyina nea woatɔn so. Wobɛtumi nso asesa dodow no wo nsa fa dashboard no so sɛ wonya nneɛma foforo a."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Oda ne Nneɛma Deɛ",
+                        "items": [
+                            {
+                                "question": "Mɛyɛ dɛn na mahunu sɛ nipa bi a-oda adeɛ?",
+                                "answer": "Wobɛnya notification ntɛm ara fa email ne Merchant App so. Oda no nso bɛpue wɔ 'Active Orders' faaba wɔ wo dashboard so ntɛm ara."
+                            },
+                            {
+                                "question": "Hena na ɔhwɛ nneɛma a wɔde kɔma customers so?",
+                                "answer": "Urbandrop delivery partners na wɔhwɛ adwuma no so. Sɛ oda no siesie ne ho a, wobisa pickup, na yɛn partner de kɔma customer no."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Akatua ne Sika a Wɔnya",
+                        "items": [
+                            {
+                                "question": "Bere bɛn na yɛbɛtua me ka na wɔbɛyɛ no dɛn?",
+                                "answer": "Yɛtua nneɛma a wɔatɔn no ho ka dapɛn biara Benada. Sika no kɔ wo bank account a wode registere no mu tɛɛ."
+                            },
+                            {
+                                "question": "Ɛka bɛn na ɛwɔ so sɛ metɔn adeɛ wɔ Urbandrop so?",
+                                "answer": "Yɛgye commission wɔ tɔn biara a ɛyɛ yiye so. Ne dodow no gyina adeɛ a wotɔn ne subscription plan a wowɔ so. Yɛnnye mfitiaseɛ sika biara."
+                            }
+                        ]
+                    },
+                    {
+                        "category": "Mfiridwuma Mmoa",
+                        "items": [
+                            {
+                                "question": "Hena na menne no nkasa sɛ mewɔ ɔhaw bi a?",
+                                "answer": "Yɛn Merchant Support team no wɔ hɔ nnɔnhwere 24. Wobɛtumi anya yɛn fa live chat so wɔ wo dashboard, email, anaa yɛn phone line titiriw no so."
+                            },
+                            {
+                                "question": "Sɛ Merchant Dashboard no nnye nso ɛ?",
+                                "answer": "Sɛ ɛba no saa a, hwɛ yɛn status page mma nsɛm foforo. Yɛn engineering team hwɛ system no so bere biara na ama ayɛ adwuma yiye."
+                            }
+                        ]
+                    }
+                ]
+        }
+    },
+    "advertise": {
             "title": "Fa Adwumaden Di",
             "desc": "Hyɛ w'brand ho nsɛm yɛn ho",
             "hero": {
@@ -434,9 +627,9 @@
                     "headline": "In-App Promotions",
                     "description": "Fa promotions ne special offers a ɛbɛma wotɔn adeɛ na akɔfa customers foforɔ aba."
                 }
-            }
-        },
-        "privacyPolicy": {
+        }
+    },
+    "privacyPolicy": {
             "hero": {
                 "title": "Ahofadi",
                 "highlight": "Nsɛm",
@@ -608,9 +801,9 @@
                     "ico": "Wɔwɔ ho kwan sɛ wobɛkɔ Information Commissioner's Office (ICO) wɔ UK.",
                     "website": "Website: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
                 }
-            }
-        },
-        "cookiesPolicy": {
+        }
+    },
+    "cookiesPolicy": {
             "title": "Cookies Nhyehyɛe",
             "effectiveDate": "Ɔda a ɛyɛ Adwuma: {{date}}",
             "whatAreCookies": {
@@ -656,9 +849,9 @@
                 "desc": "Sɛ wowɔ nsɛmmisa fa yɛde cookies di dwuma ho a, frɛ:",
                 "companyName": "UrbanDrop Group Limited",
                 "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
-            }
-        },
-        "notFoundPage": {
+        }
+    },
+    "notFoundPage": {
             "title": "Krataa no Nnhu",
             "desc": "Krataa a worehwehwɛ no nni hɔ anaa wɔakɔ faako foforɔ.",
             "goHome": "Kɔ Fie",
@@ -673,10 +866,9 @@
                     "desc": "Ka yɛn network of sellers ho"
                 }
             },
-            "illustration": "Yɛnnhuu krataa no, nanso yɛhuu nneɛma foforɔ a ɛyɛ fres!",
-            "searchSuggestion": "Sɔ hwɛ nea wopɛ anaa kɔ yɛn Help Center."
-        },
-        "cookieConsent": {
+            "illustration": "Yɛnnhuu krataa no, nanso yɛhuu nneɛma foforɔ a ɛyɛ fres!"
+    },
+    "cookieConsent": {
             "banner": {
                 "title": "Yɛhwɛ wo ahofadi so",
                 "description": "Yɛde cookies di dwuma ma wo experience yɛ papa. UrbanDrop de essential cookies ma site yɛ adwuma, na optional cookies boa yɛn ma yɛte sɛnea wode di dwuma, personalize content, ne kyerɛ wo offers a ɛfata wo. Wobɛtumi paw Accept All Cookies, reject non-essential, anaa manage preferences bere biara.",
@@ -727,9 +919,9 @@
                     "inactive": "Inactive",
                     "required": "Ho Hia"
                 }
-            }
-        },
-        "termsConditions": {
+        }
+    },
+    "termsConditions": {
             "title": "Mmara ne Nsɛm a Ɛda Hɔ",
             "lastUpdated": "Ɛda a wɔasakra no: {{date}}",
             "intro": {

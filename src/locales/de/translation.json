@@ -2,8 +2,12 @@
     "navbar": {
         "findLocation": "Standort finden",
         "home": "Startseite",
+        "aboutUs": "Über uns",
+        "customer": "Kunde",
+        "merchant": "Händler werden",
         "contactUs": "Kontakt",
-        "getTheApp": "App holen"
+        "getTheApp": "App holen",
+        "joinBeta": "Beta beitreten"
     },
     "footer": {
         "findLocation": "Standort finden",
@@ -26,9 +30,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Entdecken",
-            "richEthnic": "reiche Ethnische",
-            "flavors": "Aromen",
+            "title1": "Authentische ethnische Küche &",
+            "title2": "Lebensmittel direkt an Ihre",
+            "title3": "Haustür geliefert",
+            "description": "Entdecken Sie afrikanische, karibische, asiatische und internationale Geschäfte in Ihrer Nähe mit UrbanDrop.",
             "orderNow": "Jetzt Bestellen",
             "becomeMerchant": "Händler Werden"
         },
@@ -243,20 +248,107 @@
             "desc": "Laden Sie unsere App herunter für blitzschnelle Bestellungen, exklusive Angebote und ein nahtloses Entdeckungserlebnis für Lebensmittel.",
             "ios": "Für iOS Herunterladen",
             "android": "Für Android Herunterladen"
+        },
+        "faq": {
+            "title": "Häufig Gestellte Fragen",
+            "subtitle": "Hier finden Sie Antworten auf häufig gestellte Fragen zur Nutzung von Urbandrop.",
+            "searchPlaceholder": "FAQs durchsuchen...",
+            "noResults": "Keine Ergebnisse für \"{{query}}\" gefunden. Versuchen Sie es mit einem anderen Begriff.",
+            "categories": [
+                {
+                    "category": "Konto & Anmeldung",
+                    "items": [
+                        {
+                            "question": "Wie erstelle ich ein Konto?",
+                            "answer": "Um ein Konto zu erstellen, klicken Sie auf die Schaltfläche 'Registrieren' oben rechts auf der Startseite. Geben Sie Ihre Daten ein, einschließlich Name, E-Mail-Adresse und ein sicheres Passwort. Sie erhalten eine Bestätigungs-E-Mail zur Verifizierung Ihres Kontos."
+                        },
+                        {
+                            "question": "Ich habe mein Passwort vergessen. Wie kann ich es zurücksetzen?",
+                            "answer": "Klicken Sie auf der Anmeldeseite auf 'Passwort vergessen'. Geben Sie Ihre registrierte E-Mail-Adresse ein, und wir senden Ihnen Anweisungen zum sicheren Zurücksetzen Ihres Passworts."
+                        }
+                    ]
+                },
+                {
+                    "category": "Bestellung & Checkout",
+                    "items": [
+                        {
+                            "question": "Wie gebe ich eine Bestellung auf?",
+                            "answer": "Durchsuchen Sie unsere Produkte, wählen Sie die gewünschten Artikel aus und klicken Sie auf 'In den Warenkorb'. Wenn Sie bereit sind, klicken Sie auf das Warenkorb-Symbol und fahren Sie mit dem Checkout fort. Folgen Sie den Anweisungen zur Eingabe Ihrer Versand- und Zahlungsinformationen."
+                        },
+                        {
+                            "question": "Kann ich meine Bestellung nach der Aufgabe ändern oder stornieren?",
+                            "answer": "Sie können Ihre Bestellung innerhalb von 1 Stunde nach Aufgabe ändern oder stornieren. Gehen Sie in Ihrem Konto auf 'Meine Bestellungen', wählen Sie die Bestellung aus und wählen Sie die Option zum Ändern oder Stornieren. Wenn mehr als 1 Stunde vergangen ist, kontaktieren Sie bitte unser Support-Team."
+                        }
+                    ]
+                },
+                {
+                    "category": "Zahlungen",
+                    "items": [
+                        {
+                            "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+                            "answer": "Wir akzeptieren alle gängigen Kredit- und Debitkarten (Visa, MasterCard, American Express) und Apple Pay."
+                        },
+                        {
+                            "question": "Sind meine Zahlungsdaten sicher?",
+                            "answer": "Ja, wir verwenden SSL-Verschlüsselung nach Industriestandard, um Ihre Zahlungsdaten zu schützen. Wir speichern keine Kreditkartendaten."
+                        }
+                    ]
+                },
+                {
+                    "category": "Lieferung & Sendungsverfolgung",
+                    "items": [
+                        {
+                            "question": "Wie lange dauert die Lieferung normalerweise?",
+                            "answer": "Die Standardlieferung dauert 15–25 Minuten, je nach Entfernung. Eine Expresslieferung ist an der Kasse für prioritäre Lieferung verfügbar."
+                        },
+                        {
+                            "question": "Wie kann ich meine Bestellung verfolgen?",
+                            "answer": "Sobald Ihre Bestellung versandt wurde, erhalten Sie eine Bestätigungs-E-Mail mit einem Tracking-Link. Sie können den Status Ihrer Bestellung auch im Bereich 'Meine Bestellungen' Ihres Kontos verfolgen."
+                        }
+                    ]
+                },
+                {
+                    "category": "Rückmledungen & Rückerstattungen",
+                    "items": [
+                        {
+                            "question": "Wie lauten Ihre Rückgabebedingungen?",
+                            "answer": "Nicht verderbliche Produkte\nSie können Ihre Bestellung innerhalb von 14 Tagen nach Lieferung zurückgeben und unbenutzte Artikel innerhalb weiterer 14 Tage gegen volle Rückerstattung zurücksenden. Die Artikel müssen im Originalzustand zurückgegeben werden.\n\nWenn die Ware fehlerhaft ist, nicht der Beschreibung entspricht oder für den Zweck ungeeignet ist, haben Sie innerhalb von 30 Tagen nach Erhalt Anspruch auf eine volle Rückerstattung.\n\nVerderbliche Produkte\nAufgrund der Verderblichkeit frischer Waren akzeptieren wir keine Rückgaben oder Stornierungen, sobald diese geliefert wurden.\n\nWenn Ihre Bestellung beschädigt, falsch oder ungenießbar ankommt, müssen Sie uns innerhalb von 24 Stunden nach der Lieferung benachrichtigen. Fotobeweise können erforderlich sein. Genehmigte Reklamationen können durch Ersatz, Gutschrift oder Rückerstattung für die betroffenen Artikel gelöst werden."
+                        }
+                    ]
+                },
+                {
+                    "category": "Technische Probleme",
+                    "items": [
+                        {
+                            "question": "Die Website wird nicht richtig geladen. Was soll ich tun?",
+                            "answer": "Versuchen Sie, den Cache und die Cookies Ihres Browsers zu leeren oder über ein Inkognito-Fenster auf die Website zuzugreifen. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unseren technischen Support."
+                        },
+                        {
+                            "question": "Ich habe Probleme mit der mobilen App. Wo bekomme ich Hilfe?",
+                            "answer": "Stellen Sie sicher, dass Sie die neueste Version der App installiert haben. Wenn die Probleme weiterhin bestehen, versuchen Sie, die App neu zu installieren, oder kontaktieren Sie unser App-Support-Team mit Ihren Gerätedetails."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "about": {
+        "title": "1. Über UrbanDrop",
+        "content": [
+            "UrbanDrop ist ein Online-Marktplatz, der Kunden mit unabhängigen Händlern verbindet, die Lebensmittel, Mahlzeiten und ethnische Produkte zur Lieferung oder Abholung anbieten. Wir stellen die digitale Infrastruktur, die Zahlungsabwicklung und die Schnittstelle zum Kunden bereit, produzieren, besitzen oder verkaufen jedoch nicht die auf der Plattform gelisteten Artikel.",
+            "Wenn Sie eine Bestellung über UrbanDrop aufgeben, kaufen Sie direkt beim Händler, nicht bei UrbanDrop."
+        ],
         "hero": {
-            "title1": "Liefern von",
-            "title2": "Frische",
-            "title3": "Verbinden von",
-            "title4": "Gemeinschaften",
-            "desc": "Bei Urbandrop definieren wir neu, wie lokale Unternehmen mit Kunden in Verbindung treten — durch Geschwindigkeit, Einfachheit und Technologie."
+            "title1": "Authentische Aromen",
+            "title2": "Kulturell Verifiziert",
+            "title3": "Nachhaltiges Wachstum",
+            "title4": "Lokale Stärkung",
+            "desc": "UrbanDrop widmet sich dem Ziel, die Vielfalt ethnischer Küchen direkt zu Ihnen nach Hause zu bringen, während wir lokale Händler unterstützen und die kulturelle Vielfalt feiern."
         },
         "purpose": {
-            "title1": "Gebaut Mit einem",
+            "title1": "Gebaut mit einem",
             "title2": "Zweck",
-            "quote": "Um die tägliche Bewegung zu vereinfachen und Bequemlichkeit näher zu den Menschen zu bringen."
+            "quote": "Um die täglichen Wege zu vereinfachen und Bequemlichkeit näher zu den Menschen zu bringen."
         },
         "ecosystem": {
             "title": "Das Ökosystem",
@@ -278,20 +370,56 @@
                 "subtitle": "Logistik Gelöst"
             }
         },
+        "highlights": {
+            "title": "Unser Engagement",
+            "subtitle": "Wertorientiertes Wachstum",
+            "item1": "Schneller Service",
+            "item3": "Nutzerzentriert",
+            "item4": "Marktwachstum",
+            "item5": "Sichere Zahlungen"
+        },
         "process": {
-            "step1": "Herunterladen",
+            "step1": "Entdecken",
             "step2": "Bestellen",
-            "step3": "Erhalten",
+            "step3": "Verfolgen",
             "step4": "Genießen"
         },
-        "highlights": {
-            "title": "Die Erfahrung",
-            "subtitle": "Premium-Standard",
-            "item1": "Schnell & Verbunden",
-            "item2": "Alle Seiten Unterstützt",
-            "item3": "Mobiler Workflow",
-            "item4": "Gemeinschaftswachstum",
-            "item5": "Zuverlässig & Sicher"
+        "ourStory": {
+            "badge": "Unsere Geschichte",
+            "founded": "Vereinigtes Königreich / Gegründet 2026",
+            "title": "Unsere<br/><highlight>Geschichte.</highlight>",
+            "chapter1": {
+                "label": "Die Lücke",
+                "title": "Etwas hat still und leise <1>gefehlt</1>.",
+                "p1": "Als ich 2022 von Ghana nach Großbritannien zog, kam ich mit Hoffnung und einer tiefen Verbindung zu der Kultur an, die ich zurückließ. Es dauerte nicht lange, bis ich spürte, was so viele Einwanderer schweigend ertragen.",
+                "p2": "Der Einkauf ghanaischer Lebensmittel — egal ob afrikanisch oder karibisch — bedeutete <1>weite Wege zu verstreuten Geschäften</1>, begrenzte Auswahl und fast kein Komfort. Herkömmliche Liefer-Apps bedienten britische und europäische Marken mit Leichtigkeit. Aber nichts bediente wirklich die ethnischen Gemeinschaften — genau die Menschen, die dieses Land jeden Tag bereichern."
+            },
+            "chapter2": {
+                "label": "Der Moment",
+                "title": "Eine Busfahrt, die <1>alles veränderte</1>.",
+                "p1": "Eines Abends machte sich die Mutter meiner Frau nach einem langen Tag auf den Weg, um in einem afrikanischen Lebensmittelgeschäft einzukaufen. Erschöpft von der Busfahrt nach Hause, stieg sie aus und ließ alle ihre Taschen zurück, ohne es zu merken.",
+                "quote": "Es ging nicht nur darum, dass das Essen von zu Hause fehlte. Es ging darum, wie hart die Menschen arbeiten, wie weit sie reisen, nur um mit dem verbunden zu bleiben, was sie sind."
+            },
+            "chapter3": {
+                "label": "Die Mission",
+                "title": "Hier wurde <1>Urbandrop</1> geboren.",
+                "p1": "Wir bauen einen digitalen Marktplatz auf, damit afro-karibische, asiatische und andere ethnische Gemeinschaften die Lebensmittel, die sie lieben, direkt über ihr Telefon einkaufen können. <1>Keine weiten Wege. Keine schweren Taschen.</1> Frische, vertraute Produkte, mit Sorgfalt und Würde geliefert.",
+                "memory": "Erinnerung",
+                "memoryDesc": "Woher du kommst",
+                "comfort": "Komfort",
+                "comfortDesc": "Geschmack von Zuhause",
+                "identity": "Identität",
+                "identityDesc": "Wer du bist"
+            },
+            "closing": {
+                "quote": "Essen ist mehr als Zutaten; es ist Erinnerung, Komfort, Identität. In einem Land, das so viele willkommen geheißen hat, <1>verdienen sie einen besseren Weg, sich wie zu Hause zu fühlen</1>. Das ist unsere Mission. Und wir stehen erst am Anfang.",
+                "est": "Gegr. 2026"
+            }
+        },
+        "team": {
+            "badge": "Unser Team",
+            "title": "Das Team kennenlernen",
+            "desc": "Die leidenschaftlichen Menschen hinter Urbandrop, die sich dafür einsetzen, afrikanische Aromen zu Ihnen nach Hause zu bringen."
         }
     },
     "advertise": {
@@ -411,10 +539,84 @@
         },
         "cta": {
             "title": "Beginnen Sie noch heute mit Urbandrop zu wachsen!",
-            "desc": "Es dauert weniger als 10 Minuten, um beizutreten und mit dem Verkauf zu beginnen.",
+            "desc": "Es dauert weniger als 10 Minuten, um beizutreten und mit dem Verkauf zu beginnen. Schließen Sie sich hunderten erfolgreichen Händlern an, die bereits wachsen.",
             "button": "Händler Werden",
             "contact": "Vertrieb Kontaktieren",
-            "footer": "Fragen? Unser Team ist hier, um Ihnen bei jedem Schritt zu helfen."
+            "footer": "Fragen? Unser Team ist hier, um Ihnen bei jedem Schritt zu helfen.",
+            "termsLink": "Händler-AGB prüfen"
+        },
+        "faq": {
+            "title": "Händler-FAQ",
+            "subtitle": "Alles, was Sie über den Verkauf auf Urbandrop wissen müssen.",
+            "searchPlaceholder": "Ressourcen durchsuchen...",
+            "noResults": "Keine Ergebnisse für \"{{query}}\" gefunden. Versuchen Sie es mit einem anderen Begriff.",
+            "categories": [
+                {
+                    "category": "Erste Schritte",
+                    "items": [
+                        {
+                            "question": "Wie werde ich Händler auf Urbandrop?",
+                            "answer": "Um Händler zu werden, klicken Sie auf 'Händler Werden' und geben Sie Ihre Geschäftsdetails an. Unser Team wird Ihre Anmeldung prüfen und Sie durch den Onboarding-Prozess begleiten."
+                        },
+                        {
+                            "question": "Welche Dokumente sind für die Registrierung erforderlich?",
+                            "answer": "Sie benötigen eine gültige Gewerbeanmeldung, einen Identitätsnachweis und Bankverbindungsdaten für Auszahlungen. Die spezifischen Anforderungen können je nach Region variieren."
+                        }
+                    ]
+                },
+                {
+                    "category": "Produkt- und Bestandsmanagement",
+                    "items": [
+                        {
+                            "question": "Wie füge ich Produkte zu meinem Shop hinzu?",
+                            "answer": "Melden Sie sich in Ihrem Händler-Dashboard an, navigieren Sie zum Bereich 'Produkte' und klicken Sie auf 'Neues Produkt hinzufügen'. Geben Sie die Produktdetails ein, laden Sie Bilder hoch und legen Sie Ihre Preise und Bestandsmengen fest."
+                        },
+                        {
+                            "question": "Kann ich die Bestandsmengen automatisch verwalten?",
+                            "answer": "Ja, unsere Plattform verfolgt Ihre Lagerbestände basierend auf den Verkäufen. Sie können den Bestand auch manuell über das Dashboard anpassen, wenn Sie neue Lieferungen erhalten."
+                        }
+                    ]
+                },
+                {
+                    "category": "Bestellungen und Erfüllung",
+                    "items": [
+                        {
+                            "question": "Wie werde ich über eine neue Bestellung benachrichtigt?",
+                            "answer": "Sie erhalten Echtzeit-Benachrichtigungen per E-Mail und über die Händler-App. Die Bestellung erscheint außerdem sofort im Tab 'Aktive Bestellungen' in Ihrem Dashboard."
+                        },
+                        {
+                            "question": "Wer kümmert sich um die Lieferung?",
+                            "answer": "Das Netzwerk von Zustellpartnern von Urbandrop kümmert sich um die Abwicklung. Sobald eine Bestellung vorbereitet ist, fordern Sie eine Abholung an, und unser Partner liefert sie an den Kunden aus."
+                        }
+                    ]
+                },
+                {
+                    "category": "Zahlungen und Einnahmen",
+                    "items": [
+                        {
+                            "question": "Wann und wie werde ich bezahlt?",
+                            "answer": "Auszahlungen werden wöchentlich jeden Dienstag für alle abgeschlossenen Bestellungen der Vorwoche verarbeitet. Das Geld wird direkt auf das von Ihnen registrierte Bankkonto überwiesen."
+                        },
+                        {
+                            "question": "Welche Gebühren fallen für das Verkaufen auf Urbandrop an?",
+                            "answer": "Wir erheben eine Provision auf jeden erfolgreichen Verkauf. Der genaue Prozentsatz hängt von Ihrer Produktkategorie und Ihrem Abonnementplan ab. Es fallen keine Einrichtungsgebühren an."
+                        }
+                    ]
+                },
+                {
+                    "category": "Technischer Support",
+                    "items": [
+                        {
+                            "question": "Wen kontaktiere ich bei Problemen?",
+                            "answer": "Unser engagiertes Händler-Support-Team ist rund um die Uhr für Sie da. Sie erreichen uns per Live-Chat in Ihrem Dashboard, per E-Mail oder über unsere Priority-Hotline."
+                        },
+                        {
+                            "question": "Was passiert, wenn das Händler-Dashboard ausfällt?",
+                            "answer": "In dem seltenen Fall eines Ausfalls finden Sie Updates auf unserer Statusseite. Unser Technikteam überwacht die Systemintegrität aktiv, um maximale Verfügbarkeit zu gewährleisten."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "privacyPolicy": {

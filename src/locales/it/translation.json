@@ -1,5 +1,9 @@
-﻿{
+{
     "navbar": {
+        "aboutUs": "Chi siamo",
+        "customer": "Cliente",
+        "merchant": "Diventa un commerciante",
+        "joinBeta": "Unisciti alla Beta",
         "findLocation": "Trova posizione",
         "home": "Home",
         "contactUs": "Contattaci",
@@ -26,9 +30,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Scopri",
-            "richEthnic": "ricchi sapori",
-            "flavors": "etnici",
+            "title1": "Cibo Etnico Autentico &",
+            "title2": "Spesa Consegnata a Casa",
+            "title3": "Sulla Tua Porta",
+            "description": "Scopri i negozi africani, caraibici, asiatici e internazionali vicino a te con UrbanDrop.",
             "orderNow": "Ordina ora",
             "becomeMerchant": "Diventa un commerciante"
         },
@@ -251,6 +256,88 @@
                 "minutes": "Minuti",
                 "seconds": "Secondi"
             }
+        },
+        "faq": {
+            "title": "Domande Frequenti",
+            "subtitle": "Trova le risposte alle domande comuni sull'uso di Urbandrop.",
+            "searchPlaceholder": "Cerca nelle FAQ...",
+            "noResults": "Nessun risultato trovato per \"{{query}}\". Prova con un termine diverso.",
+            "categories": [
+                {
+                    "category": "Account e Accesso",
+                    "items": [
+                        {
+                            "question": "Come posso creare un account?",
+                            "answer": "Per creare un account, clicca sul pulsante 'Registrati' nell'angolo in alto a destra della home page. Inserisci i tuoi dati, inclusi nome, indirizzo email e una password sicura. Riceverai un'email di conferma per verificare il tuo account."
+                        },
+                        {
+                            "question": "Ho dimenticato la mia password. Come posso reimpostarla?",
+                            "answer": "Clicca su 'Password dimenticata' nella pagina di accesso. Inserisci il tuo indirizzo email registrato e ti invieremo le istruzioni per reimpostare la tua password in modo sicuro."
+                        }
+                    ]
+                },
+                {
+                    "category": "Ordini e Checkout",
+                    "items": [
+                        {
+                            "question": "Come posso effettuare un ordine?",
+                            "answer": "Sfoglia i nostri prodotti, seleziona gli articoli che desideri e clicca su 'Aggiungi al carrello'. Quando sei pronto, clicca sull'icona del carrello e procedi al checkout. Segui le istruzioni per inserire le informazioni di spedizione e pagamento."
+                        },
+                        {
+                            "question": "Posso modificare o annullare il mio ordine dopo averlo effettuato?",
+                            "answer": "Puoi modificare o annullare il tuo ordine entro 1 ora dall'invio. Vai su 'I miei ordini' nel tuo account, seleziona l'ordine e scegli l'opzione di modifica o annullamento. Se è passata più di un'ora, contatta il nostro team di supporto."
+                        }
+                    ]
+                },
+                {
+                    "category": "Pagamenti",
+                    "items": [
+                        {
+                            "question": "Quali metodi di pagamento accettate?",
+                            "answer": "Accettiamo tutte le principali carte di credito e debito (Visa, MasterCard, American Express) e Apple Pay."
+                        },
+                        {
+                            "question": "I miei dati di pagamento sono sicuri?",
+                            "answer": "Sì, utilizziamo la crittografia SSL standard del settore per proteggere i tuoi dati di pagamento. Non memorizziamo i dettagli della tua carta di credito."
+                        }
+                    ]
+                },
+                {
+                    "category": "Consegna e Tracciamento",
+                    "items": [
+                        {
+                            "question": "Quanto tempo impiega solitamente la consegna?",
+                            "answer": "La consegna standard impiega 15–25 minuti, a seconda della distanza. La consegna rapida è disponibile al checkout per una consegna prioritaria."
+                        },
+                        {
+                            "question": "Come posso tracciare il mio ordine?",
+                            "answer": "Una volta spedito l'ordine, riceverai un'email di conferma con un link di tracciamento. Puoi anche controllare lo stato del tuo ordine nella sezione 'I miei ordini' del tuo account."
+                        }
+                    ]
+                },
+                {
+                    "category": "Resi e Rimborsi",
+                    "items": [
+                        {
+                            "question": "Qual è la vostra politica di reso?",
+                            "answer": "Prodotti Non Deperibili\nPuoi restituire il tuo ordine entro 14 giorni dalla consegna e restituire gli articoli non utilizzati entro altri 14 giorni per un rimborso completo. Gli articoli devono essere restituiti nelle loro condizioni originali.\n\nSe la merce è difettosa, non conforme alla descrizione o non idonea all'uso, hai diritto a un rimborso completo entro 30 giorni dal ricevimento.\n\nProdotti Deperibili\nA causa della natura deperibile dei prodotti freschi, non accettiamo resi o annullamenti una volta consegnati.\n\nSe l'ordine arriva danneggiato, errato o non sicuro da consumare, devi informarci entro 24 ore dalla consegna. Potrebbe essere richiesta una prova fotografica. I reclami approvati possono essere risolti con una sostituzione, credito nel negozio o rimborso per gli articoli interessati."
+                        }
+                    ]
+                },
+                {
+                    "category": "Problemi Tecnici",
+                    "items": [
+                        {
+                            "question": "Il sito web non si carica correttamente. Cosa devo fare?",
+                            "answer": "Prova a svuotare la cache e i cookie del browser o ad accedere al sito utilizzando una finestra in incognito. Se il problema persiste, contatta il nostro supporto tecnico."
+                        },
+                        {
+                            "question": "Ho problemi con l'app mobile. Dove posso trovare aiuto?",
+                            "answer": "Assicurati di avere installata l'ultima versione dell'app. Se i problemi continuano, prova a reinstallare l'app o contatta il nostro team di supporto app con i dettagli del tuo dispositivo."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "about": {
@@ -300,6 +387,38 @@
         "step2": "Ordina",
         "step3": "Ricevi",
         "step4": "Goditi"
+        },
+        "ourStory": {
+            "badge": "La Nostra Storia",
+            "founded": "Regno Unito / Fondata nel 2026",
+            "title": "La Nostra<br/><highlight>Storia.</highlight>",
+            "chapter1": {
+                "label": "Il Vuoto",
+                "title": "Qualcosa era silenziosamente <1>mancante</1>.",
+                "p1": "Quando mi sono trasferito dal Ghana nel Regno Unito nel 2022, sono arrivato con speranza e una profonda connessione con la cultura che stavo lasciando. Non c'è voluto molto per sentire ciò che tanti immigrati sopportano in silenzio.",
+                "p2": "Fare la spesa per generi alimentari ghanesi — qualsiasi cosa africana o caraibica — significava <1>lunghi viaggi verso negozi sparsi</1>, selezioni limitate e quasi nessuna comodità. Le app di consegna tradizionali servivano i marchi britannici ed europei con facilità. Ma nulla serviva veramente le comunità etniche — le stesse persone che arricchiscono questo paese ogni singolo giorno."
+            },
+            "chapter2": {
+                "label": "Il Momento",
+                "title": "Un viaggio in autobus che ha <1>cambiato tutto</1>.",
+                "p1": "Una sera, la madre di mia moglie ha fatto il viaggio per fare la spesa in un negozio di alimentari africano dopo una lunga giornata. Esausta durante il viaggio in autobus verso casa, è scesa e ha lasciato ogni borsa senza rendersene conto.",
+                "quote": "Non si trattava solo di sentire la mancanza del cibo di casa. Si trattava di quanto duramente le persone lavorano, di quanto lontano viaggiano semplicemente per rimanere connesse a chi sono."
+            },
+            "chapter3": {
+                "label": "La Missione",
+                "title": "È lì che è nato <1>Urbandrop</1>.",
+                "p1": "Stiamo costruendo un mercato digitale affinché le comunità afro-caraibiche, asiatiche e altre comunità etniche possano acquistare il cibo che amano direttamente dai loro telefoni. <1>Niente lunghi viaggi. Niente borse pesanti.</1> Prodotti freschi e familiari consegnati con cura e dignità.",
+                "memory": "Memoria",
+                "memoryDesc": "Da dove vieni",
+                "comfort": "Comfort",
+                "comfortDesc": "Sapore di casa",
+                "identity": "Identità",
+                "identityDesc": "Chi sei"
+            },
+            "closing": {
+                "quote": "Il cibo è più di semplici ingredienti; è memoria, conforto, identità. In un paese che ne ha accolti così tanti, <1>meritano un modo migliore di sentirsi a casa</1>. Questa è la nostra missione. E siamo solo all'inizio.",
+                "est": "Est. 2026"
+            }
         },
         "purpose": {
         "title1": "Costruito con uno",
@@ -374,11 +493,85 @@
         "customerSupport": "Assistenza Clienti"
         },
         "cta": {
-        "title": "Inizia a crescere con Urbandrop oggi!",
-        "desc": "Ci vogliono meno di 10 minuti per registrarsi e iniziare a vendere. Unisciti a centinaia di commercianti di successo che stanno già crescendo con noi.",
-        "button": "Diventa Commerciante",
-        "contact": "Contatta il Team Vendite",
-        "footer": "Domande? Il nostro team è pronto ad aiutarti in ogni fase."
+            "title": "Inizia a crescere con Urbandrop oggi!",
+            "desc": "Ci vogliono meno di 10 minuti per registrarsi e iniziare a vendere. Unisciti a centinaia di commercianti di successo che stanno già crescendo con noi.",
+            "button": "Diventa Commerciante",
+            "contact": "Contatta il Team Vendite",
+            "footer": "Domande? Il nostro team è pronto ad aiutarti in ogni fase.",
+            "termsLink": "Consulta i Termini e le Condizioni per i Commercianti"
+        },
+        "faq": {
+            "title": "Domande Frequenti per i Commercianti",
+            "subtitle": "Tutto quello che devi sapere per vendere su Urbandrop.",
+            "searchPlaceholder": "Cerca risorse...",
+            "noResults": "Nessun risultato trovato per \"{{query}}\". Prova un termine diverso.",
+            "categories": [
+                {
+                    "category": "Iniziare",
+                    "items": [
+                        {
+                            "question": "Come posso diventare un commerciante su Urbandrop?",
+                            "answer": "Per diventare un commerciante, clicca su 'Diventa Commerciante' e fornisci i dettagli della tua attività. Il nostro team esaminerà la tua richiesta e ti guiderà attraverso il processo di inserimento."
+                        },
+                        {
+                            "question": "Quali documenti sono richiesti per la registrazione?",
+                            "answer": "Avrai bisogno di una licenza commerciale valida, un documento d'identità e le coordinate bancarie per gli accrediti. I requisiti specifici possono variare a seconda della regione."
+                        }
+                    ]
+                },
+                {
+                    "category": "Gestione Prodotti e Inventario",
+                    "items": [
+                        {
+                            "question": "Come posso aggiungere prodotti al mio negozio?",
+                            "answer": "Accedi al tuo Pannello Commerciante, vai alla sezione 'Prodotti' e clicca su 'Aggiungi Nuovo Prodotto'. Inserisci i dettagli del prodotto, carica le immagini e imposta i prezzi e i livelli di inventario."
+                        },
+                        {
+                            "question": "Posso gestire i livelli di inventario automaticamente?",
+                            "answer": "Sì, la nostra piattaforma monitora i livelli delle scorte in base alle vendite. Puoi anche regolare manualmente l'inventario tramite il pannello quando ricevi nuove forniture."
+                        }
+                    ]
+                },
+                {
+                    "category": "Ordini e Spedizioni",
+                    "items": [
+                        {
+                            "question": "Come vengo informato di un nuovo ordine?",
+                            "answer": "Riceverai notifiche in tempo reale via email e tramite l'App Commerciante. L'ordine apparirà immediatamente anche nella scheda 'Ordini Attivi' del tuo pannello."
+                        },
+                        {
+                            "question": "Who handles the delivery?",
+                            "answer": "La rete di partner per le consegne di Urbandrop gestisce il completamento dell'ordine. Una volta preparato l'ordine, richiedi il ritiro e il nostro partner lo consegnerà al cliente."
+                        }
+                    ]
+                },
+                {
+                    "category": "Pagamenti e Guadagni",
+                    "items": [
+                        {
+                            "question": "Quando e come riceverò i pagamenti?",
+                            "answer": "I pagamenti vengono elaborati settimanalmente ogni martedì per tutti gli ordini completati nella settimana precedente. I fondi vengono depositati direttamente sul conto bancario che hai registrato."
+                        },
+                        {
+                            "question": "Quali sono le commissioni per vendere su Urbandrop?",
+                            "answer": "Addebitiamo una commissione su ogni vendita andata a buon fine. La percentuale esatta dipende dalla categoria del prodotto e dal tuo piano di abbonamento. Non ci sono costi di attivazione."
+                        }
+                    ]
+                },
+                {
+                    "category": "Supporto Tecnico",
+                    "items": [
+                        {
+                            "question": "Chi posso contattare se ho un problema?",
+                            "answer": "Il nostro team di supporto dedicato ai commercianti è disponibile 24 ore su 24, 7 giorni su 7. Puoi raggiungerci tramite live chat nel tuo pannello, email o la nostra linea telefonica prioritaria."
+                        },
+                        {
+                            "question": "Cosa succede se il Pannello Commerciante non è raggiungibile?",
+                            "answer": "Nel raro caso di un'interruzione, controlla la nostra pagina di stato per gli aggiornamenti. Il nostro team di ingegneri monitora attivamente la salute del sistema per garantire la massima operatività."
+                        }
+                    ]
+                }
+            ]
         }
     },
 

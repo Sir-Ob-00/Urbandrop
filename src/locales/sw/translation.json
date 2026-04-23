@@ -1,5 +1,9 @@
-﻿    {
+    {
         "navbar": {
+            "aboutUs": "Kuhusu",
+            "customer": "Mteja",
+            "merchant": "Kuwa Muuzaji",
+            "joinBeta": "Jiunge na Beta",
             "findLocation": "Pata eneo",
             "home": "Nyumbani",
             "contactUs": "Wasiliana Nasi",
@@ -26,9 +30,10 @@
         },
         "home": {
             "hero": {
-                "discover": "Gundua",
-                "richEthnic": "Ladha Tajiri za Kitamaduni",
-                "flavors": "Ladha",
+                "title1": "Chakula Halisi cha Kitamaduni &",
+                "title2": "Vyakula Vinavyoletwa Kwenye",
+                "title3": "Mlango Wako",
+                "description": "Gundua maduka ya Kiafrika, Karibi, Asia na kimataifa karibu nawe na UrbanDrop.",
                 "orderNow": "Agiza Sasa",
                 "becomeMerchant": "Kuwa Muuzaji"
             },
@@ -251,6 +256,88 @@
                         "minutes": "Dakika",
                         "seconds": "Sekunde"
                     }
+                },
+                "faq": {
+                    "title": "Maswali Yanayoulizwa Sana",
+                    "subtitle": "Pata majibu ya maswali ya kawaida kuhusu matumizi ya Urbandrop.",
+                    "searchPlaceholder": "Tafuta maswali ya kawaida...",
+                    "noResults": "Hakuna matokeo yaliyopatikana kwa \"{{query}}\". Jaribu kutumia neno lingine.",
+                    "categories": [
+                        {
+                            "category": "Akaunti na Kuingia",
+                            "items": [
+                                {
+                                    "question": "Ninawezaje kutengeneza akaunti?",
+                                    "answer": "Ili kutengeneza akaunti, bonyeza kitufe cha 'Jisajili' kilicho juu kulia mwa ukurasa wa nyumbani. Jaza maelezo yako, ikiwa ni pamoja na jina lako, anwani ya barua pepe, na nenosiri salama. Utapokea barua pepe ya uthibitisho ili kuthibitisha akaunti yako."
+                                },
+                                {
+                                    "question": "Nimesahau nenosiri langu. Ninawezaje kuliweka upya?",
+                                    "answer": "Bonyeza 'Nimesahau Nenosiri' kwenye ukurasa wa kuingia. Ingiza anwani yako ya barua pepe iliyosajiliwa na tutakutumia maelekezo ya kuweka upya nenosiri lako kwa usalama."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Kuagiza na Malipo",
+                            "items": [
+                                {
+                                    "question": "Ninawezaje kuagiza?",
+                                    "answer": "Vinanda bidhaa zetu, chagua bidhaa unazotaka na ubonyeze 'Ongeza kwenye Kikapu'. Unapokuwa tayari, bonyeza alama ya kikapu na uendelee kwenye malipo. Fuata maelekezo ili kuingiza taarifa zako za usafirishaji na malipo."
+                                },
+                                {
+                                    "question": "Je, ninaweza kurekebisha au kufuta agizo langu baada ya kuliweka?",
+                                    "answer": "Unaweza kurekebisha au kufuta agizo lako ndani ya saa 1 baada ya kuliweka. Nenda kwenye 'Maagizo Yangu' katika akaunti yako, chagua agizo na uchague chaguo la kurekebisha au kufuta. Ikiwa saa 1 imepita, tafadhali wasiliana na timu yetu ya usaidizi."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Malipo",
+                            "items": [
+                                {
+                                    "question": "Je, ni njia gani za malipo mnazokubali?",
+                                    "answer": "Tunakubali kadi zote kuu za mkopo na debit (Visa, MasterCard, American Express) pamoja na Apple Pay."
+                                },
+                                {
+                                    "question": "Je, taarifa zangu za malipo ziko salama?",
+                                    "answer": "Ndiyo, tunatumia usimbaji wa SSL wa kiwango cha tasnia kulinda taarifa zako za malipo. Hatuhifadhi maelezo yoyote ya kadi yako ya mkopo."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Utoaji na Ufuatiliaji",
+                            "items": [
+                                {
+                                    "question": "Utoaji huchukua muda gani kawaida?",
+                                    "answer": "Utoaji wa kawaida huchukua dakika 15-25, kulingana na umbali. Utoaji wa haraka unapatikana wakati wa malipo kwa utoaji wa kipaumbele."
+                                },
+                                {
+                                    "question": "Ninawezaje kufuatilia agizo langu?",
+                                    "answer": "Mara tu agizo lako linapousafirishwa, utapokea barua pepe ya uthibitisho yenye kiungo cha ufuatiliaji. Unaweza pia kufuatilia hali ya agizo lako katika sehemu ya 'Maagizo Yangu' ya akaunti yako."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Marejesho na Kurudishiwa Pesa",
+                            "items": [
+                                {
+                                    "question": "Je, ni sera gani yenu ya kurudisha bidhaa?",
+                                    "answer": "Bidhaa Zisizoweza Kuharibika\nUnaweza kurudisha agizo lako ndani ya siku 14 baada ya utoaji na kurudisha bidhaa ambazo hazijatumika ndani ya siku nyingine 14 kwa urejesho kamili wa pesa. Bidhaa lazima zirudishwe katika hali yake ya awali.\n\nIkiwa bidhaa zina kasoro, hazifanani na maelezo au hazifai kwa kusudi, una haki ya kurejeshewa pesa kamili ndani ya siku 30 baada ya kuzipokea.\n\nBidhaa Zinazoweza Kuharibika\nKulingana na asili ya bidhaa mbichi zinazoweza kuharibika, hatukubali kurudishwa kwa bidhaa au kufutwa kwa agizo mara tu zinapokwisha kutolewa.\n\nIkiwa agizo lako litafika likiwa limeharibika, si sahihi au halifai kuliwa, lazima utujulishe ndani ya saa 24 baada ya utoaji. Ushahidi wa picha unaweza kuhitajika. Malalamiko yaliyoidhinishwa yanaweza kutatuliwa kwa kubadilishiwa bidhaa, mkopo wa duka au kurejeshewa pesa kwa bidhaa husika."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Masuala ya Kiufundi",
+                            "items": [
+                                {
+                                    "question": "Tovuti haipakii vizuri. Nifanye nini?",
+                                    "answer": "Jaribu kufuta kache na vidakuzi (cookies) vya kivinjari chako, au ingia kwenye tovuti ukitumia dirisha la siri (incognito window). Ikiwa tatizo litaendelea, tafadhali wasiliana na usaidizi wetu wa kiufundi."
+                                },
+                                {
+                                    "question": "Nina matatizo na programu ya simu. Ninaweza kupata wapi msaada?",
+                                    "answer": "Hakikisha umesakinisha toleo jipya zaidi la programu. Ikiwa matatizo yataendelea, jaribu kusakinisha tena programu au wasiliana na timu yetu ya usaidizi wa programu ukiwa na maelezo ya kifaa chako."
+                                }
+                            ]
+                        }
+                    ]
                 }
             },
             "about": {
@@ -300,6 +387,38 @@
                     "step2": "Agiza",
                     "step3": "Pokea",
                     "step4": "Furahia"
+                },
+                "ourStory": {
+                    "badge": "Hadithi Yetu",
+                    "founded": "Uingereza / Ilianzishwa 2026",
+                    "title": "Hadithi<br/><highlight>Yetu.</highlight>",
+                    "chapter1": {
+                        "label": "Pengo",
+                        "title": "Kitu fulani kilikuwa <1>kikikosekana</1> kimyakimya.",
+                        "p1": "Nilipohamia Uingereza kutoka Ghana mwaka wa 2022, niliwasili nikiwa na matumaini na uhusiano mkubwa na utamaduni niliyoiacha nyuma. Haikuchukua muda mrefu kabla ya kuhisi kile ambacho wahamiaji wengi huvumilia kimyakimya.",
+                        "p2": "Kununua bidhaa za Ghana — kitu chochote cha Kiafrika au Karibiani — kulimaanisha <1>safari ndefu kwenye maduka yaliyotawanyika</1>, machaguo machache, na karibu hakuna urahisi. Programu kuu za utoaji zilihudumia chapa za Uingereza na Ulaya kwa urahisi. Lakini hakuna kitu kilichokuwa kikihudumia jamii za makabila — watu wale wale wanaotajirisha nchi hii kila siku."
+                    },
+                    "chapter2": {
+                        "label": "Wakati",
+                        "title": "Safari ya basi ambayo <1>ilibadilisha kila kitu</1>.",
+                        "p1": "Jioni moja, mama mkwe wangu alifanya safari ya kwenda kununua bidhaa kwenye duka la Kiafrika baada ya siku ndefu. Akiwa amechoka kwenye safari ya basi akielekea nyumbani, alishuka na kuacha kila begi nyuma bila kutambua.",
+                        "quote": "Haikuwa tu kuhusu kukosa chakula cha nyumbani. Ilikuwa kuhusu jinsi watu wanavyofanya kazi kwa bidii, jinsi wanavyosafiri mbali ili tu kubaki na uhusiano na wale walio."
+                    },
+                    "chapter3": {
+                        "label": "Dhamira",
+                        "title": "Hapo ndipo <1>Urbandrop</1> ilipozaliwa.",
+                        "p1": "Tunajenga soko la kidijitali ili jamii za Afro-Karibiani, Waasia, na jamii nyingine za makabila ziweze kununua chakula wanachokipenda moja kwa moja kutoka kwenye simu zao. <1>Hakuna safari ndefu. Hakuna mifuko mizito.</1> Bidhaa safi na zinazofahamika zinazotolewa kwa uangalifu na utu.",
+                        "memory": "Kumbukumbu",
+                        "memoryDesc": "Unakotoka",
+                        "comfort": "Faraja",
+                        "comfortDesc": "Ladha ya nyumbani",
+                        "identity": "Utambulisho",
+                        "identityDesc": "Wewe ni nani"
+                    },
+                    "closing": {
+                        "quote": "Chakula ni zaidi ya viungo; ni kumbukumbu, faraja, utambulisho. Katika nchi ambayo imewakaribisha wengi sana, <1>wanastahili njia bora ya kujisikia wako nyumbani</1>. Hii ndiyo dhamira yetu. Na ndio kwanza tunaanza.",
+                        "est": "Ilianzishwa 2026"
+                    }
                 },
                 "purpose": {
                     "title1": "Imetengenezwa Kwa",
@@ -378,7 +497,81 @@
                     "desc": "Inachukua chini ya dakika 10 kujiandikisha na kuanza kuuza. Jiunge na mamia ya wauzaji waliopata mafanikio tayari kukuza biashara zao.",
                     "button": "Kuwa Muuzaji",
                     "contact": "Wasiliana na Timu ya Mauzo",
-                    "footer": "Maswali? Timu yetu iko tayari kukusaidia kila hatua."
+                    "footer": "Maswali? Timu yetu iko tayari kukusaidia kila hatua.",
+                    "termsLink": "Kagua Masharti na Vigezo vya Wauzaji"
+                },
+                "faq": {
+                    "title": "Maswali Yanayoulizwa Mara kwa Mara ya Wauzaji",
+                    "subtitle": "Kila kitu unachohitaji kujua kuhusu kuuza kwenye Urbandrop.",
+                    "searchPlaceholder": "Tafuta rasilimali...",
+                    "noResults": "Hakuna matokeo yaliyopatikana kwa \"{{query}}\". Jaribu neno tofauti.",
+                    "categories": [
+                        {
+                            "category": "Kuanza",
+                            "items": [
+                                {
+                                    "question": "Ninawezaje kuwa muuzaji kwenye Urbandrop?",
+                                    "answer": "Ili kuwa muuzaji, bofya kwenye 'Kuwa Muuzaji' na utoe maelezo ya biashara yako. Timu yetu itapitia ombi lako na kukuongoza kupitia mchakato wa kuanza."
+                                },
+                                {
+                                    "question": "Ni nyaraka gani zinazohitajika kujiandikisha?",
+                                    "answer": "Utahitaji leseni halali ya biashara, kitambulisho, na maelezo ya akaunti ya benki kwa ajili ya malipo. Mahitaji mahususi yanaweza kutofautiana kulingana na eneo."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Usimamizi wa Bidhaa na Hesabu",
+                            "items": [
+                                {
+                                    "question": "Ninawezaje kuongeza bidhaa kwenye duka langu?",
+                                    "answer": "Ingia kwenye Dashibodi yako ya Muuzaji, nenda kwenye sehemu ya 'Bidhaa', na ubofye 'Ongeza Bidhaa Mpya'. Jaza maelezo ya bidhaa, pakia picha, na uweke bei yako na viwango vya hesabu."
+                                },
+                                {
+                                    "question": "Je, ninaweza kusimamia viwango vya hesabu kiotomatiki?",
+                                    "answer": "Ndiyo, jukwaa letu linafuatilia viwango vyako vya bidhaa kulingana na mauzo. Unaweza pia kurekebisha hesabu mwenyewe kupitia dashibodi unapopokea bidhaa mpya."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Maagizo na Ukamilishaji",
+                            "items": [
+                                {
+                                    "question": "Nitajuaje kama kuna agizo jipya?",
+                                    "answer": "Utapokea arifa za papo hapo kupitia barua pepe na Programu ya Muuzaji. Agizo pia litaonekana mara moja kwenye kichupo cha 'Maagizo Yanayoendelea' kwenye dashibodi yako."
+                                },
+                                {
+                                    "question": "Nani anashughulikia utoaji?",
+                                    "answer": "Mtandao wa washirika wa utoaji wa Urbandrop unashughulikia ukamilishaji. Mara tu agizo linapokuwa tayari, unaomba kuchukuliwa, na mshirika wetu atamfikishia mteja."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Malipo na Mapato",
+                            "items": [
+                                {
+                                    "question": "Nitalipwa lini na vipi?",
+                                    "answer": "Malipo huchakatwa kila wiki siku ya Jumanne kwa maagizo yote yaliyokamilika kutoka wiki iliyopita. Pesa huwekwa moja kwa moja kwenye akaunti ya benki uliyojisajili nayo."
+                                },
+                                {
+                                    "question": "Kuna gharama gani za kuuza kwenye Urbandrop?",
+                                    "answer": "Tunatoza kamisheni kwa kila mauzo yaliyofanikiwa. Asilimia kamili inategemea kategoria ya bidhaa yako na mpango wa usajili. Hakuna gharama za kuanza."
+                                }
+                            ]
+                        },
+                        {
+                            "category": "Msaada wa Kiufundi",
+                            "items": [
+                                {
+                                    "question": "Niwasiliane na nani nikiwa na tatizo?",
+                                    "answer": "Timu yetu ya Msaada wa Wauzaji iko kifuani mwa saa 24/7. Unaweza kutupata kupitia gumzo la moja kwa moja kwenye dashibodi yako, barua pepe, au laini yetu ya simu ya kipaumbele."
+                                },
+                                {
+                                    "question": "Nini kitatokea kama Dashibodi ya Muuzaji isipofanya kazi?",
+                                    "answer": "Katika tukio nadra la kukatika kwa huduma, angalia ukurasa wenye hali yetu kwa sasisho. Timu yetu ya wahandisi inafuatilia afya ya mfumo kwa bidii ili kuhakikisha huduma inapatikana wakati wote."
+                                }
+                            ]
+                        }
+                    ]
                 }
             },
             "advertise": {
