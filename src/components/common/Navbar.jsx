@@ -30,7 +30,7 @@ const Navbar = () => {
     { name: t('navbar.customer'), href: "/customer" },
     { name: t('navbar.merchant'), href: "/become-merchant" },
     { name: t('navbar.contactUs'), href: "/contact-us" },
-    { name: "Join Beta", href: "/beta", isCTA: true },
+    { name: t('navbar.joinBeta'), href: "/beta", isCTA: true },
   ];
 
   return (
@@ -70,7 +70,7 @@ const Navbar = () => {
               value={i18n.language}
             >
               <option value="en">English</option>
-              <option value="hi">Hindu</option>
+              <option value="hi">Hindi</option>
               <option value="fr">French</option>
               <option value="de">German</option>
               <option value="es">Spanish</option>
@@ -209,7 +209,7 @@ const Navbar = () => {
                     value={i18n.language}
                   >
                     <option value="en">English</option>
-                    <option value="hi">Hindu</option>
+                    <option value="hi">Hindi</option>
                     <option value="fr">French</option>
                     <option value="de">German</option>
                     <option value="es">Spanish</option>

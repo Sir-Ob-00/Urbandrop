@@ -2,8 +2,12 @@
     "navbar": {
         "findLocation": "Trouver un emplacement",
         "home": "Accueil",
+        "aboutUs": "À propos",
+        "customer": "Client",
+        "merchant": "Devenir marchand",
         "contactUs": "Contactez-nous",
-        "getTheApp": "Obtenir l'application"
+        "getTheApp": "Obtenir l'application",
+        "joinBeta": "Rejoindre la Beta"
     },
     "footer": {
         "findLocation": "Trouver un emplacement",
@@ -26,9 +30,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Découvrir",
-            "richEthnic": "Riches Saveurs",
-            "flavors": "Ethniques",
+            "title1": "Nourriture Ethnique Authentique &",
+            "title2": "Épicerie Livrée à Votre",
+            "title3": "Porte",
+            "description": "Découvrez des magasins africains, caribéens, asiatiques et internationaux près de chez vous avec UrbanDrop.",
             "orderNow": "Commander Maintenant",
             "becomeMerchant": "Devenir Marchand"
         },
@@ -243,18 +248,105 @@
             "title2": "Expérience UrbanDrop",
             "ios": "Télécharger pour Apple",
             "android": "Télécharger pour Android"
+        },
+        "faq": {
+            "title": "Foire Aux Questions",
+            "subtitle": "Trouvez des réponses aux questions courantes sur l'utilisation d'Urbandrop.",
+            "searchPlaceholder": "Rechercher dans la FAQ...",
+            "noResults": "Aucun résultat trouvé pour \"{{query}}\". Essayez un autre terme.",
+            "categories": [
+                {
+                    "category": "Compte et Connexion",
+                    "items": [
+                        {
+                            "question": "Comment créer un compte ?",
+                            "answer": "Pour créer un compte, cliquez sur le bouton 'S'inscrire' en haut à droite de la page d'accueil. Remplissez vos coordonnées, y compris votre nom, votre adresse e-mail et un mot de passe sécurisé. Vous recevrez un e-mail de confirmation pour vérifier votre compte."
+                        },
+                        {
+                            "question": "J'ai oublié mon mot de passe. Comment puis-je le réinitialiser ?",
+                            "answer": "Cliquez sur 'Mot de passe oublié' sur la page de connexion. Entrez votre adresse e-mail enregistrée et nous vous enverrons des instructions pour réinitialiser votre mot de passe en toute sécurité."
+                        }
+                    ]
+                },
+                {
+                    "category": "Commande et Paiement",
+                    "items": [
+                        {
+                            "question": "Comment passer une commande ?",
+                            "answer": "Parcourez nos produits, sélectionnez les articles que vous souhaitez et cliquez sur 'Ajouter au panier'. Lorsque vous êtes prêt, cliquez sur l'icône du panier et procédez au paiement. Suivez les instructions pour saisir vos informations de livraison et de paiement."
+                        },
+                        {
+                            "question": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
+                            "answer": "Vous pouvez modifier ou annuler votre commande dans l'heure qui suit sa validation. Allez dans 'Mes commandes' dans votre compte, sélectionnez la commande et choisissez l'option de modification ou d'annulation. S'il s'est écoulé plus d'une heure, veuillez contacter notre équipe d'assistance."
+                        }
+                    ]
+                },
+                {
+                    "category": "Paiements",
+                    "items": [
+                        {
+                            "question": "Quels modes de paiement acceptez-vous ?",
+                            "answer": "Nous acceptons toutes les principales cartes de crédit et de débit (Visa, MasterCard, American Express) ainsi qu'Apple Pay."
+                        },
+                        {
+                            "question": "Mes informations de paiement sont-elles sécurisées ?",
+                            "answer": "Oui, nous utilisons le cryptage SSL standard de l'industrie pour protéger vos informations de paiement. Nous ne stockons aucune information relative à votre carte de crédit."
+                        }
+                    ]
+                },
+                {
+                    "category": "Livraison et Suivi",
+                    "items": [
+                        {
+                            "question": "Combien de temps prend généralement la livraison ?",
+                            "answer": "La livraison standard prend de 15 à 25 minutes, selon la distance. La livraison express est disponible au moment du paiement pour une livraison prioritaire."
+                        },
+                        {
+                            "question": "Comment puis-je suivre ma commande ?",
+                            "answer": "Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec un lien de suivi. Vous pouvez également suivre le statut de votre commande dans la section 'Mes commandes' de votre compte."
+                        }
+                    ]
+                },
+                {
+                    "category": "Retours et Remboursements",
+                    "items": [
+                        {
+                            "question": "Quelle est votre politique de retour ?",
+                            "answer": "Produits Non-Périssables\nVous pouvez retourner votre commande dans les 14 jours suivant la livraison et renvoyer les articles non utilisés dans un nouveau délai de 14 jours pour un remboursement complet. Les articles doivent être retournés dans leur état d'origine.\n\nSi les marchandises sont défectueuses, non conformes à la description ou impropres à l'usage, vous avez droit à un remboursement complet dans les 30 jours suivant la réception.\n\nProduits Périssables\nEn raison de la nature périssable des produits frais, nous n'acceptons pas les retours ou les annulations une fois qu'ils ont été livrés.\n\nSi votre commande arrive endommagée, incorrecte ou impropre à la consommation, vous devez nous en informer dans les 24 heures suivant la livraison. Une preuve photographique peut être requise. Les réclamations approuvées peuvent être résolues par un remplacement, un crédit en magasin ou un remboursement pour le ou les articles concernés."
+                        }
+                    ]
+                },
+                {
+                    "category": "Problèmes Techniques",
+                    "items": [
+                        {
+                            "question": "Le site Web ne se charge pas correctement. Que dois-je faire ?",
+                            "answer": "Essayez de vider le cache et les cookies de votre navigateur, ou d'accéder au site à l'aide d'une fenêtre de navigation privée. Si le problème persiste, veuillez contacter notre support technique."
+                        },
+                        {
+                            "question": "J'ai des problèmes avec l'application mobile. Où puis-je obtenir de l'aide ?",
+                            "answer": "Assurez-vous que la dernière version de l'application est installée. Si les problèmes persistent, essayez de réinstaller l'application ou contactez notre équipe d'assistance aux applications avec les détails de votre appareil."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "about": {
+        "title": "1. À propos d'UrbanDrop",
+        "content": [
+            "UrbanDrop est une place de marché en ligne qui met en relation les clients avec des commerçants indépendants proposant des produits d'épicerie, des repas et des produits ethniques pour livraison ou retrait. Nous fournissons l'infrastructure numérique, le traitement des paiements et l'interface client, mais nous ne produisons, ne possédons ni ne vendons les articles répertoriés sur la Plateforme.",
+            "Lorsque vous passez une commande via UrbanDrop, vous achetez directement auprès du commerçant, et non auprès d'UrbanDrop."
+        ],
         "hero": {
-            "title1": "Livrer de la",
-            "title2": "Fraîcheur",
-            "title3": "Connecter les",
-            "title4": "Communautés",
-            "desc": "Chez Urbandrop, nous redéfinissons la façon dont les entreprises locales se connectent avec les clients — par la vitesse, la simplicité et la technologie."
+            "title1": "Saveurs Authentiques",
+            "title2": "Vérifiées par la Culture",
+            "title3": "Croissance Durable",
+            "title4": "Autonomisation des Locaux",
+            "desc": "UrbanDrop se consacre à apporter la richesse des cuisines ethniques à votre porte tout en soutenant les commerçants locaux et en célébrant la diversité culturelle."
         },
         "purpose": {
-            "title1": "Construit Avec un",
+            "title1": "Construit avec un",
             "title2": "But",
             "quote": "Pour simplifier les déplacements quotidiens et rapprocher la commodité des gens."
         },
@@ -278,20 +370,56 @@
                 "subtitle": "Logistique Résolue"
             }
         },
+        "highlights": {
+            "title": "Notre Engagement",
+            "subtitle": "Croissance axée sur les valeurs",
+            "item1": "Service Rapide",
+            "item3": "Centré sur l'Utilisateur",
+            "item4": "Croissance du Marché",
+            "item5": "Paiements Sécurisés"
+        },
         "process": {
-            "step1": "Télécharger",
+            "step1": "Découvrir",
             "step2": "Commander",
-            "step3": "Recevoir",
+            "step3": "Suivre",
             "step4": "Profiter"
         },
-        "highlights": {
-            "title": "L'Expérience",
-            "subtitle": "Standard Premium",
-            "item1": "Rapide & Connecté",
-            "item2": "Tous Côtés Supportés",
-            "item3": "Flux de Travail Mobile",
-            "item4": "Croissance Communautaire",
-            "item5": "Fiable & Sécurisé"
+        "ourStory": {
+            "badge": "Notre Histoire",
+            "founded": "Royaume-Uni / Fondée en 2026",
+            "title": "Notre<br/><highlight>Histoire.</highlight>",
+            "chapter1": {
+                "label": "Le Fossé",
+                "title": "Quelque chose <1>manquait</1> discrètement.",
+                "p1": "Lorsque j'ai quitté le Ghana pour le Royaume-Uni en 2022, je suis arrivé avec l'espoir et un lien profond avec la culture que je laissais derrière moi. Il n'a pas fallu longtemps pour ressentir ce que tant d'immigrés endurent en silence.",
+                "p2": "Faire ses courses ghanéennes — quoi que ce soit d'africain ou de caribéen — signifiait de <1>longs trajets vers des magasins dispersés</1>, des sélections limitées et presque aucune commodité. Les applications de livraison grand public servaient les marques britanniques et européennes avec facilité. Mais rien ne servait vraiment les communautés ethniques — les personnes mêmes qui enrichissent ce pays chaque jour."
+            },
+            "chapter2": {
+                "label": "Le Moment",
+                "title": "Un trajet en bus qui a <1>tout changé</1>.",
+                "p1": "Un soir, la mère de ma femme a fait le voyage pour faire ses courses dans une épicerie africaine après une longue journée. Épuisée par le trajet en bus pour rentrer, elle est descendue et a laissé tous ses sacs derrière elle sans s'en rendre compte.",
+                "quote": "Il ne s'agissait pas seulement de manquer la nourriture de chez soi. Il s'agissait de la dureté du travail des gens, de la distance qu'ils parcourent simplement pour rester connectés à ce qu'ils sont."
+            },
+            "chapter3": {
+                "label": "La Mission",
+                "title": "C'est là qu'est né <1>Urbandrop</1>.",
+                "p1": "Nous construisons une place de marché numérique pour que les communautés afro-caribéennes, asiatiques et autres communautés ethniques puissent acheter la nourriture qu'elles aiment directement depuis leur téléphone. <1>Pas de longs trajets. Pas de sacs lourds.</1> Des produits frais et familiers livrés avec soin et dignité.",
+                "memory": "Mémoire",
+                "memoryDesc": "D'où vous venez",
+                "comfort": "Confort",
+                "comfortDesc": "Goût de chez soi",
+                "identity": "Identité",
+                "identityDesc": "Qui vous êtes"
+            },
+            "closing": {
+                "quote": "La nourriture est plus que des ingrédients ; c'est la mémoire, le confort, l'identité. Dans un pays qui en a accueilli tant, <1>ils méritent une meilleure façon de se sentir chez eux</1>. C'est notre mission. Et nous ne faisons que commencer.",
+                "est": "Est. 2026"
+            }
+        },
+        "team": {
+            "badge": "Notre Équipe",
+            "title": "Rencontrez l'Équipe",
+            "desc": "Les personnes passionnées derrière Urbandrop, dédiées à apporter les saveurs africaines à votre porte."
         }
     },
     "advertise": {
@@ -414,7 +542,81 @@
             "desc": "Il faut moins de 10 minutes pour rejoindre et commencer à vendre. Rejoignez des centaines de commerçants prospères qui développent déjà leurs activités.",
             "button": "Devenir Marchand",
             "contact": "Contacter les Ventes",
-            "footer": "Des questions ? Notre équipe est là pour vous aider à chaque étape."
+            "footer": "Des questions ? Notre équipe est là pour vous aider à chaque étape.",
+            "termsLink": "Consulter les Conditions Générales pour les Commerçants"
+        },
+        "faq": {
+            "title": "FAQ Commerçants",
+            "subtitle": "Tout ce que vous devez savoir pour vendre sur Urbandrop.",
+            "searchPlaceholder": "Rechercher des ressources...",
+            "noResults": "Aucun résultat trouvé pour \"{{query}}\". Essayez un autre terme.",
+            "categories": [
+                {
+                    "category": "Commencer",
+                    "items": [
+                        {
+                            "question": "Comment devenir commerçant sur Urbandrop ?",
+                            "answer": "Pour devenir commerçant, cliquez sur 'Devenir Marchand' et fournissez les détails de votre entreprise. Notre équipe examinera votre demande et vous guidera tout au long du processus d'inscription."
+                        },
+                        {
+                            "question": "Quels documents sont requis pour l'inscription ?",
+                            "answer": "Vous aurez besoin d'une licence commerciale valide, d'une pièce d'identité et de vos coordonnées bancaires pour les versements. Les exigences spécifiques peuvent varier selon la région."
+                        }
+                    ]
+                },
+                {
+                    "category": "Gestion des Produits et de l'Inventaire",
+                    "items": [
+                        {
+                            "question": "Comment ajouter des produits à ma boutique ?",
+                            "answer": "Connectez-vous à votre Tableau de Bord Commerçant, accédez à la section 'Produits' et cliquez sur 'Ajouter un Nouveau Produit'. Remplissez les détails du produit, téléchargez des images et définissez vos tarifs et niveaux de stock."
+                        },
+                        {
+                            "question": "Puis-je gérer les niveaux de stock automatiquement ?",
+                            "answer": "Oui, notre plateforme suit vos niveaux de stock en fonction des ventes. Vous pouvez également ajuster manuellement l'inventaire via le tableau de bord lorsque vous recevez de nouveaux arrivages."
+                        }
+                    ]
+                },
+                {
+                    "category": "Commandes et Livraison",
+                    "items": [
+                        {
+                            "question": "Comment suis-je informé d'une nouvelle commande ?",
+                            "answer": "Vous recevrez des notifications en tempo réel par e-mail et via l'Application Commerçant. La commande apparaîtra également immédiatement dans l'onglet 'Commandes Actives' de votre tableau de bord."
+                        },
+                        {
+                            "question": "Qui s'occupe de la livraison ?",
+                            "answer": "Le réseau de partenaires de livraison d'Urbandrop s'occupe de l'exécution. Une fois qu'une commande est préparée, vous demandez un retrait, et notre partenaire la livre au client."
+                        }
+                    ]
+                },
+                {
+                    "category": "Paiements et Gains",
+                    "items": [
+                        {
+                            "question": "Quand et comment suis-je payé ?",
+                            "answer": "Les versements sont traités chaque semaine le mardi pour toutes les commandes terminées la semaine précédente. Les fonds sont directement déposés sur le compte bancaire que vous avez enregistré."
+                        },
+                        {
+                            "question": "Quels sont les frais pour vendre sur Urbandrop ?",
+                            "answer": "Nous prélevons une commission sur chaque vente réussie. Le pourcentage exact dépend de votre catégorie de produits et de votre plan d'abonnement. Il n'y a pas de frais d'installation."
+                        }
+                    ]
+                },
+                {
+                    "category": "Support Technique",
+                    "items": [
+                        {
+                            "question": "Qui dois-je contacter si j'ai un problème ?",
+                            "answer": "Notre équipe de support dédiée aux commerçants est disponible 24h/24 et 7j/7. Vous pouvez nous joindre via le chat en direct dans votre tableau de bord, par e-mail ou via notre ligne téléphonique prioritaire."
+                        },
+                        {
+                            "question": "Que se passe-t-il si le Tableau de Bord Commerçant est inaccessible ?",
+                            "answer": "Dans le cas rare d'une interruption, consultez notre page d'état pour les mises à jour. Notre équipe d'ingénieurs surveille activement la santé du système pour garantir une disponibilité maximale."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "privacyPolicy": {

@@ -1,85 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const CustomerFAQ = () => {
+    const { t } = useTranslation();
     const [openIndex, setOpenIndex] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
 
-    const faqData = [
-        {
-            category: "Account & Login",
-            items: [
-                {
-                    question: "How do I create an account?",
-                    answer: "To create an account, click on the 'Sign Up' button at the top right corner of the home page. Fill in your details including your name, email address, and a secure password. You'll receive a confirmation email to verify your account."
-                },
-                {
-                    question: "I forgot my password. How can I reset it?",
-                    answer: "Click on 'Forgot Password' on the login page. Enter your registered email address, and we'll send you instructions to reset your password securely."
-                }
-            ]
-        },
-        {
-            category: "Ordering & Checkout",
-            items: [
-                {
-                    question: "How do I place an order?",
-                    answer: "Browse our products, select the items you want, and click 'Add to Cart'. When you're ready, click the cart icon and proceed to checkout. Follow the prompts to enter your shipping and payment information."
-                },
-                {
-                    question: "Can I modify or cancel my order after placing it?",
-                    answer: "You can modify or cancel your order within 1 hour of placing it. Go to 'My Orders' in your account, select the order, and choose the modify or cancel option. If it's been more than 1 hour, please contact our support team."
-                }
-            ]
-        },
-        {
-            category: "Payments",
-            items: [
-                {
-                    question: "What payment methods do you accept?",
-                    answer: "We accept all major credit and debit cards (Visa, MasterCard, American Express) and Apple Pay."
-                },
-                {
-                    question: "Are my payment details secure?",
-                    answer: "Yes, we use industry-standard SSL encryption to protect your payment details. We do not store any credit card details."
-                }
-            ]
-        },
-        {
-            category: "Delivery & Tracking",
-            items: [
-                {
-                    question: "How long does delivery usually take?",
-                    answer: "Standard delivery takes 15–25 minutes, depending on the distance. Expedited delivery is available at checkout for prioritised delivery.”."
-                },
-                {
-                    question: "How can I track my order?",
-                    answer: "Once your order ships, you'll receive a confirmation email with a tracking link. You can also track your order status in the 'My Orders' section of your account."
-                }
-            ]
-        },
-        {
-            category: "Returns & Refunds",
-            items: [
-                {
-                    question: "What is your return policy?",
-                    answer: "Non-Perishable Products\nYou may return your order within 14 days of delivery and return unused items within a further 14 days for a full refund. Items must be returned in their original condition.\n\nIf goods are faulty, not as described, or unfit for purpose, you are entitled to a full refund within 30 days of receipt.\n\nPerishable Products\nDue to the perishable nature of fresh goods, we do not accept returns or cancellations once they have been delivered.\n\nIf your order arrives damaged, incorrect, or unsafe to consume, you must notify us within 24 hours of delivery. Photo evidence may be required. Approved claims may be resolved with a replacement, store credit, or refund for the affected item(s)."
-                }
-            ]
-        },
-        {
-            category: "Technical Issues",
-            items: [
-                {
-                    question: "The website is not loading properly. What should I do?",
-                    answer: "Try clearing your browser cache and cookies, or accessing the site using an incognito window. If the problem persists, please contact our technical support."
-                },
-                {
-                    question: "I'm having trouble with the mobile app. Where can I get help?",
-                    answer: "Make sure you have the latest version of the app installed. If issues continue, try reinstalling the app or contact our app support team with your device details."
-                }
-            ]
-        }
-    ];
+    // Fetch FAQ categories and items from translation files
+    // returnObjects: true is used to get the array of objects
+    const faqCategories = useMemo(() => {
+        const categories = t('customer.faq.categories', { returnObjects: true });
+        return Array.isArray(categories) ? categories : [];
+    }, [t]);
 
     const handleSearch = (e) => {
         setSearchQuery(e.target.value);
@@ -90,37 +22,41 @@ const CustomerFAQ = () => {
         setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
     };
 
-    const filteredData = faqData.map((category) => {
-        const isCategoryMatch = category.category.toLowerCase().includes(searchQuery.toLowerCase());
-        const matchedItems = category.items.filter(
-            (item) =>
-                item.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                item.answer.toLowerCase().includes(searchQuery.toLowerCase())
-        );
+    const filteredData = useMemo(() => {
+        if (!searchQuery.trim()) return faqCategories;
 
-        if (isCategoryMatch || matchedItems.length > 0) {
-            return {
-                ...category,
-                items: isCategoryMatch && matchedItems.length === 0 ? category.items : matchedItems,
-            };
-        }
-        return null;
-    }).filter(Boolean);
+        return faqCategories.map((category) => {
+            const isCategoryMatch = category.category.toLowerCase().includes(searchQuery.toLowerCase());
+            const matchedItems = category.items.filter(
+                (item) =>
+                    item.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                    item.answer.toLowerCase().includes(searchQuery.toLowerCase())
+            );
+
+            if (isCategoryMatch || matchedItems.length > 0) {
+                return {
+                    ...category,
+                    items: isCategoryMatch && matchedItems.length === 0 ? category.items : matchedItems,
+                };
+            }
+            return null;
+        }).filter(Boolean);
+    }, [faqCategories, searchQuery]);
 
     return (
         <section className="py-20 bg-gray-50">
             <div className="container mx-auto px-4 max-w-4xl">
                 <div className="text-center mb-12">
                     <h2 className="text-gray-900 mb-4">
-                        Frequently Asked Questions
+                        {t('customer.faq.title')}
                     </h2>
                     <p className="text-gray-600 mb-8">
-                        Find answers to common questions about using Urbandrop.
+                        {t('customer.faq.subtitle')}
                     </p>
                     <div className="relative max-w-xl mx-auto">
                         <input
                             type="text"
-                            placeholder="Search FAQs..."
+                            placeholder={t('customer.faq.searchPlaceholder')}
                             value={searchQuery}
                             onChange={handleSearch}
                             className="w-full px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-lg shadow-sm"
@@ -170,7 +106,7 @@ const CustomerFAQ = () => {
                         ))
                     ) : (
                         <div className="text-center py-12 text-gray-500">
-                            No results found for "{searchQuery}". Try a different term.
+                            {t('customer.faq.noResults', { query: searchQuery })}
                         </div>
                     )}
                 </div>

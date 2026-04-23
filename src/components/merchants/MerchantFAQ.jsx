@@ -1,76 +1,12 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const MerchantFAQ = () => {
+    const { t } = useTranslation();
     const [openIndex, setOpenIndex] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
 
-    const faqData = [
-        {
-            category: "Getting Started",
-            items: [
-                {
-                    question: "How do I become a merchant on Urbandrop?",
-                    answer: "To become a merchant, click on 'Sign Up as a Merchant' and provide your business details. Our team will review your application and guide you through the onboarding process."
-                },
-                {
-                    question: "What documents are required to register?",
-                    answer: "You will need a valid business license, proof of ID, and bank account details for payouts. Specific requirements may vary by region."
-                }
-            ]
-        },
-        {
-            category: "Product & Inventory Management",
-            items: [
-                {
-                    question: "How do I add products to my store?",
-                    answer: "Log in to your Merchant Dashboard, navigate to the 'Products' secton, and click 'Add New Product'. Fill in the product details, upload images, and set your pricing and inventory levels."
-                },
-                {
-                    question: "Can I manage inventory levels automatically?",
-                    answer: "Yes, our platform tracks your stock levels based on sales. You can also manually adjust inventory through the dashboard when you receive new shipments."
-                }
-            ]
-        },
-        {
-            category: "Orders & Fulfillment",
-            items: [
-                {
-                    question: "How am I notified of a new order?",
-                    answer: "You will receive real-time notifications via email and the Merchant App. The order will also appear immediately in the 'Active Orders' tab of your dashboard."
-                },
-                {
-                    question: "Who handles the delivery?",
-                    answer: "Urbandrop's network of delivery partners handles the fulfillment. Once an order is prepared, you request a pickup, and our partner delivers it to the customer."
-                }
-            ]
-        },
-        {
-            category: "Payments & Earnings",
-            items: [
-                {
-                    question: "When and how do I get paid?",
-                    answer: "Payouts are processed weekly on Tuesdays for all completed orders from the previous week. Funds are directly deposited into the bank account you registered with."
-                },
-                {
-                    question: "What are the fees for selling on Urbandrop?",
-                    answer: "We charge a commission on each successful sale. The exact percentage depends on your product category and subscription plan. There are no setup fees."
-                }
-            ]
-        },
-        {
-            category: "Technical Support",
-            items: [
-                {
-                    question: "Who do I contact if I have a problem?",
-                    answer: "Our dedicated Merchant Support team is available 24/7. You can reach us via live chat in your dashboard, email, or our priority phone line."
-                },
-                {
-                    question: "What if the Merchant Dashboard goes down?",
-                    answer: "In the rare event of an outage, check our status page for updates. Our engineering team actively monitors system health to ensure maximum uptime."
-                }
-            ]
-        }
-    ];
+    const faqCategories = t('merchants.faq.categories', { returnObjects: true }) || [];
 
     const handleSearch = (e) => {
         setSearchQuery(e.target.value);
@@ -81,7 +17,7 @@ const MerchantFAQ = () => {
         setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
     };
 
-    const filteredData = faqData.map((category) => {
+    const filteredData = Array.isArray(faqCategories) ? faqCategories.map((category) => {
         const isCategoryMatch = category.category.toLowerCase().includes(searchQuery.toLowerCase());
         const matchedItems = category.items.filter(
             (item) =>
@@ -96,22 +32,22 @@ const MerchantFAQ = () => {
             };
         }
         return null;
-    }).filter(Boolean);
+    }).filter(Boolean) : [];
 
     return (
         <section className="py-20 bg-white">
             <div className="container mx-auto px-4 max-w-4xl">
                 <div className="text-center mb-12">
                     <h2 className="text-gray-900 mb-4">
-                        Merchant FAQ
+                        {t('merchants.faq.title')}
                     </h2>
                     <p className="text-gray-600 mb-8">
-                        Everything you need to know about selling on Urbandrop.
+                        {t('merchants.faq.subtitle')}
                     </p>
                     <div className="relative max-w-xl mx-auto">
                         <input
                             type="text"
-                            placeholder="Search resources..."
+                            placeholder={t('merchants.faq.searchPlaceholder')}
                             value={searchQuery}
                             onChange={handleSearch}
                             className="w-full px-6 py-4 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent text-lg shadow-sm"
@@ -161,7 +97,7 @@ const MerchantFAQ = () => {
                         ))
                     ) : (
                         <div className="text-center py-12 text-gray-500">
-                            No results found for "{searchQuery}". Try a different term.
+                            {t('merchants.faq.noResults', { query: searchQuery })}
                         </div>
                     )}
                 </div>

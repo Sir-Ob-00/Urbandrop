@@ -1,12 +1,13 @@
-﻿{
+{
     "navbar": {
         "findLocation": "Find location",
         "home": "Home",
         "aboutUs": "About Us",
         "customer": "Customer",
-        "merchant": "Merchant",
+        "merchant": "Become a Merchant",
         "contactUs": "Contact Us",
-        "getTheApp": "Get The App"
+        "getTheApp": "Get The App",
+        "joinBeta": "Join Beta"
     },
     "footer": {
         "findLocation": "Find location",
@@ -30,9 +31,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Discover",
-            "richEthnic": "Rich Ethnic",
-            "flavors": "Flavors",
+            "title1": "Authentic Ethnic Food &",
+            "title2": "Groceries Delivered to Your",
+            "title3": "Doorstep",
+            "description": "Discover African, Caribbean, Asian and international stores near you with UrbanDrop.",
             "orderNow": "Order Now",
             "becomeMerchant": "Become a Merchant"
         },
@@ -138,6 +140,96 @@
                 "title": "Message Sent!",
                 "desc": "Thank you for reaching out. We've received your message and will get back to you shortly."
             }
+        }
+    },
+    "about": {
+        "title": "1. About UrbanDrop",
+        "content": [
+            "UrbanDrop is an online marketplace that connects customers with independent merchants offering groceries, meals, and ethnic products for delivery or collection. We provide the digital infrastructure, payment processing, and customer interface, but we do not produce, own, or sell the items listed on the Platform.",
+            "When you place an order through UrbanDrop, you are purchasing directly from the merchant, not from UrbanDrop."
+        ],
+        "hero": {
+            "title1": "Authentic Flavors",
+            "title2": "Verified by Culture",
+            "title3": "Sustainable Growth",
+            "title4": "Empowering Locals",
+            "desc": "UrbanDrop is dedicated to bringing the richness of ethnic cuisines to your doorstep while supporting local merchants and celebrating cultural diversity."
+        },
+        "purpose": {
+            "title1": "Built With a",
+            "title2": "Purpose",
+            "quote": "To simplify daily movement and bring convenience closer to people."
+        },
+        "ecosystem": {
+            "title": "The Ecosystem",
+            "subtitle": "Where everything comes together.",
+            "customers": {
+                "title": "Customers",
+                "subtitle": "Direct Access"
+            },
+            "merchants": {
+                "title": "Merchants",
+                "subtitle": "Growth Engine"
+            },
+            "riders": {
+                "title": "Riders",
+                "subtitle": "Flexible Earnings"
+            },
+            "businesses": {
+                "title": "Businesses",
+                "subtitle": "Logistics Solved"
+            }
+        },
+        "highlights": {
+            "title": "Our Commitment",
+            "subtitle": "Value driven growth",
+            "item1": "Swift Service",
+            "item3": "User Centric",
+            "item4": "Market Growth",
+            "item5": "Secure Payments"
+        },
+        "process": {
+            "step1": "Discover",
+            "step2": "Order",
+            "step3": "Track",
+            "step4": "Enjoy"
+        },
+        "ourStory": {
+            "badge": "Our Story",
+            "founded": "United Kingdom / Founded 2026",
+            "title": "Our<br/><highlight>Story.</highlight>",
+            "chapter1": {
+                "label": "The Gap",
+                "title": "Something was quietly <1>missing</1>.",
+                "p1": "When I moved from Ghana to the UK in 2022, I arrived with hope and a deep connection to the culture I was leaving behind. It didn't take long to feel what so many immigrants silently endure.",
+                "p2": "Shopping for Ghanaian groceries—anything African or Caribbean—meant <1>long trips to scattered shops</1>, limited selections, and almost no convenience. Mainstream delivery apps served UK and European brands with ease. But nothing truly served ethnic communities—the very people enriching this country every single day."
+            },
+            "chapter2": {
+                "label": "The Moment",
+                "title": "A bus ride that <1>changed everything</1>.",
+                "p1": "One evening, my wife's mother made the journey to shop at an African grocery store after a long day. Exhausted on the bus ride home, she stepped off and left every bag behind without realising it.",
+                "quote": "It wasn't just about missing food from home. It was about how hard people work, how far they travel simply to stay connected to who they are."
+            },
+            "chapter3": {
+                "label": "The Mission",
+                "title": "That's where <1>Urbandrop</1> was born.",
+                "p1": "We are building a digital marketplace so Afro-Caribbean, Asian, and other ethnic communities can shop for the food they love right from their phones. <1>No long trips. No heavy bags.</1> Fresh, familiar products delivered with care and dignity.",
+                "memory": "Memory",
+                "memoryDesc": "Where you're from",
+                "comfort": "Comfort",
+                "comfortDesc": "Taste of home",
+                "identity": "Identity",
+                "identityDesc": "Who you are"
+            },
+            "closing": {
+                "quote": "Food is more than ingredients; it's memory, comfort, identity. In a country that has welcomed so many, <1>they deserve a better way to feel at home</1>. This is our mission. And we are just getting started.",
+                "est": "Est. 2026"
+            }
+        },
+        "team": {
+            "badge": "Our People",
+            "title": "Meet the Team",
+            "desc": "The passionate people behind Urbandrop, dedicated to bringing African flavors to your doorstep."
         }
     },
     "customer": {
@@ -256,62 +348,91 @@
                 "minutes": "Minutes",
                 "seconds": "Seconds"
             }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "subtitle": "Find answers to common questions about using Urbandrop.",
+            "searchPlaceholder": "Search FAQs...",
+            "noResults": "No results found for \"{{query}}\". Try a different term.",
+            "categories": [
+                {
+                    "category": "Account & Login",
+                    "items": [
+                        {
+                            "question": "How do I create an account?",
+                            "answer": "To create an account, click on the 'Sign Up' button at the top right corner of the home page. Fill in your details including your name, email address, and a secure password. You'll receive a confirmation email to verify your account."
+                        },
+                        {
+                            "question": "I forgot my password. How can I reset it?",
+                            "answer": "Click on 'Forgot Password' on the login page. Enter your registered email address, and we'll send you instructions to reset your password securely."
+                        }
+                    ]
+                },
+                {
+                    "category": "Ordering & Checkout",
+                    "items": [
+                        {
+                            "question": "How do I place an order?",
+                            "answer": "Browse our products, select the items you want, and click 'Add to Cart'. When you're ready, click the cart icon and proceed to checkout. Follow the prompts to enter your shipping and payment information."
+                        },
+                        {
+                            "question": "Can I modify or cancel my order after placing it?",
+                            "answer": "You can modify or cancel your order within 1 hour of placing it. Go to 'My Orders' in your account, select the order, and choose the modify or cancel option. If it's been more than 1 hour, please contact our support team."
+                        }
+                    ]
+                },
+                {
+                    "category": "Payments",
+                    "items": [
+                        {
+                            "question": "What payment methods do you accept?",
+                            "answer": "We accept all major credit and debit cards (Visa, MasterCard, American Express) and Apple Pay."
+                        },
+                        {
+                            "question": "Are my payment details secure?",
+                            "answer": "Yes, we use industry-standard SSL encryption to protect your payment details. We do not store any credit card details."
+                        }
+                    ]
+                },
+                {
+                    "category": "Delivery & Tracking",
+                    "items": [
+                        {
+                            "question": "How long does delivery usually take?",
+                            "answer": "Standard delivery takes 15–25 minutes, depending on the distance. Expedited delivery is available at checkout for prioritised delivery."
+                        },
+                        {
+                            "question": "How can I track my order?",
+                            "answer": "Once your order ships, you'll receive a confirmation email with a tracking link. You can also track your order status in the 'My Orders' section of your account."
+                        }
+                    ]
+                },
+                {
+                    "category": "Returns & Refunds",
+                    "items": [
+                        {
+                            "question": "What is your return policy?",
+                            "answer": "Non-Perishable Products\nYou may return your order within 14 days of delivery and return unused items within a further 14 days for a full refund. Items must be returned in their original condition.\n\nIf goods are faulty, not as described, or unfit for purpose, you are entitled to a full refund within 30 days of receipt.\n\nPerishable Products\nDue to the perishable nature of fresh goods, we do not accept returns or cancellations once they have been delivered.\n\nIf your order arrives damaged, incorrect, or unsafe to consume, you must notify us within 24 hours of delivery. Photo evidence may be required. Approved claims may be resolved with a replacement, store credit, or refund for the affected item(s)."
+                        }
+                    ]
+                },
+                {
+                    "category": "Technical Issues",
+                    "items": [
+                        {
+                            "question": "The website is not loading properly. What should I do?",
+                            "answer": "Try clearing your browser cache and cookies, or accessing the site using an incognito window. If the problem persists, please contact our technical support."
+                        },
+                        {
+                            "question": "I'm having trouble with the mobile app. Where can I get help?",
+                            "answer": "Make sure you have the latest version of the app installed. If issues continue, try reinstalling the app or contact our app support team with your device details."
+                        }
+                    ]
+                }
+            ]
         }
     },
-    "about": {
-        "title": "1. About UrbanDrop",
-        "content": [
-            "UrbanDrop is an online marketplace that connects customers with independent merchants offering groceries, meals, and ethnic products for delivery or collection. We provide the digital infrastructure, payment processing, and customer interface, but we do not produce, own, or sell the items listed on the Platform.",
-            "When you place an order through UrbanDrop, you are purchasing directly from the merchant, not from UrbanDrop."
-        ],
-        "hero": {
-            "title1": "Bridging",
-            "title2": "Cultures",
-            "title3": "Connecting",
-            "title4": "Communities",
-            "desc": "We are more than just a marketplace. We are a digital bridge connecting you to the flavors, traditions, and people that make your community unique."
-        },
-        "ecosystem": {
-            "title": "The Ecosystem",
-            "subtitle": "Where everything comes together.",
-            "customers": {
-                "title": "Customers",
-                "subtitle": "Direct Access"
-            },
-            "merchants": {
-                "title": "Merchants",
-                "subtitle": "Growth Engine"
-            },
-            "riders": {
-                "title": "Riders",
-                "subtitle": "Flexible Earnings"
-            },
-            "businesses": {
-                "title": "Businesses",
-                "subtitle": "Logistics Solved"
-            }
-        },
-        "highlights": {
-            "title": "The Experience",
-            "subtitle": "Premium Standard",
-            "item1": "Fast & Connected",
-            "item2": "All Sides Supported",
-            "item3": "Mobile Workflow",
-            "item4": "Community Growth",
-            "item5": "Reliable & Secure"
-        },
-        "process": {
-            "step1": "Download",
-            "step2": "Order",
-            "step3": "Receive",
-            "step4": "Enjoy"
-        },
-        "purpose": {
-            "title1": "Built With a",
-            "title2": "Purpose",
-            "quote": "To simplify daily movement and bring convenience closer to people."
-        }
-    },
+
     "merchants": {
         "hero": {
             "title1": "Grow your business with",
@@ -383,7 +504,81 @@
             "desc": "It takes less than 10 minutes to sign up and start selling. Join hundreds of successful merchants already growing their business.",
             "button": "Become a Merchant",
             "contact": "Contact Sales Team",
-            "footer": "Questions? Our team is ready to help you every step of the way."
+            "footer": "Questions? Our team is ready to help you every step of the way.",
+            "termsLink": "Review Merchant Terms & Conditions"
+        },
+        "faq": {
+            "title": "Merchant FAQ",
+            "subtitle": "Everything you need to know about selling on Urbandrop.",
+            "searchPlaceholder": "Search resources...",
+            "noResults": "No results found for \"{{query}}\". Try a different term.",
+            "categories": [
+                {
+                    "category": "Getting Started",
+                    "items": [
+                        {
+                            "question": "How do I become a merchant on Urbandrop?",
+                            "answer": "To become a merchant, click on 'Sign Up as a Merchant' and provide your business details. Our team will review your application and guide you through the onboarding process."
+                        },
+                        {
+                            "question": "What documents are required to register?",
+                            "answer": "You will need a valid business license, proof of ID, and bank account details for payouts. Specific requirements may vary by region."
+                        }
+                    ]
+                },
+                {
+                    "category": "Product & Inventory Management",
+                    "items": [
+                        {
+                            "question": "How do I add products to my store?",
+                            "answer": "Log in to your Merchant Dashboard, navigate to the 'Products' secton, and click 'Add New Product'. Fill in the product details, upload images, and set your pricing and inventory levels."
+                        },
+                        {
+                            "question": "Can I manage inventory levels automatically?",
+                            "answer": "Yes, our platform tracks your stock levels based on sales. You can also manually adjust inventory through the dashboard when you receive new shipments."
+                        }
+                    ]
+                },
+                {
+                    "category": "Orders & Fulfillment",
+                    "items": [
+                        {
+                            "question": "How am I notified of a new order?",
+                            "answer": "You will receive real-time notifications via email and the Merchant App. The order will also appear immediately in the 'Active Orders' tab of your dashboard."
+                        },
+                        {
+                            "question": "Who handles the delivery?",
+                            "answer": "Urbandrop's network of delivery partners handles the fulfillment. Once an order is prepared, you request a pickup, and our partner delivers it to the customer."
+                        }
+                    ]
+                },
+                {
+                    "category": "Payments & Earnings",
+                    "items": [
+                        {
+                            "question": "When and how do I get paid?",
+                            "answer": "Payouts are processed weekly on Tuesdays for all completed orders from the previous week. Funds are directly deposited into the bank account you registered with."
+                        },
+                        {
+                            "question": "What are the fees for selling on Urbandrop?",
+                            "answer": "We charge a commission on each successful sale. The exact percentage depends on your product category and subscription plan. There are no setup fees."
+                        }
+                    ]
+                },
+                {
+                    "category": "Technical Support",
+                    "items": [
+                        {
+                            "question": "Who do I contact if I have a problem?",
+                            "answer": "Our dedicated Merchant Support team is available 24/7. You can reach us via live chat in your dashboard, email, or our priority phone line."
+                        },
+                        {
+                            "question": "What if the Merchant Dashboard goes down?",
+                            "answer": "In the rare event of an outage, check our status page for updates. Our engineering team actively monitors system health to ensure maximum uptime."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "advertise": {

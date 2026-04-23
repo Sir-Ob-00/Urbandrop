@@ -1,5 +1,9 @@
-﻿{
+{
   "navbar": {
+    "aboutUs": "Nipa wa",
+    "customer": "Onibara",
+    "merchant": "Di Oniṣowo kan",
+    "joinBeta": "Darapọ mọ Beta",
     "findLocation": "Wa ipo",
     "home": "Ile",
     "contactUs": "Kan si wa",
@@ -26,9 +30,10 @@
   },
   "home": {
     "hero": {
-      "discover": "Ṣawari",
-      "richEthnic": "Aṣa Onjẹ",
-      "flavors": "Adun",
+      "title1": "Ounje Ibile To Daju &",
+      "title2": "Awọn Ohun elo Ounje Ti A Mu Wa Si",
+      "title3": "Oju-Ọna Rẹ",
+      "description": "Ṣawari awọn ile itaja Afrika, Karibeani, Asia ati agbaye nitosi rẹ pẹlu UrbanDrop.",
       "orderNow": "Paṣẹ Bayi",
       "becomeMerchant": "Di Oniṣowo kan"
     },
@@ -94,8 +99,9 @@
           "seconds": "Aaya"
         }
       }
-    },
-    "contact": {
+    }
+  },
+  "contact": {
       "hero": {
         "badge": "Kan si Wa",
         "title1": "Ẹ Jẹ́ Ka Bẹrẹ",
@@ -134,8 +140,8 @@
           "desc": "O ṣeun fun kan si wa. A ti gba ifiranṣẹ rẹ ati pe a yoo dahun laipẹ."
         }
       }
-    },
-    "customer": {
+  },
+  "customer": {
       "hero": {
         "title1": "Ṣe adun",
         "title2": "Gidi",
@@ -251,9 +257,91 @@
           "minutes": "Iṣẹju",
           "seconds": "Aaya"
         }
-      }
-    },
-    "about": {
+      },
+      "faq": {
+        "title": "Awọn Ibeere Ti A N Beere Nigbagbogbo",
+        "subtitle": "Wa awọn idahun si awọn ibeere ti o wọpọ nipa lilo Urbandrop.",
+        "searchPlaceholder": "Wa awọn ibeere ti o wọpọ...",
+        "noResults": "A ko ri abajade kankan fun \"{{query}}\". Jọwọ gbiyanju ọrọ miiran.",
+        "categories": [
+          {
+            "category": "Akọọlẹ & Iwọle",
+            "items": [
+              {
+                "question": "Bawo ni MO ṣe le ṣẹda akọọlẹ kan?",
+                "answer": "Lati ṣẹda akọọlẹ kan, tẹ bọtini 'Forukọsilẹ' ni igun apa ọtun oke ti oju-iwe ile. Kun awọn alaye rẹ, pẹlu orukọ rẹ, adirẹsi imeeli rẹ, ati ọrọ igbaniwọle to ni aabo. Iwọ yoo gba imeeli idaniloju lati rii daju akọọlẹ rẹ."
+              },
+              {
+                "question": "Mo gbagbe ọrọ igbaniwọle mi. Bawo ni MO ṣe le tunto rẹ?",
+                "answer": "Tẹ 'Gbagbe Ọrọ Igbaniwọle' lori oju-iwe iwọle. Tẹ adirẹsi imeeli rẹ ti o forukọsilẹ sii ati pe a yoo fi awọn itọnisọna ranṣẹ si ọ lati tun ọrọ igbaniwọle rẹ to ni aabo."
+              }
+            ]
+          },
+          {
+            "category": "Paṣẹ & Isanwo",
+            "items": [
+              {
+                "question": "Bawo ni MO ṣe le paṣẹ?",
+                "answer": "Wo awọn ọja wa, yan awọn nkan ti o fẹ ki o tẹ 'Fi kun rira'. Nigbati o ba ṣetan, tẹ aami rira ki o tẹsiwaju si isanwo. Tẹle awọn itọnisọna lati tẹ sowo rẹ ati alaye isanwo rẹ sii."
+              },
+              {
+                "question": "Njẹ MO le yipada tabi fagile aṣẹ mi lẹhin ti mo ti pa a mọ?",
+                "answer": "O le yipada tabi fagile aṣẹ rẹ laarin wakati 1 lẹhin tito rẹ. Lọ si 'Awọn aṣẹ mi' ninu akọọlẹ rẹ, yan aṣẹ naa ki o yan aṣayan lati yipada tabi fagilee. Ti o ba ti kọja wakati 1, jọwọ kan si ẹgbẹ atilẹyin wa."
+              }
+            ]
+          },
+          {
+            "category": "Awọn Isanwo",
+            "items": [
+              {
+                "question": "Awọn ọna isanwo wo ni ẹ gba?",
+                "answer": "A gba gbogbo awọn kirẹditi pataki ati awọn kaadi debiti (Visa, MasterCard, American Express) ati Apple Pay."
+              },
+              {
+                "question": "Njẹ alaye isanwo mi wa ni aabo?",
+                "answer": "Bẹẹni, a lo fifi ẹnọ kọ nkan SSL ti ile-iṣẹ lati daabobo alaye isanwo rẹ. A ko tọju eyikeyi alaye kaadi kirẹditi rẹ."
+              }
+            ]
+          },
+          {
+            "category": "Ifijiṣẹ & Itasopọ",
+            "items": [
+              {
+                "question": "Igba melo ni ifijiṣẹ n gba nigbagbogbo?",
+                "answer": "Ifijiṣẹ boṣewa n gba iṣẹju 15-25, da lori jijinna to jẹ. Ifijiṣẹ yarayara wa ni isanwo fun ifijiṣẹ pataki."
+              },
+              {
+                "question": "Bawo ni MO ṣe le tọpinpin aṣẹ mi?",
+                "answer": "Ni kete ti a ba fi aṣẹ rẹ ranṣẹ, iwọ yoo gba imeeli idaniloju pẹlu ọna asopọ titele. O tun le tọpinpin ipo aṣẹ rẹ ninu apakan 'Awọn aṣẹ mi' ti akọọlẹ rẹ."
+              }
+            ]
+          },
+          {
+            "category": "Idapadà & Agbapada",
+            "items": [
+              {
+                "question": "Kini eto imulo ipadabọ rẹ?",
+                "answer": "Awọn ọja ti kii ṣe Idibajẹ\nO le da aṣẹ rẹ pada laarin ọjọ 14 ti ifijiṣẹ ati da awọn ohun ti a ko lo pada laarin ọjọ 14 miiran fun agbapada kikun. Awọn nkan gbọdọ jẹ pada ni ipo atilẹba wọn.\n\nTi awọn ọja ba jẹ aṣiṣe, kii ṣe bi a ti ṣapejuwe rẹ tabi ko baamu fun idi rẹ, o ni ẹtọ si agbapada kikun laarin ọjọ 30 ti gbigba.\n\nAwọn ọja Idibajẹ\nnitori iseda ti o le bajẹ tẹlẹ ti awọn ẹru tuntun, a ko gba ipadabọ tabi ifagile ni kete ti a ba ti firanṣẹ.\n\nTi aṣẹ rẹ ba de ti o bajẹ, aṣiṣe tabi ko ni aabo fun lilo, o gbọdọ sọ fun wa laarin wakati 24 ti ifijiṣẹ. Ẹri fọto le nilo. Awọn ẹtọ ti a fọwọsi le jẹ ipinnu pẹlu rirọpo, kirẹditi itaja tabi agbapada fun awọn ohun ti o kan."
+              }
+            ]
+          },
+          {
+            "category": "Awọn Isoro Imọ-ẹrọ",
+            "items": [
+              {
+                "question": "Oju-itaja ko ṣiṣẹ daradara. Kini MO yẹ ki n ṣe?",
+                "answer": "Gbiyanju lati pa kaṣe ati awọn kúkì ti ẹrọ aṣawakiri rẹ rẹ, tabi lo oju-itaja ni lilo window incognito. Ti iṣoro naa ba tẹsiwaju, jọwọ kan si atilẹyin imọ-ẹrọ wa."
+              },
+              {
+                "question": "Mo ni awọn iṣoro pẹlu ohun elo alagbeka. Nibo ni MO le gba iranlọwọ?",
+                "answer": "Rii daju pe o ti fi ẹya tuntun ti ohun elo naa sori ẹrọ. Ti awọn iṣoro ba tẹsiwaju, gbiyanju lati tun ohun elo naa sori ẹrọ tabi kan si ẹgbẹ atilẹyin ohun elo wa pẹlu awọn alaye ẹrọ rẹ."
+              }
+            ]
+          }
+        ]
+    }
+  },
+  "about": {
       "title": "1. Nipa UrbanDrop",
       "content": [
         "UrbanDrop jẹ ọjà ori ayelujara kan ti o so awọn onibara pọ mọ awọn oniṣowo aladani ti n ta awọn ohun elo ounjẹ, ounjẹ ti a ti se, ati awọn ọja abinibi fun ifijiṣẹ tabi gbigba. A n pese amayederun oni-nọmba, ṣiṣe isanwo, ati wiwo olumulo, ṣugbọn a ko ṣe, a ko ni, tabi ta awọn nkan ti a ṣe atokọ lori Pẹpẹ naa.",
@@ -301,13 +389,45 @@
         "step3": "Gba",
         "step4": "Gbádùn"
       },
+      "ourStory": {
+        "badge": "Ìtàn Wa",
+        "founded": "UK / Ti a da silẹ 2026",
+        "title": "Ìtàn<br/><highlight>Wa.</highlight>",
+        "chapter1": {
+          "label": "Àlàfo Naa",
+          "title": "Nnkan kan ti <1>ndánú</1> ni idakẹjẹ.",
+          "p1": "Nigbati mo kuro ni Ghana lọ si UK ni ọdun 2022, mo de pẹlu ireti ati asopọ jinlẹ si aṣa ti mo n fi silẹ. Ko gba akoko pipẹ ṣaaju ki n to lero ohun ti ọpọlọpọ awọn aṣikiri n farada ni idakẹjẹ.",
+          "p2": "Rira ounjẹ Ghana — ohunkohun Afirika tabi Karibeani — tumọ si <1>awọn irin-ajo gigun si awọn ile-itaja toti</1>, awọn yiyan ti o lopin, ati pe ko si irọrun kankan. Awọn ohun elo ifijiṣẹ akọkọ n sin awọn ami iyasọtọ UK ati Yuroopu pẹlu irọrun. Ṣugbọn ko si nkan ti o n sin awọn agbegbe ẹya looto — awọn eniyan gangan ti wọn n mu ki orilẹ-ede yii gbilẹ lojoojumọ."
+        },
+        "chapter2": {
+          "label": "Akoko Naa",
+          "title": "Irin-ajo bọọsi kan ti o <1>yipada ohun gbogbo</1>.",
+          "p1": "Ni irọlẹ ọjọ kan, iya iyawo mi ṣe ajo lati lọ rà ounjẹ ni ile-itaja Afirika kan lẹhin ọjọ pipẹ. Agara da a lori irin-ajo bọọsi ti o n lọ si ile, o sọkalẹ o si fi gbogbo awọn apo rẹ silẹ lai mọ.",
+          "quote": "Kii ṣe nipa sisọnu ounjẹ ile nikan. O jẹ nipa bi awọn eniyan ṣe n ṣiṣẹ takuntakun to, bi wọn ṣe n rin jina to lati wa ni asopọ pẹlu awọn ti wọn jẹ."
+        },
+        "chapter3": {
+          "label": "Iṣẹ Naa",
+          "title": "Ibi ti a ti bi <1>Urbandrop</1> niyẹn.",
+          "p1": "A n kọ ọja oni-nọmba kan ki awọn agbegbe Afro-Caribbean, Asia ati awọn agbegbe ẹya miiran le ra ounjẹ ti wọn fẹran taara lati inu foonu wọn. <1>Ko si irin-ajo gigun. Ko si awọn apo wuwo.</1> Awọn ọja tuntun ati ti a mọ ti a fi ranse pẹlu itọju ati iyi.",
+          "memory": "Ìrántí",
+          "memoryDesc": "Ibi ti o ti wa",
+          "comfort": "Ìtùnú",
+          "comfortDesc": "Adun ile",
+          "identity": "Ìdánimọ̀",
+          "identityDesc": "Ta ni o jẹ"
+        },
+        "closing": {
+          "quote": "Ounjẹ ju awọn eroja lọ; o jẹ iranti, itunu, idanimọ. Ni orilẹ-ede ti o ti gba ọpọlọpọ eniyan bẹ, <1>wọn tọ si ọna ti o dara julọ lati lero bi ile</1>. Eyi ni iṣẹ wa. A si ṣẹṣẹ bẹrẹ ni.",
+          "est": "Ti a da silẹ 2026"
+        }
+      },
       "purpose": {
         "title1": "Ti a Kọ Pẹlu",
         "title2": "Idi kan",
         "quote": "Lati jẹ ki gbigbe ojoojumọ rọrun ati lati mu irọrun sunmọ awọn eniyan."
       }
-    },
-    "merchants": {
+  },
+  "merchants": {
       "hero": {
         "title1": "Dagbasoke iṣowo rẹ pẹlu",
         "title2": "Urbandrop",
@@ -378,10 +498,84 @@
         "desc": "O gba kere ju iṣẹju mẹwa lọ lati forukọsilẹ ki o bẹrẹ tita. Darapọ mọ ọgọọgọrun awọn oniṣowo aṣeyọri ti n dagbasoke iṣowo wọn tẹlẹ.",
         "button": "Di Oniṣowo kan",
         "contact": "Kan si Ẹgbẹ Tita",
-        "footer": "Awọn ibeere wa? Ẹgbẹ wa ṣetan lati ran ọ lọwọ ni gbogbo igbesẹ."
+        "footer": "Awọn ibeere wa? Ẹgbẹ wa ṣetan lati ran ọ lọwọ ni gbogbo igbesẹ.",
+        "termsLink": "Wo Awọn Ofin ati Awọn Ipo Onisowo"
+      },
+      "faq": {
+        "title": "Awọn Ibeere ti Awọn Onisowo Maa n Beere",
+        "subtitle": "Gbogbo nkan ti o nilo lati mọ nipa tita lori Urbandrop.",
+        "searchPlaceholder": "Wa awọn ohun elo...",
+        "noResults": "A ko ri abajade kan fun \"{{query}}\". Jọwọ gbiyanju ọrọ miiran.",
+        "categories": [
+          {
+            "category": "Bẹrẹ Nibi",
+            "items": [
+              {
+                "question": "Bawo ni mo ṣe le di oniṣowo lori Urbandrop?",
+                "answer": "Lati di oniṣowo, tẹ lori 'Di Onisowo' ki o pese awọn alaye iṣowo r rẹ. Ẹgbẹ wa yoo ṣe atunyẹwo ohun elo rẹ wọn yoo si tọ ọ lọ ninu ilana iforukọsilẹ."
+              },
+              {
+                "question": "Awọn iwe aṣẹ wo ni o nilo fun iforukọsilẹ?",
+                "answer": "Wàá nílò ìwé-àṣẹ ìṣòwò tó dán mọ́rán, ẹ̀rí ìdánimọ̀, àti àwọn kúlẹ̀kúlẹ̀ àpamọ́ owó panṣágà fún sísanwó. Awọn ibeere pataki le yatọ nipasẹ agbegbe."
+              }
+            ]
+          },
+          {
+            "category": "Itoju Ọja ati Iṣura",
+            "items": [
+              {
+                "question": "Bawo ni MO ṣe le ṣafikun awọn ọja si ile itaja mi?",
+                "answer": "Wọle si Dasibodu Onisowo rẹ, lilö kiri si apakan 'Awọn ọja', ki o tẹ 'Fi Ọja Titun kun'. Fọwọsi awọn alaye ọja, po awọn aworan si, ki o ṣeto idiyele rẹ ati awọn ipele iṣura."
+              },
+              {
+                "question": "Njẹ MO le ṣakoso awọn ipele iṣura laifọwọyi?",
+                "answer": "Bẹẹni, pẹpẹ wa n tọpa awọn ipele iṣura rẹ ti o da lori tita. O tun le ṣatunṣe iṣura pẹlu ọwọ nipasẹ dasibodu nigbati o ba gba awọn gbigbe titun."
+              }
+            ]
+          },
+          {
+            "category": "Awọn Ibere ati Ifijiṣẹ",
+            "items": [
+              {
+                "question": "Bawo ni a ṣe n sọ fun mi nipa aṣẹ tuntun?",
+                "answer": "Iwọ yoo gba awọn iwifunni ni akoko gidi nipasẹ imeeli ati Ohun elo Onisowo. Ibere naa yoo tun han lẹsẹkẹsẹ ni taabu 'Awọn Ibere Ti O Nṣiṣẹ' ti dasibodu rẹ."
+              },
+              {
+                "question": "Tani o n ṣakoso ifijiṣẹ?",
+                "answer": "Nẹtiwọọki UrbanDrop ti awọn alabaṣepọ ifijiṣẹ ni o n ṣe ifijiṣẹ. Ni kete ti aṣẹ ba ti ṣetan, o beere fun gbigba, alabaṣepọ wa yoo si fi jiṣẹ fun onibara."
+              }
+            ]
+          },
+          {
+            "category": "Owo ati Awọn Ere",
+            "items": [
+              {
+                "question": "Nigba wo ati bawo ni a ṣe n sanwo fun mi?",
+                "answer": "Awọn sisanwo ni a n ṣiṣẹ lọsọọsẹ ni gbogbo ọjọ Tuside fun gbogbo awọn aṣẹ ti o pari lati ọsẹ ti o kọja. Owo ni a n fi ranṣẹ taara sinu iroyin ile ifowopamọ ti o forukọsilẹ pẹlu."
+              },
+              {
+                "question": "Kini awọn idiyele fun tita lori Urbandrop?",
+                "answer": "A n gba iṣẹ lori gbogbo tita aṣeyọri. Iwọn ogorun gangan da lori ẹka ọja rẹ ati eto ṣiṣe alabapin rẹ. Ko si awọn idiyele tito."
+              }
+            ]
+          },
+          {
+            "category": "Atilẹyin Imọ-ẹrọ",
+            "items": [
+              {
+                "question": "Tani MO le kan si ti MO ba ni iṣoro kan?",
+                "answer": "Ẹgbẹ Atilẹyin Onisowo wa ti a ṣe igbẹhin wa fun wakati 24 lojumọ, ọjọ meje lọsẹ. O le kan si wa nipasẹ iwiregbe laaye ninu dasibodu rẹ, imeeli, tabi laini foonu pataki wa."
+              },
+              {
+                "question": "Kini ti Dasibodu Onisowo ba dẹkun iṣẹ?",
+                "answer": "Ni iṣẹlẹ ti o ṣọwọn ti idinku iṣẹ, ṣayẹwo oju-iwe ipo wa fun awọn imudojuiwọn. Ẹgbẹ imọ-ẹrọ wa n ṣe abojuto ilera eto ni itara lati rii daju pe iṣẹ n tẹsiwaju."
+              }
+            ]
+          }
+        ]
       }
-    },
-    "advertise": {
+  },
+  "advertise": {
       "title": "Ipolowo",
       "desc": "Polongo ami-iṣowo rẹ pẹlu wa",
       "hero": {
@@ -435,8 +629,8 @@
           "description": "Ṣe awọn ipolowo ti a fojusi ati awọn ipese pataki lati mu tita pọ si ati fa awọn onibara tuntun."
         }
       }
-    },
-    "privacyPolicy": {
+  },
+  "privacyPolicy": {
       "hero": {
         "title": "Aṣiri",
         "highlight": "Ilana",
@@ -609,8 +803,8 @@
           "website": "Oju opo wẹẹbu: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
         }
       }
-    },
-    "cookiesPolicy": {
+  },
+  "cookiesPolicy": {
       "title": "Ilana Kúkì",
       "effectiveDate": "Ọjọ Ibẹrẹ: {{date}}",
       "whatAreCookies": {
@@ -657,8 +851,8 @@
         "companyName": "UrbanDrop Group Limited",
         "email": "Imeeli: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
       }
-    },
-    "notFoundPage": {
+  },
+  "notFoundPage": {
       "title": "Oju-iwe Ko Ri",
       "desc": "Oju-iwe ti o n wa ko si tabi ti gbe lọ.",
       "goHome": "Pada si Ile",
@@ -675,8 +869,8 @@
       },
       "illustration": "A ko le rii oju-iwe naa, ṣugbọn a rii awọn eroja tuntun wọnyi!",
       "searchSuggestion": "Gbiyanju lati wa ohun ti o nilo tabi ṣabẹwo Ile-iṣẹ Iranlọwọ wa."
-    },
-    "cookieConsent": {
+  },
+  "cookieConsent": {
       "banner": {
         "title": "A bikita nipa aṣiri rẹ",
         "description": "A lo kúkì lati mu iriri rẹ dara si. UrbanDrop nlo awọn kúkì pataki lati jẹ ki oju opo wẹẹbu wa ṣiṣẹ, ati awọn kúkì aṣayan lati ran wa lọwọ lati loye bi o ṣe nlo rẹ, ṣe akoonu ti ara ẹni, ati fi awọn ipese to yẹ han ọ. O le yan lati gba gbogbo kúkì, kọ awọn ti kii ṣe pataki, tabi ṣakoso awọn ayanfẹ rẹ nigbakugba.",
@@ -728,8 +922,8 @@
           "required": "Pataki"
         }
       }
-    },
-    "termsConditions": {
+  },
+  "termsConditions": {
       "title": "Awọn Ofin & Awọn ipo",
       "lastUpdated": "Ti ṣe imudojuiwọn laipẹ: {{date}}",
       "intro": {
@@ -978,6 +1172,5 @@
           "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
         }
       }
-    }
   }
 }

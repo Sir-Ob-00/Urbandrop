@@ -2,8 +2,12 @@
     "navbar": {
         "findLocation": "Buscar ubicación",
         "home": "Inicio",
+        "aboutUs": "Acerca de",
+        "customer": "Cliente",
+        "merchant": "Ser comerciante",
         "contactUs": "Contáctenos",
-        "getTheApp": "Obtener la aplicación"
+        "getTheApp": "Obtener la aplicación",
+        "joinBeta": "Unirse a la Beta"
     },
     "footer": {
         "findLocation": "Buscar ubicación",
@@ -26,9 +30,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Descubre",
-            "richEthnic": "ricos Sabores",
-            "flavors": "Étnicos",
+            "title1": "Comida Étnica Auténtica y",
+            "title2": "Comestibles Entregados en su",
+            "title3": "Puerta",
+            "description": "Descubra tiendas africanas, caribeñas, asiáticas e internacionales cerca de usted con UrbanDrop.",
             "orderNow": "Ordenar Ahora",
             "becomeMerchant": "Ser Comerciante"
         },
@@ -243,18 +248,105 @@
             "title2": "Experiencia UrbanDrop",
             "ios": "Descargar para Apple",
             "android": "Descargar para Android"
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "subtitle": "Encuentre respuestas a preguntas comunes sobre el uso de Urbandrop.",
+            "searchPlaceholder": "Buscar preguntas frecuentes...",
+            "noResults": "No se encontraron resultados para \"{{query}}\". Intente con otro término.",
+            "categories": [
+                {
+                    "category": "Cuenta y Acceso",
+                    "items": [
+                        {
+                            "question": "¿Cómo creo una cuenta?",
+                            "answer": "Para crear una cuenta, haga clic en el botón 'Registrarse' en la esquina superior derecha de la página de inicio. Complete sus datos, incluyendo su nombre, dirección de correo electrónico y una contraseña segura. Recibirá un correo electrónico de confirmación para verificar su cuenta."
+                        },
+                        {
+                            "question": "Olvidé mi contraseña. ¿Cómo puedo restablecerla?",
+                            "answer": "Haga clic en 'Olvidé mi contraseña' en la página de inicio de sesión. Ingrese su dirección de correo electrónico registrada y le enviaremos instrucciones para restablecer su contraseña de forma segura."
+                        }
+                    ]
+                },
+                {
+                    "category": "Pedidos y Pago",
+                    "items": [
+                        {
+                            "question": "¿Cómo realizo un pedido?",
+                            "answer": "Explore nuestros productos, seleccione los artículos que desee y haga clic en 'Agregar al carrito'. Cuando esté listo, haga clic en el ícono del carrito y proceda al pago. Siga las instrucciones para ingresar su información de envío y pago."
+                        },
+                        {
+                            "question": "¿Puedo modificar o cancelar mi pedido después de realizarlo?",
+                            "answer": "Puede modificar o cancelar su pedido dentro de 1 hora después de realizarlo. Vaya a 'Mis pedidos' en su cuenta, seleccione el pedido y elija la opción de modificar o cancelar. Si ha pasado más de 1 hora, comuníquese con nuestro equipo de soporte."
+                        }
+                    ]
+                },
+                {
+                    "category": "Pagos",
+                    "items": [
+                        {
+                            "question": "¿Qué métodos de pago aceptan?",
+                            "answer": "Aceptamos todas las principales tarjetas de crédito y débito (Visa, MasterCard, American Express) y Apple Pay."
+                        },
+                        {
+                            "question": "¿Son seguros mis datos de pago?",
+                            "answer": "Sí, utilizamos cifrado SSL estándar de la industria para proteger sus datos de pago. No almacenamos ningún detalle de su tarjeta de crédito."
+                        }
+                    ]
+                },
+                {
+                    "category": "Entrega y Seguimiento",
+                    "items": [
+                        {
+                            "question": "¿Cuánto tiempo suele tardar la entrega?",
+                            "answer": "La entrega estándar tarda entre 15 y 25 minutos, dependiendo de la distancia. La entrega urgente está disponible al finalizar la compra para una entrega prioritaria."
+                        },
+                        {
+                            "question": "¿Cómo puedo realizar el seguimiento de mi pedido?",
+                            "answer": "Una vez que se envíe su pedido, recibirá un correo electrónico de confirmación con un enlace de seguimiento. También puede seguir el estado de su pedido en la sección 'Mis pedidos' de su cuenta."
+                        }
+                    ]
+                },
+                {
+                    "category": "Devoluciones y Reembolsos",
+                    "items": [
+                        {
+                            "question": "¿Cuál es su política de devoluciones?",
+                            "answer": "Productos No Perecederos\nPuede devolver su pedido dentro de los 14 días posteriores a la entrega y devolver los artículos sin usar dentro de un plazo adicional de 14 días para obtener un reembolso completo. Los artículos deben devolverse en su estado original.\n\nSi los productos son defectuosos, no se ajustan a la descripción o no son aptos para su propósito, tiene derecho a un reembolso completo dentro de los 30 días posteriores a la recepción.\n\nProductos Perecederos\nDebido a la naturaleza perecedera de los productos frescos, no aceptamos devoluciones ni cancelaciones una vez que hayan sido entregados.\n\nSi su pedido llega dañado, es incorrecto o no es seguro para el consumo, debe notificarnos dentro de las 24 horas posteriores a la entrega. Es posible que se requiera evidencia fotográfica. Las reclamaciones aprobadas pueden resolverse con un reemplazo, crédito en la tienda o reembolso por los artículos afectados."
+                        }
+                    ]
+                },
+                {
+                    "category": "Problemas Técnicos",
+                    "items": [
+                        {
+                            "question": "El sitio web no carga correctamente. ¿Qué debo hacer?",
+                            "answer": "Intente borrar el caché y las cookies de su navegador, o acceder al sitio usando una ventana de incógnito. Si el problema persiste, comuníquese con nuestro soporte técnico."
+                        },
+                        {
+                            "question": "Tengo problemas con la aplicación móvil. ¿Dónde puedo obtener ayuda?",
+                            "answer": "Asegúrese de tener instalada la última versión de la aplicación. Si los problemas continúan, intente reinstalar la aplicación o comuníquese con nuestro equipo de soporte de la aplicación con los detalles de su dispositivo."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "about": {
+        "title": "1. Acerca de UrbanDrop",
+        "content": [
+            "UrbanDrop es un mercado en línea que conecta a los clientes con comerciantes independientes que ofrecen comestibles, comidas y productos étnicos para entrega o recolección. Proporcionamos la infraestructura digital, el procesamiento de pagos y la interfaz del cliente, pero no producimos, poseemos ni vendemos los artículos enumerados en la Plataforma.",
+            "Cuando realiza un pedido a través de UrbanDrop, está comprando directamente al comerciante, no a UrbanDrop."
+        ],
         "hero": {
-            "title1": "Entregando",
-            "title2": "Frescura",
-            "title3": "Conectando",
-            "title4": "Comunidades",
-            "desc": "En Urbandrop, estamos redefiniendo cómo las empresas locales se conectan con los clientes — a través de velocidad, simplicidad y tecnología."
+            "title1": "Sabores Auténticos",
+            "title2": "Verificados por la Cultura",
+            "title3": "Crecimiento Sostenible",
+            "title4": "Empoderando a los Locales",
+            "desc": "UrbanDrop se dedica a llevar la riqueza de las cocinas étnicas a su puerta, apoyando a los comerciantes locales y celebrando la diversidad cultural."
         },
         "purpose": {
-            "title1": "Construido Con un",
+            "title1": "Construido con un",
             "title2": "Propósito",
             "quote": "Para simplificar el movimiento diario y acercar la conveniencia a las personas."
         },
@@ -278,20 +370,56 @@
                 "subtitle": "Logística Resuelta"
             }
         },
+        "highlights": {
+            "title": "Nuestro Compromiso",
+            "subtitle": "Crecimiento impulsado por valores",
+            "item1": "Servicio Veloz",
+            "item3": "Centrado en el Usuario",
+            "item4": "Market Growth",
+            "item5": "Secure Payments"
+        },
         "process": {
-            "step1": "Descargar",
+            "step1": "Descubrir",
             "step2": "Ordenar",
-            "step3": "Recibir",
+            "step3": "Seguir",
             "step4": "Disfrutar"
         },
-        "highlights": {
-            "title": "La Experiencia",
-            "subtitle": "Estándar Premium",
-            "item1": "Rápido y Conectado",
-            "item2": "Todos los Lados Soportados",
-            "item3": "Flujo de Trabajo Móvil",
-            "item4": "Crecimiento Comunitario",
-            "item5": "Confiable y Seguro"
+        "ourStory": {
+            "badge": "Nuestra Historia",
+            "founded": "Reino Unido / Fundada en 2026",
+            "title": "Nuestra<br/><highlight>Historia.</highlight>",
+            "chapter1": {
+                "label": "La Brecha",
+                "title": "Algo estaba silenciosamente <1>faltando</1>.",
+                "p1": "Cuando me mudé de Ghana al Reino Unido en 2022, llegué con esperanza y una profunda conexión con la cultura que dejaba atrás. No pasó mucho tiempo antes de sentir lo que tantos inmigrantes soportan en silencio.",
+                "p2": "Comprar comestibles ghaneses —cualquier cosa africana o caribeña— significaba <1>largos viajes a tiendas dispersas</1>, selecciones limitadas y casi ninguna conveniencia. Las aplicaciones de entrega convencionales servían marcas del Reino Unido y Europa con facilidad. Pero nada servía verdaderamente a las comunidades étnicas —las mismas personas que enriquecen este país cada día."
+            },
+            "chapter2": {
+                "label": "El Momento",
+                "title": "Un viaje en autobús que <1>lo cambió todo</1>.",
+                "p1": "Una noche, la madre de mi esposa hizo el viaje para comprar en una tienda de comestibles africana después de un largo día. Agotada en el viaje en autobús a casa, se bajó y dejó todas las bolsas sin darse cuenta.",
+                "quote": "No se trataba solo de extrañar la comida de casa. Se trataba de lo duro que trabaja la gente, de lo lejos que viajan simplemente para seguir conectados con quienes son."
+            },
+            "chapter3": {
+                "label": "La Misión",
+                "title": "Ahí es donde nació <1>Urbandrop</1>.",
+                "p1": "Estamos construyendo un mercado digital para que las comunidades afrocaribeñas, asiáticas y otras comunidades étnicas puedan comprar la comida que aman directamente desde sus teléfonos. <1>Sin viajes largos. Sin bolsas pesadas.</1> Productos frescos y familiares entregados con cuidado y dignidad.",
+                "memory": "Memoria",
+                "memoryDesc": "De dónde vienes",
+                "comfort": "Comodidad",
+                "comfortDesc": "Sabor a hogar",
+                "identity": "Identidad",
+                "identityDesc": "Quién eres"
+            },
+            "closing": {
+                "quote": "La comida es más que ingredientes; es memoria, comodidad, identidad. En un país que ha acogido a tantos, <1>merecen una mejor manera de sentirse como en casa</1>. Esta es nuestra misión. Y apenas estamos comenzando.",
+                "est": "Est. 2026"
+            }
+        },
+        "team": {
+            "badge": "Nuestra Gente",
+            "title": "Conoce al Equipo",
+            "desc": "Las personas apasionadas detrás de Urbandrop, dedicadas a llevar los sabores africanos a su puerta."
         }
     },
     "advertise": {
@@ -411,10 +539,84 @@
         },
         "cta": {
             "title": "¡Comience a Crecer con Urbandrop Hoy!",
-            "desc": "Se tarda menos de 10 minutos en unirse y comenzar a vender.",
+            "desc": "Se tarda menos de 10 minutos en unirse y comenzar a vender. Únase a cientos de comerciantes exitosos que ya están creciendo.",
             "button": "Convertirse en Comerciante",
             "contact": "Contactar Ventas",
-            "footer": "¿Preguntas? Nuestro equipo está aquí para ayudar en cada paso."
+            "footer": "¿Preguntas? Nuestro equipo está aquí para ayudar en cada paso.",
+            "termsLink": "Revisar los Términos y Condiciones para Comerciantes"
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes para Comerciantes",
+            "subtitle": "Todo lo que necesitas saber sobre cómo vender en Urbandrop.",
+            "searchPlaceholder": "Buscar recursos...",
+            "noResults": "No se encontraron resultados para \"{{query}}\". Intenta con un término diferente.",
+            "categories": [
+                {
+                    "category": "Primeros Pasos",
+                    "items": [
+                        {
+                            "question": "¿Cómo me convierto en comerciante en Urbandrop?",
+                            "answer": "Para convertirte en comerciante, haz clic en 'Convertirse en Comerciante' y proporciona los detalles de tu negocio. Nuestro equipo revisará tu solicitud y te guiará a través del proceso de incorporación."
+                        },
+                        {
+                            "question": "¿Qué documentos se requieren para registrarse?",
+                            "answer": "Necesitarás una licencia comercial válida, un comprobante de identidad y los detalles de tu cuenta bancaria para los pagos. Los requisitos específicos pueden variar según la región."
+                        }
+                    ]
+                },
+                {
+                    "category": "Gestión de Productos e Inventario",
+                    "items": [
+                        {
+                            "question": "¿Cómo agrego productos a mi tienda?",
+                            "answer": "Inicia sesión en tu Panel de Comerciante, navega a la sección de 'Productos' y haz clic en 'Agregar Nuevo Producto'. Completa los detalles del producto, sube imágenes y establece tus precios y niveles de inventario."
+                        },
+                        {
+                            "question": "¿Puedo gestionar los niveles de inventario automáticamente?",
+                            "answer": "Sí, nuestra plataforma realiza un seguimiento de tus niveles de stock en función de las ventas. También puedes ajustar manualmente el inventario a través del panel cuando recibas nuevos envíos."
+                        }
+                    ]
+                },
+                {
+                    "category": "Pedidos y Cumplimiento",
+                    "items": [
+                        {
+                            "question": "¿Cómo se me notifica de un nuevo pedido?",
+                            "answer": "Recibirás notificaciones en tiempo real por correo electrónico y a través de la Aplicación de Comerciante. El pedido también aparecerá inmediatamente en la pestaña de 'Pedidos Activos' de tu panel."
+                        },
+                        {
+                            "question": "¿Quién se encarga de la entrega?",
+                            "answer": "La red de socios de entrega de Urbandrop se encarga del cumplimiento. Una vez que se prepara un pedido, solicitas la recogida y nuestro socio lo entrega al cliente."
+                        }
+                    ]
+                },
+                {
+                    "category": "Pagos y Ganancias",
+                    "items": [
+                        {
+                            "question": "¿Cuándo y cómo me pagan?",
+                            "answer": "Los pagos se procesan semanalmente todos los martes para todos los pedidos completados de la semana anterior. Los fondos se depositan directamente en la cuenta bancaria con la que te registraste."
+                        },
+                        {
+                            "question": "¿Cuáles son las tarifas por vender en Urbandrop?",
+                            "answer": "Cobramos una comisión por cada venta exitosa. El porcentaje exacto depende de tu categoría de producto y plan de suscripción. No hay tarifas de configuración."
+                        }
+                    ]
+                },
+                {
+                    "category": "Soporte Técnico",
+                    "items": [
+                        {
+                            "question": "¿Con quién me comunico si tengo un problema?",
+                            "answer": "Nuestro equipo de Soporte para Comerciantes dedicado está disponible las 24 horas, los 7 días de la semana. Puedes comunicarte con nosotros a través del chat en vivo en tu panel, correo electrónico o nuestra línea telefónica prioritaria."
+                        },
+                        {
+                            "question": "¿Qué pasa si el Panel de Comerciante deja de funcionar?",
+                            "answer": "En el raro caso de una interrupción, consulta nuestra página de estado para obtener actualizaciones. Nuestro equipo de ingeniería monitorea activamente la salud del sistema para garantizar el máximo tiempo de actividad."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "privacyPolicy": {

@@ -1,5 +1,9 @@
 {
     "navbar": {
+        "aboutUs": "Over ons",
+        "customer": "Klant",
+        "merchant": "Word handelaar",
+        "joinBeta": "Word lid van de Beta",
         "findLocation": "Locatie zoeken",
         "home": "Home",
         "contactUs": "Contact",
@@ -26,9 +30,10 @@
     },
     "home": {
         "hero": {
-            "discover": "Ontdek",
-            "richEthnic": "rijke Etnische",
-            "flavors": "Smaken",
+            "title1": "Authentiek Etnisch Eten &",
+            "title2": "Boodschappen Bezorgd bij je",
+            "title3": "Voordeur",
+            "description": "Ontdek Afrikaanse, Caribische, Aziatische en internationale winkels bij jou in de buurt met UrbanDrop.",
             "orderNow": "Bestel Nu",
             "becomeMerchant": "Word Handelaar"
         },
@@ -285,6 +290,88 @@
             "title2": "UrbanDrop Ervaring",
             "ios": "Download voor Apple",
             "android": "Download voor Android"
+        },
+        "faq": {
+            "title": "Veelgestelde Vragen",
+            "subtitle": "Vind antwoorden op veelgestelde vragen over het gebruik van Urbandrop.",
+            "searchPlaceholder": "Zoek in de veelgestelde vragen...",
+            "noResults": "Geen resultaten gevonden voor \"{{query}}\". Probeer een andere term.",
+            "categories": [
+                {
+                    "category": "Account & Inloggen",
+                    "items": [
+                        {
+                            "question": "Hoe maak ik een account aan?",
+                            "answer": "Klik op de knop 'Aanmelden' in de rechterbovenhoek van de homepage om een account aan te maken. Vul uw gegevens in, inclusief uw naam, e-mailadres en een veilig wachtwoord. U ontvangt een bevestigingsmail om uw account te verifiëren."
+                        },
+                        {
+                            "question": "Ik ben mijn wachtwoord vergeten. Hoe kan ik het opnieuw instellen?",
+                            "answer": "Klik op 'Wachtwoord vergeten' op de loginpagina. Voer uw geregistreerde e-mailadres in en wij sturen u instructies om uw wachtwoord veilig opnieuw in te stellen."
+                        }
+                    ]
+                },
+                {
+                    "category": "Bestellen & Afrekenen",
+                    "items": [
+                        {
+                            "question": "Hoe plaats ik een bestelling?",
+                            "answer": "Bekijk onze producten, selecteer de items die u wilt en klik op 'Toevoegen aan winkelwagen'. Als u klaar bent, klikt u op het winkelwagenicoontje en gaat u naar afrekenen. Volg de aanwijzingen om uw verzend- en betalingsgegevens in te vullen."
+                        },
+                        {
+                            "question": "Kan ik mijn bestelling wijzigen of annuleren nadat ik deze heb geplaatst?",
+                            "answer": "U kunt uw bestelling binnen 1 uur na plaatsing wijzigen of annuleren. Ga naar 'Mijn bestellingen' in uw account, selecteer de bestelling en kies de optie wijzigen of annuleren. Als er meer dan 1 uur is verstreken, neem dan contact op met ons supportteam."
+                        }
+                    ]
+                },
+                {
+                    "category": "Betalingen",
+                    "items": [
+                        {
+                            "question": "Welke betaalmethoden accepteren jullie?",
+                            "answer": "Wij accepteren alle belangrijke creditcards en betaalpassen (Visa, MasterCard, American Express) en Apple Pay."
+                        },
+                        {
+                            "question": "Zijn mijn betalingsgegevens veilig?",
+                            "answer": "Ja, we gebruiken industriestandaard SSL-encryptie om uw betalingsgegevens te beschermen. We slaan geen creditcardgegevens op."
+                        }
+                    ]
+                },
+                {
+                    "category": "Levering & Traceren",
+                    "items": [
+                        {
+                            "question": "Hoe lang duurt de levering meestal?",
+                            "answer": "De standaardlevering duurt 15-25 minuten, afhankelijk van de afstand. Versnelde levering is beschikbaar bij het afrekenen voor prioritaire levering."
+                        },
+                        {
+                            "question": "Hoe kan ik mijn bestelling volgen?",
+                            "answer": "Zodra uw bestelling is verzonden, ontvangt u een bevestigingsmail met een trackinglink. U kunt uw bestelstatus ook volgen in het gedeelte 'Mijn bestellingen' van uw account."
+                        }
+                    ]
+                },
+                {
+                    "category": "Retourneren & Terugbetalingen",
+                    "items": [
+                        {
+                            "question": "Wat is jullie retourbeleid?",
+                            "answer": "Niet-perishable producten\nU kunt uw bestelling binnen 14 dagen na levering retourneren en ongebruikte artikelen binnen nog eens 14 dagen terugsturen voor een volledige terugbetaling. Artikelen moeten in hun originele staat worden geretourneerd.\n\nAls goederen defect zijn, niet zoals beschreven of niet geschikt zijn voor het doel, heeft u recht op een volledige terugbetaling binnen 30 dagen na ontvangst.\n\nPerishable producten\nVanwege de bederfelijke aard van verse goederen accepteren we geen retourneringen of annuleringen zodra ze zijn geleverd.\n\nAls uw bestelling beschadigd, onjuist of onveilig voor consumptie aankomt, moet u ons dit binnen 24 uur na levering laten weten. Er kan fotobewijs nodig zijn. Goedgekeurde claims kunnen worden opgelost met een vervanging, winkelkrediet of terugbetaling voor de betreffende artikelen."
+                        }
+                    ]
+                },
+                {
+                    "category": "Technische Problemen",
+                    "items": [
+                        {
+                            "question": "De website laadt niet goed. Wat moet ik doen?",
+                            "answer": "Probeer de cache en cookies van uw browser te wissen, of open de site via een incognitovenster. Als het probleem aanhoudt, neem dan contact op met onze technische ondersteuning."
+                        },
+                        {
+                            "question": "Ik heb problemen met de mobiele app. Waar kan ik hulp krijgen?",
+                            "answer": "Zorg ervoor dat u de nieuwste versie van de app hebt geïnstalleerd. Als de problemen aanhouden, probeer dan de app opnieuw te installeren of neem contact op met ons app-supportteam met uw apparaatgegevens."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "about": {
@@ -292,7 +379,39 @@
         "content": [
             "UrbanDrop is een online marktplaats die klanten verbindt met onafhankelijke handelaren die boodschappen, maaltijden en etnische producten aanbieden voor bezorging of afhaling. Wij bieden de digitale infrastructuur, betalingsverwerking en klanteninterface, maar wij produceren, bezitten of verkopen de items die op het Platform worden vermeld niet.",
             "Wanneer u een bestelling plaatst via UrbanDrop, koopt u rechtstreeks van de handelaar, niet van UrbanDrop."
-        ]
+        ],
+        "ourStory": {
+            "badge": "Ons Verhaal",
+            "founded": "Verenigd Koninkrijk / Opgericht 2026",
+            "title": "Ons<br/><highlight>Verhaal.</highlight>",
+            "chapter1": {
+                "label": "De Kloof",
+                "title": "Er ontbrak in alle stilte <1>iets</1>.",
+                "p1": "Toen ik in 2022 van Ghana naar het VK verhuisde, arriveerde ik met hoop en een diepe verbondenheid met de cultuur die ik achterliet. Het duurde niet lang voordat ik voelde wat zovelen in stilte moeten verdragen.",
+                "p2": "Boodschappen doen voor Ghanese producten — of iets van Afrikaanse of Caribische bodem — betekende <1>lange ritten naar verspreide winkels</1>, een beperkte keuze en vrijwel geen gemak. Grote bezorgapps boden met gemak Britse en Europese merken aan. Maar niets bediende echt de etnische gemeenschappen — precies de mensen die dit land elke dag verrijken."
+            },
+            "chapter2": {
+                "label": "Het Moment",
+                "title": "Een busrit die <1>alles veranderde</1>.",
+                "p1": "Op een avond deed de moeder van mijn vrouw de reis om na een lange dag boodschappen te doen bij een Afrikaanse winkel. Ze was uitgeput tijdens de busrit naar huis, stapte uit en liet al haar tassen achter zonder het te beseffen.",
+                "quote": "Het ging niet alleen om het missen van eten van thuis. Het ging erom hoe hard mensen werken, hoe ver ze reizen om simpelweg verbonden te blijven met wie ze zijn."
+            },
+            "chapter3": {
+                "label": "De Missie",
+                "title": "Dat is waar <1>Urbandrop</1> werd geboren.",
+                "p1": "We bouwen aan een digitale marktplaats zodat de Afro-Caribische, Aziatische en andere etnische gemeenschappen de producten waar ze van houden rechtstreeks vanaf hun telefoon kunnen kopen. <1>Geen lange reizen. Geen zware tassen.</1> Verse, vertrouwde producten, met zorg en waardigheid bezorgd.",
+                "memory": "Herinnering",
+                "memoryDesc": "Waar je vandaan komt",
+                "comfort": "Comfort",
+                "comfortDesc": "Smaak van thuis",
+                "identity": "Identiteit",
+                "identityDesc": "Wie je bent"
+            },
+            "closing": {
+                "quote": "Eten is meer dan ingrediënten; het is herinnering, comfort, identiteit. In een land dat zovelen heeft verwelkomd, <1>verdienen zij een betere manier om zich thuis te voelen</1>. Dit is onze missie. En we zijn pas net begonnen.",
+                "est": "Opgericht 2026"
+            }
+        }
     },
     "advertise": {
         "options": {
@@ -408,7 +527,81 @@
             "desc": "Het duurt minder dan 10 minuten om je aan te melden en te beginnen met verkopen. Sluit je aan bij honderden succesvolle handelaren die hun bedrijf al laten groeien.",
             "button": "Word handelaar",
             "contact": "Contact verkoopteam",
-            "footer": "Vragen? Ons team staat klaar om je bij elke stap te helpen."
+            "footer": "Vragen? Ons team staat klaar om je bij elke stap te helpen.",
+            "termsLink": "Bekijk de Algemene Voorwaarden voor Verkopers"
+        },
+        "faq": {
+            "title": "Veelgestelde vragen voor Verkopers",
+            "subtitle": "Alles wat u moet weten over verkopen op Urbandrop.",
+            "searchPlaceholder": "Zoek bronnen...",
+            "noResults": "Geen resultaten gevonden voor \"{{query}}\". Probeer een andere term.",
+            "categories": [
+                {
+                    "category": "Aan de slag",
+                    "items": [
+                        {
+                            "question": "Hoe word ik handelaar op Urbandrop?",
+                            "answer": "Om handelaar te worden, klikt u op 'Word handelaar' en verstrekt u uw bedrijfsgegevens. Ons team zal uw aanvraag beoordelen en u door het onboarding-proces begeleiden."
+                        },
+                        {
+                            "question": "Welke documenten zijn vereist voor registratie?",
+                            "answer": "U heeft een geldige bedrijfslicentie, een identiteitsbewijs en bankrekeninggegevens nodig voor de uitbetalingen. Specifieke vereisten kunnen per regio verschillen."
+                        }
+                    ]
+                },
+                {
+                    "category": "Product- en voorraadbeheer",
+                    "items": [
+                        {
+                            "question": "Hoe voeg ik producten toe aan mijn winkel?",
+                            "answer": "Log in op uw Merchant Dashboard, navigeer naar de sectie 'Producten' en klik op 'Nieuw product toevoegen'. Vul de productgegevens in, upload afbeeldingen en stel uw prijzen en voorraadniveaus in."
+                        },
+                        {
+                            "question": "Kan ik voorraadniveaus automatisch beheren?",
+                            "answer": "Ja, ons platform houdt uw voorraadniveaus bij op basis van verkopen. U kunt de voorraad ook handmatig aanpassen via het dashboard wanneer u nieuwe zendingen ontvangt."
+                        }
+                    ]
+                },
+                {
+                    "category": "Bestellingen en Afhandeling",
+                    "items": [
+                        {
+                            "question": "Hoe word ik op de hoogte gesteld van een nieuwe bestelling?",
+                            "answer": "U ontvangt real-time meldingen via e-mail en de Merchant App. De bestelling verschijnt ook onmiddellijk in het tabblad 'Actieve bestellingen' van uw dashboard."
+                        },
+                        {
+                            "question": "Wie verzorgt de levering?",
+                            "answer": "Het netwerk van bezorgpartners van Urbandrop verzorgt de uitvoering. Zodra een bestelling is voorbereid, vraagt u een afhaling aan en onze partner bezorgt deze bij de klant."
+                        }
+                    ]
+                },
+                {
+                    "category": "Betalingen en Inkomsten",
+                    "items": [
+                        {
+                            "question": "Wanneer en hoe word ik betaald?",
+                            "answer": "Uitbetalingen worden wekelijks op dinsdag verwerkt voor alle voltooide bestellingen van de voorgaande week. Het geld wordt rechtstreeks gestort op de bankrekening waarmee u zich heeft geregistreerd."
+                        },
+                        {
+                            "question": "Wat zijn de kosten voor verkopen op Urbandrop?",
+                            "answer": "Wij rekenen een commissie op elke succesvolle verkoop. Het exacte percentage hangt af van uw productcategorie en abonnement. Er zijn geen opstartkosten."
+                        }
+                    ]
+                },
+                {
+                    "category": "Technische Ondersteuning",
+                    "items": [
+                        {
+                            "question": "Met wie neem ik contact op als ik een probleem heb?",
+                            "answer": "Ons toegewijde Merchant Support-team is 24/7 beschikbaar. U kunt ons bereiken via live chat in uw dashboard, e-mail of onze prioriteitslijn."
+                        },
+                        {
+                            "question": "Wat als het Merchant Dashboard uitvalt?",
+                            "answer": "In het zeldzame geval van een storing kunt u onze statuspagina controleren voor updates. Ons team monitort de systeemstatus actief om maximale uptime te garanderen."
+                        }
+                    ]
+                }
+            ]
         }
     },
     "privacyPolicy": {

@@ -52,7 +52,7 @@ const MerchantCTA = () => {
               {t('merchants.cta.footer')}
             </p>
             <Link to="/terms-and-conditions#merchants" className="bg-white/10 hover:bg-white/20 border border-white/20 px-6 py-3 rounded-xl inline-flex items-center text-sm font-bold text-white transition-all shadow-sm backdrop-blur-sm mt-2">
-              Review Merchant Terms & Conditions
+              {t('merchants.cta.termsLink')}
               <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
