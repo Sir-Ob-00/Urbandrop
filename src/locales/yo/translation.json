@@ -25,6 +25,8 @@
     "customer": "Onibara",
     "advertise": "Polongo lori Urbandrop",
     "beMerchant": "Di Oniṣowo kan",
+    "reportABug": "Jabọ aṣiṣe",
+    "joinBeta": "Darapọ mọ Beta",
     "rightsReserved": "Urbandrop Group Ltd. Gbogbo awọn ẹtọ ni a pa mọ́.",
     "companyNumber": "Nọmba ile-iṣẹ"
   },
@@ -60,7 +62,8 @@
       "cat4": {
         "title": "Alarinkiri: Gbigbe Aṣa",
         "desc": "Iṣẹ yarayara ati igbẹkẹle ti o mu ile wa si ẹnu-ọna rẹ."
-      },
+      }
+    },
       "whyChoose": {
         "badge": "Kí nìdí tí o fi yan Urbandrop",
         "title": "Ni Iriri",
@@ -99,8 +102,7 @@
           "seconds": "Aaya"
         }
       }
-    }
-  },
+    },
   "contact": {
       "hero": {
         "badge": "Kan si Wa",
@@ -143,203 +145,187 @@
   },
   "customer": {
       "hero": {
-        "title1": "Ṣe adun",
-        "title2": "Gidi",
-        "desc": "Awọn ọja onjẹ aṣa gidi ti a fi ranṣẹ si ilẹkun rẹ.",
-        "downloadApp": "Gba App",
-        "orderDelivered": "Aṣẹ Ti Gba",
-        "justNow": "Láìpẹ́ • Awọn iṣẹju 2 sẹ́yìn"
+          "title1": "Ni iriri adùn",
+          "title2": "gidi",
+          "desc": "Àwọn onjẹ etí-nílẹ̀ gidi tí a rán sí ẹ̀nu-ọ̀nà rẹ.",
+          "downloadApp": "Ṣe igbasilẹ App",
+          "orderDelivered": "A ti rán àṣẹ",
+          "justNow": "Láìpẹ́ yìí ní ìṣẹ́jú 2"
       },
       "recommendation": {
-        "title1": "Ti a yan",
-        "title2": "Fun Ọ",
-        "subtitle": "Ṣawari awọn akojọpọ ti a ṣe fun itọwo rẹ",
-        "explore": "Ṣawari Akojọpọ",
-        "categories": {
-          "topPicks": {
-            "name": "Awọn Aṣayan Top Ni Nitosi Rẹ",
-            "desc": "Awọn ọja onjẹ ti o ni igbelewọn giga ni agbegbe rẹ"
-          },
-          "trending": {
-            "name": "Awọn Ti o gbajumo Lọsẹ yii",
-            "desc": "Awọn ọja onjẹ ti o gbajumo julọ ni bayi"
-          },
-          "fastest": {
-            "name": "Ti o yara ju lati Fi ranṣẹ",
-            "desc": "Gba awọn ọja rẹ ni kere ju iṣẹju 30 lọ"
-          },
-          "budget": {
-            "name": "Ti o yẹ fun Isuna",
-            "desc": "Awọn ọja onjẹ didùn ti o fi owo pamọ"
+          "title1": "Tí a ti yàn",
+          "title2": "Fún Rẹ",
+          "subtitle": "Ṣàwárí àwọn akojọpọ tí a ṣe gẹ́gẹ́ bí àyànfẹ́ rẹ",
+          "categories": {
+              "topPicks": {
+                  "name": "Àwọn Yàn Tó Dara Jù Ní Agbègbè Rẹ",
+                  "desc": "Àwọn onjẹ tí a ṣe àyẹ̀wò rẹ ga ní agbègbè rẹ"
+              },
+              "trending": {
+                  "name": "Ohun Tó ń Gbajúmọ̀ Ní Ọ̀sẹ̀ Yìí",
+                  "desc": "Àwọn onjẹ tí ènìyàn ń ra jù lọ báyìí"
+              },
+              "fastest": {
+                  "name": "Tí Yóò Yára Dé Jù",
+                  "desc": "Gba onjẹ rẹ ní ìṣẹ́jú 30 tàbí kéré síi"
+              },
+              "budget": {
+                  "name": "Tó Rọrùn Fún Owó",
+                  "desc": "Onjẹ adùn tí kò gbowó"
+              }
           }
-        }
       },
       "scenarios": {
-        "title1": "Awọn ọja Ti a Fi ranṣẹ ni",
-        "title2": "Irọrun Rẹ",
-        "items": {
-          "everything": {
-            "title": "Gbogbo Ohun Ti O Nilo",
-            "subtitle": "Lati eso tuntun si awọn ọja ile."
-          },
-          "authentic": {
-            "title": "Gidi & Agbegbe",
-            "subtitle": "Awọn eroja aṣa ti o nira lati ri ni ọwọ rẹ."
-          },
-          "shopHome": {
-            "title": "Ra lati Ile",
-            "subtitle": "Foju awọn ila ki o ra ni irọrun."
-          },
-          "delivered": {
-            "title": "Ti Ranṣẹ si Rẹ",
-            "subtitle": "Awọn ọja tuntun ti a mu taara si ilẹkun rẹ."
+          "title1": "A ń kó onjẹ dé",
+          "title2": "ní ìtùnú rẹ",
+          "items": {
+              "everything": {
+                  "title": "Gbogbo Ohun Tí O Nílò",
+                  "subtitle": "Láti ẹfọ tuntun dé ohun ìdílé onjẹ."
+              },
+              "authentic": {
+                  "title": "Gidi àti Abínibí",
+                  "subtitle": "Àwọn eroja onjẹ etí-nílẹ̀ tí ó ṣòro láti rí."
+              },
+              "shopHome": {
+                  "title": "Ra Láti Ilé",
+                  "subtitle": "Má ṣe dúró ní ìlà, ra ní ìrọ̀rùn."
+              },
+              "delivered": {
+                  "title": "A máa rán an sí ọ",
+                  "subtitle": "Onjẹ tuntun dé ẹ̀nu-ọ̀nà rẹ."
+              }
           }
-        }
       },
       "whatYouCanDo": {
-        "title": "Ohun ti O Le Ṣe",
-        "desc": "Ọkan app fun gbogbo awọn aini ojoojumọ rẹ. Ṣawari awọn anfani pẹlu UrbanDrop.",
-        "learnMore": "Kọ ẹkọ Siwaju",
-        "items": {
-          "groceries": {
-            "title": "Ra Awọn ọja",
-            "desc": "Awọn eso tuntun ati awọn aini ile ti a fi ranṣẹ si ilẹkun rẹ."
-          },
-          "errands": {
-            "title": "Ṣe Awọn iṣẹ-ṣiṣe",
-            "desc": "Nilo iranwọ? A le ṣe awọn iṣẹ ojoojumọ rẹ."
-          },
-          "ethnic": {
-            "title": "Awọn adun Aṣa",
-            "desc": "Ṣawari awọn adun gidi lati gbogbo agbala aye."
+          "title": "Ohun Tí O Lè Ṣe",
+          "desc": "App kan fún gbogbo aini ojoojúmọ́ rẹ. Ṣàwárí ohun tí Urbandrop lè ṣe.",
+          "learnMore": "Kọ́ síi",
+          "items": {
+              "groceries": {
+                  "title": "Ra Onjẹ",
+                  "desc": "Ẹfọ tuntun àti ohun ìdílé onjẹ dé ẹ̀nu-ọ̀nà rẹ."
+              },
+              "errands": {
+                  "title": "Ṣe ìṣé kékeré",
+                  "desc": "Má lọ sí ọjà tó jìn tàbí tó nira. Gba onjẹ etí-nílẹ̀ rẹ ní ilé."
+              },
+              "ethnic": {
+                  "title": "Adùn Etí-nílẹ̀",
+                  "desc": "Ṣàwárí adùn gidi láti orílẹ̀-èdè kárí ayé."
+              }
           }
-        }
       },
       "benefits": {
-        "title1": "Kini idi ti",
-        "title2": "Urban",
-        "title3": "Drop",
-        "title4": "?",
-        "subtitle": "Mú ilọsiwaju igbesi aye rẹ pọ pẹlu ọkọọkan ifijiṣẹ.",
-        "items": {
-          "saveTime": {
-            "title": "Fi Aago Pamọ",
-            "subtitle": "Gba awọn wakati pada ninu ọjọ rẹ."
-          },
-          "comfort": {
-            "title": "Gbadun Irọrun",
-            "subtitle": "Gbogbo ohun ti o nilo, ti a fi ranṣẹ."
-          },
-          "convenience": {
-            "title": "Ni Iriri Irọrun",
-            "subtitle": "Ra lati awọn ile itaja agbegbe ayanfẹ rẹ."
-          },
-          "safe": {
-            "title": "Ni Aabo",
-            "subtitle": "Awọn aṣayan ifijiṣẹ laisi ifọwọkan wa."
-          },
-          "deals": {
-            "title": "Awọn ipese Ti o dara julọ",
-            "subtitle": "Awọn ipese pataki fun ọ nikan."
+          "title1": "Kí",
+          "title2": "Urban",
+          "title3": "Drop",
+          "title4": "?",
+          "subtitle": "A ń mú ìgbé-ayé rẹ dara síi pẹ̀lú ìrìnàjò kọọkan.",
+          "items": {
+              "saveTime": {
+                  "title": "Fi àkókò pamọ́",
+                  "subtitle": "Gba àkókò rẹ padà."
+              },
+              "comfort": {
+                  "title": "Gbadùn ìtùnú",
+                  "subtitle": "Gbogbo ohun tí o nílò, a máa rán an."
+              },
+              "convenience": {
+                  "title": "Ìrọ̀rùn gidi",
+                  "subtitle": "Ra láti ilé ìtajà agbègbè rẹ."
+              }
           }
-        }
       },
       "appDownload": {
-        "title1": "Ṣe adun",
-        "title2": "Iriri UrbanDrop",
-        "title3": "Yara ju Tẹlẹ lọ",
-        "desc": "Gba app UrbanDrop fun awọn ipese pataki, isanwo yara, ati atẹle aṣẹ ni akoko gidi.",
-        "ios": "Gba fun Apple",
-        "android": "Gba fun Android",
-        "countdown": {
-          "days": "Ọjọ",
-          "hours": "Wakati",
-          "minutes": "Iṣẹju",
-          "seconds": "Aaya"
-        }
+          "title1": "Tọ́ adùn",
+          "title2": "Urbandrop",
+          "ios": "Ṣe igbasilẹ fún Apple",
+          "android": "Ṣe igbasilẹ fún Android",
+          "customerTerms": "Wo àwọn ìlànà àti ìpèsè oníbàárà"
       },
       "faq": {
-        "title": "Awọn Ibeere Ti A N Beere Nigbagbogbo",
-        "subtitle": "Wa awọn idahun si awọn ibeere ti o wọpọ nipa lilo Urbandrop.",
-        "searchPlaceholder": "Wa awọn ibeere ti o wọpọ...",
-        "noResults": "A ko ri abajade kankan fun \"{{query}}\". Jọwọ gbiyanju ọrọ miiran.",
-        "categories": [
-          {
-            "category": "Akọọlẹ & Iwọle",
-            "items": [
+          "title": "Àwọn Ìbéèrè Tó Wọpọ̀",
+          "subtitle": "Wa ìdáhùn sí àwọn ìbéèrè tó wọpọ̀ nípa Urbandrop.",
+          "searchPlaceholder": "Ṣàwárí FAQ...",
+          "noResults": "Kò sí abajade fún \"{{query}}\". Gbìyànjú ọrọ míì.",
+          "categories": [
               {
-                "question": "Bawo ni MO ṣe le ṣẹda akọọlẹ kan?",
-                "answer": "Lati ṣẹda akọọlẹ kan, tẹ bọtini 'Forukọsilẹ' ni igun apa ọtun oke ti oju-iwe ile. Kun awọn alaye rẹ, pẹlu orukọ rẹ, adirẹsi imeeli rẹ, ati ọrọ igbaniwọle to ni aabo. Iwọ yoo gba imeeli idaniloju lati rii daju akọọlẹ rẹ."
+                  "category": "Akanti & Wíwọlé",
+                  "items": [
+                      {
+                          "question": "Báwo ni mo ṣe lè dá akanti sílẹ̀?",
+                          "answer": "Láti dá akanti sílẹ̀, tẹ 'Sign Up'. Fọwọ́si orúkọ, imeeli àti password. A ó rán imeeli ìmúdájú sí ọ."
+                      },
+                      {
+                          "question": "Mo gbàgbé password mi. Kí ni mo ṣe?",
+                          "answer": "Tẹ 'Forgot Password', tẹ imeeli rẹ, a ó rán ìtọnisọna sí ọ."
+                      }
+                  ]
               },
               {
-                "question": "Mo gbagbe ọrọ igbaniwọle mi. Bawo ni MO ṣe le tunto rẹ?",
-                "answer": "Tẹ 'Gbagbe Ọrọ Igbaniwọle' lori oju-iwe iwọle. Tẹ adirẹsi imeeli rẹ ti o forukọsilẹ sii ati pe a yoo fi awọn itọnisọna ranṣẹ si ọ lati tun ọrọ igbaniwọle rẹ to ni aabo."
-              }
-            ]
-          },
-          {
-            "category": "Paṣẹ & Isanwo",
-            "items": [
-              {
-                "question": "Bawo ni MO ṣe le paṣẹ?",
-                "answer": "Wo awọn ọja wa, yan awọn nkan ti o fẹ ki o tẹ 'Fi kun rira'. Nigbati o ba ṣetan, tẹ aami rira ki o tẹsiwaju si isanwo. Tẹle awọn itọnisọna lati tẹ sowo rẹ ati alaye isanwo rẹ sii."
+                  "category": "Ríra & Ìsanwó",
+                  "items": [
+                      {
+                          "question": "Báwo ni mo ṣe lè paṣẹ?",
+                          "answer": "Yan onjẹ, tẹ 'Add to Cart', kí o sì lọ sí checkout."
+                      },
+                      {
+                          "question": "Ṣé mo lè fagilé àṣẹ?",
+                          "answer": "Bẹ́ẹ̀ni, láàárín wákàtí 1 lẹ́yìn pípàṣẹ."
+                      }
+                  ]
               },
               {
-                "question": "Njẹ MO le yipada tabi fagile aṣẹ mi lẹhin ti mo ti pa a mọ?",
-                "answer": "O le yipada tabi fagile aṣẹ rẹ laarin wakati 1 lẹhin tito rẹ. Lọ si 'Awọn aṣẹ mi' ninu akọọlẹ rẹ, yan aṣẹ naa ki o yan aṣayan lati yipada tabi fagilee. Ti o ba ti kọja wakati 1, jọwọ kan si ẹgbẹ atilẹyin wa."
-              }
-            ]
-          },
-          {
-            "category": "Awọn Isanwo",
-            "items": [
-              {
-                "question": "Awọn ọna isanwo wo ni ẹ gba?",
-                "answer": "A gba gbogbo awọn kirẹditi pataki ati awọn kaadi debiti (Visa, MasterCard, American Express) ati Apple Pay."
+                  "category": "Ìsanwó",
+                  "items": [
+                      {
+                          "question": "Àwọn ọ̀nà ìsanwó wo ni ẹ gba?",
+                          "answer": "Kaadi Visa, MasterCard àti Apple Pay."
+                      },
+                      {
+                          "question": "Ṣé ìsanwó mi láàbò?",
+                          "answer": "Bẹ́ẹ̀ni, a lo SSL encryption."
+                      }
+                  ]
               },
               {
-                "question": "Njẹ alaye isanwo mi wa ni aabo?",
-                "answer": "Bẹẹni, a lo fifi ẹnọ kọ nkan SSL ti ile-iṣẹ lati daabobo alaye isanwo rẹ. A ko tọju eyikeyi alaye kaadi kirẹditi rẹ."
-              }
-            ]
-          },
-          {
-            "category": "Ifijiṣẹ & Itasopọ",
-            "items": [
-              {
-                "question": "Igba melo ni ifijiṣẹ n gba nigbagbogbo?",
-                "answer": "Ifijiṣẹ boṣewa n gba iṣẹju 15-25, da lori jijinna to jẹ. Ifijiṣẹ yarayara wa ni isanwo fun ifijiṣẹ pataki."
+                  "category": "Ìrìnàjò & Ìtẹ̀lé",
+                  "items": [
+                      {
+                          "question": "Kí ni àkókò ìrìnàjò?",
+                          "answer": "15–25 ìṣẹ́jú ní gbogbogbo."
+                      },
+                      {
+                          "question": "Báwo ni mo ṣe lè tọ́pa àṣẹ?",
+                          "answer": "Lo link tí a rán sí imeeli rẹ."
+                      }
+                  ]
               },
               {
-                "question": "Bawo ni MO ṣe le tọpinpin aṣẹ mi?",
-                "answer": "Ni kete ti a ba fi aṣẹ rẹ ranṣẹ, iwọ yoo gba imeeli idaniloju pẹlu ọna asopọ titele. O tun le tọpinpin ipo aṣẹ rẹ ninu apakan 'Awọn aṣẹ mi' ti akọọlẹ rẹ."
-              }
-            ]
-          },
-          {
-            "category": "Idapadà & Agbapada",
-            "items": [
-              {
-                "question": "Kini eto imulo ipadabọ rẹ?",
-                "answer": "Awọn ọja ti kii ṣe Idibajẹ\nO le da aṣẹ rẹ pada laarin ọjọ 14 ti ifijiṣẹ ati da awọn ohun ti a ko lo pada laarin ọjọ 14 miiran fun agbapada kikun. Awọn nkan gbọdọ jẹ pada ni ipo atilẹba wọn.\n\nTi awọn ọja ba jẹ aṣiṣe, kii ṣe bi a ti ṣapejuwe rẹ tabi ko baamu fun idi rẹ, o ni ẹtọ si agbapada kikun laarin ọjọ 30 ti gbigba.\n\nAwọn ọja Idibajẹ\nnitori iseda ti o le bajẹ tẹlẹ ti awọn ẹru tuntun, a ko gba ipadabọ tabi ifagile ni kete ti a ba ti firanṣẹ.\n\nTi aṣẹ rẹ ba de ti o bajẹ, aṣiṣe tabi ko ni aabo fun lilo, o gbọdọ sọ fun wa laarin wakati 24 ti ifijiṣẹ. Ẹri fọto le nilo. Awọn ẹtọ ti a fọwọsi le jẹ ipinnu pẹlu rirọpo, kirẹditi itaja tabi agbapada fun awọn ohun ti o kan."
-              }
-            ]
-          },
-          {
-            "category": "Awọn Isoro Imọ-ẹrọ",
-            "items": [
-              {
-                "question": "Oju-itaja ko ṣiṣẹ daradara. Kini MO yẹ ki n ṣe?",
-                "answer": "Gbiyanju lati pa kaṣe ati awọn kúkì ti ẹrọ aṣawakiri rẹ rẹ, tabi lo oju-itaja ni lilo window incognito. Ti iṣoro naa ba tẹsiwaju, jọwọ kan si atilẹyin imọ-ẹrọ wa."
+                  "category": "Ìpadà & Ìsanpadà",
+                  "items": [
+                      {
+                          "question": "Kí ni ìlànà ìpadà?",
+                          "answer": "Ọjà tí kì í bàjẹ́ lè padà láàárín ọjọ́ 14. Ọjà tí ń bàjẹ́ kì í padà lẹ́yìn ìrìnàjò."
+                      }
+                  ]
               },
               {
-                "question": "Mo ni awọn iṣoro pẹlu ohun elo alagbeka. Nibo ni MO le gba iranlọwọ?",
-                "answer": "Rii daju pe o ti fi ẹya tuntun ti ohun elo naa sori ẹrọ. Ti awọn iṣoro ba tẹsiwaju, gbiyanju lati tun ohun elo naa sori ẹrọ tabi kan si ẹgbẹ atilẹyin ohun elo wa pẹlu awọn alaye ẹrọ rẹ."
+                  "category": "Ìṣòro Tekinoloji",
+                  "items": [
+                      {
+                          "question": "Oju-ìwé kò ṣiṣẹ́, kí ni mo ṣe?",
+                          "answer": "Pa cache rẹ, tàbí lo incognito."
+                      },
+                      {
+                          "question": "App mi ń ní ìṣòro, kí ni mo ṣe?",
+                          "answer": "Ṣàyẹ̀wò update tàbí reinstall app."
+                      }
+                  ]
               }
-            ]
-          }
-        ]
-    }
+          ]
+      }
   },
   "about": {
       "title": "1. Nipa UrbanDrop",
@@ -354,34 +340,13 @@
         "title4": "Àwọn Agbègbè",
         "desc": "A ju ọjà lọ. A jẹ afara oni-nọmba ti o so ọ pọ mọ awọn adun, awọn aṣa, ati awọn eniyan ti o jẹ ki agbegbe rẹ jẹ alailẹgbẹ."
       },
-      "ecosystem": {
-        "title": "Eto Ayika",
-        "subtitle": "Nibiti gbogbo nkan ti pade.",
-        "customers": {
-          "title": "Awọn Onibara",
-          "subtitle": "Iraye Taara"
-        },
-        "merchants": {
-          "title": "Awọn Oniṣowo",
-          "subtitle": "Ẹrọ Idagbasoke"
-        },
-        "riders": {
-          "title": "Awọn Olugbeja",
-          "subtitle": "Owo-wiwọle Rọrùn"
-        },
-        "businesses": {
-          "title": "Awọn Iṣowo",
-          "subtitle": "Awọn Ẹru Ati Gbigbe Ti Yanju"
-        }
-      },
       "highlights": {
         "title": "Iriri",
         "subtitle": "Ipele Didara Gíga",
         "item1": "Yarayara & Ti Sopọ",
-        "item2": "Atilẹyin Fun Gbogbo Ẹgbẹ",
-        "item3": "Ilana Iṣẹ Alagbeka",
-        "item4": "Idagbasoke Agbegbe",
-        "item5": "Igbẹkẹle & Aabo"
+        "item2": "Ilana Iṣẹ Alagbeka",
+        "item3": "Idagbasoke Agbegbe",
+        "item4": "Igbẹkẹle & Aabo"
       },
       "process": {
         "step1": "Ṣe igbasilẹ",
@@ -421,10 +386,10 @@
           "est": "Ti a da silẹ 2026"
         }
       },
-      "purpose": {
-        "title1": "Ti a Kọ Pẹlu",
-        "title2": "Idi kan",
-        "quote": "Lati jẹ ki gbigbe ojoojumọ rọrun ati lati mu irọrun sunmọ awọn eniyan."
+      "team": {
+          "badge": "Àwọn ènìyàn wa",
+          "title": "Pàdé Ẹgbẹ́ Wa",
+          "desc": "Àwọn ènìyàn aláfẹ́fẹ́ tí wọ́n wà lẹ́yìn Urbandrop, tí wọ́n fi ìtara ṣiṣẹ́ láti mú àwọn adùn Áfríkà dé ọwọ́ rẹ."
       }
   },
   "merchants": {
@@ -632,176 +597,131 @@
   },
   "privacyPolicy": {
       "hero": {
-        "title": "Aṣiri",
-        "highlight": "Ilana",
-        "subtitle": "Aṣiri rẹ ṣe pataki fun wa.",
-        "effectiveDate": "Ọjọ Ibẹrẹ: {{date}}"
+          "lastModified": "Ìgbà tí a ṣe àtúnṣe kẹ́yìn: 11 Oṣù Kẹrin 2026",
+          "title": "UrbanDrop",
+          "highlight": "Ìlànà Àṣírí (Privacy Policy)",
+          "subtitle": "A jẹ́ ẹni tí a ti pinnu láti dáàbò bo ìpamọ́ rẹ. Ìlànà yìí ṣàlàyé bí a ṣe ń kó, lò, pín, àti dáàbò bo data ara ẹni rẹ."
       },
       "sections": {
-        "whoWeAre": {
-          "title": "Tani A Jẹ",
-          "content": [
-            "UrbanDrop Group Limited jẹ ile-iṣẹ kan ti a forukọsilẹ ni England ati Wales labẹ nọmba ile-iṣẹ 16026087.",
-            "A n ṣiṣẹ ọjà ori ayelujara kan ti o so awọn onibara pọ mọ awọn oniṣowo ti n ta awọn ohun elo ounjẹ, ounjẹ ti a ti se, ati awọn ọja abinibi fun ifijiṣẹ tabi gbigba."
-          ]
-        },
-        "infoCollect": {
-          "title": "Alaye Ti A N Gba",
-          "intro": "A n gba alaye ti ara ẹni ti o ran wa lọwọ lati pese, mu dara si, ati ṣakoso awọn iṣẹ wa. Eyi le pẹlu:",
-          "direct": {
-            "title": "Alaye Ti O Fun Wa Taara",
-            "items": [
-              "Orukọ, nọmba olubasọrọ, ati adirẹsi ifijiṣẹ.",
-              "Adirẹsi imeeli ati ọrọigbaniwọle iroyin.",
-              "Alaye isanwo ati ìdíyelé (ti a n ṣiṣẹ ni aabo nipasẹ awọn alabaṣepọ isanwo wa).",
-              "Esi, awọn ifiranṣẹ, tabi awọn atunyẹwo ti o fi ranṣẹ.",
-              "Awọn alaye iforukọsilẹ oniṣowo (fun awọn olumulo iṣowo), pẹlu orukọ ile-iṣẹ, adirẹsi iṣowo, ati awọn alaye iroyin banki."
-            ]
+          "whoWeAre": {
+              "title": "1. Ta ni A Jẹ́",
+              "content": [
+                  "UrbanDrop jẹ́ pẹpẹ ìtìlẹ́yìn onjẹ tí UrbanDrop Group Ltd ń ṣiṣẹ́, ilé-iṣẹ́ tí a forúkọ sílẹ̀ ní United Kingdom. A ń so àwọn oníbàárà pọ̀ mọ́ àwọn olùtajà onjẹ Afirika, Karibeani, àti Esia.",
+                  "UrbanDrop (\"awa\", \"wa\", \"tíwa\") ti pinnu láti dáàbò bo ìpamọ́ rẹ. Ìlànà Àṣírí yìí ṣàlàyé bí a ṣe ń kó, lò, pín, àti dáàbò bo data ara ẹni rẹ nígbà tí o bá ń lo pẹpẹ wa. Jọ̀wọ́ kà á dáadáa. Bí o kò bá fara mọ́ ọ̀nà wa, jọ̀wọ́ má lo iṣẹ́ wa."
+              ]
           },
-          "automatic": {
-            "title": "Alaye Ti A Gba Laifọwọyi",
-            "intro": "Nigbati o ba lo UrbanDrop, a le gba laifọwọyi:",
-            "items": [
-              "Alaye ẹrọ ati aṣàwákiri (adirẹsi IP, eto iṣẹ, iru ẹrọ).",
-              "Alaye ipo (ti o ba gba awọn iṣẹ ipo laaye).",
-              "Alaye lilo gẹgẹbi awọn oju-iwe ti a ṣabẹwo, awọn ibaraẹnisọrọ ohun elo, ati iṣẹ aṣẹ.",
-              "Awọn faili ìkókọ ati alaye ìdánilẹ́kọ̀ọ́ lati mu iṣẹ ati aabo dara si."
-            ]
+          "lawfulBasis": {
+              "title": "2. Àkọsílẹ̀ Òfin fún Ṣíṣe Data",
+              "intro": "A ń ṣiṣẹ́ data ara ẹni rẹ lórí àwọn ìdí òfin wọ̀nyí labẹ UK GDPR:",
+              "items": [
+                  "Ìmúṣẹ́ àdéhùn — láti pèsè iṣẹ́ tí o ti béèrè, pẹ̀lú ìmúṣẹ́ ìbéèrè àti ìrìnàjò onjẹ.",
+                  "Òfin — láti tẹ̀lé àwọn òfin àti ìlànà tó wà.",
+                  "Ìfẹ́ tó tọ́ — láti mú pẹpẹ dara síi, dáàbò bo lòdì sí ẹ̀tan, àti mú ààbò pọ̀ síi, níbi tí ẹ̀tọ́ rẹ kò bá kọja.",
+                  "Ìfọwọ́si — fún ìpolówó àti cookies tí kì í ṣe pàtàkì. O lè yọ ìfọwọ́si rẹ kúrò nígbàkúùgbà."
+              ]
           },
-          "thirdParty": {
-            "title": "Alaye Lati Ọdọ Awọn Ẹgbẹ Kẹta",
-            "intro": "A le gba alaye lati ọdọ:",
-            "items": [
-              "Awọn olupese isanwo (fun apẹẹrẹ, lati jẹrisi ipo ìdúnàkò).",
-              "Awọn iṣẹ ìmúdájú ìdánimọ.",
-              "Awọn alabaṣepọ ifijiṣẹ (fun apẹẹrẹ, ipo ifijiṣẹ aṣẹ).",
-              "Awọn alabaṣepọ itupalẹ ati ipolowo ti o ran wa lọwọ lati loye awọn aṣa lilo."
-            ]
+          "infoCollect": {
+              "title": "3. Àlàyé Tí A ń Kó",
+              "intro": "A ń kó data ara ẹni wọ̀nyí:",
+              "items": [
+                  "Àlàyé ara ẹni — orúkọ, imeeli, nọ́mbà foonu, àti adirẹsi ìrìnàjò.",
+                  "Ìsanwó — àlàyé kaadi, adirẹsi ìsanwó, àti ìtàn ìṣòwò. Olùpèsè ìsanwó ni ń ṣiṣẹ́ rẹ, a kò fi pamọ́.",
+                  "Data ìpò — ipo gidi, nígbà tí o bá lo iṣẹ́ ìpò.",
+                  "Àlàyé ẹrọ — IP address, irú ẹrọ, eto iṣẹ́, àti app version.",
+                  "Data lilo — bí o ṣe ń lo app, àwárí, ìtàn ìbéèrè, àti ìbánisọ̀rọ̀ ìtìlẹ́yìn."
+              ]
+          },
+          "howWeUse": {
+              "title": "4. Bí A Ṣe Lò Data Rẹ",
+              "intro": "A ń lo data rẹ fún:",
+              "items": [
+                  "Ìmúṣẹ́ ìbéèrè — ṣíṣe àti rán onjẹ rẹ.",
+                  "Ìtìlẹ́yìn oníbàárà — dáhùn ìbéèrè àti ìṣòro.",
+                  "Ìtọ́kasí ara ẹni — ṣàfihàn ohun tí o fẹ́.",
+                  "Ìsanwó — ṣíṣe ìṣòwò lailewu.",
+                  "Ìpolówó — pẹ̀lú ìfọwọ́si rẹ, a lè rán ìtẹ̀síwájú.",
+                  "Ìbámu pẹ̀lú òfin — fún owó-ori àti ìdènà ẹ̀tan.",
+                  "Ìmúdára iṣẹ́ — láti ṣe àtúnyẹ̀wò bí a ṣe lè mú un dara síi."
+              ]
+          },
+          "sharing": {
+              "title": "5. Bí A Ṣe Pín Data Rẹ",
+              "intro": "A lè pín data rẹ pẹ̀lú:",
+              "items": [
+                  "Àwọn olùtajà — orúkọ, ìbéèrè, àti adirẹsi.",
+                  "Àwọn olùkópa ìrìnàjò — fún ìrìnàjò onjẹ.",
+                  "Olùpèsè ìsanwó — tí a fọwọ́si PCI-DSS.",
+                  "Àwọn alábàáṣiṣẹ́ — fún ìtúpalẹ̀ àti ìpolówó.",
+                  "Àwọn aláṣẹ — bí òfin bá béèrè.",
+                  "Olùrà tàbí alábàáṣiṣẹ́ tuntun — ní ìṣẹ̀lẹ̀ rira ilé-iṣẹ́."
+              ],
+              "note": "A kì í ta data ara ẹni rẹ."
+          },
+          "retention": {
+              "title": "6. Bí A Ṣe Pa Data Mọ́",
+              "items": [
+                  "Data ìbéèrè — títí di ọdún meje.",
+                  "Àkọọ́lẹ̀ — títí o fi pa akọọ́lẹ̀ rẹ.",
+                  "Ìfọwọ́si ìpolówó — títí o fi yọ ìfọwọ́si rẹ."
+              ]
+          },
+          "rights": {
+              "title": "7. Ẹ̀tọ́ Rẹ",
+              "items": [
+                  "Wíwọlé data rẹ",
+                  "Atúnṣe data",
+                  "Piparẹ data",
+                  "Ìdínkù ìlò data",
+                  "Gbigbe data",
+                  "Kíkọ ìlò data",
+                  "Yíyọ ìfọwọ́si"
+              ],
+              "contact": "Tó bá fẹ́ lo ẹ̀tọ́ rẹ, kọ sí support@urbandrop.io. A máa dáhùn láàárín ọjọ́ kan oṣù kan.",
+              "complaint": "O lè kó ẹ̀sùn lọ sí ICO ní ico.org.uk tàbí 0303 123 1113."
+          },
+          "security": {
+              "title": "8. Ààbò",
+              "items": [
+                  "Encryption SSL/TLS",
+                  "Ìṣàkóso ìwọlé",
+                  "Ìfipamọ́ lailewu"
+              ],
+              "note": "Kò sí eto tí ó pé ní 100% ààbò, ṣùgbọ́n a ń ṣe gbogbo ohun tó tọ́."
+          },
+          "cookies": {
+              "title": "9. Cookies àti Tóóṣì Lílò Data",
+              "items": [
+                  "Rántí ààyò rẹ",
+                  "Ṣàyẹ̀wò bí o ṣe ń lo pẹpẹ",
+                  "Ṣàfihàn ìpolówó tó yẹ"
+              ],
+              "consent": "A máa béèrè ìfọwọ́si rẹ fún cookies tí kì í ṣe pàtàkì."
+          },
+          "links": {
+              "title": "10. Àwọn Ọ̀nà Kẹta",
+              "content": "A kì í ṣe ojúṣe fún àwọn ojúlé míì."
+          },
+          "children": {
+              "title": "11. Ọmọde",
+              "content": "Kò yẹ fún ẹni tí kò pé ọdún 18."
+          },
+          "international": {
+              "title": "12. Gbigbe Data Kárí Ayé",
+              "content": "A lo UK GDPR àti ààbò fún gbigbe data."
+          },
+          "updates": {
+              "title": "13. Àtúnṣe Ìlànà",
+              "content": "A lè yí ìlànà yìí padà nígbàkúùgbà."
+          },
+          "contact": {
+              "title": "14. Kọ́ Sí Wa",
+              "companyName": "UrbanDrop Group Ltd",
+              "location": "Bristol, United Kingdom",
+              "email": "support@urbandrop.io",
+              "ico": "ICO:",
+              "icoWebsite": "ico.org.uk",
+              "icoPhone": "0303 123 1113"
           }
-        },
-        "howWeUse": {
-          "title": "Bí A Ṣe N Lo Alaye Rẹ",
-          "intro": "A n lo alaye ti ara ẹni lati:",
-          "items": [
-            "Ṣe ilana ati fi awọn aṣẹ rẹ ranṣẹ.",
-            "Ba ọ sọrọ nipa iroyin rẹ, awọn aṣẹ, ati awọn ibeere atilẹyin onibara.",
-            "Jẹrisi idanimọ rẹ ati dena ìtanràn.",
-            "Ṣakoso awọn isanwo, agbapada, ati awọn kirẹditi.",
-            "Pese awọn oniṣowo pẹlu awọn alaye aṣẹ ti o yẹ fun imuse.",
-            "Ṣe adani iriri rẹ ati daba awọn ọja to baamu.",
-            "Mu iṣẹ pẹpẹ, iṣẹ-ṣiṣe, ati akoonu dara si.",
-            "Tẹle awọn ojuse ofin ati ilana."
-          ],
-          "legalBasis": {
-            "intro": "A yoo lo alaye rẹ nikan nibiti a ba ni ipilẹ ofin labẹ awọn ofin aabo data, gẹgẹbi:",
-            "items": [
-              "Lati ṣe adehun wa pẹlu rẹ (fun apẹẹrẹ, lati mu aṣẹ ṣẹ).",
-              "Lati tẹle awọn ojuse ofin.",
-              "Fun awọn ifẹ iṣowo to tọ (fun apẹẹrẹ, lati mu iriri olumulo dara si).",
-              "Pẹlu ìfọwọ́sowọ́pọ̀ rẹ (fun apẹẹrẹ, tita ọja)."
-            ]
-          }
-        },
-        "marketing": {
-          "title": "Awọn Ibaraẹnisọrọ Ipolowo",
-          "content": [
-            "A le fi imeeli ipolowo tabi awọn iwifunni ranṣẹ si ọ nipa awọn ọja tuntun, awọn ipese, tabi awọn igbega ti o ba ti fun wa ni igbanilaaye.",
-            "O le yọ kuro nigbakugba nipa:"
-          ],
-          "items": [
-            "Tite \"yọ kuro\" ninu eyikeyi imeeli ipolowo, tabi",
-            "Ṣatunṣe awọn ayanfẹ rẹ ninu ohun elo UrbanDrop tabi kan si wa taara."
-          ],
-          "note": "Paapaa ti o ba yọ kuro, a le tun fi awọn ifiranṣẹ ti kii ṣe ipolowo ranṣẹ (fun apẹẹrẹ, ìmúdájú aṣẹ tabi awọn akiyesi iroyin)."
-        },
-        "sharing": {
-          "title": "Pinpin Alaye Rẹ",
-          "intro": "A le pin iye to lopin ti alaye ti ara ẹni pẹlu:",
-          "items": [
-            "<strong>Awọn Oniṣowo:</strong> lati mura, mu ṣẹ, ati fi aṣẹ rẹ ranṣẹ.",
-            "<strong>Awọn Alabaṣepọ Ifijiṣẹ:</strong> lati fi aṣẹ rẹ ranṣẹ ni deede ati ni aabo.",
-            "<strong>Awọn Olupilẹṣẹ Isanwo:</strong> lati ṣe ilana awọn isanwo ni aabo.",
-            "<strong>Awọn Olupese IT ati Awọsanma:</strong> ti o ran wa lọwọ lati ṣiṣẹ awọn eto wa.",
-            "<strong>Awọn Alabaṣepọ Itupalẹ ati Ipolowo:</strong> lati mu awọn iṣẹ ati ipa ipolowo dara si.",
-            "<strong>Awọn Alakoso tabi Aṣẹ Ofin:</strong> nibiti ofin ba beere tabi lati daabobo awọn ẹtọ wa."
-          ],
-          "note": "A ko ta alaye ti ara ẹni rẹ fun awọn ẹgbẹ kẹta."
-        },
-        "retention": {
-          "title": "Idaduro Data",
-          "intro": "A n tọju alaye ti ara ẹni rẹ fun bi o ṣe pẹ to ṣe pataki lati mu awọn idi ti a gba a fun ṣẹ, pẹlu awọn ibeere ofin, iṣiro, tabi ijabọ.",
-          "items": [
-            "<strong>Awọn igbasilẹ aṣẹ onibara:</strong> a n tọju fun to ọdun mẹfa (6) labẹ awọn ofin owo-ori UK ati awọn ofin onibara.",
-            "<strong>Alaye oniṣowo:</strong> a n tọju fun bi iroyin ṣe n ṣiṣẹ ati fun ọdun mẹfa (6) lẹ́yìn náà.",
-            "<strong>Awọn ifiranṣẹ atilẹyin ati esi:</strong> a n tọju fun awọn idi iṣẹ ati itọkasi ofin."
-          ],
-          "note": "Nigbati data ko ba nilo mọ́, a n paarẹ rẹ ni aabo tabi a n ṣe àìdánidánimọ."
-        },
-        "security": {
-          "title": "Aabo Data",
-          "content": [
-            "A n lo awọn igbese imọ-ẹrọ ati eto-ọrọ to yẹ lati daabobo data rẹ lodi si iraye aṣẹ-laisi, ìfihàn, ayipada, tabi pipadanu.",
-            "Eyi pẹlu:"
-          ],
-          "items": [
-            "Gbigbe data ti a paroko (SSL/TLS).",
-            "Awọn ẹnu-ọna isanwo to ni aabo (tẹle PCI DSS).",
-            "Awọn iṣakoso iraye ati awọn eto ìmúdájú.",
-            "Atẹle aabo ati ayẹwo deede."
-          ],
-          "note": "Sibẹsibẹ, ko si iṣẹ ori ayelujara kankan ti ko ni ewu patapata. Iwọ ni o ni ojuse lati daabobo awọn ìmúlò iroyin rẹ."
-        },
-        "international": {
-          "title": "Gbigbe Kariaye",
-          "intro": "Diẹ ninu awọn olupese iṣẹ tabi awọn alabaṣepọ wa le ṣe ilana data rẹ ni ita UK tabi Agbegbe Iṣowo Yúróòpù (EEA). Nígbà tí eyi bá ṣẹlẹ̀, a n rii daju pe awọn aabo to yẹ wa, gẹgẹ bi:",
-          "items": [
-            "Awọn ipinnu ìbámu ti UK tabi EU fọwọsi.",
-            "Awọn Àdéhùn Ilana Boṣewa (SCCs).",
-            "Awọn ofin ile-iṣẹ asopọ tabi awọn ilana aabo to dọgba."
-          ]
-        },
-        "rights": {
-          "title": "Awọn Ẹtọ Rẹ",
-          "intro": "Labẹ UK GDPR, o ni awọn ẹtọ wọnyi nipa data ti ara ẹni rẹ:",
-          "items": [
-            "<strong>Iraye:</strong> lati beere ẹda kan ti data rẹ.",
-            "<strong>Atunṣe:</strong> lati ṣatunṣe data ti ko pe tabi ti ko tọ.",
-            "<strong>Piparẹ (\"Ẹtọ lati Gbagbe\"):</strong> lati beere piparẹ data rẹ nigbati ko ba nilo mọ́.",
-            "<strong>Ihamọ:</strong> lati fi opin si bi a ṣe n ṣe ilana data rẹ.",
-            "<strong>Gbigbe:</strong> lati gba data rẹ ni ọna ti o wulo tabi lati gbe e lọ si olupese miiran.",
-            "<strong>Atako:</strong> lati tako ilana fun anfaani to tọ tabi ipolowo taara.",
-            "<strong>Yiyọ ìfọwọ́sowọ́pọ̀:</strong> ti ilana ba da lori ìfọwọ́sowọ́pọ̀."
-          ],
-          "contact": "Lati lo eyikeyi ninu awọn ẹtọ wọnyi, kan si wa ni <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>. A le beere ìmúdájú ṣaaju ki a to mu ìbéèrè rẹ ṣẹ."
-        },
-        "cookies": {
-          "title": "Kúkì ati Atẹle",
-          "content": [
-            "UrbanDrop n lo awọn kúkì ati awọn imọ-ẹrọ to jọra lati mu iriri olumulo dara si, ranti awọn ayanfẹ, ati ṣe itupalẹ ijabọ.",
-            "O le ṣakoso tabi pa awọn kúkì ninu awọn eto aṣàwákiri rẹ, ṣugbọn ṣiṣe bẹ le kan iṣẹ Pẹpẹ naa.",
-            "Fun alaye diẹ sii, jọwọ wo Ilana Kúkì wa."
-          ]
-        },
-        "children": {
-          "title": "Aṣiri Awọn Ọmọde",
-          "content": "UrbanDrop ko fojusi awọn ọmọde labẹ ọdun 18, ati a ko mọọmọ gba data ti ara ẹni lati ọdọ awọn ọmọde. Ti a ba mọ pe a ti gba iru data bẹ, a yoo paarẹ rẹ lẹsẹkẹsẹ."
-        },
-        "links": {
-          "title": "Awọn Ọna asopọ si Awọn Oju opo wẹẹbu Miran",
-          "content": "Pẹpẹ wa le ni awọn ọna asopọ si awọn oju opo wẹẹbu ẹgbẹ kẹta. A ko ni ojuse fun akoonu, awọn iṣe aṣiri, tabi aabo ti awọn oju opo wẹẹbu ita wọnyẹn."
-        },
-        "updates": {
-          "title": "Awọn Imudojuiwọn si Ilana Yi",
-          "content": "A le ṣe imudojuiwọn Ilana Aṣiri yii lati igba de igba. Ẹya tuntun yoo wa nigbagbogbo lori oju opo wẹẹbu wa tabi ohun elo. Ti awọn ayipada ba tobi, a yoo jẹ ki awọn olumulo mọ nipasẹ imeeli tabi iwifunni ohun elo ṣaaju ki wọn to bẹrẹ."
-        },
-        "contact": {
-          "title": "Kan si Wa",
-          "intro": "Ti o ba ni awọn ibeere, awọn ifiyesi, tabi awọn ìbéèrè aabo data, kan si:",
-          "companyName": "UrbanDrop Group Limited",
-          "email": "Imeeli: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
-          "ico": "O tun ni ẹtọ lati fi ẹdun kan silẹ pẹlu Ọfiisi Komisona Alaye (ICO) ni UK.",
-          "website": "Oju opo wẹẹbu: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
-        }
       }
   },
   "cookiesPolicy": {
@@ -859,13 +779,17 @@
       "goBack": "Pada sẹyin",
       "features": {
         "browseMenu": {
-          "title": "Ṣawari Akojọ",
-          "desc": "Ṣawari awọn aṣayan onjẹ wa ti o dun"
-        },
-        "becomeMerchant": {
-          "title": "Di Onisowo",
-          "desc": "Darapọ mọ nẹtiwọọki awọn olutaja wa"
-        }
+              "title": "Ṣàwárí Akojọ Onjẹ",
+              "desc": "Ṣàwárí àwọn onjẹ wa tó dùn"
+          },
+          "becomeMerchant": {
+              "title": "Di Onísòwò",
+              "desc": "Darapọ̀ mọ́ nẹ́tíwọ́ọ̀kù àwọn olùtajà wa"
+          },
+          "advertise": {
+              "title": "Polówó Pẹ̀lú Wa",
+              "desc": "Polówó ìdílé/ọjà rẹ sí ẹgbẹẹgbẹ̀rún ènìyàn"
+          }
       },
       "illustration": "A ko le rii oju-iwe naa, ṣugbọn a rii awọn eroja tuntun wọnyi!",
       "searchSuggestion": "Gbiyanju lati wa ohun ti o nilo tabi ṣabẹwo Ile-iṣẹ Iranlọwọ wa."

@@ -1,7 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import SEO from "../components/common/SEO";
 
 const PrivacyPolicy = () => {
+	const { t } = useTranslation();
+
 	return (
 		<main className="min-h-screen bg-gradient-to-br from-[#f2f5f9] to-[#e8f4f8]">
 			<SEO
@@ -14,10 +17,10 @@ const PrivacyPolicy = () => {
 				<div className="absolute inset-0 bg-gradient-to-r from-[#183A37]/10 to-[#5CB35E]/10"></div>
 				<div className="relative container mx-auto px-6 text-center">
 					<div className="max-w-4xl mx-auto">
-						<p className="text-[#5CB35E] font-semibold mb-3">Last Modified: 11 April 2026</p>
-						<h1 className="font-black text-[#183A37] mb-6">UrbanDrop <span className="text-[#5CB35E]">Privacy Policy</span></h1>
+						<p className="text-[#5CB35E] font-semibold mb-3">{t('privacyPolicy.hero.lastModified')}</p>
+						<h1 className="font-black text-[#183A37] mb-6">{t('privacyPolicy.hero.title')} <span className="text-[#5CB35E]">{t('privacyPolicy.hero.highlight')}</span></h1>
 						<p className="text-[#879EA4] mb-4 font-medium text-h4">
-							We are committed to protecting your privacy. This policy explains how we collect, use, share, and protect your personal data.
+							{t('privacyPolicy.hero.subtitle')}
 						</p>
 					</div>
 				</div>
@@ -31,15 +34,12 @@ const PrivacyPolicy = () => {
 					<section id="who-we-are" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">1</span>
-							Who We Are
+							{t('privacyPolicy.sections.whoWeAre.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>
-								<strong>UrbanDrop</strong> is a food delivery platform operated by <strong>UrbanDrop Group Ltd</strong>, a company registered in the <strong>United Kingdom</strong>. We connect customers with local African, Caribbean, and Asian food vendors.
-							</p>
-							<p>
-								UrbanDrop ("we," "us," "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, share, and protect your personal data when you use our platform. Please read it carefully. If you do not agree with our practices, please do not use our services.
-							</p>
+							{t('privacyPolicy.sections.whoWeAre.content', { returnObjects: true }).map((para, idx) => (
+								<p key={idx}>{para}</p>
+							))}
 						</div>
 					</section>
 
@@ -47,15 +47,14 @@ const PrivacyPolicy = () => {
 					<section id="lawful-basis" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">2</span>
-							Lawful Basis for Processing
+							{t('privacyPolicy.sections.lawfulBasis.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We process your personal data on the following legal grounds under <strong>UK GDPR</strong>:</p>
+							<p>{t('privacyPolicy.sections.lawfulBasis.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Contract performance</strong> — to provide the services you have requested, including order fulfilment and delivery.</li>
-								<li><strong>Legal obligation</strong> — to comply with applicable laws and regulations.</li>
-								<li><strong>Legitimate interests</strong> — to improve our platform, prevent fraud, and ensure security, where your rights do not override these interests.</li>
-								<li><strong>Consent</strong> — for marketing communications and non-essential cookies. You may withdraw consent at any time.</li>
+								{t('privacyPolicy.sections.lawfulBasis.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
 						</div>
 					</section>
@@ -64,16 +63,14 @@ const PrivacyPolicy = () => {
 					<section id="information-we-collect" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">3</span>
-							Information We Collect
+							{t('privacyPolicy.sections.infoCollect.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We collect the following personal data:</p>
+							<p>{t('privacyPolicy.sections.infoCollect.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Personal details</strong> — name, email address, phone number, and delivery address.</li>
-								<li><strong>Payment information</strong> — card details, billing address, and transaction history. Payment data is processed directly by our payment provider and is not stored by us.</li>
-								<li><strong>Location data</strong> — real-time location, only when you use location-based features such as finding nearby vendors.</li>
-								<li><strong>Device information</strong> — IP address, device type, operating system, app version, and browser type.</li>
-								<li><strong>Usage data</strong> — how you interact with our app, including search history, order history, and customer support interactions.</li>
+								{t('privacyPolicy.sections.infoCollect.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
 						</div>
 					</section>
@@ -82,18 +79,14 @@ const PrivacyPolicy = () => {
 					<section id="how-we-use" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">4</span>
-							How We Use Your Information
+							{t('privacyPolicy.sections.howWeUse.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We use your personal data to:</p>
+							<p>{t('privacyPolicy.sections.howWeUse.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Fulfil orders</strong> — process and deliver your food and grocery orders.</li>
-								<li><strong>Provide customer support</strong> — respond to queries, complaints, and requests.</li>
-								<li><strong>Personalise your experience</strong> — offer recommendations based on your preferences and order history.</li>
-								<li><strong>Process payments</strong> — handle transactions securely.</li>
-								<li><strong>Send marketing</strong> — with your consent, send promotional offers, updates, and surveys. You can opt out at any time.</li>
-								<li><strong>Meet legal obligations</strong> — comply with tax regulations, fraud prevention requirements, and other legal duties.</li>
-								<li><strong>Improve our service</strong> — analyse usage patterns to enhance the platform.</li>
+								{t('privacyPolicy.sections.howWeUse.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
 						</div>
 					</section>
@@ -102,19 +95,16 @@ const PrivacyPolicy = () => {
 					<section id="sharing-your-information" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">5</span>
-							Sharing Your Information
+							{t('privacyPolicy.sections.sharing.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We may share your personal data with:</p>
+							<p>{t('privacyPolicy.sections.sharing.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Vendors</strong> — your name, order details, and delivery address are shared to fulfil your order.</li>
-								<li><strong>Riders</strong> — your name, address, and contact number are shared for delivery. Riders lose access to this data once delivery is confirmed.</li>
-								<li><strong>Payment processors</strong> — our payment partner is <strong>PCI-DSS certified</strong> and securely handles your payment data.</li>
-								<li><strong>Service providers</strong> — trusted third parties who support our operations, including analytics, marketing, and customer service.</li>
-								<li><strong>Authorities</strong> — we may disclose data where required by law, to protect our rights, or to prevent fraud.</li>
-								<li><strong>Buyers or successors</strong> — in the event of a merger, acquisition, or asset sale, your data may transfer to the new entity. We will notify affected users.</li>
+								{t('privacyPolicy.sections.sharing.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
-							<p className="font-semibold text-[#183A37]">We do not sell your personal data.</p>
+							<p className="font-semibold text-[#183A37]">{t('privacyPolicy.sections.sharing.note')}</p>
 						</div>
 					</section>
 
@@ -122,14 +112,14 @@ const PrivacyPolicy = () => {
 					<section id="data-retention" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">6</span>
-							Data Retention
+							{t('privacyPolicy.sections.retention.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We keep personal data only for as long as necessary. Our standard retention periods are:</p>
+							<p>{t('privacyPolicy.sections.retention.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Order and transaction data</strong> — up to <strong>seven years</strong>, to comply with tax and accounting requirements.</li>
-								<li><strong>Account information</strong> — until you delete your account, after which we delete or anonymise your data unless we are legally required to retain it.</li>
-								<li><strong>Marketing preferences</strong> — until you withdraw consent.</li>
+								{t('privacyPolicy.sections.retention.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
 						</div>
 					</section>
@@ -138,21 +128,17 @@ const PrivacyPolicy = () => {
 					<section id="your-rights" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">7</span>
-							Your Rights
+							{t('privacyPolicy.sections.rights.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>Under <strong>UK data protection law</strong>, you have the right to:</p>
+							<p>{t('privacyPolicy.sections.rights.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Access</strong> — request a copy of the personal data we hold about you.</li>
-								<li><strong>Correction</strong> — ask us to correct inaccurate or incomplete data.</li>
-								<li><strong>Deletion</strong> — request that we delete your data, subject to legal obligations.</li>
-								<li><strong>Restriction</strong> — ask us to limit how we process your data in certain circumstances.</li>
-								<li><strong>Data portability</strong> — receive your data in a structured, machine-readable format.</li>
-								<li><strong>Objection</strong> — object to processing based on legitimate interests, including direct marketing.</li>
-								<li><strong>Withdraw consent</strong> — withdraw consent at any time where processing is consent-based.</li>
+								{t('privacyPolicy.sections.rights.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
-							<p>To exercise any of these rights, contact us at <strong>support@urbandrop.io</strong>. We will respond within <strong>one month</strong>, in line with UK GDPR requirements.</p>
-							<p>If you are not satisfied with how we handle your data, you have the right to lodge a complaint with the <strong>Information Commissioner's Office (ICO)</strong> at <strong>ico.org.uk</strong> or by calling <strong>0303 123 1113</strong>.</p>
+							<p>{t('privacyPolicy.sections.rights.contact')}</p>
+							<p>{t('privacyPolicy.sections.rights.complaint')}</p>
 						</div>
 					</section>
 
@@ -160,16 +146,16 @@ const PrivacyPolicy = () => {
 					<section id="data-security" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">8</span>
-							Security
+							{t('privacyPolicy.sections.security.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We use industry-standard measures to protect your data, including:</p>
+							<p>{t('privacyPolicy.sections.security.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li><strong>Encryption</strong> — data is transmitted securely using <strong>SSL/TLS protocols</strong>.</li>
-								<li><strong>Access controls</strong> — personal data is accessible only to authorised personnel.</li>
-								<li><strong>Secure storage</strong> — data is held in protected environments.</li>
+								{t('privacyPolicy.sections.security.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
-							<p className="italic">No method of transmission or storage is completely secure. While we take all reasonable steps to protect your data, we cannot guarantee absolute security.</p>
+							<p className="italic">{t('privacyPolicy.sections.security.note')}</p>
 						</div>
 					</section>
 
@@ -177,16 +163,16 @@ const PrivacyPolicy = () => {
 					<section id="cookies-and-tracking" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">9</span>
-							Cookies and Tracking Technologies
+							{t('privacyPolicy.sections.cookies.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>We use cookies and similar technologies to improve your experience. Cookies help us:</p>
+							<p>{t('privacyPolicy.sections.cookies.intro')}</p>
 							<ul className="list-disc pl-6 space-y-2">
-								<li>Remember your preferences.</li>
-								<li>Analyse how you use our platform.</li>
-								<li>Deliver relevant advertising.</li>
+								{t('privacyPolicy.sections.cookies.items', { returnObjects: true }).map((item, idx) => (
+									<li key={idx}>{item}</li>
+								))}
 							</ul>
-							<p>Where cookies are not strictly necessary, we will ask for your consent before placing them, in line with <strong>UK PECR rules</strong>. You can manage or disable cookies through your browser settings, though this may affect some functionality.</p>
+							<p>{t('privacyPolicy.sections.cookies.consent')}</p>
 						</div>
 					</section>
 
@@ -194,12 +180,10 @@ const PrivacyPolicy = () => {
 					<section id="links-to-other-sites" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">10</span>
-							Third-Party Links
+							{t('privacyPolicy.sections.links.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>
-								Our platform may contain links to third-party websites. We are not responsible for the content or privacy practices of those sites. We encourage you to read their privacy policies before sharing any personal data.
-							</p>
+							<p>{t('privacyPolicy.sections.links.content')}</p>
 						</div>
 					</section>
 
@@ -207,12 +191,10 @@ const PrivacyPolicy = () => {
 					<section id="childrens-privacy" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">11</span>
-							Children's Privacy
+							{t('privacyPolicy.sections.children.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>
-								UrbanDrop is <strong>not intended for anyone under the age of 18</strong>. We do not knowingly collect personal data from children. If we become aware that we have done so, we will delete it promptly.
-							</p>
+							<p>{t('privacyPolicy.sections.children.content')}</p>
 						</div>
 					</section>
 
@@ -220,12 +202,10 @@ const PrivacyPolicy = () => {
 					<section id="international-transfers" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">12</span>
-							International Data Transfers
+							{t('privacyPolicy.sections.international.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>
-								UrbanDrop operates within the UK and complies with <strong>UK GDPR</strong>. Where personal data is transferred outside the UK or EEA, we ensure appropriate safeguards are in place, such as <strong>Standard Contractual Clauses</strong>.
-							</p>
+							<p>{t('privacyPolicy.sections.international.content')}</p>
 						</div>
 					</section>
 
@@ -233,12 +213,10 @@ const PrivacyPolicy = () => {
 					<section id="updates-to-this-policy" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">13</span>
-							Changes to This Policy
+							{t('privacyPolicy.sections.updates.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>
-								We may update this Privacy Policy from time to time. When we make significant changes, we will update the "Last Modified" date at the top and, where appropriate, notify you directly. Continued use of our platform after changes are posted constitutes acceptance of the updated policy.
-							</p>
+							<p>{t('privacyPolicy.sections.updates.content')}</p>
 						</div>
 					</section>
 
@@ -246,16 +224,16 @@ const PrivacyPolicy = () => {
 					<section id="contact-us" className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
 						<h2 className="text-[#183A37] mb-6 flex items-center">
 							<span className="w-8 h-8 bg-[#5CB35E] text-white rounded-full flex items-center justify-center text-sm font-bold mr-4">14</span>
-							Contact Us
+							{t('privacyPolicy.sections.contact.title')}
 						</h2>
 						<div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-							<p>If you have any questions or concerns about this Privacy Policy, please contact us:</p>
+							<p>{t('privacyPolicy.sections.contact.intro')}</p>
 							<div className="bg-gray-50 p-6 rounded-lg mt-4 space-y-3">
-								<p className="font-semibold text-[#183A37]">UrbanDrop Group Ltd</p>
-								<p>Bristol, United Kingdom</p>
-								<p><strong>Email:</strong> <a href="mailto:support@urbandrop.io" className="text-[#5CB35E] hover:underline">support@urbandrop.io</a></p>
-								<p><strong>Information Commissioner's Office (ICO):</strong></p>
-								<p><a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-[#5CB35E] hover:underline">ico.org.uk</a> or call <strong>0303 123 1113</strong></p>
+								<p className="font-semibold text-[#183A37]">{t('privacyPolicy.sections.contact.companyName')}</p>
+								<p>{t('privacyPolicy.sections.contact.location')}</p>
+								<p><strong>Email:</strong> <a href="mailto:support@urbandrop.io" className="text-[#5CB35E] hover:underline">{t('privacyPolicy.sections.contact.email')}</a></p>
+								<p><strong>{t('privacyPolicy.sections.contact.ico')}</strong></p>
+								<p><a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer" className="text-[#5CB35E] hover:underline">{t('privacyPolicy.sections.contact.icoWebsite')}</a> {t('privacyPolicy.sections.contact.icoPhone')}</p>
 							</div>
 						</div>
 					</section>

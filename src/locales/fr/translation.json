@@ -25,6 +25,8 @@
         "customer": "Client",
         "advertise": "Faire de la publicité sur Urbandrop",
         "beMerchant": "Devenir marchand",
+        "reportABug": "Signaler un bug",
+        "joinBeta": "Rejoindre la version bêta",
         "rightsReserved": "Urbandrop Group Ltd. Tous droits réservés.",
         "companyNumber": "Numéro d'entreprise"
     },
@@ -142,74 +144,73 @@
     },
     "customer": {
         "hero": {
-            "title1": "Goûtez à",
-            "title2": "L'Authentique",
-            "desc": "Découvrez les saveurs vibrantes d'Afrique, d'Asie et des Caraïbes livrées à votre porte.",
-            "downloadApp": "Télécharger l'App",
-            "orderDelivered": "Commande Livrée",
-            "justNow": "À l'instant • il y a 2 min"
+            "title1": "Découvrez des saveurs",
+            "title2": "authentiques",
+            "desc": "Des produits alimentaires ethniques authentiques livrés à votre porte.",
+            "downloadApp": "Télécharger l’application",
+            "orderDelivered": "Commande livrée",
+            "justNow": "À l’instant, en 2 min"
         },
         "recommendation": {
             "title1": "Sélectionné",
-            "title2": "Pour Vous",
+            "title2": "pour vous",
             "subtitle": "Explorez des collections adaptées à vos goûts",
-            "explore": "Explorer la Collection",
             "categories": {
                 "topPicks": {
-                    "name": "Meilleurs Choix Près de Chez Vous",
-                    "desc": "Épiceries très bien notées dans votre région"
+                    "name": "Meilleurs choix près de chez vous",
+                    "desc": "Produits très bien notés dans votre région"
                 },
                 "trending": {
-                    "name": "Tendance Cette Semaine",
-                    "desc": "L'épicerie la plus populaire en ce moment"
+                    "name": "Tendance cette semaine",
+                    "desc": "Les produits les plus populaires du moment"
                 },
                 "fastest": {
-                    "name": "Livraison la Plus Rapide",
+                    "name": "Livraison la plus rapide",
                     "desc": "Recevez vos courses en moins de 30 minutes"
                 },
                 "budget": {
-                    "name": "Économique",
-                    "desc": "Des courses délicieuses qui vous font économiser de l'argent"
+                    "name": "Petit budget",
+                    "desc": "Des produits savoureux à prix abordable"
                 }
             }
         },
         "scenarios": {
-            "title1": "Courses Livrées à",
-            "title2": "Votre Convenance",
+            "title1": "Vos courses livrées à",
+            "title2": "votre convenance",
             "items": {
                 "everything": {
-                    "title": "Tout Ce Dont Vous Avez Besoin",
-                    "subtitle": "Des produits frais aux essentiels du garde-manger."
+                    "title": "Tout ce dont vous avez besoin",
+                    "subtitle": "Des produits frais aux indispensables du quotidien."
                 },
                 "authentic": {
-                    "title": "Authentique et Local",
-                    "subtitle": "Ingrédients ethniques difficiles à trouver à portée de main."
+                    "title": "Authentique & local",
+                    "subtitle": "Des ingrédients ethniques difficiles à trouver à portée de main."
                 },
                 "shopHome": {
-                    "title": "Achetez de Chez Vous",
-                    "subtitle": "Évitez les files d'attente et achetez en toute simplicité."
+                    "title": "Achetez depuis chez vous",
+                    "subtitle": "Évitez les files d’attente et faites vos achats facilement."
                 },
                 "delivered": {
-                    "title": "Livré à Vous",
-                    "subtitle": "Courses fraîches apportées directement à votre porte."
+                    "title": "Livré chez vous",
+                    "subtitle": "Des courses fraîches directement à votre porte."
                 }
             }
         },
         "whatYouCanDo": {
-            "title": "Ce Que Vous Pouvez Faire",
-            "desc": "Une application pour tous vos besoins quotidiens. Découvrez les possibilités avec Urbandrop.",
-            "learnMore": "En Savoir Plus",
+            "title": "Ce que vous pouvez faire",
+            "desc": "Une seule application pour tous vos besoins quotidiens. Découvrez les possibilités avec Urbandrop.",
+            "learnMore": "En savoir plus",
             "items": {
                 "groceries": {
-                    "title": "Acheter des Courses",
+                    "title": "Acheter des courses",
                     "desc": "Produits frais et essentiels livrés à votre porte."
                 },
                 "errands": {
-                    "title": "Engager des Courses",
-                    "desc": "Besoin d'un coup de main ? Nous pouvons gérer vos tâches quotidiennes."
+                    "title": "Faire vos courses facilement",
+                    "desc": "Évitez les déplacements longs et stressants. Faites-vous livrer vos produits ethniques."
                 },
                 "ethnic": {
-                    "title": "Saveurs Ethniques",
+                    "title": "Saveurs ethniques",
                     "desc": "Découvrez des saveurs authentiques du monde entier."
                 }
             }
@@ -218,66 +219,59 @@
             "title1": "Pourquoi",
             "title2": "Urban",
             "title3": "Drop",
-            "title4": "?",
-            "subtitle": "Élever votre style de vie à chaque livraison.",
+            "title4": " ?",
+            "subtitle": "Améliorer votre style de vie à chaque livraison.",
             "items": {
                 "saveTime": {
-                    "title": "Gagnez du Temps",
+                    "title": "Gagnez du temps",
                     "subtitle": "Récupérez des heures dans votre journée."
                 },
                 "comfort": {
-                    "title": "Profitez du Confort",
+                    "title": "Profitez du confort",
                     "subtitle": "Tout ce dont vous avez besoin, livré."
                 },
                 "convenience": {
-                    "title": "Vivez la Commodité",
-                    "subtitle": "Achetez dans vos magasins locaux préférés."
-                },
-                "safe": {
-                    "title": "Sentez-vous en Sécurité",
-                    "subtitle": "Options de livraison sans contact disponibles."
-                },
-                "deals": {
-                    "title": "Meilleures Offres",
-                    "subtitle": "Offres exclusives rien que pour vous."
+                    "title": "Profitez de la commodité",
+                    "subtitle": "Achetez auprès de vos magasins locaux préférés."
                 }
             }
         },
         "appDownload": {
-            "title1": "Découvrez la véritable",
-            "title2": "Expérience UrbanDrop",
-            "ios": "Télécharger pour Apple",
-            "android": "Télécharger pour Android"
+            "title1": "Goûtez à l’expérience",
+            "title2": "Urbandrop",
+            "ios": "Télécharger sur Apple",
+            "android": "Télécharger sur Android",
+            "customerTerms": "Voir les conditions générales client"
         },
         "faq": {
-            "title": "Foire Aux Questions",
-            "subtitle": "Trouvez des réponses aux questions courantes sur l'utilisation d'Urbandrop.",
+            "title": "Questions fréquemment posées",
+            "subtitle": "Trouvez des réponses aux questions courantes sur l’utilisation d’Urbandrop.",
             "searchPlaceholder": "Rechercher dans la FAQ...",
             "noResults": "Aucun résultat trouvé pour \"{{query}}\". Essayez un autre terme.",
             "categories": [
                 {
-                    "category": "Compte et Connexion",
+                    "category": "Compte et connexion",
                     "items": [
                         {
                             "question": "Comment créer un compte ?",
-                            "answer": "Pour créer un compte, cliquez sur le bouton 'S'inscrire' en haut à droite de la page d'accueil. Remplissez vos coordonnées, y compris votre nom, votre adresse e-mail et un mot de passe sécurisé. Vous recevrez un e-mail de confirmation pour vérifier votre compte."
+                            "answer": "Pour créer un compte, cliquez sur le bouton « S’inscrire » en haut à droite de la page d’accueil. Remplissez vos informations, y compris votre nom, votre adresse e-mail et un mot de passe sécurisé. Vous recevrez un e-mail de confirmation pour vérifier votre compte."
                         },
                         {
-                            "question": "J'ai oublié mon mot de passe. Comment puis-je le réinitialiser ?",
-                            "answer": "Cliquez sur 'Mot de passe oublié' sur la page de connexion. Entrez votre adresse e-mail enregistrée et nous vous enverrons des instructions pour réinitialiser votre mot de passe en toute sécurité."
+                            "question": "J’ai oublié mon mot de passe. Comment le réinitialiser ?",
+                            "answer": "Cliquez sur « Mot de passe oublié » sur la page de connexion. Entrez votre adresse e-mail enregistrée et nous vous enverrons des instructions pour réinitialiser votre mot de passe en toute sécurité."
                         }
                     ]
                 },
                 {
-                    "category": "Commande et Paiement",
+                    "category": "Commande et paiement",
                     "items": [
                         {
                             "question": "Comment passer une commande ?",
-                            "answer": "Parcourez nos produits, sélectionnez les articles que vous souhaitez et cliquez sur 'Ajouter au panier'. Lorsque vous êtes prêt, cliquez sur l'icône du panier et procédez au paiement. Suivez les instructions pour saisir vos informations de livraison et de paiement."
+                            "answer": "Parcourez nos produits, sélectionnez les articles souhaités et cliquez sur « Ajouter au panier ». Lorsque vous êtes prêt, cliquez sur l’icône du panier et passez à la caisse. Suivez les étapes pour saisir vos informations de livraison et de paiement."
                         },
                         {
-                            "question": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
-                            "answer": "Vous pouvez modifier ou annuler votre commande dans l'heure qui suit sa validation. Allez dans 'Mes commandes' dans votre compte, sélectionnez la commande et choisissez l'option de modification ou d'annulation. S'il s'est écoulé plus d'une heure, veuillez contacter notre équipe d'assistance."
+                            "question": "Puis-je modifier ou annuler ma commande après l’avoir passée ?",
+                            "answer": "Vous pouvez modifier ou annuler votre commande dans l’heure suivant sa validation. Rendez-vous dans « Mes commandes », sélectionnez la commande et choisissez l’option correspondante. Après une heure, veuillez contacter notre support."
                         }
                     ]
                 },
@@ -285,47 +279,47 @@
                     "category": "Paiements",
                     "items": [
                         {
-                            "question": "Quels modes de paiement acceptez-vous ?",
-                            "answer": "Nous acceptons toutes les principales cartes de crédit et de débit (Visa, MasterCard, American Express) ainsi qu'Apple Pay."
+                            "question": "Quels moyens de paiement acceptez-vous ?",
+                            "answer": "Nous acceptons toutes les principales cartes de crédit et de débit (Visa, MasterCard, American Express) ainsi qu’Apple Pay."
                         },
                         {
                             "question": "Mes informations de paiement sont-elles sécurisées ?",
-                            "answer": "Oui, nous utilisons le cryptage SSL standard de l'industrie pour protéger vos informations de paiement. Nous ne stockons aucune information relative à votre carte de crédit."
+                            "answer": "Oui, nous utilisons un chiffrement SSL standard pour protéger vos données. Nous ne stockons pas les informations de carte bancaire."
                         }
                     ]
                 },
                 {
-                    "category": "Livraison et Suivi",
+                    "category": "Livraison et suivi",
                     "items": [
                         {
-                            "question": "Combien de temps prend généralement la livraison ?",
-                            "answer": "La livraison standard prend de 15 à 25 minutes, selon la distance. La livraison express est disponible au moment du paiement pour une livraison prioritaire."
+                            "question": "Combien de temps dure la livraison ?",
+                            "answer": "La livraison standard prend 15 à 25 minutes selon la distance. Une livraison prioritaire est disponible lors du paiement."
                         },
                         {
-                            "question": "Comment puis-je suivre ma commande ?",
-                            "answer": "Une fois votre commande expédiée, vous recevrez un e-mail de confirmation avec un lien de suivi. Vous pouvez également suivre le statut de votre commande dans la section 'Mes commandes' de votre compte."
+                            "question": "Comment suivre ma commande ?",
+                            "answer": "Une fois expédiée, vous recevrez un e-mail avec un lien de suivi. Vous pouvez également consulter « Mes commandes »."
                         }
                     ]
                 },
                 {
-                    "category": "Retours et Remboursements",
+                    "category": "Retours et remboursements",
                     "items": [
                         {
                             "question": "Quelle est votre politique de retour ?",
-                            "answer": "Produits Non-Périssables\nVous pouvez retourner votre commande dans les 14 jours suivant la livraison et renvoyer les articles non utilisés dans un nouveau délai de 14 jours pour un remboursement complet. Les articles doivent être retournés dans leur état d'origine.\n\nSi les marchandises sont défectueuses, non conformes à la description ou impropres à l'usage, vous avez droit à un remboursement complet dans les 30 jours suivant la réception.\n\nProduits Périssables\nEn raison de la nature périssable des produits frais, nous n'acceptons pas les retours ou les annulations une fois qu'ils ont été livrés.\n\nSi votre commande arrive endommagée, incorrecte ou impropre à la consommation, vous devez nous en informer dans les 24 heures suivant la livraison. Une preuve photographique peut être requise. Les réclamations approuvées peuvent être résolues par un remplacement, un crédit en magasin ou un remboursement pour le ou les articles concernés."
+                            "answer": "Produits non périssables\nVous pouvez retourner votre commande dans un délai de 14 jours après la livraison et renvoyer les articles inutilisés dans les 14 jours suivants pour un remboursement complet.\n\nSi les produits sont défectueux ou non conformes, vous avez droit à un remboursement dans les 30 jours.\n\nProduits périssables\nNous n’acceptons pas les retours après livraison.\n\nEn cas de problème, contactez-nous sous 24 heures avec une preuve photo."
                         }
                     ]
                 },
                 {
-                    "category": "Problèmes Techniques",
+                    "category": "Problèmes techniques",
                     "items": [
                         {
-                            "question": "Le site Web ne se charge pas correctement. Que dois-je faire ?",
-                            "answer": "Essayez de vider le cache et les cookies de votre navigateur, ou d'accéder au site à l'aide d'une fenêtre de navigation privée. Si le problème persiste, veuillez contacter notre support technique."
+                            "question": "Le site ne fonctionne pas correctement. Que faire ?",
+                            "answer": "Essayez de vider le cache de votre navigateur ou utilisez une fenêtre privée. Si le problème persiste, contactez le support."
                         },
                         {
-                            "question": "J'ai des problèmes avec l'application mobile. Où puis-je obtenir de l'aide ?",
-                            "answer": "Assurez-vous que la dernière version de l'application est installée. Si les problèmes persistent, essayez de réinstaller l'application ou contactez notre équipe d'assistance aux applications avec les détails de votre appareil."
+                            "question": "J’ai un problème avec l’application mobile. Où obtenir de l’aide ?",
+                            "answer": "Assurez-vous d’avoir la dernière version. Sinon, réinstallez l’application ou contactez le support."
                         }
                     ]
                 }
@@ -345,38 +339,13 @@
             "title4": "Autonomisation des Locaux",
             "desc": "UrbanDrop se consacre à apporter la richesse des cuisines ethniques à votre porte tout en soutenant les commerçants locaux et en célébrant la diversité culturelle."
         },
-        "purpose": {
-            "title1": "Construit avec un",
-            "title2": "But",
-            "quote": "Pour simplifier les déplacements quotidiens et rapprocher la commodité des gens."
-        },
-        "ecosystem": {
-            "title": "L'Écosystème",
-            "subtitle": "Où tout se connecte.",
-            "customers": {
-                "title": "Clients",
-                "subtitle": "Accès Instantané"
-            },
-            "merchants": {
-                "title": "Marchands",
-                "subtitle": "Moteur de Croissance"
-            },
-            "riders": {
-                "title": "Livreurs",
-                "subtitle": "Gains Flexibles"
-            },
-            "businesses": {
-                "title": "Entreprises",
-                "subtitle": "Logistique Résolue"
-            }
-        },
         "highlights": {
             "title": "Notre Engagement",
             "subtitle": "Croissance axée sur les valeurs",
             "item1": "Service Rapide",
-            "item3": "Centré sur l'Utilisateur",
-            "item4": "Croissance du Marché",
-            "item5": "Paiements Sécurisés"
+            "item2": "Centré sur l'Utilisateur",
+            "item3": "Croissance du Marché",
+            "item4": "Paiements Sécurisés"
         },
         "process": {
             "step1": "Découvrir",
@@ -621,175 +590,135 @@
     },
     "privacyPolicy": {
         "hero": {
-            "title": "Politique de",
-            "highlight": "Confidentialité",
-            "subtitle": "Votre vie privée compte pour nous",
-            "effectiveDate": "Date d'entrée en vigueur : {{date}}"
+            "lastModified": "Dernière mise à jour : 11 avril 2026",
+            "title": "UrbanDrop",
+            "highlight": "Politique de confidentialité",
+            "subtitle": "Nous nous engageons à protéger votre vie privée. Cette politique explique comment nous collectons, utilisons, partageons et protégeons vos données personnelles."
         },
         "sections": {
             "whoWeAre": {
-                "title": "Qui Sommes-Nous",
+                "title": "1. Qui nous sommes",
                 "content": [
-                    "UrbanDrop Group Limited est une société enregistrée en Angleterre et au Pays de Galles sous le numéro 16026087.",
-                    "Nous exploitons un marché en ligne connectant les clients avec des commerçants indépendants."
+                    "UrbanDrop est une plateforme de livraison de repas exploitée par UrbanDrop Group Ltd, une société enregistrée au Royaume-Uni. Nous mettons en relation des clients avec des vendeurs locaux de nourriture africaine, caribéenne et asiatique.",
+                    "UrbanDrop (\"nous\", \"notre\") s’engage à protéger votre vie privée. Cette Politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons vos données personnelles lorsque vous utilisez notre plateforme. Veuillez la lire attentivement. Si vous n’acceptez pas nos pratiques, veuillez ne pas utiliser nos services."
+                ]
+            },
+            "lawfulBasis": {
+                "title": "2. Base légale du traitement",
+                "intro": "Nous traitons vos données personnelles sur les bases juridiques suivantes conformément au RGPD britannique :",
+                "items": [
+                    "Exécution d’un contrat — pour fournir les services que vous avez demandés, y compris le traitement et la livraison des commandes.",
+                    "Obligation légale — pour respecter les lois et réglementations applicables.",
+                    "Intérêts légitimes — pour améliorer notre plateforme, prévenir la fraude et assurer la sécurité, lorsque vos droits ne prévalent pas sur ces intérêts.",
+                    "Consentement — pour les communications marketing et les cookies non essentiels. Vous pouvez retirer votre consentement à tout moment."
                 ]
             },
             "infoCollect": {
-                "title": "Informations Que Nous Collectons",
-                "intro": "Nous collectons des informations personnelles qui nous aident à fournir, améliorer et gérer nos services. Cela peut inclure :",
-                "direct": {
-                    "title": "Informations Que Vous Fournissez Directement",
-                    "items": [
-                        "Nom, numéro de contact et adresse de livraison.",
-                        "Adresse email et mot de passe du compte.",
-                        "Informations de paiement et de facturation.",
-                        "Commentaires, messages ou avis que vous soumettez.",
-                        "Détails d'inscription du marchand."
-                    ]
-                },
-                "automatic": {
-                    "title": "Informations Collectées Automatiquement",
-                    "intro": "Lorsque vous utilisez UrbanDrop, nous pouvons collecter automatiquement :",
-                    "items": [
-                        "Informations sur l'appareil et le navigateur.",
-                        "Données de localisation.",
-                        "Données d'utilisation telles que les pages visitées.",
-                        "Fichiers journaux et données de diagnostic."
-                    ]
-                },
-                "thirdParty": {
-                    "title": "Informations de Tiers",
-                    "intro": "Nous pouvons recevoir des informations de :",
-                    "items": [
-                        "Fournisseurs de paiement.",
-                        "Services de vérification d'identité.",
-                        "Partenaires de livraison.",
-                        "Partenaires d'analyse et de publicité."
-                    ]
-                }
+                "title": "3. Informations que nous collectons",
+                "intro": "Nous collectons les données personnelles suivantes :",
+                "items": [
+                    "Données personnelles — nom, adresse e-mail, numéro de téléphone et adresse de livraison.",
+                    "Informations de paiement — coordonnées bancaires, adresse de facturation et historique des transactions. Les données de paiement sont traitées directement par notre prestataire de paiement et ne sont pas stockées par nous.",
+                    "Données de localisation — localisation en temps réel, uniquement lorsque vous utilisez des fonctionnalités basées sur la localisation.",
+                    "Informations sur l’appareil — adresse IP, type d’appareil, système d’exploitation, version de l’application et type de navigateur.",
+                    "Données d’utilisation — votre interaction avec notre application, y compris l’historique de recherche, des commandes et du support client."
+                ]
             },
             "howWeUse": {
-                "title": "Comment Nous Utilisons Vos Informations",
-                "intro": "Nous utilisons les données personnelles pour :",
+                "title": "4. Comment nous utilisons vos informations",
+                "intro": "Nous utilisons vos données personnelles pour :",
                 "items": [
-                    "Traiter et livrer vos commandes.",
-                    "Communiquer avec vous au sujet de votre compte.",
-                    "Vérifier votre identité et prévenir la fraude.",
-                    "Gérer les paiements et les remboursements.",
-                    "Fournir aux commerçants les détails de commande nécessaires.",
-                    "Personnaliser votre expérience.",
-                    "Améliorer la fonctionnalité de la plateforme.",
-                    "Se conformer aux obligations légales."
-                ],
-                "legalBasis": {
-                    "intro": "Nous n'utiliserons vos données que lorsque nous avons une base légale pour le faire.",
-                    "items": [
-                        "Pour exécuter notre contrat avec vous.",
-                        "Pour se conformer aux obligations légales.",
-                        "Pour des intérêts commerciaux légitimes.",
-                        "Avec votre consentement."
-                    ]
-                }
-            },
-            "marketing": {
-                "title": "Communications Marketing",
-                "content": [
-                    "Nous pouvons vous envoyer des emails marketing si vous nous en avez donné la permission.",
-                    "Vous pouvez vous désinscrire à tout moment."
-                ],
-                "items": [
-                    "En cliquant sur \"se désinscrire\" dans n'importe quel email marketing.",
-                    "En ajustant vos préférences dans l'application."
-                ],
-                "note": "Même si vous vous désinscrivez, nous pouvons toujours envoyer des messages non promotionnels."
+                    "Exécuter les commandes — traiter et livrer vos commandes alimentaires et d’épicerie.",
+                    "Assistance client — répondre aux demandes, réclamations et questions.",
+                    "Personnaliser votre expérience — proposer des recommandations basées sur vos préférences et votre historique.",
+                    "Traiter les paiements — gérer les transactions de manière sécurisée.",
+                    "Marketing — avec votre consentement, envoyer des offres promotionnelles, mises à jour et enquêtes. Vous pouvez vous désabonner à tout moment.",
+                    "Respect des obligations légales — conformité fiscale, prévention de la fraude et autres obligations légales.",
+                    "Amélioration du service — analyser les données d’utilisation pour améliorer la plateforme."
+                ]
             },
             "sharing": {
-                "title": "Partage de Vos Informations",
-                "intro": "Nous pouvons partager des données personnelles limitées avec :",
+                "title": "5. Partage de vos informations",
+                "intro": "Nous pouvons partager vos données personnelles avec :",
                 "items": [
-                    "<strong>Commerçants :</strong> pour préparer et livrer votre commande.",
-                    "<strong>Partenaires de Livraison :</strong> pour livrer votre commande.",
-                    "<strong>Processeurs de Paiement :</strong> pour traiter les paiements.",
-                    "<strong>Fournisseurs IT :</strong> qui nous aident à exploiter nos systèmes.",
-                    "<strong>Partenaires d'Analyse :</strong> pour améliorer les services.",
-                    "<strong>Régulateurs :</strong> lorsque la loi l'exige."
+                    "Vendeurs — votre nom, détails de commande et adresse de livraison pour exécuter la commande.",
+                    "Livreurs — vos coordonnées pour la livraison. Les livreurs n’y ont plus accès une fois la livraison confirmée.",
+                    "Prestataires de paiement — partenaire certifié PCI-DSS traitant vos paiements de manière sécurisée.",
+                    "Prestataires de services — tiers de confiance pour l’analyse, le marketing et le support client.",
+                    "Autorités — lorsque la loi l’exige ou pour prévenir la fraude.",
+                    "Acheteurs ou successeurs — en cas de fusion ou acquisition, vos données peuvent être transférées."
                 ],
                 "note": "Nous ne vendons pas vos données personnelles."
             },
             "retention": {
-                "title": "Conservation des Données",
-                "intro": "Nous conservons vos informations personnelles aussi longtemps que nécessaire.",
+                "title": "6. Conservation des données",
+                "intro": "Nous conservons les données uniquement le temps nécessaire :",
                 "items": [
-                    "<strong>Dossiers de commande client :</strong> conservés jusqu'à 6 ans.",
-                    "<strong>Données des marchands :</strong> conservées tant que le compte est actif.",
-                    "<strong>Messages de support :</strong> conservés pour référence."
-                ],
-                "note": "Lorsque les données ne sont plus nécessaires, nous les supprimons en toute sécurité."
-            },
-            "security": {
-                "title": "Sécurité des Données",
-                "content": [
-                    "Nous utilisons des mesures techniques et organisationnelles appropriées pour protéger vos données.",
-                    "Celles-ci incluent :"
-                ],
-                "items": [
-                    "Transmission de données cryptée.",
-                    "Passerelles de paiement sécurisées.",
-                    "Contrôles d'accès.",
-                    "Surveillance de sécurité régulière."
-                ],
-                "note": "Cependant, aucun service en ligne n'est entièrement sans risque."
-            },
-            "international": {
-                "title": "Transferts Internationaux",
-                "intro": "Certains de nos fournisseurs peuvent traiter vos données en dehors du Royaume-Uni ou de l'EEE. Nous assurons des garanties appropriées.",
-                "items": [
-                    "Décisions d'adéquation.",
-                    "Clauses Contractuelles Types.",
-                    "Règles d'entreprise contraignantes."
+                    "Données de commande et transaction — jusqu’à sept ans.",
+                    "Informations de compte — jusqu’à suppression du compte.",
+                    "Préférences marketing — jusqu’au retrait du consentement."
                 ]
             },
             "rights": {
-                "title": "Vos Droits",
-                "intro": "En vertu du RGPD britannique, vous avez des droits concernant vos données :",
+                "title": "7. Vos droits",
+                "intro": "Vous disposez des droits suivants :",
                 "items": [
-                    "<strong>Accès</strong> – demander une copie de vos données.",
-                    "<strong>Rectification</strong> – corriger des données inexactes.",
-                    "<strong>Effacement</strong> – demander la suppression.",
-                    "<strong>Restriction</strong> – limiter le traitement.",
-                    "<strong>Portabilité</strong> – recevoir vos données.",
-                    "<strong>Objection</strong> – s'opposer au traitement.",
-                    "<strong>Retrait du Consentement</strong>."
+                    "Accès — obtenir une copie de vos données.",
+                    "Rectification — corriger des données inexactes.",
+                    "Suppression — demander l’effacement de vos données.",
+                    "Limitation — restreindre le traitement.",
+                    "Portabilité — recevoir vos données dans un format structuré.",
+                    "Opposition — vous opposer au traitement.",
+                    "Retrait du consentement — à tout moment."
                 ],
-                "contact": "Pour exercer ces droits, contactez-nous à <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>."
+                "contact": "Pour exercer vos droits, contactez-nous à support@urbandrop.io. Réponse sous un mois.",
+                "complaint": "Vous pouvez déposer une plainte auprès de l’ICO : ico.org.uk ou 0303 123 1113."
+            },
+            "security": {
+                "title": "8. Sécurité",
+                "intro": "Nous utilisons des mesures de sécurité standards :",
+                "items": [
+                    "Chiffrement SSL/TLS",
+                    "Contrôles d’accès",
+                    "Stockage sécurisé"
+                ],
+                "note": "Aucun système n’est totalement sécurisé."
             },
             "cookies": {
-                "title": "Cookies et Suivi",
-                "content": [
-                    "UrbanDrop utilise des cookies pour améliorer l'expérience utilisateur.",
-                    "Vous pouvez gérer les cookies dans les paramètres de votre navigateur.",
-                    "Pour plus de détails, voir notre Politique de Cookies."
-                ]
-            },
-            "children": {
-                "title": "Confidentialité des Enfants",
-                "content": "UrbanDrop ne s'adresse pas aux enfants de moins de 18 ans."
+                "title": "9. Cookies et technologies de suivi",
+                "intro": "Nous utilisons des cookies pour :",
+                "items": [
+                    "Mémoriser vos préférences",
+                    "Analyser l’utilisation",
+                    "Afficher des publicités pertinentes"
+                ],
+                "consent": "Les cookies non essentiels nécessitent votre consentement. Vous pouvez les gérer dans votre navigateur."
             },
             "links": {
-                "title": "Liens vers d'Autres Sites",
-                "content": "Notre plateforme peut inclure des liens vers des sites tiers."
+                "title": "10. Liens tiers",
+                "content": "Nous ne sommes pas responsables des sites tiers liés."
+            },
+            "children": {
+                "title": "11. Protection des enfants",
+                "content": "UrbanDrop est destiné aux personnes de plus de 18 ans."
+            },
+            "international": {
+                "title": "12. Transferts internationaux",
+                "content": "Les données peuvent être transférées hors du Royaume-Uni avec des garanties appropriées."
             },
             "updates": {
-                "title": "Mises à Jour de cette Politique",
-                "content": "Nous pouvons mettre à jour cette politique de temps à autre."
+                "title": "13. Modifications de cette politique",
+                "content": "Nous pouvons mettre à jour cette politique et vous informer en cas de changement important."
             },
             "contact": {
-                "title": "Contactez-Nous",
-                "intro": "Si vous avez des questions, contactez :",
-                "companyName": "UrbanDrop Group Limited",
-                "email": "Email : <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
-                "ico": "Vous avez également le droit de déposer une plainte auprès de l'ICO.",
-                "website": "Site Web : <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
+                "title": "14. Contact",
+                "intro": "Contactez-nous pour toute question :",
+                "companyName": "UrbanDrop Group Ltd",
+                "location": "Bristol, Royaume-Uni",
+                "email": "support@urbandrop.io",
+                "ico": "Information Commissioner's Office (ICO) :",
+                "icoWebsite": "ico.org.uk",
+                "icoPhone": "0303 123 1113"
             }
         }
     },

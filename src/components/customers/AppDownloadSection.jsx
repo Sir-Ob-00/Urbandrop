@@ -48,7 +48,7 @@ const AppDownloadSection = () => {
             </div>
 
             <Link to="/terms-and-conditions#customers" className="inline-flex items-center text-sm font-medium text-primary hover:text-primaryDark hover:underline transition-colors mt-4">
-              View Customer Terms & Conditions
+              {t('customer.appDownload.customerTerms')}
               <svg className="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

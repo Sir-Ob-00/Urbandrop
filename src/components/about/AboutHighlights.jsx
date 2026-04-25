@@ -8,10 +8,9 @@ const AboutHighlights = () => {
     const { t } = useTranslation();
     const highlights = [
         { icon: <FiZap />, label: t('about.highlights.item1') },
-       /*  { icon: <FiUsers />, label: t('about.highlights.item2') }, */
-        { icon: <FiSmartphone />, label: t('about.highlights.item3') },
-        { icon: <FiTrendingUp />, label: t('about.highlights.item4') },
-        { icon: <FiShield />, label: t('about.highlights.item5') }
+        { icon: <FiSmartphone />, label: t('about.highlights.item2') },
+        { icon: <FiTrendingUp />, label: t('about.highlights.item3') },
+        { icon: <FiShield />, label: t('about.highlights.item4') }
     ];
 
     return (

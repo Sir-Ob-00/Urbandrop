@@ -11,20 +11,23 @@
     },
     "footer": {
         "findLocation": "Vind ligging",
-        "brandDescription": "U betroubare aanlyn resep- en kruideniersmark wat VK-kliënte met plaaslike handelaars verbind.",
-        "getExclusiveDeals": "Kry Eksklusiewe Aanbiedings",
-        "enterEmail": "Voer u e-posadres in",
-        "subscribe": "Teken In",
+        "brandDescription": "Jou betroubare aanlyn etniese resep- en kruideniersmark wat kliënte met plaaslike handelaars verbind.",
+        "getExclusiveDeals": "Kry eksklusiewe aanbiedings",
+        "thanksForSubscribing": "Dankie dat jy ingeteken het",
+        "enterEmail": "Voer jou e-posadres in",
+        "subscribe": "Teken in",
         "legalPages": "Regsdokumente",
         "privacyPolicy": "Privaatheidsbeleid",
         "cookiesPolicy": "Koekiebeleid",
-        "termsConditions": "Bepalings en Voorwaardes",
-        "manageCookies": "Bestuur Koekies",
+        "termsConditions": "Bepalings en voorwaardes",
+        "manageCookies": "Bestuur koekies",
         "importantLinks": "Belangrike skakels",
-        "about": "Oor Ons",
+        "about": "Oor ons",
         "customer": "Kliënt",
         "advertise": "Adverteer op Urbandrop",
-        "beMerchant": "Word ’n Handelaar",
+        "beMerchant": "Word 'n handelaar",
+        "reportABug": "Rapporteer 'n fout",
+        "joinBeta": "Sluit aan by Beta",
         "rightsReserved": "Urbandrop Group Ltd. Alle regte voorbehou.",
         "companyNumber": "Maatskappynommer"
     },
@@ -60,44 +63,45 @@
             "cat4": {
                 "title": "Afleweringsvennoot: Kultuur Afgelewer",
                 "desc": "Vinnige en betroubare diens wat die gevoel van tuis tot by u voordeur bring."
+            }
+        },
+        "whyChoose": {
+            "badge": "Waarom Urbandrop Kies",
+            "title": "Ervaar die",
+            "difference": "Verskil",
+            "whyChooseUs": "Waarom Ons Kies",
+            "ctaTitle": "Gereed om die verskil te ervaar?",
+            "ctaButton": "Laai die Urbandrop-toepassing af",
+            "feature1": {
+                "title": "Koop op die manier wat u praat",
+                "desc": "Vind bestanddele met plaaslike of inheemse name, of dit nou kontomire, egusi of atta-meel is. UrbanDrop verstaan u taal."
             },
-            "whyChoose": {
-                "badge": "Waarom Urbandrop Kies",
-                "title": "Ervaar die",
-                "difference": "Verskil",
-                "whyChooseUs": "Waarom Ons Kies",
-                "ctaTitle": "Gereed om die verskil te ervaar?",
-                "ctaButton": "Laai die Urbandrop-toepassing af",
-                "feature1": {
-                    "title": "Koop op die manier wat u praat",
-                    "desc": "Vind bestanddele met plaaslike of inheemse name, of dit nou kontomire, egusi of atta-meel is. UrbanDrop verstaan u taal."
-                },
-                "feature2": {
-                    "title": "Ontdek Winkels wat soos Tuis Voel",
-                    "desc": "Verken winkels en kategorieë wat volgens kultuur saamgestel is—van Karibies en Suid-Asiaties tot Wes-Afrikaans en Midde-Oosters. Alles wat u van die huis mis, alles in een toepassing."
-                },
-                "feature3": {
-                    "title": "Egtheid Gewaarborg, deur Kultuur Bevestig",
-                    "desc": "Elke produk op UrbanDrop wordt vir egtheid nagegaan en met sy ware oorsprong en tradisionele gebruik gemerk, sodat u altyd weet u kry die regte produk."
-                },
-                "feature4": {
-                    "title": "Meer as Inkopies—Dit is Verbinding",
-                    "desc": "Kry inspirasie met etniese resepte, kookgidse en kulturele verhale wat vier waar u kos vandaan kom en hoe dit mense saambring."
-                }
+            "feature2": {
+                "title": "Ontdek Winkels wat soos Tuis Voel",
+                "desc": "Verken winkels en kategorieë wat volgens kultuur saamgestel is—van Karibies en Suid-Asiaties tot Wes-Afrikaans en Midde-Oosters. Alles wat u van die huis mis, alles in een toepassing."
             },
-            "appDownload": {
-                "title1": "Proe die",
-                "title2": "Urbandrop-ervaring",
-                "title3": "Vinniger as ooit",
-                "desc": "Laai die Urbandrop-toepassing af vir eksklusiewe aanbiedings, vinniger afhandeling en intydse bestellingopsporing.",
-                "ios": "Laai af vir Apple",
-                "android": "Laai af vir Android",
-                "countdown": {
-                    "days": "Dae",
-                    "hours": "Ure",
-                    "minutes": "Minute",
-                    "seconds": "Sekondes"
-                }
+            "feature3": {
+                "title": "Egtheid Gewaarborg, deur Kultuur Bevestig",
+                "desc": "Elke produk op UrbanDrop wordt vir egtheid nagegaan en met sy ware oorsprong en tradisionele gebruik gemerk, sodat u altyd weet u kry die regte produk."
+            },
+            "feature4": {
+                "title": "Meer as Inkopies—Dit is Verbinding",
+                "desc": "Kry inspirasie met etniese resepte, kookgidse en kulturele verhale wat vier waar u kos vandaan kom en hoe dit mense saambring."
+            }
+        },
+        "appDownload": {
+            "title1": "Proe die",
+            "title2": "Urbandrop-ervaring",
+            "title3": "Vinniger as ooit",
+            "desc": "Laai die Urbandrop-toepassing af vir eksklusiewe aanbiedings, vinniger afhandeling en intydse bestellingopsporing.",
+            "ios": "Laai af vir Apple",
+            "android": "Laai af vir Android",
+            "countdown": {
+                "days": "Dae",
+                "hours": "Ure",
+                "minutes": "Minute",
+                "seconds": "Sekondes"
+            }
         }
     },
     "contact": {
@@ -141,203 +145,187 @@
         }
     },
     "customer": {
-            "hero": {
-                "title1": "Proe die",
-                "title2": "Outentieke",
-                "desc": "Outentieke etniese kruideniersware by u voordeur afgelewer.",
-                "downloadApp": "Laai Toepassing Af",
-                "orderDelivered": "Bestelling Afgelewer",
-                "justNow": "So pas • 2 minute gelede"
-            },
-            "recommendation": {
-                "title1": "Gekeur",
-                "title2": "Vir U",
-                "subtitle": "Verken versamelings wat by u smaak aangepas is",
-                "explore": "Verken Versameling",
-                "categories": {
-                    "topPicks": {
-                        "name": "Topkeuses Naby U",
-                        "desc": "Hoogs gegradeerde kruideniersware in u omgewing"
-                    },
-                    "trending": {
-                        "name": "Tans Gewild Hierdie Week",
-                        "desc": "Die gewildste kruideniersware op die oomblik"
-                    },
-                    "fastest": {
-                        "name": "Vinnigste Aflewering",
-                        "desc": "Kry u kruideniersware binne minder as 30 minute"
-                    },
-                    "budget": {
-                        "name": "Begrotingsvriendelik",
-                        "desc": "Heerlike kruideniersware wat u geld spaar"
-                    }
+        "hero": {
+            "title1": "Ervaar outentieke",
+            "title2": "geure",
+            "desc": "Outentieke etniese kruideniersware by jou voordeur afgelewer.",
+            "downloadApp": "Laai die toepassing af",
+            "orderDelivered": "Bestelling afgelewer",
+            "justNow": "Nou net, binne 2 minute"
+        },
+        "recommendation": {
+            "title1": "Saamgestel",
+            "title2": "vir jou",
+            "subtitle": "Verken versamelings wat by jou smaak pas",
+            "categories": {
+                "topPicks": {
+                    "name": "Top keuses naby jou",
+                    "desc": "Hooggegradeerde kruideniersware in jou area"
+                },
+                "trending": {
+                    "name": "Gewild hierdie week",
+                    "desc": "Die gewildste kruideniersware tans"
+                },
+                "fastest": {
+                    "name": "Vinnigste aflewering",
+                    "desc": "Kry jou kruideniersware binne 30 minute"
+                },
+                "budget": {
+                    "name": "Begrotingsvriendelik",
+                    "desc": "Heerlike kruideniersware wat jou geld spaar"
                 }
-            },
-            "scenarios": {
-                "title1": "Kruideniersware Afgelewer op",
-                "title2": "U Gerief",
-                "items": {
-                    "everything": {
-                        "title": "Alles Wat U Nodig Het",
-                        "subtitle": "Van vars produkte tot spensnoodsaaklikhede."
-                    },
-                    "authentic": {
-                        "title": "Outentiek en Plaaslik",
-                        "subtitle": "Moeilik-om-te-vind etniese bestanddele binne u bereik."
-                    },
-                    "shopHome": {
-                        "title": "Koop van die Huis af",
-                        "subtitle": "Slaan die rye oor en koop met gemak."
-                    },
-                    "delivered": {
-                        "title": "Aan U Afgelewer",
-                        "subtitle": "Vars kruideniersware direk tot by u deur gebring."
-                    }
+            }
+        },
+        "scenarios": {
+            "title1": "Kruideniersware afgelewer op",
+            "title2": "jou gemak",
+            "items": {
+                "everything": {
+                    "title": "Alles wat jy nodig het",
+                    "subtitle": "Van vars produkte tot spensbasisse."
+                },
+                "authentic": {
+                    "title": "Outentiek en plaaslik",
+                    "subtitle": "Moeilik-bekombare etniese bestanddele binne jou bereik."
+                },
+                "shopHome": {
+                    "title": "Koop van die huis af",
+                    "subtitle": "Slaan die rye oor en koop maklik."
+                },
+                "delivered": {
+                    "title": "By jou afgelewer",
+                    "subtitle": "Vars kruideniersware direk by jou deur."
                 }
-            },
-            "whatYouCanDo": {
-                "title": "Wat U Kan Doen",
-                "desc": "Een toepassing vir al u daaglikse behoeftes. Ontdek die moontlikhede met Urbandrop.",
-                "learnMore": "Lees Meer",
-                "items": {
-                    "groceries": {
-                        "title": "Koop Kruideniersware",
-                        "desc": "Vars produkte en noodsaaklikhede by u deur afgelewer."
-                    },
-                    "errands": {
-                        "title": "Doen Take",
-                        "desc": "Het u ’n helpende hand nodig? Ons kan u daaglikse take hanteer."
-                    },
-                    "ethnic": {
-                        "title": "Etniese Geure",
-                        "desc": "Ontdek outentieke geure van regoor die wêreld."
-                    }
+            }
+        },
+        "whatYouCanDo": {
+            "title": "Wat jy kan doen",
+            "desc": "Een toepassing vir al jou daaglikse behoeftes. Ontdek die moontlikhede met Urbandrop.",
+            "learnMore": "Leer meer",
+            "items": {
+                "groceries": {
+                    "title": "Koop kruideniersware",
+                    "desc": "Vars produkte en noodsaaklikhede by jou deur afgelewer."
+                },
+                "errands": {
+                    "title": "Doen inkopies vir jou",
+                    "desc": "Slaan lang en stresvolle winkelritte oor. Kry jou etniese kruideniersware afgelewer."
+                },
+                "ethnic": {
+                    "title": "Etniese geure",
+                    "desc": "Ontdek outentieke geure van regoor die wêreld."
                 }
-            },
-            "benefits": {
-                "title1": "Waarom",
-                "title2": "Urban",
-                "title3": "Drop",
-                "title4": "?",
-                "subtitle": "Verhoog u leefstyl met elke aflewering.",
-                "items": {
-                    "saveTime": {
-                        "title": "Bespaar Tyd",
-                        "subtitle": "Herwin ure in u dag."
-                    },
-                    "comfort": {
-                        "title": "Geniet Gerief",
-                        "subtitle": "Alles wat u nodig het, afgelewer."
-                    },
-                    "convenience": {
-                        "title": "Ervaar Gerief",
-                        "subtitle": "Koop by u gunsteling plaaslike winkels."
-                    },
-                    "safe": {
-                        "title": "Voel Veilig",
-                        "subtitle": "Kontaklose afleweringsopsies beskikbaar."
-                    },
-                    "deals": {
-                        "title": "Beste Aanbiedings",
-                        "subtitle": "Eksklusiewe aanbiedings net vir u."
-                    }
+            }
+        },
+        "benefits": {
+            "title1": "Waarom",
+            "title2": "Urban",
+            "title3": "Drop",
+            "title4": "?",
+            "subtitle": "Verbeter jou leefstyl met elke aflewering.",
+            "items": {
+                "saveTime": {
+                    "title": "Spaar tyd",
+                    "subtitle": "Kry ure van jou dag terug."
+                },
+                "comfort": {
+                    "title": "Geniet gemak",
+                    "subtitle": "Alles wat jy nodig het, afgelewer."
+                },
+                "convenience": {
+                    "title": "Ervaar gerief",
+                    "subtitle": "Koop by jou gunsteling plaaslike winkels."
                 }
-            },
-            "appDownload": {
-                "title1": "Proe die",
-                "title2": "Urbandrop-ervaring",
-                "title3": "Vinniger as Ooit",
-                "desc": "Laai die Urbandrop-toepassing af vir eksklusiewe aanbiedings, vinniger afhandeling en intydse bestellingopsporing.",
-                "ios": "Laai af vir Apple",
-                "android": "Laai af vir Android",
-                "countdown": {
-                    "days": "Dae",
-                    "hours": "Ure",
-                    "minutes": "Minute",
-                    "seconds": "Sekondes"
+            }
+        },
+        "appDownload": {
+            "title1": "Proe die",
+            "title2": "Urbandrop-ervaring",
+            "ios": "Laai af vir Apple",
+            "android": "Laai af vir Android",
+            "customerTerms": "Bekyk kliëntbepalings en -voorwaardes"
+        },
+        "faq": {
+            "title": "Gereelde vrae",
+            "subtitle": "Vind antwoorde op algemene vrae oor die gebruik van Urbandrop.",
+            "searchPlaceholder": "Soek in FAQ's...",
+            "noResults": "Geen resultate gevind vir \"{{query}}\". Probeer ’n ander term.",
+            "categories": [
+                {
+                    "category": "Rekening en aanmelding",
+                    "items": [
+                        {
+                            "question": "Hoe skep ek ’n rekening?",
+                            "answer": "Om ’n rekening te skep, klik op die 'Registreer' knoppie regs bo op die tuisblad. Vul jou besonderhede in, insluitend jou naam, e-posadres en ’n veilige wagwoord. Jy sal ’n bevestigings-e-pos ontvang om jou rekening te verifieer."
+                        },
+                        {
+                            "question": "Ek het my wagwoord vergeet. Hoe stel ek dit terug?",
+                            "answer": "Klik op 'Wagwoord vergeet' op die aanmeldblad. Voer jou geregistreerde e-posadres in en ons sal vir jou instruksies stuur om jou wagwoord veilig terug te stel."
+                        }
+                    ]
+                },
+                {
+                    "category": "Bestelling en afhandeling",
+                    "items": [
+                        {
+                            "question": "Hoe plaas ek ’n bestelling?",
+                            "answer": "Blaai deur ons produkte, kies die items wat jy wil hê en klik 'Voeg by mandjie'. Wanneer jy gereed is, klik op die mandjie-ikoon en gaan voort na afhandeling. Volg die stappe om jou aflewerings- en betalingsinligting in te voer."
+                        },
+                        {
+                            "question": "Kan ek my bestelling wysig of kanselleer nadat ek dit geplaas het?",
+                            "answer": "Jy kan jou bestelling binne 1 uur na plasing wysig of kanselleer. Gaan na 'My Bestellings' in jou rekening, kies die bestelling en kies die wysig- of kanselleer-opsie. Indien dit langer as 1 uur is, kontak asseblief ons ondersteuningspan."
+                        }
+                    ]
+                },
+                {
+                    "category": "Betalings",
+                    "items": [
+                        {
+                            "question": "Watter betaalmetodes aanvaar julle?",
+                            "answer": "Ons aanvaar alle groot krediet- en debietkaarte (Visa, MasterCard, American Express) en Apple Pay."
+                        },
+                        {
+                            "question": "Is my betalingsbesonderhede veilig?",
+                            "answer": "Ja, ons gebruik industriestandaard SSL-enkripsie om jou betalingsbesonderhede te beskerm. Ons stoor geen kredietkaartbesonderhede nie."
+                        }
+                    ]
+                },
+                {
+                    "category": "Aflewering en nasporing",
+                    "items": [
+                        {
+                            "question": "Hoe lank neem aflewering gewoonlik?",
+                            "answer": "Standaard aflewering neem 15–25 minute, afhangend van afstand. Versnelde aflewering is beskikbaar by afhandeling."
+                        },
+                        {
+                            "question": "Hoe kan ek my bestelling naspoor?",
+                            "answer": "Sodra jou bestelling versend is, sal jy ’n bevestigings-e-pos met ’n opsporingsskakel ontvang. Jy kan ook jou bestellingstatus in die 'My Bestellings'-afdeling sien."
+                        }
+                    ]
+                },
+                {
+                    "category": "Terugsendings en terugbetalings",
+                    "items": [
+                        {
+                            "question": "Wat is julle terugstuurbeleid?",
+                            "answer": "Nie-bederfbare produkte\nJy kan jou bestelling binne 14 dae na aflewering terugstuur en ongebruikte items binne nog 14 dae vir ’n volle terugbetaling. Items moet in hul oorspronklike toestand wees.\n\nAs goedere foutief is, nie soos beskryf is nie, of nie geskik vir gebruik is nie, het jy die reg op ’n volle terugbetaling binne 30 dae.\n\nBederfbare produkte\nWeens die aard van vars produkte aanvaar ons nie terugsendings of kansellasies nadat dit afgelewer is nie.\n\nAs jou bestelling beskadig, verkeerd of onveilig is, moet jy ons binne 24 uur in kennis stel. Foto-bewyse mag vereis word. Goedgekeurde eise kan opgelos word met ’n vervanging, winkelkrediet of terugbetaling."
+                        }
+                    ]
+                },
+                {
+                    "category": "Tegniese probleme",
+                    "items": [
+                        {
+                            "question": "Die webwerf laai nie reg nie. Wat moet ek doen?",
+                            "answer": "Probeer jou blaaier se kas en koekies skoonmaak, of gebruik ’n inkognito-venster. As die probleem voortduur, kontak ons tegniese ondersteuning."
+                        },
+                        {
+                            "question": "Ek het probleme met die mobiele toepassing. Waar kan ek hulp kry?",
+                            "answer": "Maak seker jy het die nuutste weergawe van die toepassing. Indien probleme voortduur, herinstalleer die toepassing of kontak ons ondersteuningspan met jou toestelbesonderhede."
+                        }
+                    ]
                 }
-            },
-            "faq": {
-                "title": "Algemene Vrae",
-                "subtitle": "Vind antwoorde op algemene vrae oor die gebruik van Urbandrop.",
-                "searchPlaceholder": "Soek algemene vrae...",
-                "noResults": "Geen resultate gevind vir \"{{query}}\" nie. Probeer ’n ander term.",
-                "categories": [
-                    {
-                        "category": "Rekening & Intekening",
-                        "items": [
-                            {
-                                "question": "Hoe skep ek ’n rekening?",
-                                "answer": "Om ’n rekening te skep, klik op die 'Teken In'-knoppie regs bo op die tuisblad. Vul u besonderhede in, insluitend u naam, e-posadres en ’n veilige wagwoord. U sal ’n bevestigings-e-pos ontvang om u rekening te verifieer."
-                            },
-                            {
-                                "question": "Ek het my wagwoord vergeet. Hoe kan ek dit terugstel?",
-                                "answer": "Klik op 'Wagwoord vergeet' op die intekenblad. Voer u geregistreerde e-posadres in en ons sal vir u instruksies stuur om u wagwoord veilig terug te stel."
-                            }
-                        ]
-                    },
-                    {
-                        "category": "Bestelling & Afhandeling",
-                        "items": [
-                            {
-                                "question": "Hoe plaas ek ’n bestelling?",
-                                "answer": "Blaai deur ons produkte, kies die items wat u wil hê en klik op 'Voeg by mandjie'. Wanneer u gereed is, klik op die mandjie-ikoon en gaan voort na afhandeling. Volg die aanwysings om u versendings- en betalingsinligting in te voer."
-                            },
-                            {
-                                "question": "Can ek my bestelling wysig of kanselleer nadat ek dit geplaas het?",
-                                "answer": "U kan u bestelling binne 1 uur nadat u dit geplaas het, wysig of kanselleer. Gaan na 'My bestellings' in u rekening, kies die bestelling en kies die opsie om te wysig of te kanselleer. As dit meer as 1 uur gelede is, kontak asseblief ons ondersteuningspan."
-                            }
-                        ]
-                    },
-                    {
-                        "category": "Betalings",
-                        "items": [
-                            {
-                                "question": "Watter betaalmetodes aanvaar u?",
-                                "answer": "Ons aanvaar alle groot krediet- en debietkaarte (Visa, MasterCard, American Express) sowel as Apple Pay."
-                            },
-                            {
-                                "question": "Is my betalingsbesonderhede veilig?",
-                                "answer": "Ja, ons gebruik industrie-standaard SSL-enkripsie om u betalingsbesonderhede te beskerm. Ons stoor geen kredietkaartbesonderhede nie."
-                            }
-                        ]
-                    },
-                    {
-                        "category": "Aflewering & Opsporing",
-                        "items": [
-                            {
-                                "question": "Hoe lank neem aflewering gewoonlik?",
-                                "answer": "Standaardaflewering neem 15–25 minute, afhangende van die afstand. Snelaflewering is beskikbaar by afhandeling vir voorkeur-aflewering."
-                            },
-                            {
-                                "question": "Hoe kan ek my bestelling opspoor?",
-                                "answer": "Sodra u bestelling versend is, zal u ’n bevestigings-e-pos met ’n opsporingskakel ontvang. U kan ook u bestellingstatus in die 'My bestellings'-afdeling van u rekening nagaan."
-                            }
-                        ]
-                    },
-                    {
-                        "category": "Terugsending & Terugbetalings",
-                        "items": [
-                            {
-                                "question": "Wat is u terugsendingbeleid?",
-                                "answer": "Nie-bederfbare Produkte\nU kan u bestelling binne 14 dae na aflewering terugstuur en ongebruikte items binne ’n verdere 14 dae terugstuur vir ’n volle terugbetaling. Items moet in hul oorspronklike toestand teruggestuur word.\n\nAs goedere foutief is, nie volgens beskrywing nie of ongeskik vir die doel is, is u geregtig op ’n volle terugbetaling binne 30 dae na ontvangs.\n\nBederfbare Produkte\nAs gevolg van die bederfbare aard van vars goedere, aanvaar ons geen terugsendings of kansellasies sodra dit afgelewer is nie.\n\nAs u bestelling beskadig, verkeerd of onveilig vir verbruik aankom, moet u ons binne 24 uur na aflewering in kennis stel. Fotografiese bewyse mag vereis word. Goedgekeurde eise kan opgelos word deur ’n vervanging, winkelkrediet of terugbetaling vir die geaffekteerde item(s)."
-                            }
-                        ]
-                    },
-                    {
-                        "category": "Tegniese Probleme",
-                        "items": [
-                            {
-                                "question": "Die webwerf laai nie korrek nie. Wat moet ek doen?",
-                                "answer": "Probeer om u blaaier se kas en koekies skoon te maak, of gaan na die webwerf in ’n incognito-venster. As die probleem voortduur, kontak asseblief ons tegniese ondersteuning."
-                            },
-                            {
-                                "question": "Ek het probleme met die mobiele toepassing. Waar kan ek hulp kry?",
-                                "answer": "Maak seker u het die nuutste weergawe van die toepassing geïnstalleer. As probleme voortduur, probeer om die toepassing te herinstalleer of kontak ons ondersteuningspan met u toestelbesonderhede."
-                            }
-                        ]
-                    }
-                ]
+            ]
         }
     },
     "about": {
@@ -353,38 +341,13 @@
                 "title4": "Bemagtiging van Plaaslikes",
                 "desc": "UrbanDrop is daaraan toegewy om die rykdom van etniese kookkuns na u deur te bring terwyl ons plaaslike handelaars ondersteun en kulturele diversiteit vier."
             },
-            "purpose": {
-                "title1": "Gebou met 'n",
-                "title2": "Doel",
-                "quote": "Om daaglikse beweging te vereenvoudig en gerief nader aan mense te bring."
-            },
-            "ecosystem": {
-                "title": "Die Ekosisteem",
-                "subtitle": "Waar alles bymekaar kom.",
-                "customers": {
-                    "title": "Kliënte",
-                    "subtitle": "Direkte Toegang"
-                },
-                "merchants": {
-                    "title": "Handelaars",
-                    "subtitle": "Groeimotor"
-                },
-                "riders": {
-                    "title": "Afleweringsvennote",
-                    "subtitle": "Buigsame Verdienste"
-                },
-                "businesses": {
-                    "title": "Besighede",
-                    "subtitle": "Logistiek Opgelos"
-                }
-            },
             "highlights": {
                 "title": "Ons Toewyding",
                 "subtitle": "Waardegedrewe groei",
                 "item1": "Vinnige Diens",
-                "item3": "Gebruikersgesentreerd",
-                "item4": "Markgroei",
-                "item5": "Veilige Betalings"
+                "item2": "Gebruikersgesentreerd",
+                "item3": "Markgroei",
+                "item4": "Veilige Betalings"
             },
             "process": {
                 "step1": "Ontdek",
@@ -634,177 +597,137 @@
         }
     },
     "privacyPolicy": {
-            "hero": {
-                "title": "Privaatheid",
-                "highlight": "Beleid",
-                "subtitle": "U privaatheid is vir ons belangrik.",
-                "effectiveDate": "Inwerkingtredingsdatum: {{date}}"
+        "hero": {
+            "lastModified": "Laas gewysig: 11 April 2026",
+            "title": "UrbanDrop",
+            "highlight": "Privaatheidsbeleid",
+            "subtitle": "Ons is daartoe verbind om jou privaatheid te beskerm. Hierdie beleid verduidelik hoe ons jou persoonlike data versamel, gebruik, deel en beskerm."
+        },
+        "sections": {
+            "whoWeAre": {
+                "title": "1. Wie Ons Is",
+                "content": [
+                    "UrbanDrop is 'n voedselafleweringsplatform wat bedryf word deur UrbanDrop Group Ltd, 'n maatskappy wat in die Verenigde Koninkryk geregistreer is. Ons verbind kliënte met plaaslike Afrika-, Karibiese- en Asiatiese voedselverkopers.",
+                    "UrbanDrop (\"ons,\" \"ons s'n\") is daartoe verbind om jou privaatheid te beskerm. Hierdie Privaatheidsbeleid verduidelik hoe ons jou persoonlike data versamel, gebruik, deel en beskerm wanneer jy ons platform gebruik. Lees dit asseblief sorgvuldig deur. Indien jy nie saamstem met ons praktyke nie, moenie ons dienste gebruik nie."
+                ]
             },
-            "sections": {
-                "whoWeAre": {
-                    "title": "Wie Ons Is",
-                    "content": [
-                        "UrbanDrop Group Limited is ’n maatskappy wat in Engeland en Wallis geregistreer is onder maatskappynommer 16026087.",
-                        "Ons bedryf ’n aanlyn markplek wat kliënte verbind met handelaars wat kruideniersware, voorbereide kosse en etniese produkte vir aflewering of afhaal verkoop."
-                    ]
-                },
-                "infoCollect": {
-                    "title": "Inligting Wat Ons Insamel",
-                    "intro": "Ons samel persoonlike inligting in wat ons help om ons dienste te lewer, te verbeter en te bestuur. Dit kan die volgende insluit:",
-                    "direct": {
-                        "title": "Inligting Wat U Direk Verskaf",
-                        "items": [
-                            "Naam, kontaknommer en afleweringsadres.",
-                            "E-posadres en rekeningwagwoord.",
-                            "Betalings- en faktureringsinligting (veilig verwerk deur ons betalingsvennote).",
-                            "Terugvoer, boodskappe of resensies wat u indien.",
-                            "Handelaar-registrasiebesonderhede (for besigheidsgebruikers), insluitend maatskappynaam, handelsadres en bankrekeningbesonderhede."
-                        ]
-                    },
-                    "automatic": {
-                        "title": "Inligting Wat Outomaties Ingesamel Word",
-                        "intro": "Wanneer u UrbanDrop gebruik, kan ons outomaties die volgende insamel:",
-                        "items": [
-                            "Toestel- en blaaierinligting (IP-adres, bedryfstelsel, toesteltipe).",
-                            "Liggingdata (indien u liggingdienste toelaat).",
-                            "Gebruiksdata soos besoekte bladsye, toepassing-interaksies en bestelaktiwiteit.",
-                            "Loglêers en diagnostiese data om werkverrigting en sekuriteit te verbeter."
-                        ]
-                    },
-                    "thirdParty": {
-                        "title": "Inligting van Derde Partye",
-                        "intro": "Ons mag inligting ontvang van:",
-                        "items": [
-                            "Betalingsverskaffers (bv. om transaksie-status te bevestig).",
-                            "Identiteitsverifikasiedienste.",
-                            "Afleweringsvennote (bv. bestellingafleweringstatus).",
-                            "Ontledings- en advertensievennote wat ons help om gebruikstendense te verstaan."
-                        ]
-                    }
-                },
-                "howWeUse": {
-                    "title": "Hoe Ons U Inligting Gebruik",
-                    "intro": "Ons gebruik persoonlike data om:",
-                    "items": [
-                        "U bestellings te verwerk en af te lewer.",
-                        "Met u te kommunikeer oor u rekening, bestellings en kliëntediensversoeke.",
-                        "U identiteit te verifieer en bedrog te voorkom.",
-                        "Betalings, terugbetalings en krediete te bestuur.",
-                        "Handelaars van die nodige bestelbesonderhede vir uitvoering te voorsien.",
-                        "U ervaring te personaliseer en relevante produkte aan te beveel.",
-                        "Platformfunksionaliteit, werkverrigting en inhoud te verbeter.",
-                        "Aan wetlike en regulatoriese verpligtinge te voldoen."
-                    ],
-                    "legalBasis": {
-                        "intro": "Ons sal u data slegs gebruik waar ons ’n regmatige grondslag het ingevolge databeskermingswette, soos:",
-                        "items": [
-                            "Om ons kontrak met u uit te voer (bv. om ’n bestelling te vervul).",
-                            "Om aan wetlike verpligtinge te voldoen.",
-                            "Vir regmatige besigheidsbelange (bv. verbetering van gebruikerservaring).",
-                            "Met u toestemming (bv. bemarking)."
-                        ]
-                    }
-                },
-                "marketing": {
-                    "title": "Bemarkingskommunikasie",
-                    "content": [
-                        "Ons mag vir u bemarkings-e-posse of kennisgewings stuur oor nuwe produkte, aanbiedings of promosies indien u ons toestemming gegee het.",
-                        "U kan te eniger tyd onttrek deur:"
-                    ],
-                    "items": [
-                        "Op “ontteken” in enige bemarkings-e-pos te klik, of",
-                        "U voorkeure in die UrbanDrop-toepassing aan te pas of ons direk te kontak."
-                    ],
-                    "note": "Selfs indien u onttrek, kan ons steeds nie-promosionele boodskappe stuur (bv. bestellingbevestigings of rekeningkennisgewings)."
-                },
-                "sharing": {
-                    "title": "Deel van U Inligting",
-                    "intro": "Ons mag beperkte persoonlike data deel met:",
-                    "items": [
-                        "<strong>Handelaars:</strong> om u bestelling voor te berei, te vervul en af te lewer.",
-                        "<strong>Afleweringsvennote:</strong> om u bestelling akkuraat en veilig af te lewer.",
-                        "<strong>Betalingsverwerkers:</strong> om betalings veilig te verwerk.",
-                        "<strong>IT- en Wolkverskaffers:</strong> wat ons help om ons stelsels te bedryf.",
-                        "<strong>Ontledings- en Advertensievennote:</strong> om dienste en bemarkingseffektiwiteit te verbeter.",
-                        "<strong>Reguleerders of Wetstoepassing:</strong> waar dit deur die wet vereis word of om ons regte te beskerm."
-                    ],
-                    "note": "Ons verkoop nie u persoonlike data aan derde partye nie."
-                },
-                "retention": {
-                    "title": "Databewaring",
-                    "intro": "Ons behou u persoonlike inligting so lank as wat nodig is om die doeleindes waarvoor dit ingesamel is te vervul, insluitend wetlike, rekeningkundige of verslagdoeningsvereistes.",
-                    "items": [
-                        "<strong>Kliëntebestelrekords:</strong> behou vir tot 6 jaar ingevolge VK-belasting- en verbruikerswette.",
-                        "<strong>Handelaarsdata:</strong> behou solank die rekening aktief bly en vir 6 jaar daarna.",
-                        "<strong>Ondersteuningsboodskappe en terugvoer:</strong> behou vir operasionele en regtelike verwysing."
-                    ],
-                    "note": "Wanneer data nie meer benodig word nie, word dit veilig verwyder of geanonimiseer."
-                },
-                "security": {
-                    "title": "Datasekuriteit",
-                    "content": [
-                        "Ons gebruik toepaslike tegniese en organisatoriese maatreëls om u data teen ongemagtigde toegang, openbaarmaking, wysiging of verlies te beskerm.",
-                        "Dit sluit in:"
-                    ],
-                    "items": [
-                        "Geënkripteerde data-oordrag (SSL/TLS).",
-                        "Veilige betalingspoorte (PCI DSS-nakoming).",
-                        "Toegangsbeheer en verifikasiestelsels.",
-                        "Gereelde sekuriteitsmonitering en oudits."
-                    ],
-                    "note": "Geen aanlyn diens is egter heeltemal risikovry nie. U is verantwoordelik vir die beskerming van u rekeningbewyse."
-                },
-                "international": {
-                    "title": "Internasionale Oordragte",
-                    "intro": "Sommige van ons diensverskaffers of vennote mag u data buite die VK of die Europese Ekonomiese Gebied (EEG) verwerk. Waar dit gebeur, verseker ons dat toepaslike beskermingsmaatreëls in plek is, soos:",
-                    "items": [
-                        "Geskiktheidsbesluite wat deur die VK of EU goedgekeur is.",
-                        "Standaard Kontraktuele Klousules (SCC’s).",
-                        "Bindende korporatiewe reëls of ekwivalente beskermingsmeganismes."
-                    ]
-                },
-                "rights": {
-                    "title": "U Regte",
-                    "intro": "Ingevolge die VK GDPR het u die volgende regte met betrekking tot u persoonlike data:",
-                    "items": [
-                        "<strong>Toegang:</strong> om ’n afskrif van u data aan te vra.",
-                        "<strong>Regstelling:</strong> om onakkurate of onvolledige data reg te stel.",
-                        "<strong>Uitwissing (“Reg om Vergete te Word”):</strong> om verwydering van u data aan te vra wanneer dit nie meer benodig word nie.",
-                        "<strong>Beperking:</strong> om te beperk hoe u data verwerk word.",
-                        "<strong>Oordraagbaarheid:</strong> om u data in ’n bruikbare formaat te ontvang of na ’n ander verskaffer oor te dra.",
-                        "<strong>Beswaar:</strong> om beswaar te maak teen verwerking vir regmatige belang of direkte bemarking.",
-                        "<strong>Intrekking van Toestemming:</strong> indien verwerking op toestemming gebaseer is."
-                    ],
-                    "contact": "Om enige van hierdie regte uit te oefen, kontak ons by <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>. Ons mag verifikasie versoek voor ons u versoek uitvoer."
-                },
-                "cookies": {
-                    "title": "Koekies en Nasporing",
-                    "content": [
-                        "UrbanDrop gebruik koekies en soortgelyke tegnologieë om gebruikerservaring te verbeter, voorkeure te onthou en verkeer te ontleed.",
-                        "U kan koekies in u blaaierinstellings bestuur of deaktiveer, maar dit kan die funksionaliteit van die Platform beïnvloed.",
-                        "Vir meer besonderhede, sien asseblief ons Koekiebeleid."
-                    ]
-                },
-                "children": {
-                    "title": "Kinders se Privaatheid",
-                    "content": "UrbanDrop is nie gemik op kinders onder 18 nie, en ons samel nie doelbewus persoonlike data van minderjariges in nie. Indien ons bewus raak dat sodanige data ingesamel is, sal ons dit onmiddellik verwyder."
-                },
-                "links": {
-                    "title": "Skakels na Ander Webwerwe",
-                    "content": "Ons Platform mag skakels na derdepartywebwerwe insluit. Ons is nie verantwoordelik vir die inhoud, privaatheidspraktyke of sekuriteit van daardie eksterne webwerwe nie."
-                },
-                "updates": {
-                    "title": "Opdaterings aan Hierdie Beleid",
-                    "content": "Ons mag hierdie Privaatheidsbeleid van tyd tot tyd opdateer. Die jongste weergawe sal altyd op ons webwerf of toepassing beskikbaar wees. Indien veranderinge beduidend is, sal ons gebruikers per e-pos of toepassingkennisgewing in kennis stel voor dit in werking tree."
-                },
-                "contact": {
-                    "title": "Kontak Ons",
-                    "intro": "Indien u enige vrae, bekommernisse of databeskermingsversoeke het, kontak:",
-                    "companyName": "UrbanDrop Group Limited",
-                    "email": "E-pos: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>",
-                    "ico": "U het ook die reg om ’n klagte by die Inligtingskommissaris se Kantoor (ICO) in die VK in te dien.",
-                    "website": "Webwerf: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
-                }
+            "lawfulBasis": {
+                "title": "2. Wettige Grondslag vir Verwerking",
+                "intro": "Ons verwerk jou persoonlike data op die volgende wettige gronde onder UK GDPR:",
+                "items": [
+                    "Kontrakuitvoering — om die dienste wat jy versoek het te lewer, insluitend bestellingverwerking en aflewering.",
+                    "Wetlike verpligting — om aan toepaslike wette en regulasies te voldoen.",
+                    "Geregverdigde belange — om ons platform te verbeter, bedrog te voorkom en sekuriteit te verseker, waar jou regte nie hierdie belange oortref nie.",
+                    "Toestemming — vir bemarkingskommunikasie en nie-noodsaaklike koekies. Jy kan toestemming enige tyd terugtrek."
+                ]
+            },
+            "infoCollect": {
+                "title": "3. Inligting wat Ons Versamel",
+                "intro": "Ons versamel die volgende persoonlike data:",
+                "items": [
+                    "Persoonlike besonderhede — naam, e-posadres, telefoonnommer en afleweringsadres.",
+                    "Betaalinligting — kaartbesonderhede, faktuuradres en transaksiegeskiedenis. Betaaldata word direk deur ons betaalverskaffer verwerk en nie deur ons gestoor nie.",
+                    "Liggingdata — intydse ligging, slegs wanneer jy ligginggebaseerde funksies gebruik.",
+                    "Toestelinligting — IP-adres, toesteltipe, bedryfstelsel, app-weergawe en blaaiertipe.",
+                    "Gebruikdata — hoe jy ons platform gebruik, insluitend soekgeskiedenis, bestelgeskiedenis en kliëntediensinteraksies."
+                ]
+            },
+            "howWeUse": {
+                "title": "4. Hoe Ons Jou Inligting Gebruik",
+                "intro": "Ons gebruik jou persoonlike data om:",
+                "items": [
+                    "Bestellings uit te voer — verwerking en aflewering van jou kos- en kruideniersbestellings.",
+                    "Kliëntediens te verskaf — vrae, klagtes en versoeke te hanteer.",
+                    "Jou ervaring te personaliseer — aanbevelings te gee gebaseer op jou voorkeure en geskiedenis.",
+                    "Betalings te verwerk — veilige transaksies te hanteer.",
+                    "Bemarking te stuur — met jou toestemming promosies en opdaterings te stuur. Jy kan enige tyd uitteken.",
+                    "Wetlike verpligtinge na te kom — belasting- en bedrogvereistes te voldoen.",
+                    "Ons diens te verbeter — gebruikspatrone te analiseer."
+                ]
+            },
+            "sharing": {
+                "title": "5. Deel van Jou Inligting",
+                "intro": "Ons mag jou data deel met:",
+                "items": [
+                    "Verkopers — jou naam, bestelling en adres word gedeel om jou bestelling te voltooi.",
+                    "Afleweraars — jou besonderhede word gedeel vir aflewering en daarna verwyder.",
+                    "Betaalverwerkers — PCI-DSS-gesertifiseerde verskaffers hanteer jou betalings veilig.",
+                    "Diensverskaffers — derde partye wat ons ondersteun (analise, bemarking, kliëntediens).",
+                    "Owerhede — wanneer dit deur wet vereis word of vir bedrogvoorkoming.",
+                    "Oornemers of kopers — in geval van samesmelting of verkoop van bates."
+                ],
+                "note": "Ons verkoop nie jou persoonlike data nie."
+            },
+            "retention": {
+                "title": "6. Data Bewaring",
+                "intro": "Ons hou data slegs vir so lank as wat nodig is:",
+                "items": [
+                    "Besteldata — tot 7 jaar.",
+                    "Rekeningdata — totdat jy jou rekening uitvee.",
+                    "Bemarkingsdata — totdat jy toestemming terugtrek."
+                ]
+            },
+            "rights": {
+                "title": "7. Jou Regte",
+                "intro": "Jy het die reg om:",
+                "items": [
+                    "Toegang te versoek tot jou data.",
+                    "Regstelling van verkeerde data te vra.",
+                    "Uitwissing van jou data te versoek.",
+                    "Verwerking te beperk.",
+                    "Data-oordraagbaarheid te versoek.",
+                    "Beswaar te maak teen sekere verwerking.",
+                    "Toestemming terug te trek."
+                ],
+                "contact": "Kontak ons by support@urbandrop.io om jou regte uit te oefen.",
+                "complaint": "Jy kan ook kla by die ICO by ico.org.uk of 0303 123 1113."
+            },
+            "security": {
+                "title": "8. Sekuriteit",
+                "intro": "Ons gebruik industriestandaard sekuriteitsmaatreëls:",
+                "items": [
+                    "Enkripsie — SSL/TLS beskerming.",
+                    "Toegangbeheer — slegs gemagtigde personeel.",
+                    "Veilige berging — beskermde omgewings."
+                ],
+                "note": "Geen stelsel is 100% veilig nie, maar ons neem redelike stappe om jou data te beskerm."
+            },
+            "cookies": {
+                "title": "9. Koekies en Nasporingstegnologieë",
+                "intro": "Ons gebruik koekies om:",
+                "items": [
+                    "Voorkeure te onthou.",
+                    "Gebruik te analiseer.",
+                    "Relevante advertensies te lewer."
+                ],
+                "consent": "Nie-noodsaaklike koekies vereis toestemming. Jy kan dit in jou blaaier bestuur."
+            },
+            "links": {
+                "title": "10. Derdeparty-skakels",
+                "content": "Ons is nie verantwoordelik vir eksterne webwerwe se privaatheidspraktyke nie."
+            },
+            "children": {
+                "title": "11. Kinders se Privaatheid",
+                "content": "UrbanDrop is nie vir persone onder 18 nie en ons versamel nie bewustelik hul data nie."
+            },
+            "international": {
+                "title": "12. Internasionale Data-oordragte",
+                "content": "Data-oordragte buite die VK/EEA word beskerm deur toepaslike waarborge soos Standaard Kontraktuele Klousules."
+            },
+            "updates": {
+                "title": "13. Veranderinge aan Hierdie Beleid",
+                "content": "Ons kan hierdie beleid opdateer. Belangrike veranderinge sal gekommunikeer word."
+            },
+            "contact": {
+                "title": "14. Kontak Ons",
+                "intro": "Kontak ons vir enige vrae:",
+                "companyName": "UrbanDrop Group Ltd",
+                "location": "Bristol, Verenigde Koninkryk",
+                "email": "support@urbandrop.io",
+                "ico": "Information Commissioner's Office (ICO):",
+                "icoWebsite": "ico.org.uk",
+                "icoPhone": "0303 123 1113"
+            }
         }
     },
     "cookiesPolicy": {
@@ -862,15 +785,20 @@
             "goBack": "Gaan Terug",
             "features": {
                 "browseMenu": {
-                    "title": "Blaai Deur Spyskaart",
+                    "title": "Blaai deur spyskaart",
                     "desc": "Verken ons heerlike opsies"
                 },
                 "becomeMerchant": {
-                    "title": "Word ’n Handelaar",
+                    "title": "Word 'n handelaar",
                     "desc": "Sluit aan by ons netwerk van verkopers"
+                },
+                "advertise": {
+                    "title": "Adverteer by ons",
+                    "desc": "Bevorder jou handelsmerk aan miljoene"
                 }
             },
-            "illustration": "Ons kon nie die bladsy vind nie, maar ons het hierdie vars bestanddele gevind!"
+            "illustration": "Ons kon nie die bladsy vind nie, maar ons het hierdie vars bestanddele gevind!",
+            "searchSuggestion": "Probeer soek vir wat jy nodig het of besoek ons Hulp Sentrum."
     },
     "cookieConsent": {
             "banner": {
@@ -1176,4 +1104,3 @@
             }
         }
     }
-}

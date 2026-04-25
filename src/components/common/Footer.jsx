@@ -50,7 +50,7 @@ const Footer = () => {
     { name: t('footer.cookiesPolicy'), href: "/cookies-policy" },
     { name: t('footer.termsConditions'), href: "/terms-and-conditions" },
     { name: t('footer.manageCookies'), action: "openCookiePreferences" },
-    { name: 'Report a Bug', action: 'reportBug' },
+    { name: t('footer.reportABug'), action: 'reportBug' },
   ];
 
   const importantLinks = [
@@ -58,7 +58,6 @@ const Footer = () => {
     { name: t('footer.customer'), href: "/customer" },
     { name: t('footer.advertise'), href: "/advertise" },
     { name: t('footer.beMerchant'), href: "/become-merchant" },
-    { name: "Join Beta", href: "/beta" },
   ];
 
   return (

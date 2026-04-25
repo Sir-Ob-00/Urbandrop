@@ -26,8 +26,23 @@
         "customer": "Customer",
         "advertise": "Advertise on Urbandrop",
         "beMerchant": "Become a Merchant",
+        "reportABug": "Report a Bug",
+        "joinBeta": "Join Beta",
         "rightsReserved": "Urbandrop Group Ltd. All rights reserved.",
         "companyNumber": "Company number"
+    },
+    "termsAndConditions": {
+        "pageTitle": "Terms & Conditions",
+        "pageDescription": "Please read these terms carefully before using our platform. They outline your rights and responsibilities when using Urbandrop.",
+        "lastUpdated": "Last Updated:",
+        "tableOfContents": "Table of Contents",
+        "sections": {
+            "general": "General Terms",
+            "merchants": "Merchants",
+            "customers": "Customers",
+            "promotions": "Promotions",
+            "riders": "Riders"
+        }
     },
     "home": {
         "hero": {
@@ -155,38 +170,13 @@
             "title4": "Empowering Locals",
             "desc": "UrbanDrop is dedicated to bringing the richness of ethnic cuisines to your doorstep while supporting local merchants and celebrating cultural diversity."
         },
-        "purpose": {
-            "title1": "Built With a",
-            "title2": "Purpose",
-            "quote": "To simplify daily movement and bring convenience closer to people."
-        },
-        "ecosystem": {
-            "title": "The Ecosystem",
-            "subtitle": "Where everything comes together.",
-            "customers": {
-                "title": "Customers",
-                "subtitle": "Direct Access"
-            },
-            "merchants": {
-                "title": "Merchants",
-                "subtitle": "Growth Engine"
-            },
-            "riders": {
-                "title": "Riders",
-                "subtitle": "Flexible Earnings"
-            },
-            "businesses": {
-                "title": "Businesses",
-                "subtitle": "Logistics Solved"
-            }
-        },
         "highlights": {
             "title": "Our Commitment",
             "subtitle": "Value driven growth",
             "item1": "Swift Service",
-            "item3": "User Centric",
-            "item4": "Market Growth",
-            "item5": "Secure Payments"
+            "item2": "User Centric",
+            "item3": "Market Growth",
+            "item4": "Secure Payments"
         },
         "process": {
             "step1": "Discover",
@@ -245,7 +235,6 @@
             "title1": "Curated",
             "title2": "For You",
             "subtitle": "Explore collections tailored to your taste",
-            "explore": "Explore Collection",
             "categories": {
                 "topPicks": {
                     "name": "Top Picks Near You",
@@ -324,30 +313,15 @@
                 "convenience": {
                     "title": "Experience Convenience",
                     "subtitle": "Shop from your favorite local stores."
-                },
-                "safe": {
-                    "title": "Feel Safe",
-                    "subtitle": "Contactless delivery options available."
-                },
-                "deals": {
-                    "title": "Best Deals",
-                    "subtitle": "Exclusive offers just for you."
                 }
             }
         },
         "appDownload": {
             "title1": "Taste the",
             "title2": "Urbandrop Experience",
-            "title3": "Faster Than Ever",
-            "desc": "Download the Urbandrop app for exclusive deals, faster checkout, and real-time order tracking.",
             "ios": "Download for Apple",
             "android": "Download for Android",
-            "countdown": {
-                "days": "Days",
-                "hours": "Hours",
-                "minutes": "Minutes",
-                "seconds": "Seconds"
-            }
+            "customerTerms": "View Customer Terms & Conditions"
         },
         "faq": {
             "title": "Frequently Asked Questions",
@@ -638,175 +612,135 @@
     },
     "privacyPolicy": {
         "hero": {
-            "title": "Privacy",
-            "highlight": "Policy",
-            "subtitle": "Your privacy matters to us.",
-            "effectiveDate": "Effective Date: {{date}}"
+            "lastModified": "Last Modified: 11 April 2026",
+            "title": "UrbanDrop",
+            "highlight": "Privacy Policy",
+            "subtitle": "We are committed to protecting your privacy. This policy explains how we collect, use, share, and protect your personal data."
         },
         "sections": {
             "whoWeAre": {
-                "title": "Who We Are",
+                "title": "1. Who We Are",
                 "content": [
-                    "UrbanDrop Group Limited is a company registered in England and Wales under company number 16026087.",
-                    "We operate an online marketplace connecting customers with merchants who sell groceries, prepared foods, and ethnic products for delivery or collection."
+                    "UrbanDrop is a food delivery platform operated by UrbanDrop Group Ltd, a company registered in the United Kingdom. We connect customers with local African, Caribbean, and Asian food vendors.",
+                    "UrbanDrop (\"we,\" \"us,\" \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, share, and protect your personal data when you use our platform. Please read it carefully. If you do not agree with our practices, please do not use our services."
+                ]
+            },
+            "lawfulBasis": {
+                "title": "2. Lawful Basis for Processing",
+                "intro": "We process your personal data on the following legal grounds under UK GDPR:",
+                "items": [
+                    "Contract performance — to provide the services you have requested, including order fulfilment and delivery.",
+                    "Legal obligation — to comply with applicable laws and regulations.",
+                    "Legitimate interests — to improve our platform, prevent fraud, and ensure security, where your rights do not override these interests.",
+                    "Consent — for marketing communications and non-essential cookies. You may withdraw consent at any time."
                 ]
             },
             "infoCollect": {
-                "title": "Information We Collect",
-                "intro": "We collect personal information that helps us deliver, improve, and manage our services. This may include:",
-                "direct": {
-                    "title": "Information You Provide Directly",
-                    "items": [
-                        "Name, contact number, and delivery address.",
-                        "Email address and account password.",
-                        "Payment and billing information (processed securely by our payment partners).",
-                        "Feedback, messages, or reviews you submit.",
-                        "Merchant registration details (for business users), including company name, trading address, and bank account details."
-                    ]
-                },
-                "automatic": {
-                    "title": "Information Collected Automatically",
-                    "intro": "When you use UrbanDrop, we may automatically collect:",
-                    "items": [
-                        "Device and browser information (IP address, operating system, device type).",
-                        "Location data (if you allow location services).",
-                        "Usage data such as pages visited, app interactions, and order activity.",
-                        "Log files and diagnostic data to improve performance and security."
-                    ]
-                },
-                "thirdParty": {
-                    "title": "Information from Third Parties",
-                    "intro": "We may receive information from:",
-                    "items": [
-                        "Payment providers (e.g., to confirm transaction status).",
-                        "Identity verification services.",
-                        "Delivery partners (e.g., order delivery status).",
-                        "Analytics and advertising partners that help us understand usage trends."
-                    ]
-                }
+                "title": "3. Information We Collect",
+                "intro": "We collect the following personal data:",
+                "items": [
+                    "Personal details — name, email address, phone number, and delivery address.",
+                    "Payment information — card details, billing address, and transaction history. Payment data is processed directly by our payment provider and is not stored by us.",
+                    "Location data — real-time location, only when you use location-based features such as finding nearby vendors.",
+                    "Device information — IP address, device type, operating system, app version, and browser type.",
+                    "Usage data — how you interact with our app, including search history, order history, and customer support interactions."
+                ]
             },
             "howWeUse": {
-                "title": "How We Use Your Information",
-                "intro": "We use personal data to:",
+                "title": "4. How We Use Your Information",
+                "intro": "We use your personal data to:",
                 "items": [
-                    "Process and deliver your orders.",
-                    "Communicate with you about your account, orders, and customer support requests.",
-                    "Verify your identity and prevent fraud.",
-                    "Manage payments, refunds, and credits.",
-                    "Provide merchants with order details necessary for fulfilment.",
-                    "Personalize your experience and recommend relevant products.",
-                    "Improve platform functionality, performance, and content.",
-                    "Comply with legal and regulatory obligations."
-                ],
-                "legalBasis": {
-                    "intro": "We will only use your data where we have a lawful basis to do so under data protection laws, such as:",
-                    "items": [
-                        "To perform our contract with you (e.g., fulfil an order).",
-                        "To comply with legal obligations.",
-                        "For legitimate business interests (e.g., improving user experience).",
-                        "With your consent (e.g., marketing)."
-                    ]
-                }
-            },
-            "marketing": {
-                "title": "Marketing Communications",
-                "content": [
-                    "We may send you marketing emails or notifications about new products, offers, or promotions if you have given us permission.",
-                    "You can opt out at any time by:"
-                ],
-                "items": [
-                    "Clicking \"unsubscribe\" in any marketing email, or",
-                    "Adjusting your preferences in the UrbanDrop app or contacting us directly."
-                ],
-                "note": "Even if you opt out, we may still send non-promotional messages (e.g., order confirmations or account notices)."
+                    "Fulfil orders — process and deliver your food and grocery orders.",
+                    "Provide customer support — respond to queries, complaints, and requests.",
+                    "Personalise your experience — offer recommendations based on your preferences and order history.",
+                    "Process payments — handle transactions securely.",
+                    "Send marketing — with your consent, send promotional offers, updates, and surveys. You can opt out at any time.",
+                    "Meet legal obligations — comply with tax regulations, fraud prevention requirements, and other legal duties.",
+                    "Improve our service — analyse usage patterns to enhance the platform."
+                ]
             },
             "sharing": {
-                "title": "Sharing Your Information",
-                "intro": "We may share limited personal data with:",
+                "title": "5. Sharing Your Information",
+                "intro": "We may share your personal data with:",
                 "items": [
-                    "<strong>Merchants:</strong> to prepare, fulfil, and deliver your order.",
-                    "<strong>Delivery Partners:</strong> to deliver your order accurately and safely.",
-                    "<strong>Payment Processors:</strong> to process payments securely.",
-                    "<strong>IT and Cloud Providers:</strong> who help us operate our systems.",
-                    "<strong>Analytics and Advertising Partners:</strong> to improve services and marketing effectiveness.",
-                    "<strong>Regulators or Law Enforcement:</strong> where required by law or to protect our rights."
+                    "Vendors — your name, order details, and delivery address are shared to fulfil your order.",
+                    "Riders — your name, address, and contact number are shared for delivery. Riders lose access to this data once delivery is confirmed.",
+                    "Payment processors — our payment partner is PCI-DSS certified and securely handles your payment data.",
+                    "Service providers — trusted third parties who support our operations, including analytics, marketing, and customer service.",
+                    "Authorities — we may disclose data where required by law, to protect our rights, or to prevent fraud.",
+                    "Buyers or successors — in the event of a merger, acquisition, or asset sale, your data may transfer to the new entity. We will notify affected users."
                 ],
-                "note": "We do not sell your personal data to third parties."
+                "note": "We do not sell your personal data."
             },
             "retention": {
-                "title": "Data Retention",
-                "intro": "We keep your personal information for as long as necessary to fulfil the purposes for which it was collected, including legal, accounting, or reporting requirements.",
+                "title": "6. Data Retention",
+                "intro": "We keep personal data only for as long as necessary. Our standard retention periods are:",
                 "items": [
-                    "<strong>Customer order records:</strong> retained for up to 6 years under UK tax and consumer laws.",
-                    "<strong>Merchant data:</strong> retained for as long as the account remains active and for 6 years thereafter.",
-                    "<strong>Support messages and feedback:</strong> retained for operational and legal reference."
-                ],
-                "note": "When data is no longer needed, we securely delete or anonymize it."
-            },
-            "security": {
-                "title": "Data Security",
-                "content": [
-                    "We use appropriate technical and organizational measures to protect your data against unauthorized access, disclosure, alteration, or loss.",
-                    "These include:"
-                ],
-                "items": [
-                    "Encrypted data transmission (SSL/TLS).",
-                    "Secure payment gateways (PCI DSS compliant).",
-                    "Access controls and authentication systems.",
-                    "Regular security monitoring and audits."
-                ],
-                "note": "However, no online service is entirely risk-free. You are responsible for safeguarding your account credentials."
-            },
-            "international": {
-                "title": "International Transfers",
-                "intro": "Some of our service providers or partners may process your data outside the UK or European Economic Area (EEA). Where this occurs, we ensure appropriate safeguards are in place, such as:",
-                "items": [
-                    "Adequacy decisions approved by the UK or EU.",
-                    "Standard Contractual Clauses (SCCs).",
-                    "Binding corporate rules or equivalent protection mechanisms."
+                    "Order and transaction data — up to seven years, to comply with tax and accounting requirements.",
+                    "Account information — until you delete your account, after which we delete or anonymise your data unless we are legally required to retain it.",
+                    "Marketing preferences — until you withdraw consent."
                 ]
             },
             "rights": {
-                "title": "Your Rights",
-                "intro": "Under the UK GDPR, you have the following rights regarding your personal data:",
+                "title": "7. Your Rights",
+                "intro": "Under UK data protection law, you have the right to:",
                 "items": [
-                    "<strong>Access:</strong> to request a copy of your data.",
-                    "<strong>Rectification:</strong> to correct inaccurate or incomplete data.",
-                    "<strong>Erasure (\"Right to be Forgotten\"):</strong> to request deletion of your data when it's no longer needed.",
-                    "<strong>Restriction:</strong> to limit how your data is processed.",
-                    "<strong>Portability:</strong> to receive your data in a usable format or have it transferred to another provider.",
-                    "<strong>Objection:</strong> to object to processing for legitimate interest or direct marketing.",
-                    "<strong>Withdrawal of Consent:</strong> if processing is based on consent."
+                    "Access — request a copy of the personal data we hold about you.",
+                    "Correction — ask us to correct inaccurate or incomplete data.",
+                    "Deletion — request that we delete your data, subject to legal obligations.",
+                    "Restriction — ask us to limit how we process your data in certain circumstances.",
+                    "Data portability — receive your data in a structured, machine-readable format.",
+                    "Objection — object to processing based on legitimate interests, including direct marketing.",
+                    "Withdraw consent — withdraw consent at any time where processing is consent-based."
                 ],
-                "contact": "To exercise any of these rights, contact us at <a href=\"mailto:DPO@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">DPO@urbandrop.io</a>. We may ask for verification before fulfilling your request."
+                "contact": "To exercise any of these rights, contact us at support@urbandrop.io. We will respond within one month, in line with UK GDPR requirements.",
+                "complaint": "If you are not satisfied with how we handle your data, you have the right to lodge a complaint with the Information Commissioner's Office (ICO) at ico.org.uk or by calling 0303 123 1113."
+            },
+            "security": {
+                "title": "8. Security",
+                "intro": "We use industry-standard measures to protect your data, including:",
+                "items": [
+                    "Encryption — data is transmitted securely using SSL/TLS protocols.",
+                    "Access controls — personal data is accessible only to authorised personnel.",
+                    "Secure storage — data is held in protected environments."
+                ],
+                "note": "No method of transmission or storage is completely secure. While we take all reasonable steps to protect your data, we cannot guarantee absolute security."
             },
             "cookies": {
-                "title": "Cookies and Tracking",
-                "content": [
-                    "UrbanDrop uses cookies and similar technologies to improve user experience, remember preferences, and analyze traffic.",
-                    "You can manage or disable cookies in your browser settings, but doing so may affect the Platform's functionality.",
-                    "For more details, please see our Cookie Policy."
-                ]
-            },
-            "children": {
-                "title": "Children's Privacy",
-                "content": "UrbanDrop is not directed at children under 18, and we do not knowingly collect personal data from minors. If we become aware that we have collected such data, we will delete it promptly."
+                "title": "9. Cookies and Tracking Technologies",
+                "intro": "We use cookies and similar technologies to improve your experience. Cookies help us:",
+                "items": [
+                    "Remember your preferences.",
+                    "Analyse how you use our platform.",
+                    "Deliver relevant advertising."
+                ],
+                "consent": "Where cookies are not strictly necessary, we will ask for your consent before placing them, in line with UK PECR rules. You can manage or disable cookies through your browser settings, though this may affect some functionality."
             },
             "links": {
-                "title": "Links to Other Sites",
-                "content": "Our Platform may include links to third-party websites. We are not responsible for the content, privacy practices, or security of those external sites."
+                "title": "10. Third-Party Links",
+                "content": "Our platform may contain links to third-party websites. We are not responsible for the content or privacy practices of those sites. We encourage you to read their privacy policies before sharing any personal data."
+            },
+            "children": {
+                "title": "11. Children's Privacy",
+                "content": "UrbanDrop is not intended for anyone under the age of 18. We do not knowingly collect personal data from children. If we become aware that we have done so, we will delete it promptly."
+            },
+            "international": {
+                "title": "12. International Data Transfers",
+                "content": "UrbanDrop operates within the UK and complies with UK GDPR. Where personal data is transferred outside the UK or EEA, we ensure appropriate safeguards are in place, such as Standard Contractual Clauses."
             },
             "updates": {
-                "title": "Updates to This Policy",
-                "content": "We may update this Privacy Policy from time to time. The latest version will always be available on our website or app. If changes are significant, we will notify users by email or app notification before they take effect."
+                "title": "13. Changes to This Policy",
+                "content": "We may update this Privacy Policy from time to time. When we make significant changes, we will update the \"Last Modified\" date at the top and, where appropriate, notify you directly. Continued use of our platform after changes are posted constitutes acceptance of the updated policy."
             },
             "contact": {
-                "title": "Contact Us",
-                "intro": "If you have any questions, concerns, or data protection requests, contact:",
-                "companyName": "UrbanDrop Group Limited",
-                "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">support@urbandrop.io</a>",
-                "ico": "You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) in the UK.",
-                "website": "Website: <a href=\"https://www.ico.org.uk\" target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-[#5CB35E] hover:underline font-medium\">www.ico.org.uk</a>"
+                "title": "14. Contact Us",
+                "intro": "If you have any questions or concerns about this Privacy Policy, please contact us:",
+                "companyName": "UrbanDrop Group Ltd",
+                "location": "Bristol, United Kingdom",
+                "email": "support@urbandrop.io",
+                "ico": "Information Commissioner's Office (ICO):",
+                "icoWebsite": "ico.org.uk",
+                "icoPhone": "0303 123 1113"
             }
         }
     },
@@ -1180,6 +1114,1311 @@
                 "content": "For questions, complaints, or refund requests, please contact:",
                 "companyName": "UrbanDrop Group Limited",
                 "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+            },
+            "customerTerms": {
+                "title": "Customer Terms & Conditions",
+                "intro": "The terms that govern your use of the Urbandrop app and website, including orders, payments, subscriptions and recipe content.",
+                "effective": "EFFECTIVE",
+                "effectiveDate": "23 April 2026",
+                "version": "VERSION",
+                "versionNumber": "1.0",
+                "jurisdiction": "JURISDICTION",
+                "jurisdictionValue": "England & Wales",
+                "governedBy": "GOVERNED BY",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                    "title": "PLEASE READ BEFORE YOU ORDER",
+                    "content": "These Terms form a legal contract between you and Urbandrop Group Limited. By creating an account, placing an order or subscribing to Urbandrop+, you accept these Terms. Your statutory rights under the Consumer Rights Act 2015 and the Consumer Contracts Regulations 2013 apply regardless of anything in this document and are not affected by it."
+                },
+                "contents": {
+                    "title": "CONTENTS",
+                    "twentyTwoClauses": "Twenty-two clauses",
+                    "clause01": "01 Who We Are & These Terms",
+                    "clause02": "02 Your Account",
+                    "clause03": "03 Service Area & Availability",
+                    "clause04": "04 Placing an Order",
+                    "clause05": "05 Prices, Fees & Payment",
+                    "clause06": "06 Delivery",
+                    "clause07": "07 Age-Restricted Products",
+                    "clause08": "08 Missing, Damaged or Wrong Items",
+                    "clause09": "09 Cancellations & Your Right to Cancel",
+                    "clause10": "10 Urbandrop+ Subscription",
+                    "clause11": "11 Recipes & User Content",
+                    "clause12": "12 Food Safety, Allergens & Dietary Information",
+                    "clause13": "13 Promotions & Vouchers",
+                    "clause14": "14 Acceptable Use",
+                    "clause15": "15 Our Liability to You",
+                    "clause16": "16 Data Protection & Privacy",
+                    "clause17": "17 Intellectual Property",
+                    "clause18": "18 Complaints & Disputes",
+                    "clause19": "19 Changes to these Terms",
+                    "clause20": "20 Termination",
+                    "clause21": "21 General Legal Terms",
+                    "clause22": "22 Contact"
+                },
+                "clause01": {
+                    "title": "CLAUSE 01",
+                    "subtitle": "Who We Are & These Terms",
+                    "content1": "These Customer Terms & Conditions (the \"Terms\") form a contract between you (the \"Customer\", \"you\") and Urbandrop Group Limited (\"Urbandrop\", \"we\", \"us\", \"our\"), a private limited company registered in England & Wales with company number [00000000] and registered office at [Registered Office Address].",
+                    "content2": "These Terms apply when you visit urbandrop.io, use our mobile apps, create an account, place an order, subscribe to Urbandrop+, or view or interact with recipes on the Platform. By doing any of those things, you agree to be bound by these Terms.",
+                    "whatUrbandropDoes": {
+                        "title": "What Urbandrop does",
+                        "content": "Urbandrop operates a multi-merchant marketplace and recipe platform specialising in African, Caribbean and Asian groceries and culturally relevant products. We connect you with independent merchants (the \"Merchants\") who list and sell their products, and we arrange last-mile delivery either ourselves or through third-party logistics partners. For most orders, Urbandrop acts as your agent in concluding the sale between you and the Merchant; the contract for the goods is with the Merchant, though we process payment and handle customer support on the Merchant's behalf. Where Urbandrop fulfils an order from one of its own micro-fulfilment centres, the contract for those goods is directly with Urbandrop."
+                    },
+                    "definedTerms": "Defined terms",
+                    "terms": {
+                        "platform": {
+                            "term": "Platform",
+                            "definition": "The Urbandrop website (urbandrop.io), iOS and Android apps, recipe content, and any related services we operate."
+                        },
+                        "account": {
+                            "term": "Account",
+                            "definition": "Your personal account on the Platform."
+                        },
+                        "order": {
+                            "term": "Order",
+                            "definition": "A request you place through the Platform to purchase products from one or more Merchants."
+                        },
+                        "merchant": {
+                            "term": "Merchant",
+                            "definition": "An independent retailer, supermarket or vendor listed on the Platform."
+                        },
+                        "rider": {
+                            "term": "Rider",
+                            "definition": "The delivery person who brings your Order from the Merchant to your delivery address, who may be engaged directly by us or through a delivery partner."
+                        },
+                        "urbandropPlus": {
+                            "term": "Urbandrop+",
+                            "definition": "Our paid subscription service described in Clause 10."
+                        },
+                        "recipeContent": {
+                            "term": "Recipe Content",
+                            "definition": "Recipes, videos, images, and related content published on the Platform by us or by third-party creators."
+                        },
+                        "statutoryRights": {
+                            "term": "Statutory Rights",
+                            "definition": "Your rights as a consumer under UK law, including the Consumer Rights Act 2015 and the Consumer Contracts Regulations 2013, which apply regardless of these Terms."
+                        }
+                    }
+                },
+                "clause02": {
+                    "title": "CLAUSE 02",
+                    "subtitle": "Your Account",
+                    "whoCanCreate": {
+                        "title": "2.1 Who can create an account",
+                        "content": "You must be at least 18 years old to create an Account. If you are 16 or 17, you may use the Platform only under the supervision of a parent or guardian who is contractually responsible for your Orders."
+                    },
+                    "accurateInfo": {
+                        "title": "2.2 Accurate information",
+                        "content": "You must provide accurate, current and complete information when creating your Account and keep it up to date. You are responsible for the security of your login credentials. If you think someone else has used your Account, notify us immediately at support@urbandrop.io."
+                    },
+                    "oneAccount": {
+                        "title": "2.3 One account per person",
+                        "content": "You may hold only one Account at a time. We may merge or close duplicate accounts at our discretion (any Urbandrop credit will be transferred to the surviving account)."
+                    },
+                    "personalUse": {
+                        "title": "2.4 Using the Platform for yourself",
+                        "content": "You may use the Platform only for your own personal, non-commercial use. You may not resell products bought through the Platform, use an Account for another person's commercial purposes, or place orders using someone else's payment method without their permission."
+                    }
+                },
+                "clause03": {
+                    "title": "CLAUSE 03",
+                    "subtitle": "Service Area & Availability",
+                    "whereWeDeliver": {
+                        "title": "3.1 Where we deliver",
+                        "content": "Urbandrop is currently available in selected UK postcodes, starting in Bristol and expanding to Birmingham, London, Manchester and other UK cities over time. The app will tell you at checkout whether your address falls within an active service zone. We may add, change or remove service zones at any time."
+                    },
+                    "whenWeDeliver": {
+                        "title": "3.2 When we deliver",
+                        "content": "Delivery hours depend on the Merchant and your location and are shown in the app. Some Merchants and some products are only available at certain times."
+                    },
+                    "stockAvailability": {
+                        "title": "3.3 Stock availability",
+                        "content": "Product availability depends on the merchant's stock, which changes throughout the day. Occasionally, an item shown as available at checkout may be unavailable when the Merchant starts picking your Order. In that case, Clause 8 applies."
+                    }
+                },
+                "clause04": {
+                    "title": "CLAUSE 04",
+                    "subtitle": "Placing an Order",
+                    "contractFormed": {
+                        "title": "4.1 How a contract is formed",
+                        "content": "When you place an Order through the Platform you are making an offer to buy the listed products. A contract is formed only when we (acting as the Merchant's agent, or for our own-fulfilment items, as seller) confirm that the Merchant has accepted your Order. Confirmation appears in the app and is typically sent as an email or push notification."
+                    },
+                    "orderChanges": {
+                        "title": "4.2 Order changes",
+                        "content": "Once an Order has been accepted, you cannot change it through the app. You can contact support, but by that stage the Merchant may already be picking or have dispatched your Order, and we may not be able to change it."
+                    },
+                    "minimumOrder": {
+                        "title": "4.3 Minimum order",
+                        "content": "A minimum order value may apply. If your basket is below the Merchant's minimum, the app will show a small uplift fee or ask you to add more items. The current minimum and uplift fees are displayed at checkout."
+                    },
+                    "substitutions": {
+                        "title": "4.4 Substitutions",
+                        "content": "If an item is unavailable when the Merchant is picking your Order, the Merchant or we may offer a substitute. If a substitute is provided and you do not want it, you can reject it at the door or report it under Clause 8, and we will refund it."
+                    },
+                    "rightToRefuse": {
+                        "title": "4.5 Right to refuse",
+                        "content": "We reserve the right to refuse or cancel an Order where, for example, the product is unavailable, the price was listed incorrectly due to an obvious error, we suspect fraudulent activity, the delivery address is outside our service zone, or the Order breaches these Terms or applicable law. If we do so, you will receive a full refund and we will tell you the reason."
+                    }
+                },
+                "clause05": {
+                    "title": "CLAUSE 05",
+                    "subtitle": "Prices, Fees & Payment",
+                    "productPrices": {
+                        "title": "5.1 Product prices",
+                        "content": "Product prices are set by the Merchant (or by Urbandrop for our own-fulfilment items) and shown in the app in pounds sterling (GBP) inclusive of VAT where applicable. Prices may differ from in-store prices at the same Merchant and may change at any time before you place your Order."
+                    },
+                    "fees": {
+                        "title": "5.2 Fees",
+                        "content": "Typical fees shown at checkout include:",
+                        "items": [
+                            "<strong>Delivery fee</strong> — varies by distance, time of day and demand. Urbandrop+ subscribers receive free or priority delivery on qualifying orders (see Clause 10).",
+                            "<strong>Service fee</strong> — a percentage of your basket, charged on every Order, which contributes to running the Platform.",
+                            "<strong>Small-basket uplift</strong> — a small fee applied when your basket falls below the minimum order threshold.",
+                            "<strong>Tips</strong> — optional. 100% of any tip goes to the Rider; Urbandrop does not retain any portion."
+                        ]
+                    },
+                    "surgePricing": {
+                        "title": "5.3 Surge and weather pricing",
+                        "content": "Delivery fees may increase during peak demand, adverse weather, or low-Rider-availability periods. The app will always show you the fee clearly before you confirm the Order."
+                    },
+                    "payment": {
+                        "title": "5.4 Payment",
+                        "content": "We accept major debit and credit cards, Apple Pay, Google Pay and any other payment methods shown at checkout. Payment is processed by our payment provider; we do not store full card details on our systems. By placing an Order you authorise us to charge your selected payment method for the full amount of the Order."
+                    },
+                    "preAuth": {
+                        "title": "5.5 Pre-authorisation",
+                        "content": "When you place an Order, we may place a temporary hold (pre-authorisation) on your payment method for the Order value. This is not a charge; the actual charge is taken when your Order is confirmed or dispatched. Pre-authorisation holds typically drop off within 3–7 working days depending on your bank."
+                    },
+                    "receipts": {
+                        "title": "5.6 Receipts",
+                        "content": "A receipt for each Order is available in the app and, where you've chosen it, by email."
+                    }
+                },
+                "clause06": {
+                    "title": "CLAUSE 06",
+                    "subtitle": "Delivery",
+                    "deliveryTime": {
+                        "title": "6.1 Delivery time estimate",
+                        "content": "Delivery times shown in the app are estimates, not guarantees. Typical Orders arrive within 30–90 minutes, but actual times depend on Merchant preparation, Rider availability, traffic and weather."
+                    },
+                    "whereWeDeliver": {
+                        "title": "6.2 Where we deliver",
+                        "content": "We deliver to the address you select at checkout. You are responsible for making sure the address is correct and accessible. We cannot deliver to PO Boxes, lockers, or addresses where safe delivery is not reasonably possible. Where the building has restricted access, you must give clear instructions (buzzer, flat number, access code) in the delivery notes."
+                    },
+                    "handover": {
+                        "title": "6.3 Handover",
+                        "content": "Unless you have selected \"leave at door\" or another contact-free option, an adult must be available at the delivery address to receive the Order. For age-restricted items (Clause 7), contact-free delivery is not available."
+                    },
+                    "ifNoOneAvailable": {
+                        "title": "6.4 If no one is available",
+                        "content": "If the Rider cannot reach you on arrival (no answer at the door, no response to app or phone contact), they will wait a reasonable time (typically 5 minutes) before reporting the Order as undeliverable. In that case:",
+                        "items": [
+                            "perishable items (fresh meat, dairy, fresh produce, frozen items) may be safely disposed of to prevent food-safety risk, and are not refundable beyond what your statutory rights require;",
+                            "non-perishable items may be returned to the Merchant or held for re-delivery if feasible, at our discretion and potentially for an additional fee;",
+                            "the delivery fee is not refundable where the fault is not ours."
+                        ]
+                    },
+                    "leaveAtDoor": {
+                        "title": "6.5 Leave-at-door",
+                        "content": "If you select leave-at-door or give consent to leave the Order in a specified safe place, risk in the goods passes to you once the Rider has left the Order there and captured the confirmation photo. We are not responsible for theft or tampering after that point."
+                    },
+                    "riskOwnership": {
+                        "title": "6.6 Risk and ownership",
+                        "content": "Risk in the goods passes to you on handover (or on leave-at-door placement under 6.5). Ownership passes to you once full payment has been received and the goods have been handed over."
+                    }
+                },
+                "clause07": {
+                    "title": "CLAUSE 07",
+                    "subtitle": "Age-Restricted Products",
+                    "intro": "Certain products sold on the Platform are restricted by law in the UK, including alcohol, tobacco products, nicotine-vaping products, knives and bladed products, and certain solvents. We comply strictly with the Licensing Act 2003, the Tobacco and Related Products Regulations 2016, the Offensive Weapons Act 2019 and all related legislation.",
+                    "minimumAge": {
+                        "title": "7.1 Minimum age",
+                        "content": "You must be at least 18 years old to order alcohol, tobacco, vapes or knives through the Platform. By placing an Order for these items you confirm that you are 18 or over."
+                    },
+                    "challenge25": {
+                        "title": "7.2 Challenge 25 on delivery",
+                        "content": "We operate a Challenge 25 policy. If the person receiving the Order appears to be under 25, the Rider will ask for photo ID (UK passport, UK photocard driving licence, or Home Office-issued identity document). The Rider is required by law to refuse to hand over the restricted items if ID cannot be produced or if the recipient appears intoxicated."
+                    },
+                    "idFails": {
+                        "title": "7.3 What happens if ID fails",
+                        "content": "If the restricted items are refused at the door, those items will be returned to the Merchant and your payment method refunded for those items. The rest of the Order will be delivered as normal. The delivery fee is not refundable where delivery was attempted in good faith."
+                    },
+                    "proxyPurchasing": {
+                        "title": "7.4 Proxy purchasing",
+                        "content": "It is a criminal offence to buy alcohol, tobacco or similar restricted items on behalf of a person under 18. If we have reason to believe your Order is a proxy purchase, we will refuse or cancel it, may suspend or terminate your Account, and may report the matter to the police and relevant licensing authority."
+                    }
+                },
+                "clause08": {
+                    "title": "CLAUSE 08",
+                    "subtitle": "Missing, Damaged or Wrong Items",
+                    "intro": "We want you to be happy with every Order. If something isn't right, here's how we typically resolve it — alongside your statutory rights which always apply.",
+                    "resolutionMatrix": {
+                        "title": "8.1 Resolution matrix",
+                        "issue": "ISSUE",
+                        "typicalResolution": "TYPICAL RESOLUTION",
+                        "reportBy": "REPORT BY",
+                        "rows": [
+                            { "issue": "Missing item from a delivered order", "resolution": "Refund for the missing item (to original payment method) or Urbandrop credit — your choice", "timeframe": "Within 48 hours of delivery" },
+                            { "issue": "Damaged or spoilt item", "resolution": "Refund or replacement on your next order, at your choice", "timeframe": "Within 48 hours of delivery" },
+                            { "issue": "Wrong item delivered", "resolution": "Refund for the wrong item; you keep or dispose of it", "timeframe": "Within 48 hours of delivery" },
+                            { "issue": "Order did not arrive", "resolution": "Full refund (including delivery fee) or redelivery", "timeframe": "Within 24 hours of expected time" },
+                            { "issue": "Quality not as expected (e.g., off taste, poor appearance)", "resolution": "Case-by-case goodwill resolution; statutory rights apply under Consumer Rights Act 2015", "timeframe": "Within 14 days" },
+                            { "issue": "Order cancelled by you after placement", "resolution": "See Clause 9 — varies by order stage", "timeframe": "Via the app before Merchant accepts" },
+                            { "issue": "Order cancelled by Merchant or Urbandrop", "resolution": "Full refund automatically; no action needed", "timeframe": "—" }
+                        ]
+                    },
+                    "howToReport": {
+                        "title": "8.2 How to report an issue",
+                        "content": "Use the \"Help with this Order\" option in the app, or email support@urbandrop.io. Have the Order number, a description of the issue, and photos where relevant. We aim to respond within two (2) working days and resolve within five (5) working days, and usually much faster for straightforward cases."
+                    },
+                    "whenRefundsIssued": {
+                        "title": "8.3 When refunds are issued",
+                        "content": "Where a refund is agreed, it will be made to your original payment method and typically arrives within 3–10 working days depending on your bank. For Urbandrop credit, it is added to your Account immediately and appears on your next Order."
+                    },
+                    "whenWeDecline": {
+                        "title": "8.4 When we may decline a refund",
+                        "content": "We may decline a refund request where:",
+                        "items": [
+                            "the issue is reported outside the time windows above without good reason;",
+                            "the item was clearly consumed in full before the issue was raised without a reasonable explanation;",
+                            "we have reasonable evidence the claim is not genuine (for example, repeated identical claims across multiple Orders);",
+                            "the issue results from your own act or omission (for example, selecting leave-at-door in a location where theft was foreseeable)."
+                        ],
+                        "note": "In those cases we will explain our reasoning and you may escalate under Clause 18."
+                    },
+                    "statutoryRights": {
+                        "title": "8.5 Your statutory rights",
+                        "content": "Nothing in this Clause limits your rights under the Consumer Rights Act 2015 (goods must be of satisfactory quality, fit for purpose, and as described) or the Consumer Contracts Regulations 2013. Those rights are in addition to the resolutions above."
+                    },
+                    "fraudulentClaims": {
+                        "title": "FRAUDULENT CLAIMS",
+                        "content": "We take refund claims in good faith. Submitting knowingly false or dishonest claims is fraud under the Fraud Act 2006, will result in Account termination, and we reserve the right to pursue recovery of wrongfully-refunded sums and report the matter to the police."
+                    }
+                },
+                "clause09": {
+                    "title": "CLAUSE 09",
+                    "subtitle": "Cancellations & Your Right to Cancel",
+                    "beforeAcceptance": {
+                        "title": "9.1 Cancelling before Merchant acceptance",
+                        "content": "You can cancel an Order at any time before the Merchant accepts it, through the app. No cancellation fee applies, and you will receive a full refund."
+                    },
+                    "afterAcceptance": {
+                        "title": "9.2 Cancelling after acceptance",
+                        "content": "Once the Merchant has accepted and begun to prepare or pick your Order, cancellation may incur a fee to reflect the costs already incurred:",
+                        "items": [
+                            "Accepted but not yet picked — typically a small cancellation fee covering Merchant and delivery-dispatch costs.",
+                            "Picked but not yet out for delivery — typically a cancellation fee equal to the product cost plus the delivery fee, as perishable and picked goods cannot easily be returned to the shelf.",
+                            "Out for delivery or delivered — cancellation is not normally possible. You may raise an issue under Clause 8 if appropriate."
+                        ],
+                        "note": "The app will show you the applicable cancellation fee (if any) before you confirm cancellation."
+                    },
+                    "rightToCancel": {
+                        "title": "9.3 Right to cancel under the Consumer Contracts Regulations 2013",
+                        "content": "The Consumer Contracts Regulations 2013 give consumers a 14-day \"cooling-off\" period for many online purchases. However, Regulation 28 excludes the cooling-off period for contracts to supply goods liable to deteriorate or expire rapidly (most fresh food and groceries) and sealed goods which are not suitable for return due to health protection or hygiene reasons once unsealed. Because of the nature of our products, the cooling-off period will not typically apply. This does not affect your statutory rights under the Consumer Rights Act 2015."
+                    },
+                    "cancellationByUs": {
+                        "title": "9.4 Cancellation by us",
+                        "content": "We may cancel an Order under Clause 4.5. Where we do, we refund in full and (where the cancellation was not caused by you) will usually offer a credit or goodwill gesture by way of apology."
+                    }
+                },
+                "clause10": {
+                    "title": "CLAUSE 10",
+                    "subtitle": "Urbandrop+ Subscription",
+                    "intro": "Urbandrop+ is our optional paid subscription. This Clause sets out the terms specific to Urbandrop+. All other Clauses of these Terms continue to apply to your Urbandrop+ Orders.",
+                    "whatYouGet": {
+                        "title": "10.1 What you get",
+                        "content": "Urbandrop+ benefits currently include (we may update them from time to time with notice):",
+                        "items": [
+                            "free standard delivery on qualifying Orders above the stated threshold;",
+                            "priority delivery slots where available;",
+                            "exclusive member-only deals and promotional pricing;",
+                            "ad-free recipe browsing."
+                        ],
+                        "note": "Benefits that are subject to third-party availability (for example, priority slots during very high demand) are offered on a reasonable-endeavours basis."
+                    },
+                    "pricing": {
+                        "title": "10.2 Pricing",
+                        "content": "Urbandrop+ is offered on a monthly plan and an annual plan. Prices are shown in the app and include VAT where applicable. We may change future pricing; existing subscribers will be notified at least 30 days before a price change takes effect, and you may cancel if you do not wish to continue at the new price."
+                    },
+                    "freeTrials": {
+                        "title": "10.3 Free trials",
+                        "content": "If you start Urbandrop+ with a free trial, we will tell you at sign-up how long the trial lasts and the price that will apply when it ends. You can cancel before the trial ends, and you will not be charged. If you do not cancel, you authorise us to charge your payment method for the subscription fee when the trial ends, and then at each renewal."
+                    },
+                    "autoRenewal": {
+                        "title": "10.4 Auto-renewal",
+                        "content": "Urbandrop+ renews automatically at the end of each billing period (monthly or annual) unless you cancel. We will charge your selected payment method on the renewal date. This auto-renewal is lawful only because we tell you about it clearly here and in the app. You can turn off auto-renewal at any time in your Account settings."
+                    },
+                    "cancelling": {
+                        "title": "10.5 Cancelling Urbandrop+",
+                        "content": "You can cancel at any time through your Account settings or by contacting support. Cancellation stops future renewals but does not entitle you to a refund of the current billing period, except where:",
+                        "items": [
+                            "Under the Consumer Contracts Regulations 2013, within 14 days of first signing up, you have a 14-day cooling-off period. If you cancel within 14 days, we will refund the subscription fee in full, less a proportional deduction for any use of paid benefits (for example, delivery fees saved).",
+                            "After 14 days, cancellation takes effect at the end of the current billing period. Benefits continue until that date."
+                        ]
+                    },
+                    "changesToBenefits": {
+                        "title": "10.7 Changes to benefits",
+                        "content": "We may add, modify or remove Urbandrop+ benefits. Where a change materially reduces the overall value of the subscription, we will notify you at least 30 days in advance, and you may cancel for a pro rata refund of the unused portion of your subscription."
+                    },
+                    "terminationByUs": {
+                        "title": "10.8 Termination by us",
+                        "content": "We may terminate your Urbandrop+ subscription and close your Account for material breach of these Terms, fraudulent activity, or abusive use of benefits. If we do so for cause, we are not obliged to refund any unused portion. If we terminate without cause, we will refund a pro-rata amount for the unused period."
+                    }
+                },
+                "clause11": {
+                    "title": "CLAUSE 11",
+                    "subtitle": "Recipes & User Content",
+                    "recipePersonalUse": {
+                        "title": "11.1 Recipe Content is for personal use",
+                        "content": "You may view and cook from Recipe Content for your own personal, non-commercial use. Except for what the Platform's share buttons allow (e.g., sharing a link to a recipe on social media), you may not copy, reproduce, republish, or distribute Recipe Content."
+                    },
+                    "accuracyOfRecipes": {
+                        "title": "11.2 Accuracy of recipes",
+                        "content": "Recipes are provided for general information only. Whilst our Creators and we take reasonable care, we do not guarantee that every recipe is error-free or suitable for every individual, particularly where allergies, intolerances, pregnancy, medical conditions or dietary restrictions are concerned. Always check ingredient labels and consult a qualified professional where appropriate."
+                    },
+                    "recipeToBasket": {
+                        "title": "11.3 Recipe-to-basket",
+                        "content": "Many recipes include a \"Shop the recipe\" button that adds suggested ingredients to your basket from available Merchants. Suggested quantities are estimates — check your basket before checkout. Availability, price and Merchant assignment are as shown at checkout."
+                    },
+                    "userContent": {
+                        "title": "11.4 Your User Content",
+                        "content": "If you submit a rating, review, comment, photo or other User Content:",
+                        "items": [
+                            "You must own it or have the right to submit it;",
+                            "you must not submit content that is unlawful, defamatory, obscene, threatening, harassing, discriminatory, misleading, or that infringes anyone else's rights (including privacy and intellectual property);",
+                            "You grant Urbandrop a worldwide, royalty-free, non-exclusive, transferable, sub-licensable licence to use, display, reproduce, adapt, translate and distribute your User Content for the purpose of operating and promoting the Platform. You keep ownership of your User Content;",
+                            "You waive any \"moral rights\" you may have in the User Content under the Copyright, Designs and Patents Act 1988 to the extent permitted by law;",
+                            "we may remove, edit or refuse to publish User Content at our discretion, particularly where it breaches these Terms or we receive a valid takedown request."
+                        ]
+                    },
+                    "reviewsMerchants": {
+                        "title": "11.5 Reviews of Merchants and Products",
+                        "content": "We welcome honest, lawful reviews. Reviews must be based on genuine experience. Fake, incentivised or coordinated reviews may breach the Digital Markets, Competition and Consumers Act 2024 and will be removed."
+                    },
+                    "creatorContent": {
+                        "title": "11.6 Creator content",
+                        "content": "Recipe Content produced by Creators is published under a separate Creator Agreement between Urbandrop and the Creator. For Platform users, the terms above apply. If you believe any Recipe Content infringes your rights, contact legal@urbandrop.io and we will investigate and act in line with UK law."
+                    }
+                },
+                "clause12": {
+                    "title": "CLAUSE 12",
+                    "subtitle": "Food Safety, Allergens & Dietary Information",
+                    "allergenInfo": {
+                        "title": "12.1 Allergen information",
+                        "content": "Where applicable, allergen information for each product is provided by the Merchant or manufacturer and displayed on the product listing. This information is subject to the Food Information Regulations 2014 and covers the fourteen major allergens listed in Annex II of Regulation (EU) No 1169/2011 (as retained in UK law)."
+                    },
+                    "alwaysCheckPackaging": {
+                        "title": "12.2 Always check packaging",
+                        "content": "Product information, including ingredient lists, allergens and nutritional values, can change without notice. Always check the packaging on delivery before you consume anything, especially if you have an allergy or intolerance. If there is any discrepancy between information in the app and the packaging, rely on the packaging."
+                    },
+                    "crossContamination": {
+                        "title": "12.3 Cross-contamination",
+                        "content": "Some Merchants operate premises that handle multiple allergens. We cannot guarantee that any product is free from trace amounts of allergens it does not declare."
+                    },
+                    "temperatureFoodSafety": {
+                        "title": "12.4 Temperature and food safety",
+                        "content": "On delivery, refrigerate or freeze temperature-sensitive items promptly. Do not consume visibly spoiled items, past their use-by date, or damaged. Raise any food-safety concerns with us immediately through the in-app help channel."
+                    },
+                    "seriousAllergies": {
+                        "title": "SERIOUS ALLERGIES",
+                        "content": "If you have a serious or life-threatening allergy, please take extra care. We strongly recommend contacting the Merchant directly (contact details available through the Platform) before you order if you have any doubt about an ingredient or product handling."
+                    }
+                },
+                "clause13": {
+                    "title": "CLAUSE 13",
+                    "subtitle": "Promotions & Vouchers",
+                    "content": "We may offer promotional codes, introductory offers, referral rewards, and Urbandrop credit from time to time. Unless stated otherwise in the specific offer terms:",
+                    "items": [
+                        "Promotions are one per customer, per household, per payment method.",
+                        "they are non-transferable and have no cash value;",
+                        "they may be used only once unless the specific terms say otherwise;",
+                        "they cannot be combined with other promotions;",
+                        "they expire on the date stated — Urbandrop credit typically expires 12 months from date of issue;",
+                        "we may withdraw or modify an offer at any time where it is being abused or where we have an objectively justifiable reason."
+                    ],
+                    "note": "If a promotion has additional specific terms, those specific terms take precedence over this Clause in the event of a conflict."
+                },
+                "clause14": {
+                    "title": "CLAUSE 14",
+                    "subtitle": "Acceptable Use",
+                    "content": "You agree not to:",
+                    "items": [
+                        "use the Platform for any unlawful purpose or in a way that harms others;",
+                        "create Accounts using false details, impersonation, or automated scripts;",
+                        "use the Platform to resell products, run a commercial operation, or in a way that exceeds normal personal use;",
+                        "reverse-engineer, decompile, scrape or extract data from the Platform except through published APIs with our written consent;",
+                        "introduce viruses, malware, or anything designed to disrupt the Platform;",
+                        "abuse, harass, threaten or discriminate against Riders, Merchant staff, Creators, other users or Urbandrop staff;",
+                        "abuse refund, promotional or complaint processes by making knowingly false claims;",
+                        "access the Platform using a VPN, location-spoofer or other tool designed to hide your true location, where doing so is used to obtain pricing or availability to which you would not otherwise be entitled."
+                    ],
+                    "note": "Breach of this Clause may result in suspension or termination of your Account and, where appropriate, legal action or referral to the police."
+                },
+                "clause15": {
+                    "title": "CLAUSE 15",
+                    "subtitle": "Our Liability to You",
+                    "whatWeAreResponsible": {
+                        "title": "15.1 What we are responsible for",
+                        "content": "We are responsible for losses that you suffer as a foreseeable result of our breaking this contract or our failure to use reasonable care and skill, but we are not responsible for any loss or damage that is not foreseeable. A loss is foreseeable if it is either obvious that it will happen, or if, at the time you accepted these Terms, both we and you knew it might happen."
+                    },
+                    "whatWeAreNotResponsible": {
+                        "title": "15.2 What we are not responsible for",
+                        "content": "Subject always to Clause 15.3 and your statutory rights, we are not liable for:",
+                        "items": [
+                            "indirect or consequential loss, loss of profit, loss of business, loss of opportunity, or loss of goodwill;",
+                            "losses caused by events outside our reasonable control (see Clause 21.7 — Force majeure);",
+                            "the acts or omissions of Merchants beyond what is reasonably attributable to us as their agent;",
+                            "loss resulting from your failure to keep your Account credentials secure;",
+                            "loss resulting from reliance on Recipe Content where you have not checked the underlying product packaging (see Clause 12.2)."
+                        ]
+                    },
+                    "liabilityWeDoNotExclude": {
+                        "title": "15.3 Liability we do not exclude",
+                        "content": "Nothing in these Terms limits or excludes our liability for:",
+                        "items": [
+                            "death or personal injury caused by our negligence;",
+                            "fraud or fraudulent misrepresentation;",
+                            "defective products under the Consumer Protection Act 1987;",
+                            "breach of your statutory rights as a consumer under the Consumer Rights Act 2015;",
+                            "any other liability which cannot lawfully be excluded or limited."
+                        ]
+                    },
+                    "capOnLiability": {
+                        "title": "15.4 Cap on liability",
+                        "content": "Where liability can lawfully be limited, our total liability to you in respect of any single Order, and in aggregate for related events in any 12-month period, is limited to the greater of £100 or the value of the Orders placed in that period. This cap does not apply to the matters listed in Clause 15.3."
+                    }
+                },
+                "clause16": {
+                    "title": "CLAUSE 16",
+                    "subtitle": "Data Protection & Privacy",
+                    "content1": "Urbandrop is the controller of the Personal Data we collect about you. We process Personal Data in accordance with the UK GDPR, the Data Protection Act 2018, and the Privacy and Electronic Communications Regulations 2003.",
+                    "content2": "Our full Privacy Policy explains what Personal Data we collect, why we collect it, how we use it, how long we keep it, who we share it with (including Merchants, Riders, payment providers, and identity-verification partners), and how you can exercise your rights. It is available at urbandrop.io/privacy and forms part of these Terms.",
+                    "content3": "Your data-subject rights under UK GDPR include access, rectification, erasure (subject to legal retention obligations), restriction, portability and objection. To exercise any of these, email dpo@urbandrop.io. You may also complain to the Information Commissioner's Office (ico.org.uk).",
+                    "icoRegistration": "Urbandrop is registered with the ICO under registration number [ZA000000]."
+                },
+                "clause17": {
+                    "title": "CLAUSE 17",
+                    "subtitle": "Intellectual Property",
+                    "content": "The Platform, the Urbandrop name, the Urbandrop logo, the \"Where tradition meets convenience\" tagline, the rider pin-leaf mark, the app user interface, Recipe Content produced by or for us, and all associated designs, code and data are owned by Urbandrop or our licensors and are protected by copyright, trade-mark, and database-right laws of England & Wales and internationally. You are granted a limited, personal, revocable, non-transferable licence to use the Platform for its intended purpose as a Customer.",
+                    "merchantBrands": "Merchants' brands, logos and product imagery are the intellectual property of the respective Merchants or brand owners. You may not use them except as the Platform permits."
+                },
+                "clause18": {
+                    "title": "CLAUSE 18",
+                    "subtitle": "Complaints & Disputes",
+                    "raiseWithUs": {
+                        "title": "18.1 Raise it with us first",
+                        "content": "If you have a complaint — about a Merchant, a Rider, an Order, a refund decision, a subscription matter, or anything else — please contact us first through the in-app \"Help\" channel or at support@urbandrop.io. We aim to acknowledge within two (2) working days and substantively respond within ten (10) working days."
+                    },
+                    "escalation": {
+                        "title": "18.2 Escalation",
+                        "content": "If you are not satisfied with our response, you may escalate in writing to complaints@urbandrop.io for review by a manager not involved in the original decision."
+                    },
+                    "alternativeDispute": {
+                        "title": "18.3 Alternative dispute resolution",
+                        "content": "Under the Alternative Dispute Resolution for Consumer Disputes (Competent Authorities and Information) Regulations 2015, we are not obliged to use, and do not currently use, an ADR provider. However we are happy to consider any reasonable ADR proposal on a case-by-case basis."
+                    },
+                    "rightToCourt": {
+                        "title": "18.4 Your right to go to court",
+                        "content": "Nothing in these Terms prevents you from bringing a claim in the courts or from contacting relevant consumer, trading standards, licensing or data-protection regulators."
+                    }
+                },
+                "clause19": {
+                    "title": "CLAUSE 19",
+                    "subtitle": "Changes to these Terms",
+                    "content1": "We may update these Terms from time to time, for example to reflect changes in the law, new features, or to improve clarity. We will post the updated Terms on the Platform with a new effective date at the top of this document.",
+                    "content2": "Where a change materially affects your rights (for example, a change to cancellation rights, refund policy, or Urbandrop+ pricing), we will give you at least 30 days' advance notice by email or in-app notification. If you do not accept the change, you may close your Account or cancel your Urbandrop+ subscription before the effective date. Continuing to use the Platform after the effective date constitutes acceptance of the updated Terms.",
+                    "content3": "Minor, non-material changes (for example, clarifying wording, updating contact details) take effect when posted."
+                },
+                "clause20": {
+                    "title": "CLAUSE 20",
+                    "subtitle": "Termination",
+                    "byYou": {
+                        "title": "20.1 By you",
+                        "content": "You may close your Account at any time through Account settings or by contacting support. Any unshipped Orders will be cancelled per Clause 9; any active Urbandrop+ subscription will be handled per Clause 10.5."
+                    },
+                    "byUs": {
+                        "title": "20.2 By us",
+                        "content": "We may suspend or terminate your Account where:",
+                        "items": [
+                            "you have materially breached these Terms;",
+                            "we reasonably suspect fraudulent, abusive, or unlawful use of the Platform;",
+                            "we are required to do so by law or by a regulator;",
+                            "you have not used your Account for a prolonged period and it is dormant."
+                        ],
+                        "note": "Where we terminate for a reason not involving your fault, we will refund any Urbandrop+ unused period on a pro-rata basis and any Urbandrop credit not yet expired. Where we terminate for material breach by you, we are not obliged to refund."
+                    },
+                    "effect": {
+                        "title": "20.3 Effect",
+                        "content": "On termination, your right to use the Platform ends. Clauses that by their nature survive — including 11 (User Content licence), 15 (Liability), 16 (Data), 17 (IP), 18 (Complaints), and 21 (General) — continue to apply."
+                    }
+                },
+                "clause21": {
+                    "title": "CLAUSE 21",
+                    "subtitle": "General Legal Terms",
+                    "entireAgreement": {
+                        "title": "21.1 Entire agreement",
+                        "content": "These Terms, together with the Privacy Policy, any Urbandrop+ Subscription terms you accept, and any specific offer terms, form the entire agreement between you and us. They replace any prior arrangements."
+                    },
+                    "transferContract": {
+                        "title": "21.2 If we have to transfer our contract with you",
+                        "content": "We may transfer our rights and obligations under these Terms to another organisation, for example in the context of a group reorganisation, sale, merger, or investment. We will tell you in writing if this happens, and we will ensure the transfer does not reduce your rights. You may not transfer your rights or obligations without our written consent."
+                    },
+                    "noWaiver": {
+                        "title": "21.3 No waiver",
+                        "content": "If we do not immediately insist on you doing anything you are required to do under these Terms, or delay in taking action against you in respect of your breaking this contract, that will not mean that you do not have to do those things or prevent us taking steps against you later."
+                    },
+                    "severability": {
+                        "title": "21.4 Severability",
+                        "content": "Each of the clauses of these Terms operates separately. If any court or relevant authority decides that any of them is unlawful, the remaining clauses remain in full force and effect."
+                    },
+                    "thirdParties": {
+                        "title": "21.5 Third parties",
+                        "content": "These Terms are between you and us. No other person has any right to enforce any of them under the Contracts (Rights of Third Parties) Act 1999."
+                    },
+                    "notices": {
+                        "title": "21.6 Notices",
+                        "content": "We may send you notices via the app, by email to the address on your Account, or by SMS to your verified mobile number. You may send us notices by email to legal@urbandrop.io or by post to our registered office."
+                    },
+                    "forceMajeure": {
+                        "title": "21.7 Force majeure",
+                        "content": "Neither party is liable for failure or delay in performing these Terms due to events beyond reasonable control — including natural disasters, war, terrorism, epidemic, strikes, transport disruption, government action, or infrastructure outage — provided the affected party takes reasonable steps to mitigate. Your statutory rights under the Consumer Rights Act 2015 and Consumer Contracts Regulations 2013 remain unaffected."
+                    },
+                    "governingLaw": {
+                        "title": "21.8 Governing law and jurisdiction",
+                        "content": "These Terms are governed by the laws of England and Wales. Any dispute or claim arising out of or in connection with these Terms will be subject to the non-exclusive jurisdiction of the courts of England and Wales, save that if you reside in Scotland or Northern Ireland you may also bring proceedings in your local courts."
+                    }
+                },
+                "clause22": {
+                    "title": "CLAUSE 22",
+                    "subtitle": "Contact",
+                    "companyName": "Urbandrop Group Limited",
+                    "companyNumber": "Company number: [00000000]",
+                    "icoRegistration": "ICO registration: [ZA000000]",
+                    "customerSupport": "Customer support",
+                    "customerSupportEmail": "support@urbandrop.io  ·  in-app \"Help with this Order\"",
+                    "complaints": "Complaints",
+                    "complaintsEmail": "complaints@urbandrop.io",
+                    "dataProtection": "Data protection",
+                    "dpoEmail": "dpo@urbandrop.io",
+                    "legalNotices": "Legal notices",
+                    "legalEmail": "legal@urbandrop.io",
+                    "website": "Website",
+                    "websiteUrl": "www.urbandrop.io"
+                }
+            },
+            "merchantTerms": {
+                "title": "Merchant Terms & Conditions",
+                "intro": "These Merchant Terms and Conditions govern the relationship between UrbanDrop Group Limited and the merchant entity or individual that registers to sell goods via the UrbanDrop platform.",
+                "roleOfUrbanDrop": {
+                    "title": "1. Role of UrbanDrop",
+                    "content": "UrbanDrop operates an online marketplace that enables Merchants to offer goods to customers and facilitates order placement, payment processing, and customer support. UrbanDrop does not manufacture, prepare, store, or supply food or grocery items.",
+                    "p2": "All contracts for the sale of goods are formed directly between the Merchant and the customer. The Merchant is the seller of record for all orders fulfilled through the Platform."
+                },
+                "eligibility": {
+                    "title": "2. Merchant Eligibility and Onboarding",
+                    "content": "By registering as a Merchant, you confirm that:",
+                    "items": [
+                        "You are legally established and authorised to trade in the United Kingdom",
+                        "You hold all required licences, permits, and approvals to sell food or grocery products",
+                        "You comply with all applicable food safety, hygiene, trading standards, and consumer protection laws",
+                        "All information provided during onboarding is accurate and kept up to date"
+                    ],
+                    "note": "UrbanDrop reserves the right to reject, suspend, or terminate Merchant accounts that fail to meet these requirements.",
+                    "acceptance": "You agree that your electronic acceptance of these Terms constitutes a legally binding agreement between you and UrbanDrop. UrbanDrop maintains electronic records of Merchant acceptance including the date, timestamp, IP address, and version of Terms at acceptance."
+                },
+                "obligations": {
+                    "title": "3. Merchant Obligations",
+                    "content": "The Merchant is solely responsible for:",
+                    "items": [
+                        "The quality, safety, legality, and accuracy of all products listed",
+                        "Correct preparation, packaging, and labelling of goods",
+                        "Compliance with UK food safety legislation, including allergen and ingredient disclosure",
+                        "Ensuring prices, descriptions, images, and availability are accurate at all times",
+                        "Preparing orders promptly and in accordance with customer instructions",
+                        "Ensuring goods are suitable for delivery and consumption"
+                    ],
+                    "note": "The Merchant must not substitute items without customer approval unless explicitly permitted by Platform functionality."
+                },
+                "orders": {
+                    "title": "4. Orders and Fulfilment",
+                    "content": "The Merchant agrees to:",
+                    "items": [
+                        "Accept and fulfil orders in good faith",
+                        "Avoid unnecessary cancellations",
+                        "Notify UrbanDrop immediately of stock shortages, delays, or fulfilment issues"
+                    ],
+                    "note": "UrbanDrop may monitor order acceptance rates, cancellation rates, and fulfilment performance. Repeated failures may result in penalties, reduced visibility, suspension, or termination."
+                },
+                "pricing": {
+                    "title": "5. Pricing and Promotions",
+                    "content": "Merchants set their own prices but acknowledge that:",
+                    "items": [
+                        "Prices must be fair, transparent, and compliant with consumer protection law",
+                        "UrbanDrop may display prices inclusive of service and delivery fees",
+                        "UrbanDrop may offer promotions, discounts, or credits at its own cost unless otherwise agreed",
+                        "Merchants may not inflate prices in a way that misleads customers or breaches applicable law"
+                    ]
+                },
+                "payments": {
+                    "title": "6. Payments and Settlement",
+                    "content1": "UrbanDrop collects payments from customers on behalf of Merchants and acts as a commercial agent for payment processing purposes.",
+                    "content2": "Merchants are entitled to receive the net value of completed orders, calculated as:",
+                    "items": [
+                        "Total order value minus Commission fees, Delivery fees, Service fees",
+                        "Refunds, chargebacks, or adjustments",
+                        "Any other agreed charges"
+                    ],
+                    "settlement": "Settlement is made according to the agreed payout cycle. UrbanDrop may withhold or offset amounts where refunds, disputes, or suspected breaches exist.",
+                    "stripeTitle": "Payment Processing via Stripe:",
+                    "stripeContent": "UrbanDrop uses Stripe to provide payment processing services. By agreeing to these Terms, you agree to be bound by the Stripe Services Agreement. You authorise UrbanDrop to share accurate business information with Stripe for onboarding, compliance, fraud prevention, and payment processing."
+                },
+                "refunds": {
+                    "title": "7. Refunds, Complaints, and Chargebacks",
+                    "content": "UrbanDrop may issue refunds to customers in accordance with its refund policy. Where a refund or chargeback arises due to:",
+                    "items": [
+                        "Incorrect items",
+                        "Missing items",
+                        "Poor food quality",
+                        "Safety or hygiene issues",
+                        "Merchant cancellation or failure to deliver"
+                    ],
+                    "note": "The Merchant bears full financial responsibility. UrbanDrop may deduct refunded amounts from future payouts or invoice the Merchant directly."
+                },
+                "foodSafety": {
+                    "title": "8. Food Safety and Compliance",
+                    "content1": "Merchants must comply with all UK food safety and hygiene regulations, allergen labelling requirements, and product traceability obligations.",
+                    "content2": "Merchants must immediately notify UrbanDrop of:",
+                    "items": [
+                        "Any food safety incident",
+                        "Any regulatory investigation or enforcement action",
+                        "Any product recall or contamination risk"
+                    ],
+                    "note": "Failure to do so is grounds for immediate termination."
+                },
+                "products": {
+                    "title": "9. Permitted Products and Prohibited Items",
+                    "permittedTitle": "9.1 Permitted Products",
+                    "permittedContent": "Merchants may only list and sell food and grocery products that are lawful to sell in the United Kingdom and expressly permitted by UrbanDrop through the Platform.",
+                    "prohibitedTitle": "9.2 Prohibited Products",
+                    "prohibitedContent": "The following products are strictly prohibited:",
+                    "items": [
+                        "Alcoholic beverages of any kind",
+                        "Tobacco products, including cigarettes, cigars, rolling tobacco, and vaping products",
+                        "Illegal drugs, controlled substances, and psychoactive substances",
+                        "Prescription-only medicines or medical products requiring authorisation",
+                        "Any other products prohibited by applicable law or UrbanDrop policies"
+                    ],
+                    "warning": "Any attempt to list or sell alcohol, tobacco, or prohibited substances is a material breach of these Terms."
+                },
+                "delivery": {
+                    "title": "10. Delivery",
+                    "content": "Where delivery is facilitated via the Platform, the Merchant remains responsible for:",
+                    "items": [
+                        "Proper packaging",
+                        "Temperature control",
+                        "Food integrity at the point of handover"
+                    ],
+                    "note": "UrbanDrop is not responsible for the quality of goods after preparation but before delivery, except where required by law."
+                },
+                "insurance": {
+                    "title": "11. Insurance and Indemnity",
+                    "content1": "Merchants must maintain adequate insurance, including public liability and product liability insurance.",
+                    "content2": "The Merchant agrees to indemnify and hold harmless UrbanDrop against all claims, losses, damages, fines, penalties, and legal costs arising from:",
+                    "items": [
+                        "Food safety breaches",
+                        "Consumer claims relating to goods",
+                        "Regulatory non-compliance",
+                        "Merchant negligence or misconduct"
+                    ],
+                    "note": "This obligation survives termination."
+                },
+                "conduct": {
+                    "title": "12. Platform Use and Conduct",
+                    "content": "Merchants must not:",
+                    "items": [
+                        "Manipulate ratings or reviews",
+                        "Engage in fraudulent activity",
+                        "Circumvent the Platform to avoid fees",
+                        "Use customer data for unauthorised purposes"
+                    ],
+                    "note": "UrbanDrop may suspend or terminate access for any breach."
+                },
+                "suspension": {
+                    "title": "13. Suspension and Termination",
+                    "content": "UrbanDrop may suspend or terminate the Merchant account immediately where:",
+                    "items": [
+                        "There is a serious breach of these Terms",
+                        "Food safety is compromised",
+                        "Fraud or abuse is suspected",
+                        "Regulatory action is taken against the Merchant"
+                    ],
+                    "note": "Merchants may terminate with notice, subject to outstanding obligations. Termination does not affect accrued rights, liabilities, or indemnities."
+                },
+                "liability": {
+                    "title": "14. Limitation of Liability",
+                    "content": "To the maximum extent permitted by law:",
+                    "items": [
+                        "UrbanDrop is not liable for loss of profits, revenue, or business",
+                        "UrbanDrop does not guarantee order volume or earnings"
+                    ],
+                    "note": "Nothing in these Terms limits liability where such limitation is unlawful."
+                },
+                "dataProtection": {
+                    "title": "15. Data Protection",
+                    "content": "Merchants must process customer data in accordance with the UK GDPR and only for order fulfilment. Use of customer data for marketing or unrelated activities is strictly prohibited."
+                },
+                "amendments": {
+                    "title": "16. Amendments",
+                    "content": "UrbanDrop may update these Terms from time to time. Continued use of the Platform constitutes acceptance of updated Terms."
+                },
+                "governingLaw": {
+                    "title": "17. Governing Law and Jurisdiction",
+                    "content": "The laws of England and Wales govern these Terms. The courts of England and Wales have exclusive jurisdiction."
+                }
+            },
+            "promotionsTerms": {
+                "title": "Promotions & Discounts",
+                "intro": "Rules surrounding the use of promo codes, vouchers, and special discount events.",
+                "application": {
+                    "title": "Application of Codes",
+                    "content": "Promo codes must be entered at checkout. They cannot be applied retrospectively to orders already placed."
+                },
+                "limitations": {
+                    "title": "Limitations",
+                    "content": "Only one promo code can be used per transaction unless explicitly stated otherwise. Promos hold no cash value."
+                },
+                "fairUsage": {
+                    "title": "Fair Usage",
+                    "content": "Creation of multiple accounts to exploit new-user promotions is strictly prohibited and will result in account banning."
+                },
+                "modification": {
+                    "title": "Modification",
+                    "content": "Urbandrop reserves the right to modify, cancel, or suspend promotions at any time without prior notice."
+                }
+            },
+            "riderTerms": {
+                "title": "Rider Terms & Conditions",
+                "intro": "The terms under which you provide last-mile delivery services connected to the Urbandrop platform across the United Kingdom.",
+                "effective": "Effective",
+                "effectiveDate": "23 April 2026",
+                "version": "Version",
+                "versionNumber": "1.0",
+                "jurisdiction": "Jurisdiction",
+                "jurisdictionValue": "England & Wales",
+                "governedBy": "Governed By",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                    "title": "Read This Before You Accept",
+                    "content": "This is a legally binding agreement. By creating a Rider Account or accepting a delivery through Urbandrop, you confirm you have read, understood, and agree to these terms. You are free to seek independent legal advice, and we encourage you to do so. If you do not agree with any part of these terms, <strong>do not use the platform</strong>."
+                },
+                "contents": {
+                    "title": "CONTENTS",
+                    "twentyOneClauses": "Twenty-one clauses",
+                    "clause01": "01 Parties & Definitions",
+                    "clause02": "02 Nature of the Relationship",
+                    "clause03": "03 Eligibility & Onboarding",
+                    "clause04": "04 Right to Work & Substitution",
+                    "clause05": "05 Vehicle, Equipment & Insurance",
+                    "clause06": "06 Food Safety & Handling",
+                    "clause07": "07 Performing Deliveries",
+                    "clause08": "08 Fees, Tips & Invoicing",
+                    "clause09": "09 Tax & National Insurance",
+                    "clause10": "10 Performance & Ratings",
+                    "clause11": "11 Suspension & Deactivation",
+                    "clause12": "12 Accidents, Incidents & Liability",
+                    "clause13": "13 Data Protection & Privacy",
+                    "clause14": "14 Intellectual Property",
+                    "clause15": "15 Confidentiality",
+                    "clause16": "16 Health, Safety & Wellbeing",
+                    "clause17": "17 Complaints & Disputes",
+                    "clause18": "18 Changes to these Terms",
+                    "clause19": "19 Termination",
+                    "clause20": "20 General Legal Terms",
+                    "clause21": "21 Contact"
+                },
+                "parties": {
+                    "title": "01 Parties & Definitions",
+                    "content": "These Rider Terms & Conditions (the \"Terms\") form a binding agreement between <strong>Urbandrop Group Limited</strong>, a private limited company incorporated in England & Wales with its registered office at [Bristol, United Kingdom], company number [16026087] (\"Urbandrop\", \"we\", \"us\", \"our\"), and the individual or entity performing last-mile delivery services in connection with the Urbandrop platform (\"Rider\", \"you\", \"your\").",
+                    "definedTerms": "Defined terms",
+                    "terms": {
+                        "platform": {
+                            "term": "Platform",
+                            "definition": "The Urbandrop mobile applications, rider app, merchant portal, admin systems and any related websites, APIs or services operated by Urbandrop."
+                        },
+                        "riderAccount": {
+                            "term": "Rider Account",
+                            "definition": "Your personal account on the Platform granting access to delivery opportunities."
+                        },
+                        "delivery": {
+                            "term": "Delivery",
+                            "definition": "A single order of groceries or goods collected from a merchant and delivered to a customer via the Platform."
+                        },
+                        "fleetPartner": {
+                            "term": "Fleet Partner",
+                            "definition": "A third-party logistics provider with which Urbandrop has contracted for delivery services (e.g., Stuart, Gophr, Relay or equivalent)."
+                        },
+                        "directRider": {
+                            "term": "Direct Rider",
+                            "definition": "A Rider who contracts directly with Urbandrop as a self-employed independent contractor."
+                        },
+                        "fleetRider": {
+                            "term": "Fleet Rider",
+                            "definition": "A Rider engaged by a Fleet Partner who fulfils Urbandrop Deliveries under the Fleet Partner's own agreement."
+                        },
+                        "customer": {
+                            "term": "Customer",
+                            "definition": "The end-user placing an order through the Platform."
+                        },
+                        "merchant": {
+                            "term": "Merchant",
+                            "definition": "A retailer, supermarket, or vendor listed on the Platform."
+                        },
+                        "personalData": {
+                            "term": "Personal Data",
+                            "definition": "As defined in the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018."
+                        }
+                    }
+                },
+                "relationship": {
+                    "title": "02 Nature of the Relationship",
+                    "content": "Urbandrop operates a hybrid delivery model. Depending on how you access Deliveries, you are either a <strong>Direct Rider</strong> (contracting with Urbandrop) or a <strong>Fleet Rider</strong> (engaged by a Fleet Partner and fulfilling Urbandrop Deliveries under a separate agreement with that Fleet Partner). Your onboarding confirmation will state which category applies to you.",
+                    "selfEmployed": {
+                        "title": "2.1 Self-employed status",
+                        "content": "Where you are a <strong>Direct Rider</strong>, you are engaged as a self-employed independent contractor. Nothing in these Terms is intended to create an employment relationship, a worker relationship within the meaning of section 230(3)(b) of the Employment Rights Act 1996, a partnership, a joint venture, or an agency relationship between you and Urbandrop."
+                    },
+                    "independence": {
+                        "title": "2.2 Independence",
+                        "content": "As a Direct Rider you acknowledge that you:",
+                        "items": [
+                            "operate your own independent delivery business and provide services to multiple clients at your discretion;",
+                            "decide when, where, and whether to log in to the Platform and accept Deliveries — there is no obligation on you to accept any Delivery, and no obligation on Urbandrop to offer any;",
+                            "are free to work simultaneously for competing platforms or any other party, including during periods when you are logged in to the Urbandrop rider app, subject only to food-safety and in-progress Delivery obligations;",
+                            "are responsible for your own tax, National Insurance contributions, and any pension arrangements;",
+                            "provide your own equipment (including vehicle, mobile device, insulated bag and PPE) save where Urbandrop expressly provides branded items;",
+                            "bear the economic risk of your delivery activity, including fuel, maintenance, insurance and downtime."
+                        ]
+                    },
+                    "fleetRiders": {
+                        "title": "2.3 Fleet Riders",
+                        "content": "If you are a Fleet Rider, your primary contractual counterparty is the Fleet Partner. These Terms set out the additional standards and conduct requirements that apply when you handle an Urbandrop Delivery. In the event of conflict between these Terms and your agreement with the Fleet Partner on matters specific to the Platform (e.g., food safety, use of the rider app, Customer data), these Terms take precedence solely in respect of that Delivery."
+                    },
+                    "plainEnglish": {
+                        "title": "Status in Plain English",
+                        "content": "You are your own boss. You decide when to log in, you can send a substitute, and you can work for our competitors at the same time. We don't tell you how to do your job — we tell you what standards we expect for the Customer's order. That's the deal."
+                    }
+                },
+                "eligibilityOnboarding": {
+                    "title": "03 Eligibility & Onboarding",
+                    "minimumEligibility": {
+                        "title": "3.1 Minimum eligibility",
+                        "content": "To be approved as a Rider, you must:",
+                        "items": [
+                            "be aged <strong>18 or over</strong>;",
+                            "have the legal right to work in the United Kingdom (see Clause 4);",
+                            "hold a valid UK bank account in your own name or in the name of your registered business;",
+                            "hold a valid National Insurance number (for Direct Riders);",
+                            "be physically able to carry and handle grocery loads of up to 15 kg safely;",
+                            "own or have exclusive lawful use of a vehicle compliant with Clause 5;",
+                            "own a smartphone capable of running the latest two major versions of iOS or Android, with mobile data and location services available."
+                        ]
+                    },
+                    "documents": {
+                        "title": "3.2 Documents required",
+                        "content": "As part of onboarding you must provide clear, unexpired copies of:",
+                        "items": [
+                            "proof of identity (UK or Irish passport, biometric residence permit, or share code issued by the Home Office);",
+                            "proof of right to work in the UK;",
+                            "proof of address dated within the last three (3) months;",
+                            "for motorised vehicles: full UK driving licence, V5 registration document, valid MOT (where applicable), and fully comprehensive motor insurance with <strong>hire & reward (\"delivery\") cover</strong>;",
+                            "for e-bikes and cycles: confirmation that the vehicle complies with the Electrically Assisted Pedal Cycles Regulations 1983 (max 250W motor, assistance cut-off at 15.5 mph / 25 km/h);",
+                            "a recent passport-style photograph for account verification;",
+                            "bank details for payment (account name, sort code, account number);",
+                            "where applicable, your UTR (Unique Taxpayer Reference) number or VAT registration number."
+                        ]
+                    },
+                    "dbs": {
+                        "title": "3.3 DBS and background checks",
+                        "content": "Urbandrop reserves the right to require a Basic Disclosure check from the Disclosure and Barring Service (or Disclosure Scotland / AccessNI equivalent), and to refuse or revoke onboarding where a conviction or caution is materially relevant to the safe performance of delivery services — for example unspent convictions for violence, sexual offences, theft, fraud, or serious driving offences. Refusal or revocation decisions may be appealed in writing within 14 days of notification."
+                    },
+                    "identityVerification": {
+                        "title": "3.4 Identity verification",
+                        "content": "We use identity-verification technology (including facial recognition and live-selfie matching) at onboarding and periodically throughout your engagement. You consent to this processing as a condition of accessing the Platform. Details of how this data is handled are set out in our Privacy Policy and in Clause 13 below."
+                    },
+                    "falseInfo": {
+                        "title": "3.5 False or misleading information",
+                        "content": "Providing false, forged or misleading information (including using someone else's identity, document, or likeness) is grounds for immediate and permanent deactivation, forfeiture of outstanding fees accrued fraudulently, and — where appropriate — referral to HMRC, the Home Office and/or the police."
+                    }
+                },
+                "rightToWork": {
+                    "title": "04 Right to Work & Substitution",
+                    "rightToWork": {
+                        "title": "4.1 Right to Work in the UK",
+                        "content1": "Since 1 March 2025, Right to Work checks apply to all workers in the gig economy, regardless of employment status. You warrant that you have, and will maintain throughout your engagement, the lawful right to work in the United Kingdom. You must notify Urbandrop immediately if your immigration status changes, if your visa or BRP expires, or if the Home Office imposes any condition affecting your right to work.",
+                        "content2": "Urbandrop is entitled to repeat Right to Work checks at any reasonable interval and to suspend your account pending verification. Engaging an illegal worker exposes Urbandrop to civil penalties of up to £60,000 per worker and criminal sanctions; we therefore apply these checks strictly and without exception."
+                    },
+                    "substitution": {
+                        "title": "4.2 Right of substitution",
+                        "content": "As a self-employed Direct Rider, you have the right to appoint another individual (a <strong>\"Substitute\"</strong>) to perform a Delivery in your place. This right is genuine and unfettered, subject only to the following reasonable conditions which exist solely to protect Customers and meet our legal obligations:",
+                        "items": [
+                            "the Substitute must be aged 18 or over;",
+                            "the Substitute must have the lawful right to work in the UK, and you must verify this before allowing them to perform the Delivery;",
+                            "the Substitute must comply with the food safety and vehicle requirements set out in these Terms;",
+                            "you remain responsible for the Delivery, for payment to your Substitute, and for the Substitute's conduct;",
+                            "you are prohibited from renting, selling or commercially transferring your Rider Account, or from receiving payment in exchange for providing Platform access to others. Substitution is not a licence to operate a rider-account rental business."
+                        ]
+                    },
+                    "accountRental": {
+                        "title": "Account Rental is Prohibited",
+                        "content": "Following reported exploitation in the UK gig economy — including a 2024 case in Bristol involving the renting out of delivery accounts to unchecked riders — Urbandrop operates a zero-tolerance policy on account sharing for profit. Genuine substitution on a one-off or occasional basis is permitted. Systematic rental of your account to others is <strong>a material breach of these Terms</strong> and will result in permanent deactivation, forfeiture of earnings, and (where appropriate) referral to the Home Office, HMRC and police."
+                    }
+                },
+                "vehicle": {
+                    "title": "05 Vehicle, Equipment & Insurance",
+                    "standards": {
+                        "title": "5.1 Vehicle standards",
+                        "content": "Your vehicle must be roadworthy, legally compliant, and suitable for the safe carriage of food. Specifically:",
+                        "items": [
+                            "<strong>Bicycles and e-bikes</strong> must comply with the Electrically Assisted Pedal Cycles Regulations 1983. Throttle-only e-bikes, de-restricted e-bikes, and any e-bike capable of self-propulsion above 15.5 mph (25 km/h) are classified as motor vehicles and require insurance, tax, registration, helmet and licence compliance on the same basis as a motorbike.",
+                            "<strong>Motorbikes, scooters and mopeds</strong> require a valid CBT or full licence, road tax, MOT (where applicable), and motor insurance including hire & reward cover.",
+                            "<strong>Cars and vans</strong> require a valid UK driving licence, road tax, MOT, and motor insurance including hire & reward cover."
+                        ]
+                    },
+                    "insurance": {
+                        "title": "5.2 Insurance",
+                        "content1": "You are solely responsible for maintaining appropriate insurance for your vehicle and your delivery activity. <strong>Standard social, domestic & pleasure motor policies do not cover paid delivery work.</strong> You must hold hire & reward cover (sometimes called \"courier\" or \"delivery\" cover) for motorised vehicles.",
+                        "content2": "For cyclists and e-bike riders, we strongly recommend third-party liability insurance (commonly available from British Cycling, Cycling UK, or a dedicated courier policy) to protect you and any Customer against injury or property damage.",
+                        "content3": "Urbandrop does not provide you with motor, cycle or income-protection insurance. You must provide evidence of valid insurance at onboarding and at any point on reasonable request."
+                    },
+                    "equipment": {
+                        "title": "5.3 Equipment",
+                        "content": "You must use:",
+                        "items": [
+                            "a clean, food-grade insulated delivery bag of sufficient size to keep chilled and ambient items separate where required;",
+                            "appropriate PPE for your mode of transport — including, for motorised and pedal riders, a correctly fitted helmet meeting British Standard BS EN 1078 (cycle) or ECE 22.06 (motorbike);",
+                            "high-visibility clothing in hours of darkness or reduced visibility (Road Traffic Act 1988 duty of care);",
+                            "lights compliant with the Road Vehicles Lighting Regulations 1989 at night."
+                        ]
+                    },
+                    "brandedEquipment": {
+                        "title": "5.4 Urbandrop-branded equipment",
+                        "content": "Where Urbandrop provides you with branded equipment (e.g., insulated bags, jackets), it remains our property, is loaned to you for use during your engagement, and must be returned on termination in reasonable condition (fair wear and tear excepted). A reasonable replacement charge may apply where equipment is lost, damaged or not returned, and will be disclosed at the point of issue."
+                    }
+                },
+                "foodSafety": {
+                    "title": "06 Food Safety & Handling",
+                    "content": "Urbandrop delivers food. The Food Safety Act 1990, the Food Hygiene (England) Regulations 2013 (and the equivalent regulations in Wales, Scotland and Northern Ireland), and the Food Information Regulations 2014 apply to every Delivery. You must:",
+                    "items": [
+                        "maintain personal hygiene appropriate to the handling of food — clean hands, clean clothes, no smoking, vaping or eating during collection or transit;",
+                        "not perform Deliveries while suffering from any condition likely to contaminate food (for example Norovirus, gastroenteritis, open skin lesions on hands);",
+                        "keep the insulated bag clean and free from contamination, and not use it for anything other than food or grocery Deliveries;",
+                        "maintain the <strong>cold chain</strong> — chilled and frozen items must be kept separately insulated and delivered promptly; under Food Standards Agency guidance, chilled items should remain below 8°C in transit;",
+                        "never open, inspect, rearrange, or remove items from a sealed order; tamper-evident seals must remain intact from Merchant to Customer;",
+                        "never consume, sample, taste or otherwise interfere with any item in an order, including \"missing\" or \"cancelled\" items;",
+                        "handle allergens with care — do not transport orders alongside any personal items, pets, strong-smelling substances, or anything that may cause cross-contamination;",
+                        "report immediately any incident that may affect food safety (spillage, collision, bag contamination) via the rider app."
+                    ],
+                    "allergenDuty": {
+                        "title": "Allergen Duty",
+                        "content": "The Food Information Regulations 2014 require accurate information on the fourteen major allergens to reach the Customer. Any tampering with packaging, substitution of items, or loss of allergen labelling during transit may cause serious harm and is a strict-liability breach of these Terms."
+                    }
+                },
+                "performingDeliveries": {
+                    "title": "07 Performing Deliveries",
+                    "acceptance": {
+                        "title": "7.1 Acceptance",
+                        "content": "When a Delivery is offered through the rider app you may accept or decline it at your discretion. Declining a Delivery does not of itself affect your standing, though repeated unresponsiveness after accepting a Delivery (see 7.4) may."
+                    },
+                    "collection": {
+                        "title": "7.2 Collection",
+                        "content": "On arriving at the Merchant you must identify yourself clearly, confirm the correct order, and check the packaging appears intact and appropriate for the journey. You must report any obvious issue (missing items the Merchant has flagged, damaged packaging, spill, open seal) through the rider app before departure."
+                    },
+                    "transit": {
+                        "title": "7.3 Transit",
+                        "content": "You must take the safest reasonable route to the Customer and drive, ride or cycle in accordance with the Highway Code and all applicable laws. You must not use the rider app in a way that breaches Regulation 110 of the Road Vehicles (Construction and Use) Regulations 1986 (mobile-phone use while driving)."
+                    },
+                    "handover": {
+                        "title": "7.4 Handover",
+                        "content": "Unless the Customer has given pre-arranged \"leave-at-door\" instructions:",
+                        "items": [
+                            "hand the Delivery directly to the Customer or an adult at the delivery address;",
+                            "verify age for any age-restricted item via the rider app's ID-check flow — you must not release alcohol, tobacco, vapes or knives to anyone appearing under 25 without valid photo ID (Challenge 25 policy);",
+                            "obtain photo confirmation where instructed;",
+                            "if no one is available and no pre-authorised leave-at-door instruction exists, contact the Customer through the in-app function and follow the escalation prompts; do not leave perishable items in unsafe locations."
+                        ]
+                    },
+                    "prohibited": {
+                        "title": "7.5 Prohibited conduct",
+                        "items": [
+                            "contacting the Customer outside the Platform's in-app messaging except in a genuine delivery emergency;",
+                            "making unsolicited advances, comments on appearance, or any form of harassment;",
+                            "attending the delivery address at a later time for non-delivery purposes;",
+                            "photographing or recording the Customer, their home or belongings beyond the confirmation photo required by the app;",
+                            "soliciting, accepting or offering bribes, kickbacks or off-platform payments from Customers or Merchants;",
+                            "marking a Delivery as complete when it has not been delivered."
+                        ]
+                    }
+                },
+                "fees": {
+                    "title": "08 Fees, Tips & Invoicing",
+                    "deliveryFees": {
+                        "title": "8.1 Delivery fees (Direct Riders)",
+                        "content": "Each Delivery offered to you through the rider app will display a <strong>headline fee</strong> calculated on a transparent basis set out in the Rider Fee Schedule. Components may include a base pickup fee, a distance component, a time-in-transit component, and dynamic adjustments during peak demand or adverse weather. By accepting a Delivery you agree to the displayed fee for that Delivery."
+                    },
+                    "tips": {
+                        "title": "8.2 Tips",
+                        "content": "Customer tips paid through the Platform are passed to you in full. Urbandrop does not retain any portion of a Customer tip and, in line with the Employment (Allocation of Tips) Act 2023 where applicable, tips are not used to offset the headline fee. Cash tips offered directly by a Customer belong to you."
+                    },
+                    "settlement": {
+                        "title": "8.3 Settlement and payment",
+                        "items": [
+                            "Fees are settled <strong>weekly</strong>, paid by BACS transfer to your nominated UK bank account, typically on the Tuesday following the end of the week (Monday 00:01 – Sunday 23:59 UTC) in which the Deliveries were completed.",
+                            "You will receive a <strong>self-billed invoice</strong> through the rider app itemising each Delivery, tips, adjustments and any deductions. This facility is provided for your administrative convenience; it does not affect your self-employed status.",
+                            "If you dispute any item on a self-billed invoice, raise it via the in-app support channel within 30 days. After 30 days the invoice is deemed accepted."
+                        ]
+                    },
+                    "deductions": {
+                        "title": "8.4 Deductions",
+                        "content": "Urbandrop may deduct from amounts owed to you:",
+                        "items": [
+                            "sums paid in error or as a result of fraud or manipulation;",
+                            "charges for lost, damaged or unreturned Urbandrop-branded equipment, subject to prior disclosure;",
+                            "legitimate refunds to Customers or Merchants where a failure or error is directly attributable to your conduct (e.g., missing items due to tampering, undelivered orders marked as delivered)."
+                        ],
+                        "note": "Deductions will be itemised and notified. You may challenge any deduction under Clause 17."
+                    },
+                    "vat": {
+                        "title": "8.5 VAT",
+                        "content": "If you are VAT-registered, you must provide your VAT registration number so that self-billed invoices are compliant with the VAT Regulations 1995. You are responsible for your own VAT returns."
+                    }
+                },
+                "tax": {
+                    "title": "09 Tax & National Insurance",
+                    "content": "As a self-employed Direct Rider, you are responsible for registering for Self Assessment with HMRC and for paying:",
+                    "items": [
+                        "<strong>Income Tax</strong> on your delivery profits;",
+                        "<strong>Class 2 National Insurance Contributions</strong> where your profits exceed the small-profits threshold;",
+                        "<strong>Class 4 NICs</strong> where your profits exceed the lower profits limit;",
+                        "<strong>VAT</strong>, if your taxable turnover exceeds the VAT registration threshold in a rolling 12-month period."
+                    ],
+                    "content2": "Urbandrop does not operate PAYE for Direct Riders and does not deduct income tax or National Insurance at source. Under the Online Platforms Reporting Rules (OECD Model, implemented in the UK from 1 January 2024), Urbandrop is required to report rider income and identifying details to HMRC on an annual basis; you are deemed to consent to this reporting as a condition of using the Platform.",
+                    "content3": "You are responsible for keeping appropriate records of your business income and allowable expenses and for filing a Self Assessment tax return by 31 January each year."
+                },
+                "notTaxAdvice": {
+                    "title": "Not Tax Advice",
+                    "content": "This Clause is a summary, not tax advice. If you are unsure about your obligations, consult HMRC directly at gov.uk/self-assessment-tax-returns or an independent accountant."
+                },
+                "performance": {
+                    "title": "10 Performance & Ratings",
+                    "ratings": {
+                        "title": "10.1 Customer ratings",
+                        "content": "After each Delivery, Customers may rate their experience on a five-star scale. Ratings help us, Merchants and you maintain service quality, but a single poor rating does not, on its own, affect your account standing."
+                    },
+                    "metrics": {
+                        "title": "10.2 Operational metrics",
+                        "content": "Urbandrop monitors a small number of objective metrics:",
+                        "table": {
+                            "metric": "Metric",
+                            "description": "Description",
+                            "threshold": "Threshold of Concern",
+                            "completionRate": "Completion rate",
+                            "completionDesc": "% of accepted Deliveries successfully completed",
+                            "completionThreshold": "Below 90% over a rolling 30-day window",
+                            "onTimeRate": "On-time rate",
+                            "onTimeDesc": "% of Deliveries arriving within the app's estimated window",
+                            "onTimeThreshold": "Below 85% over a rolling 30-day window",
+                            "customerSatisfaction": "Customer satisfaction",
+                            "satisfactionDesc": "Rolling average of Customer ratings",
+                            "satisfactionThreshold": "Below 4.2 / 5 over 50+ Deliveries",
+                            "escalationRate": "Escalation rate",
+                            "escalationDesc": "Serious complaints per 100 Deliveries",
+                            "escalationThreshold": "More than 2 per 100 Deliveries"
+                        }
+                    },
+                    "howWeUse": {
+                        "title": "10.3 How we use these metrics",
+                        "content": "Metrics are used to identify Riders who may benefit from support (additional guidance materials, equipment refresh, route-tooling tips) and, in cases of persistent poor performance after support, to consider suspension or deactivation under Clause 11. You can see your own metrics in the rider app."
+                    },
+                    "whatWeDontDo": {
+                        "title": "10.4 What we don't do",
+                        "content": "Ratings and metrics do not dictate the Deliveries you are offered, your pay per Delivery, or your order of priority in the matching system. Urbandrop does not use psychological nudges, forfeiture mechanics, or ratings-based \"gamification\" to pressure Riders into working longer hours."
+                    }
+                },
+                "suspension": {
+                    "title": "11 Suspension & Deactivation",
+                    "temporary": {
+                        "title": "11.1 Temporary suspension",
+                        "content": "Urbandrop may temporarily suspend your access to the Platform where we have a reasonable, good-faith basis to believe that:",
+                        "items": [
+                            "there is a material risk to Customer safety, Merchant safety, or another Rider's safety;",
+                            "your Right to Work status, identity documentation, vehicle documentation or insurance requires re-verification;",
+                            "a serious complaint has been received that warrants investigation;",
+                            "there is apparent misuse of the Platform (account rental, fraudulent Delivery completion, collusion)."
+                        ],
+                        "note": "We will give you the reason for suspension in writing (via the rider app or email) as soon as reasonably practicable and, save where law enforcement requires otherwise, an opportunity to respond."
+                    },
+                    "permanent": {
+                        "title": "11.2 Permanent deactivation",
+                        "content": "We may permanently deactivate your Rider Account for, among other reasons:",
+                        "items": [
+                            "fraud, theft, or misappropriation of a Customer's order;",
+                            "violence, threatening behaviour, harassment or discrimination;",
+                            "serious breach of food safety obligations;",
+                            "loss of the legal right to work in the UK;",
+                            "driving or cycling offences of a nature materially relevant to delivery work;",
+                            "account-rental or sharing in breach of Clause 4.2;",
+                            "persistent material breach of these Terms despite prior warning."
+                        ]
+                    },
+                    "fairProcess": {
+                        "title": "11.3 Fair process",
+                        "content": "Except where immediate deactivation is necessary (e.g., to protect safety or comply with law), you will be told the reason, shown the evidence where lawfully possible, and given the opportunity to respond within 14 days. Decisions to deactivate may be escalated to a manager who was not involved in the original decision under Clause 17."
+                    }
+                },
+                "accidents": {
+                    "title": "12 Accidents, Incidents & Liability",
+                    "reporting": {
+                        "title": "12.1 Reporting",
+                        "content": "You must report as soon as reasonably possible, and in any event within 24 hours, any:",
+                        "items": [
+                            "road traffic collision, regardless of fault or injury;",
+                            "injury to yourself, a Customer, a Merchant employee, or any third party during a Delivery;",
+                            "damage to property;",
+                            "theft or attempted theft of goods or your vehicle during a Delivery;",
+                            "hate crime, harassment or abusive conduct by a Customer or Merchant."
+                        ]
+                    },
+                    "liability": {
+                        "title": "12.2 Your liability",
+                        "content": "You are responsible for your own acts and omissions. Urbandrop is not liable for damage you cause to third parties, to Customer property, or to your own vehicle or equipment. You must keep yourself insured appropriately (Clause 5.2)."
+                    },
+                    "ourLiability": {
+                        "title": "12.3 Our liability to you",
+                        "content": "Subject always to Clause 12.4, Urbandrop's total aggregate liability to you under or in connection with these Terms in any 12-month period is limited to the greater of (a) the total fees paid to you in that period or (b) £1,000. We are not liable for loss of profit, loss of opportunity, loss of goodwill, or any indirect or consequential loss."
+                    },
+                    "liabilityExclusions": {
+                        "title": "12.4 Liability we do not exclude",
+                        "content": "Nothing in these Terms limits or excludes liability for:",
+                        "items": [
+                            "death or personal injury caused by negligence;",
+                            "fraud or fraudulent misrepresentation;",
+                            "any liability which cannot be excluded or limited under applicable law."
+                        ]
+                    },
+                    "emergency": {
+                        "title": "12.5 Emergency contact",
+                        "content": "If you are involved in a serious incident while working, call <strong>999</strong> first and then notify Urbandrop via the in-app emergency button or the 24-hour rider support line set out in Clause 21."
+                    }
+                },
+                "dataProtection": {
+                    "title": "13 Data Protection & Privacy",
+                    "roles": {
+                        "title": "13.1 Roles",
+                        "content": "For Personal Data you provide to Urbandrop about <strong>yourself</strong>, Urbandrop is the data controller. For Personal Data about <strong>Customers</strong> (names, delivery addresses, contact numbers, delivery notes) accessed by you through the rider app, Urbandrop is the controller and you are a data processor acting strictly on Urbandrop's documented instructions for the limited purpose of completing the Delivery."
+                    },
+                    "obligations": {
+                        "title": "13.2 Your obligations as processor",
+                        "content": "When handling Customer Personal Data you must:",
+                        "items": [
+                            "use it only to complete the specific Delivery assigned to you;",
+                            "not store, copy, share, post online, or otherwise retain Customer details after the Delivery is completed;",
+                            "not contact the Customer outside the Platform's in-app channel;",
+                            "keep your device and rider app secured with a PIN, passcode or biometric lock;",
+                            "report a suspected personal data breach to dpo@urbandrop.io within 24 hours."
+                        ]
+                    },
+                    "howWeUse": {
+                        "title": "13.3 How we use your Personal Data",
+                        "content": "We process your Personal Data in accordance with the UK GDPR and our Privacy Policy, which forms part of these Terms. Our lawful bases include performance of this contract, compliance with legal obligations (e.g., Right to Work, HMRC reporting), and legitimate interests in operating the Platform safely."
+                    },
+                    "rights": {
+                        "title": "13.4 Your rights",
+                        "content": "You have the rights of a data subject under UK GDPR — access, rectification, erasure (subject to legal retention), restriction, portability, and objection. To exercise any of these, contact dpo@urbandrop.io. You may also complain to the Information Commissioner's Office (ico.org.uk)."
+                    }
+                },
+                "ip": {
+                    "title": "14 Intellectual Property",
+                    "content": "All intellectual property rights in the Platform, the rider app, Urbandrop trademarks, logos, branding, training materials and documentation remain the property of Urbandrop or our licensors. You are granted a limited, non-exclusive, non-transferable, revocable licence to use the rider app solely for the purpose of performing Deliveries.",
+                    "items": [
+                        "reverse-engineer, decompile or attempt to derive source code from the rider app;",
+                        "scrape, copy or otherwise misappropriate data, order flows, pricing or routing information;",
+                        "use Urbandrop trademarks without our prior written consent;",
+                        "represent yourself as an employee, agent or partner of Urbandrop beyond what these Terms provide."
+                    ]
+                },
+                "confidentiality": {
+                    "title": "15 Confidentiality",
+                    "content1": "You may come across confidential information about Urbandrop, Customers, Merchants or other Riders in the course of your engagement — including pricing structures, order patterns, delivery routes, rider-app features not yet public, and Customer details. You must keep this information confidential during and after your engagement and must not disclose it to any third party except as required by law.",
+                    "content2": "Confidentiality does not apply to information that is, or lawfully becomes, public through no breach by you, or that you lawfully possessed before your engagement."
+                },
+                "health": {
+                    "title": "16 Health, Safety & Wellbeing",
+                    "content": "Although you are not an employee, we take Rider safety seriously and, to the extent the Health and Safety at Work etc. Act 1974 applies to our operations, we will conduct our business in a way that does not expose you to risks so far as is reasonably practicable.",
+                    "responsibilities": {
+                        "title": "16.1 Your responsibilities",
+                        "items": [
+                            "never deliver while under the influence of alcohol or drugs (legal or illegal) that impair your ability to ride or drive safely;",
+                            "take adequate rest — do not exceed a reasonable working pattern that compromises safe delivery (we recommend breaks of at least 15 minutes every 2 hours, and we will not penalise you for taking them);",
+                            "decline or end a Delivery that becomes unsafe due to weather, vehicle fault, or personal condition;",
+                            "wear appropriate weather, reflective and protective clothing."
+                        ]
+                    },
+                    "wellbeing": {
+                        "title": "16.2 Wellbeing support",
+                        "content": "Rider wellbeing matters. We provide:",
+                        "items": [
+                            "access to a confidential 24/7 mental health helpline (details in the rider app);",
+                            "signposting to national resources including Samaritans (116 123) and Mind (0300 123 3393);",
+                            "a clear no-retaliation policy — raising a safety concern, reporting a Customer's abusive behaviour, or declining an unsafe Delivery will not adversely affect your standing on the Platform."
+                        ]
+                    },
+                    "equality": {
+                        "title": "16.3 Equality, respect and anti-harassment",
+                        "content": "Urbandrop has zero tolerance for discrimination, harassment or victimisation on grounds of a protected characteristic under the Equality Act 2010 — whether by Riders, Customers, Merchants or Urbandrop staff. Reports are taken seriously, investigated confidentially, and acted on."
+                    }
+                },
+                "complaints": {
+                    "title": "17 Complaints & Disputes",
+                    "raise": {
+                        "title": "17.1 Raise it with us first",
+                        "content": "If you have a complaint — about a fee, a deduction, a suspension, another user's conduct, or anything else — please raise it through the rider app's support channel or email riders@urbandrop.io. We aim to acknowledge within two (2) working days and substantively respond within ten (10) working days."
+                    },
+                    "escalation": {
+                        "title": "17.2 Escalation",
+                        "content": "If you are not satisfied with our response you may escalate to an independent reviewer within Urbandrop (not involved in the original decision) by emailing appeals@urbandrop.io. Escalation decisions are final as to Urbandrop's internal process."
+                    },
+                    "independentRedress": {
+                        "title": "17.3 Independent redress",
+                        "content": "Nothing in these Terms prevents you from bringing a claim in the courts of England and Wales or from contacting a regulator (including HMRC, the Information Commissioner's Office, or the Health & Safety Executive) where appropriate."
+                    }
+                },
+                "changes": {
+                    "title": "18 Changes to these Terms",
+                    "content": "UrbanDrop may update these Terms from time to time. We will notify you of material changes via the rider app, email, or SMS at least 14 days before they take effect. Your continued use of the Platform after the update date constitutes acceptance of the revised Terms. If you do not agree to the changes, you may terminate this agreement by giving 7 days' written notice."
+                },
+                "contact": {
+                    "title": "21 Contact",
+                    "content": "For questions, support, or to serve notices under these Terms:",
+                    "companyName": "Urbandrop Group Limited",
+                    "email": "Email: <a href=\"mailto:riders@urbandrop.io\" className=\"text-secondary hover:underline font-medium\">riders@urbandrop.io</a>",
+                    "emergency": "24-hour emergency rider support (details in-app)",
+                    "riderSupport": "Rider support",
+                    "appeals": "Appeals",
+                    "appealsEmail": "appeals@urbandrop.io",
+                    "dataProtection": "Data protection",
+                    "dpoEmail": "dpo@urbandrop.io",
+                    "legalNotices": "Legal notices",
+                    "legalEmail": "legal@urbandrop.io",
+                    "emergencyLabel": "Emergency (24h)"
+                },
+                "governingLaw": {
+                    "title": "20 Governing Law & Jurisdiction",
+                    "content": "These Terms are governed by the laws of England and Wales. The courts of England and Wales have exclusive jurisdiction. If any provision of these Terms is held to be invalid or unenforceable, the remaining provisions continue in full force and effect."
+                },
+                "entireAgreement": {
+                    "title": "21 Entire Agreement",
+                    "content": "These Terms, together with the Privacy Policy and any additional agreements incorporated by reference, constitute the entire agreement between you and UrbanDrop relating to your use of the Platform and supersede all prior agreements, representations, or understandings, whether written or oral."
+                }
             }
         }
     }
