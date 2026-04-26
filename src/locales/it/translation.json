@@ -852,6 +852,20 @@
         }
         }
     },
+    "termsAndConditions": {
+        "pageTitle": "Termini e Condizioni",
+        "pageDescription": "Ti invitiamo a leggere attentamente questi termini prima di utilizzare la nostra piattaforma. Essi definiscono i tuoi diritti e le tue responsabilità nell’utilizzo di Urbandrop.",
+        "lastUpdated": "Ultimo aggiornamento:",
+        "lastUpdatedDate": "25 aprile 2026",
+        "tableOfContents": "Indice",
+        "sections": {
+            "general": "Termini generali",
+            "merchants": "Commercianti",
+            "customers": "Clienti",
+            "promotions": "Promozioni",
+            "riders": "Corrieri"
+        }
+    },
     "termsConditions": {
     "title": "Termini e Condizioni",
     "lastUpdated": "Ultimo aggiornamento: {{date}}",

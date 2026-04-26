@@ -847,6 +847,20 @@
         }
       }
   },
+  "termsAndConditions": {
+      "pageTitle": "Àwọn Ìlànà àti Ìpèsè",
+      "pageDescription": "Jọ̀wọ́ kà àwọn ìlànà wọ̀nyí dáadáa kí o tó lo pẹpẹ wa. Wọ́n ṣàlàyé ẹ̀tọ́ àti ojúṣe rẹ nígbà tí o bá ń lo Urbandrop.",
+      "lastUpdated": "Ìgbà tí a ṣe àtúnṣe kẹ́yìn:",
+      "lastUpdatedDate": "25 Oṣù Kẹrin 2026",
+      "tableOfContents": "Àkójọ Àwọn Akọlé",
+      "sections": {
+          "general": "Àwọn Ìlànà Gbogbogbo",
+          "merchants": "Àwọn Onísòwò",
+          "customers": "Àwọn Oníbàárà",
+          "promotions": "Àwọn Ìpolówó àti Ìdínkù",
+          "riders": "Àwọn Olùkópa Ìrìnàjò"
+      }
+  },
   "termsConditions": {
       "title": "Awọn Ofin & Awọn ipo",
       "lastUpdated": "Ti ṣe imudojuiwọn laipẹ: {{date}}",

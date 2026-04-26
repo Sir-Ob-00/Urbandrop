@@ -3,12 +3,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslation } from 'react-i18next';
 
-import instantOrdersImg from '../../assets/images/merchants/instant order.jpg';
-import fastDeliveryImg from '../../assets/images/merchants/faster delivery.jpg';
-import realTimeEarningsImg from '../../assets/images/merchants/real-time-earnings.jpg';
-import analyticsImg from '../../assets/images/merchants/analytic.jpg';
-import securePaymentsImg from '../../assets/images/merchants/Secure-payment.jpg';
-import customerSupportImg from '../../assets/images/merchants/customer support.jpg';
+const instantOrdersImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219739/instant_order_nvpq6b.avif';
+const fastDeliveryImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219738/faster_delivery_fysb3l.jpg';
+const realTimeEarningsImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219732/real-time-earnings_rsctgs.avif';
+const analyticsImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219735/analytic_qbue0n.jpg';
+const securePaymentsImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219735/Secure-payment_s2g6c7.avif';
+const customerSupportImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219736/customer_support_x6yhx8.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 

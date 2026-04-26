@@ -10,7 +10,7 @@ import PromotionsTerms from '../components/terms/sections/PromotionsTerms';
 import RiderTerms from '../components/terms/sections/RiderTerms';
 
 const TermsAndConditions = () => {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const { hash } = useLocation();
     const [activeSection, setActiveSection] = useState('general');
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,12 +24,6 @@ const TermsAndConditions = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
-    const lastUpdated = new Date().toLocaleDateString(i18n.language, {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
 
     const sections = [
         {
@@ -138,7 +132,7 @@ const TermsAndConditions = () => {
                         {t('termsAndConditions.pageDescription')}
                     </p>
                     <p className="text-sm font-medium text-primary mt-6 tracking-wide uppercase">
-                        {t('termsAndConditions.lastUpdated')} {lastUpdated}
+                        {t('termsAndConditions.lastUpdated')} {t('termsAndConditions.lastUpdatedDate')}
                     </p>
                 </div>
             </div>

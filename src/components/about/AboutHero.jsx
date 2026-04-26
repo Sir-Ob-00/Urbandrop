@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import heroImage from '../../assets/images/about/market-woman.jpg';
+const heroImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220107/market-woman_llkudi.jpg';
 import { useTranslation } from 'react-i18next';
 
 const AboutHero = () => {

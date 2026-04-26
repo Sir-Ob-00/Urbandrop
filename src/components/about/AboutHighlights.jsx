@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import bgImage from '../../assets/images/about/generated/about_highlights_bg.png';
+const bgImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220111/about_highlights_bg_hq7vgz.jpg';
 import { FiZap, FiSmartphone, FiTrendingUp, FiShield } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 

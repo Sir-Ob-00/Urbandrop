@@ -1,10 +1,10 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import groceriesImage from '../../assets/images/features/groceries-1.avif';
-import ethnicImage from '../../assets/images/features/ethnic-groceries.avif';
-import shopFromHomeImage from '../../assets/images/customer/customer-woman.jpg';
-import deliveryImage from '../../assets/images/customer/deliver-person.jpg';
+const groceriesImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777236980/groceries-1_wuvw8h.avif';
+const ethnicImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777236980/ethnic-groceries_r7acyb.avif';
+const shopFromHomeImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220008/customer-woman_mgmxnw.jpg';
+const deliveryImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220008/deliver-person_ueqj3m.jpg';
 
 const ScenarioItem = ({ scenario, index, scrollYProgress, totalScenarios }) => {
     // We have 3 transitions to cover.

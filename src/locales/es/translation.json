@@ -722,6 +722,143 @@
             }
         }
     },
+    "cookiesPolicy": {
+        "title": "Política de Cookies",
+        "effectiveDate": "(Fecha de vigencia: {{date}})",
+        "whatAreCookies": {
+            "title": "¿Qué son las Cookies?",
+            "desc": "Pequeños archivos de texto en su dispositivo."
+        },
+        "types": {
+            "essential": {
+                "title": "Cookies Esenciales",
+                "desc": "Necesarias para el funcionamiento."
+            },
+            "performance": {
+                "title": "Cookies de Rendimiento",
+                "desc": "Nos ayudan a entender el uso."
+            },
+            "functionality": {
+                "title": "Cookies de Funcionalidad",
+                "desc": "Recuerdan sus preferencias."
+            },
+            "advertising": {
+                "title": "Cookies Publicitarias",
+                "desc": "Muestran ofertas relevantes."
+            }
+        },
+        "thirdParty": {
+            "title": "Cookies de Terceros",
+            "desc": "Algunas cookies provienen de socios."
+        },
+        "managing": {
+            "title": "Gestionar Cookies",
+            "desc": "Gestionar a través de la configuración del navegador."
+        },
+        "consent": {
+            "title": "Consentimiento",
+            "desc": "Al hacer clic en 'Aceptar Todo', acepta."
+        },
+        "updates": {
+            "title": "Actualizaciones",
+            "desc": "Podemos actualizar esta política."
+        },
+        "contact": {
+            "title": "Contacto",
+            "desc": "Para preguntas, contacte a:",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
+        }
+    },
+    "notFoundPage": {
+        "title": "Página No Encontrada",
+        "desc": "La página que busca no existe.",
+        "goHome": "Inicio",
+        "goBack": "Volver",
+        "features": {
+            "browseMenu": {
+                "title": "Explorar Menú",
+                "desc": "Explore nuestras opciones"
+            },
+            "becomeMerchant": {
+                "title": "Ser Comerciante",
+                "desc": "Únase a nuestra red"
+            },
+            "advertise": {
+                "title": "Anunciarse",
+                "desc": "Promocione su marca"
+            }
+        },
+        "illustration": "¡No encontramos la página, pero encontramos estos ingredientes frescos!",
+        "searchSuggestion": "Intente buscar lo que necesita."
+    },
+    "cookieConsent": {
+        "banner": {
+            "title": "Valoramos tu privacidad",
+            "description": "Usamos cookies para mejorar tu experiencia. UrbanDrop utiliza cookies esenciales para que nuestro sitio funcione, y cookies opcionales para ayudarnos a entender cómo lo utilizas, personalizar el contenido y mostrarte ofertas relevantes. Puedes aceptar todas las cookies, rechazar las no esenciales o gestionar tus preferencias en cualquier momento.",
+            "acceptAll": "Aceptar todas las cookies",
+            "rejectNonEssential": "Rechazar no esenciales",
+            "managePreferences": "Gestionar preferencias"
+        },
+        "modal": {
+            "title": "Preferencias de Cookies",
+            "description": "Administra cómo usamos las cookies en este sitio.",
+            "quickActions": {
+                "acceptAll": "Aceptar todo",
+                "rejectNonEssential": "Rechazar no esenciales"
+            },
+            "categories": {
+                "essential": {
+                    "title": "Cookies Esenciales",
+                    "description": "Estas cookies son necesarias para que UrbanDrop funcione correctamente. Permiten el inicio de sesión seguro, el proceso de compra y los pagos. No puedes desactivarlas aquí, pero puedes bloquearlas en tu navegador (lo cual puede afectar la funcionalidad).",
+                    "examples": "Ejemplos: sesiones de inicio de sesión, seguimiento de cesta, procesamiento de pagos."
+                },
+                "performance": {
+                    "title": "Cookies de Rendimiento y Analíticas",
+                    "description": "Ayudan a entender cómo los visitantes usan UrbanDrop, como qué páginas son más visitadas o dónde ocurren retrasos. Nos permiten mejorar la velocidad, la fiabilidad y la experiencia general.",
+                    "examples": "Ejemplos: Google Analytics, diagnósticos de la app."
+                },
+                "functional": {
+                    "title": "Cookies Funcionales",
+                    "description": "Recuerdan tus preferencias, como idioma, ubicación y direcciones guardadas, para que no tengas que ingresarlas cada vez.",
+                    "examples": "Ejemplos: dirección de entrega preferida, filtros de tiendas guardados."
+                },
+                "advertising": {
+                    "title": "Cookies de Publicidad y Marketing",
+                    "description": "Las usamos para mostrarte promociones personalizadas y anuncios relevantes, tanto en UrbanDrop como en otros sitios. También nos ayudan a medir el rendimiento de las campañas y evitar mostrar los mismos anuncios repetidamente.",
+                    "examples": "Ejemplos: Meta Pixel, Google Ads Remarketing."
+                }
+            },
+            "footer": {
+                "text1": "Puedes actualizar tus elecciones de cookies en cualquier momento seleccionando “Gestionar Cookies” en el pie de página o en el menú de la app.",
+                "text2": "Para más detalles, consulta nuestra",
+                "cookiePolicy": "Política de Cookies",
+                "and": "y",
+                "privacyPolicy": "Política de Privacidad",
+                "savePreferences": "Guardar Preferencias"
+            },
+            "status": {
+                "alwaysActive": "Siempre activas",
+                "active": "Activas",
+                "inactive": "Inactivas",
+                "required": "Requeridas"
+            }
+        }
+    },
+    "termsAndConditions": {
+        "pageTitle": "Términos y condiciones",
+        "pageDescription": "Por favor, lee estos términos cuidadosamente antes de utilizar nuestra plataforma. Describen tus derechos y responsabilidades al usar Urbandrop.",
+        "lastUpdated": "Última actualización:",
+        "lastUpdatedDate": "25 de abril de 2026",
+        "tableOfContents": "Tabla de contenidos",
+        "sections": {
+            "general": "Términos generales",
+            "merchants": "Comerciantes",
+            "customers": "Clientes",
+            "promotions": "Promociones",
+            "riders": "Repartidores"
+        }
+    },
     "termsConditions": {
         "title": "Términos y Condiciones",
         "lastUpdated": "Última actualización: {{date}}",
@@ -962,129 +1099,6 @@
                 "content": "Para preguntas, contacte a:",
                 "companyName": "UrbanDrop Group Limited",
                 "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
-            }
-        }
-    },
-    "cookiesPolicy": {
-        "title": "Política de Cookies",
-        "effectiveDate": "(Fecha de vigencia: {{date}})",
-        "whatAreCookies": {
-            "title": "¿Qué son las Cookies?",
-            "desc": "Pequeños archivos de texto en su dispositivo."
-        },
-        "types": {
-            "essential": {
-                "title": "Cookies Esenciales",
-                "desc": "Necesarias para el funcionamiento."
-            },
-            "performance": {
-                "title": "Cookies de Rendimiento",
-                "desc": "Nos ayudan a entender el uso."
-            },
-            "functionality": {
-                "title": "Cookies de Funcionalidad",
-                "desc": "Recuerdan sus preferencias."
-            },
-            "advertising": {
-                "title": "Cookies Publicitarias",
-                "desc": "Muestran ofertas relevantes."
-            }
-        },
-        "thirdParty": {
-            "title": "Cookies de Terceros",
-            "desc": "Algunas cookies provienen de socios."
-        },
-        "managing": {
-            "title": "Gestionar Cookies",
-            "desc": "Gestionar a través de la configuración del navegador."
-        },
-        "consent": {
-            "title": "Consentimiento",
-            "desc": "Al hacer clic en 'Aceptar Todo', acepta."
-        },
-        "updates": {
-            "title": "Actualizaciones",
-            "desc": "Podemos actualizar esta política."
-        },
-        "contact": {
-            "title": "Contacto",
-            "desc": "Para preguntas, contacte a:",
-            "companyName": "UrbanDrop Group Limited",
-            "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
-        }
-    },
-    "notFoundPage": {
-        "title": "Página No Encontrada",
-        "desc": "La página que busca no existe.",
-        "goHome": "Inicio",
-        "goBack": "Volver",
-        "features": {
-            "browseMenu": {
-                "title": "Explorar Menú",
-                "desc": "Explore nuestras opciones"
-            },
-            "becomeMerchant": {
-                "title": "Ser Comerciante",
-                "desc": "Únase a nuestra red"
-            },
-            "advertise": {
-                "title": "Anunciarse",
-                "desc": "Promocione su marca"
-            }
-        },
-        "illustration": "¡No encontramos la página, pero encontramos estos ingredientes frescos!",
-        "searchSuggestion": "Intente buscar lo que necesita."
-    },
-    "cookieConsent": {
-        "banner": {
-            "title": "Valoramos tu privacidad",
-            "description": "Usamos cookies para mejorar tu experiencia. UrbanDrop utiliza cookies esenciales para que nuestro sitio funcione, y cookies opcionales para ayudarnos a entender cómo lo utilizas, personalizar el contenido y mostrarte ofertas relevantes. Puedes aceptar todas las cookies, rechazar las no esenciales o gestionar tus preferencias en cualquier momento.",
-            "acceptAll": "Aceptar todas las cookies",
-            "rejectNonEssential": "Rechazar no esenciales",
-            "managePreferences": "Gestionar preferencias"
-        },
-        "modal": {
-            "title": "Preferencias de Cookies",
-            "description": "Administra cómo usamos las cookies en este sitio.",
-            "quickActions": {
-                "acceptAll": "Aceptar todo",
-                "rejectNonEssential": "Rechazar no esenciales"
-            },
-            "categories": {
-                "essential": {
-                    "title": "Cookies Esenciales",
-                    "description": "Estas cookies son necesarias para que UrbanDrop funcione correctamente. Permiten el inicio de sesión seguro, el proceso de compra y los pagos. No puedes desactivarlas aquí, pero puedes bloquearlas en tu navegador (lo cual puede afectar la funcionalidad).",
-                    "examples": "Ejemplos: sesiones de inicio de sesión, seguimiento de cesta, procesamiento de pagos."
-                },
-                "performance": {
-                    "title": "Cookies de Rendimiento y Analíticas",
-                    "description": "Ayudan a entender cómo los visitantes usan UrbanDrop, como qué páginas son más visitadas o dónde ocurren retrasos. Nos permiten mejorar la velocidad, la fiabilidad y la experiencia general.",
-                    "examples": "Ejemplos: Google Analytics, diagnósticos de la app."
-                },
-                "functional": {
-                    "title": "Cookies Funcionales",
-                    "description": "Recuerdan tus preferencias, como idioma, ubicación y direcciones guardadas, para que no tengas que ingresarlas cada vez.",
-                    "examples": "Ejemplos: dirección de entrega preferida, filtros de tiendas guardados."
-                },
-                "advertising": {
-                    "title": "Cookies de Publicidad y Marketing",
-                    "description": "Las usamos para mostrarte promociones personalizadas y anuncios relevantes, tanto en UrbanDrop como en otros sitios. También nos ayudan a medir el rendimiento de las campañas y evitar mostrar los mismos anuncios repetidamente.",
-                    "examples": "Ejemplos: Meta Pixel, Google Ads Remarketing."
-                }
-            },
-            "footer": {
-                "text1": "Puedes actualizar tus elecciones de cookies en cualquier momento seleccionando “Gestionar Cookies” en el pie de página o en el menú de la app.",
-                "text2": "Para más detalles, consulta nuestra",
-                "cookiePolicy": "Política de Cookies",
-                "and": "y",
-                "privacyPolicy": "Política de Privacidad",
-                "savePreferences": "Guardar Preferencias"
-            },
-            "status": {
-                "alwaysActive": "Siempre activas",
-                "active": "Activas",
-                "inactive": "Inactivas",
-                "required": "Requeridas"
             }
         }
     }

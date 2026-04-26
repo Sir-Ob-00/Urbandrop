@@ -2,13 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 
-import Rockson from '../../assets/images/about/team/Rockson.jpeg';
-import Appiah2 from '../../assets/images/about/team/Appiah-2.jpeg';
-import Gilbert from '../../assets/images/about/team/Gilbert.jpeg';
-import Roy from '../../assets/images/about/team/Roy.jpeg';
-import Eric1 from '../../assets/images/about/team/Eric-1.jpeg';
-import Joshua from '../../assets/images/about/team/Joshua.jpeg';
-import Anthony from '../../assets/images/about/team/Anthony.jpeg';
+const Rockson = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220103/Rockson_pzlfxa.jpg';
+const Appiah2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220098/Appiah-2_cijluy.jpg';
+const Gilbert = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220101/Gilbert_lyqpxl.jpg';
+const Roy = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220104/Roy_hco55w.jpg';
+const Eric1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220099/Eric-1_omocky.jpg';
+const Joshua = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220102/Joshua_olcju0.jpg';
+const Anthony = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220095/Anthony_njdnfb.jpg';
+const Owusu = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220095/Anthony_njdnfb.jpg';
+
 
 
 const team = [
@@ -19,6 +21,7 @@ const team = [
   { name: 'Owusu-Ansah Eric', role: 'Frontend Lead Developer', img: Eric1 },
   { name: 'Asemani Joshua', role: 'AI and ML Engineer', img: Joshua },
   { name: 'Afriyie Anthony', role: 'Frontend Engineer', img: Anthony },
+  { name: 'Owusu Boateng', role: 'Frontend Developer', img: Owusu }
 ];
 
 const TeamCard = ({ member, idx }) => (

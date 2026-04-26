@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import jollofKitchenImage from '../../assets/images/customer/BITTER-GOURD_400x.jpg';
-import ampesiCustomerImage from '../../assets/images/customer/Budget Friendly.jpg';
-import doroWatImage from '../../assets/images/customer/DRPEPPER330ml.jpg';
-import deliverPersonImage from '../../assets/images/customer/deliver-person.jpg';
+const jollofKitchenImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220000/BITTER-GOURD_400x_ncyydz.jpg';
+const ampesiCustomerImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220002/Budget_Friendly_ejju1t.jpg';
+const doroWatImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220011/DRPEPPER330ml_lbou0v.jpg';
+const deliverPersonImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220008/deliver-person_ueqj3m.jpg';
 
 const PersonalisedRecommendation = () => {
     const [activeId, setActiveId] = useState(1);

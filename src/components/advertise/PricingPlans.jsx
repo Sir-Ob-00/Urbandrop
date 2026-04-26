@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import starterImg from '../../assets/images/advertising/Starter.jpg';
-import growthImg from '../../assets/images/advertising/Growth.jpg';
-import premiumImg from '../../assets/images/advertising/Premium.jpg';
+const starterImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220052/Starter_qgcvu1.jpg';
+const growthImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220046/Growth_uybtlr.jpg';
+const premiumImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220051/Premium_l8qoh1.jpg';
 
 const PricingPlans = () => {
   const { t } = useTranslation();

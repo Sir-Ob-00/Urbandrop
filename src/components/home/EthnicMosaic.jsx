@@ -2,93 +2,93 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-import ChinaFlag from '../../assets/images/home/China/Flag_of_the_People\'s_Republic_of_China.svg.png';
-import ChinaImg1 from '../../assets/images/home/China/4b346a648a9f1d32ee6f2ab583bd9d33_400x.png';
-import ChinaImg2 from '../../assets/images/home/China/AUBERGINE_KATHIRIKKAI_400x.jpg';
-import ChinaImg3 from '../../assets/images/home/China/BITTER-GOURD_400x.jpg';
-import ChinaImg4 from '../../assets/images/home/China/BOTTLE-GOURD_400x.jpg';
-import ChinaImg5 from '../../assets/images/home/China/fresh-sapota-500x500-1_400x.jpg';
+const ChinaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219862/Flag_of_the_People_s_Republic_of_China.svg_tvfl5b.png';
+const ChinaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219858/4b346a648a9f1d32ee6f2ab583bd9d33_400x_rfhvgg.png';
+const ChinaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219859/AUBERGINE_KATHIRIKKAI_400x_c2n8cw.jpg';
+const ChinaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219860/BITTER-GOURD_400x_mvgcf1.jpg';
+const ChinaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219862/BOTTLE-GOURD_400x_ertttl.jpg';
+const ChinaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219863/fresh-sapota-500x500-1_400x_etlukj.jpg';
 
-import GhanaFlag from '../../assets/images/home/Ghana/Flag_of_Ghana.svg.png';
-import GhanaImg1 from '../../assets/images/home/Ghana/GB-ABEMUDRO-CREAM-800g-X-12.jpg';
-import GhanaImg2 from '../../assets/images/home/Ghana/Gino-Tomato-Puree-210g.jpg';
-import GhanaImg3 from '../../assets/images/home/Ghana/Titus Sardine in Soybean & Chilli Oil.jpg';
-import GhanaImg4 from '../../assets/images/home/grocery-1.jpg';
-import GhanaImg5 from '../../assets/images/home/grocery-2.jpg';
-import GhanaImg6 from '../../assets/images/home/grocery-13.jpg';
+const GhanaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219863/Flag_of_Ghana.svg_hwrdfp.png';
+const GhanaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219865/GB-ABEMUDRO-CREAM-800g-X-12_t82cjk.jpg';
+const GhanaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219866/Gino-Tomato-Puree-210g_txyj7c.jpg';
+const GhanaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219867/Titus_Sardine_in_Soybean_Chilli_Oil_plitoy.jpg';
+const GhanaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777225960/grocery-1_vto9e2.jpg';
+const GhanaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777225961/grocery-2_boxji1.jpg';
+const GhanaImg6 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777225961/grocery-13_iqfp4p.jpg';
 
 
-import IndiaFlag from '../../assets/images/home/India/Flag_of_India.png';
-import IndiaImg1 from '../../assets/images/home/India/NIRU-MILLET_400x.png';
-import IndiaImg2 from '../../assets/images/home/India/TRSChieckPeas.jpg';
-import IndiaImg3 from '../../assets/images/home/India/TRSUridDal.jpg';
-import IndiaImg4 from '../../assets/images/home/grocery-3.jpg';
-import IndiaImg5 from '../../assets/images/home/grocery-4.jpg';
-import IndiaImg6 from '../../assets/images/home/grocery-14.jpg';
+const IndiaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219867/Flag_of_India_ivkgg3.png';
+const IndiaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219869/NIRU-MILLET_400x_dnbpnh.png';
+const IndiaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219870/TRSChieckPeas_fudvxp.jpg';
+const IndiaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219871/TRSUridDal_bqu4ug.jpg';
+const IndiaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226151/grocery-3_tzy072.jpg';
+const IndiaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226153/grocery-4_mxdxmr.jpg';
+const IndiaImg6 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226151/grocery-14_wc82hd.jpg';
 
-import JamaicaFlag from '../../assets/images/home/Jamaica/Flag_of_Jamaica.svg.png';
-import JamaicaImg1 from '../../assets/images/home/Jamaica/BANANA-LEAF_400x.jpg';
-import JamaicaImg2 from '../../assets/images/home/Jamaica/De Rica Tomato Paste 400g.jpg';
-import JamaicaImg3 from '../../assets/images/home/Jamaica/Gongura-leaves_ced44f2f-8218-464a-b73e-f30992d4994d_400x.jpg';
-import JamaicaImg4 from '../../assets/images/home/Jamaica/TROPICWAY-PEANUT-BUTTER-12×500G.jpg';
-import JamaicaImg5 from '../../assets/images/home/grocery-5.jpg';
-import JamaicaImg6 from '../../assets/images/home/grocery-15.jpg';
+const JamaicaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219874/Flag_of_Jamaica.svg_zykjny.png';
+const JamaicaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219872/BANANA-LEAF_400x_evshva.jpg';
+const JamaicaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219873/De_Rica_Tomato_Paste_400g_mxi1p0.jpg';
+const JamaicaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219875/Gongura-leaves_ced44f2f-8218-464a-b73e-f30992d4994d_400x_aqvuwj.jpg';
+const JamaicaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219876/TROPICWAY-PEANUT-BUTTER-12_500G_pkgmqk.jpg';
+const JamaicaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226284/grocery-5_sjlkot.jpg';
+const JamaicaImg6 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226283/grocery-15_hozlit.jpg';
 
-import KenyaFlag from '../../assets/images/home/Kenya/Flag_of_Kenya.svg.png';
-import KenyaImg1 from '../../assets/images/home/Kenya/JACKFRUITPEALED300G_APPROX5PCS_400x.png';
-import KenyaImg2 from '../../assets/images/home/Kenya/RADDISH-_MULLANGI_b4616dfe-fecf-491f-a6bb-55732c41db96_400x.jpg';
-import KenyaImg3 from '../../assets/images/home/Kenya/SAMBAR-CUCUMBER-KERALA_5b1509da-d73c-46f9-a086-4116cc9c14de_400x.jpg';
-import KenyaImg4 from '../../assets/images/home/Kenya/SNAKE-GAURD-PUDALANKAI_130c7118-4d62-4368-993c-f05d91088a11_400x.jpg';
-import KenyaImg5 from '../../assets/images/home/Kenya/Untitleddesign-2022-07-29T180031.464_400x.png';
+const KenyaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219877/Flag_of_Kenya.svg_oviypo.png';
+const KenyaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219878/JACKFRUITPEALED300G_APPROX5PCS_400x_egpebf.png';
+const KenyaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219879/RADDISH-_MULLANGI_b4616dfe-fecf-491f-a6bb-55732c41db96_400x_osk3qi.jpg';
+const KenyaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219881/SAMBAR-CUCUMBER-KERALA_5b1509da-d73c-46f9-a086-4116cc9c14de_400x_urshgv.jpg';
+const KenyaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219881/SNAKE-GAURD-PUDALANKAI_130c7118-4d62-4368-993c-f05d91088a11_400x_q1tvkb.jpg';
+const KenyaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219882/Untitleddesign-2022-07-29T180031.464_400x_mpkcgv.png';
 
-import MoroccoFlag from '../../assets/images/home/Morocco/Flag_of_Morocco.svg.webp';
-import MoroccoImg1 from '../../assets/images/home/Morocco/41YDq-tchUL_280x.png';
-import MoroccoImg2 from '../../assets/images/home/Morocco/big_5022496019750_280x.png';
-import MoroccoImg3 from '../../assets/images/home/Morocco/IDHAYAM-OIL-1LTR.png';
-import MoroccoImg4 from '../../assets/images/home/Morocco/SRIDURGACOLDPRESSEDGINGELLY_SESAME_OIL1LTR_280x.png';
-import MoroccoImg5 from '../../assets/images/home/grocery-6.jpg';
+const MoroccoFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219886/Flag_of_Morocco.svg_tio7sy.webp';
+const MoroccoImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219884/41YDq-tchUL_280x_wekgl1.avif';
+const MoroccoImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219884/big_5022496019750_280x_bykg0s.avif';
+const MoroccoImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219887/IDHAYAM-OIL-1LTR_kour7f.avif';
+const MoroccoImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219888/SRIDURGACOLDPRESSEDGINGELLY_SESAME_OIL1LTR_280x_b8c6go.avif';
+const MoroccoImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226504/grocery-6_hupfbh.jpg';
 
-import NigeriaFlag from '../../assets/images/home/Nigeria/Flag_of_Nigeria.svg.webp';
-import NigeriaImg1 from '../../assets/images/home/Nigeria/elex Nigerian Roasted peanuts.jpg';
-import NigeriaImg2 from '../../assets/images/home/Nigeria/Niyis Peeled Beans 2kg.jpg';
-import NigeriaImg3 from '../../assets/images/home/Nigeria/Olu Olu Plantain chips Green.jpg';
-import NigeriaImg4 from '../../assets/images/home/Nigeria/Olu-Olu-Poundo-Iyan-1.2kg--460x575.jpg';
-import NigeriaImg5 from '../../assets/images/home/grocery-7.jpg';
+const NigeriaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219890/Flag_of_Nigeria.svg_tnwtbx.webp';
+const NigeriaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219889/elex_Nigerian_Roasted_peanuts_ncui35.jpg';
+const NigeriaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219891/Niyis_Peeled_Beans_2kg_kbtrnv.jpg';
+const NigeriaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219892/Olu_Olu_Plantain_chips_Green_c9mp7p.jpg';
+const NigeriaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219894/Olu-Olu-Poundo-Iyan-1.2kg--460x575_im1gzr.jpg';
+const NigeriaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226627/grocery-7_n1doh0.jpg';
 
-import PakistanFlag from '../../assets/images/home/Pakistan/Flag_of_Pakistan.svg.png';
-import PakistanImg1 from '../../assets/images/home/Pakistan/BRAHMINS_PUTTU_PODI_1KG_-_WHITE_280x.png';
-import PakistanImg2 from '../../assets/images/home/Pakistan/HEERAGRAMFLOUR1KG_280x.png';
-import PakistanImg3 from '../../assets/images/home/Pakistan/NAGAIDIYAPPAMFLOUR500G_280x.png';
-import PakistanImg4 from '../../assets/images/home/grocery-8.jpg';
-import PakistanImg5 from '../../assets/images/home/grocery-9.jpg';
+const PakistanFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219895/Flag_of_Pakistan.svg_trvtoj.png';
+const PakistanImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219895/BRAHMINS_PUTTU_PODI_1KG_-_WHITE_280x_ijjliv.avif';
+const PakistanImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219897/HEERAGRAMFLOUR1KG_280x_y4ipqw.avif';
+const PakistanImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219898/NAGAIDIYAPPAMFLOUR500G_280x_iomq2j.avif';
+const PakistanImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226725/grocery-8_fcobac.jpg';
+const PakistanImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777226724/grocery-9_eni3gi.jpg';
 
-import SenegalFlag from '../../assets/images/home/Senegal/Flag_of_Senegal.svg.webp';
-import SenegalImg1 from '../../assets/images/home/Senegal/819D8piBVKL._UF1000_1000_QL80.jpg';
-import SenegalImg2 from '../../assets/images/home/Senegal/287151834__65385.1494834929.jpg';
-import SenegalImg3 from '../../assets/images/home/Senegal/chings-dark-soy-sauce-e1621806496810.jpg';
-import SenegalImg4 from '../../assets/images/home/Senegal/laddu_350g-removebg-preview.png';
-import SenegalImg5 from '../../assets/images/home/Senegal/NATIVEFOODSTOREMILLETFLOUR500G-FINGERMILLET_RAGI_1_400x.png';
+const SenegalFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219902/Flag_of_Senegal.svg_hwa4z4.webp';
+const SenegalImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219900/819D8piBVKL._UF1000_1000_QL80_zoqgo0.jpg';
+const SenegalImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219899/287151834__65385.1494834929_e1e412.jpg';
+const SenegalImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219902/chings-dark-soy-sauce-e1621806496810_ae4r3w.jpg';
+const SenegalImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219903/laddu_350g-removebg-preview_akckfk.png';
+const SenegalImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219904/NATIVEFOODSTOREMILLETFLOUR500G-FINGERMILLET_RAGI_1_400x_mybfvl.png';
 
-import SomaliaFlag from '../../assets/images/home/Somalia/Flag_of_Somalia.svg.png';
-import SomaliaImg1 from '../../assets/images/home/Somalia/Africas-finest-plantain-fufu-680g-460x460.jpg';
-import SomaliaImg2 from '../../assets/images/home/Somalia/Blackeye Beans 25kg.jpg';
-import SomaliaImg3 from '../../assets/images/home/Somalia/Carnation Evaporated Milk.jpg';
-import SomaliaImg4 from '../../assets/images/home/Somalia/MTR-VADA-MIX-500G_211106e3-4572-4cdc-aeec-6b0b67b58f14.jpg';
-import SomaliaImg5 from '../../assets/images/home/Somalia/SAKTHI-FISH-FRY-MASALA-200G.png';
+const SomaliaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219909/Flag_of_Somalia.svg_qizaem.png';
+const SomaliaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219905/Africas-finest-plantain-fufu-680g-460x460_qoc2zf.jpg';
+const SomaliaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219906/Blackeye_Beans_25kg_x9ajdt.jpg';
+const SomaliaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219908/Carnation_Evaporated_Milk_e4omse.jpg';
+const SomaliaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219910/MTR-VADA-MIX-500G_211106e3-4572-4cdc-aeec-6b0b67b58f14_ciwsho.jpg';
+const SomaliaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219911/SAKTHI-FISH-FRY-MASALA-200G_trzeip.png';
 
-import SouthAfricaFlag from '../../assets/images/home/South_Africa/Flag_of_South_Africa.svg.png';
-import SouthAfricaImg1 from '../../assets/images/home/South_Africa/Copy of nestle-milo-singapore-1.8kgs.jpg';
-import SouthAfricaImg2 from '../../assets/images/home/South_Africa/HALDIRAMSFROZENMIXVEGPARATHA400G_400x.png';
-import SouthAfricaImg3 from '../../assets/images/home/South_Africa/Uncle-Johns-Bread-800g.jpg';
-import SouthAfricaImg4 from '../../assets/images/home/grocery-9.jpg';
-import SouthAfricaImg5 from '../../assets/images/home/grocery-10.jpg';
+const SouthAfricaFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219913/Flag_of_South_Africa.svg_ht1pok.png';
+const SouthAfricaImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219912/Copy_of_nestle-milo-singapore-1.8kgs_nwomoz.jpg';
+const SouthAfricaImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219914/HALDIRAMSFROZENMIXVEGPARATHA400G_400x_i2ebr4.png';
+const SouthAfricaImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219914/Uncle-Johns-Bread-800g_gu8fz3.jpg';
+const SouthAfricaImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777227102/grocery-9_epsq5a.jpg';
+const SouthAfricaImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777227100/grocery-10_vv4mn5.jpg';
 
-import ZimbabweFlag from '../../assets/images/home/Zimbabwe/Flag_of_Zimbabwe.svg.png';
-import ZimbabweImg1 from '../../assets/images/home/Zimbabwe/GB-PEANUT-BUTTER-NO-SUGAR-400G-X-12.jpg';
-import ZimbabweImg2 from '../../assets/images/home/Zimbabwe/golden-morn-maize-cereal-with-soya-protein-300g.jpg';
-import ZimbabweImg3 from '../../assets/images/home/Zimbabwe/SRIDURGARAGIFLOUR1KG_400x.png';
-import ZimbabweImg4 from '../../assets/images/home/grocery-11.jpg';
-import ZimbabweImg5 from '../../assets/images/home/grocery-12.jpg';
+const ZimbabweFlag = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219916/Flag_of_Zimbabwe.svg_ivs6yn.png';
+const ZimbabweImg1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219917/GB-PEANUT-BUTTER-NO-SUGAR-400G-X-12_lmow6c.jpg';
+const ZimbabweImg2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219919/golden-morn-maize-cereal-with-soya-protein-300g_fpjlvv.jpg';
+const ZimbabweImg3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219920/SRIDURGARAGIFLOUR1KG_400x_hj8esg.png';
+const ZimbabweImg4 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777227366/grocery-11_s08wlt.jpg';
+const ZimbabweImg5 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777227365/grocery-12_jry7fp.jpg';
 
 const countries = [
   {

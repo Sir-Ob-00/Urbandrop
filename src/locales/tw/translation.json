@@ -405,25 +405,25 @@
                     "reach": {
                         "title": "Fa w'ahoɔden kɔ akyirikyiri",
                         "subtitle": "Ka ho nkurɔfoɔ mpempem fi mmerɛ ne baabi foforɔ.",
-                        "badge": "Popular",
+                        "badge": "Nea ɛdi mu",
                         "cta": "Hyɛ Ho"
                     },
                     "sales": {
                         "title": "Ma w'ayɔnkofa so",
                         "subtitle": "Ka w'ayɔnkofa so wɔ yɛn large user base so.",
-                        "badge": "Trending",
+                        "badge": "Nea ɛrekɔ so",
                         "cta": "Ka Ho Seesei"
                     },
                     "management": {
                         "title": "Management a ɛyɛ mmerɛ",
                         "subtitle": "Di w'adi na gua ho nsɛm mfeɛ mmerɛ wɔ yɛn tools a ɛyɛ intuitive mu.",
-                        "badge": "Simple",
+                        "badge": "fɛfɛɛfɛ",
                         "cta": "Hyɛ Ho Seesei"
                     },
                     "community": {
-                        "title": "Community Support",
+                        "title": "Mpɔtam ɛmmoa",
                         "subtitle": "Fa ka nkabom adwumayɛfoɔ nkorɔfoɔ a wɔyɛ successful ho na nya support.",
-                        "badge": "Community",
+                        "badge": "Mpɔtam",
                         "cta": "Ka Ho"
                     }
                 }
@@ -453,10 +453,10 @@
             "features": {
                 "instantOrders": "Orders Ntɛm",
                 "fastDelivery": "Ntɛm Delivery",
-                "realTimeEarnings": "Real-time Sika",
-                "analytics": "Analytics Dashboard",
-                "securePayments": "Payments a ɛyɛ Secure",
-                "customerSupport": "Customer Support"
+                "realTimeEarnings": "Sika ankasa",
+                "analytics": "Beaɛ a y'abɔ w'adwuma nyinaa tɔfa",
+                "securePayments": "sikatua a y'abɔ ho ban",
+                "customerSupport": "Customer mmoa"
             },
             "cta": {
                 "title": "Hyɛ mu ma w'adwuma nyɛ kɛseɛ wɔ Urbandrop nnɛ!",
@@ -553,30 +553,30 @@
             "pricing": {
                 "getStarted": "Hyɛ Ho",
                 "starter": {
-                    "name": "Starter",
-                    "features": [
-                        "Basic listing",
-                        "Standard support",
-                        "Community access"
-                    ]
-                },
+                        "name": "Mfitiaseɛ",
+                        "features": [
+                            "Listing a ɛfata",
+                            "Mmoa a ɛyɛ kɛseɛ",
+                            "Mpɔtam mu kwan"
+                        ]
+                    },
                 "growth": {
-                    "name": "Growth",
+                    "name": "Nkɔsoɔ",
                     "features": [
-                        "Enhanced listing",
-                        "Priority support",
-                        "Analytics dashboard",
-                        "Marketing tools"
+                        "Listing a wɔama atu mpɔn",
+                        "Mmoa a ɛdi mu",
+                        "Tɔfa bɔ nkyerɛkyerɛmu bea",
+                        "Adwadie nneɛma"
                     ]
                 },
                 "premium": {
                     "name": "Premium",
                     "features": [
-                        "Featured listing",
-                        "24/7 Dedicated support",
-                        "Advanced analytics",
-                        "Custom marketing campaigns",
-                        "API access"
+                        "Listing a wɔde si anim",
+                        "ɛmmoa a wɔde ama wo nkutoo 24/7",
+                        "Tɔfa bɔ a ɛkɔ akyiri",
+                        "Adwadie dawubɔ a wɔyɛ ma wo pɛpɛɛpɛ",
+                        "API mu kwan"
                     ]
                 }
             },
@@ -586,11 +586,11 @@
                     "description": "Kyerɛ w'adeɛ wɔ local customers a wɔpɛ nokware ethnic groceries anim."
                 },
                 "appBanner": {
-                    "headline": "Premium App Banners",
+                    "headline": "App Banners soronko",
                     "description": "Nya high visibility wɔ app home screen banners so."
                 },
                 "inAppPromotions": {
-                    "headline": "In-App Promotions",
+                    "headline": "Promotions wɔ App no mu",
                     "description": "Fa promotions ne special offers a ɛbɛma wotɔn adeɛ na akɔfa customers foforɔ aba."
                 }
         }
@@ -850,6 +850,20 @@
                     "inactive": "Inactive",
                     "required": "Ho Hia"
                 }
+        }
+    },
+    "termsAndConditions": {
+        "pageTitle": "Mmara ne Nsɛm",
+        "pageDescription": "Kenkan mmara yi yiye ansa na wode yɛn platform no adi dwuma. Ɛkyerɛ wo hokwan ne wo asɛyɛde bere a wode Urbandrop redi dwuma.",
+        "lastUpdated": "Nsakraeɛ a etwa to:",
+        "lastUpdatedDate": "25 Ɔsanaa 2026",
+        "tableOfContents": "Nsɛm a ɛwɔ mu",
+        "sections": {
+            "general": "Mmara Kɛseɛ",
+            "merchants": "Aguadifo",
+            "customers": "Customerfo",
+            "promotions": "Nneɛma a Wɔma Di Dwuma",
+            "riders": "Deliveryfo"
         }
     },
     "termsConditions": {

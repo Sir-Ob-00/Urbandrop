@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import heroImage from '../../assets/images/customer/lady-urbandrop.jpg';
+const heroImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220016/lady-urbandrop_j5p08v.jpg';
 
 const CustomerHero = () => {
   const { t } = useTranslation();

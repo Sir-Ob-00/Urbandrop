@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import appMockup from '../../assets/images/urbandrop-mobile-app-ui.png';
+const appMockup = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219682/urbandrop-mobile-app-ui_a66ss0.png';
 
 const AppDownloadSection = () => {
   const { t } = useTranslation();

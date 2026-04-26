@@ -720,6 +720,143 @@
             }
         }
     },
+    "cookiesPolicy": {
+        "title": "Cookie 政策",
+        "effectiveDate": "生效日期: {{date}}",
+        "whatAreCookies": {
+            "title": "什么是 Cookie？",
+            "desc": "Cookie 是您访问网站或使用应用时存储在设备上的小型文本文件。它们帮助我们记住您的偏好、提升性能并个性化您的体验。部分 Cookie 对平台正常运行至关重要，而其他 Cookie 则帮助我们了解用户如何使用服务，从而改进平台。"
+        },
+        "types": {
+            "essential": {
+                "title": "必要 Cookie",
+                "desc": "这些 Cookie 对平台的运行是必需的。它们启用核心功能，如安全登录、结账和账户管理。没有它们，某些服务无法提供。示例包括保持登录状态、管理购物车和安全处理支付。"
+            },
+            "performance": {
+                "title": "性能与分析 Cookie",
+                "desc": "这些 Cookie 帮助我们了解访问者如何使用 UrbanDrop，例如哪些页面最受欢迎或用户在哪些环节遇到错误。我们利用这些信息改进导航、速度和用户体验。示例包括 Google Analytics 和应用性能跟踪器。所有收集的数据均为汇总且匿名。"
+            },
+            "functionality": {
+                "title": "功能性 Cookie",
+                "desc": "这些 Cookie 会记住您的偏好设置，如语言、位置或送货地址，使您的体验更加便捷。"
+            },
+            "advertising": {
+                "title": "广告与营销 Cookie",
+                "desc": "这些 Cookie 允许我们和选定的合作伙伴向您展示相关优惠和促销信息，无论是在 UrbanDrop 还是其他网站或应用上。它们还可帮助限制您看到相同广告的次数。示例包括 Meta Pixel（Facebook/Instagram 广告）和 Google Ads 再营销。您可通过账户设置或浏览器隐私设置选择退出个性化广告。"
+            }
+        },
+        "thirdParty": {
+            "title": "第三方 Cookie",
+            "desc": "UrbanDrop 上的部分 Cookie 来自受信任的第三方，帮助我们提供特定服务，例如分析提供商（如 Google Analytics）、广告网络以及支付和配送合作伙伴。这些第三方可能会按照其隐私政策使用 Cookie，UrbanDrop 无法控制其 Cookie 设置。"
+        },
+        "managing": {
+            "title": "管理 Cookie",
+            "desc": "您可以通过浏览器或设备设置管理或禁用 Cookie。大多数浏览器允许您查看设备上存储的 Cookie、删除已有 Cookie，并阻止部分或全部 Cookie。如果禁用 Cookie，平台的某些功能可能无法正常运行（例如结账或保存地址）。您也可以通过首次访问网站时的 UrbanDrop Cookie 设置横幅或账户设置调整 Cookie 偏好。"
+        },
+        "consent": {
+            "title": "同意",
+            "desc": "首次访问 UrbanDrop 时，您会看到一个横幅，要求您同意使用非必要 Cookie。点击“全部接受”即表示您同意使用此处描述的所有 Cookie。您可以随时通过网站底部的“管理 Cookie”或个人资料更新偏好。必要 Cookie 不需同意，因为它们是提供您请求服务所必需的。"
+        },
+        "updates": {
+            "title": "政策更新",
+            "desc": "我们可能会不时更新此 Cookie 政策。最新版本将始终可在网站或应用查看。如更改重大，我们会在生效前通过电子邮件或应用通知用户。"
+        },
+        "contact": {
+            "title": "联系我们",
+            "desc": "如您对我们使用 Cookie 有任何疑问，请联系：",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "电子邮件: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
+        }
+    },
+    "notFoundPage": {
+        "title": "页面未找到",
+        "desc": "您访问的页面不存在或已被移动。",
+        "goHome": "返回首页",
+        "goBack": "返回上一页",
+        "features": {
+            "browseMenu": {
+                "title": "浏览菜单",
+                "desc": "探索我们的美味选项"
+            },
+            "becomeMerchant": {
+                "title": "成为商家",
+                "desc": "加入我们的卖家网络"
+            },
+            "advertise": {
+                "title": "广告推广",
+                "desc": "与我们一起推广您的品牌"
+            }
+        },
+        "illustration": "我们找不到页面，但找到了这些新鲜食材！",
+        "searchSuggestion": "尝试搜索您需要的内容或访问帮助中心。"
+    },
+    "cookieConsent": {
+        "banner": {
+            "title": "我们重视您的隐私",
+            "description": "我们使用 Cookie 来提升您的体验。UrbanDrop 使用必要的 Cookie 来确保网站正常运行，并使用可选的 Cookie 帮助我们了解您如何使用网站、个性化内容以及向您展示相关优惠。您可以选择接受所有 Cookie、拒绝非必要 Cookie，或随时管理您的偏好。",
+            "acceptAll": "接受所有 Cookie",
+            "rejectNonEssential": "拒绝非必要 Cookie",
+            "managePreferences": "管理偏好"
+        },
+        "modal": {
+            "title": "Cookie 偏好设置",
+            "description": "管理我们在此网站上如何使用 Cookie。",
+            "quickActions": {
+                "acceptAll": "全部接受",
+                "rejectNonEssential": "拒绝非必要"
+            },
+            "categories": {
+                "essential": {
+                    "title": "必要的 Cookie",
+                    "description": "这些 Cookie 是 UrbanDrop 正常运行所必需的。它们支持安全登录、结账和支付处理。您无法在此处关闭这些 Cookie，但可以在浏览器中阻止它们（可能会影响功能）。",
+                    "examples": "示例：登录会话、购物篮追踪、支付处理。"
+                },
+                "performance": {
+                    "title": "性能和分析类 Cookie",
+                    "description": "这些 Cookie 帮助我们了解访客如何使用 UrbanDrop，例如哪些页面访问量最高或用户在哪些地方遇到延迟。它们使我们能够提升速度、可靠性和整体可用性。",
+                    "examples": "示例：Google Analytics、应用程序诊断。"
+                },
+                "functional": {
+                    "title": "功能性 Cookie",
+                    "description": "这些 Cookie 会记住您的偏好，例如语言、位置和保存的地址，让您无需每次重复输入。",
+                    "examples": "示例：首选配送地址、已保存的店铺筛选项。"
+                },
+                "advertising": {
+                    "title": "广告和营销类 Cookie",
+                    "description": "我们使用这些 Cookie 向您展示个性化推广和相关广告，包括在 UrbanDrop 和其他网站上。它们帮助我们衡量营销活动效果，并避免重复展示相同广告。",
+                    "examples": "示例：Meta Pixel、Google Ads 再营销。"
+                }
+            },
+            "footer": {
+                "text1": "您可以随时在我们网站页脚或应用菜单中选择“管理 Cookie”来更新您的 Cookie 选择。",
+                "text2": "更多详情，请查看我们的",
+                "cookiePolicy": "Cookie 政策",
+                "and": "和",
+                "privacyPolicy": "隐私政策",
+                "savePreferences": "保存偏好"
+            },
+            "status": {
+                "alwaysActive": "始终启用",
+                "active": "已启用",
+                "inactive": "未启用",
+                "required": "必需"
+            }
+        }
+    },
+    "termsAndConditions": {
+        "pageTitle": "条款与条件",
+        "pageDescription": "在使用本平台之前，请仔细阅读这些条款。它们说明了您在使用 Urbandrop 时的权利与责任。",
+        "lastUpdated": "最后更新：",
+        "lastUpdatedDate": "2026年4月25日",
+        "tableOfContents": "目录",
+        "sections": {
+            "general": "一般条款",
+            "merchants": "商家",
+            "customers": "客户",
+            "promotions": "促销活动",
+            "riders": "配送员"
+        }
+    },
     "termsConditions": {
         "title": "条款与条件",
         "lastUpdated": "最后更新: {{date}}",
@@ -882,7 +1019,11 @@
                     },
                     "nonPerishable": {
                         "title": "10.3 非易腐商品",
-                        "content": "对于包装密封或非易腐商品，若商品有缺陷或描述不符，并保持未使用及原包装，商家可根据英国消费者法接受退货。"
+                        "content": "对于包装类、密封类或非易腐商品，商家可根据英国消费者法律在以下情况下接受退货：",
+                        "items": [
+                            "商品存在缺陷或与描述不符。",
+                            "商品未使用且保持原始包装状态。"
+                        ]
                     },
                     "process": {
                         "title": "10.4 退款流程",
@@ -963,129 +1104,6 @@
                 "content": "如有问题、投诉或退款请求，请联系：",
                 "companyName": "UrbanDrop Group Limited",
                 "email": "电子邮件: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
-            }
-        }
-    },
-    "cookiesPolicy": {
-        "title": "Cookie 政策",
-        "effectiveDate": "生效日期: {{date}}",
-        "whatAreCookies": {
-            "title": "什么是 Cookie？",
-            "desc": "Cookie 是您访问网站或使用应用时存储在设备上的小型文本文件。它们帮助我们记住您的偏好、提升性能并个性化您的体验。部分 Cookie 对平台正常运行至关重要，而其他 Cookie 则帮助我们了解用户如何使用服务，从而改进平台。"
-        },
-        "types": {
-            "essential": {
-                "title": "必要 Cookie",
-                "desc": "这些 Cookie 对平台的运行是必需的。它们启用核心功能，如安全登录、结账和账户管理。没有它们，某些服务无法提供。示例包括保持登录状态、管理购物车和安全处理支付。"
-            },
-            "performance": {
-                "title": "性能与分析 Cookie",
-                "desc": "这些 Cookie 帮助我们了解访问者如何使用 UrbanDrop，例如哪些页面最受欢迎或用户在哪些环节遇到错误。我们利用这些信息改进导航、速度和用户体验。示例包括 Google Analytics 和应用性能跟踪器。所有收集的数据均为汇总且匿名。"
-            },
-            "functionality": {
-                "title": "功能性 Cookie",
-                "desc": "这些 Cookie 会记住您的偏好设置，如语言、位置或送货地址，使您的体验更加便捷。"
-            },
-            "advertising": {
-                "title": "广告与营销 Cookie",
-                "desc": "这些 Cookie 允许我们和选定的合作伙伴向您展示相关优惠和促销信息，无论是在 UrbanDrop 还是其他网站或应用上。它们还可帮助限制您看到相同广告的次数。示例包括 Meta Pixel（Facebook/Instagram 广告）和 Google Ads 再营销。您可通过账户设置或浏览器隐私设置选择退出个性化广告。"
-            }
-        },
-        "thirdParty": {
-            "title": "第三方 Cookie",
-            "desc": "UrbanDrop 上的部分 Cookie 来自受信任的第三方，帮助我们提供特定服务，例如分析提供商（如 Google Analytics）、广告网络以及支付和配送合作伙伴。这些第三方可能会按照其隐私政策使用 Cookie，UrbanDrop 无法控制其 Cookie 设置。"
-        },
-        "managing": {
-            "title": "管理 Cookie",
-            "desc": "您可以通过浏览器或设备设置管理或禁用 Cookie。大多数浏览器允许您查看设备上存储的 Cookie、删除已有 Cookie，并阻止部分或全部 Cookie。如果禁用 Cookie，平台的某些功能可能无法正常运行（例如结账或保存地址）。您也可以通过首次访问网站时的 UrbanDrop Cookie 设置横幅或账户设置调整 Cookie 偏好。"
-        },
-        "consent": {
-            "title": "同意",
-            "desc": "首次访问 UrbanDrop 时，您会看到一个横幅，要求您同意使用非必要 Cookie。点击“全部接受”即表示您同意使用此处描述的所有 Cookie。您可以随时通过网站底部的“管理 Cookie”或个人资料更新偏好。必要 Cookie 不需同意，因为它们是提供您请求服务所必需的。"
-        },
-        "updates": {
-            "title": "政策更新",
-            "desc": "我们可能会不时更新此 Cookie 政策。最新版本将始终可在网站或应用查看。如更改重大，我们会在生效前通过电子邮件或应用通知用户。"
-        },
-        "contact": {
-            "title": "联系我们",
-            "desc": "如您对我们使用 Cookie 有任何疑问，请联系：",
-            "companyName": "UrbanDrop Group Limited",
-            "email": "电子邮件: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
-        }
-    },
-    "notFoundPage": {
-        "title": "页面未找到",
-        "desc": "您访问的页面不存在或已被移动。",
-        "goHome": "返回首页",
-        "goBack": "返回上一页",
-        "features": {
-            "browseMenu": {
-                "title": "浏览菜单",
-                "desc": "探索我们的美味选项"
-            },
-            "becomeMerchant": {
-                "title": "成为商家",
-                "desc": "加入我们的卖家网络"
-            },
-            "advertise": {
-                "title": "广告推广",
-                "desc": "与我们一起推广您的品牌"
-            }
-        },
-        "illustration": "我们找不到页面，但找到了这些新鲜食材！",
-        "searchSuggestion": "尝试搜索您需要的内容或访问帮助中心。"
-    },
-    "cookieConsent": {
-        "banner": {
-            "title": "我们重视您的隐私",
-            "description": "我们使用 Cookie 来提升您的体验。UrbanDrop 使用必要的 Cookie 来确保网站正常运行，并使用可选的 Cookie 帮助我们了解您如何使用网站、个性化内容以及向您展示相关优惠。您可以选择接受所有 Cookie、拒绝非必要 Cookie，或随时管理您的偏好。",
-            "acceptAll": "接受所有 Cookie",
-            "rejectNonEssential": "拒绝非必要 Cookie",
-            "managePreferences": "管理偏好"
-        },
-        "modal": {
-            "title": "Cookie 偏好设置",
-            "description": "管理我们在此网站上如何使用 Cookie。",
-            "quickActions": {
-                "acceptAll": "全部接受",
-                "rejectNonEssential": "拒绝非必要"
-            },
-            "categories": {
-                "essential": {
-                    "title": "必要的 Cookie",
-                    "description": "这些 Cookie 是 UrbanDrop 正常运行所必需的。它们支持安全登录、结账和支付处理。您无法在此处关闭这些 Cookie，但可以在浏览器中阻止它们（可能会影响功能）。",
-                    "examples": "示例：登录会话、购物篮追踪、支付处理。"
-                },
-                "performance": {
-                    "title": "性能和分析类 Cookie",
-                    "description": "这些 Cookie 帮助我们了解访客如何使用 UrbanDrop，例如哪些页面访问量最高或用户在哪些地方遇到延迟。它们使我们能够提升速度、可靠性和整体可用性。",
-                    "examples": "示例：Google Analytics、应用程序诊断。"
-                },
-                "functional": {
-                    "title": "功能性 Cookie",
-                    "description": "这些 Cookie 会记住您的偏好，例如语言、位置和保存的地址，让您无需每次重复输入。",
-                    "examples": "示例：首选配送地址、已保存的店铺筛选项。"
-                },
-                "advertising": {
-                    "title": "广告和营销类 Cookie",
-                    "description": "我们使用这些 Cookie 向您展示个性化推广和相关广告，包括在 UrbanDrop 和其他网站上。它们帮助我们衡量营销活动效果，并避免重复展示相同广告。",
-                    "examples": "示例：Meta Pixel、Google Ads 再营销。"
-                }
-            },
-            "footer": {
-                "text1": "您可以随时在我们网站页脚或应用菜单中选择“管理 Cookie”来更新您的 Cookie 选择。",
-                "text2": "更多详情，请查看我们的",
-                "cookiePolicy": "Cookie 政策",
-                "and": "和",
-                "privacyPolicy": "隐私政策",
-                "savePreferences": "保存偏好"
-            },
-            "status": {
-                "alwaysActive": "始终启用",
-                "active": "已启用",
-                "inactive": "未启用",
-                "required": "必需"
             }
         }
     }

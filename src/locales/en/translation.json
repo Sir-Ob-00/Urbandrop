@@ -31,19 +31,6 @@
         "rightsReserved": "Urbandrop Group Ltd. All rights reserved.",
         "companyNumber": "Company number"
     },
-    "termsAndConditions": {
-        "pageTitle": "Terms & Conditions",
-        "pageDescription": "Please read these terms carefully before using our platform. They outline your rights and responsibilities when using Urbandrop.",
-        "lastUpdated": "Last Updated:",
-        "tableOfContents": "Table of Contents",
-        "sections": {
-            "general": "General Terms",
-            "merchants": "Merchants",
-            "customers": "Customers",
-            "promotions": "Promotions",
-            "riders": "Riders"
-        }
-    },
     "home": {
         "hero": {
             "title1": "Authentic Ethnic Food &",
@@ -865,6 +852,20 @@
                 "inactive": "Inactive",
                 "required": "Required"
             }
+        }
+    },
+    "termsAndConditions": {
+        "pageTitle": "Terms & Conditions",
+        "pageDescription": "Please read these terms carefully before using our platform. They outline your rights and responsibilities when using Urbandrop.",
+        "lastUpdated": "Last Updated:",
+        "lastUpdatedDate": "April 25, 2026",
+        "tableOfContents": "Table of Contents",
+        "sections": {
+            "general": "General Terms",
+            "merchants": "Merchants",
+            "customers": "Customers",
+            "promotions": "Promotions",
+            "riders": "Riders"
         }
     },
     "termsConditions": {

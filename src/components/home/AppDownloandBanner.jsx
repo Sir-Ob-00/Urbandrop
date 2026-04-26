@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import sliderImg from '../../assets/images/slider-urbandrop.png';
-import appstoreImg from '../../assets/images/appstore-black.png';
-import playstoreImg from '../../assets/images/playstore-black.png';
+const sliderImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219681/slider-urbandrop_unyxnx.png';
+const appstoreImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219681/appstore-black_geahzo.png';
+const playstoreImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219681/playstore-black_nqipnl.png';
 
 const CountdownUnit = ({ value, label }) => (
 	<div className="flex flex-col items-center">

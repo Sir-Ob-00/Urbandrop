@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-import bubbleMeals from '../../assets/images/customer/buy groceries.jpg';
-import bubbleGroceries from '../../assets/images/customer/buy errands.jpg';
-import bubbleParcels from '../../assets/images/customer/ethnic-flavor.jpg';
+const bubbleMeals = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220005/buy_groceries_wpapht.jpg';
+const bubbleGroceries = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220003/buy_errands_r4sdbv.jpg';
+const bubbleParcels = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220012/ethnic_flavor_l5omvk.jpg';
 
 // Reusing images as per original file
 const bubbleErrands = bubbleParcels;

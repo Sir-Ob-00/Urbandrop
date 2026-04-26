@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-import heroBanner1 from '../../assets/images/advertising/hero-banner-1.jpg';
-import heroBanner2 from '../../assets/images/advertising/hero-banner-2.jpg';
-import heroBanner3 from '../../assets/images/advertising/hero-banner-3.jpg';
+const heroBanner1 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220046/hero-banner-1_klly1q.jpg';
+const heroBanner2 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220048/hero-banner-2_z29zco.jpg';
+const heroBanner3 = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220049/hero-banner-3_jw95xf.jpg';
 
 const AdvertiseHero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

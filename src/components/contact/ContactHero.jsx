@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { MessageCircle, Phone } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import deliveryGuy from '../../assets/images/home/deliveryguy.jpg';
+const deliveryGuy = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219797/deliveryguy_n8nwq7.jpg';
 
 const ContactHero = () => {
   const { t } = useTranslation();

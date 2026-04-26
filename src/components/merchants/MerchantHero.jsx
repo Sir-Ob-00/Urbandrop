@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import heroVideo from '../../assets/images/merchants/Video/urbandrop video promo.mp4';
+const heroVideo = 'https://res.cloudinary.com/daisjvfvg/video/upload/v1777219741/urbandrop_video_promo_r24lyr.mp4';
 
 const MerchantHero = () => {
   const { t } = useTranslation();

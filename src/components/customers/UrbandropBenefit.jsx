@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import deliverPerson from '../../assets/images/customer/deliver-person.jpg';
-import customerWoman from '../../assets/images/customer/customer-woman.jpg';
-import ladyUrbandrop from '../../assets/images/customer/lady-urbandrop.jpg';
+const deliverPerson = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220008/deliver-person_ueqj3m.jpg';
+const customerWoman = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220008/customer-woman_mgmxnw.jpg';
+const ladyUrbandrop = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220016/lady-urbandrop_j5p08v.jpg';
 
 const Particle = ({ delay }) => (
     <motion.div

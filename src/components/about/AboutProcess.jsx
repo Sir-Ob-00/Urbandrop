@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import bgImage from '../../assets/images/about/deliveryguy.jpg';
+const bgImage = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220106/deliveryguy_nx0gg6.jpg';
 import { useTranslation } from 'react-i18next';
 
 const AboutProcess = () => {

@@ -3,10 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-import ladyUrbandrop from '../../assets/images/home/lady-urbandrop.jpg';
-import recipeBit from '../../assets/images/home/recipe bit.jpg';
-import marketWoman from '../../assets/images/home/market-woman.jpg';
-import deliveryGuy from '../../assets/images/home/deliveryguy.jpg';
+// Cloudinary image URLs
+const ladyUrbandrop = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777221331/lady-urbandrop_qhatqz.jpg';
+const recipeBit = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219819/recipe_bit_od1rat.jpg';
+const marketWoman = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219816/market-woman_toxxgs.jpg';
+const deliveryGuy = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219797/deliveryguy_n8nwq7.jpg';
 
 const FeaturedCategories = () => {
   const [activeId, setActiveId] = useState(1);

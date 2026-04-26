@@ -852,6 +852,20 @@
                     }
                 }
             },
+            "termsAndConditions": {
+                "pageTitle": "Masharti na Vigezo",
+                "pageDescription": "Tafadhali soma masharti haya kwa makini kabla ya kutumia jukwaa letu. Yanaeleza haki na majukumu yako unapotumia Urbandrop.",
+                "lastUpdated": "Ilisasishwa Mwisho:",
+                "lastUpdatedDate": "25 Aprili 2026",
+                "tableOfContents": "Yaliyomo",
+                "sections": {
+                    "general": "Masharti ya Jumla",
+                    "merchants": "Wauzaji",
+                    "customers": "Wateja",
+                    "promotions": "Matangazo",
+                    "riders": "Wasafirishaji"
+                }
+            },
             "termsConditions": {
                 "title": "Masharti na Vigezo",
                 "lastUpdated": "Imesasishwa mwisho: {{date}}",
@@ -969,6 +983,136 @@
                             "Kuweka hakiki za uwongo au maoni yanayodanganya."
                         ],
                         "note": "UrbanDrop ina haki ya kusitisha au kuzuia akaunti yoyote inayokiuka viwango hivi."
+                    },
+                    "cancellation": {
+                        "title": "9. Sera ya Kufuta Oda kwa Mteja",
+                        "subsections": {
+                            "before": {
+                                "title": "9.1 Kabla ya Kukubaliwa na Muuza Bidhaa",
+                                "content": "Unaweza kughairi oda bila malipo wakati wowote kabla haijakubaliwa na muuzaji."
+                            },
+                            "after": {
+                                "title": "9.2 Baada ya Kukubaliwa na Muuza Bidhaa",
+                                "content": "Baada ya muuzaji kukubali oda yako, huenda kughairi kusiwezekane, hasa kwa bidhaa zinazoharibika au chakula kilichoandaliwa. Ikiwa muuzaji ameanza kuandaa oda yako, utatozwa kiasi chote."
+                            },
+                            "merchant": {
+                                "title": "9.3 Kughairiwa na Wauzaji",
+                                "content": "Wauzaji wanaweza kughairi oda ikiwa bidhaa hazipatikani, oda haiwezi kutimizwa, au uwasilishaji hauwezekani. Katika hali hizi, utarejeshewa fedha zako zote."
+                            },
+                            "progress": {
+                                "title": "9.4 Oda Iko Njiani",
+                                "content": "Ikiwa oda yako tayari imeshaanza safari ya kuwasilishwa, haiwezi kughairiwa."
+                            },
+                            "repeated": {
+                                "title": "9.5 Kughairi Mara kwa Mara",
+                                "content": "Wateja wanaoghairi oda mara kwa mara baada ya kukubaliwa wanaweza kuzuiwa au akaunti yao kusimamishwa."
+                            }
+                        }
+                    },
+                    "returns": {
+                        "title": "10. Sera ya Marejesho na Kurudishiwa Fedha",
+                        "subsections": {
+                            "general": {
+                                "title": "10.1 Sera ya Jumla",
+                                "content": "Kwa kuwa UrbanDrop inaunganisha wateja moja kwa moja na wauzaji huru, marejesho na kurudishiwa bidhaa hutegemea aina ya bidhaa na mazingira ya ombi."
+                            },
+                            "perishable": {
+                                "title": "10.2 Bidhaa Zinazoharibika na Zilizotayarishwa",
+                                "content": "Kwa bidhaa zinazoharibika kama mboga mbichi, vyakula vilivyogandishwa, na milo iliyopikwa, marejesho kwa kawaida hayapatikani baada ya kuwasilishwa, isipokuwa:",
+                                "items": [
+                                    "Bidhaa imeharibika, imepitwa na muda, au si salama kwa matumizi wakati wa uwasilishaji.",
+                                    "Bidhaa isiyo sahihi imewasilishwa.",
+                                    "Oda haijakamilika."
+                                ],
+                                "note": "Lazima taarifa hizi ziripotiwe kwa Usaidizi wa UrbanDrop ndani ya saa 24 baada ya uwasilishaji. Ushahidi kama picha unaweza kuhitajika."
+                            },
+                            "nonPerishable": {
+                                "title": "10.3 Bidhaa Zisizoharibika",
+                                "content": "Kwa bidhaa zilizofungwa au zisizoharibika, wauzaji wanaweza kukubali marejesho kulingana na sheria za watumiaji za UK ikiwa:",
+                                "items": [
+                                    "Bidhaa ina kasoro au haifanani na ilivyoelezwa.",
+                                    "Imerejeshwa bila kutumika na ikiwa kwenye vifungashio vyake vya asili."
+                                ]
+                            },
+                            "process": {
+                                "title": "10.4 Mchakato wa Marejesho",
+                                "content": "Marejesho huchakatwa baada ya muuzaji kuthibitisha uhalali wake. UrbanDrop itarudisha fedha kwenye njia yako ya malipo ndani ya siku 5–10 za kazi baada ya kuidhinishwa."
+                            },
+                            "merchantResp": {
+                                "title": "10.5 Wajibu wa Muuza Bidhaa",
+                                "content": "Kila muuzaji anawajibika kushughulikia maombi ya marejesho ya bidhaa zake. UrbanDrop hurahisisha mawasiliano na marekebisho ya malipo lakini sio msimamizi wa mwisho wa uamuzi."
+                            },
+                            "delivery": {
+                                "title": "10.6 Matatizo ya Uwasilishaji",
+                                "content": "Ikiwa oda yako imechelewa, kupotea, au kuwasilishwa mahali pasipofaa, tafadhali wasiliana na Usaidizi wa UrbanDrop mara moja. Marejesho au uwasilishaji upya utazingatiwa kulingana na taarifa za uwasilishaji."
+                            },
+                            "abuse": {
+                                "title": "10.7 Matumizi Mabaya ya Marejesho",
+                                "content": "Madai ya mara kwa mara ya marejesho bila sababu halali yanaweza kusababisha akaunti yako kuwekewa alama au kusimamishwa."
+                            }
+                        }
+                    },
+                    "ip": {
+                        "title": "11. Haki Miliki",
+                        "content": "Alama za biashara, maudhui, na teknolojia zote kwenye jukwaa zinamilikiwa na UrbanDrop Group Limited au watoa leseni wake. Hairuhusiwi kunakili, kusambaza, au kubadilisha sehemu yoyote ya jukwaa bila ruhusa ya maandishi."
+                    },
+                    "availability": {
+                        "title": "12. Upatikanaji wa Jukwaa",
+                        "content": "Tunalenga kuhakikisha UrbanDrop inapatikana saa 24/7, lakini tunaweza kusitisha au kusasisha huduma kwa ajili ya matengenezo. Hatuwajibiki kwa usumbufu wa muda au upotevu wa data unaoweza kutokea."
+                    },
+                    "privacy": {
+                        "title": "13. Faragha na Ulinzi wa Data",
+                        "content": "Data yako ya kibinafsi hukusanywa na kusindika kulingana na Sera yetu ya Faragha. Kwa kutumia UrbanDrop, unakubali matumizi ya data yako kwa ajili ya kushughulikia oda, kuzuia udanganyifu, na huduma kwa wateja."
+                    },
+                    "liability": {
+                        "title": "14. Kikomo cha Dhima",
+                        "subsections": {
+                            "role": {
+                                "title": "14.1 Jukumu la UrbanDrop",
+                                "content": "UrbanDrop ni kiunganishi kati ya wateja na wauzaji. Hatuhusiki na:",
+                                "items": [
+                                    "Ubora, usalama, au uhalisia wa bidhaa.",
+                                    "Oda zisizo sahihi au zisizokamilika kutoka kwa wauzaji.",
+                                    "Matatizo ya uwasilishaji yanayosababishwa na wahusika wengine."
+                                ]
+                            },
+                            "indirect": {
+                                "title": "14.2 Hasara Zisizo za Moja kwa Moja",
+                                "content": "Hatuhusiki na hasara yoyote isiyo ya moja kwa moja, ya bahati mbaya, au ya matokeo yanayotokana na matumizi ya jukwaa."
+                            },
+                            "maximum": {
+                                "title": "14.3 Kiwango cha Juu cha Dhima",
+                                "content": "Dhima yetu kwa mtumiaji yeyote haitazidi kiasi kilicholipwa kwa oda husika au £50, chochote kilicho kidogo."
+                            }
+                        }
+                    },
+                    "termination": {
+                        "title": "15. Kusitishwa kwa Akaunti",
+                        "content": "UrbanDrop inaweza kusimamisha au kufunga akaunti yako wakati wowote ikiwa:",
+                        "items": [
+                            "Unakiuka masharti haya.",
+                            "Unajihusisha na udanganyifu au matumizi mabaya.",
+                            "Unatumia vibaya promosheni au kuvunja sheria."
+                        ],
+                        "note": "Unaweza kuomba kufutwa kwa akaunti wakati wowote kwa kuwasiliana na Usaidizi wa UrbanDrop."
+                    },
+                    "links": {
+                        "title": "16. Viungo vya Watu Wengine",
+                        "content": "Jukwaa linaweza kuwa na viungo vya tovuti za watu wengine. UrbanDrop haiwajibiki na maudhui au sera za tovuti hizo, na kuzitumia ni kwa hatari yako mwenyewe."
+                    },
+                    "changes": {
+                        "title": "17. Mabadiliko ya Masharti Haya",
+                        "content": "UrbanDrop inaweza kusasisha masharti haya mara kwa mara. Mabadiliko yatakuwa halali mara tu yatakapochapishwa kwenye jukwaa. Kuendelea kutumia UrbanDrop kunamaanisha kukubali toleo la hivi karibuni."
+                    },
+                    "governing": {
+                        "title": "18. Sheria Inayotawala",
+                        "content": "Masharti haya yanatawaliwa na sheria za England na Wales. Migogoro yoyote itahusiana na mahakama za England na Wales pekee."
+                    },
+                    "contact": {
+                        "title": "19. Mawasiliano",
+                        "content": "Kwa maswali, malalamiko, au maombi ya marejesho, tafadhali wasiliana:",
+                        "companyName": "UrbanDrop Group Limited",
+                        "email": "Barua pepe: support@urbandrop.io"
                     }
                 }
             }

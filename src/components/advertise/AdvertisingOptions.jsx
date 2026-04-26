@@ -5,9 +5,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-import listingImg from '../../assets/images/advertising/listing-features.jpg';
-import appBannerImg from '../../assets/images/advertising/app banners.jpg';
-import inAppImg from '../../assets/images/advertising/app-in promotion.jpg';
+const listingImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220050/listing-features_xjptst.jpg';
+const appBannerImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220058/app_banners_hac4jo.jpg';
+const inAppImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777220057/app-in_promotion_xlypq4.jpg';
 
 const panels = [
   {

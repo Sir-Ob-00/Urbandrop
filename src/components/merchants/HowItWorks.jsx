@@ -3,11 +3,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Package, Truck, Wallet, BarChart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import listProducts from '../../assets/images/merchants/list-products.jpg';
-import receiveFulfill from '../../assets/images/merchants/receive-fulfill.jpg';
-import deliverEarn from '../../assets/images/merchants/deliver-earn.jpg';
-import merchantSignup from '../../assets/images/merchants/merchant-signup.jpg';
-import marketWoman from '../../assets/images/merchants/market-woman.jpg';
+const listProducts = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219731/list-products_uarcsv.jpg';
+const receiveFulfill = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219734/receive-fulfill_p4qzjj.jpg';
+const deliverEarn = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219737/deliver-earn_bmirh1.jpg';
+const merchantSignup = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219732/merchant-signup_b7ghxl.jpg';
+const marketWoman = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219732/market-woman_qxbage.jpg';
 
 const HowItWorks = () => {
   const { t } = useTranslation();

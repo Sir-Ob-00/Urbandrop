@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslation } from 'react-i18next';
-import listProductsImg from '../../assets/images/merchants/list-products.jpg';
-import receiveFulfillImg from '../../assets/images/merchants/receive-fulfill.jpg';
-import deliverEarnImg from '../../assets/images/merchants/deliver-earn.jpg';
-import merchantSignupImg from '../../assets/images/merchants/merchant-signup.jpg';
+const listProductsImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219731/list-products_uarcsv.jpg';
+const receiveFulfillImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219734/receive-fulfill_p4qzjj.jpg';
+const deliverEarnImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219737/deliver-earn_bmirh1.jpg';
+const merchantSignupImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219732/merchant-signup_b7ghxl.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 

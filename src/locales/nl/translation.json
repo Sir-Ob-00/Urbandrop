@@ -716,6 +716,143 @@
             }
         }
     },
+    "cookiesPolicy": {
+        "title": "Cookiebeleid",
+        "effectiveDate": "(Ingangsdatum: {{date}})",
+        "whatAreCookies": {
+            "title": "Wat zijn Cookies?",
+            "desc": "Cookies zijn kleine tekstbestanden die op uw apparaat worden geplaatst wanneer u een website bezoekt of een app gebruikt. Ze helpen ons uw voorkeuren te onthouden, prestaties te verbeteren en uw ervaring te personaliseren. Sommige cookies zijn essentieel voor de goede werking van het Platform, terwijl andere ons helpen begrijpen hoe gebruikers omgaan met onze diensten zodat we ze kunnen verbeteren."
+        },
+        "types": {
+            "essential": {
+                "title": "Essentiële Cookies",
+                "desc": "Deze cookies zijn noodzakelijk voor de werking van het Platform. Ze maken kernfuncties mogelijk zoals veilig inloggen, afrekenen en accountbeheer. Zonder deze kunnen bepaalde diensten niet worden geleverd. Voorbeelden zijn ingelogd blijven, uw winkelmandje beheren en betalingen veilig verwerken."
+            },
+            "performance": {
+                "title": "Prestatie- en Analytics-cookies",
+                "desc": "Deze cookies helpen ons begrijpen hoe bezoekers UrbanDrop gebruiken, bijvoorbeeld welke pagina's het populairst zijn of waar gebruikers fouten tegenkomen. We gebruiken deze informatie om navigatie, snelheid en gebruikerservaring te verbeteren. Voorbeelden zijn Google Analytics en app-prestatietrackers. Alle verzamelde gegevens zijn geaggregeerd en anoniem."
+            },
+            "functionality": {
+                "title": "Functionaliteitscookies",
+                "desc": "Deze cookies onthouden uw voorkeuren zoals taal, locatie of bezorgadres om uw ervaring gemakkelijker te maken."
+            },
+            "advertising": {
+                "title": "Advertentie- en Marketingcookies",
+                "desc": "Deze cookies stellen ons en geselecteerde partners in staat om u relevante aanbiedingen en promoties te tonen, zowel op UrbanDrop als op andere websites of apps. Ze helpen ook het aantal keren dat u dezelfde advertentie ziet te beperken. Voorbeelden zijn Meta Pixel (Facebook/Instagram Ads) en Google Ads Remarketing. U kunt zich afmelden voor gepersonaliseerde advertenties via uw accountinstellingen of de privacyinstellingen van uw browser."
+            }
+        },
+        "thirdParty": {
+            "title": "Cookies van Derden",
+            "desc": "Sommige cookies op UrbanDrop zijn afkomstig van vertrouwde derde partijen die ons helpen bepaalde diensten te leveren, bijvoorbeeld analytics-aanbieders (bijv. Google Analytics), advertentienetwerken en betalings- en bezorgpartners. Deze derde partijen kunnen cookies gebruiken in overeenstemming met hun eigen privacybeleid. UrbanDrop heeft geen controle over hun cookie-instellingen."
+        },
+        "managing": {
+            "title": "Cookies Beheren",
+            "desc": "U kunt cookies beheren of uitschakelen via uw browser- of apparaatinstellingen. De meeste browsers laten u zien welke cookies op uw apparaat zijn opgeslagen, bestaande cookies verwijderen en bepaalde of alle cookies blokkeren. Als u cookies uitschakelt, functioneren sommige delen van het Platform mogelijk niet goed (bijvoorbeeld afrekenen of opgeslagen adressen). U kunt ook cookievoorkeuren aanpassen via de Cookie-instellingenbanner van UrbanDrop wanneer u onze website voor het eerst bezoekt of via uw accountinstellingen."
+        },
+        "consent": {
+            "title": "Toestemming",
+            "desc": "Wanneer u UrbanDrop voor het eerst bezoekt, ziet u een banner die om uw toestemming vraagt voor het gebruik van niet-essentiële cookies. Door op \"Alles Accepteren\" te klikken, gaat u akkoord met het gebruik van alle cookies zoals hier beschreven. U kunt uw voorkeuren op elk moment bijwerken door op \"Cookies Beheren\" in de voettekst van de site of via uw profiel te klikken. Essentiële cookies vereisen geen toestemming, omdat ze nodig zijn om de door u gevraagde dienst te leveren."
+        },
+        "updates": {
+            "title": "Updates van dit Beleid",
+            "desc": "We kunnen dit Cookiebeleid periodiek bijwerken om wijzigingen in technologie of regelgeving weer te geven. Updates worden op deze pagina gepubliceerd met een nieuwe ingangsdatum."
+        },
+        "contact": {
+            "title": "Neem Contact Op",
+            "desc": "Voor vragen of zorgen over cookies of dit Beleid, neem contact op met:",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "E-mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
+        }
+    },
+    "notFoundPage": {
+        "title": "Pagina Niet Gevonden",
+        "desc": "De pagina die je zoekt bestaat niet of is verplaatst.",
+        "goHome": "Ga naar Home",
+        "goBack": "Ga Terug",
+        "features": {
+            "browseMenu": {
+                "title": "Blader door Menu",
+                "desc": "Ontdek onze heerlijke opties"
+            },
+            "becomeMerchant": {
+                "title": "Word Handelaar",
+                "desc": "Word onderdeel van ons netwerk van verkopers"
+            },
+            "advertise": {
+                "title": "Adverteren",
+                "desc": "Promoot je merk bij ons"
+            }
+        },
+        "illustration": "We konden de pagina niet vinden, maar we vonden wel deze verse ingrediënten!",
+        "searchSuggestion": "Probeer te zoeken naar wat je nodig hebt of bezoek ons Helpcentrum."
+    },
+    "cookieConsent": {
+        "banner": {
+            "title": "Wij waarderen uw privacy",
+            "description": "Wij gebruiken cookies om uw ervaring te verbeteren. UrbanDrop gebruikt essentiële cookies om onze site te laten werken, en optionele cookies om ons te helpen begrijpen hoe u deze gebruikt, inhoud te personaliseren en u relevante aanbiedingen te tonen. U kunt ervoor kiezen om alle cookies te accepteren, niet-essentiële cookies te weigeren of uw voorkeuren op elk moment te beheren.",
+            "acceptAll": "Alle cookies accepteren",
+            "rejectNonEssential": "Niet-essentiële weigeren",
+            "managePreferences": "Voorkeuren beheren"
+        },
+        "modal": {
+            "title": "Cookievoorkeuren",
+            "description": "Beheer hoe wij cookies op deze site gebruiken.",
+            "quickActions": {
+                "acceptAll": "Alles accepteren",
+                "rejectNonEssential": "Niet-essentiële weigeren"
+            },
+            "categories": {
+                "essential": {
+                    "title": "Essentiële cookies",
+                    "description": "Deze cookies zijn nodig om UrbanDrop goed te laten functioneren. Ze maken veilig inloggen, afrekenen en betalingsverwerking mogelijk. U kunt deze niet uitschakelen via onze instellingen, maar u kunt ze blokkeren in uw browser (wat de functionaliteit kan beïnvloeden).",
+                    "examples": "Voorbeelden: inlogsessies, winkelmandje bijhouden, betalingsverwerking."
+                },
+                "performance": {
+                    "title": "Prestatie- en analytische cookies",
+                    "description": "Deze helpen ons te begrijpen hoe bezoekers UrbanDrop gebruiken, zoals welke pagina's het meest worden bezocht of waar gebruikers vertragingen ervaren. Ze stellen ons in staat om snelheid, betrouwbaarheid en algehele bruikbaarheid te verbeteren.",
+                    "examples": "Voorbeelden: Google Analytics, app-diagnostiek."
+                },
+                "functional": {
+                    "title": "Functionele cookies",
+                    "description": "Deze onthouden uw voorkeuren, zoals taal, locatie en opgeslagen adressen, zodat u ze niet elke keer opnieuw hoeft in te voeren.",
+                    "examples": "Voorbeelden: voorkeursbezorgadres, opgeslagen winkelfilters."
+                },
+                "advertising": {
+                    "title": "Advertentie- en marketingcookies",
+                    "description": "Wij gebruiken deze om u gepersonaliseerde promoties en relevante advertenties te tonen, zowel op UrbanDrop als op andere websites. Ze helpen ons de prestaties van marketingcampagnes te meten en te voorkomen dat dezelfde advertenties herhaaldelijk worden getoond.",
+                    "examples": "Voorbeelden: Meta Pixel, Google Ads Remarketing."
+                }
+            },
+            "footer": {
+                "text1": "U kunt uw cookiekeuzes op elk moment bijwerken door \"Cookies beheren\" te selecteren in onze websitevoettekst of app-menu.",
+                "text2": "Voor meer details, zie ons",
+                "cookiePolicy": "Cookiebeleid",
+                "and": "en",
+                "privacyPolicy": "Privacybeleid",
+                "savePreferences": "Voorkeuren opslaan"
+            },
+            "status": {
+                "alwaysActive": "Altijd actief",
+                "active": "Actief",
+                "inactive": "Inactief",
+                "required": "Vereist"
+            }
+        }
+    },
+    "termsAndConditions": {
+        "pageTitle": "Algemene voorwaarden",
+        "pageDescription": "Lees deze voorwaarden zorgvuldig voordat u ons platform gebruikt. Ze beschrijven uw rechten en verantwoordelijkheden bij het gebruik van Urbandrop.",
+        "lastUpdated": "Laatst bijgewerkt:",
+        "lastUpdatedDate": "25 april 2026",
+        "tableOfContents": "Inhoudsopgave",
+        "sections": {
+            "general": "Algemene voorwaarden",
+            "merchants": "Verkopers",
+            "customers": "Klanten",
+            "promotions": "Promoties",
+            "riders": "Bezorgers"
+        }
+    },
     "termsConditions": {
         "title": "Algemene Voorwaarden",
         "lastUpdated": "Laatst bijgewerkt: {{date}}",
@@ -956,129 +1093,6 @@
                 "content": "Voor vragen, klachten of terugbetalingsverzoeken, neem contact op met:",
                 "companyName": "UrbanDrop Group Limited",
                 "email": "E-mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
-            }
-        }
-    },
-    "cookiesPolicy": {
-        "title": "Cookiebeleid",
-        "effectiveDate": "(Ingangsdatum: {{date}})",
-        "whatAreCookies": {
-            "title": "Wat zijn Cookies?",
-            "desc": "Cookies zijn kleine tekstbestanden die op uw apparaat worden geplaatst wanneer u een website bezoekt of een app gebruikt. Ze helpen ons uw voorkeuren te onthouden, prestaties te verbeteren en uw ervaring te personaliseren. Sommige cookies zijn essentieel voor de goede werking van het Platform, terwijl andere ons helpen begrijpen hoe gebruikers omgaan met onze diensten zodat we ze kunnen verbeteren."
-        },
-        "types": {
-            "essential": {
-                "title": "Essentiële Cookies",
-                "desc": "Deze cookies zijn noodzakelijk voor de werking van het Platform. Ze maken kernfuncties mogelijk zoals veilig inloggen, afrekenen en accountbeheer. Zonder deze kunnen bepaalde diensten niet worden geleverd. Voorbeelden zijn ingelogd blijven, uw winkelmandje beheren en betalingen veilig verwerken."
-            },
-            "performance": {
-                "title": "Prestatie- en Analytics-cookies",
-                "desc": "Deze cookies helpen ons begrijpen hoe bezoekers UrbanDrop gebruiken, bijvoorbeeld welke pagina's het populairst zijn of waar gebruikers fouten tegenkomen. We gebruiken deze informatie om navigatie, snelheid en gebruikerservaring te verbeteren. Voorbeelden zijn Google Analytics en app-prestatietrackers. Alle verzamelde gegevens zijn geaggregeerd en anoniem."
-            },
-            "functionality": {
-                "title": "Functionaliteitscookies",
-                "desc": "Deze cookies onthouden uw voorkeuren zoals taal, locatie of bezorgadres om uw ervaring gemakkelijker te maken."
-            },
-            "advertising": {
-                "title": "Advertentie- en Marketingcookies",
-                "desc": "Deze cookies stellen ons en geselecteerde partners in staat om u relevante aanbiedingen en promoties te tonen, zowel op UrbanDrop als op andere websites of apps. Ze helpen ook het aantal keren dat u dezelfde advertentie ziet te beperken. Voorbeelden zijn Meta Pixel (Facebook/Instagram Ads) en Google Ads Remarketing. U kunt zich afmelden voor gepersonaliseerde advertenties via uw accountinstellingen of de privacyinstellingen van uw browser."
-            }
-        },
-        "thirdParty": {
-            "title": "Cookies van Derden",
-            "desc": "Sommige cookies op UrbanDrop zijn afkomstig van vertrouwde derde partijen die ons helpen bepaalde diensten te leveren, bijvoorbeeld analytics-aanbieders (bijv. Google Analytics), advertentienetwerken en betalings- en bezorgpartners. Deze derde partijen kunnen cookies gebruiken in overeenstemming met hun eigen privacybeleid. UrbanDrop heeft geen controle over hun cookie-instellingen."
-        },
-        "managing": {
-            "title": "Cookies Beheren",
-            "desc": "U kunt cookies beheren of uitschakelen via uw browser- of apparaatinstellingen. De meeste browsers laten u zien welke cookies op uw apparaat zijn opgeslagen, bestaande cookies verwijderen en bepaalde of alle cookies blokkeren. Als u cookies uitschakelt, functioneren sommige delen van het Platform mogelijk niet goed (bijvoorbeeld afrekenen of opgeslagen adressen). U kunt ook cookievoorkeuren aanpassen via de Cookie-instellingenbanner van UrbanDrop wanneer u onze website voor het eerst bezoekt of via uw accountinstellingen."
-        },
-        "consent": {
-            "title": "Toestemming",
-            "desc": "Wanneer u UrbanDrop voor het eerst bezoekt, ziet u een banner die om uw toestemming vraagt voor het gebruik van niet-essentiële cookies. Door op \"Alles Accepteren\" te klikken, gaat u akkoord met het gebruik van alle cookies zoals hier beschreven. U kunt uw voorkeuren op elk moment bijwerken door op \"Cookies Beheren\" in de voettekst van de site of via uw profiel te klikken. Essentiële cookies vereisen geen toestemming, omdat ze nodig zijn om de door u gevraagde dienst te leveren."
-        },
-        "updates": {
-            "title": "Updates van dit Beleid",
-            "desc": "We kunnen dit Cookiebeleid periodiek bijwerken om wijzigingen in technologie of regelgeving weer te geven. Updates worden op deze pagina gepubliceerd met een nieuwe ingangsdatum."
-        },
-        "contact": {
-            "title": "Neem Contact Op",
-            "desc": "Voor vragen of zorgen over cookies of dit Beleid, neem contact op met:",
-            "companyName": "UrbanDrop Group Limited",
-            "email": "E-mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
-        }
-    },
-    "notFoundPage": {
-        "title": "Pagina Niet Gevonden",
-        "desc": "De pagina die je zoekt bestaat niet of is verplaatst.",
-        "goHome": "Ga naar Home",
-        "goBack": "Ga Terug",
-        "features": {
-            "browseMenu": {
-                "title": "Blader door Menu",
-                "desc": "Ontdek onze heerlijke opties"
-            },
-            "becomeMerchant": {
-                "title": "Word Handelaar",
-                "desc": "Word onderdeel van ons netwerk van verkopers"
-            },
-            "advertise": {
-                "title": "Adverteren",
-                "desc": "Promoot je merk bij ons"
-            }
-        },
-        "illustration": "We konden de pagina niet vinden, maar we vonden wel deze verse ingrediënten!",
-        "searchSuggestion": "Probeer te zoeken naar wat je nodig hebt of bezoek ons Helpcentrum."
-    },
-    "cookieConsent": {
-        "banner": {
-            "title": "Wij waarderen uw privacy",
-            "description": "Wij gebruiken cookies om uw ervaring te verbeteren. UrbanDrop gebruikt essentiële cookies om onze site te laten werken, en optionele cookies om ons te helpen begrijpen hoe u deze gebruikt, inhoud te personaliseren en u relevante aanbiedingen te tonen. U kunt ervoor kiezen om alle cookies te accepteren, niet-essentiële cookies te weigeren of uw voorkeuren op elk moment te beheren.",
-            "acceptAll": "Alle cookies accepteren",
-            "rejectNonEssential": "Niet-essentiële weigeren",
-            "managePreferences": "Voorkeuren beheren"
-        },
-        "modal": {
-            "title": "Cookievoorkeuren",
-            "description": "Beheer hoe wij cookies op deze site gebruiken.",
-            "quickActions": {
-                "acceptAll": "Alles accepteren",
-                "rejectNonEssential": "Niet-essentiële weigeren"
-            },
-            "categories": {
-                "essential": {
-                    "title": "Essentiële cookies",
-                    "description": "Deze cookies zijn nodig om UrbanDrop goed te laten functioneren. Ze maken veilig inloggen, afrekenen en betalingsverwerking mogelijk. U kunt deze niet uitschakelen via onze instellingen, maar u kunt ze blokkeren in uw browser (wat de functionaliteit kan beïnvloeden).",
-                    "examples": "Voorbeelden: inlogsessies, winkelmandje bijhouden, betalingsverwerking."
-                },
-                "performance": {
-                    "title": "Prestatie- en analytische cookies",
-                    "description": "Deze helpen ons te begrijpen hoe bezoekers UrbanDrop gebruiken, zoals welke pagina's het meest worden bezocht of waar gebruikers vertragingen ervaren. Ze stellen ons in staat om snelheid, betrouwbaarheid en algehele bruikbaarheid te verbeteren.",
-                    "examples": "Voorbeelden: Google Analytics, app-diagnostiek."
-                },
-                "functional": {
-                    "title": "Functionele cookies",
-                    "description": "Deze onthouden uw voorkeuren, zoals taal, locatie en opgeslagen adressen, zodat u ze niet elke keer opnieuw hoeft in te voeren.",
-                    "examples": "Voorbeelden: voorkeursbezorgadres, opgeslagen winkelfilters."
-                },
-                "advertising": {
-                    "title": "Advertentie- en marketingcookies",
-                    "description": "Wij gebruiken deze om u gepersonaliseerde promoties en relevante advertenties te tonen, zowel op UrbanDrop als op andere websites. Ze helpen ons de prestaties van marketingcampagnes te meten en te voorkomen dat dezelfde advertenties herhaaldelijk worden getoond.",
-                    "examples": "Voorbeelden: Meta Pixel, Google Ads Remarketing."
-                }
-            },
-            "footer": {
-                "text1": "U kunt uw cookiekeuzes op elk moment bijwerken door \"Cookies beheren\" te selecteren in onze websitevoettekst of app-menu.",
-                "text2": "Voor meer details, zie ons",
-                "cookiePolicy": "Cookiebeleid",
-                "and": "en",
-                "privacyPolicy": "Privacybeleid",
-                "savePreferences": "Voorkeuren opslaan"
-            },
-            "status": {
-                "alwaysActive": "Altijd actief",
-                "active": "Actief",
-                "inactive": "Inactief",
-                "required": "Vereist"
             }
         }
     }

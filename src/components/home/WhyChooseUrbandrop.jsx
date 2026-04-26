@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-import shopTheWay from '../../assets/images/home/shop the way.jpg';
-import discoverStore from '../../assets/images/home/Discover Store.jpg';
-import authenticProducts from '../../assets/images/home/Authentic-products.jpg';
-import moreThanShopping from '../../assets/images/home/more-than-shopping.jpg';
-
+// Cloudinary image URLs
+const shopTheWay = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219820/shop_the_way_twmz6c.jpg';
+const discoverStore = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219798/Discover_Store_ocekav.jpg';
+const authenticProducts = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219921/Authentic-products_pw5zsa.jpg';
+const moreThanShopping = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219819/more-than-shopping_q1zhyv.jpg';
 
 const WhyChooseUrbandrop = () => {
 
