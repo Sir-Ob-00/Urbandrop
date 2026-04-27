@@ -854,6 +854,68 @@
             }
         }
     },
+    "reportABug": {
+        "modal": {
+            "title": "Report a Technical Issue",
+            "subtitle": "Help us improve by reporting bugs or security issues"
+        },
+        "form": {
+            "issueType": "Issue Type",
+            "selectIssueType": "Select an issue type...",
+            "issueTypes": {
+                "broken": "Broken feature / functionality not working",
+                "login": "Login or authentication issue",
+                "payment": "Payment issue",
+                "ui": "User Interface",
+                "performance": "Performance / slow loading",
+                "data": "Data issue",
+                "other": "Other technical issue",
+                "security": "Security Vulnerability"
+            },
+            "affectedEndpoint": "Affected Endpoint",
+            "impactLevel": "Impact Level",
+            "selectImpactLevel": "Select impact level...",
+            "impactLevels": {
+                "Low": "Low",
+                "Medium": "Medium",
+                "High": "High",
+                "Critical": "Critical"
+            },
+            "vulnerabilityDescription": "Vulnerability Description",
+            "stepsToReproduce": "Steps to Reproduce",
+            "attemptedAction": "What were you trying to do?",
+            "actualResult": "What happened instead?",
+            "pageUrl": "Page URL",
+            "browserInfo": "Browser and Device Auto Detected",
+            "attachment": "Attachment",
+            "attachmentOptional": "(optional, max 10MB)",
+            "clickToUpload": "Click to upload",
+            "dragAndDrop": "or drag and drop",
+            "acceptedFormats": "PNG, JPG, PDF, TXT, LOG",
+            "securityDetails": "Security Details"
+        },
+        "buttons": {
+            "cancel": "Cancel",
+            "submitReport": "Submit Report",
+            "submitting": "Submitting..."
+        },
+        "messages": {
+            "success": {
+                "title": "Report Submitted!",
+                "description": "Thank you for helping us improve."
+            },
+            "errors": {
+                "selectIssueType": "Please select an issue type",
+                "affectedEndpoint": "Affected endpoint is required",
+                "description": "Description is required",
+                "stepsToReproduce": "Steps to reproduce are required",
+                "impactLevel": "Impact level is required",
+                "attemptedAction": "Please describe what you were trying to do",
+                "actualResult": "Please describe what happened instead",
+                "submit": "Failed to submit report. Please try again."
+            }
+        }
+    },
     "termsAndConditions": {
         "pageTitle": "Terms & Conditions",
         "pageDescription": "Please read these terms carefully before using our platform. They outline your rights and responsibilities when using Urbandrop.",
@@ -2340,6 +2402,7 @@
                 "ip": {
                     "title": "14 Intellectual Property",
                     "content": "All intellectual property rights in the Platform, the rider app, Urbandrop trademarks, logos, branding, training materials and documentation remain the property of Urbandrop or our licensors. You are granted a limited, non-exclusive, non-transferable, revocable licence to use the rider app solely for the purpose of performing Deliveries.",
+                    "item": "You must not:",
                     "items": [
                         "reverse-engineer, decompile or attempt to derive source code from the rider app;",
                         "scrape, copy or otherwise misappropriate data, order flows, pricing or routing information;",
@@ -2398,7 +2461,7 @@
                     "content": "UrbanDrop may update these Terms from time to time. We will notify you of material changes via the rider app, email, or SMS at least 14 days before they take effect. Your continued use of the Platform after the update date constitutes acceptance of the revised Terms. If you do not agree to the changes, you may terminate this agreement by giving 7 days' written notice."
                 },
                 "contact": {
-                    "title": "21 Contact",
+                    "title": "19 Contact",
                     "content": "For questions, support, or to serve notices under these Terms:",
                     "companyName": "Urbandrop Group Limited",
                     "email": "Email: <a href=\"mailto:riders@urbandrop.io\" className=\"text-secondary hover:underline font-medium\">riders@urbandrop.io</a>",

@@ -871,16 +871,17 @@
             "about": {
                 "title": "1. Über UrbanDrop",
                 "content": [
-                    "UrbanDrop ist ein Online-Marktplatz.",
-                    "Wenn Sie bestellen, kaufen Sie direkt beim Händler."
+                    "UrbanDrop ist ein Online-Marktplatz, der Kunden mit unabhängigen Händlern verbindet, die Lebensmittel, Mahlzeiten und ethnische Produkte zur Lieferung oder Abholung anbieten. Wir stellen die digitale Infrastruktur, die Zahlungsabwicklung und die Nutzeroberfläche bereit, aber wir produzieren, besitzen oder verkaufen die auf der Plattform gelisteten Artikel nicht.",
+                    "Wenn Sie eine Bestellung über UrbanDrop aufgeben, kaufen Sie direkt beim Händler und nicht bei UrbanDrop."
                 ]
             },
             "eligibility": {
-                "title": "2. Berechtigung",
-                "content": "Sie müssen mindestens 18 Jahre alt sein.",
+                "title": "2. Teilnahmeberechtigung",
+                "content": "Sie müssen mindestens 18 Jahre alt sein, um die Plattform zu nutzen. Durch die Nutzung bestätigen Sie, dass:",
                 "items": [
-                    "Sie sind geschäftsfähig.",
-                    "Sie nutzen die Plattform für legale Zwecke."
+                    "Sie die Rechtsfähigkeit besitzen, verbindliche Verträge abzuschließen.",
+                    "Sie die Plattform nur für rechtmäßige Zwecke nutzen werden.",
+                    "Sie bei der Erstellung eines Kontos oder der Aufgabe einer Bestellung korrekte Informationen angeben werden."
                 ]
             },
             "account": {
@@ -888,36 +889,36 @@
                 "subsections": {
                     "creation": {
                         "title": "3.1 Kontoerstellung",
-                        "content": "Sie müssen genaue Angaben machen."
+                        "content": "Um eine Bestellung aufzugeben, müssen Sie möglicherweise ein UrbanDrop-Konto erstellen. Sie müssen genaue Angaben machen, einschließlich Ihres Namens, Ihrer Lieferadresse und Ihrer Zahlungsinformationen."
                     },
                     "security": {
-                        "title": "3.2 Sicherheit",
-                        "content": "Sie sind für Ihre Zugangsdaten verantwortlich."
+                        "title": "3.2 Kontosicherheit",
+                        "content": "Sie sind dafür verantwortlich, Ihre Zugangsdaten sicher aufzubewahren. Jede Aktivität unter Ihrem Konto gilt als Ihre Verantwortung."
                     },
                     "misuse": {
                         "title": "3.3 Missbrauch",
-                        "content": "Wir können Konten bei Missbrauch sperren."
+                        "content": "UrbanDrop kann Konten sperren oder schließen, die für betrügerische Aktivitäten, den Missbrauch von Werbeaktionen oder Verstöße gegen diese Bedingungen genutzt werden."
                     }
                 }
             },
             "ordering": {
-                "title": "4. Bestellungen und Zahlungen",
+                "title": "4. Bestellung und Zahlungen",
                 "subsections": {
                     "placing": {
-                        "title": "4.1 Bestellung aufgeben",
-                        "content": "Sie bieten an, Produkte von einem Händler zu kaufen."
+                        "title": "4.1 Aufgabe einer Bestellung",
+                        "content": "Wenn Sie eine Bestellung aufgeben, bieten Sie den Kauf von Produkten bei einem auf UrbanDrop gelisteten Händler an. Sobald der Händler Ihre Bestellung annimmt, kommt ein Vertrag zwischen Ihnen und diesem Händler zustande."
                     },
                     "confirmation": {
-                        "title": "4.2 Bestätigung",
-                        "content": "Sie erhalten eine Bestätigung, sobald die Bestellung angenommen wurde."
+                        "title": "4.2 Bestellbestätigung",
+                        "content": "Sie erhalten über die Plattform eine Bestätigung, sobald Ihre Bestellung angenommen wurde. Händler können Bestellungen stornieren, wenn Artikel nicht verfügbar sind oder nicht ausgeführt werden können; in diesem Fall erfolgt keine Belastung."
                     },
                     "payments": {
                         "title": "4.3 Zahlungen",
-                        "content": "Alle Zahlungen werden sicher verarbeitet."
+                        "content": "Alle Zahlungen werden sicher über die Zahlungspartner von UrbanDrop abgewickelt. Sie ermächtigen UrbanDrop, Zahlungen im Namen des Händlers einzuziehen."
                     },
                     "pricing": {
-                        "title": "4.4 Preise",
-                        "content": "Preise werden von Händlern festgelegt."
+                        "title": "4.4 Preisgestaltung",
+                        "content": "Die Preise werden von den Händlern festgelegt und enthalten die geltenden Steuern. Liefer-, Service- und Verpackungsgebühren können anfallen und werden vor dem Checkout angezeigt."
                     }
                 }
             },
@@ -926,180 +927,1493 @@
                 "subsections": {
                     "areas": {
                         "title": "5.1 Liefergebiete",
-                        "content": "Lieferung nur in bedienten Gebieten."
+                        "content": "Die Lieferung ist nur in Gebieten verfügbar, in denen UrbanDrop oder seine Logistikpartner tätig sind."
                     },
                     "partners": {
                         "title": "5.2 Lieferpartner",
-                        "content": "Bestellungen können von UrbanDrop oder dem Händler geliefert werden."
+                        "content": "Bestellungen können durch das Liefernetzwerk von UrbanDrop oder direkt durch den Händler geliefert werden. Lieferzeiten sind Schätzungen und können aufgrund von Verkehr, Wetter oder anderen Faktoren außerhalb unserer Kontrolle variieren."
                     },
                     "collection": {
-                        "title": "5.3 Abholung",
-                        "content": "Bitte kommen Sie pünktlich zur Abholung."
+                        "title": "5.3 Abholbestellungen",
+                        "content": "Wenn Sie sich für die Abholung entscheiden, erscheinen Sie bitte zur vereinbarten Zeit. Händler können sich weigern, Artikel länger als einen angemessenen Zeitraum aufzubewahren."
                     }
                 }
             },
             "promotions": {
-                "title": "6. Aktionen",
+                "title": "6. Werbeaktionen und Rabatte",
                 "subsections": {
                     "platform": {
-                        "title": "6.1 Plattform-Aktionen",
-                        "content": "UrbanDrop kann Aktionen anbieten."
+                        "title": "6.1 Plattform-Werbeaktionen",
+                        "content": "UrbanDrop kann gelegentlich Werbeaktionen oder Rabatte anbieten. Jede Aktion hat ihre eigenen Regeln, die ergänzend zu diesen Bedingungen gelten."
                     },
                     "merchant": {
-                        "title": "6.2 Händler-Aktionen",
-                        "content": "Händler-Aktionen werden von diesen finanziert."
+                        "title": "6.2 Händler-Werbeaktionen",
+                        "content": "Von Händlern erstellte Werbeaktionen werden ausschließlich vom Händler finanziert. UrbanDrop prüft und genehmigt solche Angebote, ist jedoch finanziell nicht dafür verantwortlich."
                     },
                     "misuse": {
                         "title": "6.3 Missbrauch",
-                        "content": "Wir behalten uns das Recht vor, Angebote bei Missbrauch auszusetzen."
+                        "content": "UrbanDrop behält sich das Recht vor, Angebote auszusetzen oder zu entfernen, wenn Missbrauch oder betrügerische Aktivitäten festgestellt werden."
                     }
                 }
             },
             "merchant": {
-                "title": "7. Händlerverantwortung",
-                "content": "Jeder Händler ist verantwortlich für:",
+                "title": "7. Verantwortlichkeiten des Händlers",
+                "content": "Jeder Händler auf UrbanDrop ist ein unabhängiges Unternehmen. Die Händler sind allein verantwortlich für:",
                 "items": [
-                    "Produktgenauigkeit.",
-                    "Lebensmittelsicherheit."
+                    "Die Richtigkeit der Produktinformationen, Preise und Bilder.",
+                    "Lebensmittelsicherheit, Hygiene und ordnungsgemäße Produktkennzeichnung.",
+                    "Die Einhaltung lokaler Lizenz- und Handelsgesetze."
                 ],
-                "note": "UrbanDrop stellt die Produkte nicht her."
+                "note": "UrbanDrop stellt die von den Händlern verkauften Produkte weder her, noch testet oder garantiert UrbanDrop diese."
             },
             "conduct": {
                 "title": "8. Kundenverhalten",
-                "content": "Sie stimmen zu, nicht:",
+                "content": "Sie erklären sich damit einverstanden, Folgendes zu unterlassen:",
                 "items": [
-                    "Die Plattform zu missbrauchen.",
-                    "Händler zu belästigen."
+                    "Die Plattform zu missbrauchen oder zu versuchen, deren Betrieb zu stören.",
+                    "Händler, Fahrer oder den Kundensupport zu belästigen, zu beschimpfen oder zu bedrohen.",
+                    "Mehrere Konten zu erstellen, um Werbeaktionen auszunutzen.",
+                    "Falsche Bewertungen oder irreführendes Feedback zu posten."
                 ],
-                "note": "Wir können Konten bei Verstößen sperren."
+                "note": "UrbanDrop behält sich das Recht vor, jedes Konto zu sperren oder zu bannen, das gegen diese Standards verstößt."
             },
             "cancellation": {
-                "title": "9. Stornierungsbedingungen",
+                "title": "9. Stornierungsbedingungen für Kunden",
                 "subsections": {
                     "before": {
-                        "title": "9.1 Vor Annahme",
-                        "content": "Kostenlose Stornierung vor Annahme."
+                        "title": "9.1 Vor der Annahme durch den Händler",
+                        "content": "Sie können eine Bestellung jederzeit kostenlos stornieren, bevor sie vom Händler angenommen wurde."
                     },
                     "after": {
-                        "title": "9.2 Nach Annahme",
-                        "content": "Stornierung nach Annahme möglicherweise nicht möglich."
+                        "title": "9.2 Nach der Annahme durch den Händler",
+                        "content": "Sobald ein Händler Ihre Bestellung angenommen hat, ist eine Stornierung unter Umständen nicht mehr möglich, insbesondere bei verderblichen oder zubereiteten Artikeln. Wenn der Händler bereits mit der Zubereitung Ihrer Bestellung begonnen hat, wird Ihnen der volle Betrag in Rechnung gestellt."
                     },
                     "merchant": {
-                        "title": "9.3 Durch Händler",
-                        "content": "Händler können stornieren, wenn Produkte nicht verfügbar sind."
+                        "title": "9.3 Stornierungen durch den Händler",
+                        "content": "Händler können eine Bestellung stornieren, wenn Produkte nicht verfügbar sind, die Bestellung nicht ausgeführt werden kann oder wenn eine Lieferung nicht möglich ist. In diesen Fällen erhalten Sie eine vollständige Rückerstattung."
                     },
                     "progress": {
-                        "title": "9.4 Lieferung unterwegs",
-                        "content": "Keine Stornierung, wenn die Lieferung unterwegs ist."
+                        "title": "9.4 Lieferung in Ausführung",
+                        "content": "Wenn sich Ihre Bestellung bereits auf dem Lieferweg befindet, kann sie nicht mehr storniert werden."
                     },
                     "repeated": {
                         "title": "9.5 Wiederholte Stornierungen",
-                        "content": "Kann zu Kontoeinschränkungen führen."
+                        "content": "Kunden, die Bestellungen nach der Annahme wiederholt stornieren, können in der Nutzung ihres Kontos eingeschränkt oder gesperrt werden."
                     }
                 }
             },
             "returns": {
-                "title": "10. Rückgabe und Erstattung",
+                "title": "10. Rückgabe- und Erstattungsrichtlinien",
                 "subsections": {
                     "general": {
-                        "title": "10.1 Allgemein",
-                        "content": "Erstattungen hängen vom Artikel ab."
+                        "title": "10.1 Allgemeine Richtlinie",
+                        "content": "Da UrbanDrop Kunden direkt mit unabhängigen Händlern verbindet, hängen Rückerstattungen und Rückgaben von der Art des bestellten Artikels und den Umständen der Anfrage ab."
                     },
                     "perishable": {
-                        "title": "10.2 Verderbliche Waren",
-                        "content": "Keine Rückgabe, außer bei Beschädigung.",
+                        "title": "10.2 Verderbliche und zubereitete Artikel",
+                        "content": "Für verderbliche Waren wie frische Erzeugnisse, gekühlte oder gefrorene Lebensmittel und gekochte Mahlzeiten sind Rückerstattungen oder Rückgaben in der Regel nicht möglich, sobald eine Bestellung geliefert oder abgeholt wurde, es sei denn:",
                         "items": [
-                            "Beschädigt oder abgelaufen.",
-                            "Falscher Artikel."
+                            "Der Artikel ist zum Zeitpunkt der Lieferung beschädigt, abgelaufen oder für den Verzehr unsicher.",
+                            "Es wurde der falsche Artikel geliefert.",
+                            "Die Bestellung war unvollständig."
                         ],
-                        "note": "Probleme innerhalb von 24 Stunden melden."
+                        "note": "Sie müssen diese Probleme innerhalb von 24 Stunden nach der Lieferung an den UrbanDrop-Support melden. Unterstützende Beweise wie Fotos können erforderlich sein."
                     },
                     "nonPerishable": {
-                        "title": "10.3 Nicht verderbliche Waren",
-                        "content": "Rückgabe bei Defekt möglich.",
+                        "title": "10.3 Nicht verderbliche Artikel",
+                        "content": "Bei verpackten, versiegelten oder nicht verderblichen Artikeln können Händler Rücksendungen gemäß dem britischen Verbraucherschutzrecht akzeptieren, wenn:",
                         "items": [
-                            "Defekt.",
-                            "Unbenutzt."
+                            "Der Artikel fehlerhaft ist oder nicht der Beschreibung entspricht.",
+                            "Er unbenutzt und in der Originalverpackung zurückgegeben wird."
                         ]
                     },
                     "process": {
-                        "title": "10.4 Prozess",
-                        "content": "Erstattungen innerhalb von 5-10 Werktagen."
+                        "title": "10.4 Erstattungsprozess",
+                        "content": "Rückerstattungen werden bearbeitet, sobald der Händler die Berechtigung bestätigt. UrbanDrop wird den Betrag innerhalb von 5–10 Werktagen nach der Genehmigung auf Ihre ursprüngliche Zahlungsmethode zurückbuchen."
                     },
                     "merchantResp": {
-                        "title": "10.5 Händlerverantwortung",
-                        "content": "Händler ist für Erstattungen verantwortlich."
+                        "title": "10.5 Verantwortung des Händlers",
+                        "content": "Jeder Händler ist für die Bearbeitung von Rückerstattungsanträgen im Zusammenhang mit seinen Produkten verantwortlich. UrbanDrop erleichtert die Kommunikation und Zahlungsanpassungen, ist jedoch nicht der finale Entscheidungsträger."
                     },
                     "delivery": {
                         "title": "10.6 Lieferprobleme",
-                        "content": "Kontaktieren Sie den Support."
+                        "content": "Wenn Ihre Bestellung verspätet ist, verloren geht oder an die falsche Adresse geliefert wurde, wenden Sie sich bitte umgehend an den UrbanDrop-Support. Rückerstattungen oder erneute Lieferungen werden basierend auf der Sendungsverfolgung und der Bestätigung des Händlers geprüft."
                     },
                     "abuse": {
-                        "title": "10.7 Missbrauch",
-                        "content": "Missbrauch kann zur Kontosperrung führen."
+                        "title": "10.7 Erstattungsmissbrauch",
+                        "content": "Wiederholte Rückerstattungsanträge ohne triftigen Grund können dazu führen, dass Ihr Konto markiert oder gesperrt wird."
                     }
                 }
             },
             "ip": {
                 "title": "11. Geistiges Eigentum",
-                "content": "Alle Inhalte gehören UrbanDrop."
+                "content": "Alle Marken, Inhalte und Technologien auf der Plattform sind Eigentum von UrbanDrop Group Limited oder deren Lizenzgebern. Sie dürfen keinen Teil der Plattform ohne schriftliche Genehmigung kopieren, verbreiten oder modifizieren."
             },
             "availability": {
-                "title": "12. Verfügbarkeit",
-                "content": "Wir streben 24/7 Verfügbarkeit an."
+                "title": "12. Verfügbarkeit der Plattform",
+                "content": "Wir bemühen uns, UrbanDrop rund um die Uhr verfügbar zu halten, können jedoch Dienste für Wartungsarbeiten unterbrechen oder aktualisieren. Wir haften nicht für vorübergehende Unterbrechungen oder Datenverluste, die aus solchen Ereignissen resultieren."
             },
             "privacy": {
                 "title": "13. Datenschutz",
-                "content": "Ihre Daten werden gemäß unserer Richtlinie verarbeitet."
+                "content": "Ihre personenbezogenen Daten werden gemäß unserer Datenschutzrichtlinie erhoben und verarbeitet, die auf der Plattform verfügbar ist. Durch die Nutzung von UrbanDrop erklären Sie sich mit der Verwendung Ihrer Daten zur Bestellabwicklung, Betrugsprävention und zum Kundenservice einverstanden."
             },
             "liability": {
                 "title": "14. Haftungsbeschränkung",
                 "subsections": {
                     "role": {
-                        "title": "14.1 Rolle",
-                        "content": "Wir sind ein Vermittler.",
+                        "title": "14.1 Rolle von UrbanDrop",
+                        "content": "UrbanDrop fungiert als Vermittler zwischen Kunden und Händlern. Wir sind nicht verantwortlich für:",
                         "items": [
-                            "Produktqualität.",
-                            "Falsche Bestellungen."
+                            "Produktqualität, Sicherheit oder Authentizität.",
+                            "Falsche oder unvollständige Bestellungen, die von Händlern ausgeführt wurden.",
+                            "Lieferprobleme, die durch Dritte verursacht wurden."
                         ]
                     },
                     "indirect": {
-                        "title": "14.2 Indirekte Schäden",
-                        "content": "Keine Haftung für indirekte Schäden."
+                        "title": "14.2 Indirekte Verluste",
+                        "content": "Wir haften nicht für indirekte, zufällige oder Folgeschäden, die aus der Nutzung der Plattform entstehen."
                     },
                     "maximum": {
                         "title": "14.3 Maximale Haftung",
-                        "content": "Begrenzt auf den gezahlten Betrag oder 50 £."
+                        "content": "Unsere Gesamthaftung gegenüber einem Nutzer darf den für die betreffende Bestellung bezahlten Betrag oder 50 £ nicht überschreiten, je nachdem, welcher Betrag niedriger ist."
                     }
                 }
             },
             "termination": {
-                "title": "15. Kündigung",
-                "content": "Wir können Ihr Konto bei Verstößen sperren.",
+                "title": "15. Kontokündigung",
+                "content": "UrbanDrop kann Ihr Konto jederzeit sperren oder schließen, wenn Sie:",
                 "items": [
-                    "Verstoß gegen Bedingungen.",
-                    "Betrug."
+                    "Gegen diese Bedingungen verstoßen.",
+                    "Sich an betrügerischen oder missbräuchlichen Aktivitäten beteiligen.",
+                    "Werbeaktionen missbrauchen oder gegen geltende Gesetze verstoßen."
                 ],
-                "note": "Sie können die Löschung Ihres Kontos beantragen."
+                "note": "Sie können die Löschung Ihres Kontos jederzeit beantragen, indem Sie den UrbanDrop-Support kontaktieren."
             },
             "links": {
-                "title": "16. Links Dritter",
-                "content": "Wir sind nicht verantwortlich für Seiten Dritter."
+                "title": "16. Links von Drittanbietern",
+                "content": "Die Plattform kann Links zu Websites Dritter enthalten. UrbanDrop ist nicht für den Inhalt oder die Richtlinien dieser Seiten verantwortlich; der Zugriff erfolgt auf eigene Gefahr."
             },
             "changes": {
-                "title": "17. Änderungen",
-                "content": "Wir können diese Bedingungen aktualisieren."
+                "title": "17. Änderungen dieser Bedingungen",
+                "content": "UrbanDrop kann diese Bedingungen regelmäßig aktualisieren. Änderungen werden mit der Veröffentlichung auf der Plattform wirksam. Die fortgesetzte Nutzung von UrbanDrop gilt als Annahme der neuesten Version."
             },
             "governing": {
-                "title": "18. Geltendes Recht",
-                "content": "Recht von England und Wales."
+                "title": "18. Anwendbares Recht",
+                "content": "Diese Bedingungen unterliegen dem Recht von England und Wales. Alle Streitigkeiten, die sich aus oder im Zusammenhang mit diesen Bedingungen ergeben, unterliegen der ausschließlichen Zuständigkeit der Gerichte von England und Wales."
             },
             "contact": {
                 "title": "19. Kontakt",
-                "content": "Bei Fragen kontaktieren Sie:",
+                "content": "Bei Fragen, Beschwerden oder Erstattungsanträgen wenden Sie sich bitte an:",
                 "companyName": "UrbanDrop Group Limited",
-                "email": "E-Mail: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
+                "email": "E-Mail: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+            },
+            "customerTerms": {
+                "title": "Allgemeine Geschäftsbedingungen für Kunden",
+                "intro": "Die Bedingungen, die Ihre Nutzung der Urbandrop-App und -Website regeln, einschließlich Bestellungen, Zahlungen, Abonnements und Rezeptinhalten.",
+                "effective": "GÜLTIG AB",
+                "effectiveDate": "23. April 2026",
+                "version": "VERSION",
+                "versionNumber": "1.0",
+                "jurisdiction": "GERICHTSSTAND",
+                "jurisdictionValue": "England & Wales",
+                "governedBy": "GEFÜHRT VON",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                    "title": "BITTE VOR DER BESTELLUNG LESEN",
+                    "content": "Diese Bedingungen stellen einen rechtsverbindlichen Vertrag zwischen Ihnen und der Urbandrop Group Limited dar. Durch die Erstellung eines Kontos, die Aufgabe einer Bestellung oder das Abonnieren von Urbandrop+ akzeptieren Sie diese Bedingungen. Ihre gesetzlichen Rechte gemäß dem Consumer Rights Act 2015 und den Consumer Contracts Regulations 2013 gelten ungeachtet des Inhalts dieses Dokuments und werden davon nicht berührt."
+                },
+                "contents": {
+                    "title": "INHALTSVERZEICHNIS",
+                    "twentyTwoClauses": "Zweiundzwanzig Klauseln",
+                    "clause01": "01 Wer wir sind & diese Bedingungen",
+                    "clause02": "02 Ihr Konto",
+                    "clause03": "03 Servicegebiet & Verfügbarkeit",
+                    "clause04": "04 Eine Bestellung aufgeben",
+                    "clause05": "05 Preise, Gebühren & Zahlung",
+                    "clause06": "06 Lieferung",
+                    "clause07": "07 Produkte mit Altersbeschränkung",
+                    "clause08": "08 Fehlende, beschädigte oder falsche Artikel",
+                    "clause09": "09 Stornierungen & Ihr Widerrufsrecht",
+                    "clause10": "10 Urbandrop+ Abonnement",
+                    "clause11": "11 Rezepte & Nutzerinhalte",
+                    "clause12": "12 Lebensmittelsicherheit, Allergene & Ernährungsinformationen",
+                    "clause13": "13 Werbeaktionen & Gutscheine",
+                    "clause14": "14 Zulässige Nutzung",
+                    "clause15": "15 Unsere Haftung Ihnen gegenüber",
+                    "clause16": "16 Datenschutz",
+                    "clause17": "17 Geistiges Eigentum",
+                    "clause18": "18 Beschwerden & Streitigkeiten",
+                    "clause19": "19 Änderungen dieser Bedingungen",
+                    "clause20": "20 Kündigung",
+                    "clause21": "21 Allgemeine Bestimmungen",
+                    "clause22": "22 Kontakt"
+                },
+                "clause01": {
+                    "title": "KLAUSEL 01",
+                    "subtitle": "Wer wir sind & diese Bedingungen",
+                    "content1": "Diese Allgemeinen Geschäftsbedingungen für Kunden (die „Bedingungen“) bilden einen Vertrag zwischen Ihnen (dem „Kunden“, „Sie“) und der Urbandrop Group Limited („Urbandrop“, „wir“, „uns“, „unser“), einer in England und Wales unter der Firmennummer [00000000] eingetragenen Gesellschaft mit beschränkter Haftung (Private Limited Company) mit Sitz in [Adresse des eingetragenen Sitzes].",
+                    "content2": "Diese Bedingungen gelten, wenn Sie urbandrop.io besuchen, unsere mobilen Apps nutzen, ein Konto erstellen, eine Bestellung aufgeben, Urbandrop+ abonnieren oder Rezepte auf der Plattform ansehen oder mit ihnen interagieren. Durch eine dieser Handlungen erklären Sie sich mit diesen Bedingungen einverstanden.",
+                    "whatUrbandropDoes": {
+                        "title": "Was Urbandrop macht",
+                        "content": "Urbandrop betreibt einen Marktplatz mit mehreren Händlern und eine Rezeptplattform, die auf afrikanische, karibische und asiatische Lebensmittel sowie kulturell relevante Produkte spezialisiert ist. Wir verbinden Sie mit unabhängigen Händlern (die „Händler“), die ihre Produkte listen und verkaufen, und wir organisieren die Zustellung auf der letzten Meile entweder selbst oder über Logistikpartner von Drittanbietern. Bei den meisten Bestellungen handelt Urbandrop als Ihr Vermittler beim Abschluss des Verkaufs zwischen Ihnen und dem Händler; der Vertrag über die Waren besteht mit dem Händler, obwohl wir die Zahlung abwickeln und den Kundensupport im Namen des Händlers übernehmen. Sofern Urbandrop eine Bestellung aus einem seiner eigenen Micro-Fulfillment-Center ausführt, kommt der Vertrag für diese Waren direkt mit Urbandrop zustande."
+                    },
+                    "definedTerms": "Definitionen",
+                    "terms": {
+                        "platform": {
+                            "term": "Plattform",
+                            "definition": "Die Urbandrop-Website (urbandrop.io), die iOS- und Android-Apps, Rezeptinhalte und alle damit verbundenen Dienste, die wir betreiben."
+                        },
+                        "account": {
+                            "term": "Konto",
+                            "definition": "Ihr persönliches Konto auf der Plattform."
+                        },
+                        "order": {
+                            "term": "Bestellung",
+                            "definition": "Eine Anfrage, die Sie über die Plattform stellen, um Produkte von einem oder mehreren Händlern zu kaufen."
+                        },
+                        "merchant": {
+                            "term": "Händler",
+                            "definition": "Ein unabhängiger Einzelhändler, Supermarkt oder Verkäufer, der auf der Plattform gelistet ist."
+                        },
+                        "rider": {
+                            "term": "Rider",
+                            "definition": "Der Zusteller, der Ihre Bestellung vom Händler zu Ihrer Lieferadresse bringt und der entweder direkt von uns oder über einen Lieferpartner beauftragt wird."
+                        },
+                        "urbandropPlus": {
+                            "term": "Urbandrop+",
+                            "definition": "Unser kostenpflichtiger Abonnementservice, wie in Klausel 10 beschrieben."
+                        },
+                        "recipeContent": {
+                            "term": "Rezeptinhalte",
+                            "definition": "Rezepte, Videos, Bilder und zugehörige Inhalte, die von uns oder von Drittanbietern auf der Plattform veröffentlicht werden."
+                        },
+                        "statutoryRights": {
+                            "term": "Gesetzliche Rechte",
+                            "definition": "Ihre Rechte als Verbraucher nach britischem Recht, einschließlich des Consumer Rights Act 2015 und der Consumer Contracts Regulations 2013, die unabhängig von diesen Bedingungen gelten."
+                        }
+                    }
+                },
+                "clause02": {
+                    "title": "KLAUSEL 02",
+                    "subtitle": "Ihr Konto",
+                    "whoCanCreate": {
+                        "title": "2.1 Wer ein Konto erstellen kann",
+                        "content": "Sie müssen mindestens 18 Jahre alt sein, um ein Konto zu erstellen. Wenn Sie 16 oder 17 Jahre alt sind, dürfen Sie die Plattform nur unter der Aufsicht eines Elternteils oder Erziehungsberechtigten nutzen, der vertraglich für Ihre Bestellungen verantwortlich ist."
+                    },
+                    "accurateInfo": {
+                        "title": "2.2 Richtige Informationen",
+                        "content": "Sie müssen bei der Erstellung Ihres Kontos genaue, aktuelle und vollständige Informationen angeben und diese auf dem neuesten Stand halten. Sie sind für die Sicherheit Ihrer Zugangsdaten verantwortlich. Wenn Sie vermuten, dass jemand anderes Ihr Konto verwendet hat, benachrichtigen Sie uns bitte umgehend unter support@urbandrop.io."
+                    },
+                    "oneAccount": {
+                        "title": "2.3 Ein Konto pro Person",
+                        "content": "Sie dürfen jeweils nur ein Konto führen. Wir können nach eigenem Ermessen doppelte Konten zusammenführen oder schließen (etwaiges Urbandrop-Guthaben wird auf das verbleibende Konto übertragen)."
+                    },
+                    "personalUse": {
+                        "title": "2.4 Nutzung der Plattform für sich selbst",
+                        "content": "Sie dürfen die Plattform nur für Ihren eigenen persönlichen, nicht-kommerziellen Gebrauch nutzen. Es ist Ihnen nicht gestattet, über die Plattform gekaufte Produkte weiterzuverkaufen, ein Konto für gewerbliche Zwecke einer anderen Person zu nutzen oder Bestellungen unter Verwendung der Zahlungsmethode einer anderen Person ohne deren Erlaubnis aufzugeben."
+                    }
+                },
+                "clause03": {
+                    "title": "KLAUSEL 03",
+                    "subtitle": "Servicegebiet & Verfügbarkeit",
+                    "whereWeDeliver": {
+                        "title": "3.1 Wohin wir liefern",
+                        "content": "Urbandrop ist derzeit in ausgewählten Postleitzahlengebieten des Vereinigten Königreichs verfügbar, beginnend in Bristol und im Laufe der Zeit expandierend nach Birmingham, London, Manchester und andere britische Städte. Die App teilt Ihnen beim Checkout mit, ob Ihre Adresse in einer aktiven Servicezone liegt. Wir können Servicezonen jederzeit hinzufügen, ändern oder entfernen."
+                    },
+                    "whenWeDeliver": {
+                        "title": "3.2 Wann wir liefern",
+                        "content": "Die Lieferzeiten hängen vom Händler und Ihrem Standort ab und werden in der App angezeigt. Einige Händler und Produkte sind nur zu bestimmten Zeiten verfügbar."
+                    },
+                    "stockAvailability": {
+                        "title": "3.3 Lagerverfügbarkeit",
+                        "content": "Die Produktverfügbarkeit hängt vom Lagerbestand des Händlers ab, der sich im Laufe des Tages ändern kann. Gelegentlich kann ein Artikel, der beim Checkout als verfügbar angezeigt wurde, nicht mehr verfügbar sein, wenn der Händler mit der Zusammenstellung Ihrer Bestellung beginnt. In diesem Fall findet Klausel 8 Anwendung."
+                    }
+                },
+                "clause04": {
+                    "title": "KLAUSEL 04",
+                    "subtitle": "Eine Bestellung aufgeben",
+                    "contractFormed": {
+                        "title": "4.1 Wie ein Vertrag zustande kommt",
+                        "content": "Wenn Sie eine Bestellung über die Plattform aufgeben, geben Sie ein Angebot zum Kauf der gelisteten Produkte ab. Ein Vertrag kommt erst zustande, wenn wir (als Vermittler des Händlers oder bei Eigenlieferungen als Verkäufer) bestätigen, dass der Händler Ihre Bestellung angenommen hat. Die Bestätigung erscheint in der App und wird in der Regel per E-Mail oder Push-Benachrichtigung versandt."
+                    },
+                    "orderChanges": {
+                        "title": "4.2 Änderungen an der Bestellung",
+                        "content": "Sobald eine Bestellung angenommen wurde, können Sie diese nicht mehr über die App ändern. Sie können den Support kontaktieren, aber zu diesem Zeitpunkt kann es sein, dass der Händler die Bestellung bereits zusammenstellt oder versandt hat, sodass eine Änderung nicht mehr möglich ist."
+                    },
+                    "minimumOrder": {
+                        "title": "4.3 Mindestbestellwert",
+                        "content": "Es kann ein Mindestbestellwert gelten. Wenn Ihr Warenkorb unter dem Minimum des Händlers liegt, zeigt die App eine kleine Mindermengengebühr an oder bittet Sie, weitere Artikel hinzuzufügen. Der aktuelle Mindestbestellwert und die Gebühren werden beim Checkout angezeigt."
+                    },
+                    "substitutions": {
+                        "title": "4.4 Ersatzartikel",
+                        "content": "Falls ein Artikel nicht verfügbar ist, während der Händler Ihre Bestellung zusammenstellt, können der Händler oder wir einen Ersatzartikel anbieten. Wenn ein Ersatz geliefert wird und Sie diesen nicht wünschen, können Sie ihn an der Tür ablehnen oder gemäß Klausel 8 melden; wir werden den Betrag dann erstatten."
+                    },
+                    "rightToRefuse": {
+                        "title": "4.5 Recht zur Ablehnung",
+                        "content": "Wir behalten uns das Recht vor, eine Bestellung abzulehnen oder zu stornieren, wenn beispielsweise das Produkt nicht verfügbar ist, der Preis aufgrund eines offensichtlichen Fehlers falsch angegeben wurde, wir betrügerische Aktivitäten vermuten, die Lieferadresse außerhalb unseres Servicegebiets liegt oder die Bestellung gegen diese Bedingungen oder geltendes Recht verstößt. In einem solchen Fall erhalten Sie eine vollständige Rückerstattung unter Angabe des Grundes."
+                    }
+                },
+                "clause05": {
+                    "title": "KLAUSEL 05",
+                    "subtitle": "Preise, Gebühren & Zahlung",
+                    "productPrices": {
+                        "title": "5.1 Produktpreise",
+                        "content": "Die Produktpreise werden vom Händler (oder von Urbandrop für Eigenlieferungen) festgelegt und in der App in Britischen Pfund (GBP) inklusive der jeweils geltenden Mehrwertsteuer angezeigt. Die Preise können von den Ladenpreisen desselben Händlers abweichen und können sich jederzeit ändern, bevor Sie Ihre Bestellung aufgeben."
+                    },
+                    "fees": {
+                        "title": "5.2 Gebühren",
+                        "content": "Typische beim Checkout angezeigte Gebühren umfassen:",
+                        "items": [
+                            "<strong>Liefergebühr</strong> — variiert je nach Entfernung, Tageszeit und Nachfrage. Urbandrop+-Abonnenten erhalten kostenlose oder vorrangige Lieferung für qualifizierte Bestellungen (siehe Klausel 10).",
+                            "<strong>Servicegebühr</strong> — ein prozentualer Anteil Ihres Warenkorbs, der bei jeder Bestellung erhoben wird und zum Betrieb der Plattform beiträgt.",
+                            "<strong>Mindermengenzuschlag</strong> — eine kleine Gebühr, die anfällt, wenn Ihr Warenkorb unter der Mindestbestellschwelle liegt.",
+                            "<strong>Trinkgeld</strong> — optional. 100 % des Trinkgelds gehen an den Rider; Urbandrop behält keinen Anteil ein."
+                        ]
+                    },
+                    "surgePricing": {
+                        "title": "5.3 Preisanpassungen bei hoher Nachfrage oder Wetter",
+                        "content": "Die Liefergebühren können bei hoher Nachfrage, schlechtem Wetter oder geringer Verfügbarkeit von Ridern steigen. Die App zeigt Ihnen die Gebühr immer deutlich an, bevor Sie die Bestellung bestätigen."
+                    },
+                    "payment": {
+                        "title": "5.4 Zahlung",
+                        "content": "Wir akzeptieren gängige Debit- und Kreditkarten, Apple Pay, Google Pay und alle anderen beim Checkout angezeigten Zahlungsmethoden. Die Zahlung wird durch unseren Zahlungsanbieter abgewickelt; wir speichern keine vollständigen Kartendaten in unseren Systemen. Durch die Aufgabe einer Bestellung autorisieren Sie uns, die gewählte Zahlungsmethode mit dem vollen Betrag der Bestellung zu belasten."
+                    },
+                    "preAuth": {
+                        "title": "5.5 Vorabautorisierung",
+                        "content": "Wenn Sie eine Bestellung aufgeben, können wir eine vorübergehende Reservierung (Vorabautorisierung) des Bestellwertes auf Ihrer Zahlungsmethode vornehmen. Dies ist keine Belastung; die tatsächliche Belastung erfolgt, wenn Ihre Bestellung bestätigt oder versandt wird. Vorabautorisierungen werden in der Regel innerhalb von 3–7 Werktagen aufgehoben, abhängig von Ihrer Bank."
+                    },
+                    "receipts": {
+                        "title": "5.6 Belege",
+                        "content": "Ein Beleg für jede Bestellung ist in der App verfügbar und, sofern von Ihnen ausgewählt, per E-Mail."
+                    }
+                },
+                "clause06": {
+                    "title": "KLAUSEL 06",
+                    "subtitle": "Lieferung",
+                    "deliveryTime": {
+                        "title": "6.1 Geschätzte Lieferzeit",
+                        "content": "In der App angezeigte Lieferzeiten sind Schätzungen, keine Garantien. Typische Bestellungen treffen innerhalb von 30–90 Minuten ein, aber die tatsächlichen Zeiten hängen von der Vorbereitung durch den Händler, der Verfügbarkeit der Rider, dem Verkehr und dem Wetter ab."
+                    },
+                    "whereWeDeliver": {
+                        "title": "6.2 Wohin wir liefern",
+                        "content": "Wir liefern an die Adresse, die Sie beim Checkout auswählen. Sie sind dafür verantwortlich, sicherzustellen, dass die Adresse korrekt und zugänglich ist. Wir können nicht an Postfächer, Schließfächer oder Adressen liefern, an denen eine sichere Zustellung nicht zumutbar ist. Wenn das Gebäude einen eingeschränkten Zugang hat, müssen Sie klare Anweisungen (Klingel, Wohnungsnummer, Zugangscode) in den Lieferhinweisen angeben."
+                    },
+                    "handover": {
+                        "title": "6.3 Übergabe",
+                        "content": "Sofern Sie nicht „Vor der Tür abstellen“ oder eine andere kontaktlose Option gewählt haben, muss eine erwachsene Person an der Lieferadresse anwesend sein, um die Bestellung entgegenzunehmen. Für Produkte mit Altersbeschränkung (Klausel 7) ist eine kontaktlose Lieferung nicht verfügbar."
+                    },
+                    "ifNoOneAvailable": {
+                        "title": "6.4 Wenn niemand erreichbar ist",
+                        "content": "Wenn der Rider Sie bei der Ankunft nicht erreichen kann (keine Antwort an der Tür, keine Reaktion auf App- oder Telefonkontakt), wartet er eine angemessene Zeit (in der Regel 5 Minuten), bevor er die Bestellung als unzustellbar meldet. In diesem Fall gilt:",
+                        "items": [
+                            "verderbliche Waren (frisches Fleisch, Milchprodukte, frisches Obst/Gemüse, Tiefkühlkost) können zur Vermeidung von Lebensmittelsicherheitsrisiken sicher entsorgt werden und sind nicht erstattungsfähig, außer im Rahmen Ihrer gesetzlichen Rechte;",
+                            "nicht verderbliche Waren können nach unserem Ermessen und gegebenenfalls gegen eine zusätzliche Gebühr an den Händler zurückgegeben oder für eine erneute Lieferung bereitgehalten werden;",
+                            "die Liefergebühr wird nicht erstattet, sofern der Fehler nicht bei uns liegt."
+                        ]
+                    },
+                    "leaveAtDoor": {
+                        "title": "6.5 Vor der Tür abstellen",
+                        "content": "Wenn Sie die Option „Vor der Tür abstellen“ wählen oder Ihre Zustimmung geben, die Bestellung an einem bestimmten sicheren Ort zu hinterlassen, geht das Risiko für die Waren auf Sie über, sobald der Rider die Bestellung dort abgestellt und das Bestätigungsfoto aufgenommen hat. Wir haften nicht für Diebstahl oder Manipulation nach diesem Zeitpunkt."
+                    },
+                    "riskOwnership": {
+                        "title": "6.6 Risiko und Eigentum",
+                        "content": "Das Risiko für die Waren geht bei der Übergabe auf Sie über (oder beim Abstellen vor der Tür gemäß 6.5). Das Eigentum geht auf Sie über, sobald die vollständige Zahlung eingegangen ist und die Waren übergeben wurden."
+                    }
+                },
+                "clause07": {
+                    "title": "KLAUSEL 07",
+                    "subtitle": "Produkte mit Altersbeschränkung",
+                    "intro": "Bestimmte auf der Plattform verkaufte Produkte unterliegen im Vereinigten Königreich gesetzlichen Beschränkungen, darunter Alkohol, Tabakwaren, Nikotin-Vaping-Produkte, Messer und Klingenprodukte sowie bestimmte Lösungsmittel. Wir halten uns strikt an den Licensing Act 2003, die Tobacco and Related Products Regulations 2016, den Offensive Weapons Act 2019 und alle damit verbundenen Rechtsvorschriften.",
+                    "minimumAge": {
+                        "title": "7.1 Mindestalter",
+                        "content": "Sie müssen mindestens 18 Jahre alt sein, um Alkohol, Tabak, Vapes oder Messer über die Plattform zu bestellen. Mit der Aufgabe einer Bestellung für diese Artikel bestätigen Sie, dass Sie 18 Jahre oder älter sind."
+                    },
+                    "challenge25": {
+                        "title": "7.2 Challenge 25 bei der Lieferung",
+                        "content": "Wir wenden eine „Challenge 25“-Politik an. Wenn die Person, die die Bestellung entgegennimmt, jünger als 25 Jahre erscheint, wird der Rider nach einem Lichtbildausweis fragen (britischer Reisepass, britischer Fotokarten-Führerschein oder ein vom Home Office ausgestelltes Identitätsdokument). Der Rider ist gesetzlich verpflichtet, die Übergabe der beschränkten Artikel zu verweigern, wenn kein Ausweis vorgelegt werden kann oder wenn der Empfänger berauscht erscheint."
+                    },
+                    "idFails": {
+                        "title": "7.3 Was passiert, wenn die Altersprüfung fehlschlägt",
+                        "content": "Wenn die Übergabe beschränkter Artikel an der Tür verweigert wird, werden diese Artikel an den Händler zurückgegeben und der Betrag für diese Artikel über Ihre Zahlungsmethode erstattet. Der Rest der Bestellung wird normal zugestellt. Die Liefergebühr wird nicht erstattet, wenn der Zustellungsversuch in gutem Glauben erfolgt ist."
+                    },
+                    "proxyPurchasing": {
+                        "title": "7.4 Stellvertreterkauf (Proxy Purchasing)",
+                        "content": "Es ist eine Straftat, Alkohol, Tabak oder ähnliche beschränkte Artikel im Namen einer Person unter 18 Jahren zu kaufen. Wenn wir Grund zu der Annahme haben, dass es sich bei Ihrer Bestellung um einen Stellvertreterkauf handelt, werden wir diese ablehnen oder stornieren, können Ihr Konto sperren oder kündigen und den Vorfall der Polizei sowie der zuständigen Genehmigungsbehörde melden."
+                    }
+                },
+                "clause08": {
+                    "title": "KLAUSEL 08",
+                    "subtitle": "Fehlende, beschädigte oder falsche Artikel",
+                    "intro": "Wir möchten, dass Sie mit jeder Bestellung zufrieden sind. Wenn etwas nicht stimmt, finden Sie hier unsere üblichen Lösungswege – zusätzlich zu Ihren gesetzlichen Rechten, die immer gelten.",
+                    "resolutionMatrix": {
+                        "title": "8.1 Lösungsmatrix",
+                        "issue": "PROBLEM",
+                        "typicalResolution": "TYPISCHE LÖSUNG",
+                        "reportBy": "MELDUNG INNERHALB VON",
+                        "rows": [
+                            { "issue": "Fehlender Artikel in einer gelieferten Bestellung", "resolution": "Rückerstattung für den fehlenden Artikel (auf die ursprüngliche Zahlungsmethode) oder Urbandrop-Guthaben – nach Ihrer Wahl", "timeframe": "48 Stunden nach Lieferung" },
+                            { "issue": "Beschädigter oder verdorbener Artikel", "resolution": "Rückerstattung oder Ersatz bei Ihrer nächsten Bestellung, nach Ihrer Wahl", "timeframe": "48 Stunden nach Lieferung" },
+                            { "issue": "Falscher Artikel geliefert", "resolution": "Rückerstattung für den falschen Artikel; Sie behalten ihn oder entsorgen ihn", "timeframe": "48 Stunden nach Lieferung" },
+                            { "issue": "Bestellung ist nicht angekommen", "resolution": "Vollständige Rückerstattung (einschließlich Liefergebühr) oder Neulieferung", "timeframe": "24 Stunden nach dem erwarteten Zeitpunkt" },
+                            { "issue": "Qualität nicht wie erwartet (z. B. Beigeschmack, schlechtes Aussehen)", "resolution": "Kulanzlösung im Einzelfall; gesetzliche Rechte gemäß Consumer Rights Act 2015 gelten", "timeframe": "14 Tage" },
+                            { "issue": "Bestellung durch Sie nach Aufgabe storniert", "resolution": "Siehe Klausel 9 – variiert je nach Status der Bestellung", "timeframe": "Über die App, bevor der Händler akzeptiert" },
+                            { "issue": "Bestellung durch Händler oder Urbandrop storniert", "resolution": "Automatische vollständige Rückerstattung; keine Aktion erforderlich", "timeframe": "—" }
+                        ]
+                    },
+                    "howToReport": {
+                        "title": "8.2 So melden Sie ein Problem",
+                        "content": "Nutzen Sie die Option „Hilfe zu dieser Bestellung“ in der App oder senden Sie eine E-Mail an support@urbandrop.io. Geben Sie die Bestellnummer, eine Beschreibung des Problems und gegebenenfalls Fotos an. Wir bemühen uns, innerhalb von zwei (2) Werktagen zu antworten und das Problem innerhalb von fünf (5) Werktagen zu lösen (in einfachen Fällen meist deutlich schneller)."
+                    },
+                    "whenRefundsIssued": {
+                        "title": "8.3 Wann Rückerstattungen erfolgen",
+                        "content": "Wenn eine Rückerstattung vereinbart wurde, erfolgt diese auf Ihre ursprüngliche Zahlungsmethode und trifft in der Regel innerhalb von 3–10 Werktagen ein, abhängig von Ihrer Bank. Urbandrop-Guthaben wird Ihrem Konto sofort gutgeschrieben und bei Ihrer nächsten Bestellung berücksichtigt."
+                    },
+                    "whenWeDecline": {
+                        "title": "8.4 Wann wir eine Rückerstattung ablehnen können",
+                        "content": "Wir können eine Rückerstattungsanfrage ablehnen, wenn:",
+                        "items": [
+                            "das Problem ohne triftigen Grund außerhalb der oben genannten Zeitfenster gemeldet wird;",
+                            "der Artikel offensichtlich vollständig konsumiert wurde, bevor das Problem ohne vernünftige Erklärung gemeldet wurde;",
+                            "wir berechtigte Hinweise darauf haben, dass die Forderung nicht echt ist (z. B. wiederholte identische Forderungen über mehrere Bestellungen hinweg);",
+                            "das Problem aus Ihrer eigenen Handlung oder Unterlassung resultiert (z. B. Wahl der Option „Vor der Tür abstellen“ an einem Ort, an dem Diebstahl vorhersehbar war)."
+                        ],
+                        "note": "In diesen Fällen werden wir unsere Begründung erläutern; Sie können die Angelegenheit gemäß Klausel 18 eskalieren."
+                    },
+                    "statutoryRights": {
+                        "title": "8.5 Ihre gesetzlichen Rechte",
+                        "content": "Nichts in dieser Klausel schränkt Ihre Rechte gemäß dem Consumer Rights Act 2015 (Waren müssen von zufriedenstellender Qualität, für den Zweck geeignet und wie beschrieben sein) oder den Consumer Contracts Regulations 2013 ein. Diese Rechte gelten zusätzlich zu den oben genannten Lösungen."
+                    },
+                    "fraudulentClaims": {
+                        "title": "BETRÜGERISCHE FORDERUNGEN",
+                        "content": "Wir bearbeiten Rückerstattungsanträge im guten Glauben. Das Einreichen wissentlich falscher oder unehrlicher Forderungen stellt Betrug gemäß dem Fraud Act 2006 dar, führt zur Kündigung des Kontos, und wir behalten uns das Recht vor, zu Unrecht erstattete Beträge zurückzufordern und den Vorfall der Polizei zu melden."
+                    }
+                },
+                "clause09": {
+                    "title": "KLAUSEL 09",
+                    "subtitle": "Stornierungen & Ihr Widerrufsrecht",
+                    "beforeAcceptance": {
+                        "title": "9.1 Stornierung vor Annahme durch den Händler",
+                        "content": "Sie können eine Bestellung jederzeit über die App stornieren, bevor der Händler sie annimmt. Es fällt keine Stornogebühr an und Sie erhalten eine vollständige Rückerstattung."
+                    },
+                    "afterAcceptance": {
+                        "title": "9.2 Stornierung nach Annahme",
+                        "content": "Sobald der Händler die Bestellung angenommen und mit der Vorbereitung oder Zusammenstellung begonnen hat, kann eine Stornogebühr anfallen, um die bereits entstandenen Kosten zu decken:",
+                        "items": [
+                            "Angenommen, aber noch nicht zusammengestellt – in der Regel eine kleine Stornogebühr zur Deckung der Händler- und Versanddispositionskosten.",
+                            "Zusammengestellt, aber noch nicht in der Zustellung – in der Regel eine Stornogebühr in Höhe des Produktpreises plus Liefergebühr, da verderbliche und zusammengestellte Waren nicht einfach ins Regal zurückgestellt werden können.",
+                            "In der Zustellung oder geliefert – eine Stornierung ist normalerweise nicht mehr möglich. Sie können gegebenenfalls ein Problem gemäß Klausel 8 melden."
+                        ],
+                        "note": "Die App zeigt Ihnen die geltende Stornogebühr (falls vorhanden) an, bevor Sie die Stornierung bestätigen."
+                    },
+                    "rightToCancel": {
+                        "title": "9.3 Widerrufsrecht gemäß den Consumer Contracts Regulations 2013",
+                        "content": "Die Consumer Contracts Regulations 2013 gewähren Verbrauchern eine 14-tägige Widerrufsfrist für viele Online-Käufe. Regulation 28 schließt jedoch das Widerrufsrecht für Verträge zur Lieferung von Waren aus, die schnell verderben können oder deren Verfallsdatum schnell überschritten würde (die meisten frischen Lebensmittel und Lebensmittel allgemein) sowie für versiegelte Waren, die aus Gründen des Gesundheitsschutzes oder der Hygiene nicht zur Rückgabe geeignet sind, wenn ihre Versiegelung nach der Lieferung entfernt wurde. Aufgrund der Beschaffenheit unserer Produkte findet die Widerrufsfrist in der Regel keine Anwendung. Dies berührt nicht Ihre gesetzlichen Rechte gemäß dem Consumer Rights Act 2015."
+                    },
+                    "cancellationByUs": {
+                        "title": "9.4 Stornierung durch uns",
+                        "content": "Wir können eine Bestellung gemäß Klausel 4.5 stornieren. In diesem Fall erstatten wir den Betrag vollständig zurück und bieten (sofern die Stornierung nicht durch Sie verursacht wurde) als Entschuldigung in der Regel ein Guthaben oder eine Kulanzgeste an."
+                    }
+                },
+                "clause10": {
+                    "title": "KLAUSEL 10",
+                    "subtitle": "Urbandrop+ Abonnement",
+                    "intro": "Urbandrop+ ist unser optionales, kostenpflichtiges Abonnement. Diese Klausel legt die spezifischen Bedingungen für Urbandrop+ fest. Alle anderen Klauseln dieser Bedingungen gelten weiterhin für Ihre Urbandrop+-Bestellungen.",
+                    "whatYouGet": {
+                        "title": "10.1 Ihre Vorteile",
+                        "content": "Die Vorteile von Urbandrop+ umfassen derzeit (wir können diese von Zeit zu Zeit mit Vorankündigung aktualisieren):",
+                        "items": [
+                            "kostenlose Standardlieferung für qualifizierte Bestellungen oberhalb des angegebenen Schwellenwerts;",
+                            "vorrangige Lieferzeitfenster, sofern verfügbar;",
+                            "exklusive Angebote und Aktionspreise nur für Mitglieder;",
+                            "werbefreies Durchsuchen von Rezepten."
+                        ],
+                        "note": "Vorteile, die von der Verfügbarkeit durch Dritte abhängen (z. B. vorrangige Zeitfenster bei sehr hoher Nachfrage), werden auf Basis bestmöglicher Bemühungen (reasonable endeavours) angeboten."
+                    },
+                    "pricing": {
+                        "title": "10.2 Preise",
+                        "content": "Urbandrop+ wird als Monats- oder Jahresabo angeboten. Die Preise werden in der App angezeigt und enthalten die geltende Mehrwertsteuer. Wir können die Preise künftig ändern; bestehende Abonnenten werden mindestens 30 Tage vor Inkrafttreten einer Preisänderung benachrichtigt und können kündigen, wenn sie nicht zum neuen Preis fortfahren möchten."
+                    },
+                    "freeTrials": {
+                        "title": "10.3 Kostenlose Testphasen",
+                        "content": "Wenn Sie Urbandrop+ mit einer kostenlosen Testphase beginnen, teilen wir Ihnen bei der Anmeldung mit, wie lange diese dauert und welcher Preis danach anfällt. Sie können vor Ende der Testphase kündigen, ohne dass Kosten anfallen. Wenn Sie nicht kündigen, autorisieren Sie uns, Ihre Zahlungsmethode nach Ende der Testphase und bei jeder Verlängerung mit der Abonnementgebühr zu belasten."
+                    },
+                    "autoRenewal": {
+                        "title": "10.4 Automatische Verlängerung",
+                        "content": "Urbandrop+ verlängert sich am Ende jedes Abrechnungszeitraums (monatlich oder jährlich) automatisch, sofern Sie nicht kündigen. Wir belasten Ihre gewählte Zahlungsmethode am Tag der Verlängerung. Sie können die automatische Verlängerung jederzeit in Ihren Kontoeinstellungen deaktivieren."
+                    },
+                    "cancelling": {
+                        "title": "10.5 Kündigung von Urbandrop+",
+                        "content": "Sie können jederzeit über Ihre Kontoeinstellungen oder durch Kontaktaufnahme mit dem Support kündigen. Die Kündigung stoppt künftige Verlängerungen, berechtigt jedoch nicht zur Rückerstattung für den aktuellen Abrechnungszeitraum, außer:",
+                        "items": [
+                            "Gemäß den Consumer Contracts Regulations 2013 haben Sie ab der erstmaligen Anmeldung eine 14-tägige Widerrufsfrist. Wenn Sie innerhalb von 14 Tagen widerrufen, erstatten wir die Abonnementgebühr vollständig zurück, abzüglich eines proportionalen Betrags für bereits genutzte Vorteile (z. B. gesparte Liefergebühren).",
+                            "Nach 14 Tagen wird die Kündigung zum Ende des aktuellen Abrechnungszeitraums wirksam. Die Vorteile bleiben bis zu diesem Datum bestehen."
+                        ]
+                    },
+                    "changesToBenefits": {
+                        "title": "10.7 Änderungen der Vorteile",
+                        "content": "Wir können Urbandrop+-Vorteile hinzufügen, ändern oder entfernen. Wenn eine Änderung den Gesamtwert des Abonnements erheblich verringert, werden wir Sie mindestens 30 Tage im Voraus benachrichtigen; in diesem Fall können Sie kündigen und erhalten eine anteilige Rückerstattung für den ungenutzten Teil Ihres Abonnements."
+                    },
+                    "terminationByUs": {
+                        "title": "10.8 Kündigung durch uns",
+                        "content": "Wir können Ihr Urbandrop+-Abonnement kündigen und Ihr Konto schließen bei wesentlichem Verstoß gegen diese Bedingungen, betrügerischen Aktivitäten oder missbräuchlicher Nutzung der Vorteile. Erfolgt die Kündigung aus wichtigem Grund, sind wir nicht zur Rückerstattung ungenutzter Anteile verpflichtet. Kündigen wir ohne wichtigen Grund, erstatten wir den anteiligen Betrag für den ungenutzten Zeitraum."
+                    }
+                },
+                "clause11": {
+                    "title": "KLAUSEL 11",
+                    "subtitle": "Rezepte & Nutzerinhalte",
+                    "recipePersonalUse": {
+                        "title": "11.1 Rezeptinhalte sind für den persönlichen Gebrauch bestimmt",
+                        "content": "Sie dürfen Rezeptinhalte für Ihren eigenen persönlichen, nicht-kommerziellen Gebrauch ansehen und danach kochen. Mit Ausnahme dessen, was die Share-Buttons der Plattform erlauben (z. B. das Teilen eines Links zu einem Rezept in sozialen Medien), dürfen Sie Rezeptinhalte nicht kopieren, vervielfältigen, neu veröffentlichen oder verbreiten."
+                    },
+                    "accuracyOfRecipes": {
+                        "title": "11.2 Richtigkeit der Rezepte",
+                        "content": "Rezepte werden nur zur allgemeinen Information bereitgestellt. Obwohl unsere Ersteller und wir angemessene Sorgfalt walten lassen, garantieren wir nicht, dass jedes Rezept fehlerfrei oder für jeden Einzelnen geeignet ist, insbesondere wenn es um Allergien, Unverträglichkeiten, Schwangerschaft, medizinische Bedingungen oder diätetische Einschränkungen geht. Prüfen Sie stets die Etiketten der Zutaten und konsultieren Sie gegebenenfalls einen qualifizierten Fachmann."
+                    },
+                    "recipeToBasket": {
+                        "title": "11.3 Rezept-in-den-Warenkorb",
+                        "content": "Viele Rezepte enthalten eine Schaltfläche „Rezept einkaufen“, die vorgeschlagene Zutaten von verfügbaren Händlern in Ihren Warenkorb legt. Die vorgeschlagenen Mengen sind Schätzwerte – prüfen Sie Ihren Warenkorb vor dem Bezahlen. Verfügbarkeit, Preis und Händlerzuordnung entsprechen den Angaben beim Checkout."
+                    },
+                    "userContent": {
+                        "title": "11.4 Ihre Nutzerinhalte",
+                        "content": "Wenn Sie eine Bewertung, Rezension, einen Kommentar, ein Foto oder andere Nutzerinhalte einreichen:",
+                        "items": [
+                            "müssen Sie der Eigentümer sein oder das Recht haben, diese einzureichen;",
+                            "dürfen Sie keine Inhalte einreichen, die rechtswidrig, verleumderisch, obszön, drohend, belästigend, diskriminierend oder irreführend sind oder die Rechte Dritter verletzen (einschließlich Datenschutz und geistiges Eigentum);",
+                            "gewähren Sie Urbandrop eine weltweite, gebührenfreie, nicht-exklusive, übertragbare und unterlizenzierbare Lizenz zur Nutzung, Anzeige, Vervielfältigung, Anpassung, Übersetzung und Verbreitung Ihrer Nutzerinhalte zum Zweck des Betriebs und der Bewerbung der Plattform. Sie behalten das Eigentum an Ihren Nutzerinhalten;",
+                            "verzichten Sie im gesetzlich zulässigen Umfang auf alle „Urheberpersönlichkeitsrechte“, die Sie gemäß dem Copyright, Designs and Patents Act 1988 an den Nutzerinhalten haben könnten;",
+                            "können wir Nutzerinhalte nach eigenem Ermessen entfernen, bearbeiten oder deren Veröffentlichung verweigern, insbesondere wenn diese gegen diese Bedingungen verstoßen oder wir eine gültige Entfernungsaufforderung erhalten."
+                        ]
+                    },
+                    "reviewsMerchants": {
+                        "title": "11.5 Bewertungen von Händlern und Produkten",
+                        "content": "Wir begrüßen ehrliche, rechtmäßige Bewertungen. Bewertungen müssen auf echten Erfahrungen basieren. Gefälschte, honorierte oder koordinierte Bewertungen können gegen den Digital Markets, Competition and Consumers Act 2024 verstoßen und werden entfernt."
+                    },
+                    "creatorContent": {
+                        "title": "11.6 Inhalte von Erstellern (Creators)",
+                        "content": "Rezeptinhalte, die von Erstellern produziert werden, werden unter einer separaten Erstellervereinbarung zwischen Urbandrop und dem Ersteller veröffentlicht. Für Plattformnutzer gelten die oben genannten Bedingungen. Wenn Sie glauben, dass Rezeptinhalte Ihre Rechte verletzen, kontaktieren Sie legal@urbandrop.io; wir werden dies untersuchen und im Einklang mit dem britischen Recht handeln."
+                    }
+                },
+                "clause12": {
+                    "title": "KLAUSEL 12",
+                    "subtitle": "Lebensmittelsicherheit, Allergene & diätetische Informationen",
+                    "allergenInfo": {
+                        "title": "12.1 Allergeninformationen",
+                        "content": "Soweit zutreffend, werden Allergeninformationen für jedes Produkt vom Händler oder Hersteller bereitgestellt und in der Produktliste angezeigt. Diese Informationen unterliegen den Food Information Regulations 2014 und decken die vierzehn Hauptallergene ab, die in Anhang II der Verordnung (EU) Nr. 1169/2011 (in britisches Recht übernommen) aufgeführt sind."
+                    },
+                    "alwaysCheckPackaging": {
+                        "title": "12.2 Immer die Verpackung prüfen",
+                        "content": "Produktinformationen, einschließlich Zutatenlisten, Allergene und Nährwerte, können sich ohne Vorankündigung ändern. Prüfen Sie bei Lieferung immer die Verpackung, bevor Sie etwas verzehren, insbesondere wenn Sie eine Allergie oder Unverträglichkeit haben. Bei Unstimmigkeiten zwischen den Informationen in der App und auf der Verpackung ist die Verpackung maßgebend."
+                    },
+                    "crossContamination": {
+                        "title": "12.3 Kreuzkontamination",
+                        "content": "Einige Händler betreiben Betriebsstätten, in denen mehrere Allergene verarbeitet werden. Wir können nicht garantieren, dass ein Produkt frei von Spuren von Allergenen ist, die nicht deklariert sind."
+                    },
+                    "temperatureFoodSafety": {
+                        "title": "12.4 Temperatur und Lebensmittelsicherheit",
+                        "content": "Kühlen oder frieren Sie temperaturempfindliche Artikel nach der Lieferung umgehend ein. Verzehren Sie keine sichtlich verdorbenen, abgelaufenen oder beschädigten Artikel. Melden Sie uns etwaige Bedenken zur Lebensmittelsicherheit sofort über den Hilfe-Kanal in der App."
+                    },
+                    "seriousAllergies": {
+                        "title": "SCHWERE ALLERGIEN",
+                        "content": "Wenn Sie eine schwere oder lebensbedrohliche Allergie haben, lassen Sie bitte besondere Vorsicht walten. Wir empfehlen dringend, den Händler direkt zu kontaktieren (Kontaktdaten über die Plattform verfügbar), bevor Sie bestellen, wenn Sie Zweifel bezüglich einer Zutat oder der Produkthandhabung haben."
+                    }
+                },
+                "clause13": {
+                    "title": "KLAUSEL 13",
+                    "subtitle": "Aktionen & Gutscheine",
+                    "content": "Wir können von Zeit zu Zeit Aktionscodes, Einführungsangebote, Empfehlungsprämien und Urbandrop-Guthaben anbieten. Sofern in den spezifischen Angebotsbedingungen nicht anders angegeben, gilt:",
+                    "items": [
+                        "Aktionen gelten einmal pro Kunde, pro Haushalt und pro Zahlungsmethode;",
+                        "sie sind nicht übertragbar und haben keinen Barwert;",
+                        "sie dürfen nur einmal verwendet werden, sofern die spezifischen Bedingungen nichts anderes vorsehen;",
+                        "sie können nicht mit anderen Aktionen kombiniert werden;",
+                        "sie laufen am angegebenen Datum ab – Urbandrop-Guthaben verfällt in der Regel 12 Monate nach dem Ausstellungsdatum;",
+                        "wir können ein Angebot jederzeit zurückziehen oder ändern, wenn es missbraucht wird oder wenn wir einen objektiv rechtfertigbaren Grund haben."
+                    ],
+                    "note": "Wenn eine Aktion zusätzliche spezifische Bedingungen hat, haben diese im Falle eines Konflikts Vorrang vor dieser Klausel."
+                },
+                "clause14": {
+                    "title": "KLAUSEL 14",
+                    "subtitle": "Zulässige Nutzung",
+                    "content": "Sie erklären sich damit einverstanden, Folgendes zu unterlassen:",
+                    "items": [
+                        "die Nutzung der Plattform für rechtswidrige Zwecke oder in einer Weise, die anderen schadet;",
+                        "das Erstellen von Konten unter Verwendung falscher Angaben, Identitätstäuschung oder automatisierter Skripte;",
+                        "die Nutzung der Plattform zum Wiederverkauf von Produkten, zum Betrieb eines gewerblichen Unternehmens oder in einer Weise, die den normalen persönlichen Gebrauch übersteigt;",
+                        "Reverse Engineering, Dekompilierung, Scraping oder Extrahieren von Daten von der Plattform, außer über veröffentlichte APIs mit unserer schriftlichen Zustimmung;",
+                        "das Einschleusen von Viren, Malware oder anderen Dingen, die darauf ausgelegt sind, die Plattform zu stören;",
+                        "Beleidigung, Belästigung, Bedrohung oder Diskriminierung von Ridern, Händlerpersonal, Erstellern, anderen Nutzern oder Urbandrop-Mitarbeitern;",
+                        "Missbrauch von Rückerstattungs-, Aktions- oder Beschwerdeprozessen durch wissentlich falsche Angaben;",
+                        "Zugriff auf die Plattform unter Verwendung eines VPNs, Location-Spoofers oder anderer Tools, die dazu dienen, Ihren wahren Standort zu verbergen, wenn dies dazu genutzt wird, Preise oder Verfügbarkeiten zu erhalten, auf die Sie sonst keinen Anspruch hätten."
+                    ],
+                    "note": "Ein Verstoß gegen diese Klausel kann zur Sperrung oder Kündigung Ihres Kontos und gegebenenfalls zu rechtlichen Schritten oder einer Meldung an die Polizei führen."
+                },
+                "clause15": {
+                    "title": "KLAUSEL 15",
+                    "subtitle": "Unsere Haftung Ihnen gegenüber",
+                    "whatWeAreResponsible": {
+                        "title": "15.1 Wofür wir verantwortlich sind",
+                        "content": "Wir sind verantwortlich für Verluste, die Sie als vorhersehbare Folge einer Verletzung dieses Vertrages durch uns oder einer Verletzung unserer Pflicht zur Anwendung angemessener Sorgfalt und Sachkenntnis erleiden; wir sind jedoch nicht verantwortlich für Verluste oder Schäden, die nicht vorhersehbar sind. Ein Verlust ist vorhersehbar, wenn entweder offensichtlich ist, dass er eintreten wird, oder wenn zum Zeitpunkt der Annahme dieser Bedingungen sowohl wir als auch Sie wussten, dass er eintreten könnte."
+                    },
+                    "whatWeAreNotResponsible": {
+                        "title": "15.2 Wofür wir nicht verantwortlich sind",
+                        "content": "Stets vorbehaltlich Klausel 15.3 und Ihrer gesetzlichen Rechte haften wir nicht für:",
+                        "items": [
+                            "indirekte Schäden oder Folgeschäden, entgangenen Gewinn, Geschäftsverluste, entgangene Gelegenheiten oder Verlust von Firmenwert;",
+                            "Verluste, die durch Ereignisse außerhalb unserer angemessenen Kontrolle verursacht wurden (siehe Klausel 21.7 – Höhere Gewalt);",
+                            "Handlungen oder Unterlassungen von Händlern, die über das hinausgehen, was uns als deren Vertreter vernünftigerweise zuzurechnen ist;",
+                            "Verluste, die daraus resultieren, dass Sie Ihre Kontodaten nicht sicher aufbewahrt haben;",
+                            "Verluste aus dem Vertrauen auf Rezeptinhalte, bei denen Sie die zugrunde liegende Produktverpackung nicht geprüft haben (siehe Klausel 12.2)."
+                        ]
+                    },
+                    "liabilityWeDoNotExclude": {
+                        "title": "15.3 Haftung, die wir nicht ausschließen",
+                        "content": "Nichts in diesen Bedingungen schränkt unsere Haftung ein oder schließt sie aus für:",
+                        "items": [
+                            "Tod oder Körperverletzung durch unsere Fahrlässigkeit;",
+                            "Betrug oder arglistige Täuschung;",
+                            "fehlerhafte Produkte nach dem Consumer Protection Act 1987;",
+                            "Verletzung Ihrer gesetzlichen Rechte als Verbraucher nach dem Consumer Rights Act 2015;",
+                            "jede andere Haftung, die gesetzlich nicht ausgeschlossen oder begrenzt werden kann."
+                        ]
+                    },
+                    "capOnLiability": {
+                        "title": "15.4 Haftungshöchstgrenze",
+                        "content": "Soweit die Haftung rechtmäßig begrenzt werden kann, ist unsere Gesamthaftung Ihnen gegenüber in Bezug auf eine einzelne Bestellung sowie insgesamt für zusammenhängende Ereignisse in einem Zeitraum von 12 Monaten auf den höheren Betrag von 100 £ oder den Wert der in diesem Zeitraum getätigten Bestellungen begrenzt. Diese Obergrenze gilt nicht für die in Klausel 15.3 aufgeführten Angelegenheiten."
+                    }
+                },
+                "clause16": {
+                    "title": "KLAUSEL 16",
+                    "subtitle": "Datenschutz & Privatsphäre",
+                    "content1": "Urbandrop ist der Verantwortliche für die personenbezogenen Daten, die wir über Sie erheben. Wir verarbeiten personenbezogene Daten in Übereinstimmung mit der UK GDPR (britische DSGVO), dem Data Protection Act 2018 und den Privacy and Electronic Communications Regulations 2003.",
+                    "content2": "Unsere vollständige Datenschutzrichtlinie erläutert, welche personenbezogenen Daten wir erheben, warum wir sie erheben, wie wir sie verwenden, wie lange wir sie aufbewahren, mit wem wir sie teilen (einschließlich Händlern, Ridern, Zahlungsanbietern und Partnern zur Identitätsprüfung) und wie Sie Ihre Rechte ausüben können. Sie ist unter urbandrop.io/privacy verfügbar und ist Bestandteil dieser Bedingungen.",
+                    "content3": "Ihre Betroffenenrechte gemäß UK GDPR umfassen Auskunft, Berichtigung, Löschung (vorbehaltlich gesetzlicher Aufbewahrungspflichten), Einschränkung, Übertragbarkeit und Widerspruch. Um diese auszuüben, senden Sie eine E-Mail an dpo@urbandrop.io. Sie können sich auch beim Information Commissioner's Office (ico.org.uk) beschweren.",
+                    "icoRegistration": "Urbandrop ist beim ICO unter der Registrierungsnummer [ZA000000] registriert."
+                },
+                "clause17": {
+                    "title": "KLAUSEL 17",
+                    "subtitle": "Geistiges Eigentum",
+                    "content": "Die Plattform, der Name Urbandrop, das Urbandrop-Logo, der Slogan „Where tradition meets convenience“, das Rider-Pin-Blatt-Symbol, die Benutzeroberfläche der App, die von oder für uns produzierten Rezeptinhalte sowie alle damit verbundenen Designs, Codes und Daten sind Eigentum von Urbandrop oder unseren Lizenzgebern und sind durch Urheber-, Marken- und Datenbankrechte von England & Wales sowie international geschützt. Ihnen wird eine begrenzte, persönliche, widerrufbare und nicht übertragbare Lizenz zur Nutzung der Plattform für ihren vorgesehenen Zweck als Kunde gewährt.",
+                    "merchantBrands": "Marken, Logos und Produktbilder der Händler sind das geistige Eigentum der jeweiligen Händler oder Markeninhaber. Sie dürfen diese nicht verwenden, außer in dem von der Plattform gestatteten Umfang."
+                },
+                "clause18": {
+                    "title": "KLAUSEL 18",
+                    "subtitle": "Beschwerden & Streitigkeiten",
+                    "raiseWithUs": {
+                        "title": "18.1 Klären Sie es zuerst mit uns",
+                        "content": "Wenn Sie eine Beschwerde haben – über einen Händler, einen Rider, eine Bestellung, eine Rückerstattungsentscheidung, eine Abonnementangelegenheit oder anderes – kontaktieren Sie uns bitte zuerst über den Hilfe-Kanal in der App oder unter support@urbandrop.io. Wir bemühen uns, den Erhalt innerhalb von zwei (2) Werktagen zu bestätigen und innerhalb von zehn (10) Werktagen inhaltlich zu antworten."
+                    },
+                    "escalation": {
+                        "title": "18.2 Eskalation",
+                        "content": "Wenn Sie mit unserer Antwort nicht zufrieden sind, können Sie die Angelegenheit schriftlich an complaints@urbandrop.io eskalieren, damit sie von einem Manager geprüft wird, der nicht an der ursprünglichen Entscheidung beteiligt war."
+                    },
+                    "alternativeDispute": {
+                        "title": "18.3 Alternative Streitbeilegung",
+                        "content": "Nach den Alternative Dispute Resolution for Consumer Disputes (Competent Authorities and Information) Regulations 2015 sind wir nicht verpflichtet, einen Anbieter für alternative Streitbeilegung (AS) zu nutzen, und tun dies derzeit auch nicht. Wir sind jedoch bereit, jeden angemessenen AS-Vorschlag im Einzelfall zu prüfen."
+                    },
+                    "rightToCourt": {
+                        "title": "18.4 Ihr Recht, vor Gericht zu gehen",
+                        "content": "Nichts in diesen Bedingungen hindert Sie daran, Klage vor den Gerichten zu erheben oder sich an zuständige Verbraucherschutz-, Handels-, Genehmigungs- oder Datenschutzbehörden zu wenden."
+                    }
+                },
+                "clause19": {
+                    "title": "KLAUSEL 19",
+                    "subtitle": "Änderungen dieser Bedingungen",
+                    "content1": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren, zum Beispiel um Gesetzesänderungen oder neue Funktionen zu berücksichtigen oder die Klarheit zu verbessern. Wir werden die aktualisierten Bedingungen auf der Plattform mit einem neuen Inkrafttretensdatum oben im Dokument veröffentlichen.",
+                    "content2": "Wenn eine Änderung Ihre Rechte wesentlich beeinflusst (z. B. Änderung der Stornierungsrechte, der Rückerstattungspolitik oder der Urbandrop+-Preise), werden wir Sie mindestens 30 Tage im Voraus per E-Mail oder über eine In-App-Benachrichtigung informieren. Wenn Sie die Änderung nicht akzeptieren, können Sie Ihr Konto schließen oder Ihr Urbandrop+-Abonnement vor dem Inkrafttretensdatum kündigen. Die fortgesetzte Nutzung der Plattform nach dem Inkrafttretensdatum gilt als Annahme der aktualisierten Bedingungen.",
+                    "content3": "Geringfügige, nicht wesentliche Änderungen (z. B. Klarstellung von Formulierungen, Aktualisierung von Kontaktdaten) werden mit der Veröffentlichung wirksam."
+                },
+                "clause20": {
+                    "title": "KLAUSEL 20",
+                    "subtitle": "Kündigung",
+                    "byYou": {
+                        "title": "20.1 Durch Sie",
+                        "content": "Sie können Ihr Konto jederzeit über die Kontoeinstellungen oder durch Kontaktaufnahme mit dem Support schließen. Alle noch nicht versandten Bestellungen werden gemäß Klausel 9 storniert; ein aktives Urbandrop+-Abonnement wird gemäß Klausel 10.5 behandelt."
+                    },
+                    "byUs": {
+                        "title": "20.2 Durch uns",
+                        "content": "Wir können Ihr Konto sperren oder kündigen, wenn:",
+                        "items": [
+                            "Sie wesentlich gegen diese Bedingungen verstoßen haben;",
+                            "wir vernünftigerweise eine betrügerische, missbräuchliche oder unrechtmäßige Nutzung der Plattform vermuten;",
+                            "wir gesetzlich oder durch eine Aufsichtsbehörde dazu verpflichtet sind;",
+                            "Sie Ihr Konto über einen längeren Zeitraum nicht genutzt haben und es inaktiv ist."
+                        ],
+                        "note": "Wenn wir aus einem Grund kündigen, der nicht auf Ihrem Verschulden beruht, erstatten wir ungenutzte Zeiträume von Urbandrop+ anteilig sowie noch nicht abgelaufenes Urbandrop-Guthaben. Wenn wir aufgrund eines wesentlichen Verstoßes Ihrerseits kündigen, sind wir nicht zur Rückerstattung verpflichtet."
+                    },
+                    "effect": {
+                        "title": "20.3 Wirkung",
+                        "content": "Mit der Kündigung endet Ihr Recht zur Nutzung der Plattform. Klauseln, die ihrer Natur nach fortbestehen – einschließlich 11 (Lizenz für Nutzerinhalte), 15 (Haftung), 16 (Daten), 17 (IP), 18 (Beschwerden) und 21 (Allgemeines) – gelten weiterhin."
+                    }
+                },
+                "clause21": {
+                    "title": "KLAUSEL 21",
+                    "subtitle": "Allgemeine rechtliche Bestimmungen",
+                    "entireAgreement": {
+                        "title": "21.1 Gesamte Vereinbarung",
+                        "content": "Diese Bedingungen bilden zusammen mit der Datenschutzrichtlinie, etwaigen von Ihnen akzeptierten Urbandrop+-Abonnementbedingungen und spezifischen Angebotsbedingungen die gesamte Vereinbarung zwischen Ihnen und uns. Sie ersetzen alle vorherigen Absprachen."
+                    },
+                    "transferContract": {
+                        "title": "21.2 Übertragung des Vertrages durch uns",
+                        "content": "Wir können unsere Rechte und Pflichten aus diesen Bedingungen auf eine andere Organisation übertragen, zum Beispiel im Rahmen einer Umstrukturierung der Unternehmensgruppe, eines Verkaufs, einer Fusion oder einer Investition. Wir werden Sie schriftlich informieren, falls dies geschieht, und sicherstellen, dass die Übertragung Ihre Rechte nicht einschränkt. Sie dürfen Ihre Rechte oder Pflichten nicht ohne unsere schriftliche Zustimmung übertragen."
+                    },
+                    "noWaiver": {
+                        "title": "21.3 Kein Verzicht",
+                        "content": "Wenn wir nicht sofort darauf bestehen, dass Sie eine Verpflichtung aus diesen Bedingungen erfüllen, oder wenn wir Maßnahmen gegen Sie wegen eines Vertragsbruchs verzögert einleiten, bedeutet dies nicht, dass Sie diese Dinge nicht tun müssen, und hindert uns nicht daran, später Schritte gegen Sie einzuleiten."
+                    },
+                    "severability": {
+                        "title": "21.4 Salvatorische Klausel",
+                        "content": "Jede der Bestimmungen dieser Bedingungen ist rechtlich selbstständig. Wenn ein Gericht oder eine zuständige Behörde entscheidet, dass eine davon rechtswidrig ist, bleiben die übrigen Bestimmungen in vollem Umfang in Kraft."
+                    },
+                    "thirdParties": {
+                        "title": "21.5 Dritte",
+                        "content": "Diese Bedingungen gelten zwischen Ihnen und uns. Keine andere Person hat das Recht, eine dieser Bestimmungen gemäß dem Contracts (Rights of Third Parties) Act 1999 durchzusetzen."
+                    },
+                    "notices": {
+                        "title": "21.6 Mitteilungen",
+                        "content": "Wir können Ihnen Mitteilungen über die App, per E-Mail an die in Ihrem Konto hinterlegte Adresse oder per SMS an Ihre verifizierte Mobilnummer senden. Sie können uns Mitteilungen per E-Mail an legal@urbandrop.io oder per Post an unseren eingetragenen Sitz senden."
+                    },
+                    "forceMajeure": {
+                        "title": "21.7 Höhere Gewalt",
+                        "content": "Keine Partei haftet für die Nichterfüllung oder Verzögerung bei der Erfüllung dieser Bedingungen aufgrund von Ereignissen, die außerhalb der angemessenen Kontrolle liegen – einschließlich Naturkatastrophen, Krieg, Terrorismus, Epidemien, Streiks, Transportstörungen, staatlicher Maßnahmen oder Ausfällen der Infrastruktur – vorausgesetzt, die betroffene Partei unternimmt angemessene Schritte zur Schadensminderung. Ihre gesetzlichen Rechte aus dem Consumer Rights Act 2015 und den Consumer Contracts Regulations 2013 bleiben unberührt."
+                    },
+                    "governingLaw": {
+                        "title": "21.8 Anwendbares Recht und Gerichtsstand",
+                        "content": "Diese Bedingungen unterliegen dem Recht von England und Wales. Für alle Streitigkeiten oder Ansprüche, die aus oder im Zusammenhang mit diesen Bedingungen entstehen, sind die Gerichte von England und Wales nicht-exklusiv zuständig; wenn Sie jedoch in Schottland oder Nordirland ansässig sind, können Sie das Verfahren auch vor Ihren örtlichen Gerichten einleiten."
+                    }
+                },
+                "clause22": {
+                    "title": "KLAUSEL 22",
+                    "subtitle": "Kontakt",
+                    "companyName": "Urbandrop Group Limited",
+                    "companyNumber": "Unternehmensnummer: [00000000]",
+                    "icoRegistration": "ICO-Registrierung: [ZA000000]",
+                    "customerSupport": "Kundensupport",
+                    "customerSupportEmail": "support@urbandrop.io · In-App „Hilfe zu dieser Bestellung“",
+                    "complaints": "Beschwerden",
+                    "complaintsEmail": "complaints@urbandrop.io",
+                    "dataProtection": "Datenschutz",
+                    "dpoEmail": "dpo@urbandrop.io",
+                    "legalNotices": "Rechtliche Hinweise",
+                    "legalEmail": "legal@urbandrop.io",
+                    "website": "Webseite",
+                    "websiteUrl": "www.urbandrop.io"
+                }
+            },
+            "merchantTerms": {
+                "title": "Händler-AGB",
+                "intro": "Diese Händler-Allgemeinen Geschäftsbedingungen regeln die Beziehung zwischen UrbanDrop Group Limited und der Händlereinheit oder Einzelperson, die sich registriert, um Waren über die UrbanDrop-Plattform zu verkaufen.",
+                "roleOfUrbanDrop": {
+                    "title": "1. Rolle von UrbanDrop",
+                    "content": "UrbanDrop betreibt einen Online-Marktplatz, der es Händlern ermöglicht, Kunden Waren anzubieten, und die Bestellaufgabe, Zahlungsabwicklung sowie den Kundensupport erleichtert. UrbanDrop stellt keine Lebensmittel oder Drogerieartikel her, bereitet diese nicht zu, lagert sie nicht und liefert sie nicht selbst.",
+                    "p2": "Alle Verträge über den Verkauf von Waren kommen direkt zwischen dem Händler und dem Kunden zustande. Der Händler ist der offizielle Verkäufer für alle über die Plattform abgewickelten Bestellungen."
+                },
+                "eligibility": {
+                    "title": "2. Eignung und Onboarding des Händlers",
+                    "content": "Mit der Registrierung als Händler bestätigen Sie Folgendes:",
+                    "items": [
+                        "Sie sind rechtmäßig niedergelassen und berechtigt, im Vereinigten Königreich Handel zu treiben",
+                        "Sie verfügen über alle erforderlichen Lizenzen, Genehmigungen und Zulassungen zum Verkauf von Lebensmitteln oder Drogerieprodukten",
+                        "Sie halten alle geltenden Gesetze zur Lebensmittelsicherheit, Hygiene, Handelsstandards und zum Verbraucherschutz ein",
+                        "Alle während des Onboardings bereitgestellten Informationen sind korrekt und werden auf dem neuesten Stand gehalten"
+                    ],
+                    "note": "UrbanDrop behält sich das Recht vor, Händlerkonten abzulehnen, zu sperren oder zu kündigen, die diese Anforderungen nicht erfüllen.",
+                    "acceptance": "Sie erklären sich damit einverstanden, dass Ihre elektronische Annahme dieser Bedingungen eine rechtsverbindliche Vereinbarung zwischen Ihnen und UrbanDrop darstellt. UrbanDrop führt elektronische Aufzeichnungen über die Annahme durch den Händler, einschließlich Datum, Zeitstempel, IP-Adresse und der Version der Bedingungen zum Zeitpunkt der Annahme."
+                },
+                "obligations": {
+                    "title": "3. Pflichten des Händlers",
+                    "content": "Der Händler ist allein verantwortlich für:",
+                    "items": [
+                        "Die Qualität, Sicherheit, Rechtmäßigkeit und Richtigkeit aller gelisteten Produkte",
+                        "Die ordnungsgemäße Zubereitung, Verpackung und Kennzeichnung der Waren",
+                        "Die Einhaltung der britischen Lebensmittelsicherheitsvorschriften, einschließlich der Offenlegung von Allergenen und Inhaltsstoffen",
+                        "Die Sicherstellung, dass Preise, Beschreibungen, Bilder und Verfügbarkeit jederzeit korrekt sind",
+                        "Die unverzügliche Vorbereitung von Bestellungen gemäß den Anweisungen des Kunden",
+                        "Die Sicherstellung, dass die Waren für die Lieferung und den Verzehr geeignet sind"
+                    ],
+                    "note": "Der Händler darf Artikel nicht ohne Zustimmung des Kunden ersetzen, es sei denn, dies ist durch die Funktionalität der Plattform ausdrücklich gestattet."
+                },
+                "orders": {
+                    "title": "4. Bestellungen und Erfüllung",
+                    "content": "Der Händler stimmt zu:",
+                    "items": [
+                        "Bestellungen nach bestem Wissen und Gewissen anzunehmen und auszuführen",
+                        "Unnötige Stornierungen zu vermeiden",
+                        "UrbanDrop unverzüglich über Lagerengpässe, Verzögerungen oder Probleme bei der Erfüllung zu informieren"
+                    ],
+                    "note": "UrbanDrop kann die Annahmequoten von Bestellungen, Stornierungsraten und die Erfüllungsleistung überwachen. Wiederholte Verstöße können zu Vertragsstrafen, verringerter Sichtbarkeit, Suspendierung oder Kündigung führen."
+                },
+                "pricing": {
+                    "title": "5. Preisgestaltung und Aktionen",
+                    "content": "Händler legen ihre eigenen Preise fest, erkennen jedoch an, dass:",
+                    "items": [
+                        "Preise fair, transparent und im Einklang mit dem Verbraucherschutzgesetz sein müssen",
+                        "UrbanDrop Preise inklusive Service- und Liefergebühren anzeigen kann",
+                        "UrbanDrop nach eigenem Ermessen Aktionen, Rabatte oder Guthaben auf eigene Kosten anbieten kann, sofern nicht anders vereinbart",
+                        "Händler Preise nicht in einer Weise aufblähen dürfen, die Kunden irreführt oder gegen geltendes Recht verstößt"
+                    ]
+                },
+                "payments": {
+                    "title": "6. Zahlungen und Abrechnung",
+                    "content1": "UrbanDrop zieht Zahlungen von Kunden im Namen der Händler ein und agiert als Handelsvertreter für Zwecke der Zahlungsabwicklung.",
+                    "content2": "Händler haben Anspruch auf den Nettowert abgeschlossener Bestellungen, berechnet wie folgt:",
+                    "items": [
+                        "Gesamtbestellwert abzüglich Provisionsgebühren, Liefergebühren und Servicegebühren",
+                        "Rückerstattungen, Rückbelastungen (Chargebacks) oder Anpassungen",
+                        "Alle anderen vereinbarten Gebühren"
+                    ],
+                    "settlement": "Die Abrechnung erfolgt gemäß dem vereinbarten Auszahlungszyklus. UrbanDrop kann Beträge einbehalten oder verrechnen, wenn Rückerstattungen, Streitigkeiten oder mutmaßliche Verstöße vorliegen.",
+                    "stripeTitle": "Zahlungsabwicklung über Stripe:",
+                    "stripeContent": "UrbanDrop nutzt Stripe zur Bereitstellung von Zahlungsdiensten. Durch die Zustimmung zu diesen Bedingungen erklären Sie sich mit dem Stripe Services Agreement einverstanden. Sie bevollmächtigen UrbanDrop, korrekte Geschäftsinformationen an Stripe zum Zwecke des Onboardings, der Compliance, der Betrugsprävention und der Zahlungsabwicklung weiterzugeben."
+                },
+                "refunds": {
+                    "title": "7. Rückerstattungen, Beschwerden und Rückbelastungen",
+                    "content": "UrbanDrop kann Rückerstattungen an Kunden gemäß seiner Rückerstattungsrichtlinie leisten. Wenn eine Rückerstattung oder Rückbelastung aufgrund folgender Punkte erfolgt:",
+                    "items": [
+                        "Falsche Artikel",
+                        "Fehlende Artikel",
+                        "Mangelhafte Lebensmittelqualität",
+                        "Sicherheits- oder Hygieneprobleme",
+                        "Stornierung durch den Händler oder Nichtlieferung"
+                    ],
+                    "note": "Der Händler trägt die volle finanzielle Verantwortung. UrbanDrop kann erstattete Beträge von zukünftigen Auszahlungen abziehen oder dem Händler direkt in Rechnung stellen."
+                },
+                "foodSafety": {
+                    "title": "8. Lebensmittelsicherheit und Compliance",
+                    "content1": "Händler müssen alle britischen Lebensmittelsicherheits- und Hygienevorschriften, Allergenkennzeichnungspflichten und Rückverfolgbarkeitspflichten erfüllen.",
+                    "content2": "Händler müssen UrbanDrop unverzüglich informieren über:",
+                    "items": [
+                        "Jeden Vorfall im Bereich der Lebensmittelsicherheit",
+                        "Jede behördliche Untersuchung oder Vollstreckungsmaßnahme",
+                        "Jedes Produktrückruf- oder Kontaminationsrisiko"
+                    ],
+                    "note": "Die Nichtbeachtung dieser Pflicht ist ein Grund für die sofortige Kündigung."
+                },
+                "products": {
+                    "title": "9. Zulässige Produkte und verbotene Artikel",
+                    "permittedTitle": "9.1 Zulässige Produkte",
+                    "permittedContent": "Händler dürfen nur Lebensmittel und Drogerieprodukte listen und verkaufen, deren Verkauf im Vereinigten Königreich rechtmäßig ist und die von UrbanDrop über die Plattform ausdrücklich zugelassen wurden.",
+                    "prohibitedTitle": "9.2 Verbotene Produkte",
+                    "prohibitedContent": "Folgende Produkte sind strengstens untersagt:",
+                    "items": [
+                        "Alkoholische Getränke jeglicher Art",
+                        "Tabakwaren, einschließlich Zigaretten, Zigarren, Drehtabak und Vaping-Produkte (E-Zigaretten)",
+                        "Illegale Drogen, kontrollierte Substanzen und psychoaktive Stoffe",
+                        "Verschreibungspflichtige Medikamente oder medizinische Produkte, die einer Genehmigung bedürfen",
+                        "Alle anderen Produkte, die durch geltendes Recht oder UrbanDrop-Richtlinien verboten sind"
+                    ],
+                    "warning": "Jeder Versuch, Alkohol, Tabak oder verbotene Substanzen zu listen oder zu verkaufen, stellt einen wesentlichen Verstoß gegen diese Bedingungen dar."
+                },
+                "delivery": {
+                    "title": "10. Lieferung",
+                    "content": "Soweit die Lieferung über die Plattform ermöglicht wird, bleibt der Händler verantwortlich für:",
+                    "items": [
+                        "Ordnungsgemäße Verpackung",
+                        "Temperaturkontrolle",
+                        "Integrität der Lebensmittel zum Zeitpunkt der Übergabe"
+                    ],
+                    "note": "UrbanDrop ist nicht verantwortlich für die Qualität der Waren nach der Zubereitung, aber vor der Auslieferung, außer wenn dies gesetzlich vorgeschrieben ist."
+                },
+                "insurance": {
+                    "title": "11. Versicherung und Entschädigung",
+                    "content1": "Händler müssen einen angemessenen Versicherungsschutz unterhalten, einschließlich einer Betriebs- und Produkthaftpflichtversicherung.",
+                    "content2": "Der Händler erklärt sich damit einverstanden, UrbanDrop von allen Ansprüchen, Verlusten, Schäden, Geldstrafen, Strafen und Rechtskosten freizustellen, die resultieren aus:",
+                    "items": [
+                        "Verstößen gegen die Lebensmittelsicherheit",
+                        "Verbraucheransprüchen in Bezug auf Waren",
+                        "Nichteinhaltung regulatorischer Vorschriften",
+                        "Fahrlässigkeit oder Fehlverhalten des Händlers"
+                    ],
+                    "note": "Diese Verpflichtung besteht auch nach Beendigung des Vertrages fort."
+                },
+                "conduct": {
+                    "title": "12. Nutzung der Plattform und Verhalten",
+                    "content": "Händler dürfen nicht:",
+                    "items": [
+                        "Bewertungen oder Rezensionen manipulieren",
+                        "Sich an betrügerischen Aktivitäten beteiligen",
+                        "Die Plattform umgehen, um Gebühren zu vermeiden",
+                        "Kundendaten für unbefugte Zwecke verwenden"
+                    ],
+                    "note": "UrbanDrop kann den Zugang bei jedem Verstoß sperren oder kündigen."
+                },
+                "suspension": {
+                    "title": "13. Suspendierung und Kündigung",
+                    "content": "UrbanDrop kann das Händlerkonto sofort sperren oder kündigen, wenn:",
+                    "items": [
+                        "Ein schwerwiegender Verstoß gegen diese Bedingungen vorliegt",
+                        "Die Lebensmittelsicherheit gefährdet ist",
+                        "Betrug oder Missbrauch vermutet wird",
+                        "Behördliche Maßnahmen gegen den Händler ergriffen werden"
+                    ],
+                    "note": "Händler können unter Einhaltung einer Frist kündigen, vorbehaltlich noch ausstehender Verpflichtungen. Die Kündigung berührt nicht bereits entstandene Rechte, Verbindlichkeiten oder Entschädigungsansprüche."
+                },
+                "liability": {
+                    "title": "14. Haftungsbeschränkung",
+                    "content": "Im größtmöglichen gesetzlich zulässigen Umfang:",
+                    "items": [
+                        "Haftet UrbanDrop nicht für entgangenen Gewinn, Einnahmen oder Geschäftsverluste",
+                        "Garantiert UrbanDrop kein bestimmtes Bestellvolumen oder Verdienstmöglichkeiten"
+                    ],
+                    "note": "Nichts in diesen Bedingungen schränkt die Haftung ein, wo eine solche Beschränkung rechtswidrig ist."
+                },
+                "dataProtection": {
+                    "title": "15. Datenschutz",
+                    "content": "Händler müssen Kundendaten in Übereinstimmung mit der UK GDPR verarbeiten und ausschließlich zum Zweck der Auftragsabwicklung verwenden. Die Nutzung von Kundendaten für Marketing oder nicht damit zusammenhängende Aktivitäten ist strengstens untersagt."
+                },
+                "amendments": {
+                    "title": "16. Änderungen",
+                    "content": "UrbanDrop kann diese Bedingungen von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung der Plattform gilt als Annahme der aktualisierten Bedingungen."
+                },
+                "governingLaw": {
+                    "title": "17. Anwendbares Recht und Gerichtsstand",
+                    "content": "Diese Bedingungen unterliegen dem Recht von England und Wales. Die Gerichte von England und Wales haben die ausschließliche Zuständigkeit."
+                }
+            },
+            "promotionsTerms": {
+                "title": "Aktionen & Rabatte",
+                "intro": "Regeln für die Nutzung von Aktionscodes, Gutscheinen und speziellen Rabattaktionen.",
+                "application": {
+                    "title": "Anwendung von Codes",
+                    "content": "Aktionscodes müssen beim Checkout eingegeben werden. Sie können nicht nachträglich auf bereits aufgegebene Bestellungen angewendet werden."
+                },
+                "limitations": {
+                    "title": "Einschränkungen",
+                    "content": "Pro Transaktion kann nur ein Aktionscode verwendet werden, sofern nicht ausdrücklich anders angegeben. Aktionen haben keinen Barwert."
+                },
+                "fairUsage": {
+                    "title": "Faire Nutzung",
+                    "content": "Das Erstellen mehrerer Konten zur Ausnutzung von Neukunden-Aktionen ist strengstens untersagt und führt zur Sperrung des Kontos."
+                },
+                "modification": {
+                    "title": "Änderung",
+                    "content": "UrbanDrop behält sich das Recht vor, Aktionen jederzeit ohne vorherige Ankündigung zu ändern, zu stornieren oder auszusetzen."
+                }
+            },
+            "riderTerms": {
+                "title": "Allgemeine Geschäftsbedingungen für Fahrer (Rider Terms & Conditions)",
+                "intro": "Die Bedingungen, unter denen Sie Last-Mile-Lieferdienste im Zusammenhang mit der Urbandrop-Plattform im gesamten Vereinigten Königreich erbringen.",
+                "effective": "Gültig ab",
+                "effectiveDate": "23. April 2026",
+                "version": "Version",
+                "versionNumber": "1.0",
+                "jurisdiction": "Gerichtsstand",
+                "jurisdictionValue": "England & Wales",
+                "governedBy": "Unterliegt",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                    "title": "Vor der Annahme lesen",
+                    "content": "Dies ist eine rechtsverbindliche Vereinbarung. Durch das Erstellen eines Fahrerkontos oder die Annahme einer Lieferung über Urbandrop bestätigen Sie, dass Sie diese Bedingungen gelesen und verstanden haben und ihnen zustimmen. Es steht Ihnen frei, unabhängigen Rechtsrat einzuholen, wozu wir Sie ausdrücklich ermutigen. Wenn Sie mit irgendeinem Teil dieser Bedingungen nicht einverstanden sind, <strong>nutzen Sie die Plattform nicht</strong>."
+                },
+                "contents": {
+                    "title": "INHALT",
+                    "twentyOneClauses": "Einundzwanzig Klauseln",
+                    "clause01": "01 Parteien & Definitionen",
+                    "clause02": "02 Art der Beziehung",
+                    "clause03": "03 Eignung & Onboarding",
+                    "clause04": "04 Arbeitsrecht & Substitution",
+                    "clause05": "05 Fahrzeug, Ausrüstung & Versicherung",
+                    "clause06": "06 Lebensmittelsicherheit & Handhabung",
+                    "clause07": "07 Durchführung von Lieferungen",
+                    "clause08": "08 Gebühren, Trinkgelder & Rechnungsstellung",
+                    "clause09": "09 Steuern & Sozialversicherung",
+                    "clause10": "10 Leistung & Bewertungen",
+                    "clause11": "11 Suspendierung & Deaktivierung",
+                    "clause12": "12 Unfälle, Zwischenfälle & Haftung",
+                    "clause13": "13 Datenschutz & Privatsphäre",
+                    "clause14": "14 Geistiges Eigentum",
+                    "clause15": "15 Vertraulichkeit",
+                    "clause16": "16 Gesundheit, Sicherheit & Wohlbefinden",
+                    "clause17": "17 Beschwerden & Streitigkeiten",
+                    "clause18": "18 Änderungen dieser Bedingungen",
+                    "clause19": "19 Kündigung",
+                    "clause20": "20 Allgemeine rechtliche Bestimmungen",
+                    "clause21": "21 Kontakt"
+                },
+                "parties": {
+                    "title": "01 Parteien & Definitionen",
+                    "content": "Diese Fahrer-AGB (die „Bedingungen“) bilden eine verbindliche Vereinbarung zwischen <strong>Urbandrop Group Limited</strong>, einer in England & Wales eingetragenen Private Limited Company mit Sitz in [Bristol, Vereinigtes Königreich], Firmennummer [16026087] („Urbandrop“, „wir“, „uns“, „unser“), und der Einzelperson oder dem Unternehmen, das Last-Mile-Lieferdienste in Verbindung mit der Urbandrop-Plattform erbringt („Fahrer“, „Sie“, „Ihr“).",
+                    "definedTerms": "Definierte Begriffe",
+                    "terms": {
+                        "platform": {
+                            "term": "Plattform",
+                            "definition": "Die mobilen Urbandrop-Anwendungen, die Fahrer-App, das Händlerportal, die Admin-Systeme sowie alle zugehörigen Websites, APIs oder Dienste, die von Urbandrop betrieben werden."
+                        },
+                        "riderAccount": {
+                            "term": "Fahrerkonto",
+                            "definition": "Ihr persönliches Konto auf der Plattform, das Zugang zu Liefermöglichkeiten gewährt."
+                        },
+                        "delivery": {
+                            "term": "Lieferung",
+                            "definition": "Eine einzelne Bestellung von Lebensmitteln oder Waren, die bei einem Händler abgeholt und über die Plattform an einen Kunden geliefert wird."
+                        },
+                        "fleetPartner": {
+                            "term": "Flottenpartner",
+                            "definition": "Ein Drittanbieter von Logistikdienstleistungen, mit dem Urbandrop einen Vertrag über Lieferdienste abgeschlossen hat (z. B. Stuart, Gophr, Relay oder gleichwertige Anbieter)."
+                        },
+                        "directRider": {
+                            "term": "Direktfahrer",
+                            "definition": "Ein Fahrer, der direkt mit Urbandrop als selbstständiger, unabhängiger Auftragnehmer kontrahiert."
+                        },
+                        "fleetRider": {
+                            "term": "Flottenfahrer",
+                            "definition": "Ein von einem Flottenpartner beauftragter Fahrer, der Urbandrop-Lieferungen im Rahmen der eigenen Vereinbarung des Flottenpartners ausführt."
+                        },
+                        "customer": {
+                            "term": "Kunde",
+                            "definition": "Der Endnutzer, der eine Bestellung über die Plattform aufgibt."
+                        },
+                        "merchant": {
+                            "term": "Händler",
+                            "definition": "Ein Einzelhändler, Supermarkt oder Verkäufer, der auf der Plattform gelistet ist."
+                        },
+                        "personalData": {
+                            "term": "Personenbezogene Daten",
+                            "definition": "Wie in der UK General Data Protection Regulation (UK GDPR) und dem Data Protection Act 2018 definiert."
+                        }
+                    }
+                },
+                "relationship": {
+                    "title": "02 Art der Beziehung",
+                    "content": "Urbandrop betreibt ein hybrides Liefermodell. Je nachdem, wie Sie auf Lieferungen zugreifen, sind Sie entweder ein <strong>Direktfahrer</strong> (vertraglich an Urbandrop gebunden) oder ein <strong>Flottenfahrer</strong> (beauftragt durch einen Flottenpartner, der Urbandrop-Lieferungen im Rahmen einer separaten Vereinbarung mit diesem Flottenpartner ausführt). In Ihrer Onboarding-Bestätigung wird angegeben, welche Kategorie auf Sie zutrifft.",
+                    "selfEmployed": {
+                        "title": "2.1 Status als Selbstständiger",
+                        "content": "Wenn Sie ein <strong>Direktfahrer</strong> sind, werden Sie als selbstständiger, unabhängiger Auftragnehmer beauftragt. Nichts in diesen Bedingungen ist dazu bestimmt, ein Arbeitsverhältnis, ein Arbeitnehmerverhältnis im Sinne von Section 230(3)(b) des Employment Rights Act 1996, eine Partnerschaft, ein Joint Venture oder ein Vertretungsverhältnis zwischen Ihnen und Urbandrop zu begründen."
+                    },
+                    "independence": {
+                        "title": "2.2 Unabhängigkeit",
+                        "content": "Als Direktfahrer erkennen Sie an, dass Sie:",
+                        "items": [
+                            "Ihr eigenes unabhängiges Lieferunternehmen betreiben und Dienstleistungen für mehrere Kunden nach eigenem Ermessen erbringen;",
+                            "selbst entscheiden, wann, wo und ob Sie sich auf der Plattform anmelden und Lieferungen annehmen – es besteht für Sie keine Verpflichtung, eine Lieferung anzunehmen, und für Urbandrop keine Verpflichtung, eine anzubieten;",
+                            "frei sind, gleichzeitig für konkurrierende Plattformen oder andere Parteien zu arbeiten, auch während der Zeiten, in denen Sie in der Urbandrop-Fahrer-App angemeldet sind, vorbehaltlich der Verpflichtungen zur Lebensmittelsicherheit und laufender Lieferungen;",
+                            "für Ihre eigenen Steuern, National-Insurance-Beiträge (Sozialversicherung) und etwaige Rentenvorsorgen verantwortlich sind;",
+                            "Ihre eigene Ausrüstung bereitstellen (einschließlich Fahrzeug, Mobilgerät, Isoliertasche und PSA), sofern Urbandrop nicht ausdrücklich Markenartikel zur Verfügung stellt;",
+                            "das wirtschaftliche Risiko Ihrer Lieferaktivität tragen, einschließlich Kraftstoff, Wartung, Versicherung und Ausfallzeiten."
+                        ]
+                    },
+                    "fleetRiders": {
+                        "title": "2.3 Flottenfahrer",
+                        "content": "Wenn Sie ein Flottenfahrer sind, ist Ihr primärer Vertragspartner der Flottenpartner. Diese Bedingungen legen die zusätzlichen Standards und Verhaltensanforderungen fest, die gelten, wenn Sie eine Urbandrop-Lieferung abwickeln. Im Falle eines Konflikts zwischen diesen Bedingungen und Ihrer Vereinbarung mit dem Flottenpartner in plattformspezifischen Angelegenheiten (z. B. Lebensmittelsicherheit, Nutzung der Fahrer-App, Kundendaten), haben diese Bedingungen ausschließlich in Bezug auf diese Lieferung Vorrang."
+                    },
+                    "plainEnglish": {
+                        "title": "Status in einfachem Deutsch",
+                        "content": "Sie sind Ihr eigener Chef. Sie entscheiden, wann Sie sich anmelden, Sie können eine Ersatzperson schicken und Sie können gleichzeitig für unsere Konkurrenten arbeiten. Wir sagen Ihnen nicht, wie Sie Ihren Job zu machen haben – wir sagen Ihnen, welche Standards wir für die Bestellung des Kunden erwarten. Das ist die Vereinbarung."
+                    }
+                },
+                "eligibilityOnboarding": {
+                    "title": "03 Eignung & Onboarding",
+                    "minimumEligibility": {
+                        "title": "3.1 Mindestanforderungen",
+                        "content": "Um als Fahrer zugelassen zu werden, müssen Sie:",
+                        "items": [
+                            "mindestens <strong>18 Jahre alt</strong> sein;",
+                            "das gesetzliche Recht haben, im Vereinigten Königreich zu arbeiten (siehe Klausel 4);",
+                            "ein gültiges britisches Bankkonto auf Ihren eigenen Namen oder den Namen Ihres eingetragenen Unternehmens führen;",
+                            "eine gültige National-Insurance-Nummer besitzen (für Direktfahrer);",
+                            "körperlich in der Lage sein, Lebensmittellasten von bis zu 15 kg sicher zu tragen und zu handhaben;",
+                            "ein Fahrzeug besitzen oder die rechtmäßige Nutzung eines Fahrzeugs innehaben, das Klausel 5 entspricht;",
+                            "ein Smartphone besitzen, das in der Lage ist, die neuesten zwei Hauptversionen von iOS oder Android auszuführen, wobei mobile Daten und Ortungsdienste verfügbar sein müssen."
+                        ]
+                    },
+                    "documents": {
+                        "title": "3.2 Erforderliche Dokumente",
+                        "content": "Im Rahmen des Onboardings müssen Sie klare, gültige Kopien folgender Dokumente vorlegen:",
+                        "items": [
+                            "Identitätsnachweis (britischer oder irischer Reisepass, biometrischer Aufenthaltstitel oder vom Home Office ausgestellter Freigabecode/Share Code);",
+                            "Nachweis über die Arbeitsberechtigung im Vereinigten Königreich;",
+                            "Adressnachweis, der nicht älter als drei (3) Monate ist;",
+                            "für motorisierte Fahrzeuge: vollständiger britischer Führerschein, V5-Zulassungsdokument, gültiger MOT (TÜV, falls zutreffend) und eine Vollkaskoversicherung mit <strong>„Hire & Reward“-Deckung („Lieferung“)</strong>;",
+                            "für E-Bikes und Fahrräder: Bestätigung, dass das Fahrzeug den „Electrically Assisted Pedal Cycles Regulations 1983“ entspricht (max. 250W Motor, Unterstützung schaltet bei 15,5 mph / 25 km/h ab);",
+                            "ein aktuelles Foto im Passbildformat zur Kontoverifizierung;",
+                            "Bankverbindung für Zahlungen (Kontoinhaber, Sort Code, Kontonummer);",
+                            "falls zutreffend, Ihre UTR-Nummer (Unique Taxpayer Reference) oder Umsatzsteuer-Identifikationsnummer."
+                        ]
+                    },
+                    "dbs": {
+                        "title": "3.3 DBS- und Hintergrundüberprüfungen",
+                        "content": "Urbandrop behält sich das Recht vor, eine Basisüberprüfung (Basic Disclosure) durch den Disclosure and Barring Service (oder das Äquivalent von Disclosure Scotland / AccessNI) zu verlangen und das Onboarding abzulehnen oder zu widerrufen, wenn eine Verurteilung oder Verwarnung für die sichere Erbringung von Lieferdiensten wesentlich relevant ist – zum Beispiel nicht verjährte Verurteilungen wegen Gewalt, Sexualstraftaten, Diebstahl, Betrug oder schweren Verkehrsdelikten. Entscheidungen über Ablehnung oder Widerruf können innerhalb von 14 Tagen nach Benachrichtigung schriftlich angefochten werden."
+                    },
+                    "identityVerification": {
+                        "title": "3.4 Identitätsprüfung",
+                        "content": "Wir verwenden Technologie zur Identitätsprüfung (einschließlich Gesichtserkennung und Live-Selfie-Abgleich) beim Onboarding und in regelmäßigen Abständen während Ihrer Tätigkeit. Sie stimmen dieser Verarbeitung als Bedingung für den Zugriff auf die Plattform zu. Einzelheiten zum Umgang mit diesen Daten sind in unserer Datenschutzrichtlinie und in Klausel 13 unten aufgeführt."
+                    },
+                    "falseInfo": {
+                        "title": "3.5 Falsche oder irreführende Informationen",
+                        "content": "Die Bereitstellung falscher, gefälschter oder irreführender Informationen (einschließlich der Verwendung der Identität, eines Dokuments oder des Ebenbilds einer anderen Person) ist ein Grund für die sofortige und dauerhafte Deaktivierung, den Verfall ausstehender, betrügerisch erworbener Gebühren und – falls angemessen – die Meldung an HMRC (Finanzamt), das Home Office und/oder die Polizei."
+                    }
+                },
+                "rightToWork": {
+                    "title": "04 Arbeitsrecht & Substitution",
+                    "rightToWork": {
+                        "title": "4.1 Arbeitsrecht im Vereinigten Königreich",
+                        "content1": "Seit dem 1. März 2025 gelten Arbeitsberechtigungsprüfungen für alle Beschäftigten in der Gig-Economy, unabhängig vom Beschäftigungsstatus. Sie garantieren, dass Sie das gesetzliche Recht haben, im Vereinigten Königreich zu arbeiten, und dieses während Ihrer gesamten Tätigkeit aufrechterhalten werden. Sie müssen Urbandrop unverzüglich informieren, wenn sich Ihr Einwanderungsstatus ändert, wenn Ihr Visum oder BRP abläuft oder wenn das Home Office Bedingungen auferlegt, die Ihr Arbeitsrecht beeinträchtigen.",
+                        "content2": "Urbandrop ist berechtigt, die Arbeitsberechtigungsprüfungen in jedem angemessenen Intervall zu wiederholen und Ihr Konto bis zur Verifizierung zu sperren. Die Beschäftigung eines illegalen Arbeitnehmers setzt Urbandrop Zivilstrafen von bis zu 60.000 £ pro Arbeitnehmer sowie strafrechtlichen Sanktionen aus; wir wenden diese Prüfungen daher streng und ohne Ausnahme an."
+                    },
+                    "substitution": {
+                        "title": "4.2 Recht auf Substitution (Ersatzperson)",
+                        "content": "Als selbstständiger Direktfahrer haben Sie das Recht, eine andere Person (eine <strong>„Ersatzperson“</strong>) zu benennen, die eine Lieferung an Ihrer Stelle ausführt. Dieses Recht ist echt und uneingeschränkt, unterliegt jedoch den folgenden angemessenen Bedingungen, die ausschließlich dem Schutz der Kunden und der Erfüllung unserer rechtlichen Verpflichtungen dienen:",
+                        "items": [
+                            "die Ersatzperson muss mindestens 18 Jahre alt sein;",
+                            "die Ersatzperson muss das gesetzliche Recht haben, im Vereinigten Königreich zu arbeiten, und Sie müssen dies überprüfen, bevor Sie ihr gestatten, die Lieferung auszuführen;",
+                            "die Ersatzperson muss die in diesen Bedingungen festgelegten Anforderungen an die Lebensmittelsicherheit und das Fahrzeug erfüllen;",
+                            "Sie bleiben verantwortlich für die Lieferung, für die Bezahlung Ihrer Ersatzperson und für das Verhalten der Ersatzperson;",
+                            "es ist Ihnen untersagt, Ihr Fahrerkonto zu vermieten, zu verkaufen oder kommerziell zu übertragen oder Zahlungen im Austausch für den Zugang anderer zur Plattform zu erhalten. Die Substitution ist keine Lizenz zum Betrieb eines Vermietungsgeschäfts für Fahrerkonten."
+                        ]
+                    },
+                    "accountRental": {
+                        "title": "Vermietung von Konten ist untersagt",
+                        "content": "Nach gemeldeten Ausbeutungsfällen in der britischen Gig-Economy – einschließlich eines Falls in Bristol im Jahr 2024, bei dem Lieferkonten an ungeprüfte Fahrer vermietet wurden – verfolgt Urbandrop eine Null-Toleranz-Politik gegenüber dem Teilen von Konten gegen Gewinn. Eine echte Substitution auf einmaliger oder gelegentlicher Basis ist gestattet. Die systematische Vermietung Ihres Kontos an Dritte stellt einen <strong>wesentlichen Verstoß gegen diese Bedingungen</strong> dar und führt zur dauerhaften Deaktivierung, zum Verfall von Verdiensten und (falls angemessen) zur Meldung an das Home Office, die HMRC und die Polizei."
+                    }
+                },
+                "vehicle": {
+                    "title": "05 Fahrzeug, Ausrüstung & Versicherung",
+                    "standards": {
+                        "title": "5.1 Fahrzeugstandards",
+                        "content": "Ihr Fahrzeug muss verkehrssicher sein, den gesetzlichen Vorschriften entsprechen und für den sicheren Transport von Lebensmitteln geeignet sein. Insbesondere:",
+                        "items": [
+                            "<strong>Fahrräder und E-Bikes</strong> müssen den „Electrically Assisted Pedal Cycles Regulations 1983“ entsprechen. E-Bikes mit reinem Gasgriff-Antrieb, entdrosselte E-Bikes und jedes E-Bike, das zu einem Eigenantrieb über 15,5 mph (25 km/h) fähig ist, werden als Kraftfahrzeuge eingestuft und erfordern die Einhaltung von Versicherungs-, Steuer-, Zulassungs-, Helm- und Führerscheinpflichten auf der gleichen Basis wie ein Motorrad.",
+                            "<strong>Motorräder, Roller und Mopeds</strong> erfordern eine gültige CBT (Grundausbildung) oder einen vollständigen Führerschein, Kfz-Steuer, MOT (TÜV, falls zutreffend) und eine Kfz-Versicherung einschließlich „Hire & Reward“-Deckung.",
+                            "<strong>Autos und Transporter</strong> erfordern einen gültigen britischen Führerschein, Kfz-Steuer, MOT und eine Kfz-Versicherung einschließlich „Hire & Reward“-Deckung."
+                        ]
+                    },
+                    "insurance": {
+                        "title": "5.2 Versicherung",
+                        "content1": "Sie sind allein dafür verantwortlich, einen angemessenen Versicherungsschutz für Ihr Fahrzeug und Ihre Liefertätigkeit aufrechtzuerhalten. <strong>Standard-Kfz-Versicherungen für den privaten Gebrauch decken keine bezahlten Lieferarbeiten ab.</strong> Sie müssen für motorisierte Fahrzeuge eine „Hire & Reward“-Deckung (manchmal auch als „Courier“- oder „Delivery“-Versicherung bezeichnet) besitzen.",
+                        "content2": "Für Radfahrer und E-Bike-Fahrer empfehlen wir dringend eine Haftpflichtversicherung (üblicherweise erhältlich über British Cycling, Cycling UK oder eine spezielle Kurierversicherung), um Sie und alle Kunden gegen Verletzungen oder Sachschäden abzusichern.",
+                        "content3": "Urbandrop stellt Ihnen keine Kfz-, Fahrrad- oder Verdienstausfallversicherung zur Verfügung. Sie müssen beim Onboarding und zu jedem Zeitpunkt auf angemessene Anfrage den Nachweis einer gültigen Versicherung erbringen."
+                    },
+                    "equipment": {
+                        "title": "5.3 Ausrüstung",
+                        "content": "Sie müssen Folgendes verwenden:",
+                        "items": [
+                            "eine saubere, lebensmittelechte, isolierte Liefertasche von ausreichender Größe, um gekühlte und ungekühlte Artikel bei Bedarf getrennt zu halten;",
+                            "angemessene PSA für Ihr Transportmittel – einschließlich eines korrekt sitzenden Helms für motorisierte Fahrer und Radfahrer, der der britischen Norm BS EN 1078 (Fahrrad) oder ECE 22.06 (Motorrad) entspricht;",
+                            "gut sichtbare Kleidung (High-Visibility) bei Dunkelheit oder eingeschränkter Sicht (Sorgfaltspflicht nach dem Road Traffic Act 1988);",
+                            "Beleuchtung gemäß den „Road Vehicles Lighting Regulations 1989“ bei Nacht."
+                        ]
+                    },
+                    "brandedEquipment": {
+                        "title": "5.4 Urbandrop-Markenausrüstung",
+                        "content": "Sofern Urbandrop Ihnen Markenausrüstung zur Verfügung stellt (z. B. Isoliertaschen, Jacken), bleibt diese unser Eigentum, wird Ihnen leihweise für die Dauer Ihrer Tätigkeit zur Verfügung gestellt und muss bei Beendigung in angemessenem Zustand (normale Abnutzung ausgenommen) zurückgegeben werden. Bei Verlust, Beschädigung oder Nichtrückgabe der Ausrüstung kann eine angemessene Ersatzgebühr erhoben werden, die zum Zeitpunkt der Ausgabe mitgeteilt wird."
+                    }
+                },
+                "foodSafety": {
+                    "title": "06 Lebensmittelsicherheit & Handhabung",
+                    "content": "Urbandrop liefert Lebensmittel aus. Der Food Safety Act 1990, die Food Hygiene (England) Regulations 2013 (sowie die entsprechenden Verordnungen in Wales, Schottland und Nordirland) und die Food Information Regulations 2014 gelten für jede Lieferung. Sie müssen:",
+                    "items": [
+                        "eine persönliche Hygiene einhalten, die für den Umgang mit Lebensmitteln angemessen ist – saubere Hände, saubere Kleidung, kein Rauchen, Dampfen oder Essen während der Abholung oder des Transports;",
+                        "keine Lieferungen durchführen, wenn Sie an einer Krankheit leiden, die Lebensmittel kontaminieren könnte (z. B. Norovirus, Gastroenteritis, offene Hautverletzungen an den Händen);",
+                        "die Isoliertasche sauber und frei von Verunreinigungen halten und sie für nichts anderes als Lebensmittel- oder Warenlieferungen verwenden;",
+                        "die <strong>Kühlkette</strong> einhalten – gekühlte und gefrorene Artikel müssen separat isoliert aufbewahrt und unverzüglich geliefert werden; gemäß den Richtlinien der Food Standards Agency sollten gekühlte Artikel während des Transports unter 8 °C bleiben;",
+                        "niemals eine versiegelte Bestellung öffnen, inspizieren, umräumen oder Artikel daraus entfernen; Originalitätssiegel müssen vom Händler bis zum Kunden intakt bleiben;",
+                        "niemals Artikel einer Bestellung konsumieren, probieren, verkosten oder anderweitig manipulieren, einschließlich „fehlender“ oder „stornierter“ Artikel;",
+                        "Allergene mit Sorgfalt behandeln – transportieren Sie Bestellungen nicht zusammen mit persönlichen Gegenständen, Haustieren, stark riechenden Substanzen oder anderem, das Kreuzkontaminationen verursachen könnte;",
+                        "jeden Vorfall, der die Lebensmittelsicherheit beeinträchtigen könnte (Verschütten, Kollision, Taschenkontamination), sofort über die Fahrer-App melden."
+                    ],
+                    "allergenDuty": {
+                        "title": "Allergenpflicht",
+                        "content": "Die Food Information Regulations 2014 verlangen, dass den Kunden genaue Informationen über die vierzehn Hauptallergene erreichen. Jegliche Manipulation an der Verpackung, der Austausch von Artikeln oder der Verlust der Allergenkennzeichnung während des Transports kann schwere Schäden verursachen und stellt einen verschuldensunabhängigen Verstoß gegen diese Bedingungen dar."
+                    }
+                },
+                "performingDeliveries": {
+                    "title": "07 Durchführung von Lieferungen",
+                    "acceptance": {
+                        "title": "7.1 Annahme",
+                        "content": "Wenn eine Lieferung über die Fahrer-App angeboten wird, können Sie diese nach eigenem Ermessen annehmen oder ablehnen. Das Ablehnen einer Lieferung wirkt sich an sich nicht auf Ihren Status aus, obwohl wiederholte Reaktionslosigkeit nach Annahme einer Lieferung (siehe 7.4) dies tun kann."
+                    },
+                    "collection": {
+                        "title": "7.2 Abholung",
+                        "content": "Bei der Ankunft beim Händler müssen Sie sich klar identifizieren, die korrekte Bestellung bestätigen und prüfen, ob die Verpackung intakt und für den Transport angemessen erscheint. Sie müssen jedes offensichtliche Problem (fehlende Artikel, die der Händler markiert hat, beschädigte Verpackung, Auslaufen, offenes Siegel) vor der Abfahrt über die Fahrer-App melden."
+                    },
+                    "transit": {
+                        "title": "7.3 Transport",
+                        "content": "Sie müssen die sicherste angemessene Route zum Kunden nehmen und gemäß der Straßenverkehrsordnung (Highway Code) und allen geltenden Gesetzen fahren oder radeln. Sie dürfen die Fahrer-App nicht in einer Weise nutzen, die gegen Regulation 110 der Road Vehicles (Construction and Use) Regulations 1986 verstößt (Handynutzung am Steuer)."
+                    },
+                    "handover": {
+                        "title": "7.4 Übergabe",
+                        "content": "Sofern der Kunde keine vorab vereinbarte „An-der-Tür-abstellen“-Anweisung gegeben hat:",
+                        "items": [
+                            "übergeben Sie die Lieferung direkt dem Kunden oder einer erwachsenen Person an der Lieferadresse;",
+                            "verifizieren Sie das Alter bei altersbeschränkten Artikeln über den ID-Check-Prozess der Fahrer-App – Sie dürfen Alkohol, Tabak, Vapes oder Messer an niemanden abgeben, der jünger als 25 Jahre erscheint, ohne einen gültigen Lichtbildausweis zu sehen (Challenge 25 Policy);",
+                            "holen Sie eine Fotobestätigung ein, sofern dies angewiesen wurde;",
+                            "falls niemand erreichbar ist und keine vorab autorisierte Abstellgenehmigung vorliegt, kontaktieren Sie den Kunden über die In-App-Funktion und folgen Sie den Eskalationsanweisungen; lassen Sie verderbliche Waren nicht an unsicheren Orten zurück."
+                        ]
+                    },
+                    "prohibited": {
+                        "title": "7.5 Untersagtes Verhalten",
+                        "items": [
+                            "Kontaktaufnahme mit dem Kunden außerhalb des In-App-Messagings der Plattform, außer in einem echten Liefernotfall;",
+                            "unaufgeforderte Annäherungsversuche, Kommentare zum Aussehen oder jegliche Form von Belästigung;",
+                            "Aufsuchen der Lieferadresse zu einem späteren Zeitpunkt für Nicht-Lieferzwecke;",
+                            "Fotografieren oder Filmen des Kunden, seiner Wohnung oder seines Eigentums über das von der App geforderte Bestätigungsfoto hinaus;",
+                            "Aufforderung zur Gewährung, Annahme oder Angebot von Bestechungsgeldern, Schmiergeldern oder Off-Platform-Zahlungen von Kunden oder Händlern;",
+                            "Markieren einer Lieferung als abgeschlossen, wenn diese nicht zugestellt wurde."
+                        ]
+                    }
+                },
+                "fees": {
+                    "title": "08 Gebühren, Trinkgelder & Rechnungsstellung",
+                    "deliveryFees": {
+                        "title": "8.1 Liefergebühren (Direktfahrer)",
+                        "content": "Jede Lieferung, die Ihnen über die Fahrer-App angeboten wird, zeigt eine <strong>Pauschalgebühr</strong> an, die auf einer transparenten Basis gemäß der Fahrer-Gebührenordnung berechnet wird. Bestandteile können eine Basisabholgebühr, eine Distanzkomponente, eine Zeitkomponente und dynamische Anpassungen bei hoher Nachfrage oder widrigem Wetter sein. Durch die Annahme einer Lieferung erklären Sie sich mit der angezeigten Gebühr für diese Lieferung einverstanden."
+                    },
+                    "tips": {
+                        "title": "8.2 Trinkgelder",
+                        "content": "Kundentrinkgelder, die über die Plattform gezahlt werden, werden in voller Höhe an Sie weitergegeben. Urbandrop behält keinen Anteil eines Kundentrinkgelds ein und gemäß dem Employment (Allocation of Tips) Act 2023 (soweit anwendbar) werden Trinkgelder nicht zur Verrechnung mit der Pauschalgebühr verwendet. Bar-Trinkgelder, die direkt von einem Kunden angeboten werden, gehören Ihnen."
+                    },
+                    "settlement": {
+                        "title": "8.3 Abrechnung und Zahlung",
+                        "items": [
+                            "Gebühren werden <strong>wöchentlich</strong> abgerechnet und per BACS-Überweisung auf Ihr angegebenes britisches Bankkonto überwiesen, in der Regel an dem Dienstag, der auf das Ende der Woche (Montag 00:01 – Sonntag 23:59 UTC) folgt, in der die Lieferungen abgeschlossen wurden.",
+                            "Sie erhalten über die Fahrer-App eine <strong>Gutschriftanzeige (Self-billed Invoice)</strong>, in der jede Lieferung, Trinkgelder, Anpassungen und etwaige Abzüge einzeln aufgeführt sind. Diese Funktion dient Ihrer administrativen Erleichterung; sie beeinträchtigt nicht Ihren Status als Selbstständiger.",
+                            "Wenn Sie einen Posten auf einer Gutschrift beanstanden, melden Sie dies innerhalb von 30 Tagen über den In-App-Supportkanal. Nach 30 Tagen gilt die Abrechnung als akzeptiert."
+                        ]
+                    },
+                    "deductions": {
+                        "title": "8.4 Abzüge",
+                        "content": "Urbandrop kann Beträge von den Ihnen geschuldeten Summen abziehen für:",
+                        "items": [
+                            "Beträge, die irrtümlich oder infolge von Betrug oder Manipulation gezahlt wurden;",
+                            "Gebühren für verlorene, beschädigte oder nicht zurückgegebene Urbandrop-Markenausrüstung, vorbehaltlich einer vorherigen Mitteilung;",
+                            "rechtmäßige Rückerstattungen an Kunden oder Händler, wenn ein Fehler oder Versäumnis direkt Ihrem Verhalten zuzuschreiben ist (z. B. fehlende Artikel durch Manipulation, nicht gelieferte Bestellungen, die als zugestellt markiert wurden)."
+                        ],
+                        "note": "Abzüge werden einzeln aufgeführt und mitgeteilt. Sie können jeden Abzug gemäß Klausel 17 anfechten."
+                    },
+                    "vat": {
+                        "title": "8.5 Umsatzsteuer (VAT)",
+                        "content": "Wenn Sie umsatzsteuerpflichtig sind, müssen Sie Ihre Umsatzsteuer-Identifikationsnummer (VAT Number) angeben, damit die Gutschriften den VAT Regulations 1995 entsprechen. Sie sind für Ihre eigenen Umsatzsteuererklärungen verantwortlich."
+                    }
+                },
+                "tax": {
+                    "title": "09 Steuern & Sozialversicherung",
+                    "content": "Als selbstständiger Direktfahrer sind Sie dafür verantwortlich, sich beim HMRC für das Self-Assessment-Verfahren anzumelden und Folgendes zu zahlen:",
+                    "items": [
+                        "<strong>Einkommensteuer</strong> auf Ihre Gewinne aus den Lieferungen;",
+                        "<strong>Class 2 National Insurance Beiträge</strong>, sofern Ihre Gewinne die Geringfügigkeitsschwelle überschreiten;",
+                        "<strong>Class 4 NICs</strong>, sofern Ihre Gewinne die untere Gewinngrenze überschreiten;",
+                        "<strong>Umsatzsteuer (VAT)</strong>, falls Ihr steuerpflichtiger Umsatz den Schwellenwert für die Umsatzsteuerregistrierung in einem rollierenden 12-Monats-Zeitraum überschreitet."
+                    ],
+                    "content2": "Urbandrop führt für Direktfahrer kein PAYE (Lohnsteuerverfahren) durch und behält weder Einkommensteuer noch Sozialversicherungsbeiträge an der Quelle ein. Gemäß den Online Platforms Reporting Rules (OECD-Modell, in Großbritannien seit dem 1. Januar 2024 umgesetzt) ist Urbandrop verpflichtet, Fahrereinkommen und Identifikationsmerkmale jährlich an das HMRC zu melden; mit der Nutzung der Plattform gilt Ihre Zustimmung zu dieser Meldung als erteilt.",
+                    "content3": "Sie sind dafür verantwortlich, angemessene Aufzeichnungen über Ihre Geschäftseinnahmen und abzugsfähigen Ausgaben zu führen und jedes Jahr bis zum 31. Januar eine Self-Assessment-Steuererklärung einzureichen."
+                },
+                "notTaxAdvice": {
+                    "title": "Keine Steuerberatung",
+                    "content": "Diese Klausel ist eine Zusammenfassung, keine Steuerberatung. Wenn Sie sich über Ihre Verpflichtungen unsicher sind, wenden Sie sich direkt an das HMRC unter gov.uk/self-assessment-tax-returns oder an einen unabhängigen Steuerberater."
+                },
+                "performance": {
+                    "title": "10 Leistung & Bewertungen",
+                    "ratings": {
+                        "title": "10.1 Kundenbewertungen",
+                        "content": "Nach jeder Lieferung können Kunden ihre Erfahrung auf einer Fünf-Sterne-Skala bewerten. Bewertungen helfen uns, den Händlern und Ihnen, die Servicequalität aufrechtzuerhalten, aber eine einzelne schlechte Bewertung beeinflusst für sich genommen nicht Ihren Kontostatus."
+                    },
+                    "metrics": {
+                        "title": "10.2 Operative Kennzahlen",
+                        "content": "Urbandrop überwacht eine geringe Anzahl objektiver Kennzahlen:",
+                        "table": {
+                            "metric": "Kennzahl",
+                            "description": "Beschreibung",
+                            "threshold": "Grenzwert für Bedenken",
+                            "completionRate": "Abschlussrate",
+                            "completionDesc": "% der angenommenen Lieferungen, die erfolgreich abgeschlossen wurden",
+                            "completionThreshold": "Unter 90 % über einen rollierenden Zeitraum von 30 Tagen",
+                            "onTimeRate": "Pünktlichkeitsrate",
+                            "onTimeDesc": "% der Lieferungen, die innerhalb des geschätzten Zeitfensters der App ankommen",
+                            "onTimeThreshold": "Unter 85 % über einen rollierenden Zeitraum von 30 Tagen",
+                            "customerSatisfaction": "Kundenzufriedenheit",
+                            "satisfactionDesc": "Rollierender Durchschnitt der Kundenbewertungen",
+                            "satisfactionThreshold": "Unter 4,2 / 5 bei mehr als 50 Lieferungen",
+                            "escalationRate": "Eskalationsrate",
+                            "escalationDesc": "Schwere Beschwerden pro 100 Lieferungen",
+                            "escalationThreshold": "Mehr als 2 pro 100 Lieferungen"
+                        }
+                    },
+                    "howWeUse": {
+                        "title": "10.3 Wie wir diese Kennzahlen verwenden",
+                        "content": "Kennzahlen werden verwendet, um Fahrer zu identifizieren, die von Unterstützung profitieren könnten (zusätzliche Anleitungen, Erneuerung der Ausrüstung, Tipps zur Routenplanung) und, im Falle dauerhaft schlechter Leistungen trotz Unterstützung, um eine Suspendierung oder Deaktivierung gemäß Klausel 11 zu prüfen. Sie können Ihre eigenen Kennzahlen in der Fahrer-App einsehen."
+                    },
+                    "whatWeDontDo": {
+                        "title": "10.4 Was wir nicht tun",
+                        "content": "Bewertungen und Kennzahlen bestimmen nicht, welche Lieferungen Ihnen angeboten werden, Ihre Bezahlung pro Lieferung oder Ihre Priorität im Matching-System. Urbandrop nutzt keine psychologischen „Nudges“, Verfallmechanismen oder bewertungsbasierte „Gamification“, um Fahrer zu längeren Arbeitszeiten zu drängen."
+                    }
+                },
+                "suspension": {
+                    "title": "11 Suspendierung & Deaktivierung",
+                    "temporary": {
+                        "title": "11.1 Vorübergehende Suspendierung",
+                        "content": "Urbandrop kann Ihren Zugang zur Plattform vorübergehend sperren, wenn wir auf einer angemessenen und gutgläubigen Basis davon ausgehen, dass:",
+                        "items": [
+                            "ein erhebliches Risiko für die Sicherheit von Kunden, Händlern oder anderen Fahrern besteht;",
+                            "Ihr Status bezüglich der Arbeitserlaubnis (Right to Work), Identitätsdokumente, Fahrzeugunterlagen oder Versicherungen eine erneute Überprüfung erfordern;",
+                            "eine schwerwiegende Beschwerde eingegangen ist, die eine Untersuchung rechtfertigt;",
+                            "ein offensichtlicher Missbrauch der Plattform vorliegt (Kontovermietung, betrügerischer Abschluss von Lieferungen, Absprachen)."
+                        ],
+                        "note": "Wir werden Ihnen den Grund für die Suspendierung so schnell wie möglich schriftlich (über die Fahrer-App oder per E-Mail) mitteilen und Ihnen, sofern die Strafverfolgungsbehörden nichts anderes verlangen, die Gelegenheit zur Stellungnahme geben."
+                    },
+                    "permanent": {
+                        "title": "11.2 Dauerhafte Deaktivierung",
+                        "content": "Wir können Ihr Fahrerkonto unter anderem aus folgenden Gründen dauerhaft deaktivieren:",
+                        "items": [
+                            "Betrug, Diebstahl oder Unterschlagung einer Kundenbestellung;",
+                            "Gewalt, drohendes Verhalten, Belästigung oder Diskriminierung;",
+                            "schwerwiegender Verstoß gegen die Pflichten zur Lebensmittelsicherheit;",
+                            "Verlust der gesetzlichen Arbeitserlaubnis im Vereinigten Königreich;",
+                            "Verkehrsverstöße einer Art, die für die Auslieferungstätigkeit wesentlich relevant sind;",
+                            "Kontovermietung oder -weitergabe unter Verstoß gegen Klausel 4.2;",
+                            "anhaltende wesentliche Verstöße gegen diese Bedingungen trotz vorheriger Abmahnung."
+                        ]
+                    },
+                    "fairProcess": {
+                        "title": "11.3 Faires Verfahren",
+                        "content": "Außer in Fällen, in denen eine sofortige Deaktivierung erforderlich ist (z. B. zum Schutz der Sicherheit oder zur Einhaltung von Gesetzen), wird Ihnen der Grund mitgeteilt, die Beweise (sofern rechtlich möglich) offengelegt und Ihnen die Möglichkeit gegeben, innerhalb von 14 Tagen Stellung zu nehmen. Entscheidungen zur Deaktivierung können gemäß Klausel 17 an einen Manager eskaliert werden, der nicht an der ursprünglichen Entscheidung beteiligt war."
+                    }
+                },
+                "accidents": {
+                    "title": "12 Unfälle, Vorfälle & Haftung",
+                    "reporting": {
+                        "title": "12.1 Meldung",
+                        "content": "Sie müssen so schnell wie möglich, in jedem Fall aber innerhalb von 24 Stunden, Folgendes melden:",
+                        "items": [
+                            "jeden Verkehrsunfall, unabhängig von Schuld oder Verletzungen;",
+                            "Verletzungen bei Ihnen selbst, einem Kunden, einem Mitarbeiter eines Händlers oder Dritten während einer Lieferung;",
+                            "Sachschäden;",
+                            "Diebstahl oder versuchter Diebstahl von Waren oder Ihres Fahrzeugs während einer Lieferung;",
+                            "Hasskriminalität, Belästigung oder missbräuchliches Verhalten durch einen Kunden oder Händler."
+                        ]
+                    },
+                    "liability": {
+                        "title": "12.2 Ihre Haftung",
+                        "content": "Sie sind für Ihr eigenes Handeln und Unterlassen verantwortlich. Urbandrop haftet nicht für Schäden, die Sie Dritten, dem Eigentum von Kunden oder Ihrem eigenen Fahrzeug oder Ihrer Ausrüstung zufügen. Sie müssen sich angemessen versichern (Klausel 5.2)."
+                    },
+                    "ourLiability": {
+                        "title": "12.3 Unsere Haftung Ihnen gegenüber",
+                        "content": "Vorbehaltlich Klausel 12.4 ist die gesamte Gesamthaftung von Urbandrop Ihnen gegenüber aus oder im Zusammenhang mit diesen Bedingungen in jedem 12-Monats-Zeitraum begrenzt auf den höheren Betrag aus (a) den in diesem Zeitraum an Sie gezahlten Gesamtgebühren oder (b) 1.000 £. Wir haften nicht für entgangenen Gewinn, entgangene Geschäftschancen, Verlust von Firmenwert oder indirekte Schäden oder Folgeschäden."
+                    },
+                    "liabilityExclusions": {
+                        "title": "12.4 Haftung, die wir nicht ausschließen",
+                        "content": "Nichts in diesen Bedingungen schränkt die Haftung ein oder schließt sie aus für:",
+                        "items": [
+                            "Tod oder Personenschäden, die durch Fahrlässigkeit verursacht wurden;",
+                            "Betrug oder arglistige Täuschung;",
+                            "jegliche Haftung, die nach geltendem Recht nicht ausgeschlossen oder begrenzt werden kann."
+                        ]
+                    },
+                    "emergency": {
+                        "title": "12.5 Notfallkontakt",
+                        "content": "Wenn Sie während der Arbeit in einen schweren Vorfall verwickelt sind, rufen Sie zuerst die <strong>999</strong> an und benachrichtigen Sie dann Urbandrop über den In-App-Notfall-Button oder die 24-Stunden-Fahrer-Support-Hotline gemäß Klausel 21."
+                    }
+                },
+                "dataProtection": {
+                    "title": "13 Datenschutz & Privatsphäre",
+                    "roles": {
+                        "title": "13.1 Rollen",
+                        "content": "Für personenbezogene Daten, die Sie Urbandrop über <strong>sich selbst</strong> zur Verfügung stellen, ist Urbandrop der Verantwortliche. Für personenbezogene Daten von <strong>Kunden</strong> (Namen, Lieferadressen, Kontaktnummern, Lieferhinweise), auf die Sie über die Fahrer-App zugreifen, ist Urbandrop der Verantwortliche und Sie sind ein Auftragsverarbeiter, der ausschließlich nach den dokumentierten Anweisungen von Urbandrop für den begrenzten Zweck der Durchführung der Lieferung handelt."
+                    },
+                    "obligations": {
+                        "title": "13.2 Ihre Pflichten als Auftragsverarbeiter",
+                        "content": "Beim Umgang mit personenbezogenen Kundendaten müssen Sie:",
+                        "items": [
+                            "diese nur zur Durchführung der Ihnen konkret zugewiesenen Lieferung verwenden;",
+                            "Kundendaten nach Abschluss der Lieferung nicht speichern, kopieren, teilen, online stellen oder anderweitig einbehalten;",
+                            "den Kunden nicht außerhalb des In-App-Kanals der Plattform kontaktieren;",
+                            "Ihr Gerät und die Fahrer-App mit einer PIN, einem Passcode oder einer biometrischen Sperre sichern;",
+                            "einen mutmaßlichen Verstoß gegen den Schutz personenbezogener Daten innerhalb von 24 Stunden an dpo@urbandrop.io melden."
+                        ]
+                    },
+                    "howWeUse": {
+                        "title": "13.3 Wie wir Ihre personenbezogenen Daten verwenden",
+                        "content": "Wir verarbeiten Ihre personenbezogenen Daten in Übereinstimmung mit der UK GDPR und unserer Datenschutzrichtlinie, die Teil dieser Bedingungen ist. Unsere Rechtsgrundlagen umfassen die Erfüllung dieses Vertrags, die Einhaltung gesetzlicher Verpflichtungen (z. B. Right to Work, HMRC-Meldungen) und berechtigte Interessen am sicheren Betrieb der Plattform."
+                    },
+                    "rights": {
+                        "title": "13.4 Ihre Rechte",
+                        "content": "Sie haben die Rechte einer betroffenen Person gemäß der UK GDPR – Auskunft, Berichtigung, Löschung (vorbehaltlich gesetzlicher Aufbewahrungsfristen), Einschränkung, Übertragbarkeit und Widerspruch. Um diese auszuüben, wenden Sie sich an dpo@urbandrop.io. Sie können sich auch beim Information Commissioner's Office (ico.org.uk) beschweren."
+                    }
+                },
+                "ip": {
+                    "title": "14 Geistiges Eigentum",
+                    "content": "Alle Rechte an geistigem Eigentum an der Plattform, der Fahrer-App, Urbandrop-Marken, Logos, Branding, Schulungsmaterialien und Dokumentationen bleiben Eigentum von Urbandrop oder unseren Lizenzgebern. Ihnen wird eine begrenzte, nicht exklusive, nicht übertragbare und widerrufliche Lizenz zur Nutzung der Fahrer-App ausschließlich zum Zweck der Durchführung von Lieferungen gewährt.",
+                    "item": "Sie dürfen nicht:",
+                    "items": [
+                        "die Fahrer-App zurückentwickeln (Reverse Engineering), dekompilieren oder versuchen, den Quellcode abzuleiten;",
+                        "Daten, Bestellabläufe, Preis- oder Routing-Informationen auslesen (Scraping), kopieren oder anderweitig missbräuchlich verwenden;",
+                        "Urbandrop-Marken ohne unsere vorherige schriftliche Zustimmung verwenden;",
+                        "sich über das in diesen Bedingungen vorgesehene Maß hinaus als Mitarbeiter, Vertreter oder Partner von Urbandrop ausgeben."
+                    ]
+                },
+                "confidentiality": {
+                    "title": "15 Vertraulichkeit",
+                    "content1": "Im Rahmen Ihrer Tätigkeit können Sie vertrauliche Informationen über Urbandrop, Kunden, Händler oder andere Fahrer erhalten – einschließlich Preisstrukturen, Bestellmuster, Lieferrouten, noch nicht öffentliche Funktionen der Fahrer-App und Kundendaten. Sie müssen diese Informationen während und nach Ihrer Tätigkeit vertraulich behandeln und dürfen sie nicht an Dritte weitergeben, es sei denn, dies ist gesetzlich vorgeschrieben.",
+                    "content2": "Die Vertraulichkeit gilt nicht für Informationen, die ohne Ihr Verschulden öffentlich sind oder rechtmäßig öffentlich werden, oder die Sie bereits vor Ihrer Tätigkeit rechtmäßig besessen haben."
+                },
+                "health": {
+                    "title": "16 Gesundheit, Sicherheit & Wohlbefinden",
+                    "content": "Obwohl Sie kein Arbeitnehmer sind, nehmen wir die Sicherheit der Fahrer ernst. Soweit der Health and Safety at Work etc. Act 1974 auf unsere Geschäftstätigkeit anwendbar ist, werden wir unser Geschäft so führen, dass Sie, soweit vernünftigerweise praktikabel, keinen Risiken ausgesetzt werden.",
+                    "responsibilities": {
+                        "title": "16.1 Ihre Verantwortlichkeiten",
+                        "items": [
+                            "liefern Sie niemals unter dem Einfluss von Alkohol oder Drogen (legal oder illegal) aus, die Ihre Fähigkeit, sicher zu fahren oder zu radeln, beeinträchtigen;",
+                            "halten Sie angemessene Ruhezeiten ein – überschreiten Sie kein Arbeitsmuster, das eine sichere Lieferung gefährdet (wir empfehlen Pausen von mindestens 15 Minuten alle 2 Stunden und werden Sie für deren Einhaltung nicht benachteiligen);",
+                            "lehnen Sie eine Lieferung ab oder beenden Sie diese, wenn sie aufgrund des Wetters, eines Fahrzeugfehlers oder Ihres persönlichen Zustands unsicher wird;",
+                            "tragen Sie angemessene wetterfeste, reflektierende und schützende Kleidung."
+                        ]
+                    },
+                    "wellbeing": {
+                        "title": "16.2 Unterstützung des Wohlbefindens",
+                        "content": "Das Wohlbefinden der Fahrer ist wichtig. Wir bieten:",
+                        "items": [
+                            "Zugang zu einer vertraulichen 24/7-Helpline für psychische Gesundheit (Details in der Fahrer-App);",
+                            "Hinweise auf nationale Ressourcen wie Samaritans (116 123) und Mind (0300 123 3393);",
+                            "eine klare Richtlinie gegen Vergeltungsmaßnahmen – das Ansprechen eines Sicherheitsbedenkens, das Melden von missbräuchlichem Verhalten eines Kunden oder das Ablehnen einer unsicheren Lieferung wird Ihren Status auf der Plattform nicht negativ beeinflussen."
+                        ]
+                    },
+                    "equality": {
+                        "title": "16.3 Gleichheit, Respekt und Anti-Belästigung",
+                        "content": "Urbandrop hat eine Null-Toleranz-Politik gegenüber Diskriminierung, Belästigung oder Viktimisierung aufgrund eines geschützten Merkmals gemäß dem Equality Act 2010 – sei es durch Fahrer, Kunden, Händler oder Urbandrop-Mitarbeiter. Meldungen werden ernst genommen, vertraulich untersucht und es werden entsprechende Maßnahmen ergriffen."
+                    }
+                },
+                "complaints": {
+                    "title": "17 Beschwerden & Streitigkeiten",
+                    "raise": {
+                        "title": "17.1 Sprechen Sie zuerst mit uns",
+                        "content": "Wenn Sie eine Beschwerde haben – über eine Gebühr, einen Abzug, eine Suspendierung, das Verhalten eines anderen Nutzers oder etwas anderes –, reichen Sie diese bitte über den Support-Kanal der Fahrer-App ein oder senden Sie eine E-Mail an riders@urbandrop.io. Wir bemühen uns um eine Bestätigung innerhalb von zwei (2) Werktagen und eine inhaltliche Antwort innerhalb von zehn (10) Werktagen."
+                    },
+                    "escalation": {
+                        "title": "17.2 Eskalation",
+                        "content": "Wenn Sie mit unserer Antwort nicht zufrieden sind, können Sie die Angelegenheit an einen unabhängigen Prüfer innerhalb von Urbandrop eskalieren (der nicht an der ursprünglichen Entscheidung beteiligt war), indem Sie eine E-Mail an appeals@urbandrop.io senden. Eskalationsentscheidungen sind in Bezug auf den internen Prozess von Urbandrop endgültig."
+                    },
+                    "independentRedress": {
+                        "title": "17.3 Unabhängiger Rechtsbehelf",
+                        "content": "Nichts in diesen Bedingungen hindert Sie daran, einen Anspruch vor den Gerichten von England und Wales geltend zu machen oder sich gegebenenfalls an eine Regulierungsbehörde (einschließlich HMRC, Information Commissioner's Office oder Health & Safety Executive) zu wenden."
+                    }
+                },
+                "changes": {
+                    "title": "18 Änderungen dieser Bedingungen",
+                    "content": "Urbandrop kann diese Bedingungen von Zeit zu Zeit aktualisieren. Wir werden Sie über wesentliche Änderungen über die Fahrer-App, per E-Mail oder SMS mindestens 14 Tage vor deren Inkrafttreten informieren. Ihre fortgesetzte Nutzung der Plattform nach dem Aktualisierungsdatum gilt als Annahme der geänderten Bedingungen. Wenn Sie den Änderungen nicht zustimmen, können Sie diese Vereinbarung mit einer Frist von 7 Tagen schriftlich kündigen."
+                },
+                "contact": {
+                    "title": "19 Kontakt",
+                    "content": "Für Fragen, Support oder zur Zustellung von Mitteilungen gemäß dieser Bedingungen:",
+                    "companyName": "Urbandrop Group Limited",
+                    "email": "E-Mail: <a href=\"mailto:riders@urbandrop.io\" className=\"text-secondary hover:underline font-medium\">riders@urbandrop.io</a>",
+                    "emergency": "24-Stunden-Notfall-Support für Fahrer (Details in der App)",
+                    "riderSupport": "Fahrer-Support",
+                    "appeals": "Einsprüche",
+                    "appealsEmail": "appeals@urbandrop.io",
+                    "dataProtection": "Datenschutz",
+                    "dpoEmail": "dpo@urbandrop.io",
+                    "legalNotices": "Rechtliche Hinweise",
+                    "legalEmail": "legal@urbandrop.io",
+                    "emergencyLabel": "Notfall (24h)"
+                },
+                "governingLaw": {
+                    "title": "20 Anwendbares Recht & Gerichtsstand",
+                    "content": "Diese Bedingungen unterliegen dem Recht von England und Wales. Die Gerichte von England und Wales haben die ausschließliche Zuständigkeit. Sollte eine Bestimmung dieser Bedingungen ungültig oder nicht durchsetzbar sein, bleiben die übrigen Bestimmungen in vollem Umfang in Kraft."
+                },
+                "entireAgreement": {
+                    "title": "21 Gesamte Vereinbarung",
+                    "content": "Diese Bedingungen bilden zusammen mit der Datenschutzrichtlinie und allen weiteren durch Verweis einbezogenen Vereinbarungen die gesamte Vereinbarung zwischen Ihnen und UrbanDrop in Bezug auf Ihre Nutzung der Plattform und ersetzen alle vorherigen Vereinbarungen, Zusicherungen oder Verständnisse, ob schriftlich oder mündlich."
+                }
             }
         }
     }
 }
+        

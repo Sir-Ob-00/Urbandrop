@@ -1113,8 +1113,1314 @@
                         "content": "Kwa maswali, malalamiko, au maombi ya marejesho, tafadhali wasiliana:",
                         "companyName": "UrbanDrop Group Limited",
                         "email": "Barua pepe: support@urbandrop.io"
+                    },
+                    "customerTerms": {
+                "title": "Masharti na Vigezo vya Mteja",
+                "intro": "Masharti yanayoongoza matumizi yako ya programu na tovuti ya Urbandrop, ikijumuisha maagizo, malipo, usajili na maudhui ya mapishi.",
+                "effective": "ANZA KUTUMIKA",
+                "effectiveDate": "23 Aprili 2026",
+                "version": "TOLEO",
+                "versionNumber": "1.0",
+                "jurisdiction": "MAMLAKA YA KISHERIA",
+                "jurisdictionValue": "Uingereza na Wales",
+                "governedBy": "INASIMAMIWA NA",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                    "title": "TAFADHALI SOMA KABLA YA KUAGIZA",
+                    "content": "Masharti haya yanaunda mkataba wa kisheria kati yako na Urbandrop Group Limited. Kwa kufungua akaunti, kuagiza bidhaa au kujiandikisha kwenye Urbandrop+, unakubali Masharti haya. Haki zako za kisheria chini ya Sheria ya Haki za Mlaji ya mwaka 2015 na Kanuni za Mikataba ya Mlaji za mwaka 2013 zinatumika bila kujali chochote katika hati hii na haziathiriwi nayo."
+                },
+                "contents": {
+                    "title": "YALIYOMO",
+                    "twentyTwoClauses": "Vifungu ishirini na mbili",
+                    "clause01": "01 Sisi ni Nani & Masharti Haya",
+                    "clause02": "02 Akaunti Yako",
+                    "clause03": "03 Eneo la Huduma & Upatikanaji",
+                    "clause04": "04 Kuagiza Bidhaa",
+                    "clause05": "05 Bei, Ada & Malipo",
+                    "clause06": "06 Uwasilishaji",
+                    "clause07": "07 Bidhaa Zenye Kikomo cha Umri",
+                    "clause08": "08 Bidhaa Zilizopungua, Zilizoharibika au Zisizo Sahihi",
+                    "clause09": "09 Ghairi & Haki Yako ya Kughairi",
+                    "clause10": "10 Usajili wa Urbandrop+",
+                    "clause11": "11 Mapishi & Maudhui ya Mtumiaji",
+                    "clause12": "12 Usalama wa Chakula, Alerji & Taarifa za Lishe",
+                    "clause13": "13 Matangazo ya Promosheni & Vocha",
+                    "clause14": "14 Matumizi Yanayokubalika",
+                    "clause15": "15 Dhima Yetu Kwako",
+                    "clause16": "16 Ulinzi wa Data & Faragha",
+                    "clause17": "17 Miliki Ubunifu",
+                    "clause18": "18 Malalamiko & Migogoro",
+                    "clause19": "19 Mabadiliko ya Masharti Haya",
+                    "clause20": "20 Usitishaji",
+                    "clause21": "21 Masharti ya Jumla ya Kisheria",
+                    "clause22": "22 Mawasiliano"
+                },
+                "clause01": {
+                    "title": "KIFUNGU CHA 01",
+                    "subtitle": "Sisi ni Nani & Masharti Haya",
+                    "content1": "Masharti na Vigezo hivi vya Mteja (\"Masharti\") yanaunda mkataba kati yako (\"Mteja\", \"wewe\") na Urbandrop Group Limited (\"Urbandrop\", \"sisi\", \"yetu\"), kampuni binafsi yenye dhima ya ukomo iliyosajiliwa nchini Uingereza na Wales kwa namba ya kampuni [00000000] na ofisi iliyosajiliwa katika [Registered Office Address].",
+                    "content2": "Masharti haya yanatumika unapotembelea urbandrop.io, unapotumia programu zetu za simu, kufungua akaunti, kuagiza bidhaa, kujiandikisha kwenye Urbandrop+, au kutazama au kutumia mapishi kwenye Jukwaa letu. Kwa kufanya lolote kati ya hayo, unakubali kufungwa na Masharti haya.",
+                    "whatUrbandropDoes": {
+                        "title": "Nini Urbandrop hufanya",
+                        "content": "Urbandrop huendesha soko la wauzaji wengi na jukwaa la mapishi linalobobea katika vyakula vya Kiafrika, Karibiani na Kiasia na bidhaa zinazohusiana na tamaduni hizo. Tunakuunganisha na wauzaji huru (\"Wauzaji\") ambao huorodhesha na kuuza bidhaa zao, na tunapanga uwasilishaji wa mwisho iwe sisi wenyewe au kupitia washirika wa usafirishaji wa wahusika wengine. Kwa maagizo mengi, Urbandrop hufanya kazi kama wakala wako katika kuhitimisha mauzo kati yako na Muuzaji; mkataba wa bidhaa ni kati yako na Muuzaji, ingawa tunashughulikia malipo na huduma kwa wateja kwa niaba ya Muuzaji. Ambapo Urbandrop inatimiza agizo kutoka kwa mojawapo ya vituo vyake vya utimilifu (micro-fulfilment centres), mkataba wa bidhaa hizo ni wa moja kwa moja na Urbandrop."
+                    },
+                    "definedTerms": "Istilahi zilizofafanuliwa",
+                    "terms": {
+                        "platform": {
+                            "term": "Jukwaa",
+                            "definition": "Tovuti ya Urbandrop (urbandrop.io), programu za iOS na Android, maudhui ya mapishi, na huduma zozote zinazohusiana tunazoendesha."
+                        },
+                        "account": {
+                            "term": "Akaunti",
+                            "definition": "Akaunti yako binafsi kwenye Jukwaa."
+                        },
+                        "order": {
+                            "term": "Agizo",
+                            "definition": "Ombi unalotuma kupitia Jukwaa kununua bidhaa kutoka kwa Muuzaji mmoja au zaidi."
+                        },
+                        "merchant": {
+                            "term": "Muuzaji",
+                            "definition": "Muuzaji rejareja huru, duka kuu (supermarket) au muuzaji aliyeorodheshwa kwenye Jukwaa."
+                        },
+                        "rider": {
+                            "term": "Msafirishaji",
+                            "definition": "Mtu anayewasilisha bidhaa anayeleta Agizo lako kutoka kwa Muuzaji hadi kwenye anuani yako ya uwasilishaji, ambaye anaweza kuajiriwa moja kwa moja na sisi au kupitia mshirika wa uwasilishaji."
+                        },
+                        "urbandropPlus": {
+                            "term": "Urbandrop+",
+                            "definition": "Huduma yetu ya usajili wa kulipia iliyofafanuliwa katika Kifungu cha 10."
+                        },
+                        "recipeContent": {
+                            "term": "Maudhui ya Mapishi",
+                            "definition": "Mapishi, video, picha, na maudhui yanayohusiana yaliyochapishwa kwenye Jukwaa na sisi au na waundaji wa wahusika wengine."
+                        },
+                        "statutoryRights": {
+                            "term": "Haki za Kisheria",
+                            "definition": "Haki zako kama mlaji chini ya sheria za Uingereza, ikijumuisha Sheria ya Haki za Mlaji ya mwaka 2015 na Kanuni za Mikataba ya Mlaji za mwaka 2013, ambazo zinatumika bila kujali Masharti haya."
+                        }
                     }
+                },
+                "clause02": {
+                    "title": "KIFUNGU CHA 02",
+                    "subtitle": "Akaunti Yako",
+                    "whoCanCreate": {
+                        "title": "2.1 Nani anaweza kufungua akaunti",
+                        "content": "Lazima uwe na umri wa angalau miaka 18 ili kufungua Akaunti. Ikiwa una umri wa miaka 16 au 17, unaweza kutumia Jukwaa chini ya usimamizi wa mzazi au mlezi ambaye anawajibika kimkataba kwa Maagizo yako."
+                    },
+                    "accurateInfo": {
+                        "title": "2.2 Taarifa sahihi",
+                        "content": "Lazima utoe taarifa sahihi, za sasa na kamili unapofungua Akaunti yako na kuzisasisha kila mara. Unawajibika kwa usalama wa maelezo yako ya kuingilia kwenye akaunti. Ikiwa unadhani mtu mwingine ametumia Akaunti yako, tujulishe mara moja kupitia support@urbandrop.io."
+                    },
+                    "oneAccount": {
+                        "title": "2.3 Akaunti moja kwa kila mtu",
+                        "content": "Unaruhusiwa kuwa na Akaunti moja tu kwa wakati mmoja. Tunaweza kuunganisha au kufunga akaunti zilizojirudia kwa hiari yetu (salio lolote la Urbandrop litahamishiwa kwenye akaunti itakayobaki)."
+                    },
+                    "personalUse": {
+                        "title": "2.4 Kutumia Jukwaa kwa ajili yako mwenyewe",
+                        "content": "Unaweza kutumia Jukwaa kwa ajili ya matumizi yako binafsi pekee, si kwa biashara. Huruhusiwi kuuza tena bidhaa zilizonunuliwa kupitia Jukwaa, kutumia Akaunti kwa malengo ya kibiashara ya mtu mwingine, au kuagiza bidhaa ukitumia njia ya malipo ya mtu mwingine bila ruhusa yao."
+                    }
+                },
+                "clause03": {
+                    "title": "KIFUNGU CHA 03",
+                    "subtitle": "Eneo la Huduma & Upatikanaji",
+                    "whereWeDeliver": {
+                        "title": "3.1 Tunapowasilisha",
+                        "content": "Kwa sasa Urbandrop inapatikana katika kodi za posta (postcodes) teule nchini Uingereza, ikianzia Bristol na kutanuka hadi Birmingham, London, Manchester na miji mingine ya Uingereza baada ya muda. Programu itakuambia wakati wa malipo (checkout) ikiwa anuani yako iko ndani ya eneo la huduma linalofanya kazi. Tunaweza kuongeza, kubadilisha au kuondoa maeneo ya huduma wakati wowote."
+                    },
+                    "whenWeDeliver": {
+                        "title": "3.2 Muda wa uwasilishaji",
+                        "content": "Saa za uwasilishaji zinategemea Muuzaji na eneo lako na zinaonyeshwa kwenye programu. Baadhi ya Wauzaji na baadhi ya bidhaa zinapatikana kwa nyakati fulani pekee."
+                    },
+                    "stockAvailability": {
+                        "title": "3.3 Upatikanaji wa bidhaa",
+                        "content": "Upatikanaji wa bidhaa unategemea akiba ya muuzaji, ambayo hubadilika siku nzima. Mara kwa mara, bidhaa inayoonekana kupatikana wakati wa malipo inaweza kutoonekana wakati Muuzaji anapoanza kuandaa Agizo lako. Katika hali hiyo, Kifungu cha 8 kitatumika."
+                    }
+                },
+                "clause04": {
+                    "title": "KIFUNGU CHA 04",
+                    "subtitle": "Kuagiza Bidhaa",
+                    "contractFormed": {
+                        "title": "4.1 Jinsi mkataba unavyoundwa",
+                        "content": "Unapotoa Agizo kupitia Jukwaa unatoa ofa ya kununua bidhaa zilizoorodheshwa. Mkataba unaundwa tu wakati sisi (tukifanya kazi kama wakala wa Muuzaji, au kwa bidhaa tunazozitimiza wenyewe, kama muuzaji) tunapothibitisha kuwa Muuzaji amekubali Agizo lako. Uthibitisho unaonekana kwenye programu na kwa kawaida hutumwa kama barua pepe au taarifa ya simu (push notification)."
+                    },
+                    "orderChanges": {
+                        "title": "4.2 Mabadiliko ya agizo",
+                        "content": "Agizo likishakubaliwa, huwezi kulibadilisha kupitia programu. Unaweza kuwasiliana na huduma kwa wateja, lakini kwa hatua hiyo Muuzaji anaweza kuwa tayari anachagua au ameshatuma Agizo lako, na huenda tusiweze kulibadilisha."
+                    },
+                    "minimumOrder": {
+                        "title": "4.3 Kiwango cha chini cha agizo",
+                        "content": "Kiwango cha chini cha thamani ya agizo kinaweza kutumika. Ikiwa kikapu chako kiko chini ya kiwango cha chini cha Muuzaji, programu itaonyesha ada ndogo ya nyongeza au itakuomba uongeze bidhaa zaidi. Kiwango cha sasa cha chini na ada za nyongeza huonyeshwa wakati wa malipo."
+                    },
+                    "substitutions": {
+                        "title": "4.4 Bidhaa mbadala",
+                        "content": "Ikiwa bidhaa haipatikani wakati Muuzaji anaandaa Agizo lako, Muuzaji au sisi tunaweza kutoa bidhaa mbadala. Ikiwa bidhaa mbadala itatolewa na usiitake, unaweza kuikataa mlangoni au kuiripoti chini ya Kifungu cha 8, na tutakurudishia pesa zako."
+                    },
+                    "rightToRefuse": {
+                        "title": "4.5 Haki ya kukataa",
+                        "content": "Tunahifadhi haki ya kukataa au kughairi Agizo ambapo, kwa mfano, bidhaa haipatikani, bei iliorodheshwa kimakosa kutokana na makosa ya wazi, tunahisi shughuli za ulaghai, anuani ya uwasilishaji iko nje ya eneo letu la huduma, au Agizo linakiuka Masharti haya au sheria inayotumika. Tukifanya hivyo, utapokea urejesho kamili wa pesa na tutakuambia sababu."
+                    }
+                },
+                "clause05": {
+                    "title": "KIFUNGU CHA 05",
+                    "subtitle": "Bei, Ada & Malipo",
+                    "productPrices": {
+                        "title": "5.1 Bei za bidhaa",
+                        "content": "Bei za bidhaa huwekwa na Muuzaji (au na Urbandrop kwa bidhaa tunazozitimiza wenyewe) na huonyeshwa kwenye programu kwa pauni za Uingereza (GBP) ikijumuisha kodi ya VAT inapohitajika. Bei zinaweza kutofautiana na bei za dukani kwa Muuzaji huyo huyo na zinaweza kubadilika wakati wowote kabla ya kutoa Agizo lako."
+                    },
+                    "fees": {
+                        "title": "5.2 Ada",
+                        "content": "Ada za kawaida zinazoonyeshwa wakati wa malipo ni pamoja na:",
+                        "items": [
+                            "<strong>Ada ya uwasilishaji</strong> — inatofautiana kulingana na umbali, muda wa siku na mahitaji. Wasajili wa Urbandrop+ hupokea uwasilishaji wa bure au wa kipaumbele kwa maagizo yanayofikia vigezo (tazama Kifungu cha 10).",
+                            "<strong>Ada ya huduma</strong> — asilimia ya kikapu chako, inayotozwa kwa kila Agizo, ambayo huchangia katika uendeshaji wa Jukwaa.",
+                            "<strong>Nyongeza ya kikapu kidogo</strong> — ada ndogo inayotumika wakati kikapu chako kiko chini ya kiwango cha chini cha agizo.",
+                            "<strong>Tip (Asante)</strong> — hiari. 100% ya tip yoyote huenda kwa Msafirishaji; Urbandrop haichukui sehemu yoyote."
+                        ]
+                    },
+                    "surgePricing": {
+                        "title": "5.3 Bei ya ongezeko la mahitaji na hali ya hewa",
+                        "content": "Ada za uwasilishaji zinaweza kuongezeka wakati wa mahitaji makubwa, hali mbaya ya hewa, au vipindi vya upatikanaji mdogo wa Wasafirishaji. Programu itakuonyesha ada kila wakati kwa wazi kabla ya kuthibisha Agizo."
+                    },
+                    "payment": {
+                        "title": "5.4 Malipo",
+                        "content": "Tunapokea kadi kuu za malipo (debit na credit), Apple Pay, Google Pay na njia nyingine zozote za malipo zinazoonyeshwa wakati wa malipo. Malipo yanashughulikiwa na mtoa huduma wetu wa malipo; hatuhifadhi maelezo kamili ya kadi kwenye mifumo yetu. Kwa kutoa Agizo unaturuhusu kutoza njia yako ya malipo uliyochagua kwa kiasi kamili cha Agizo."
+                    },
+                    "preAuth": {
+                        "title": "5.5 Uidhinishaji wa awali",
+                        "content": "Unapotoa Agizo, tunaweza kuweka zuio la muda (pre-authorisation) kwenye njia yako ya malipo kwa thamani ya Agizo. Hii siyo malipo; malipo halisi huchukuliwa wakati Agizo lako linapothibitishwa au kutumwa. Zuio la uidhinishaji wa awali kawaida huondoka ndani ya siku 3-7 za kazi kulingana na benki yako."
+                    },
+                    "receipts": {
+                        "title": "5.6 Risiti",
+                        "content": "Risiti kwa kila Agizo inapatikana kwenye programu na, pale ulipochagua, kupitia barua pepe."
+                    }
+                },
+                "clause06": {
+                    "title": "KIFUNGU CHA 06",
+                    "subtitle": "Uwasilishaji",
+                    "deliveryTime": {
+                        "title": "6.1 Makadirio ya muda wa uwasilishaji",
+                        "content": "Muda wa uwasilishaji unaoonyeshwa kwenye programu ni makadirio, si dhamana. Kwa kawaida Maagizo hufika ndani ya dakika 30–90, lakini muda halisi unategemea maandalizi ya Muuzaji, upatikanaji wa Msafirishaji, msongamano wa magari na hali ya hewa."
+                    },
+                    "whereWeDeliver": {
+                        "title": "6.2 Tunapowasilisha",
+                        "content": "Tunawasilisha kwenye anuani uliyoichagua wakati wa malipo. Unawajibika kuhakikisha kuwa anuani hiyo ni sahihi na inafikika. Hatuwezi kuwasilisha kwenye Sanduku la Posta (PO Box), makabati ya kuhifadhia bidhaa (lockers), au anuani ambazo uwasilishaji salama hauwezekani kwa kiasi cha kuridhisha. Pale ambapo jengo lina vizuizi vya kuingia, lazima utoe maelekezo ya wazi (kengele/buzzer, namba ya ghorofa, namba ya siri ya kuingilia) kwenye maelezo ya uwasilishaji."
+                    },
+                    "handover": {
+                        "title": "6.3 Kukabidhi bidhaa",
+                        "content": "Isipokuwa kama umechagua \"acha mlangoni\" au chaguo jingine la uwasilishaji bila mgusano, mtu mzima lazima awepo kwenye anuani ya uwasilishaji ili kupokea Agizo. Kwa bidhaa zenye kikomo cha umri (Kifungu cha 7), uwasilishaji wa kuacha mlangoni bila mgusano haupatikani."
+                    },
+                    "ifNoOneAvailable": {
+                        "title": "6.4 Ikiwa hakuna mtu wa kupokea",
+                        "content": "Ikiwa Msafirishaji hawezi kukufikia anapowasili (hakuna jibu mlangoni, hakuna jibu kwenye programu au simu), atasubiri kwa muda wa kutosha (kawaida dakika 5) kabla ya kuripoti Agizo kama lisiloweza kuwasilishwa. Katika hali hiyo:",
+                        "items": [
+                            "bidhaa zinazoharibika haraka (nyama mbichi, bidhaa za maziwa, mbogamboga na matunda, bidhaa zilizogandishwa) zinaweza kutupwa kwa usalama ili kuepuka hatari ya usalama wa chakula, na pesa hazitarudishwa zaidi ya kile ambacho haki zako za kisheria zinahitaji;",
+                            "bidhaa zisizoharibika haraka zinaweza kurudishwa kwa Muuzaji au kuhifadhiwa kwa ajili ya kuwasilishwa tena ikiwezekana, kwa uamuzi wetu na uwezekano wa kutozwa ada ya ziada;",
+                            "ada ya uwasilishaji hairudishwi ikiwa kosa si letu."
+                        ]
+                    },
+                    "leaveAtDoor": {
+                        "title": "6.5 Kuacha mlangoni",
+                        "content": "Ikiwa utachagua kuachiwa mlangoni au kutoa idhini ya kuacha Agizo mahali maalum salama, hatari ya uharibifu wa bidhaa inahamia kwako mara tu Msafirishaji anapoacha Agizo hapo na kupiga picha ya uthibitisho. Hatutawajibika kwa wizi au uharibifu baada ya hatua hiyo."
+                    },
+                    "riskOwnership": {
+                        "title": "6.6 Hatari na umiliki",
+                        "content": "Hatari ya uharibifu wa bidhaa inahamia kwako wakati wa kukabidhiwa (au wakati wa kuachwa mlangoni chini ya kifungu cha 6.5). Umiliki unahamia kwako mara tu malipo kamili yajapopokelewa na bidhaa kukabidhiwa."
+                    }
+                },
+                "clause07": {
+                    "title": "KIFUNGU CHA 07",
+                    "subtitle": "Bidhaa Zenye Kikomo cha Umri",
+                    "intro": "Baadhi ya bidhaa zinazouzwa kwenye Jukwaa zinawekewa vikwazo na sheria nchini Uingereza, ikijumuisha pombe, bidhaa za tumbaku, bidhaa za sigara za kielektroniki (vapes), visu na bidhaa zenye makali, na vimumunyisho fulani. Tunazingatia kikamilifu Sheria ya Leseni ya 2003, Kanuni za Tumbaku na Bidhaa Zinazohusiana za 2016, Sheria ya Silaha za Mashambulizi ya 2019 na sheria zote zinazohusiana.",
+                    "minimumAge": {
+                        "title": "7.1 Umri wa chini",
+                        "content": "Lazima uwe na umri wa angalau miaka 18 ili kuagiza pombe, tumbaku, vapes au visu kupitia Jukwaa. Kwa kuagiza bidhaa hizi, unathibitisha kuwa una umri wa miaka 18 au zaidi."
+                    },
+                    "challenge25": {
+                        "title": "7.2 Sera ya 'Challenge 25' wakati wa uwasilishaji",
+                        "content": "Tunatumia sera ya 'Challenge 25'. Ikiwa mtu anayepokea Agizo anaonekana kuwa chini ya umri wa miaka 25, Msafirishaji ataomba kitambulisho cha picha (Pasipoti ya Uingereza, leseni ya udereva ya Uingereza, au kitambulisho kilichotolewa na Home Office). Msafirishaji anahitajika kisheria kukataa kukabidhi bidhaa hizo ikiwa kitambulisho hakitatolewa au ikiwa mpokeaji anaonekana amelewa."
+                    },
+                    "idFails": {
+                        "title": "7.3 Nini hutokea ikiwa kitambulisho kitashindikana",
+                        "content": "Ikiwa bidhaa zenye kikomo zitakataliwa mlangoni, bidhaa hizo zitarudishwa kwa Muuzaji na utarudishiwa pesa za bidhaa hizo kupitia njia yako ya malipo. Sehemu nyingine ya Agizo itawasilishwa kama kawaida. Ada ya uwasilishaji hairudishwi ikiwa uwasilishaji ulijaribiwa kwa nia njema."
+                    },
+                    "proxyPurchasing": {
+                        "title": "7.4 Kununua kwa niaba ya mwingine",
+                        "content": "Ni kosa la jinai kununua pombe, tumbaku au bidhaa kama hizo kwa niaba ya mtu aliye chini ya miaka 18. Ikiwa tuna sababu ya kuamini kuwa Agizo lako ni la kumnunulia mtu mwingine asiye na sifa, tutakataa au kughairi agizo hilo, tunaweza kusitisha Akaunti yako, na tunaweza kuripoti swala hilo kwa polisi na mamlaka husika ya leseni."
+                    }
+                },
+                "clause08": {
+                    "title": "KIFUNGU CHA 08",
+                    "subtitle": "Bidhaa Zilizopungua, Zilizoharibika au Zisizo Sahihi",
+                    "intro": "Tunataka ufurahie kila Agizo. Ikiwa kitu hakiko sawa, hivi ndivyo tunavyotatua—pamoja na haki zako za kisheria ambazo hutumika kila wakati.",
+                    "resolutionMatrix": {
+                        "title": "8.1 Jedwali la utatuzi",
+                        "issue": "TATIZO",
+                        "typicalResolution": "UTATUZI WA KAWAIDA",
+                        "reportBy": "RIPOTI NDANI YA",
+                        "rows": [
+                            { "issue": "Bidhaa iliyopungua kwenye agizo lililowasilishwa", "resolution": "Urejesho wa pesa za bidhaa iliyokosekana (kwenye njia ya malipo) au salio la Urbandrop — chaguo ni lako", "timeframe": "Ndani ya saa 48 baada ya uwasilishaji" },
+                            { "issue": "Bidhaa iliyoharibika au iliyooza", "resolution": "Urejesho wa pesa au kubadilishiwa kwenye agizo lako lijalo, kwa chaguo lako", "timeframe": "Ndani ya saa 48 baada ya uwasilishaji" },
+                            { "issue": "Bidhaa isiyo sahihi imewasilishwa", "resolution": "Urejesho wa pesa za bidhaa hiyo; unabaki nayo au unaiondoa", "timeframe": "Ndani ya saa 48 baada ya uwasilishaji" },
+                            { "issue": "Agizo halikufika", "resolution": "Urejesho kamili wa pesa (pamoja na ada ya uwasilishaji) au kuwasilishwa tena", "timeframe": "Ndani ya saa 24 tangu muda uliotarajiwa" },
+                            { "issue": "Ubora si kama ulivyotarajiwa (mf. ladha mbaya, muonekano duni)", "resolution": "Utatuzi wa hiari kulingana na tukio; haki za kisheria zinatumika chini ya Sheria ya Haki za Mlaji ya 2015", "timeframe": "Ndani ya siku 14" },
+                            { "issue": "Agizo limeghairiwa na wewe baada ya kuliweka", "resolution": "Tazama Kifungu cha 9 — inatofautiana kulingana na hatua ya agizo", "timeframe": "Kupitia programu kabla Muuzaji hajapokea" },
+                            { "issue": "Agizo limeghairiwa na Muuzaji au Urbandrop", "resolution": "Urejesho kamili wa pesa moja kwa moja; hakuna hatua inayohitajika", "timeframe": "—" }
+                        ]
+                    },
+                    "howToReport": {
+                        "title": "8.2 Jinsi ya kuripoti tatizo",
+                        "content": "Tumia chaguo la \"Msaada kwa Agizo hili\" kwenye programu, au tuma barua pepe kwa support@urbandrop.io. Hakikisha una namba ya Agizo, maelezo ya tatizo, na picha pale inapohusika. Tunalenga kujibu ndani ya siku mbili (2) za kazi na kutatua ndani ya siku tano (5) za kazi, na kwa kawaida haraka zaidi kwa kesi rahisi."
+                    },
+                    "whenRefundsIssued": {
+                        "title": "8.3 Muda wa kutoa urejesho wa pesa",
+                        "content": "Pale ambapo urejesho wa pesa umekubaliwa, utafanyika kupitia njia yako ya asili ya malipo na kwa kawaida hufika ndani ya siku 3–10 za kazi kulingana na benki yako. Kwa salio la Urbandrop, huongezwa kwenye Akaunti yako mara moja na kuonekana kwenye Agizo lako lijalo."
+                    },
+                    "whenWeDecline": {
+                        "title": "8.4 Wakati tunaweza kukataa kurejesha pesa",
+                        "content": "Tunaweza kukataa ombi la urejesho wa pesa pale ambapo:",
+                        "items": [
+                            "tatizo limeripotiwa nje ya muda uliowekwa hapo juu bila sababu ya msingi;",
+                            "bidhaa ilionekana kuliwa yote kabla ya tatizo kuibuliwa bila maelezo ya kuridhisha;",
+                            "tuna ushahidi wa kutosha kuwa dai hilo si la kweli (kwa mfano, madai yanayojirudia kwa namna ile ile kwenye Maagizo mengi);",
+                            "tatizo linatokana na kitendo chako au uzembe wako (kwa mfano, kuchagua kuachiwa mlangoni mahali ambapo wizi ungeweza kutabiriwa)."
+                        ],
+                        "note": "Katika hali hizo tutaelezea sababu zetu na unaweza kukata rufaa chini ya Kifungu cha 18."
+                    },
+                    "statutoryRights": {
+                        "title": "8.5 Haki zako za kisheria",
+                        "content": "Hakuna chochote katika Kifungu hiki kinachozuia haki zako chini ya Sheria ya Haki za Mlaji ya 2015 (bidhaa lazima ziwe zenye ubora wa kuridhisha, zinafaa kwa matumizi yaliyokusudiwa, na ziwe kama zilivyoelezwa) au Kanuni za Mikataba ya Mlaji za 2013. Haki hizo ni nyongeza ya utatuzi uliotajwa hapo juu."
+                    },
+                    "fraudulentClaims": {
+                        "title": "MADAI YA ULAGHAI",
+                        "content": "Tunapokea madai ya urejesho kwa nia njema. Kuwasilisha madai unayojua ni ya uongo au yasiyo ya uaminifu ni ulaghai chini ya Sheria ya Ulaghai ya 2006, itasababisha kusitishwa kwa Akaunti, na tunahifadhi haki ya kudai kurejeshewa kiasi kilichorejeshwa kimakosa na kuripoti swala hilo kwa polisi."
+                    }
+                },
+                "clause09": {
+                    "title": "KIFUNGU CHA 09",
+                    "subtitle": "Ghairi & Haki Yako ya Kughairi",
+                    "beforeAcceptance": {
+                        "title": "9.1 Kughairi kabla ya Muuzaji kupokea",
+                        "content": "Unaweza kughairi Agizo wakati wowote kabla ya Muuzaji kulipokea, kupitia programu. Hakuna ada ya kughairi inayotumika, na utapokea urejesho kamili wa pesa."
+                    },
+                    "afterAcceptance": {
+                        "title": "9.2 Kughairi baada ya kupokelewa",
+                        "content": "Mara tu Muuzaji amepokea na kuanza kuandaa au kuchagua Agizo lako, kughairi kunaweza kuleta ada ili kufidia gharama ambazo tayari zimefanyika:",
+                        "items": [
+                            "Limekubaliwa lakini bado halijachaguliwa — kwa kawaida ada ndogo ya kughairi inayofunika gharama za Muuzaji na upangaji wa uwasilishaji.",
+                            "Limechaguliwa lakini bado halijatoka kuwasilishwa — kwa kawaida ada ya kughairi sawa na gharama ya bidhaa pamoja na ada ya uwasilishaji, kwani bidhaa zinazoharibika na zilizokwisha chaguliwa haziwezi kurudishwa rafu kwa urahisi.",
+                            "Limetoka kuwasilishwa au limewasilishwa — kughairi kwa kawaida haiwezekani. Unaweza kuibua tatizo chini ya Kifungu cha 8 ikiwa inafaa."
+                        ],
+                        "note": "Programu itakuonyesha ada ya kughairi inayotumika (ikiwa ipo) kabla ya kuthibisha kughairi."
+                    },
+                    "rightToCancel": {
+                        "title": "9.3 Haki ya kughairi chini ya Kanuni za Mikataba ya Mlaji za 2013",
+                        "content": "Kanuni za Mikataba ya Mlaji za 2013 huwapa walaji muda wa siku 14 wa \"kutafakari\" kwa ununuzi mwingi wa mtandaoni. Hata hivyo, Kanuni ya 28 inaondoa muda huo kwa mikataba ya kusambaza bidhaa zinazoweza kuharibika au kuisha muda wake haraka (vyakula vingi vibichi na mbogamboga) na bidhaa zilizofungwa ambazo hazifai kurudishwa kwa sababu za ulinzi wa afya au usafi pindi zinapofunguliwa. Kutokana na asili ya bidhaa zetu, muda wa kutafakari hautatumika kwa kawaida. Hii haiathiri haki zako za kisheria chini ya Sheria ya Haki za Mlaji ya 2015."
+                    },
+                    "cancellationByUs": {
+                        "title": "9.4 Kughairiwa na sisi",
+                        "content": "Tunaweza kughairi Agizo chini ya Kifungu cha 4.5. Tunapofanya hivyo, tunarejesha pesa kikamilifu na (pale ambapo kughairi hakukusababishwa na wewe) kwa kawaida tutatoa salio au ishara ya nia njema kama kuomba radhi."
+                    }
+                },
+                "clause10": {
+                    "title": "KIFUNGU CHA 10",
+                    "subtitle": "Usajili wa Urbandrop+",
+                    "intro": "Urbandrop+ ni usajili wetu wa hiari wa kulipia. Kifungu hiki kinaweka masharti maalum ya Urbandrop+. Vifungu vingine vyote vya Masharti haya vinaendelea kutumika kwa Maagizo yako ya Urbandrop+.",
+                    "whatYouGet": {
+                        "title": "10.1 Unachopata",
+                        "content": "Faida za Urbandrop+ kwa sasa ni pamoja na (tunaweza kuzisasisha mara kwa mara kwa kutoa taarifa):",
+                        "items": [
+                            "uwasilishaji wa kawaida wa bure kwa Maagizo yanayofikia vigezo juu ya kiwango kilichowekwa;",
+                            "nafasi za kipaumbele za uwasilishaji pale zinapopatikana;",
+                            "ofa maalum za wanachama pekee na bei za promosheni;",
+                            "kutazama mapishi bila matangazo."
+                        ],
+                        "note": "Faida zinazotegemea upatikanaji wa wahusika wengine (kwa mfano, nafasi za kipaumbele wakati wa mahitaji makubwa sana) hutolewa kwa msingi wa jitihada za kuridhisha."
+                    },
+                    "pricing": {
+                        "title": "10.2 Bei",
+                        "content": "Urbandrop+ inatolewa kwa mpango wa mwezi na mpango wa mwaka. Bei zinaonyeshwa kwenye programu na zinajumuisha VAT inapohusika. Tunaweza kubadilisha bei za baadaye; wasajili waliopo watafahamishwa angalau siku 30 kabla ya mabadiliko ya bei kuanza kutumika, na unaweza kughairi ikiwa hutaki kuendelea na bei mpya."
+                    },
+                    "freeTrials": {
+                        "title": "10.3 Jaribio la bure (Free trials)",
+                        "content": "Ikiwa utaanza Urbandrop+ kwa jaribio la bure, tutakuambia wakati wa kujiunga muda wa jaribio hilo na bei itakayotumika likimalizika. Unaweza kughairi kabla ya jaribio kuisha, na hautatozwa. Ikiwa hautaghairi, unaturuhusu kutoza njia yako ya malipo ada ya usajili wakati jaribio linapoisha, na kisha kwa kila renewal."
+                    },
+                    "autoRenewal": {
+                        "title": "10.4 Kujisasisha kiotomatiki",
+                        "content": "Urbandrop+ hujisasisha kiotomatiki mwishoni mwa kila kipindi cha malipo (mwezi au mwaka) isipokuwa ughairi. Tutatoza njia yako ya malipo uliyochagua tarehe ya kujisasisha. Usasishaji huu wa kiotomatiki ni wa kisheria kwa sababu tunakujulisha wazi hapa na kwenye programu. Unaweza kuzima usasishaji wa kiotomatiki wakati wowote kwenye mipangilio ya Akaunti yako."
+                    },
+                    "cancelling": {
+                        "title": "10.5 Kughairi Urbandrop+",
+                        "content": "Unaweza kughairi wakati wowote kupitia mipangilio ya Akaunti yako au kwa kuwasiliana na huduma kwa wateja. Kughairi kunasitisha usasishaji wa baadaye lakini hakukupi haki ya kurejeshewa pesa za kipindi cha sasa cha malipo, isipokuwa pale ambapo:",
+                        "items": [
+                            "Chini ya Kanuni za Mikataba ya Mlaji za 2013, ndani ya siku 14 tangu kujiunga mara ya kwanza, una muda wa siku 14 wa kutafakari. Ukighairi ndani ya siku 14, tutarejesha ada ya usajili kikamilifu, tukiondoa kiasi kinachoendana na matumizi yoyote ya faida za kulipia (kwa mfano, ada za uwasilishaji zilizookolewa).",
+                            "Baada ya siku 14, kughairi kutaanza kufanya kazi mwishoni mwa kipindi cha sasa cha malipo. Faida zitaendelea hadi tarehe hiyo."
+                        ]
+                    },
+                    "changesToBenefits": {
+                        "title": "10.7 Mabadiliko ya faida",
+                        "content": "Tunaweza kuongeza, kurekebisha au kuondoa faida za Urbandrop+. Pale ambapo mabadiliko yanapunguza thamani ya jumla ya usajili, tutakujulisha angalau siku 30 mapema, na unaweza kughairi ili urejeshewe pesa kwa sehemu ya usajili ambayo haijatumiwa."
+                    },
+                    "terminationByUs": {
+                        "title": "10.8 Usitishaji na sisi",
+                        "content": "Tunaweza kusitisha usajili wako wa Urbandrop+ na kufunga Akaunti yako kwa ukiukaji mkubwa wa Masharti haya, shughuli za ulaghai, au matumizi mabaya ya faida. Tukifanya hivyo kwa sababu ya kosa lako, hatulazimiki kurejesha sehemu yoyote ambayo haijatumiwa. Tukisitisha bila sababu ya kosa lako, tutarejesha kiasi kulingana na muda uliobaki ambao haujatumiwa."
+                    }
+                },
+                "clause11": {
+                    "title": "KIFUNGU CHA 11",
+                    "subtitle": "Mapishi na Maudhui ya Mtumiaji",
+                    "recipePersonalUse": {
+                        "title": "11.1 Maudhui ya Mapishi ni kwa matumizi binafsi",
+                        "content": "Unaweza kutazama na kupika kutokana na Maudhui ya Mapishi kwa matumizi yako binafsi, yasiyo ya kibiashara. Isipokuwa kwa kile kinachoruhusiwa na vitufe vya kushiriki vya Jukwaa (mfano, kushiriki kiungo cha mapishi kwenye mitandao ya kijamii), huwezi kunakili, kutoa nakala, kuchapisha tena, au kusambaza Maudhui ya Mapishi."
+                    },
+                    "accuracyOfRecipes": {
+                        "title": "11.2 Usahihi wa mapishi",
+                        "content": "Mapishi yanatolewa kwa ajili ya habari za jumla pekee. Ingawa Watayarishi wetu na sisi tunachukua tahadhari inayostahili, hatudhamini kuwa kila kichocheo hakina makosa au kinafaa kwa kila mtu, hasa pale ambapo mzio (allergy), kutovumilia vyakula fulani, ujauzito, hali ya kiafya au vizuizi vya lishe vinahusika. Kila wakati kagua lebo za viungo na mshauri mtaalamu aliyehitimu pale inapofaa."
+                    },
+                    "recipeToBasket": {
+                        "title": "11.3 Mapishi-hadi-kwenye-kikapu",
+                        "content": "Mapishi mengi yanajumuisha kitufe cha \"Nunua viungo vya mapishi\" ambacho huongeza viungo vinavyopendekezwa kwenye kikapu chako kutoka kwa Wauzaji wanaopatikana. Kiasi kinachopendekezwa ni makadirio — kagua kikapu chako kabla ya kulipia. Upatikanaji, bei na mgawo wa Muuzaji ni kama inavyoonekana wakati wa malipo."
+                    },
+                    "userContent": {
+                        "title": "11.4 Maudhui yako kama Mtumiaji",
+                        "content": "Ikiwa utatuma tathmini, maoni, picha au Maudhui mengine ya Mtumiaji:",
+                        "items": [
+                            "Lazima uwe unamiliki au uwe na haki ya kuyatuma;",
+                            "lazima usitume maudhui ambayo ni kinyume cha sheria, ya kusingizia, ya matusi, ya kutishia, ya kunyanyasa, ya ubaguzi, ya kupotosha, au yanayokiuka haki za mtu mwingine yeyote (pamoja na faragha na miliki ya kiakili);",
+                            "Unatoa kwa Urbandrop leseni ya duniani kote, isiyo na malipo ya mrahaba, isiyo ya kipekee, inayoweza kuhamishwa, na inayoweza kutolewa kwa wengine kutumia, kuonyesha, kutoa nakala, kurekebisha, kutafsiri na kusambaza Maudhui yako ya Mtumiaji kwa madhumuni ya kuendesha na kutangaza Jukwaa. Unabaki na umiliki wa Maudhui yako;",
+                            "Unatoa idhini ya kutotumia \"haki za kimaadili\" unazoweza kuwa nazo kwenye Maudhui ya Mtumiaji chini ya Sheria ya Hakimiliki, Michoro na Hati miliki ya 1988 kwa kiasi kinachoruhusiwa na sheria;",
+                            "tunaweza kuondoa, kuhariri au kukataa kuchapisha Maudhui ya Mtumiaji kwa uamuzi wetu, hasa pale yanapovunja Masharti haya au tukipokea ombi halali la kuyaondoa."
+                        ]
+                    },
+                    "reviewsMerchants": {
+                        "title": "11.5 Tathmini za Wauzaji na Bidhaa",
+                        "content": "Tunakaribisha tathmini za uaminifu na halali. Tathmini lazima zizingatie uzoefu halisi. Tathmini za uongo, za kupewa motisha au zilizopangwa zinaweza kukiuka Sheria ya Masoko ya Kidijitali, Ushindani na Walaji ya 2024 na zitaondolewa."
+                    },
+                    "creatorContent": {
+                        "title": "11.6 Maudhui ya Watayarishi",
+                        "content": "Maudhui ya Mapishi yanayotayarishwa na Watayarishi yanachapishwa chini ya Makubaliano tofauti ya Mtayarishi kati ya Urbandrop na Mtayarishi. Kwa watumiaji wa Jukwaa, masharti yaliyotajwa hapo juu yanatumika. Ikiwa unaamini Maudhui yoyote ya Mapishi yanakiuka haki zako, wasiliana na legal@urbandrop.io na tutachunguza na kuchukua hatua kulingana na sheria ya Uingereza."
+                    }
+                },
+                "clause12": {
+                    "title": "KIFUNGU CHA 12",
+                    "subtitle": "Usalama wa Chakula, Vyakula Vinavyosababisha Mzio na Taarifa za Lishe",
+                    "allergenInfo": {
+                        "title": "12.1 Taarifa za vyakula vinavyosababisha mzio",
+                        "content": "Pale inapohusika, taarifa za mzio kwa kila bidhaa hutolewa na Muuzaji au mzalishaji na huonyeshwa kwenye orodha ya bidhaa. Taarifa hizi zinategemea Kanuni za Taarifa za Chakula za 2014 na zinahusu vyakula vikuu kumi na nne vinavyosababisha mzio vilivyoorodheshwa katika Kiambatisho II cha Kanuni (EU) Na. 1169/2011 (kama ilivyohifadhiwa katika sheria ya Uingereza)."
+                    },
+                    "alwaysCheckPackaging": {
+                        "title": "12.2 Kagua vifungashio kila wakati",
+                        "content": "Taarifa za bidhaa, ikiwa ni pamoja na orodha ya viungo, vizalisha mzio na thamani za lishe, zinaweza kubadilika bila taarifa. Kagua vifungashio kila wakati wakati wa uwasilishaji kabla ya kula chochote, hasa ikiwa una mzio au hali ya kutovumilia chakula fulani. Ikiwa kuna tofauti yoyote kati ya taarifa kwenye programu na kwenye kifungashio, amini kilichoandikwa kwenye kifungashio."
+                    },
+                    "crossContamination": {
+                        "title": "12.3 Maambukizi mtambuka (Cross-contamination)",
+                        "content": "Baadhi ya Wauzaji wanaendesha majengo yanayohudumia vizalisha mzio vingi. Hatuwezi kudhamini kuwa bidhaa yoyote haina kiasi kidogo sana cha vizalisha mzio ambavyo haijavitangaza."
+                    },
+                    "temperatureFoodSafety": {
+                        "title": "12.4 Joto na usalama wa chakula",
+                        "content": "Wakati wa uwasilishaji, weka kwenye jokofu au gandisha bidhaa zinazohitaji ubaridi haraka iwezekanavyo. Usile bidhaa zilizoonekana kuharibika, zilizopitisha tarehe yake ya mwisho ya matumizi, au zilizoharibika. Ripoti wasiwasi wowote wa usalama wa chakula kwetu mara moja kupitia sehemu ya msaada kwenye programu."
+                    },
+                    "seriousAllergies": {
+                        "title": "MZIO MKUBWA",
+                        "content": "Ikiwa una mzio mkubwa au unaoweza kutishia maisha, tafadhali chukua tahadhari ya ziada. Tunapendekeza sana kuwasiliana na Muuzaji moja kwa moja (maelezo ya mawasiliano yanapatikana kupitia Jukwaa) kabla ya kuagiza ikiwa una shaka yoyote kuhusu kiungo au utunzaji wa bidhaa."
+                    }
+                },
+                "clause13": {
+                    "title": "KIFUNGU CHA 13",
+                    "subtitle": "Promosheni na Vocha",
+                    "content": "Tunaweza kutoa namba za promosheni, ofa za utangulizi, zawadi za kurejelea wengine, na salio la Urbandrop mara kwa mara. Isipokuwa imeelezwa vinginevyo katika masharti maalum ya ofa:",
+                    "items": [
+                        "Promosheni ni moja kwa kila mteja, kila kaya, na kila njia ya malipo.",
+                        "haziwezi kuhamishwa na hazina thamani ya fedha taslimu;",
+                        "zinaweza kutumika mara moja tu isipokuwa masharti maalum yaseme vinginevyo;",
+                        "haziwezi kuunganishwa na promosheni nyingine;",
+                        "zinaisha muda wake katika tarehe iliyotajwa — salio la Urbandrop kawaida huisha muda wake baada ya miezi 12 tangu tarehe ya kutolewa;",
+                        "tunaweza kuondoa au kurekebisha ofa wakati wowote pale inapotumiwa vibaya au pale tunapokuwa na sababu ya msingi inayoweza kuthibitika."
+                    ],
+                    "note": "Ikiwa promosheni ina masharti ya ziada maalum, masharti hayo maalum yatachukua nafasi ya Kifungu hiki iwapo kutatokea mgongano."
+                },
+                "clause14": {
+                    "title": "KIFUNGU CHA 14",
+                    "subtitle": "Matumizi Yanayokubalika",
+                    "content": "Unakubali kutofanya yafuatayo:",
+                    "items": [
+                        "kutumia Jukwaa kwa madhumuni yoyote kinyume cha sheria au kwa njia inayowadhuru wengine;",
+                        "kufungua Akaunti kwa kutumia maelezo ya uongo, kujifanya mtu mwingine, au kutumia programu za kiotomatiki;",
+                        "kutumia Jukwaa kuuza tena bidhaa, kuendesha biashara, au kwa njia inayozidi matumizi ya kawaida ya binafsi;",
+                        "kujaribu kuiba kanuni (reverse-engineer), kuiba data (scrape) au kutoa data kutoka kwenye Jukwaa isipokuwa kupitia API zilizochapishwa kwa idhini yetu ya maandishi;",
+                        "kuingiza virusi, programu hasidi, au kitu chochote kilichoundwa ili kuvuruga Jukwaa;",
+                        "kunyanyasa, kutishia au kubagua Wasafirishaji, wafanyakazi wa Wauzaji, Watayarishi, watumiaji wengine au wafanyakazi wa Urbandrop;",
+                        "kutumia vibaya michakato ya urejesho wa pesa, promosheni au malalamiko kwa kutoa madai unayojua ni ya uongo;",
+                        "kuingia kwenye Jukwaa ukitumia VPN, kificha eneo (location-spoofer) au zana nyingine iliyoundwa kuficha eneo lako halisi, pale ambapo kufanya hivyo kunatumiwa kupata bei au upatikanaji ambao hungekuwa na haki nao vinginevyo."
+                    ],
+                    "note": "Ukiukaji wa Kifungu hiki unaweza kusababisha kusitishwa au kufungwa kwa Akaunti yako na, inapofaa, kuchukuliwa hatua za kisheria au kuripotiwa kwa polisi."
+                },
+                "clause15": {
+                    "title": "KIFUNGU CHA 15",
+                    "subtitle": "Wajibu Wetu Kwako",
+                    "whatWeAreResponsible": {
+                        "title": "15.1 Tunachowajibika nacho",
+                        "content": "Tunawajibika kwa hasara unazopata kama tokeo linalotabirika la sisi kuvunja mkataba huu au kushindwa kwetu kutumia ujuzi na tahadhari inayostahili, lakini hatuwajibiki kwa hasara au uharibifu wowote ambao hauwezi kutabirika. Hasara inatabirika ikiwa ni dhahiri kuwa itatokea, au ikiwa, wakati ulipokubali Masharti haya, sisi na wewe tulijua kuwa inaweza kutokea."
+                    },
+                    "whatWeAreNotResponsible": {
+                        "title": "15.2 Tusichowajibika nacho",
+                        "content": "Kwa kuzingatia Kifungu cha 15.3 na haki zako za kisheria kila wakati, hatuwajibiki kwa:",
+                        "items": [
+                            "hasara isiyo ya moja kwa moja, kupoteza faida, kupoteza biashara, kupoteza nafasi, au kupoteza sifa njema;",
+                            "hasara zinazosababishwa na matukio yaliyo nje ya uwezo wetu (tazama Kifungu cha 21.7 — Dharura zisizozuilika);",
+                            "vitendo au uzembe wa Wauzaji zaidi ya kile kinachoweza kuhusishwa nasi kama wakala wao;",
+                            "hasara inayotokana na wewe kushindwa kuweka siri maelezo yako ya kuingia kwenye Akaunti;",
+                            "hasara inayotokana na kutegemea Maudhui ya Mapishi pale ambapo haujakagua vifungashio vya bidhaa husika (tazama Kifungu cha 12.2)."
+                        ]
+                    },
+                    "liabilityWeDoNotExclude": {
+                        "title": "15.3 Wajibu ambao hatuuondoi",
+                        "content": "Hakuna chochote katika Masharti haya kinachopunguza au kuondoa wajibu wetu kwa:",
+                        "items": [
+                            "kifo au jeraha la kibinafsi lililosababishwa na uzembe wetu;",
+                            "ulaghai au upotoshaji wa kilaghai;",
+                            "bidhaa zenye kasoro chini ya Sheria ya Ulinzi wa Mlaji ya 1987;",
+                            "ukiukaji wa haki zako za kisheria kama mlaji chini ya Sheria ya Haki za Mlaji ya 2015;",
+                            "wajibu mwingine wowote ambao hauwezi kuondolewa au kupunguzwa kisheria."
+                        ]
+                    },
+                    "capOnLiability": {
+                        "title": "15.4 Kikomo cha wajibu",
+                        "content": "Pale ambapo wajibu unaweza kupunguzwa kisheria, jumla ya wajibu wetu kwako kuhusiana na Agizo lolote moja, na kwa jumla ya matukio yanayohusiana katika kipindi chochote cha miezi 12, ni mdogo kwa kiasi kikubwa kati ya £100 au thamani ya Maagizo yaliyowekwa katika kipindi hicho. Kikomo hiki hakitumiki kwa mambo yaliyoorodheshwa katika Kifungu cha 15.3."
+                    }
+                },
+                "clause16": {
+                    "title": "KIFUNGU CHA 16",
+                    "subtitle": "Ulinzi wa Data na Faragha",
+                    "content1": "Urbandrop ndiye mdhibiti wa Data ya Kibinafsi tunayokusanya kukuhusu. Tunashughulikia Data ya Kibinafsi kwa mujibu wa UK GDPR, Sheria ya Ulinzi wa Data ya 2018, na Kanuni za Faragha na Mawasiliano ya Kielektroniki za 2003.",
+                    "content2": "Sera yetu kamili ya Faragha inaelezea ni Data gani ya Kibinafsi tunayokusanya, kwa nini tunikusanya, jinsi tunavyoitumia, muda gani tunaiweka, nani tunashiriki naye (ikiwa ni pamoja na Wauzaji, Wasafirishaji, watoa huduma za malipo, na washirika wa uthibitishaji wa utambulisho), na jinsi unavyoweza kutumia haki zako. Inapatikana katika urbandrop.io/privacy na ni sehemu ya Masharti haya.",
+                    "content3": "Haki zako kama mhusika wa data chini ya UK GDPR ni pamoja na kupata taarifa, kusahihisha, kufuta (kulingana na majukumu ya kisheria ya kuhifadhi), kuweka vizuizi, uhamishaji wa data na kupinga. Ili kutumia yoyote kati ya hizi, tuma barua pepe kwa dpo@urbandrop.io. Unaweza pia kulalamika kwa Ofisi ya Kamishna wa Habari (ico.org.uk).",
+                    "icoRegistration": "Urbandrop imesajiliwa na ICO chini ya namba ya usajili [ZA000000]."
+                },
+                "clause17": {
+                    "title": "KIFUNGU CHA 17",
+                    "subtitle": "Miliki ya Kiakili",
+                    "content": "Jukwaa, jina la Urbandrop, nembo ya Urbandrop, kauli mbiu ya \"Where tradition meets convenience\", alama ya pini ya jani ya msafirishaji, muonekano wa programu (UI), Maudhui ya Mapishi yaliyotayarishwa na sisi au kwa ajili yetu, na michoro, kodi na data zote zinazohusiana zinamilikiwa na Urbandrop au watoa leseni wetu na zinalindwa na sheria za hakimiliki, alama za biashara, na haki za kanzi data za Uingereza na Wales na kimataifa. Unapewa leseni ndogo, ya kibinafsi, inayoweza kufutwa, na isiyoweza kuhamishwa ya kutumia Jukwaa kwa madhumuni yaliyokusudiwa kama Mteja.",
+                    "merchantBrands": "Bidhaa za Wauzaji, nembo na picha za bidhaa ni miliki ya kiakili ya Wauzaji husika au wamiliki wa chapa. Huwezi kuzitumia isipokuwa kama Jukwaa linavyoruhusu."
+                },
+                "clause18": {
+                    "title": "KIFUNGU CHA 18",
+                    "subtitle": "Malalamiko na Migogoro",
+                    "raiseWithUs": {
+                        "title": "18.1 Wasiliana nasi kwanza",
+                        "content": "Ikiwa una malalamiko — kuhusu Muuzaji, Msafirishaji, Agizo, uamuzi wa urejesho wa pesa, swala la usajili, au kitu kingine chochote — tafadhali wasiliana nasi kwanza kupitia sehemu ya \"Msaada\" kwenye programu au kwa support@urbandrop.io. Tunalenga kukiri kupokea ndani ya siku mbili (2) za kazi na kutoa jibu la msingi ndani ya siku kumi (10) za kazi."
+                    },
+                    "escalation": {
+                        "title": "18.2 Kukata rufaa",
+                        "content": "Ikiwa haujaridhika na jibu letu, unaweza kukata rufaa kwa maandishi kwenda complaints@urbandrop.io ili itathminiwe na meneja ambaye hakuhusika katika uamuzi wa awali."
+                    },
+                    "alternativeDispute": {
+                        "title": "18.3 Utatuzi mbadala wa migogoro",
+                        "content": "Chini ya Kanuni za Utatuzi Mbadala wa Migogoro ya Mlaji ya 2015, hatulazimiki kutumia, na kwa sasa hatutumii, mtoa huduma wa ADR. Hata hivyo tuko tayari kufikiria pendekezo lolote la busara la ADR kulingana na tukio husika."
+                    },
+                    "rightToCourt": {
+                        "title": "18.4 Haki yako ya kwenda mahakamani",
+                        "content": "Hakuna chochote katika Masharti haya kinachokuzuia kuwasilisha dai mahakamani au kuwasiliana na wasimamizi husika wa mlaji, viwango vya biashara, leseni au ulinzi wa data."
+                    }
+                },
+                "clause19": {
+                    "title": "KIFUNGU CHA 19",
+                    "subtitle": "Mabadiliko ya Masharti haya",
+                    "content1": "Tunaweza kusasisha Masharti haya mara kwa mara, kwa mfano ili kuonyesha mabadiliko ya sheria, vipengele vipya, au kuboresha uwazi. Tutaweka Masharti yaliyosasishwa kwenye Jukwaa tukiwa na tarehe mpya ya kuanza kutumika juu ya hati hii.",
+                    "content2": "Pale ambapo mabadiliko yanaathiri haki zako kwa kiasi kikubwa (kwa mfano, mabadiliko ya haki za kughairi, sera ya urejesho wa pesa, au bei ya Urbandrop+), tutakupa taarifa ya angalau siku 30 mapema kwa barua pepe au taarifa kwenye programu. Ikiwa haukubali mabadiliko hayo, unaweza kufunga Akaunti yako au kughairi usajili wako wa Urbandrop+ kabla ya tarehe ya kuanza kutumika. Kuendelea kutumia Jukwaa baada ya tarehe ya kuanza kutumika kunamaanisha unakubali Masharti yaliyosasishwa.",
+                    "content3": "Mabadiliko madogo yasiyo ya msingi (kwa mfano, kusanifu maneno, kusasisha maelezo ya mawasiliano) huanza kutumika pindi yanapowekwa."
+                },
+                "clause20": {
+                    "title": "KIFUNGU CHA 20",
+                    "subtitle": "Usitishaji",
+                    "byYou": {
+                        "title": "20.1 Na wewe",
+                        "content": "Unaweza kufunga Akaunti yako wakati wowote kupitia mipangilio ya Akaunti au kwa kuwasiliana na msaada. Maagizo yoyote ambayo hayajasafirishwa yaghairiwa kulingana na Kifungu cha 9; usajili wowote wa Urbandrop+ utashughulikiwa kulingana na Kifungu cha 10.5."
+                    },
+                    "byUs": {
+                        "title": "20.2 Na sisi",
+                        "content": "Tunaweza kusitisha au kufunga Akaunti yako pale ambapo:",
+                        "items": [
+                            "umevunja Masharti haya kwa kiasi kikubwa;",
+                            "tuna sababu za msingi za kuhisi kuna matumizi ya kilaghai, unyanyasaji, au kinyume cha sheria ya Jukwaa;",
+                            "tunatakiwa kufanya hivyo kisheria au na msimamizi wa sheria;",
+                            "haujatumia Akaunti yako kwa muda mrefu na imekuwa tuli."
+                        ],
+                        "note": "Pale tunapositisha kwa sababu isiyohusisha kosa lako, tutarejesha pesa za kipindi cha Urbandrop+ ambacho hakijatumiwa na salio lolote la Urbandrop ambalo halijaisha muda wake. Pale tunapositisha kwa sababu ya ukiukaji mkubwa kutoka kwako, hatulazimiki kurejesha pesa."
+                    },
+                    "effect": {
+                        "title": "20.3 Athari",
+                        "content": "Baada ya usitishaji, haki yako ya kutumia Jukwaa inaisha. Vifungu ambavyo kwa asili yake huendelea — ikiwa ni pamoja na 11 (Leseni ya Maudhui ya Mtumiaji), 15 (Wajibu), 16 (Data), 17 (IP), 18 (Malalamiko), na 21 (Jumla) — vinaendelea kutumika."
+                    }
+                },
+                "clause21": {
+                    "title": "KIFUNGU CHA 21",
+                    "subtitle": "Masharti ya Jumla ya Kisheria",
+                    "entireAgreement": {
+                        "title": "21.1 Makubaliano yote",
+                        "content": "Masharti haya, pamoja na Sera ya Faragha, masharti yoyote ya Usajili wa Urbandrop+ unayokubali, na masharti yoyote maalum ya ofa, yanaunda makubaliano yote kati yako na sisi. Yanachukua nafasi ya mipango yoyote ya awali."
+                    },
+                    "transferContract": {
+                        "title": "21.2 Ikiwa tutalazimika kuhamisha mkataba wetu na wewe",
+                        "content": "Tunaweza kuhamisha haki na wajibu wetu chini ya Masharti haya kwenda kwa shirika lingine, kwa mfano katika muktadha wa kupanga upya kikundi, mauzo, kuunganishwa kwa kampuni, au uwekezaji. Tutakuambia kwa maandishi ikiwa hili litatokea, na tutahakikisha uhamisho huo haupunguzi haki zako. Huwezi kuhamisha haki au wajibu wako bila idhini yetu ya maandishi."
+                    },
+                    "noWaiver": {
+                        "title": "21.3 Kutofuta haki",
+                        "content": "Ikiwa hatutasisitiza mara moja ufanye kitu chochote unachotakiwa kufanya chini ya Masharti haya, au tukichelewa kuchukua hatua dhidi yako kuhusiana na kuvunja mkataba huu, hiyo haitamaanisha kuwa hutalazimika kufanya mambo hayo au kutuzuia kuchukua hatua dhidi yako baadaye."
+                    },
+                    "severability": {
+                        "title": "21.4 Kutenganishwa kwa masharti",
+                        "content": "Kila kifungu cha Masharti haya hufanya kazi peke yake. Ikiwa mahakama yoyote au mamlaka husika itaamua kuwa yoyote kati yao ni kinyume cha sheria, vifungu vilivyobaki vitaendelea kuwa na nguvu na athari kamili."
+                    },
+                    "thirdParties": {
+                        "title": "21.5 Wahusika wengine",
+                        "content": "Masharti haya ni kati yako na sisi. Hakuna mtu mwingine yeyote mwenye haki ya kutekeleza yoyote kati yao chini ya Sheria ya Mikataba (Haki za Wahusika Wengine) ya 1999."
+                    },
+                    "notices": {
+                        "title": "21.6 Taarifa",
+                        "content": "Tunaweza kukutumia taarifa kupitia programu, kwa barua pepe kwenye anuani iliyo kwenye Akaunti yako, au kwa SMS kwenye namba yako ya simu iliyothibitishwa. Unaweza kututumia taarifa kwa barua pepe kwenda legal@urbandrop.io au kwa posta kwenye ofisi yetu iliyosajiliwa."
+                    },
+                    "forceMajeure": {
+                        "title": "21.7 Dharura zisizozuilika (Force majeure)",
+                        "content": "Hakuna upande unaowajibika kwa kushindwa au kuchelewa kutekeleza Masharti haya kutokana na matukio yaliyo nje ya uwezo wa busara — ikiwa ni pamoja na majanga ya asili, vita, ugaidi, mlipuko wa magonjwa, migomo, kuvurugika kwa usafiri, hatua za serikali, au kukatika kwa miundombinu — mradi tu upande ulioathirika uchukue hatua zinazostahili kupunguza athari. Haki zako za kisheria chini ya Sheria ya Haki za Mlaji ya 2015 na Kanuni za Mikataba ya Mlaji za 2013 hazitaathirika."
+                    },
+                    "governingLaw": {
+                        "title": "21.8 Sheria inayoongoza na mamlaka",
+                        "content": "Masharti haya yanaongozwa na sheria za Uingereza na Wales. Mgogoro au dai lolote linalotokana na au kuhusiana na Masharti haya litategemea mamlaka isiyo ya kipekee ya mahakama za Uingereza na Wales, isipokuwa kwamba ikiwa unaishi Scotland au Ireland ya Kaskazini unaweza pia kufungua mashauri katika mahakama za eneo lako."
+                    }
+                },
+                "clause22": {
+                    "title": "KIFUNGU CHA 22",
+                    "subtitle": "Mawasiliano",
+                    "companyName": "Urbandrop Group Limited",
+                    "companyNumber": "Namba ya kampuni: [00000000]",
+                    "icoRegistration": "Usajili wa ICO: [ZA000000]",
+                    "customerSupport": "Msaada kwa wateja",
+                    "customerSupportEmail": "support@urbandrop.io  ·  kupitia programu \"Msaada kwa Agizo hili\"",
+                    "complaints": "Malalamiko",
+                    "complaintsEmail": "complaints@urbandrop.io",
+                    "dataProtection": "Ulinzi wa data",
+                    "dpoEmail": "dpo@urbandrop.io",
+                    "legalNotices": "Taarifa za kisheria",
+                    "legalEmail": "legal@urbandrop.io",
+                    "website": "Tovuti",
+                    "websiteUrl": "www.urbandrop.io"
+                }
+                },
+                "merchantTerms": {
+                "title": "Vigezo na Masharti ya Muuzaji",
+                "intro": "Vigezo na Masharti haya ya Muuzaji yanaongoza uhusiano kati ya UrbanDrop Group Limited na huluki ya muuzaji au mtu binafsi anayejisajili kuuza bidhaa kupitia jukwaa la UrbanDrop.",
+                "roleOfUrbanDrop": {
+                    "title": "1. Jukumu la UrbanDrop",
+                    "content": "UrbanDrop inaendesha soko la mtandaoni ambalo linawawezesha Wauzaji kutoa bidhaa kwa wateja na kurahisisha uwekaji wa maagizo, usindikaji wa malipo, na msaada kwa wateja. UrbanDrop haitengenezi, haitayarishi, haihifadhi, wala haitoi chakula au bidhaa za mboga.",
+                    "p2": "Mikataba yote ya uuzaji wa bidhaa inafanyika moja kwa moja kati ya Muuzaji na mteja. Muuzaji ndiye muuzaji rasmi wa rekodi kwa maagizo yote yanayotekelezwa kupitia Jukwaa."
+                },
+                "eligibility": {
+                    "title": "2. Sifa za Muuzaji na Usajili",
+                    "content": "Kwa kujisajili kama Muuzaji, unathibitisha kuwa:",
+                    "items": [
+                        "Umeanzishwa kisheria na umeidhinishwa kufanya biashara nchini Uingereza",
+                        "Unashikilia leseni, vibali, na idhini zote zinazohitajika kuuza chakula au bidhaa za mboga",
+                        "Unazingatia sheria zote zinazohusika za usalama wa chakula, usafi, viwango vya biashara, na ulinzi wa walaji",
+                        "Taarifa zote zilizotolewa wakati wa usajili ni sahihi na zinasasishwa kila wakati"
+                    ],
+                    "note": "UrbanDrop ina haki ya kukataa, kusitisha, au kufunga akaunti za Wauzaji zinazoshindwa kutimiza mahitaji haya.",
+                    "acceptance": "Unakubali kwamba kukubali kwako Masharti haya kielektroniki kunaunda makubaliano yanayofunga kisheria kati yako na UrbanDrop. UrbanDrop huweka rekodi za kielektroniki za ukubali wa Muuzaji ikiwa ni pamoja na tarehe, muda, anuani ya IP, na toleo la Masharti wakati wa kukubali."
+                },
+                "obligations": {
+                    "title": "3. Wajibu wa Muuzaji",
+                    "content": "Muuzaji anawajibika pekee kwa:",
+                    "items": [
+                        "Ubora, usalama, uhalali, na usahihi wa bidhaa zote zilizoorodheshwa",
+                        "Utayarishaji, ufungashaji, na uwekaji lebo sahihi wa bidhaa",
+                        "Uzingatiaji wa sheria za usalama wa chakula za Uingereza, ikiwa ni pamoja na ufichuzi wa vizalisha mzio na viungo",
+                        "Kuhakikisha bei, maelezo, picha, na upatikanaji ni sahihi wakati wote",
+                        "Kutayarisha maagizo haraka na kwa mujibu wa maelekezo ya mteja",
+                        "Kuhakikisha bidhaa zinafaa kwa uwasilishaji na matumizi"
+                    ],
+                    "note": "Muuzaji hapaswi kubadilisha bidhaa bila idhini ya mteja isipokuwa kama imeruhusiwa wazi na utendaji wa Jukwaa."
+                },
+                "orders": {
+                    "title": "4. Maagizo na Utekelezaji",
+                    "content": "Muuzaji anakubali:",
+                    "items": [
+                        "Kupokea na kutekeleza maagizo kwa nia njema",
+                        "Kuepuka ughairi usio wa lazima",
+                        "Kuarifu UrbanDrop mara moja kuhusu upungufu wa akiba, ucheleweshaji, au matatizo ya utekelezaji"
+                    ],
+                    "note": "UrbanDrop inaweza kufuatilia viwango vya kupokea maagizo, viwango vya ughairi, na utendaji wa utekelezaji. Kushindwa mara kwa mara kunaweza kusababisha adhabu, kupunguzwa kwa uonekanaji, kusitishwa, au kufungwa kwa akaunti."
+                },
+                "pricing": {
+                    "title": "5. Bei na Promosheni",
+                    "content": "Wauzaji huweka bei zao wenyewe lakini wanakiri kwamba:",
+                    "items": [
+                        "Bei lazima ziwe za haki, wazi, na zinazozingatia sheria ya ulinzi wa mlaji",
+                        "UrbanDrop inaweza kuonyesha bei zikijumuisha ada za huduma na uwasilishaji",
+                        "UrbanDrop inaweza kutoa promosheni, punguzo, au salio kwa gharama zake yenyewe isipokuwa kama imekubaliwa vinginevyo",
+                        "Wauzaji hawawezi kupandisha bei kwa njia inayopotosha wateja ili kukiuka sheria inayohusika"
+                    ]
+                },
+                "payments": {
+                    "title": "6. Malipo na Usuluhishi",
+                    "content1": "UrbanDrop hukusanya malipo kutoka kwa wateja kwa niaba ya Wauzaji na hufanya kazi kama wakala wa kibiashara kwa madhumuni ya usindikaji wa malipo.",
+                    "content2": "Wauzaji wana haki ya kupokea thamani halisi ya maagizo yaliyokamilika, iliyohesabiwa kama:",
+                    "items": [
+                        "Jumla ya thamani ya agizo kutoa ada za Tume, ada za Uwasilishaji, na ada za Huduma",
+                        "Urejeshaji wa pesa, mizozo ya malipo (chargebacks), au marekebisho",
+                        "Gharama nyingine zozote zilizokubaliwa"
+                    ],
+                    "settlement": "Usuluhishi wa malipo hufanyika kulingana na mzunguko wa malipo uliokubaliwa. UrbanDrop inaweza kuzuia au kukata kiasi fulani pale ambapo kuna urejeshaji wa pesa, mizozo, au ukiukaji unaoshukiwa.",
+                    "stripeTitle": "Usindikaji wa Malipo kupitia Stripe:",
+                    "stripeContent": "UrbanDrop inatumia Stripe kutoa huduma za usindikaji wa malipo. Kwa kukubali Masharti haya, unakubali kufungwa na Makubaliano ya Huduma za Stripe. Unaipa UrbanDrop idhini ya kushiriki taarifa sahihi za biashara na Stripe kwa ajili ya usajili, uzingatiaji, kuzuia ulaghai, na usindikaji wa malipo."
+                },
+                "refunds": {
+                    "title": "7. Urejeshaji wa Pesa, Malalamiko, na Mizozo ya Malipo",
+                    "content": "UrbanDrop inaweza kurejesha pesa kwa wateja kwa mujibu wa sera yake ya urejeshaji. Pale ambapo urejeshaji au mzozo wa malipo (chargeback) unatokea kutokana na:",
+                    "items": [
+                        "Bidhaa zisizo sahihi",
+                        "Bidhaa zilizopungua",
+                        "Ubora duni wa chakula",
+                        "Masuala ya usalama au usafi",
+                        "Ughairi wa Muuzaji au kushindwa kuwasilisha"
+                    ],
+                    "note": "Muuzaji anabeba wajibu kamili wa kifedha. UrbanDrop inaweza kukata kiasi kilichorejeshwa kutoka kwa malipo ya baadaye au kumtumia Muuzaji ankara moja kwa moja."
+                },
+                "foodSafety": {
+                    "title": "8. Usalama wa Chakula na Uzingatiaji",
+                    "content1": "Wauzaji lazima wazingatie kanuni zote za usalama wa chakula na usafi za Uingereza, mahitaji ya uwekaji lebo ya vizalisha mzio, na wajibu wa ufuatiliaji wa bidhaa.",
+                    "content2": "Wauzaji lazima waaarifu UrbanDrop mara moja kuhusu:",
+                    "items": [
+                        "Tukio lolote la usalama wa chakula",
+                        "Uchunguzi wowote wa kisheria au hatua ya kisheria",
+                        "Hatari yoyote ya kuitwa kwa bidhaa au kuchafuliwa kwa bidhaa"
+                    ],
+                    "note": "Kushindwa kufanya hivyo ni sababu ya kusitishwa kwa akaunti mara moja."
+                },
+                "products": {
+                    "title": "9. Bidhaa Zinazoruhusiwa na Zilizopigwa Marufuku",
+                    "permittedTitle": "9.1 Bidhaa Zinazoruhusiwa",
+                    "permittedContent": "Wauzaji wanaweza tu kuorodhesha na kuuza chakula na bidhaa za mboga ambazo ni halali kuuzwa nchini Uingereza na zilizoruhusiwa wazi na UrbanDrop kupitia Jukwaa.",
+                    "prohibitedTitle": "9.2 Bidhaa Zilizopigwa Marufuku",
+                    "prohibitedContent": "Bidhaa zifuatazo zimepigwa marufuku kabisa:",
+                    "items": [
+                        "Vinywaji vyenye vileo vya aina yoyote",
+                        "Bidhaa za tumbaku, ikijumuisha sigara, xigara kubwa (cigars), tumbaku ya kusokota, na bidhaa za mvuke (vaping)",
+                        "Dawa za kulevya, vitu vinavyodhibitiwa kisheria, na dawa zinazoathiri mfumo wa neva",
+                        "Dawa zinazohitaji cheti cha daktari au bidhaa za matibabu zinazohitaji idhini",
+                        "Bidhaa nyingine zozote zilizopigwa marufuku na sheria inayohusika au sera za UrbanDrop"
+                    ],
+                    "warning": "Jaribio lolote la kuorodhesha au kuuza pombe, tumbaku, au vitu vilivyopigwa marufuku ni ukiukaji mkubwa wa Masharti haya."
+                },
+                "delivery": {
+                    "title": "10. Uwasilishaji",
+                    "content": "Pale ambapo uwasilishaji unarahisishwa kupitia Jukwaa, Muuzaji anaendelea kuwajibika kwa:",
+                    "items": [
+                        "Ufungashaji unaofaa",
+                        "Udhibiti wa joto",
+                        "Uadilifu wa chakula wakati wa makabidhiano"
+                    ],
+                    "note": "UrbanDrop haiwajibiki kwa ubora wa bidhaa baada ya kutayarishwa lakini kabla ya uwasilishaji, isipokuwa pale inapohitajika kisheria."
+                },
+                "insurance": {
+                    "title": "11. Bima na Fidia",
+                    "content1": "Wauzaji lazima wawe na bima ya kutosha, ikiwa ni pamoja na bima ya dhima kwa umma na dhima ya bidhaa.",
+                    "content2": "Muuzaji anakubali kuifidia na kuilinda UrbanDrop dhidi ya madai yote, hasara, uharibifu, faini, adhabu, na gharama za kisheria zinazotokana na:",
+                    "items": [
+                        "Ukiukaji wa usalama wa chakula",
+                        "Madai ya mlaji yanayohusiana na bidhaa",
+                        "Kutozingatia sheria",
+                        "Uzembe au utendaji mbaya wa Muuzaji"
+                    ],
+                    "note": "Wajibu huu unaendelea hata baada ya kusitishwa kwa mkataba."
+                },
+                "conduct": {
+                    "title": "12. Matumizi ya Jukwaa na Maadili",
+                    "content": "Wauzaji hawapaswi:",
+                    "items": [
+                        "Kuchezea alama (ratings) au tathmini",
+                        "Kujihusisha na shughuli za kilaghai",
+                        "Kukwepa Jukwaa ili kuepuka ada",
+                        "Kutumia data ya mteja kwa madhumuni yasiyoidhinishwa"
+                    ],
+                    "note": "UrbanDrop inaweza kusitisha au kufunga ufikiaji kwa ukiukaji wowote."
+                },
+                "suspension": {
+                    "title": "13. Kusitishwa na Kufungwa",
+                    "content": "UrbanDrop inaweza kusitisha au kufunga akaunti ya Muuzaji mara moja pale ambapo:",
+                    "items": [
+                        "Kuna ukiukaji mkubwa wa Masharti haya",
+                        "Usalama wa chakula umeingiliwa",
+                        "Ulaghai au unyanyasaji unashukiwa",
+                        "Hatua za kisheria zinachukuliwa dhidi ya Muuzaji"
+                    ],
+                    "note": "Wauzaji wanaweza kusitisha kwa kutoa taarifa, kulingana na wajibu uliosalia. Usitishaji hauathiri haki, dhima, au fidia zilizokwisha limbikizwa."
+                },
+                "liability": {
+                    "title": "14. Kikomo cha Wajibu",
+                    "content": "Kwa kiasi cha juu kinachoruhusiwa na sheria:",
+                    "items": [
+                        "UrbanDrop haiwajibiki kwa upotezaji wa faida, mapato, au biashara",
+                        "UrbanDrop haidhamini idadi ya maagizo au mapato"
+                    ],
+                    "note": "Hakuna chochote katika Masharti haya kinachopunguza wajibu pale ambapo kikomo hicho ni kinyume cha sheria."
+                },
+                "dataProtection": {
+                    "title": "15. Ulinzi wa Data",
+                    "content": "Wauzaji lazima washughulikie data ya mteja kwa mujibu wa UK GDPR na kwa ajili ya utekelezaji wa maagizo pekee. Matumizi ya data ya mteja kwa masoko au shughuli zisizohusika yamepigwa marufuku kabisa."
+                },
+                "amendments": {
+                    "title": "16. Marekebisho",
+                    "content": "UrbanDrop inaweza kusasisha Masharti haya mara kwa mara. Kuendelea kutumia Jukwaa kunamaanisha unakubali Masharti yaliyosasishwa."
+                },
+                "governingLaw": {
+                    "title": "17. Sheria Inayoongoza na Mamlaka",
+                    "content": "Sheria za Uingereza na Wales zinaongoza Masharti haya. Mahakama za Uingereza na Wales zina mamlaka ya kipekee."
+                }
+            },
+            "promotionsTerms": {
+                "title": "Promosheni na Punguzo",
+                "intro": "Sheria zinazohusu matumizi ya namba za promosheni, vocha, na matukio maalum ya punguzo.",
+                "application": {
+                    "title": "Utumiaji wa Namba za Siri",
+                    "content": "Namba za promosheni lazima ziingizwe wakati wa malipo. Haziwezi kutumika baada ya agizo kuwa tayari limeshawekwa."
+                },
+                "limitations": {
+                    "title": "Vikwazo",
+                    "content": "Namba moja tu ya promosheni inaweza kutumika kwa kila muamala isipokuwa kama imeelezwa vinginevyo. Promosheni hazina thamani ya fedha taslimu."
+                },
+                "fairUsage": {
+                    "title": "Matumizi ya Haki",
+                    "content": "Ufunguaji wa akaunti nyingi ili kutumia vibaya promosheni za watumiaji wapya umepigwa marufuku kabisa na utasababisha kufungiwa kwa akaunti."
+                },
+                "modification": {
+                    "title": "Mabadiliko",
+                    "content": "Urbandrop ina haki ya kurekebisha, kughairi, au kusitisha promosheni wakati wowote bila kutoa taarifa mapema."
+                }
+            },
+            "riderTerms": {
+                "title": "Vigezo na Masharti ya Mpanda Farasi (Rider)",
+                "intro": "Masharti ambayo chini yake unatoa huduma za uwasilishaji wa hatua ya mwisho zilizounganishwa na jukwaa la Urbandrop kote nchini Uingereza.",
+                "effective": "Kuanza kutumika",
+                "effectiveDate": "23 Aprili 2026",
+                "version": "Toleo",
+                "versionNumber": "1.0",
+                "jurisdiction": "Mamlaka ya Kisheria",
+                "jurisdictionValue": "Uingereza na Wales",
+                "governedBy": "Inasimamiwa Na",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                    "title": "Soma Hii Kabla ya Kukubali",
+                    "content": "Huu ni mkataba unaofunga kisheria. Kwa kufungua Akaunti ya Mpanda Farasi au kukubali uwasilishaji kupitia Urbandrop, unathibitisha kuwa umesoma, umeelewa, na unakubaliana na masharti haya. Una uhuru wa kutafuta ushauri huru wa kisheria, na tunakuhimiza kufanya hivyo. Ikiwa hukubaliani na sehemu yoyote ya masharti haya, <strong>usitumie jukwaa hili</strong>."
+                },
+                "contents": {
+                    "title": "YALIYOMO",
+                    "twentyOneClauses": "Vifungu ishirini na moja",
+                    "clause01": "01 Wahusika na Maana",
+                    "clause02": "02 Asili ya Uhusiano",
+                    "clause03": "03 Sifa na Usajili",
+                    "clause04": "04 Haki ya Kufanya Kazi na Ubadilishaji",
+                    "clause05": "05 Chombo cha Usafiri, Vifaa na Bima",
+                    "clause06": "06 Usalama wa Chakula na Ushughulikiaji",
+                    "clause07": "07 Utekelezaji wa Uwasilishaji",
+                    "clause08": "08 Ada, Trinketi (Tips) na Ankara",
+                    "clause09": "09 Kodi na Bima ya Taifa",
+                    "clause10": "10 Utendaji na Alama (Ratings)",
+                    "clause11": "11 Kusimamishwa na Kuzimwa kwa Akaunti",
+                    "clause12": "12 Ajali, Matukio na Wajibu wa Kisheria",
+                    "clause13": "13 Ulinzi wa Data na Faragha",
+                    "clause14": "14 Miliki ya Ubunifu",
+                    "clause15": "15 Usiri",
+                    "clause16": "16 Afya, Usalama na Ustawi",
+                    "clause17": "17 Malalamiko na Mizozo",
+                    "clause18": "18 Mabadiliko ya Masharti haya",
+                    "clause19": "19 Usitishaji",
+                    "clause20": "20 Masharti ya Jumla ya Kisheria",
+                    "clause21": "21 Mawasiliano"
+                },
+                "parties": {
+                    "title": "01 Wahusika na Maana",
+                    "content": "Haya Vigezo na Masharti ya Mpanda Farasi (\"Masharti\") yanaunda makubaliano yanayofunga kati ya <strong>Urbandrop Group Limited</strong>, kampuni binafsi ya ukomo iliyosajiliwa nchini Uingereza na Wales ikiwa na ofisi yake iliyosajiliwa [Bristol, United Kingdom], namba ya kampuni [16026087] (\"Urbandrop\", \"sisi\", \"yetu\"), na mtu binafsi au huluki inayofanya huduma za uwasilishaji wa hatua ya mwisho kuhusiana na jukwaa la Urbandrop (\"Mpanda Farasi\", \"wewe\", \"yako\").",
+                    "definedTerms": "Istilahi zilizofafanuliwa",
+                    "terms": {
+                        "platform": {
+                            "term": "Jukwaa",
+                            "definition": "Programu za simu za Urbandrop, programu ya mpanda farasi, lango la muuzaji, mifumo ya usimamizi na tovuti zozote zinazohusiana, APIs au huduma zinazoendeshwa na Urbandrop."
+                        },
+                        "riderAccount": {
+                            "term": "Akaunti ya Mpanda Farasi",
+                            "definition": "Akaunti yako binafsi kwenye Jukwaa inayokupa ufikiaji wa fursa za uwasilishaji."
+                        },
+                        "delivery": {
+                            "term": "Uwasilishaji",
+                            "definition": "Agizo moja la mboga au bidhaa zilizokusanywa kutoka kwa muuzaji na kuwasilishwa kwa mteja kupitia Jukwaa."
+                        },
+                        "fleetPartner": {
+                            "term": "Mshirika wa Msafara (Fleet Partner)",
+                            "definition": "Mtoa huduma wa vifaa wa upande wa tatu ambaye Urbandrop ameingia naye mkataba wa huduma za uwasilishaji (k.m., Stuart, Gophr, Relay au sawa na hizo)."
+                        },
+                        "directRider": {
+                            "term": "Mpanda Farasi wa Moja kwa Moja",
+                            "definition": "Mpanda Farasi anayeingia mkataba moja kwa moja na Urbandrop kama mkandarasi huru aliyeajiriwa binafsi."
+                        },
+                        "fleetRider": {
+                            "term": "Mpanda Farasi wa Msafara",
+                            "definition": "Mpanda Farasi aliyeajiriwa na Mshirika wa Msafara ambaye anatekeleza Uwasilishaji wa Urbandrop chini ya makubaliano ya Mshirika wa Msafara mwenyewe."
+                        },
+                        "customer": {
+                            "term": "Mteja",
+                            "definition": "Mtumiaji wa mwisho anayeweka agizo kupitia Jukwaa."
+                        },
+                        "merchant": {
+                            "term": "Muuzaji",
+                            "definition": "Muuzaji wa reja reja, duka kuu (supermarket), au muuzaji aliyeorodheshwa kwenye Jukwaa."
+                        },
+                        "personalData": {
+                            "term": "Data Binafsi",
+                            "definition": "Kama ilivyofafanuliwa katika Kanuni ya Jumla ya Ulinzi wa Data ya Uingereza (UK GDPR) na Sheria ya Ulinzi wa Data ya 2018."
+                        }
+                    }
+                },
+                "relationship": {
+                    "title": "02 Asili ya Uhusiano",
+                    "content": "Urbandrop inaendesha mfumo mseto wa uwasilishaji. Kulingana na jinsi unavyofikia Uwasilishaji, wewe ni ama <strong>Mpanda Farasi wa Moja kwa Moja</strong> (unayekataba na Urbandrop) au <strong>Mpanda Farasi wa Msafara</strong> (unayefanya kazi na Mshirika wa Msafara na kutekeleza Uwasilishaji wa Urbandrop chini ya makubaliano tofauti na mshirika huyo). Uthibitisho wako wa usajili utataja kundi gani linakuhusu.",
+                    "selfEmployed": {
+                        "title": "2.1 Hali ya kujiajiri",
+                        "content": "Pale ambapo wewe ni <strong>Mpanda Farasi wa Moja kwa Moja</strong>, unajihusisha kama mkandarasi huru aliyeajiriwa binafsi. Hakuna chochote katika Masharti haya kinachokusudiwa kuunda uhusiano wa ajira, uhusiano wa mfanyakazi ndani ya maana ya kifungu cha 230(3)(b) cha Sheria ya Haki za Ajira ya 1996, ushirika, ubia, au uhusiano wa uwakala kati yako na Urbandrop."
+                    },
+                    "independence": {
+                        "title": "2.2 Uhuru",
+                        "content": "Kama Mpanda Farasi wa Moja kwa Moja unakiri kwamba:",
+                        "items": [
+                            "unaendesha biashara yako huru ya uwasilishaji na kutoa huduma kwa wateja wengi kwa hiari yako;",
+                            "unaamua lini, wapi, na kama utaingia kwenye Jukwaa na kukubali Uwasilishaji — hakuna wajibu kwako kukubali Uwasilishaji wowote, na hakuna wajibu kwa Urbandrop kutoa yoyote;",
+                            "uko huru kufanya kazi wakati huo huo kwa majukwaa pinzani au upande mwingine wowote, ikijumuisha wakati ukiwa umeingia kwenye programu ya mpanda farasi ya Urbandrop, kulingana tu na usalama wa chakula na wajibu wa Uwasilishaji unaoendelea;",
+                            "unawajibika kwa kodi yako mwenyewe, michango ya Bima ya Taifa, na mipango yoyote ya pensheni;",
+                            "unatoa vifaa vyako mwenyewe (ikiwa ni pamoja na chombo cha usafiri, kifaa cha mkononi, begi la kuhifadhi joto na vifaa vya kinga binafsi - PPE) isipokuwa pale ambapo Urbandrop inatoa vifaa vyenye nembo yake waziwazi;",
+                            "unabeba hatari ya kiuchumi ya shughuli yako ya uwasilishaji, ikiwa ni pamoja na mafuta, matengenezo, bima na muda wa kutofanya kazi."
+                        ]
+                    },
+                    "fleetRiders": {
+                        "title": "2.3 Wapanda Farasi wa Msafara",
+                        "content": "Ikiwa wewe ni Mpanda Farasi wa Msafara, mhusika mkuu wa mkataba wako ni Mshirika wa Msafara. Masharti haya yanaweka viwango vya ziada na mahitaji ya kimaadili yanayotumika unaposughulikia Uwasilishaji wa Urbandrop. Katika hali ya mgongano kati ya Masharti haya na makubaliano yako na Mshirika wa Msafara kuhusu mambo mahususi ya Jukwaa (k.m., usalama wa chakula, matumizi ya programu ya mpanda farasi, data ya Mteja), Masharti haya yatapewa kipaumbele kwa ajili ya Uwasilishaji huo tu."
+                    },
+                    "plainEnglish": {
+                        "title": "Hali yako kwa Lugha Rahisi",
+                        "content": "Wewe ni bosi wako mwenyewe. Unaamua lini uingie kazini, unaweza kumtuma mbadala, na unaweza kufanya kazi kwa washindani wetu kwa wakati mmoja. Hatukuambii jinsi ya kufanya kazi yako — tunakuambia viwango gani tunatarajia kwa agizo la Mteja. Huo ndio mpango."
+                    }
+                },
+                "eligibilityOnboarding": {
+                    "title": "03 Sifa na Usajili",
+                    "minimumEligibility": {
+                        "title": "3.1 Sifa za chini kabisa",
+                        "content": "Ili uidhinishwe kama Mpanda Farasi, lazima:",
+                        "items": [
+                            "uwe na umri wa <strong>miaka 18 au zaidi</strong>;",
+                            "uwe na haki ya kisheria ya kufanya kazi nchini Uingereza (angalia Kifungu cha 4);",
+                            "uwe na akaunti halali ya benki ya Uingereza kwa jina lako mwenyewe au kwa jina la biashara yako iliyosajiliwa;",
+                            "uwe na namba halali ya Bima ya Taifa (kwa Wapanda Farasi wa Moja kwa Moja);",
+                            "uwe na uwezo wa kimwili wa kubeba na kushughulikia mizigo ya mboga ya hadi kilo 15 kwa usalama;",
+                            "umiliki au uwe na matumizi halali ya kipekee ya chombo cha usafiri kinachozingatia Kifungu cha 5;",
+                            "umiliki simu janja yenye uwezo wa kuendesha matoleo makuu mawili ya mwisho ya iOS au Android, ikiwa na data ya mkononi na huduma za eneo (location) zinazopatikana."
+                        ]
+                    },
+                    "documents": {
+                        "title": "3.2 Nyaraka zinazohitajika",
+                        "content": "Kama sehemu ya usajili lazima utoe nakala zilizo wazi na ambazo hazijaisha muda wake za:",
+                        "items": [
+                            "thibitisho la utambulisho (pasipoti ya Uingereza au Ireland, kibali cha ukaazi cha kibaolojia - BRP, au namba ya siri iliyotolewa na Wizara ya Mambo ya Ndani);",
+                            "thibitisho la haki ya kufanya kazi nchini Uingereza;",
+                            "thibitisho la anuani la ndani ya miezi mitatu (3) iliyopita;",
+                            "kwa vyombo vya usafiri vya injini: leseni kamili ya udereva ya Uingereza, hati ya usajili wa V5, MOT halali (pale inapohusika), na bima kamili ya gari ikiwa ni pamoja na <strong>bima ya biashara (\"uwasilishaji\")</strong>;",
+                            "kwa baiskeli za umeme: uthibitisho kwamba chombo hicho kinazingatia Kanuni za Baiskeli za Kanyagio Zinazosaidiwa na Umeme za 1983 (injini ya max 250W, msaada unakatika kwa kasi ya mph 15.5 / km/h 25);",
+                            "picha ya hivi karibuni ya mtindo wa pasipoti kwa ajili ya uhakiki wa akaunti;",
+                            "maelezo ya benki kwa ajili ya malipo (jina la akaunti, kodi ya tawi, namba ya akaunti);",
+                            "pale inapohusika, namba yako ya UTR (Kumbukumbu ya Kipekee ya Mlipakodi) au namba ya usajili wa VAT."
+                        ]
+                    },
+                    "dbs": {
+                        "title": "3.3 Ukaguzi wa DBS na historia ya nyuma",
+                        "content": "Urbandrop inahifadhi haki ya kuhitaji ukaguzi wa Msingi wa Kufunua (Basic Disclosure) kutoka kwa Huduma ya Kufunua na Kuzuia (DBS), na kukataa au kubatilisha usajili pale ambapo hatia au onyo linahusiana kikamilifu na utendaji salama wa huduma za uwasilishaji — kwa mfano hatia ambazo bado hazijafutwa kwa vurugu, makosa ya ngono, wizi, ulaghai, au makosa makubwa ya udereva. Maamuzi ya kukataa au kubatilisha yanaweza kukatiwa rufaa kwa maandishi ndani ya siku 14 tangu arifa."
+                    },
+                    "identityVerification": {
+                        "title": "3.4 Uhakiki wa utambulisho",
+                        "content": "Tunatumia teknolojia ya uhakiki wa utambulisho (ikiwa ni pamoja na utambuzi wa uso na ulinganishaji wa picha ya papo hapo) wakati wa usajili na mara kwa mara wakati wa ushirikiano wako. Unakubali usindikaji huu kama sharti la kufikia Jukwaa. Maelezo ya jinsi data hii inavyoshughulikiwa yamewekwa katika Sera yetu ya Faragha na katika Kifungu cha 13 hapa chini."
+                    },
+                    "falseInfo": {
+                        "title": "3.5 Taarifa za uongo au za kupotosha",
+                        "content": "Kutoa taarifa za uongo, za kughushi au za kupotosha (ikiwa ni pamoja na kutumia utambulisho wa mtu mwingine, hati, au sura ya mtu mwingine) ni sababu ya kuzimwa kwa akaunti mara moja na kwa kudumu, kupoteza ada zilizopatikana kwa udanganyifu, na — pale inapofaa — kuripotiwa kwa HMRC, Wizara ya Mambo ya Ndani na/au polisi."
+                    }
+                },
+                "rightToWork": {
+                    "title": "04 Haki ya Kufanya Kazi na Ubadilishaji",
+                    "rightToWork": {
+                        "title": "4.1 Haki ya Kufanya Kazi nchini Uingereza",
+                        "content1": "Tangu tarehe 1 Machi 2025, ukaguzi wa Haki ya Kufanya Kazi unatumika kwa wafanyakazi wote katika uchumi wa gig, bila kujali hali ya ajira. Unahakikisha kuwa unayo, na utadumisha wakati wote wa ushirikiano wako, haki ya kisheria ya kufanya kazi nchini Uingereza. Lazima uijulishe Urbandrop mara moja ikiwa hali yako ya uhamiaji itabadilika, ikiwa visa au BRP yako itaisha muda, au ikiwa Wizara ya Mambo ya Ndani itaweka sharti lolote linaloathiri haki yako ya kufanya kazi.",
+                        "content2": "Urbandrop ina haki ya kurudia ukaguzi wa Haki ya Kufanya Kazi kwa muda wowote unaofaa na kusimamisha akaunti yako kusubiri uhakiki. Kuajiri mfanyakazi asiye na kibali kunaweka Urbandrop kwenye adhabu za kiraia za hadi £60,000 kwa kila mfanyakazi na vikwazo vya jinai; kwa hiyo tunatumia ukaguzi huu kwa ukali na bila ubaguzi."
+                    },
+                    "substitution": {
+                        "title": "4.2 Haki ya ubadilishaji",
+                        "content": "Kama Mpanda Farasi wa Moja kwa Moja aliyeajiriwa binafsi, unayo haki ya kumteua mtu mwingine (<strong>\"Mbadala\"</strong>) kutekeleza Uwasilishaji badala yako. Haki hii ni ya kweli na haina kizuizi, kulingana tu na masharti yafuatayo yanayofaa ambayo yapo ili kulinda Wateja na kutimiza wajibu wetu wa kisheria:",
+                        "items": [
+                            "Mbadala lazima awe na umri wa miaka 18 au zaidi;",
+                            "Mbadala lazima awe na haki ya kisheria ya kufanya kazi nchini Uingereza, na lazima uhakiki hili kabla ya kumruhusu kutekeleza Uwasilishaji;",
+                            "Mbadala lazima azingatie mahitaji ya usalama wa chakula na chombo cha usafiri yaliyowekwa katika Masharti haya;",
+                            "unaendelea kuwajibika kwa Uwasilishaji, kwa malipo kwa Mbadala wako, na kwa maadili ya Mbadala;",
+                            "unapigwa marufuku kukodisha, kuuza au kuhamisha Akaunti yako ya Mpanda Farasi kibiashara, au kupokea malipo badala ya kumpa mtu mwingine ufikiaji wa Jukwaa. Ubadilishaji si leseni ya kuendesha biashara ya kukodisha akaunti za wapanda farasi."
+                        ]
+                    },
+                    "accountRental": {
+                        "title": "Kukodisha Akaunti Kumepigwa Marufuku",
+                        "content": "Kufuatia ripoti za unyonyaji katika uchumi wa gig wa Uingereza — ikiwa ni pamoja na kesi ya mwaka 2024 huko Bristol iliyohusisha ukodishaji wa akaunti za uwasilishaji kwa wapanda farasi ambao hawakukaguliwa — Urbandrop inaendesha sera ya kutovumilia kabisa ushiriki wa akaunti kwa ajili ya faida. Ubadilishaji wa kweli kwa mara moja au mara chache unaruhusiwa. Ukodishaji wa kimfumo wa akaunti yako kwa wengine ni <strong>ukiukaji mkubwa wa Masharti haya</strong> na utasababisha kuzimwa kwa akaunti kudumu, kupoteza mapato, na (pale inapofaa) kuripotiwa kwa Wizara ya Mambo ya Ndani, HMRC na polisi."
+                    }
+                },
+                "vehicle": {
+                    "title": "05 Chombo cha Usafiri, Vifaa na Bima",
+                    "standards": {
+                        "title": "5.1 Viwango vya chombo cha usafiri",
+                        "content": "Chombo chako cha usafiri lazima kiwe imara kwa barabara, kinazingatia sheria, na kinafaa kwa usafirishaji salama wa chakula. Hususan:",
+                        "items": [
+                            "<strong>Baiskeli na baiskeli za umeme</strong> lazima zizingatie Kanuni za Baiskeli za Kanyagio Zinazosaidiwa na Umeme za 1983. Baiskeli za umeme zinazotumia 'throttle' tu, baiskeli za umeme zilizoonzewa nguvu (de-restricted), na baiskeli yoyote ya umeme yenye uwezo wa kujiendesha yenyewe juu ya mph 15.5 (km/h 25) zinaainishwa kama vyombo vya moto na zinahitaji bima, kodi, usajili, kofia ngumu na uzingatiaji wa leseni kwa msingi sawa na pikipiki.",
+                            "<strong>Pikipiki na skuta</strong> zinahitaji CBT halali au leseni kamili, kodi ya barabara, MOT (pale inapohusika), na bima ya gari ikiwa ni pamoja na bima ya biashara.",
+                            "<strong>Magari na vani</strong> zinahitaji leseni halali ya udereva ya Uingereza, kodi ya barabara, MOT, na bima ya gari ikiwa ni pamoja na bima ya biashara."
+                        ]
+                    },
+                    "insurance": {
+                        "title": "5.2 Bima",
+                        "content1": "Wewe pekee ndiye unayewajibika kwa kudumisha bima inayofaa kwa chombo chako na shughuli yako ya uwasilishaji. <strong>Bima za kawaida za matumizi ya kijamii, nyumbani na starehe hazifuniki kazi ya uwasilishaji inayolipwa.</strong> Lazima uwe na bima ya biashara (wakati mwingine huitwa bima ya \"courier\" au \"uwasilishaji\") kwa vyombo vya moto.",
+                        "content2": "Kwa waendesha baiskeli na baiskeli za umeme, tunapendekeza sana bima ya dhima ya upande wa tatu (inayopatikana kwa urahisi kutoka British Cycling, Cycling UK, au bima maalum ya uwasilishaji) ili kukulinda wewe na Mteja yeyote dhidi ya majeraha au uharibifu wa mali.",
+                        "content3": "Urbandrop haikupi bima ya gari, baiskeli au bima ya ulinzi wa mapato. Lazima utoe uthibitisho wa bima halali wakati wa usajili na wakati wowote kwa ombi la kuridhisha."
+                    },
+                    "equipment": {
+                        "title": "5.3 Vifaa",
+                        "content": "Lazima utumie:",
+                        "items": [
+                            "begi safi, la kiwango cha chakula linalohifadhi joto la ukubwa wa kutosha kuweka bidhaa zilizopozwa na zile za kawaida tofauti pale inapohitajika;",
+                            "PPE inayofaa kwa njia yako ya usafiri — ikiwa ni pamoja na, kwa waendesha vyombo vya moto na baiskeli, kofia ngumu iliyofungwa vizuri inayozingatia Kiwango cha Uingereza BS EN 1078 (baiskeli) au ECE 22.06 (pikipiki);",
+                            "nguo zinazoonekana vizuri (high-visibility) wakati wa giza au uonekanaji uliopungua (wajibu wa utunzaji wa Sheria ya Trafiki Barabarani ya 1988);",
+                            "taa zinazozingatia Kanuni za Taa za Vyombo vya Barabarani za 1989 wakati wa usiku."
+                        ]
+                    },
+                    "brandedEquipment": {
+                        "title": "5.4 Vifaa vyenye nembo ya Urbandrop",
+                        "content": "Pale ambapo Urbandrop inakupa vifaa vyenye nembo (k.m., mabegi ya kuhifadhi joto, koti), vinabaki kuwa mali yetu, unakopeshwa kwa ajili ya matumizi wakati wa ushirikiano wako, na lazima virudishwe wakati wa usitishaji katika hali ya kuridhisha (isipokuwa uchakavu wa kawaida). Gharama inayofaa ya uingizaji inaweza kutumika pale ambapo vifaa vimepotea, vimeharibiwa au havijarudishwa, na itawekwa wazi wakati wa kukabidhiwa."
+                    }
+                },
+                "foodSafety": {
+                    "title": "06 Usalama wa Chakula na Ushughulikiaji",
+                    "content": "Urbandrop inasafirisha chakula. Sheria ya Usalama wa Chakula ya 1990, Kanuni za Usafi wa Chakula (Uingereza) za 2013 (na kanuni sawa na hizo nchini Wales, Scotland na Ireland ya Kaskazini), na Kanuni za Taarifa za Chakula za 2014 zinatumika kwa kila Uwasilishaji. Lazima:",
+                    "items": [
+                        "udumishe usafi binafsi unaofaa kwa ushughulikiaji wa chakula — mikono safi, nguo safi, kutosuta sigara, kutoingiza mvuke (vaping) au kula wakati wa kukusanya au ukiwa njiani;",
+                        "usitekeleze Uwasilishaji ukiwa unaugua hali yoyote inayoweza kuchafua chakula (kwa mfano Norovirus, homa ya matumbo, vidonda vya wazi mkononi);",
+                        "uweke begi la kuhifadhi joto likiwa safi na lisilo na uchafuzi, na usilitumie kwa kitu kingine chochote isipokuwa Uwasilishaji wa chakula au bidhaa za mboga;",
+                        "udumishe <strong>mnyororo wa baridi</strong> — bidhaa zilizopozwa na zilizogandishwa lazima ziwekwe kwenye hifadhi ya joto tofauti na ziwasilishwe haraka; chini ya mwongozo wa Shirika la Viwango vya Chakula, bidhaa zilizopozwa zinapaswa kubaki chini ya 8°C wakati wa usafirishaji;",
+                        "usifungue, usikague, usipange upya, wala usitoe bidhaa kwenye agizo lililofungwa; lakiri za usalama (tamper-evident seals) lazima zibaki salama kuanzia kwa Muuzaji hadi kwa Mteja;",
+                        "usile, usionje, wala usiingilie bidhaa yoyote katika agizo, ikiwa ni pamoja na bidhaa \"zilizokosekana\" au \"zilizofutwa\";",
+                        "ushughulikie vimelea vya mzio (allergens) kwa uangalifu — usisafirishe maagizo pamoja na vitu vyovyote binafsi, wanyama wa kufugwa, vitu vyenye harufu kali, au chochote kinachoweza kusababisha uchafuzi mtambuka;",
+                        "uripoti mara moja tukio lolote linaloweza kuathiri usalama wa chakula (kumwagika, kugongana, kuchafuliwa kwa begi) kupitia programu ya mpanda farasi."
+                    ],
+                    "allergenDuty": {
+                        "title": "Wajibu wa Vimelea vya Mzio",
+                        "content": "Kanuni za Taarifa za Chakula za 2014 zinahitaji taarifa sahihi kuhusu vimelea vikuu kumi na nne vya mzio zimfikie Mteja. Uingiliaji wowote wa ufungaji, ubadilishaji wa bidhaa, au upotevu wa lebo za mzio wakati wa usafirishaji unaweza kusababisha madhara makubwa na ni ukiukaji wa dhima kamili wa Masharti haya."
+                    }
+                },
+                "performingDeliveries": {
+                    "title": "07 Utekelezaji wa Uwasilishaji",
+                    "acceptance": {
+                        "title": "7.1 Kukubali",
+                        "content": "Wakati Uwasilishaji unapotolewa kupitia programu ya mpanda farasi, unaweza kuukubali au kuukataa kwa hiari yako. Kukataa Uwasilishaji pekee hakuathiri hadhi yako, ingawa kutokujibu mara kwa mara baada ya kukubali Uwasilishaji (angalia 7.4) kunaweza kuathiri."
+                    },
+                    "collection": {
+                        "title": "7.2 Ukusanyaji",
+                        "content": "Unapofika kwa Muuzaji lazima ujitambulishe waziwazi, uthibitishe agizo sahihi, na ukague ikiwa ufungaji unaonekana kuwa salama na unaofaa kwa safari. Lazima uripoti suala lolote la wazi (bidhaa zinazokosekana ambazo Muuzaji amezitaja, ufungaji ulioharibika, kumwagika, lakiri iliyofunguliwa) kupitia programu ya mpanda farasi kabla ya kuondoka."
+                    },
+                    "transit": {
+                        "title": "7.3 Usafiri",
+                        "content": "Lazima uchukue njia salama na inayofaa kuelekea kwa Mteja na uendeshe gari au baiskeli kwa mujibu wa Kanuni za Barabarani na sheria zote zinazotumika. Hupaswi kutumia programu ya mpanda farasi kwa njia inayovunja Kanuni ya 110 ya Vyombo vya Barabarani (Ujenzi na Matumizi) ya 1986 (matumizi ya simu ya mkononi wakati wa kuendesha)."
+                    },
+                    "handover": {
+                        "title": "7.4 Kukabidhi",
+                        "content": "Isipokuwa kama Mteja ametoa maelekezo ya awali ya \"acha-mlangoni\":",
+                        "items": [
+                            "kabidhi Uwasilishaji moja kwa moja kwa Mteja au mtu mzima katika anuani ya uwasilishaji;",
+                            "thibitisha umri kwa bidhaa yoyote iliyowekewa kikomo cha umri kupitia mfumo wa ukaguzi wa ID wa programu — hupaswi kukabidhi pombe, tumbaku, vapes au visu kwa mtu yeyote anayeonekana kuwa chini ya miaka 25 bila kitambulisho halali cha picha (sera ya Challenge 25);",
+                            "pata uthibitisho wa picha pale unapoelekezwa;",
+                            "ikiwa hakuna mtu anayepatikana na hakuna maelekezo ya awali ya kuacha-mlangoni, wasiliana na Mteja kupitia sehemu ya mawasiliano kwenye programu na ufuate taratibu za dharura; usiache bidhaa zinazoweza kuharibika katika maeneo yasiyo salama."
+                        ]
+                    },
+                    "prohibited": {
+                        "title": "7.5 Maadili yaliyopigwa marufuku",
+                        "items": [
+                            "kuwasiliana na Mteja nje ya mfumo wa ujumbe wa Jukwaa isipokuwa katika dharura ya kweli ya uwasilishaji;",
+                            "kutoa usumbufu, kutoa maoni kuhusu mwonekano, au aina yoyote ya unyanyasaji;",
+                            "kwenda kwenye anuani ya uwasilishaji wakati mwingine kwa madhumuni yasiyohusiana na uwasilishaji;",
+                            "kupiga picha au kurekodi Mteja, nyumba yao au mali zao zaidi ya picha ya uthibitisho inayohitajika na programu;",
+                            "kuomba, kukubali au kutoa rushwa, malipo ya siri au malipo ya nje ya jukwaa kutoka kwa Wateja au Wauzaji;",
+                            "kuashiria Uwasilishaji kuwa umekamilika wakati haujawasilishwa."
+                        ]
+                    }
+                },
+                "fees": {
+                    "title": "08 Ada, Trinketi (Tips) na Ankara",
+                    "deliveryFees": {
+                        "title": "8.1 Ada za uwasilishaji (Wapanda Farasi wa Moja kwa Moja)",
+                        "content": "Kila Uwasilishaji unaotolewa kwako kupitia programu ya mpanda farasi utaonyesha <strong>ada kuu</strong> iliyohesabiwa kwa msingi ulio wazi uliowekwa katika Ratiba ya Ada ya Mpanda Farasi. Vipengele vinaweza kujumuisha ada ya msingi ya kuchukua bidhaa, kipengele cha umbali, kipengele cha muda wa safari, na marekebisho kulingana na mahitaji makubwa au hali mbaya ya hewa. Kwa kukubali Uwasilishaji unakubali ada iliyoonyeshwa kwa ajili ya Uwasilishaji huo."
+                    },
+                    "tips": {
+                        "title": "8.2 Trinketi (Tips)",
+                        "content": "Trinketi za Mteja zinazolipwa kupitia Jukwaa zinapitishwa kwako kwa ukamilifu. Urbandrop haichukui sehemu yoyote ya trinketi ya Mteja na, kwa mujibu wa Sheria ya Ajira (Ugawaji wa Trinketi) ya 2023 inapohusika, trinketi hazitumiwi kupunguza ada kuu. Trinketi za pesa taslimu unazopewa moja kwa moja na Mteja ni mali yako."
+                    },
+                    "settlement": {
+                        "title": "8.3 Makubaliano na malipo",
+                        "items": [
+                            "Ada hulipwa <strong>kila wiki</strong>, kupitia uhamishaji wa BACS kwenye akaunti yako ya benki ya Uingereza uliyoitoa, kwa kawaida siku ya Jumanne kufuatia mwisho wa wiki (Jumatatu 00:01 – Jumapili 23:59 UTC) ambayo Uwasilishaji ulikamilika.",
+                            "Utapokea <strong>ankara ya kujitengenezea (self-billed invoice)</strong> kupitia programu ya mpanda farasi ikiorodhesha kila Uwasilishaji, trinketi, marekebisho na makato yoyote. Huduma hii inatolewa kwa urahisi wako wa kiutawala; haiathiri hali yako ya kujiajiri.",
+                            "Ikiwa unapinga kipengele chochote kwenye ankara ya kujitengenezea, kiwasilishe kupitia kituo cha msaada ndani ya programu ndani ya siku 30. Baada ya siku 30 ankara inachukuliwa kuwa imekubaliwa."
+                        ]
+                    },
+                    "deductions": {
+                        "title": "8.4 Makato",
+                        "content": "Urbandrop inaweza kukata kutoka kwa kiasi unachodaiwa:",
+                        "items": [
+                            "kiasi kilicholipwa kimakosa au kutokana na udanganyifu au ujanja;",
+                            "gharama za vifaa vyenye nembo ya Urbandrop vilivyopotea, kuharibiwa au kutorejeshwa, kulingana na taarifa ya awali;",
+                            "urejeshaji wa pesa halali kwa Wateja au Wauzaji ambapo kushindwa au makosa yanatokana moja kwa moja na maadili yako (k.m., bidhaa zinazokosekana kutokana na kuingiliwa, maagizo yasiyowasilishwa yaliyoashiriwa kama yamewasilishwa)."
+                        ],
+                        "note": "Makato yataorodheshwa na utajulishwa. Unaweza kupinga makato yoyote chini ya Kifungu cha 17."
+                    },
+                    "vat": {
+                        "title": "8.5 VAT",
+                        "content": "Ikiwa umesajiliwa na VAT, lazima utoe namba yako ya usajili wa VAT ili ankara za kujitengenezea zizingatie Kanuni za VAT za 1995. Unawajibika kwa marejesho yako mwenyewe ya VAT."
+                    }
+                },
+                "tax": {
+                    "title": "09 Kodi na Bima ya Taifa",
+                    "content": "Kama Mpanda Farasi wa Moja kwa Moja aliyeajiriwa binafsi, unawajibika kujisajili kwa Tathmini Binafsi (Self Assessment) na HMRC na kwa kulipa:",
+                    "items": [
+                        "<strong>Kodi ya Mapato</strong> kwenye faida zako za uwasilishaji;",
+                        "<strong>Michango ya Bima ya Taifa Daraja la 2</strong> pale ambapo faida yako inazidi kiwango cha chini cha faida;",
+                        "<strong>NICs Daraja la 4</strong> pale ambapo faida yako inazidi kikomo cha chini cha faida;",
+                        "<strong>VAT</strong>, ikiwa mapato yako yanayotozwa kodi yanazidi kiwango cha usajili wa VAT katika kipindi cha miezi 12 kinachoendelea."
+                    ],
+                    "content2": "Urbandrop haiendeshi mfumo wa PAYE kwa Wapanda Farasi wa Moja kwa Moja na haikati kodi ya mapato au Bima ya Taifa kabla ya kukulipa. Chini ya Kanuni za Kuripoti za Majukwaa ya Mtandaoni (Mfumo wa OECD, uliotekelezwa nchini Uingereza tangu tarehe 1 Januari 2024), Urbandrop inatakiwa kuripoti mapato ya mpanda farasi na maelezo ya utambulisho kwa HMRC kila mwaka; unachukuliwa kuwa umekubali ripoti hii kama sharti la kutumia Jukwaa.",
+                        "content3": "Unawajibika kuweka kumbukumbu zinazofaa za mapato ya biashara yako na gharama zinazoruhusiwa na kuwasilisha ripoti ya kodi ya Tathmini Binafsi ifikapo tarehe 31 Januari kila mwaka."
+                },
+                "notTaxAdvice": {
+                    "title": "Sio Ushauri wa Kodi",
+                    "content": "Kifungu hiki ni muhtasari, sio ushauri wa kodi. Ikiwa huna uhakika kuhusu wajibu wako, wasiliana na HMRC moja kwa moja kupitia gov.uk/self-assessment-tax-returns au mhasibu huru."
+                },
+                "performance": {
+                    "title": "10 Utendaji na Alama (Ratings)",
+                    "ratings": {
+                        "title": "10.1 Alama za Mteja",
+                        "content": "Baada ya kila Uwasilishaji, Wateja wanaweza kutoa alama kwa uzoefu wao kwenye kipimo cha nyota tano. Alama hutusaidia sisi, Wauzaji na wewe kudumisha ubora wa huduma, lakini alama moja mbaya, yenyewe pekee, haiathiri hadhi ya akaunti yako."
+                    },
+                    "metrics": {
+                        "title": "10.2 Vipimo vya kiutendaji",
+                        "content": "Urbandrop inafuatilia idadi ndogo ya vipimo vya kimalengo:",
+                        "table": {
+                            "metric": "Kipimo",
+                            "description": "Maelezo",
+                            "threshold": "Kiwango cha Tahadhari",
+                            "completionRate": "Kiwango cha ukamilishaji",
+                            "completionDesc": "% ya Uwasilishaji uliokubaliwa na kukamilika kwa mafanikio",
+                            "completionThreshold": "Chini ya 90% katika kipindi cha siku 30 kinachoendelea",
+                            "onTimeRate": "Kiwango cha kufika kwa wakati",
+                            "onTimeDesc": "% ya Uwasilishaji unaofika ndani ya muda uliokadiriwa na programu",
+                            "onTimeThreshold": "Chini ya 85% katika kipindi cha siku 30 kinachoendelea",
+                            "customerSatisfaction": "Kuridhika kwa Mteja",
+                            "satisfactionDesc": "Wastani wa alama kutoka kwa Wateja",
+                            "satisfactionThreshold": "Chini ya 4.2 / 5 baada ya Uwasilishaji 50+",
+                            "escalationRate": "Kiwango cha malalamiko",
+                            "escalationDesc": "Malalamiko makubwa kwa kila Uwasilishaji 100",
+                            "escalationThreshold": "Zaidi ya 2 kwa kila Uwasilishaji 100"
+                        }
+                    },
+                    "howWeUse": {
+                        "title": "10.3 Jinsi tunavyotumia vipimo hivi",
+                        "content": "Vipimo hutumika kuwatambua Wapanda Farasi ambao wanaweza kufaidika na msaada (nyenzo za ziada za mwongozo, upatikanaji wa vifaa vipya, vidokezo vya njia) na, katika hali ya utendaji mbaya wa kudumu baada ya msaada, kufikiria kusimamishwa au kuzimwa kwa akaunti chini ya Kifungu cha 11. Unaweza kuona vipimo vyako mwenyewe kwenye programu ya mpanda farasi."
+                    },
+                    "whatWeDontDo": {
+                        "title": "10.4 Nini hatufanyi",
+                        "content": "Alama na vipimo haviidhibiti Uwasilishaji unaopewa, malipo yako kwa kila Uwasilishaji, au kipaumbele chako katika mfumo wa ulinganishaji. Urbandrop haitumii mbinu za kisaikolojia, adhabu za upotevu, au michezo (gamification) kulingana na alama ili kuwashinikiza Wapanda Farasi kufanya kazi kwa saa nyingi zaidi."
+                    }
+                },
+                "suspension": {
+                    "title": "11 Kusimamishwa na Kuzimwa kwa Akaunti",
+                    "temporary": {
+                        "title": "11.1 Kusimamishwa kwa muda",
+                        "content": "Urbandrop inaweza kusimamisha ufikiaji wako wa Jukwaa kwa muda ambapo tuna msingi wa kutosha na wa nia njema kuamini kwamba:",
+                        "items": [
+                            "kuna hatari kubwa kwa usalama wa Mteja, usalama wa Muuzaji, au usalama wa Mpanda Farasi mwingine;",
+                            "hali yako ya Haki ya Kufanya Kazi, nyaraka za utambulisho, nyaraka za chombo cha usafiri au bima zinahitaji uhakiki upya;",
+                            "lalamiko zito limepokelewa ambalo linahitaji uchunguzi;",
+                            "kuna matumizi mabaya ya Jukwaa yanayoonekana (kukodisha akaunti, ukamilishaji wa Uwasilishaji wa udanganyifu, kula njama)."
+                        ],
+                        "note": "Tutakupa sababu ya kusimamishwa kwa maandishi (kupitia programu ya mpanda farasi au barua pepe) haraka iwezekanavyo na, isipokuwa pale ambapo utekelezaji wa sheria unahitaji vinginevyo, fursa ya kujibu."
+                    },
+                    "permanent": {
+                        "title": "11.2 Kuzimwa kwa kudumu",
+                        "content": "Tunaweza kuzima Akaunti yako ya Mpanda Farasi kwa kudumu kwa ajili ya, pamoja na sababu nyingine:",
+                        "items": [
+                            "udanganyifu, wizi, au matumizi mabaya ya agizo la Mteja;",
+                            "vurugu, tabia za kutishia, unyanyasaji au ubaguzi;",
+                            "ukiukaji mkubwa wa wajibu wa usalama wa chakula;",
+                            "kupoteza haki ya kisheria ya kufanya kazi nchini Uingereza;",
+                            "makosa ya kuendesha gari au baiskeli ya asili inayohusiana kwa kiasi kikubwa na kazi ya uwasilishaji;",
+                            "kukodisha au kushiriki akaunti kinyume na Kifungu cha 4.2;",
+                            "ukiukaji mkubwa wa kudumu wa Masharti haya licha ya onyo la awali."
+                        ]
+                    },
+                    "fairProcess": {
+                        "title": "11.3 Mchakato wa haki",
+                        "content": "Isipokuwa pale ambapo kuzimwa kwa akaunti mara moja ni lazima (k.m., kulinda usalama au kutii sheria), utaambiwa sababu, utaonyeshwa ushahidi pale inapowezekana kisheria, na utapewa fursa ya kujibu ndani ya siku 14. Maamuzi ya kuzima akaunti yanaweza kuwasilishwa kwa meneja ambaye hakuhusika katika uamuzi wa awali chini ya Kifungu cha 17."
+                    }
+                },
+                "accidents": {
+                    "title": "12 Ajali, Matukio na Dhima",
+                    "reporting": {
+                        "title": "12.1 Kuripoti",
+                        "content": "Lazima uripoti haraka iwezekanavyo, na kwa vyovyote vile ndani ya saa 24, kuhusu:",
+                        "items": [
+                            "mgongano wa barabarani, bila kujali kosa au majeraha;",
+                            "majeraha kwako binafsi, Mteja, mfanyakazi wa Muuzaji, au upande wa tatu wowote wakati wa Uwasilishaji;",
+                            "uharibifu wa mali;",
+                            "wizi au jaribio la wizi wa bidhaa au chombo chako cha usafiri wakati wa Uwasilishaji;",
+                            "uhalifu wa chuki, unyanyasaji au tabia ya matusi kutoka kwa Mteja au Muuzaji."
+                        ]
+                    },
+                    "liability": {
+                        "title": "12.2 Dhima yako",
+                        "content": "Unawajibika kwa vitendo na uzembe wako mwenyewe. Urbandrop haiwajibiki kwa uharibifu unaosababisha kwa watu wa tatu, kwa mali ya Mteja, au kwa chombo chako cha usafiri au vifaa vyako. Lazima uwe na bima inayofaa (Kifungu cha 5.2)."
+                    },
+                    "ourLiability": {
+                        "title": "12.3 Dhima yetu kwako",
+                        "content": "Kwa kuzingatia Kifungu cha 12.4 kila wakati, jumla ya dhima ya Urbandrop kwako chini ya au kuhusiana na Masharti haya katika kipindi chochote cha miezi 12 ni kiasi kikubwa zaidi kati ya (a) jumla ya ada uliyolipwa katika kipindi hicho au (b) £1,000. Hatuna dhima ya upotevu wa faida, upotevu wa fursa, upotevu wa nia njema, au upotevu wowote usio wa moja kwa moja."
+                    },
+                    "liabilityExclusions": {
+                        "title": "12.4 Dhima ambayo hatuiondoi",
+                        "content": "Hakuna chochote katika Masharti haya kinachozuia au kuondoa dhima kwa:",
+                        "items": [
+                            "kifo au majeraha ya kibinafsi yanayosababishwa na uzembe;",
+                            "udanganyifu au upotoshaji wa kudhulumu;",
+                            "dhima yoyote ambayo haiwezi kuondolewa au kuwekewa kikomo chini ya sheria inayotumika."
+                        ]
+                    },
+                    "emergency": {
+                        "title": "12.5 Mawasiliano ya dharura",
+                        "content": "Ikiwa unahusika katika tukio zito wakati unafanya kazi, piga <strong>999</strong> kwanza na kisha ijuze Urbandrop kupitia kitufe cha dharura kwenye programu au namba ya simu ya saa 24 ya msaada wa mpanda farasi iliyowekwa katika Kifungu cha 21."
+                    }
+                },
+                "dataProtection": {
+                    "title": "13 Ulinzi wa Data na Faragha",
+                    "roles": {
+                        "title": "13.1 Majukumu",
+                        "content": "Kwa Data Binafsi unazotoa kwa Urbandrop kukuhusu <strong>wewe mwenyewe</strong>, Urbandrop ndiyo mdhibiti wa data. Kwa Data Binafsi kuhusu <strong>Wateja</strong> (majina, anuani za uwasilishaji, namba za mawasiliano, maelezo ya uwasilishaji) unazozifikia kupitia programu ya mpanda farasi, Urbandrop ndiyo mdhibiti na wewe ni mshughulikiaji wa data unayefanya kazi kwa mujibu wa maelekezo ya Urbandrop kwa madhumuni maalum ya kukamilisha Uwasilishaji."
+                    },
+                    "obligations": {
+                        "title": "13.2 Wajibu wako kama mshughulikiaji",
+                        "content": "Wakati unashughulikia Data Binafsi za Mteja lazima:",
+                        "items": [
+                            "uzitumie tu kukamilisha Uwasilishaji maalum uliopangiwa;",
+                            "usihifadhi, usinakili, usishiriki, usichapishe mtandaoni, au kuweka maelezo ya Mteja kwa namna nyingine baada ya Uwasilishaji kukamilika;",
+                            "usiwasiliane na Mteja nje ya mfumo wa mawasiliano wa Jukwaa;",
+                            "uweke kifaa chako na programu ya mpanda farasi vikiwa salama kwa PIN, nenosiri au kufuli ya biometriska;",
+                            "uripoti ukiukaji wowote wa data binafsi unaohisiwa kwa dpo@urbandrop.io ndani ya saa 24."
+                        ]
+                    },
+                    "howWeUse": {
+                        "title": "13.3 Jinsi tunavyotumia Data zako Binafsi",
+                        "content": "Tunashughulikia Data zako Binafsi kwa mujibu wa GDPR ya Uingereza na Sera yetu ya Faragha, ambayo ni sehemu ya Masharti haya. Misingi yetu ya kisheria ni pamoja na utendaji wa mkataba huu, utii wa wajibu wa kisheria (k.m., Haki ya Kufanya Kazi, ripoti za HMRC), na maslahi halali katika kuendesha Jukwaa kwa usalama."
+                    },
+                    "rights": {
+                        "title": "13.4 Haki zako",
+                        "content": "Una haki za mhusika wa data chini ya GDPR ya Uingereza — ufikiaji, marekebisho, kufutwa (kwa kuzingatia uhifadhi wa kisheria), kizuizi, uhamishaji, na pingamizi. Ili kutumia yoyote ya haki hizi, wasiliana na dpo@urbandrop.io. Unaweza pia kulalamika kwa Ofisi ya Kamishna wa Taarifa (ico.org.uk)."
+                    }
+                },
+                "ip": {
+                    "title": "14 Miliki Ubunifu (Intellectual Property)",
+                    "content": "Haki zote za miliki ubunifu katika Jukwaa, programu ya mpanda farasi, alama za biashara za Urbandrop, nembo, utambulisho wa chapa, nyenzo za mafunzo na nyaraka zinabaki kuwa mali ya Urbandrop au watoa leseni wetu. Unapewa leseni ndogo, isiyo ya kipekee, isiyoweza kuhamishwa, na inayoweza kufutwa kutumia programu ya mpanda farasi kwa madhumuni pekee ya kutekeleza Uwasilishaji.",
+                    "item": "Hupaswi:",
+                    "items": [
+                        "kujaribu kufumbua (reverse-engineer), kutenganisha (decompile) au kujaribu kupata msimbo chanzo (source code) wa programu ya mpanda farasi;",
+                        "kuchukua data (scrape), kunakili au kutumia vibaya data, mtiririko wa maagizo, bei au taarifa za njia;",
+                        "kutumia alama za biashara za Urbandrop bila idhini yetu ya maandishi ya awali;",
+                        "kujitambulisha kama mfanyakazi, wakala au mshirika wa Urbandrop zaidi ya kile ambacho Masharti haya yanatoa."
+                    ]
+                },
+                "confidentiality": {
+                    "title": "15 Usiri",
+                    "content1": "Unaweza kukutana na taarifa za siri kuhusu Urbandrop, Wateja, Wauzaji au Wapanda Farasi wengine wakati wa kazi yako — ikiwa ni pamoja na miundo ya bei, mifumo ya maagizo, njia za uwasilishaji, vipengele vya programu ambavyo bado si vya umma, na maelezo ya Wateja. Lazima uweke taarifa hizi kuwa siri wakati na baada ya kazi yako na hupaswi kuzitoboa kwa upande wa tatu wowote isipokuwa inavyotakiwa na sheria.",
+                    "content2": "Usiri hautumiki kwa taarifa ambazo ni, au zinakuwa halali, mali ya umma bila ukiukaji wako, au ambazo ulikuwa nazo kihalali kabla ya kuanza kazi."
+                },
+                "health": {
+                    "title": "16 Afya, Usalama na Ustawi",
+                    "content": "Ingawa wewe si mfanyakazi, tunachukua usalama wa Mpanda Farasi kwa uzito na, kwa kiasi ambacho Sheria ya Afya na Usalama Kazini n.k. ya 1974 inatumika kwa shughuli zetu, tutaendesha biashara yetu kwa njia ambayo haikuweki kwenye hatari kwa kiasi kinachowezekana.",
+                    "responsibilities": {
+                        "title": "16.1 Wajibu wako",
+                        "items": [
+                            "usiwasilishe ukiwa chini ya ushawishi wa pombe au dawa za kulevya (halali au haramu) zinazopunguza uwezo wako wa kuendesha salama;",
+                            "pumzika vya kutosha — usizidi mfumo wa kufanya kazi unaoweza kuhatarisha uwasilishaji salama (tunapendekeza mapumziko ya angalau dakika 15 kila baada ya saa 2, na hatutakuadhibu kwa kuyachukua);",
+                            "kataa au sitisha Uwasilishaji ambao unakuwa si salama kutokana na hali ya hewa, hitilafu ya chombo cha usafiri, au hali binafsi;",
+                            "vaa nguo zinazofaa kwa hali ya hewa, zinazong'aa (reflective) na za kinga."
+                        ]
+                    },
+                    "wellbeing": {
+                        "title": "16.2 Msaada wa ustawi",
+                        "content": "Ustawi wa Mpanda Farasi ni muhimu. Tunatoa:",
+                        "items": [
+                            "ufikiaji wa namba ya siri ya msaada wa afya ya akili ya saa 24/7 (maelezo yapo kwenye programu);",
+                            "miongozo kuelekea rasilimali za kitaifa ikiwa ni pamoja na Samaritans (116 123) na Mind (0300 123 3393);",
+                            "sera ya wazi ya kutolipiza kisasi — kuibua hoja ya usalama, kuripoti tabia ya matusi ya Mteja, au kukataa Uwasilishaji usio salama hakutaathiri hadhi yako kwenye Jukwaa."
+                        ]
+                    },
+                    "equality": {
+                        "title": "16.3 Usawa, heshima na kuzuia unyanyasaji",
+                        "content": "Urbandrop haivumilii ubaguzi, unyanyasaji au kudhulumiwa kwa misingi ya sifa inayolindwa chini ya Sheria ya Usawa ya 2010 — iwe kwa Wapanda Farasi, Wateja, Wauzaji au wafanyakazi wa Urbandrop. Ripoti huchukuliwa kwa uzito, huchunguzwa kwa siri, na hufanyiwa kazi."
+                    }
+                },
+                "complaints": {
+                    "title": "17 Malalamiko na Migogoro",
+                    "raise": {
+                        "title": "17.1 Ilete kwetu kwanza",
+                        "content": "Ikiwa una lalamiko — kuhusu ada, makato, kusimamishwa, tabia ya mtumiaji mwingine, au kitu kingine chochote — tafadhali liwasilishe kupitia mfumo wa msaada wa programu au barua pepe riders@urbandrop.io. Tunalenga kukiri kupokea ndani ya siku mbili (2) za kazi na kutoa majibu ya msingi ndani ya siku kumi (10) za kazi."
+                    },
+                    "escalation": {
+                        "title": "17.2 Rufaa",
+                        "content": "Ikiwa haujaridhika na majibu yetu unaweza kukata rufaa kwa mkaguzi huru ndani ya Urbandrop (ambaye hakuhusika katika uamuzi wa awali) kwa kutuma barua pepe kwa appeals@urbandrop.io. Maamuzi ya rufaa ni ya mwisho kulingana na mchakato wa ndani wa Urbandrop."
+                    },
+                    "independentRedress": {
+                        "title": "17.3 Marekebisho huru",
+                        "content": "Hakuna chochote katika Masharti haya kinachokuzuia kuleta madai katika mahakama za Uingereza na Wales au kuwasiliana na mdhibiti (ikiwa ni pamoja na HMRC, Ofisi ya Kamishna wa Taarifa, au Mamlaka ya Afya na Usalama) pale inapofaa."
+                    }
+                },
+                "changes": {
+                    "title": "18 Mabadiliko ya Masharti haya",
+                    "content": "UrbanDrop inaweza kusasisha Masharti haya mara kwa mara. Tutakujulisha kuhusu mabadiliko ya msingi kupitia programu ya mpanda farasi, barua pepe, au SMS angalau siku 14 kabla ya kuanza kutumika. Kuendelea kwako kutumia Jukwaa baada ya tarehe ya sasisho kunamaanisha unakubali Masharti yaliyorekebishwa. Ikiwa hukubaliani na mabadiliko, unaweza kusitisha mkataba huu kwa kutoa notisi ya maandishi ya siku 7."
+                },
+                "contact": {
+                    "title": "19 Mawasiliano",
+                    "content": "Kwa maswali, msaada, au kutoa notisi chini ya Masharti haya:",
+                    "companyName": "Urbandrop Group Limited",
+                    "email": "Barua pepe: <a href=\"mailto:riders@urbandrop.io\" className=\"text-secondary hover:underline font-medium\">riders@urbandrop.io</a>",
+                    "emergency": "Msaada wa dharura wa saa 24 wa mpanda farasi (maelezo yako kwenye programu)",
+                    "riderSupport": "Msaada wa Mpanda Farasi",
+                    "appeals": "Rufaa",
+                    "appealsEmail": "appeals@urbandrop.io",
+                    "dataProtection": "Ulinzi wa data",
+                    "dpoEmail": "dpo@urbandrop.io",
+                    "legalNotices": "Notisi za kisheria",
+                    "legalEmail": "legal@urbandrop.io",
+                    "emergencyLabel": "Dharura (24h)"
+                },
+                "governingLaw": {
+                    "title": "20 Sheria Inayotumika na Mamlaka",
+                    "content": "Masharti haya yanaongozwa na sheria za Uingereza na Wales. Mahakama za Uingereza na Wales zina mamlaka ya kipekee. Ikiwa kifungu chochote cha Masharti haya kitachukuliwa kuwa batili au kisichoweza kutekelezeka, vifungu vilivyobaki vitaendelea kutumika kikamilifu."
+                },
+                "entireAgreement": {
+                    "title": "21 Mkataba Kamili",
+                    "content": "Masharti haya, pamoja na Sera ya Faragha na makubaliano yoyote ya ziada yaliyojumuishwa kwa kurejelewa, yanajumuisha mkataba kamili kati yako na UrbanDrop kuhusiana na matumizi yako ya Jukwaa na yanachukua nafasi ya makubaliano, uwakilishi, au uelewa wowote wa awali, uwe wa maandishi au wa mdomo."
+                }
                 }
             }
         }
+    }
     

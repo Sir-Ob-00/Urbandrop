@@ -876,244 +876,1553 @@
             },
             "sections": {
                 "about": {
-                    "title": "1. Fa UrbanDrop Ho",
+                    "title": "1. UrbanDrop Ho Nsɛm",
                     "content": [
-                        "UrbanDrop yɛ online marketplace a ɛbɔ customers ne independent merchants a wɔde groceries, aduane, ne ethnic products bɛma delivery anaa collection ho. Yɛde digital infrastructure, payment processing, ne customer interface yɛ adwuma, nanso yɛn ara yɛnnyɛ products no, yɛnnyɛ owner, na yɛnnsan ntɔn wɔn a wɔwɔ Platform so.",
-                        "Sɛ wopaw order wɔ UrbanDrop so a, wopɛ sɛ wotɔn fi merchant no nko ara, na ɛnyɛ UrbanDrop."
+                    "UrbanDrop yɛ intanɛt so dwadibea a ɛka aditɔfoɔ ne adwadifoɔ a wɔn ho tiri yɛ mmaako mmaako bom na wɔma nnuane, aduane a wɔanoa, ne amammere mu nneɛma a wɔde bɛbrɛ wo anaa wobɛkɔ akɔfa. Yɛn na yɛyɛ intanɛt so dwumadie no, sika firi, ne nneɛma a aditɔfoɔ hu, nanso ɛnyɛ yɛn na yɛyɛ, yɛwɔ, anaa yɛtɔn nneɛma a ɛwɔ Dwadibea hɔ no.",
+                    "Sɛ wohyɛ oda (order) bi fa UrbanDrop so a, woreto no tiri firi odwadini no hɔ paa, ɛnyɛ UrbanDrop hɔ."
                     ]
                 },
                 "eligibility": {
-                    "title": "2. Sɛ Wobɛtumi de Platform di dwuma",
-                    "content": "Wosɛ sɛ wowɔ mfe 18 anaa sen no ansa na wode Platform di dwuma. Sɛ wode di dwuma a, wopaw sɛ:",
+                    "title": "2. Kwan a Wogyae Ma Wo",
+                    "content": "Ɛsɛ sɛ woadi mfie 18 anaa nea ɛboro saa ansa na woatumi de Dwumadie yi adi dwuma. Sɛ wode di dwuma a, worekyerɛ sɛ:",
                     "items": [
-                        "Wunya ho tumi sɛ wobɛtumi hyɛ contracts a ɛyɛ binding mu.",
-                        "Wode Platform di dwuma ma nsɛm a ɛyɛ legal nko ara.",
-                        "Wode nsɛm a ɛyɛ nokware bɛma wɔ account creation anaa order placement bere mu."
+                    "Wowɔ tumi a mmara ma kwan sɛ wobɛtumi ne yɛn ayɛ apam.",
+                    "Wode Dwumadie yi bɛdi dwuma ama nneɛma a mmara ma kwan nko ara.",
+                    "Wobɛma nsɛm a ɛyɛ nokware berɛ a woreyɛ akawnt (account) anaa worehyɛ oda (order)."
                     ]
                 },
                 "account": {
-                    "title": "3. Wo Account",
+                    "title": "3. Wo Akawnt",
                     "subsections": {
-                        "creation": {
-                            "title": "3.1 Account Creation",
-                            "content": "Sɛ wopɛ sɛ wopaw order a, ɛsɛ sɛ wokyerɛw UrbanDrop account. Wɔbɛhwehwɛ sɛ wode nsɛm a ɛyɛ nokware bɛma te sɛ din, delivery address, ne payment information."
-                        },
-                        "security": {
-                            "title": "3.2 Account Security",
-                            "content": "Woyɛ responsible ma sɛnea wode login credentials bɛyɛ secure. Biribiara a ɛba wo account so yɛ wo responsibility."
-                        },
-                        "misuse": {
-                            "title": "3.3 Misuse",
-                            "content": "UrbanDrop betumi suspend anaa close accounts a wɔde yɛ fraud, abuse promotions, anaa woyi Mmara yi so."
-                        }
+                    "creation": {
+                        "title": "3.1 Akawnt Yɛ",
+                        "content": "Sɛ wobɛtumi ahyɛ oda a, ɛtwa sɛ woyɛ UrbanDrop akawnt. Ɛsɛ sɛ woma nsɛm a ɛyɛ nokware te sɛ wo din, baabi a wɔmfa nneɛma mmrɛ wo, ne sika firi ho nsɛm."
+                    },
+                    "security": {
+                        "title": "3.2 Akawnt Banbɔ",
+                        "content": "Wo na ɛsɛ sɛ wobɔ wo dwumadie mu nsɛm (login credentials) ho ban. Biribiara a ɛbɛsi wɔ wo akawnt no mu no, wo na wodi ho akasaboa."
+                    },
+                    "misuse": {
+                        "title": "3.3 Dwumadie Bɔne",
+                        "content": "UrbanDrop bɛtumi agyae anaa wɔatwa akawnt biara a wɔde reyɛ nnaadaa dwuma, wɔreka nkanyan (promotions) ho nkontompo, anaa wɔrebu mmara yi so."
+                    }
                     }
                 },
                 "ordering": {
-                    "title": "4. Ordering ne Payments",
+                    "title": "4. Oda ne Akatua",
                     "subsections": {
-                        "placing": {
-                            "title": "4.1 Placing an Order",
-                            "content": "Sɛ wopaw order a, wopaw sɛ wotɔn products fi merchant a wɔda UrbanDrop so. Sɛ merchant accept order no a, contract bɛda ho ntam wo ne merchant no ntam."
-                        },
-                        "confirmation": {
-                            "title": "4.2 Order Confirmation",
-                            "content": "Wobɛnya confirmation fi Platform no so sɛ w’order no accept. Merchants betumi cancel order sɛ items nni hɔ anaa rentumi nyɛ adwuma, ɛnna ɛno akyi, w’ankɔ yɛ charge biara."
-                        },
-                        "payments": {
-                            "title": "4.3 Payments",
-                            "content": "Payments nyinaa yɛ securely processed via UrbanDrop payment partners. Woma UrbanDrop tumi collect payments ma merchant no."
-                        },
-                        "pricing": {
-                            "title": "4.4 Pricing",
-                            "content": "Prices yɛ set by merchants na taxes ka ho. Delivery, service, ne packaging fees betumi ka ho na ɛbɛda ho ansa na checkout."
-                        }
+                    "placing": {
+                        "title": "4.1 Oda Hyɛ",
+                        "content": "Sɛ wohyɛ oda a, ɛkyerɛ sɛ worepɛ sɛ wotɔ nneɛma firi odwadini bi a ɔwɔ UrbanDrop so hɔ. Sɛ odwadini no gye wo oda no tom a, na apam asi wo ne saa odwadini no ntam."
+                    },
+                    "confirmation": {
+                        "title": "4.2 Oda Nnyinasoɔ",
+                        "content": "Wobɛnya nkaebɔ firi Dwumadie no so sɛ wɔagye wo oda no tom. Adwadifoɔ bɛtumi atwa oda mu sɛ nneɛma no bi nni hɔ anaa wɔntumi nyɛ, na saa berɛ no wɔnnye wo sika biara."
+                    },
+                    "payments": {
+                        "title": "4.3 Akatua",
+                        "content": "Akatua nyinaa kɔ so wɔ banbɔ mu fa UrbanDrop akatua ayɔnkofoɔ so. Woma UrbanDrop kwan sɛ wɔmfa sika no mmema odwadini no."
+                    },
+                    "pricing": {
+                        "title": "4.4 Boɔ",
+                        "content": "Adwadifoɔ na wɔsi nneɛma boɔ na ɛka toɔ (taxes) ho. Wode nneɛma mmrɛ wo, som ne nneɛma kyekyere ho ka bɛtumi aba ho, na wobɛhu ansa na woatua sika."
+                    }
                     }
                 },
                 "delivery": {
-                    "title": "5. Delivery ne Collection",
+                    "title": "5. Nneɛma Brɛ ne Mmɛfa",
                     "subsections": {
-                        "areas": {
-                            "title": "5.1 Delivery Areas",
-                            "content": "Delivery wɔ nko ara areas a UrbanDrop anaa logistics partners yɛ adwuma."
-                        },
-                        "partners": {
-                            "title": "5.2 Delivery Partners",
-                            "content": "Orders betumi adi delivery via UrbanDrop delivery network anaa direct fi merchant. Delivery bere yɛ estimates na ɛbɛtumi sesa ɛfiri traffic, weather, anaa nsɛm foforɔ a ɛwɔ yɛn tumi mu."
-                        },
-                        "collection": {
-                            "title": "5.3 Collection Orders",
-                            "content": "Sɛ wopaw collection a, bra bere a wɔahyɛ ho. Merchants betumi refuse sɛ wɔnkɔda items ho sen bere a ɛyɛ reasonable."
-                        }
+                    "areas": {
+                        "title": "5.1 Mpɔtam a Yɛbrɛ Nneɛma",
+                        "content": "Nneɛma brɛ kɔ so wɔ mmaa a UrbanDrop anaa wɔn akwanhyɛfoɔ wɔ dwumadie nko ara."
+                    },
+                    "partners": {
+                        "title": "5.2 Brɛfoɔ Ayɔnkofoɔ",
+                        "content": "UrbanDrop brɛfoɔ anaa odwadini no ankasa bɛtumi de nneɛma no abrɛ wo. Mmerɛ a yɛde bɛbrɛ wo no yɛ ntotoeɛ, na ɛbɛtumi asesa ɛnam kwan so nneɛma, wim tebea, anaa nneɛma bi a ɛboro yɛn tumi so."
+                    },
+                    "collection": {
+                        "title": "5.3 Nneɛma a Wobɛkɔ Akɔfa",
+                        "content": "Sɛ wopaw sɛ wobɛkɔ akɔfa nneɛma no a, yɛsrɛ wo kɔ wɔ berɛ a wɔahyɛ no mu. Adwadifoɔ bɛtumi apo sɛ ɔbɛkura nneɛma no mu akyɛ aboro berɛ a ɛsɛ."
+                    }
                     }
                 },
                 "promotions": {
-                    "title": "6. Promotions ne Discounts",
+                    "title": "6. Nkanyan ne Nteaseɛ",
                     "subsections": {
-                        "platform": {
-                            "title": "6.1 Platform Promotions",
-                            "content": "UrbanDrop betumi de promotions anaa discounts aba. Biribiara wɔ ne rules a ɛbɛka Mmara yi ho."
-                        },
-                        "merchant": {
-                            "title": "6.2 Merchant Promotions",
-                            "content": "Promotions a merchants yɛ no yɛ wɔn own funding nko ara. UrbanDrop bɛhwɛ ne approve, nanso yɛnni responsibility wɔ sika ho."
-                        },
-                        "misuse": {
-                            "title": "6.3 Misuse",
-                            "content": "UrbanDrop reserve tumi sɛ wɔbɛsuspend anaa remove offers sɛ abuse anaa fraud ba mu."
-                        }
+                    "platform": {
+                        "title": "6.1 Dwumadie Nkanyan",
+                        "content": "UrbanDrop bɛtumi de nkanyan anaa nteaseɛ ama berɛ bi. Emu biara wɔ ne mmara a ɛne saa Mmara yi nyinaa na ɛnam."
+                    },
+                    "merchant": {
+                        "title": "6.2 Odwadini Nkanyan",
+                        "content": "Nkanyan a adwadifoɔ yɛ no, wɔn ankasa na wɔtua ho ka. UrbanDrop hwɛ na wɔgye tom, nanso ɛnyɛ yɛn na yɛtua ho ka."
+                    },
+                    "misuse": {
+                        "title": "6.3 Dwumadie Bɔne",
+                        "content": "UrbanDrop wɔ tumi sɛ wɔgyae anaa wɔyi nkanyan biara firi hɔ sɛ wɔhu nnaadaa dwumadie bi a."
+                    }
                     }
                 },
                 "merchant": {
-                    "title": "7. Merchant Responsibilities",
-                    "content": "Merchants a wɔwɔ UrbanDrop yɛ independent businesses. Wɔyɛ responsible ma:",
+                    "title": "7. Odwadini Asɛdeɛ",
+                    "content": "Odwadini biara a ɔwɔ UrbanDrop so yɛ ne dwumadie firi ne ho. Adwadifoɔ na wodi nea ɛdidi so yi ho asɛm:",
                     "items": [
-                        "Accuracy of product information, pricing, ne images.",
-                        "Food safety, hygiene, ne proper product labelling.",
-                        "Compliance with local licensing ne trading laws."
+                    "Sɛ nneɛma ho nsɛm, ne boɔ, ne mfoni yɛ nokware.",
+                    "Aduane banbɔ, ahotiee, ne nneɛma ho hyɛnmu nkaebɔ.",
+                    "Mmadi a ɛfa kwan so tumi krataa ne mpɔtam dwadie mmara ho."
                     ],
-                    "note": "UrbanDrop nnyi manufacturing, testing, anaa guarantee products a merchants toɔ no ho."
+                    "note": "UrbanDrop nyɛ, nnyɛ sɔhwɛ, anaa wɔmma nnyinasoɔ mma nneɛma a adwadifoɔ tɔn no."
                 },
                 "conduct": {
-                    "title": "8. Customer Conduct",
-                    "content": "Wopaw sɛ wo remfa:",
+                    "title": "8. Oditɔni Abraboɔ",
+                    "content": "Wopene so sɛ worenyɛ nea ɛdidi so yi:",
                     "items": [
-                        "Misuse Platform anaa bɔ ho nkɔfa.",
-                        "Harass, abuse, anaa threat merchants, drivers, anaa customer support.",
-                        "Create multiple accounts de exploit promotions.",
-                        "Post false reviews anaa misleading feedback."
+                    "Woremfa Dwumadie yi nni dwuma bɔne anaa woresɛe ne dwumadie kwan.",
+                    "Worenhyɛ, worenyɛ bɔne, anaa woremhunahuna adwadifoɔ, adrɛvafofoɔ, anaa aditɔfoɔ boafoɔ.",
+                    "Worenyɛ akawnt pii mfa nyi nkanyan nkontompo.",
+                    "Worentwerɛ nkyerɛwee bɔne anaa nkontompo nsɛm mfa nkyerɛ wo dwumadie ho nkaeɛ."
                     ],
-                    "note": "UrbanDrop reserve tumi suspend anaa ban account a ɛwɔ violation."
+                    "note": "UrbanDrop wɔ tumi sɛ wɔgyae anaa wɔiw akawnt biara kwan sɛ wɔbu saa mmara yi so a."
                 },
                 "cancellation": {
-                    "title": "9. Customer Cancellation Policy",
+                    "title": "9. Oditɔni Oda Twamu Mmara",
                     "subsections": {
-                        "before": {
-                            "title": "9.1 Ansan Merchant Accept",
-                            "content": "Wobɛtumi cancel order free ansa na merchant accept."
-                        },
-                        "after": {
-                            "title": "9.2 Akɔsi Merchant Accept",
-                            "content": "Sɛ merchant accept order no a, cancellation rentumi nyɛ, especially perishable anaa prepared items. Sɛ merchant de aduane resiesie a, wopɛ sɛ wopaw full charge."
-                        },
-                        "merchant": {
-                            "title": "9.3 Cancellations fi Merchant",
-                            "content": "Merchants betumi cancel order sɛ products nni hɔ, order rentumi nyɛ adwuma, anaa delivery rentumi nyɛ. Wobɛnya full refund."
-                        },
-                        "progress": {
-                            "title": "9.4 Delivery wɔ Progress Mu",
-                            "content": "Sɛ w’order wɔ delivery mu a, ɛrentumi nkyɛ cancel."
-                        },
-                        "repeated": {
-                            "title": "9.5 Repeated Cancellations",
-                            "content": "Customers a wɔrepeat cancel orders betumi nya account restricted anaa suspended."
-                        }
+                    "before": {
+                        "title": "9.1 Ansa na Odwadini Agye Atom",
+                        "content": "Wobɛtumi atwa oda mu kwa a wotua hwee ansa na odwadini no agye atom."
+                    },
+                    "after": {
+                        "title": "9.2 Odwadini Gye Tom Akyi",
+                        "content": "Sɛ odwadini gye oda no tom a, ɛbɛtumi ayɛ den sɛ wobɛtwa mu, titiriw aduane a ɛsɛe ntɛm. Sɛ odwadini no ahyɛ aseɛ reyɛ wo nneɛma no a, wobɛtua sika no nyinaa."
+                    },
+                    "merchant": {
+                        "title": "9.3 Odwadini Mu Twamu",
+                        "content": "Adwadifoɔ bɛtumi atwa oda mu sɛ nneɛma no nni hɔ, anaa wɔntumi mfa mmrɛ wo. Saa berɛ no, wobɛnya wo sika nyinaa."
+                    },
+                    "progress": {
+                        "title": "9.4 Berɛ a Nneɛma no Nam Kwan So",
+                        "content": "Sɛ wo nneɛma no nam kwan so reba a, wobɛntumi ntwa mu bio."
+                    },
+                    "repeated": {
+                        "title": "9.5 Oda Twamu Mpɛn Pii",
+                        "content": "Aditɔfoɔ a wɔtaa twa oda mu mpɛn pii akyi a odwadini agye atom no, wobɛtumi asiw wɔn akawnt kwan."
+                    }
                     }
                 },
                 "returns": {
-                    "title": "10. Return ne Refund Policy",
+                    "title": "10. Nneɛma San ne Sika San Mmara",
                     "subsections": {
-                        "general": {
-                            "title": "10.1 General Policy",
-                            "content": "Efisɛ UrbanDrop bɔ customers ne independent merchants ho nkɔ, refunds ne returns bɛyɛ based on item nature ne request circumstances."
-                        },
-                        "perishable": {
-                            "title": "10.2 Perishable ne Prepared Items",
-                            "content": "Sɛ ɛyɛ fresh produce, chilled/frozen foods, ne cooked meals a, refunds/returns nni hɔ sɛ order wɔ delivered anaa collected, gye sɛ:",
-                            "items": [
-                                "Item no bɔne, expired, anaa unsafe for consumption bere a delivery.",
-                                "Wrong item deliver.",
-                                "Order nni complete."
-                            ],
-                            "note": "Report issues kyerɛ UrbanDrop Support wɔ 24 hours delivery akyi. Photos betumi hia."
-                        },
-                        "nonPerishable": {
-                            "title": "10.3 Non-Perishable Items",
-                            "content": "Sɛ ɛyɛ packaged, sealed, anaa non-perishable items, merchants betumi accept returns sɛ UK consumer law ka ho:",
-                            "items": [
-                                "Item no faulty anaa nkyerɛ nea ɛda ho.",
-                                "Wɔde san brɛ sɛ unused ne original packaging."
-                            ]
-                        },
-                        "process": {
-                            "title": "10.4 Refund Process",
-                            "content": "Refund bɛyɛ processing sɛ merchant confirm eligibility. UrbanDrop bɛcredit w’payment method mu within 5–10 business days."
-                        },
-                        "merchantResp": {
-                            "title": "10.5 Merchant Responsibility",
-                            "content": "Merchants yɛ responsible handling refund requests fi wɔn products ho. UrbanDrop facilitate communication ne payment adjustment nanso yɛnni final decision."
-                        },
-                        "delivery": {
-                            "title": "10.6 Delivery Issues",
-                            "content": "Sɛ order delayed, lost, anaa delivered wrong address, frɛ UrbanDrop Support. Refunds/redelivery betumi hwehwɛ based on tracking ne merchant confirmation."
-                        },
-                        "abuse": {
-                            "title": "10.7 Refund Abuse",
-                            "content": "Repeat refund claims a ɛnni valid cause betumi result wɔ account flagged anaa suspended."
-                        }
+                    "general": {
+                        "title": "10.1 Mmara a Ɛwɔ Hɔ",
+                        "content": "Esiane sɛ UrbanDrop ka aditɔfoɔ ne adwadifoɔ bom nti, sika san ne nneɛma san gyina nneɛma ko a wotɔɔ ne nea ɛsi ne hɔ."
+                    },
+                    "perishable": {
+                        "title": "10.2 Nneɛma a Ɛsɛe Ntɛm ne Aduane",
+                        "content": "Nnuane te sɛ nnuaba, nnuane a ɛwɔ ɛnwunu mu, ne nnuane a wɔanoa no, sika san anaa nneɛma san nni hɔ gye sɛ:",
+                        "items": [
+                        "Adeɛ no asɛe, anaa ɛnyɛ papa sɛ wobɛdie berɛ a ɛbaa hɔ.",
+                        "Adeɛ a ɛnyɛ ɛno na ɛbaa hɔ.",
+                        "Oda no anwie pɛyɛ."
+                        ],
+                        "note": "Wobɛtwa amanneɛ nkyerɛ UrbanDrop Support wɔ dɔnhwere 24 mu. Wobɛtumi abisa wo mfoni sɛ adanseɛ."
+                    },
+                    "nonPerishable": {
+                        "title": "10.3 Nneɛma a Ɛnsɛe Ntɛm",
+                        "content": "Nneɛma a wɔakyekyere na agye hye no, adwadifoɔ bɛtumi agye asan sɛnea UK mmara kyerɛ sɛ:",
+                        "items": [
+                        "Adeɛ no mfomsoɔ wɔ ho.",
+                        "Wosan de ba a wɔmfa nni dwuma na ɛwɔ ne kyekyere mu."
+                        ]
+                    },
+                    "process": {
+                        "title": "10.4 Sika San Kwan",
+                        "content": "Sika san kɔ so sɛ odwadini no pene so a. UrbanDrop bɛsan de sika no ahyɛ wo kwan a wode tuaa sika no mu wɔ nnawɔtwe baako anaa mmienu (5–10 business days) mu."
+                    },
+                    "merchantResp": {
+                        "title": "10.5 Odwadini Asɛdeɛ",
+                        "content": "Odwadini biara na ɔhwɛ sika san ho nsɛm. UrbanDrop boa ma nkitahodeɛ kɔ so nanso ɛnyɛ yɛn na yɛsi gyinaeɛ a ɛdi akyi."
+                    },
+                    "delivery": {
+                        "title": "10.6 Nneɛma Brɛ Ho Nsɛm",
+                        "content": "Sɛ wo nneɛma kyɛ, ɛyera, anaa ɛkɔ baabi foforɔ a, frɛ UrbanDrop Support ntɛm. Yɛbɛhwɛ sika san anaa nneɛma brɛ foforɔ ho asɛm."
+                    },
+                    "abuse": {
+                        "title": "10.7 Sika San Dwumadie Bɔne",
+                        "content": "Sɛ wobisa sika san mpɛn pii a mfomsoɔ biara nni ho a, yɛbɛtumi asiw wo akawnt kwan."
+                    }
                     }
                 },
                 "ip": {
-                    "title": "11. Intellectual Property",
-                    "content": "Trademarks, content, ne technology a ɛwɔ Platform so yɛ UrbanDrop Group Limited anaa licensors. Wobɛntumi nkyerɛw, distribute, anaa modify Platform biara sɛ wunnya written permission."
+                    "title": "11. Agyapadeɛ Ho Mmara",
+                    "content": "Nsɛm, mfoni, ne mfiridwuma nyinaa a ɛwɔ Dwumadie yi so yɛ UrbanDrop Group Limited dea. Wontumi mfa, wonkyekyere, anaa wonsesɛ mu gye sɛ woanya kwan krataa."
                 },
                 "availability": {
-                    "title": "12. Platform Availability",
-                    "content": "Yɛbɔ mmɔden sɛ UrbanDrop bɛda hɔ 24/7, nanso betumi suspend/update services ma maintenance. Yɛnni liability wɔ temporary interruptions anaa data loss."
+                    "title": "12. Dwumadie no Mmerɛ",
+                    "content": "Yɛyɛ yɛn adeɛ sɛ Dwumadie yi bɛyɛ adwuma mmerɛ biara, nanso yɛbɛtumi agyae mmerɛ tiawa bi na yɛayɛ ho adwuma (maintenance). Yɛni ho akasaboa sɛ dwumadie no gyae mmerɛ tiawa bi a."
                 },
                 "privacy": {
-                    "title": "13. Privacy ne Data Protection",
-                    "content": "W’personal data yɛ collected ne processed sɛnea Privacy Policy ka ho, a ɛwɔ Platform. Sɛ wode UrbanDrop di dwuma a, woma consent sɛ yɛde data di dwuma ma order processing, fraud prevention, ne customer service."
+                    "title": "13. Wo Nsɛm ne Banbɔ",
+                    "content": "Wɔgye wo nsɛm na wɔde di dwuma sɛdeɛ yɛn 'Privacy Policy' kyerɛ. Sɛ wode UrbanDrop di dwuma a, wopene so sɛ yɛmfa wo nsɛm nni dwuma mfa nhyɛ oda, nsi nnaadaa kwan, na yɛmfa nsom wo."
                 },
                 "liability": {
-                    "title": "14. Limitation of Liability",
+                    "title": "14. Anohyira wɔ Asɛdeɛ Mu",
                     "subsections": {
-                        "role": {
-                            "title": "14.1 Role of UrbanDrop",
-                            "content": "UrbanDrop yɛ intermediary ntam customers ne merchants. Yɛnni responsibility ma:",
-                            "items": [
-                                "Product quality, safety, authenticity.",
-                                "Incorrect anaa incomplete orders fi merchants.",
-                                "Delivery issues a third parties yɛ."
-                            ]
-                        },
-                        "indirect": {
-                            "title": "14.2 Indirect Losses",
-                            "content": "Yɛnni liability ma indirect, incidental, anaa consequential damages fi Platform usage."
-                        },
-                        "maximum": {
-                            "title": "14.3 Maximum Liability",
-                            "content": "Yɛn total liability ma user biara rentumi nkyɛ amount a wɔtɔ order no anaa £50, nea ɛkɔ fam."
-                        }
+                    "role": {
+                        "title": "14.1 UrbanDrop Dwuma",
+                        "content": "UrbanDrop yɛ ntamgyinafoɔ nko ara. Yɛni ho asɛm wɔ:",
+                        "items": [
+                        "Adeɛ no pa, ne banbɔ, anaa sɛ ɛyɛ ampa.",
+                        "Oda a ɛnyɛ pɛyɛ a adwadifoɔ na ɛyɛeɛ.",
+                        "Nneɛma brɛ ho nsɛm a afoforɔ na ɛyɛeɛ."
+                        ]
+                    },
+                    "indirect": {
+                        "title": "14.2 Akasaboa a Ɛmbɔ",
+                        "content": "Yɛni ho akasaboa wɔ ɔsɛeɛ biara a ɛbɛba ɛnam dwumadie yi so a ɛmfiri yɛn tiri mu paa."
+                    },
+                    "maximum": {
+                        "title": "14.3 Sika a Yɛbɛtumi Atua",
+                        "content": "Sika a yɛbɛtumi atua ama obiara ntra sika a ɔtuaa maa saa oda no anaa £50 (nea ɛsua na yɛde bɛdi dwuma)."
+                    }
                     }
                 },
                 "termination": {
-                    "title": "15. Account Termination",
-                    "content": "UrbanDrop betumi suspend anaa close w’account sɛ wopaw:",
+                    "title": "15. Akawnt mu Twamu",
+                    "content": "UrbanDrop bɛtumi asiw anaa wɔatwa wo akawnt mu sɛ:",
                     "items": [
-                        "Woyi Mmara yi so.",
-                        "Fraud anaa abusive activities.",
-                        "Misuse promotions anaa violate laws."
+                    "Wobu saa mmara yi so.",
+                    "Wode reyɛ nnaadaa dwuma.",
+                    "Wode nkanyan di dwuma bɔne anaa wobu mmara so."
                     ],
-                    "note": "Wobɛtumi request account deletion bere biara frɛ UrbanDrop Support."
+                    "note": "Wobɛtumi abisa sɛ yɛnpapa wo akawnt firi hɔ berɛ biara sɛ wofrɛ UrbanDrop Support."
                 },
                 "links": {
-                    "title": "16. Third-Party Links",
-                    "content": "Platform betumi yɛ links kɔ third-party websites. UrbanDrop nni responsibility ma content anaa policies a ɛwɔ hɔ, na sɛ wokɔ a, woyɛ own risk so."
+                    "title": "16. Atɛkyɛmfoɔ Nkitahodeɛ",
+                    "content": "Dwumadie yi bɛtumi akura nkitahodeɛ (links) a ɛkɔ mmaa foforɔ. UrbanDrop nni ho asɛm sɛnea saa mmaa no teɛ."
                 },
                 "changes": {
-                    "title": "17. Nsakraeɛ wɔ Mmara Yi Mu",
-                    "content": "UrbanDrop betumi update Mmara yi bere biara. Changes bɛyɛ effective bere a wɔde hyɛ Platform so. Sɛ wode UrbanDrop di dwuma a, ɛkyerɛ sɛ wopaw latest version no."
+                    "title": "17. Nsesaeɛ wɔ Mmara yi mu",
+                    "content": "UrbanDrop bɛtumi asesa saa mmara yi berɛ biara. Sɛ yɛsesa na yɛde si so a, ɛhyɛ aseɛ yɛ adwuma. Sɛ wokɔ so de UrbanDrop di dwuma a, ɛkyerɛ sɛ woagye nsesaeɛ no atom."
                 },
                 "governing": {
-                    "title": "18. Governing Law",
-                    "content": "Mmara yi yɛ governed by laws of England ne Wales. Disputes a ɛfiri anaa fa Mmara yi ho bɛyɛ subject to exclusive jurisdiction of courts of England ne Wales."
+                    "title": "18. Mmara a Ɛhwɛ Dwumadie yi",
+                    "content": "Saa Mmara yi gyina England ne Wales mmara so. Asɛm biara a ɛbɛba bɛkɔ England ne Wales asɛnnibea."
                 },
                 "contact": {
-                    "title": "19. Frɛ Yɛn",
-                    "content": "Sɛ wowɔ nsɛmmisa, complaints, anaa refund requests a, frɛ:",
+                    "title": "19. Nkitahodeɛ",
+                    "content": "Sɛ wowɔ nsɛmmisa, mpoatwa, anaa sika san ho asɛm a, yɛsrɛ wo frɛ:",
                     "companyName": "UrbanDrop Group Limited",
-                    "email": "Email: <a href=\"mailto:Info@urbandrop.io\" className=\"text-primary hover:underline\">Info@urbandrop.io</a>"
+                    "email": "Email: <a href=\"mailto:support@urbandrop.io\" className=\"text-primary hover:underline\">support@urbandrop.io</a>"
+                },
+            "customerTerms": {
+                "title": "Aditɔfoɔ Mmara ne Mpeneasoɔ",
+                "intro": "Mmara a ɛhwɛ wo dwumadie wɔ Urbandrop app ne website so, a nneɛma a wotɔ, akatua, Urbandrop+ nkaeɛ, ne aduane-noa ho nsɛm ka ho.",
+                "effective": "ƐHYƐ ASEƐ ADWUMA",
+                "effectiveDate": "23 Oforisuo 2026",
+                "version": "ƐREKƆ SO SEESEI",
+                "versionNumber": "1.0",
+                "jurisdiction": "MMARA TUMI",
+                "jurisdictionValue": "England ne Wales",
+                "governedBy": "NEA ƐHWƐ SO",
+                "governedByValue": "Urbandrop Group Ltd",
+                "readBeforeAccept": {
+                "title": "YƐSRƐ WO KAN YI ANSA NA WOAHYƐ ODA",
+                "content": "Saa Mmara yi yɛ apam a mmara ma kwan wɔ wo ne Urbandrop Group Limited ntam. Sɛ woyɛ akawnt, wohyɛ oda, anaa wode wo ho bɔ Urbandrop+ ho a, na woapene saa Mmara yi so. Wo nneyɛeɛ ho tumi krataa a ɛwɔ 'Consumer Rights Act 2015' ne 'Consumer Contracts Regulations 2013' mu no ka ho mpo sɛ biribiara wɔ saa krataa yi mu a, na ɛnsɛe saa tumi krataa no."
+                },
+                "contents": {
+                "title": "EMU NSƐM",
+                "twentyTwoClauses": "Nkyekyɛmu aduonu-mmienu",
+                "clause01": "01 Yɛn na yɛyɛ ne Saa Mmara Yi",
+                "clause02": "02 Wo Akawnt",
+                "clause03": "03 Som Mpɔtam ne Mmerɛ",
+                "clause04": "04 Oda Hyɛ",
+                "clause05": "05 Boɔ, Fees ne Akatua",
+                "clause06": "06 Nneɛma Brɛ",
+                "clause07": "07 Nneɛma a Mfeɛ Hyɛ Ho Anohyira",
+                "clause08": "08 Nneɛma a Ɛyeraa, Ɛsɛee anaa Mfomsoɔ Nneɛma",
+                "clause09": "09 Oda Twamu ne Wo Tumi sɛ Wobɛtwa mu",
+                "clause10": "10 Urbandrop+ Nkaeɛ",
+                "clause11": "11 Aduane-noa ne Dwumadifoɔ Nsɛm",
+                "clause12": "12 Aduane Banbɔ, Nneɛma a Ɛma Yadeɛ ne Aduane ho Nsɛm",
+                "clause13": "13 Nkanyan ne Vouchers",
+                "clause14": "14 Dwumadie a Ɛfata",
+                "clause15": "15 Yɛn Asɛdeɛ wɔ Wo Ho",
+                "clause16": "16 Nsɛm Banbɔ ne Wo kokoam Nsɛm",
+                "clause17": "17 Agyapadeɛ ho Mmara",
+                "clause18": "18 Nwiinwii ne Ntentɛnee",
+                "clause19": "19 Nsesaeɛ wɔ Saa Mmara yi mu",
+                "clause20": "20 Dwumadie Gyae",
+                "clause21": "21 Mmara ho Nsɛm a Ɛka ho",
+                "clause22": "22 Nkitahodeɛ"
+                },
+                "clause01": {
+                "title": "NKYEKYƐMU 01",
+                "subtitle": "Yɛn na yɛyɛ ne Saa Mmara Yi",
+                "content1": "Saa Aditɔfoɔ Mmara ne Mpeneasoɔ yi (\"Mmara\") yɛ apam a ɛwɔ wo (\"Oditɔfoɔ\", \"wo\") ne Urbandrop Group Limited (\"Urbandrop\", \"yɛn\", \"yɛ\") ntam. Yɛyɛ ankorankoro adwumakuo a wɔatwerɛ yɛn din wɔ England ne Wales a yɛn adwumakuo namba ne [00000000] na yɛn ɔfese titiriw wɔ [Registered Office Address].",
+                "content2": "Saa Mmara yi hyɛ aseɛ mmerɛ biara a wobɛkɔ urbandrop.io so, wobɛde yɛn mobile apps adi dwuma, wobɛyɛ akawnt, wobɛhyɛ oda, wobɛde wo ho bɛbɔ Urbandrop+, anaa wobɛhwɛ aduane-noa ho nsɛm wɔ Dwumadie yi so. Sɛ woyɛ yeinom mu biara a, na woapene so sɛ saa Mmara yi bɛsɔ wo mu.",
+                "whatUrbandropDoes": {
+                    "title": "Nea Urbandrop yɛ",
+                    "content": "Urbandrop yɛ dwadibea a adwadifoɔ pii ne aduane-noa ho nsɛm wɔ so, titiriw Abibiman, Caribbean ne Asia nnuane ne nneɛma a ɛfa yɛn amammere ho. Yɛka wo ne ankorankoro adwadifoɔ (\"Adwadifoɔ\") bom na wɔatwerɛ wɔn nneɛma na wɔatɔn, na yɛnam yɛn ankasa anaa yɛn ayɔnkofoɔ so de nneɛma no brɛ wo kɔsi wo fie kwan ano. Oda pii mu no, Urbandrop gyina hɔ ma wo de wie tɔn a ɛwɔ wo ne Odwadini no ntam; nneɛma no ho apam no wɔ wo ne Odwadini no ntam, ɛwom sɛ yɛn na yɛdi akatua ne aditɔfoɔ mmoa ho dwuma ma Odwadini no. Baabi a Urbandrop ankasa de nneɛma bɛbrɛ wo firi yɛn ankasa nneɛma-koraebea no, saa nneɛma no ho apam no wɔ wo ne Urbandrop ntam tiri."
+                },
+                "definedTerms": "Nkyerɛaseɛ Nsɛmfua",
+                "terms": {
+                    "platform": {
+                    "term": "Dwumadie (Platform)",
+                    "definition": "Urbandrop website no (urbandrop.io), iOS ne Android apps, aduane-noa ho nsɛm, ne som biara a ɛne no wɔ nkitaho a yɛde di dwuma."
+                    },
+                    "account": {
+                    "term": "Akawnt (Account)",
+                    "definition": "Wo ankasa akawnt a ɛwɔ Dwumadie yi so."
+                    },
+                    "order": {
+                    "term": "Oda (Order)",
+                    "definition": "Abisadeɛ a wode fa Dwumadie yi so sɛ worepɛ sɛ wotɔ nneɛma firi Odwadini baako anaa nea ɛboro saa hɔ."
+                    },
+                    "merchant": {
+                    "term": "Odwadini (Merchant)",
+                    "definition": "Ankorankoro adwadifoɔ, supermarket anaa tɔnfoɔ biara a ne din wɔ Dwumadie yi so."
+                    },
+                    "rider": {
+                    "term": "Rider",
+                    "definition": "Obi a ɔde wo nneɛma firi Odwadini hɔ brɛ wo wɔ fie, a yɛbɛtumi afa no adwuma tiri anaa yɛnam yɛn nneɛma-brɛfoɔ ayɔnkofoɔ so."
+                    },
+                    "urbandropPlus": {
+                    "term": "Urbandrop+",
+                    "definition": "Yɛn akatua nkaeɛ som a yɛakyerɛkyerɛ mu wɔ Nkyekyɛmu 10 mu."
+                    },
+                    "recipeContent": {
+                    "term": "Aduane-noa ho Nsɛm",
+                    "definition": "Aduane-noa kwan, videos, mfoni, ne nsɛm a ɛne no wɔ nkitaho a yɛn anaa afoforɔ na yɛde ato Dwumadie yi so."
+                    },
+                    "statutoryRights": {
+                    "term": "Mmara Tumi Krataa (Statutory Rights)",
+                    "definition": "Wo tumi krataa sɛ aditɔfoɔ wɔ UK mmara ase, a 'Consumer Rights Act 2015' ne 'Consumer Contracts Regulations 2013' ka ho, a ɛyɛ adwuma mmerɛ biara mpo sɛ Mmara yi wɔ hɔ."
+                    }
                 }
+                },
+                "clause02": {
+                "title": "NKYEKYƐMU 02",
+                "subtitle": "Wo Akawnt",
+                "whoCanCreate": {
+                    "title": "2.1 Hwan na ɔbɛtumi ayɛ akawnt",
+                    "content": "Ɛsɛ sɛ woadi mfie 18 ansa na woayɛ Akawnt. Sɛ woadi mfie 16 anaa 17 a, wobɛtumi de Dwumadie yi adi dwuma sɛ wo awofoɔ anaa obi a ɔhwɛ wo so na ɔdi wo nneɛma ho akasaboa no hwɛ wo nko ara."
+                },
+                "accurateInfo": {
+                    "title": "2.2 Nsɛm a ɛyɛ pɛ",
+                    "content": "Ɛsɛ sɛ woma nsɛm a ɛyɛ nokware, ɛyɛ seesei dea, na ɛyɛ pɛ mmerɛ a woreyɛ wo Akawnt na hwɛ sɛ ɛbɛyɛ foforɔ mmerɛ biara. Wo na wodi wo dwumadie mu nsɛm (login credentials) ho banbɔ ho asɛm. Sɛ wosusu sɛ obi foforɔ de wo Akawnt adi dwuma a, bɔ yɛn amanneɛ ntɛm wɔ support@urbandrop.io."
+                },
+                "oneAccount": {
+                    "title": "2.3 Akawnt baako pɛ ma onipa baako",
+                    "content": "Wobɛtumi akura Akawnt baako pɛ mmerɛ koro mu. Yɛbɛtumi aka akawnt mmienu a ɛyɛ pɛ abom anaa yɛbɛtwa mu sɛdeɛ yɛpɛ (Urbandrop credit biara bɛkɔ akawnt a ɛka hɔ no mu)."
+                },
+                "personalUse": {
+                    "title": "2.4 Dwumadie no mfasoɔ ma wo ankasa",
+                    "content": "Wobɛtumi de Dwumadie yi adi dwuma ama wo ankasa ankorankoro asetena nko ara, ɛnyɛ dwadie mu. Worentumi nsan ntɔn nneɛma a wotɔɔ no fa Dwumadie yi so, worentumi mfa Akawnt nni dwuma mma obi foforɔ ne dwadie mfasoɔ, anaa worenhyɛ oda mfa obi foforɔ sika kwan so a wonnyaa kwan firi ne hɔ."
+                }
+                },
+                "clause03": {
+                "title": "NKYEKYƐMU 03",
+                "subtitle": "Som Mpɔtam ne Mmerɛ",
+                "whereWeDeliver": {
+                    "title": "3.1 Baabi a yɛde nneɛma brɛ",
+                    "content": "Urbandrop wɔ hɔ seesei wɔ UK postcode bi mu, yɛahyɛ aseɛ wɔ Bristol na yɛbɛtrɛ kɔ Birmingham, London, Manchester ne UK nkuropɔn afoforɔ mu wɔ mmerɛ mu. App no bɛkyerɛ wo mmerɛ a worehyɛ oda no sɛ wo fie postcode no wɔ mpɔtam a yɛyɛ adwuma seesei anaa. Yɛbɛtumi aka mpɔtam bi ho, yɛasesa, anaa yɛayi afiri hɔ mmerɛ biara."
+                },
+                "whenWeDeliver": {
+                    "title": "3.2 Mmerɛ a yɛde nneɛma brɛ",
+                    "content": "Nneɛma brɛ mmerɛ gyina Odwadini no ne baabi a wowɔ so na ɛbɛda adi wɔ app no mu. Adwadifoɔ bi ne nneɛma bi wɔ hɔ mmerɛ bi nko ara."
+                },
+                "stockAvailability": {
+                    "title": "3.3 Nneɛma a ɛwɔ hɔ",
+                    "content": "Nneɛma a ɛwɔ hɔ gyina Odwadini no nneɛma-koraebea so, na ɛsesa mmerɛ biara wɔ ɛda no mu. Mmerɛ bi wɔ hɔ a, adeɛ bi bɛtumi ada adi sɛ ɛwɔ hɔ mmerɛ a worehyɛ oda nanso mmerɛ a Odwadini no rebɛyi nneɛma no na ɛni hɔ bio. Sɛ ɛba saa a, Nkyekyɛmu 8 bɛyɛ adwuma."
+                }
+                },
+                "clause04": {
+                "title": "NKYEKYƐMU 04",
+                "subtitle": "Oda Hyɛ",
+                "contractFormed": {
+                    "title": "4.1 Sɛnea apam si",
+                    "content": "Mmerɛ a wohyɛ Oda fa Dwumadie yi so no, na worekyerɛ sɛ wope sɛ wotɔ nneɛma no. Apam si hɔ nko ara mmerɛ a yɛn (yɛregyina hɔ sɛ Odwadini no nanmusini, anaa yɛn ankasa nneɛma ho no, sɛ tɔnfoɔ) yɛkyerɛ sɛ Odwadini no agye wo Oda no atom. Nnyinasoɔ no bɛda adi wɔ app no mu na yɛbɛtumi de email anaa push notification abrɛ wo."
+                },
+                "orderChanges": {
+                    "title": "4.2 Oda nsesaeɛ",
+                    "content": "Sɛ wɔgye Oda atom a, wobɛntumi nsesa mu wɔ app no mu bio. Wobɛtumi ne mmoa-kuo no adi nkitaho, nanso saa mmerɛ no na Odwadini no bɛtumi ayɛ wie anaa ɔde ahyɛ kwan so, na yɛbɛtumi antumi nsesa mu bio."
+                },
+                "minimumOrder": {
+                    "title": "4.3 Oda a ɛsua koraa",
+                    "content": "Oda boɔ bi wɔ hɔ a ɛsɛ sɛ wodu ho ansa. Sɛ nneɛma a wope no boɔ nnuru Odwadini no anohyira so a, app no bɛkyerɛ wo fee ketewa bi a ɛka ho anaa ɔbɛka sɛ fa nneɛma pii ka ho. Fee a ɛka ho no bɛda adi mmerɛ a worehyɛ oda."
+                },
+                "substitutions": {
+                    "title": "4.4 Nneɛma nsesaeɛ",
+                    "content": "Sɛ adeɛ bi nni hɔ mmerɛ a Odwadini no reyi nneɛma no a, Odwadini no anaa yɛn bɛtumi de adeɛ foforɔ a ɛne no sɛ abrɛ wo. Sɛ yɛde adeɛ foforɔ brɛ wo na wope a, wobɛtumi apo wɔ pono ano anaa wobɛkyerɛ wɔ Nkyekyɛmu 8 ase, na yɛbɛsan de wo sika ama wo."
+                },
+                "rightToRefuse": {
+                    "title": "4.5 Tumi sɛ wobɛpo",
+                    "content": "Yɛwɔ tumi sɛ yɛbɛpo anaa yɛbɛtwa Oda mu sɛ, mfatoho, adeɛ no nni hɔ, boɔ no nni mmuaeɛ pa ɛnam mfomsoɔ bi nti, yɛsusu sɛ nnaadaa dwuma bi rekɔ so, wo fie postcode no nni yɛn mpɔtam, anaa Oda no bu saa Mmara yi anaa mmara bi so. Sɛ yɛyɛ saa a, wobɛnya wo sika nyinaa na yɛbɛka nea nti a yɛyɛɛ saa."
+                }
+                },
+                "clause05": {
+                "title": "NKYEKYƐMU 05",
+                "subtitle": "Boɔ, Fees ne Akatua",
+                "productPrices": {
+                    "title": "5.1 Nneɛma boɔ",
+                    "content": "Nneɛma boɔ no Odwadini no na ɔsi (anaa Urbandrop ma yɛn ankasa nneɛma) na ɛda adi wɔ app no mu wɔ 'pounds sterling (GBP)' mu na VAT ka ho baabi a ɛfata. Boɔ no bɛtumi ayɛ foforɔ afiri nea ɛwɔ Odwadini no sotɔɔ fie hɔ na ɛbɛtumi asesa mmerɛ biara ansa na woahyɛ wo Oda."
+                },
+                "fees": {
+                    "title": "5.2 Fees",
+                    "content": "Fees a ɛtaa da adi mmerɛ a worehyɛ oda ka ho:",
+                    "items": [
+                    "<strong>Delivery fee</strong> — ɛsesa sɛnea baabi a wowɔ kwan ware tee, mmerɛ a ɛwɔ hɔ ne nnipa dodoɔ a wɔrehwehwɛ nneɛma. Urbandrop+ nkaeɛfoɔ nya 'free' anaa 'priority delivery' wɔ nneɛma bi mu (hwɛ Nkyekyɛmu 10).",
+                    "<strong>Service fee</strong> — sika fã bi a ɛka wo nneɛma boɔ ho a yɛgye wɔ Oda biara so de kɔ so hwɛ Dwumadie yi.",
+                    "<strong>Small-basket uplift</strong> — fee ketewa bi a yɛgye sɛ wo nneɛma boɔ nnuru 'minimum order' a yɛhwehwɛ ho a.",
+                    "<strong>Tips</strong> — ɛno deɛ sɛ wope a. Tips 100% kɔ ma Rider no; Urbandrop nnye biara mfiri mu."
+                    ]
+                },
+                "surgePricing": {
+                    "title": "5.3 Mmerɛ a nneɛma boɔ kɔ so",
+                    "content": "Delivery fees bɛtumi akɔ soro mmerɛ a nnipa pii rehwehwɛ nneɛma, wim tebea bɔne, anaa mmerɛ a Riders nni hɔ pii. App no bɛkyerɛ wo fee no mmerɛ biara pefee ansa na woapene Oda no so."
+                },
+                "payment": {
+                    "title": "5.4 Akatua",
+                    "content": "Yɛgye debit ne credit cards akɛseɛ, Apple Pay, Google Pay ne akatua kwan afoforɔ biara a ɛda adi wɔ app no mu. Akatua kɔ so fa yɛn 'payment provider' so; yɛnkora wo card ho nsɛm nyinaa wɔ yɛn mfiridwuma mu. Sɛ wohyɛ Oda a na woama yɛn kwan sɛ yɛmfa sika no mfiri wo kwan a woapaw no so pɛpɛɛpɛ."
+                },
+                "preAuth": {
+                    "title": "5.5 Sika a yɛsɔ mu",
+                    "content": "Sɛ wohyɛ Oda a, yɛbɛtumi asɔ sika bi mu (pre-authorisation) mmerɛ tiawa bi wɔ wo akatua kwan no so. Ɛnyɛ gye na yɛregye sika no; sika no ankasa deɛ yɛgye no mmerɛ a yɛgye wo Oda no tom anaa yɛde reba. Sika a yɛsɔ mu no taa sesa wɔ nnafua 3–7 mu gyina wo bank so."
+                },
+                "receipts": {
+                    "title": "5.6 Receipts",
+                    "content": "Oda biara receipt wɔ hɔ wɔ app no mu na sɛ woapaw a, yɛde bɛmana wo email."
+                }
+            },
+            "clause06": {
+                "title": "NKYEKYƐMU 06",
+                "subtitle": "Nneɛma Brɛ",
+                "deliveryTime": {
+                "title": "6.1 Nneɛma brɛ mmerɛ nkyerɛkyerɛmu",
+                "content": "Mmerɛ a wɔakyerɛ wɔ app no mu sɛ yɛde bɛba no yɛ mmerɛ a yɛsusu sɛ ɛbɛtumi ayɛ, ɛnyɛ nnyinasoɔ a ɛnsesa. Oda pii taa ba wɔ simma 30–90 mu, nanso mmerɛ ankasa no gyina sɛnea Odwadini no besiesie nneɛma no, Rider a ɔwɔ hɔ, akwantuo mu nneɛma (traffic), ne wim tebea so."
+                },
+                "whereWeDeliver": {
+                "title": "6.2 Baabi a yɛde nneɛma brɛ",
+                "content": "Yɛde nneɛma no bɛba address a woapaw mmerɛ a worehyɛ oda no. Ɛyɛ w'asɛdeɛ sɛ wobɛhwɛ sɛ address no yɛ pɛ na kwan wɔ hɔ a yɛbɛtumi afa so aba hɔ. Yɛntumi mfa nneɛma nkɔ PO Boxes, lockers, anaa address biara a yɛntumi mfa nneɛma no nnyina hɔ wɔ banbɔ mu. Baabi a kwan no mu yɛ den sɛ wɔbɛkɔ mu no, ɛsɛ sɛ woma nkyerɛkyerɛmu a emu da hɔ (buzzer, flat number, access code) wɔ 'delivery notes' no mu."
+                },
+                "handover": {
+                "title": "6.3 Nneɛma nsa-hyɛ",
+                "content": "Gye sɛ woapaw sɛ \"leave at door\" (gya no pono ano) anaa kwan foforɔ a nkitahodeɛ nnim, gye sɛ panin bi wɔ address hɔ a ɔbɛgye Oda no. Nneɛma a mfeɛ hyɛ ho anohyira (Nkyekyɛmu 7) deɛ, nneɛma-brɛ a nkitahodeɛ nnim biara nni hɔ."
+                },
+                "ifNoOneAvailable": {
+                "title": "6.4 Sɛ obiara nni hɔ a",
+                "content": "Sɛ Rider no ba na ontumi nnya wo (wombue pono, wonnye nkaebɔ so wɔ app no so anaa fon so) a, ɔbɛtwɛn mmerɛ kakra (taa yɛ simma 5) ansa na ɔbɔ amanneɛ sɛ ontumi mfa nneɛma no mma. Saa berɛ no:",
+                "items": [
+                    "nneɛma a ɛsɛe ntɛm (nam, nufusuo, nnuaba, nneɛma a ɛwɔ ɛnwunu mu) wobɛtumi apapa mu afiri hɔ wɔ banbɔ mu na wɔnsan sika biara mma gye sɛnea mmara kyerɛ;",
+                    "nneɛma a ɛnsɛe ntɛm no deɛ, yɛbɛtumi de asan akɔma Odwadini no anaa yɛakura mu na yɛasan de abrɛ wo bio, ɛno bɛtumi agye sika foforɔ;",
+                    "yɛnsan delivery fee no mma baabi a mfomsoɔ no mfiri yɛn hɔ."
+                ]
+                },
+                "leaveAtDoor": {
+                "title": "6.5 Gya no pono ano",
+                "content": "Sɛ woapaw sɛ yɛngya no pono ano anaa woma yɛn kwan sɛ yɛngya Oda no wɔ baabi a ɛhɔ yɛ fɛ a, nneɛma no ho asɛdeɛ nyinaa bɛda wo so mmerɛ a Rider no gya nneɛma no hɔ na ɔyɛ mfoni sɛ nnyinasoɔ no. Yɛni ho asɛm bio sɛ nneɛma no yera anaa obi kɔka akyi."
+                },
+                "riskOwnership": {
+                "title": "6.6 Asɛdeɛ ne dea",
+                "content": "Nneɛma no ho asɛdeɛ nyinaa bɛyɛ wo dea mmerɛ a yɛde hyɛ wo nsa (anaa mmerɛ a yɛde gya pono ano wɔ 6.5 ase). Nneɛma no bɛyɛ wo dea ankasa mmerɛ a woatua sika no nyinaa na woanya nneɛma no."
+                }
+            },
+            "clause07": {
+                "title": "NKYEKYƐMU 07",
+                "subtitle": "Nneɛma a Mfeɛ Hyɛ Ho Anohyira",
+                "intro": "Nneɛma bi wɔ Dwumadie yi so a UK mmara mma kwan kɛkɛ, a nsa, tawa, nicotine-vaping, nkranteɛ ne biribiara a ɛyɛ nnam, ne nneɛma bi a ɛyɛ mmerɛ (solvents) ka ho. Yɛdi 'Licensing Act 2003', 'Tobacco and Related Products Regulations 2016', 'Offensive Weapons Act 2019' ne mmara biara a ɛfa ho so pɛpɛɛpɛ.",
+                "minimumAge": {
+                "title": "7.1 Mfeɛ a ɛsua koraa",
+                "content": "Ɛsɛ sɛ woadi mfie 18 ansa na woahyɛ nsa, tawa, vapes anaa nkranteɛ ho oda fa Dwumadie yi so. Sɛ wohyɛ saa nneɛma yi ho oda a, na worekyerɛ sɛ woadi mfie 18 anaa nea ɛboro saa."
+                },
+                "challenge25": {
+                "title": "7.2 Challenge 25 wɔ nneɛma-brɛ mu",
+                "content": "Yɛde 'Challenge 25' mmara no di dwuma. Sɛ obi a ɔregye Oda no hwɛ mu a ontwaa mfie 25 a, Rider no bɛbisa no mfoni ID (UK passport, UK driving licence, anaa identity document foforɔ a Home Office na ɛyɛeɛ). Mmara hyɛ Rider no sɛ ɔpo sɛ ɔbɛde saa nneɛma no bɛhyɛ wo nsa sɛ wonni ID anaa sɛ onipa no abɔ nsa."
+                },
+                "idFails": {
+                "title": "7.3 Nea ɛsi sɛ ID no nyɛ pɛ a",
+                "content": "Sɛ yɛpo nneɛma no wɔ pono ano a, yɛbɛsan de saa nneɛma no akɔma Odwadini no na yɛasan de saa nneɛma no boɔ ahyɛ wo kwan a wode tuaa sika no mu. Oda no fã a ɛka hɔ no deɛ, yɛde bɛbrɛ wo sɛnea ɛsɛ. Yɛnsan delivery fee no mma mmerɛ a yɛbɔɔ mmɔden sɛ yɛde bɛbrɛ wo pɛyɛ."
+                },
+                "proxyPurchasing": {
+                "title": "7.4 Obi ananmu tɔ",
+                "content": "Ɛyɛ mmara mu mfomsoɔ kɛseɛ sɛ wobɛtɔ nsa, tawa anaa nneɛma a anohyira wɔ so abrɛ obi a onnyinii mfie 18. Sɛ yɛhu sɛ wo Oda no yɛ obi ananmu tɔ a, yɛbɛpo anaa yɛbɛtwa mu, yɛbɛtumi asiw wo Akawnt kwan, na yɛbɛtumi abɔ amanneɛ akyerɛ polisifoɔ ne atitiriw a wɔhwɛ tumi krataa (licensing) so."
+                }
+            },
+            "clause08": {
+                "title": "NKYEKYƐMU 08",
+                "subtitle": "Nneɛma a Ɛyeraa, Ɛsɛee anaa Mfomsoɔ Nneɛma",
+                "intro": "Yɛpɛ sɛ wo tiri yɛ wo dɛ wɔ Oda biara ho. Sɛ biribi ankɔ yie a, sɛnea yɛtaa siesie asɛm no ni — ne wo mmara kwan so tumi (statutory rights) a ɛhyɛ wo nsa mmerɛ biara.",
+                "resolutionMatrix": {
+                "title": "8.1 Akwan a yɛfa so siesie nsɛm",
+                "issue": "ASƐM",
+                "typicalResolution": "SƐNEA YƐSIESIE NO",
+                "reportBy": "REPORT MMERƐ",
+                "rows": [
+                    { "issue": "Adeɛ bi a ɛyeraa wɔ Oda no mu", "resolution": "Sika san (wɔ sika kwan a wode tuaeɛ no mu) anaa Urbandrop credit — nea wopaw", "timeframe": "Dɔnhwere 48 mu a woanya Oda no" },
+                    { "issue": "Adeɛ a ɛsɛee anaa ɛyɛ bɔne", "resolution": "Sika san anaa yɛbɛhyɛ ananmu wɔ wo Oda a ɛbɛba bio mu", "timeframe": "Dɔnhwere 48 mu a woanya Oda no" },
+                    { "issue": "Mfomsoɔ adeɛ na ɛbaa hɔ", "resolution": "Sika san ma mfomsoɔ adeɛ no; wobɛtumi akura mu anaa woayi afiri hɔ", "timeframe": "Dɔnhwere 48 mu a woanya Oda no" },
+                    { "issue": "Oda no amba koraa", "resolution": "Sika san nyinaa (delivery fee ka ho) anaa yɛasan de abrɛ wo bio", "timeframe": "Dɔnhwere 24 mu a mmerɛ a yɛahyɛ no kɔn" },
+                    { "issue": "Adeɛ no nyɛ papa sɛnea wosusu (sɛ dɛ no asesa)", "resolution": "Yɛbɛhwɛ asɛm no fã biara; statutory rights yɛ adwuma wɔ 'Consumer Rights Act 2015' ase", "timeframe": "Nnafua 14 mu" },
+                    { "issue": "Oda a wo ankasa woatwa mu", "resolution": "Hwɛ Nkyekyɛmu 9 — gyina mmerɛ a woatwa mu so", "timeframe": "Fa app no so ansa na Odwadini agye atom" },
+                    { "issue": "Oda a Odwadini anaa Urbandrop atwa mu", "resolution": "Sika bɛsan wo ankasa; wonnyɛ hwee", "timeframe": "—" }
+                ]
+                },
+                "howToReport": {
+                "title": "8.2 Sɛnea wobɔ amanneɛ",
+                "content": "Fa \"Help with this Order\" kwan no so wɔ app no mu, anaa kyerɛw support@urbandrop.io. Ma wo Oda namba, nea ɛsiieɛ, ne mfoni baabi a ɛbɛboa. Yɛpɛ sɛ yɛgye wo so wɔ nnawɔtwe mu nnafua mmienu (2) na yɛasiesie no wɔ nnafua nnum (5) mu, na mpɛn pii no ɛyɛ ntɛm koraa ma nsɛm a emu da hɔ."
+                },
+                "whenRefundsIssued": {
+                "title": "8.3 Mmerɛ a sika san ba",
+                "content": "Baabi a yɛagye atom sɛ yɛbɛsan sika no, yɛde bɛhyɛ kwan a wode tuaa sika no mu na ɛtaa ba wɔ nnafua 3–10 mu gyina wo bank so. Ma Urbandrop credit deɛ, ɛba wo Akawnt mu ntɛm na wobɛhu mmerɛ a worehyɛ Oda a ɛdi hɔ."
+                },
+                "whenWeDecline": {
+                "title": "8.4 Mmerɛ a yɛbɛtumi apo sika san",
+                "content": "Yɛbɛtumi apo sika san abisadeɛ sɛ:",
+                "items": [
+                    "woammɔ amanneɛ mmerɛ a yɛahyɛ no mu a wonni nkyerɛkyerɛmu pa;",
+                    "woadi adeɛ no nyinaa ansa na worebɔ amanneɛ a wonni nkyerɛkyerɛmu pa;",
+                    "yɛwɔ adanseɛ sɛ abisadeɛ no nyɛ nokware (mfatoho, nnaadaa bi a ɛkɔ so mpɛn pii);",
+                    "asɛm no firii wo ankasa nneyɛeɛ mu (mfatoho, woapaw sɛ yɛngya pono ano baabi a wowim sɛ wɔbɛwia)."
+                ],
+                "note": "Saa berɛ no yɛbɛkyerɛ wo nea nti a yɛyɛɛ saa na wobɛtumi de asɛm no akɔ anim wɔ Nkyekyɛmu 18 ase."
+                },
+                "statutoryRights": {
+                "title": "8.5 Wo mmara kwan so tumi",
+                "content": "Biribiara nni saa Nkyekyɛmu yi mu a ɛsiw wo kwan wɔ 'Consumer Rights Act 2015' (nneɛma ɛsɛ sɛ ɛyɛ papa, ɛfata dwumadie, na ɛte sɛnea yɛakyerɛkyerɛ mu) anaa 'Consumer Contracts Regulations 2013' ase. Saa tumi no ka mmuaeɛ a ɛwɔ atifi hɔ no ho."
+                },
+                "fraudulentClaims": {
+                "title": "NNAADAA ABISADEƐ",
+                "content": "Yɛgye sika san abisadeɛ nyinaa wɔ nokware mu. Sɛ wobisa sika san mmerɛ a wonim sɛ ɛyɛ nkontompo a, ɛyɛ nnaadaa dwuma wɔ 'Fraud Act 2006' ase, na ɛbɛma yɛatwa wo Akawnt mu, na yɛwɔ tumi sɛ yɛbɛhwehwɛ sika a yɛasan de ama wo no na yɛabɔ amanneɛ akyerɛ polisifoɔ."
+                }
+            },
+            "clause09": {
+                "title": "NKYEKYƐMU 09",
+                "subtitle": "Oda Twamu ne Wo Tumi sɛ Wobɛtwa mu",
+                "beforeAcceptance": {
+                "title": "9.1 Twamu ansa na Odwadini agye atom",
+                "content": "Wobɛtumi atwa Oda mu mmerɛ biara ansa na Odwadini no agye atom fa app no so. Fee biara nni ho, na wobɛnya wo sika nyinaa."
+                },
+                "afterAcceptance": {
+                "title": "9.2 Twamu akyi a wɔagye atom",
+                "content": "Mmerɛ a Odwadini no agye atom na wahyɛ aseɛ reyɛ wo nneɛma no, twamu bɛtumi agye fee bi de akatua sika a wɔahyɛ aseɛ abɔ no:",
+                "items": [
+                    "Wɔagye atom nanso wɔmfa mmaeɛ — taa yɛ fee ketewa bi a ɛhwɛ Odwadini ne delivery-dispatch ho ka.",
+                    "Wɔayi nneɛma no wieeɛ nanso ɛnyɛɛ kwan so — taa yɛ fee a ɛne nneɛma no boɔ ne delivery fee no yɛ pɛ, esiane sɛ nneɛma a ɛsɛe ntɛm no nyɛ mmerɛ sɛ wɔde bɛsan ato 'shelf' so.",
+                    "Ɛnam kwan so anaa wɔde aba fie — twamu nyɛ mmerɛ. Wobɛtumi abisa mmoa wɔ Nkyekyɛmu 8 ase sɛ ɛfata a."
+                ],
+                "note": "App no bɛkyerɛ wo twamu fee a ɛfata (sɛ ɛwɔ hɔ a) ansa na woapene twamu no so."
+                },
+                "rightToCancel": {
+                "title": "9.3 Tumi sɛ wobɛtwa mu wɔ Consumer Contracts Regulations 2013 ase",
+                "content": "Mmara no ma aditɔfoɔ nnafua 14 'cooling-off' mmerɛ ma nneɛma pii a wɔtɔ wɔ intanɛt so. Nanso, Regulation 28 yi nneɛma a ɛsɛe ntɛm (nnuane pii) ne nneɛma a wɔahyɛ mu a wɔntumi mfa nsan ɛnam ahotiee ne ahotɔ nti mmerɛ a wɔabue mu. Esiane sɛnea yɛn nneɛma teɛ nti, saa mmerɛ no ntumi nyɛ adwuma mpɛn pii. Eyi nsɛe wo mmara kwan so tumi wɔ Consumer Rights Act 2015 ase."
+                },
+                "cancellationByUs": {
+                "title": "9.4 Twamu a ɛfiri yɛn hɔ",
+                "content": "Yɛbɛtumi atwa Oda mu wɔ Nkyekyɛmu 4.5 ase. Sɛ yɛyɛ saa a, yɛsan sika no nyinaa na (sɛ ɛnyɛ wo nti na yɛtwaa mu a) yɛbɛtumi de credit anaa 'goodwill' bi abrɛ wo sɛ opa-kyɛw."
+                }
+            },
+            "clause10": {
+                "title": "NKYEKYƐMU 10",
+                "subtitle": "Urbandrop+ Nkaeɛ",
+                "intro": "Urbandrop+ yɛ yɛn akatua nkaeɛ som a ɛnyɛ ahyɛdeɛ. Saa Nkyekyɛmu yi kyerɛ mmara a ɛfa Urbandrop+ ho titiriw. Nkyekyɛmu afoforɔ a ɛwɔ Mmara yi mu kɔ so yɛ adwuma ma wo Urbandrop+ Oda nyinaa.",
+                "whatYouGet": {
+                "title": "10.1 Nea wobɛnya",
+                "content": "Urbandrop+ mfasoɔ seesei ka ho (yɛbɛtumi asesa mmerɛ biara a yɛbɛbɔ wo amanneɛ):",
+                "items": [
+                    "free standard delivery wɔ Oda a ɛboro boɔ a yɛahyɛ no so;",
+                    "priority delivery slots baabi a ɛwɔ hɔ;",
+                    "exclusive member-only deals ne nkanyan boɔ;",
+                    "aduane-noa ho nsɛm a 'ads' biara nni mu."
+                ],
+                "note": "Mfasoɔ a ɛgyina atɛkyɛmfoɔ so (mfatoho, priority slots mmerɛ a nnipa pii rehwehwɛ nneɛma) deɛ yɛbɛbɔ mmɔden sɛnea yɛbɛtumi."
+                },
+                "pricing": {
+                "title": "10.2 Boɔ",
+                "content": "Urbandrop+ wɔ bosome anaa afe nhyehyɛeɛ mu. Boɔ no da adi wɔ app no mu na VAT ka ho. Yɛbɛtumi asesa boɔ no mmerɛ a ɛreba; yɛbɛbɔ nkaeɛfoɔ amanneɛ bɛyɛ nnafua 30 ansa na nsesaeɛ noahyɛ aseɛ, na wobɛtumi atwa mu sɛ wope a."
+                },
+                "freeTrials": {
+                "title": "10.3 Free trials",
+                "content": "Sɛ wode 'free trial' hyɛ Urbandrop+ ase a, yɛbɛkyerɛ wo mmerɛ a mmuaeɛ no bɛdie ne boɔ a ɛbɛba akyi. Wobɛtumi atwa mu ansa na trial no asa, na yɛntua sika biara. Sɛ woantwa mu a, na woama yɛn kwan sɛ yɛmfa sika no mfiri wo kwan no so mmerɛ a trial no sa."
+                },
+                "autoRenewal": {
+                "title": "10.4 Auto-renewal",
+                "content": "Urbandrop+ nkaeɛ no yɛ foforɔ wɔ ne mmerɛ a ɛhyɛ mu no ano (bosome anaa afe) gye sɛ woatwa mu. Yɛbɛgye sika no wɔ mmerɛ no ano. Eyi yɛ mmara kwan so esiane sɛ yɛbɔ wo amanneɛ pefee wɔ ha ne app no mu. Wobɛtumi agyae auto-renewal no mmerɛ biara wɔ wo Akawnt nhyehyɛeɛ mu."
+                },
+                "cancelling": {
+                "title": "10.5 Urbandrop+ Twamu",
+                "content": "Wobɛtumi atwa mu mmerɛ biara wɔ wo Akawnt nhyehyɛeɛ mu anaa fa mmoa-kuo no so. Twamu no siw nkaeɛ a ɛbɛba bio no kwan nanso ɛmma wo kwan sɛ wonya sika san wɔ mmerɛ a wuatua kura mu no mu, gye sɛ:",
+                "items": [
+                    "Wɔ Consumer Contracts Regulations 2013 ase, nnafua 14 mu a wode wo din hyehyɛɛ mu no, wowɔ 14-day cooling-off period. Sɛ woatwa mu wɔ nnafua 14 mu a, yɛbɛsan sika no nyinaa, gye sika kakra a ɛfa mfasoɔ a woanya (mfatoho, delivery fees a woannya hwee)." ,
+                    "Nnafua 14 akyi no, twamu no hyɛ aseɛ mmerɛ a wo nhyehyɛeɛ no bɛsa. Wobɛtumi anya mfasoɔ no akɔsi saa mmerɛ no."
+                ]
+                },
+                "changesToBenefits": {
+                "title": "10.7 Nsesaeɛ wɔ mfasoɔ mu",
+                "content": "Yɛbɛtumi aka ho, yɛasesa, anaa yɛayi Urbandrop+ mfasoɔ afiri hɔ. Baabi a nsesaeɛ no bɛte mfasoɔ no so paa no, yɛbɛbɔ wo amanneɛ bɛyɛ nnafua 30, na wobɛtumi atwa mu na yɛasan sika kakra a ɛfa mmerɛ a woamfa anni dwuma no mu."
+                },
+                "terminationByUs": {
+                "title": "10.8 Twamu a ɛfiri yɛn hɔ",
+                "content": "Yɛbɛtumi atwa wo Urbandrop+ nkaeɛ mu na yɛasiw wo Akawnt kwan sɛ wobu saa Mmara yi so paa, wode reyɛ nnaadaa dwuma, anaa wode mfasoɔ no redi dwuma bɔne. Sɛ yɛyɛ saa ɛnam wo mfomsoɔ nti a, yɛnni asɛdeɛ sɛ yɛsan sika biara mma wo. Sɛ yɛyɛ saa a ɛnyɛ wo mfomsoɔ a, yɛbɛsan sika kakra ama wo."
+                }
+            },
+            "clause11": {
+                "title": "NKYEKYƐMU 11",
+                "subtitle": "Nnuane-noa ne Dwumadiefoɔ Nsɛm",
+                "recipePersonalUse": {
+                "title": "11.1 Nnuane-noa ho nsɛm yɛ wo ankasa deɛ",
+                "content": "Wobɛtumi ahwɛ na woanoa nnuane afiri Dwumadie yi so ama wo ankasa w'asetena mu, ɛnyɛ adwumayɛ. Gye sɛnea app no mpaepaemu (share buttons) ma kwan (mfatoho, sɛ wode link bɛkɔ social media), wonni ho kwan sɛ woyɛ nsesaeɛ, woyɛ bi foforɔ, anaa wopakyere nnuane-noa ho nsɛm yi kɔ baabi foforɔ."
+                },
+                "accuracyOfRecipes": {
+                "title": "11.2 Nnuane-noa ho nokware",
+                "content": "Nnuane-noa ho nsɛm yi yɛ nea yɛde kyerɛ kwan kɛkɛ. Ɛmfa ho sɛ yɛn ne yɛn creators bɔ mmɔden no, yɛnni nnyinasoɔ sɛ nnuane-noa ho nsɛm yi nyinaa bɛyɛ pɛ anaa ɛbɛfata obiara, titiriw baabi a 'allergies', mmofra-yɛ (pregnancy), anaa ayaresa ho nsɛm ka ho. Mmerɛ biara hwɛ nneɛma a wɔde ayɛ aduane no ho mpaepaemu (labels) na fa w'asɛm kɔma animdefoɔ mmerɛ a ɛfata."
+                },
+                "recipeToBasket": {
+                "title": "11.3 Nnuane-noa kɔ basket mu",
+                "content": "Nnuane-noa pii wɔ \"Shop the recipe\" button a ɛbɛtumi de nneɛma a wɔasusu kɔ wo basket mu afiri Adwadini hɔ. Nneɛma dodoɔ a wɔakyerɛ no yɛ nea yɛsusu sɛ ɛbɛtumi ayɛ — hwɛ wo basket mu ansa na woatua sika. Nneɛma a ɛwɔ hɔ, ne boɔ, ne Odwadini no bɛda adi mmerɛ a worehyɛ Oda no."
+                },
+                "userContent": {
+                "title": "11.4 Wo Dwumadiefoɔ Nsɛm",
+                "content": "Sɛ wode rating, review, comment, mfoni anaa nsɛm foforɔ biara ba a:",
+                "items": [
+                    "Ɛsɛ sɛ nsɛm no yɛ wo dea ankasa anaa wowɔ kwan sɛ wode ba;",
+                    "mfa nsɛm a ɛtia mmara, nea ɛsɛe obi din, nea ɛyɛ tan, nea ɛhunta, nea ɛha adwene, anaa nea ɛda nnyiyimu adi ba;",
+                    "Woma Urbandrop kwan (licence) sɛ yɛmfa wo nsɛm yi nni dwuma, yɛmfa nkyerɛ nnipa, yɛnyɛ bi foforɔ, na yɛmpakyere mma wiase nyinaa de abue Dwumadie yi anim. Nsɛm no da so yɛ wo dea ankasa;",
+                    "Wopa wo tumi a ɛfa 'moral rights' ho wɔ Copyright, Designs and Patents Act 1988 ase sɛnea mmara ma kwan;",
+                    "yɛbɛtumi ayi afiri hɔ, yɛasiesie mu, anaa yɛapo sɛ yɛbɛda wo nsɛm no adi sɛ ɛbu saa Mmara yi so a."
+                ]
+                },
+                "reviewsMerchants": {
+                "title": "11.5 Adwadifoɔ ne Nneɛma ho reviews",
+                "content": "Yɛgye reviews a ɛyɛ nokware na ɛdi mmara so atom. Ɛsɛ sɛ reviews gyina nea woahu ankasa so. Nnaadaa reviews anaa nea wɔatua ho ka bɛtumi abu 'Digital Markets, Competition and Consumers Act 2024' so na yɛbɛyi afiri hɔ."
+                },
+                "creatorContent": {
+                "title": "11.6 Creators nsɛm",
+                "content": "Nnuane-noa ho nsɛm a Creators yɛeɛ no hyɛ 'Creator Agreement' foforɔ ase wɔ Urbandrop ne Creator no ntam. Ma Dwumadiefoɔ deɛ, mmara a ɛwɔ atifi no na ɛyɛ adwuma. Sɛ wosusu sɛ nnuane-noa ho nsɛm bi bu wo tumi so a, kyerɛw legal@urbandrop.io na yɛbɛhwɛ mu sɛnea UK mmara kyerɛ."
+                }
+            },
+            "clause12": {
+                "title": "NKYEKYƐMU 12",
+                "subtitle": "Aduane Banbɔ, Allergens ne Aduane ho Nsɛm",
+                "allergenInfo": {
+                "title": "12.1 Allergen ho nsɛm",
+                "content": "Baabi a ɛfata no, allergen ho nsɛm ma adeɛ biara firi Odwadini anaa nea ɔyɛɛ adeɛ no hɔ. Saa nsɛm yi hyɛ 'Food Information Regulations 2014' ase na ɛfa 'fourteen major allergens' a ɛwɔ UK mmara mu no ho."
+                },
+                "alwaysCheckPackaging": {
+                "title": "12.2 Mmerɛ biara hwɛ nneɛma mpaepaemu",
+                "content": "Adeɛ bi ho nsɛm, sɛnea wɔyɛɛ no, allergens ne ne mfasoɔ (nutritional values) bɛtumi asesa mmerɛ biara. Mmerɛ biara hwɛ nneɛma mpaepaemu (packaging) no so mmerɛ a yɛde ba ansa na woadi, titiriw sɛ wowɔ allergy bi a. Sɛ app no mu nsɛm ne packaging no so nsɛm bɔ abira a, fa nea ɛwɔ packaging no so no di dwuma."
+                },
+                "crossContamination": {
+                "title": "12.3 Cross-contamination",
+                "content": "Adwadifoɔ bi wɔ baabi a wɔyɛ nneɛma pii a allergens bɛtumi afra mu. Yɛntumi mma nnyinasoɔ sɛ adeɛ biara nni allergen biara mu koraa sɛ wɔammɔ amanneɛ mpo a."
+                },
+                "temperatureFoodSafety": {
+                "title": "12.4 Aduane hyeɛ ne banbɔ",
+                "content": "Sɛ yɛde nneɛma no ba a, fa nea ɛhia ɛnwunu no hyɛ fridge anaa freezer mu ntɛm. Ndi adeɛ a ɛsɛee, nea mmerɛ atwa mu, anaa nea ɛsɛee. Sɛ wowɔ aduane banbɔ ho asɛm bi a, bɔ yɛn amanneɛ ntɛm wɔ app no mu."
+                },
+                "seriousAllergies": {
+                "title": "ALLERGIES A ƐYƐ DEN",
+                "content": "Sɛ wowɔ allergy a ɛbɛtumi apira wo kɛseɛ a, yɛsrɛ wo hwɛ yie paa. Yɛhyɛ wo nkuran sɛ kyerɛw Odwadini no ankasa ansa na woahyɛ Oda no sɛ wowɔ akyinnyeɛ biara wɔ aduane bi ho a."
+                }
+            },
+            "clause13": {
+                "title": "NKYEKYƐMU 13",
+                "subtitle": "Promotions ne Vouchers",
+                "content": "Yɛbɛtumi ama wo promo codes, offers foforɔ, referral rewards, ne Urbandrop credit mmerɛ biara. Gye sɛ wɔakyerɛ mmara foforɔ bi no:",
+                "items": [
+                "Promotions yɛ baako pɛ ma dwumadiefoɔ baako, efie baako, ne sika kwan (payment method) baako.",
+                "Wɔntumi mfa mma obi foforɔ na ɛnyɛ sika ankasa;",
+                "Wobɛtumi de adi dwuma baako pɛ gye sɛ mmara foforɔ kyerɛ;",
+                "Wɔntumi mfra no ne promotions afoforɔ;",
+                "Ɛsa mmerɛ a wɔakyerɛ no — Urbandrop credit taa sa wɔ abosome 12 mu afiri mmerɛ a yɛde maeɛ;",
+                "Yɛbɛtumi ayi anaa yɛasesa offer bi mmerɛ biara sɛ yɛhu sɛ obi rede di dwuma bɔne a."
+                ],
+                "note": "Sɛ promotion bi wɔ mmara foforɔ a emu yɛ den a, saa mmara no na ɛdi kan wɔ saa asɛm no mu."
+            },
+            "clause14": {
+                "title": "NKYEKYƐMU 14",
+                "subtitle": "Dwumadie Pa",
+                "content": "Wopene so sɛ wonnyɛ eyinom:",
+                "items": [
+                "wonfa Dwumadie yi nyɛ adeɛ a ɛtia mmara anaa nea ɛpira afoforɔ;",
+                "wonnyɛ Akawnt pii mfa nnaadaa din anaa 'automated scripts' nni dwuma;",
+                "wonfa Dwumadie yi ntɔ nneɛma nsan ntɔn, anaa wonfa nyɛ adwuma kɛseɛ a ɛboro wo ankasa hia so;",
+                "wonfa akwan bɔne biara mmɔ mmɔden sɛ wobɛgye Dwumadie yi mu nsɛm (scrape/extract data) gye sɛ yɛama wo tumi;",
+                "wonfa 'viruses' anaa 'malware' biara mmra Dwumadie yi so;",
+                "wonnyae Riders, Adwadifoɔ, Creators, anaa Urbandrop adwumayɛfoɔ animmɔne, ayayadeɛ, anaa nnyiyimu;",
+                "wonnyae sika-san (refund) ne promo akwan no so nidi nneyɛeɛ;",
+                "wonfa VPN anaa kwan biara nhunta baabi a wowɔ ankasa de nnaadaa hwehwɛ boɔ anaa nneɛma a wonni ho kwan."
+                ],
+                "note": "Sɛ wubu saa Nkyekyɛmu yi so a, yɛbɛtumi asiw wo Akawnt kwan na yɛade wo asɛm akɔ polisifoɔ hɔ."
+            },
+            "clause15": {
+                "title": "NKYEKYƐMU 15",
+                "subtitle": "Yɛn Asɛdeɛ wɔ Wo So",
+                "whatWeAreResponsible": {
+                "title": "15.1 Nea yɛni ho asɛm",
+                "content": "Yɛni asɛdeɛ wɔ afiri-mu-adeɛ (losses) a ɛbɛba sɛ yɛbu saa mmara yi so anaa sɛ yɛannyɛ yɛn adwuma yie a, nanso yɛnni asɛdeɛ wɔ afiri-mu-adeɛ biara a yɛanhunu anim kan ho. Afiri-mu-adeɛ bi bɛtumi ayɛ nea yɛahu anim kan sɛ ɛbɛda adi pefee sɛ ɛbɛsi mmerɛ a woatwa saa Mmara yi so no."
+                },
+                "whatWeAreNotResponsible": {
+                "title": "15.2 Nea yɛnni ho asɛm",
+                "content": "Sɛ yɛhwɛ Nkyekyɛmu 15.3 ne wo mmara kwan so tumi a, yɛnni asɛdeɛ wɔ:",
+                "items": [
+                    "afiri-mu-adeɛ a ɛnyɛ nea ɛsi tee, adwuma afiri-mu-adeɛ (loss of profit/business), anaa din pa a ɛyera;",
+                    "afiri-mu-adeɛ a ɛnam nneɛma a yɛntumi nhyɛ so (hwɛ Nkyekyɛmu 21.7 — Force majeure);",
+                    "Adwadifoɔ nneyɛeɛ a ɛboro nea yɛn tumi pɛ;",
+                    "afiri-mu-adeɛ a ɛnam wo mfomsoɔ sɛ woankora wo Akawnt nkyerɛwee (credentials) yie nti;",
+                    "afiri-mu-adeɛ a ɛnam nnuane-noa ho nsɛm a wode wo ho too so a woanhwɛ packaging no so (hwɛ Nkyekyɛmu 12.2)."
+                ]
+                },
+                "liabilityWeDoNotExclude": {
+                "title": "15.3 Asɛdeɛ a yɛntumi mmu yɛn ani ngu so",
+                "content": "Biribiara nni saa Mmara yi mu a ɛte yɛn asɛdeɛ so wɔ:",
+                "items": [
+                    "owuo anaa opira biara a ɛnam yɛn mmerɛyɛ nti;",
+                    "nnaadaa nneyɛeɛ;",
+                    "nneɛma a ɛyɛ bɔne wɔ 'Consumer Protection Act 1987' ase;",
+                    "wo mmara kwan so tumi sɛ aditɔfoɔ wɔ 'Consumer Rights Act 2015' ase;",
+                    "asɛdeɛ biara a mmara mma kwan sɛ yɛte so."
+                ]
+                },
+                "capOnLiability": {
+                "title": "15.4 Asɛdeɛ hyeɛ",
+                "content": "Baabi a mmara ma kwan sɛ yɛhyɛ asɛdeɛ hyeɛ no, yɛn asɛdeɛ nyinaa wɔ Oda baako ho ntumi mboro £100 anaa sika a woatua wɔ Oda nyinaa mu wɔ abosome 12 mu. Saa hyeɛ yi mfa nneɛma a ɛwɔ Nkyekyɛmu 15.3 mu no ho."
+                }
+            },
+            "clause16": {
+                "title": "NKYEKYƐMU 16",
+                "subtitle": "Data Banbɔ ne Privacy",
+                "content1": "Urbandrop na ɛhwɛ wo 'Personal Data' so. Yɛdi UK GDPR, 'Data Protection Act 2018', ne 'Privacy and Electronic Communications Regulations 2003' so.",
+                "content2": "Yɛn 'Privacy Policy' nyinaa kyerɛkyerɛ data a yɛgyeɛ, nea nti a yɛgyeɛ, sɛnea yɛde di dwuma, mmerɛ a yɛkura mu, ne nnipa a yɛne wɔn kyɛ (Adwadifoɔ, Riders, ne payment providers ka ho). Wobɛtumi ahu wɔ urbandrop.io/privacy na ɛyɛ saa Mmara yi fã.",
+                "content3": "Wo tumi wɔ UK GDPR ase ka ho sɛ wobɛbisa, wobɛsiesie, wobɛpepa (gye baabi a mmara hyɛ sɛ yɛnkura mu), na wobɛpo. Sɛ wope sɛ wode eyi di dwuma a, kyerɛw dpo@urbandrop.io. Wobɛtumi nso abɔ amanneɛ akɔma 'Information Commissioner's Office' (ico.org.uk).",
+                "icoRegistration": "Urbandrop kyerɛw ne din wɔ ICO ase wɔ namba [ZA000000] ase."
+            },
+            "clause17": {
+                "title": "NKYEKYƐMU 17",
+                "subtitle": "Nnwuma ho Tumi (Intellectual Property)",
+                "content": "Dwumadie yi, Urbandrop din, ne logo, \"Where tradition meets convenience\" asɛm no, rider pin-leaf mark, app no interface, nnuane-noa ho nsɛm, ne kɔd (code) nyinaa yɛ Urbandrop dea na England & Wales mmara bɔ ho ban. Yɛma wo kwan ketewa bi sɛ wode Dwumadie yi bɛdi dwuma sɛ Oditɔfoɔ.",
+                "merchantBrands": "Adwadifoɔ brand, logo ne mfoni nyinaa yɛ wɔn ankasa dea. Wonni ho kwan sɛ wode di dwuma gye sɛnea Dwumadie yi ma kwan."
+            },
+            "clause18": {
+                "title": "NKYEKYƐMU 18",
+                "subtitle": "Nwiinwii ne Akyinnyegyeɛ",
+                "raiseWithUs": {
+                "title": "18.1 Di kan ne yɛn nkasa",
+                "content": "Sɛ wowɔ nwiinwii bi — fa Adwadini, Rider, Oda, sika-san, anaa biribiara ho — yɛsrɛ wo di kan ne yɛn nkasa wɔ app no mu \"Help\" kwan no so anaa support@urbandrop.io. Yɛbɛgye wo so wɔ nnafua mmienu mu na yɛama wo mmuaeɛ pa wɔ nnafua du (10) mu."
+                },
+                "escalation": {
+                "title": "18.2 De asɛm kɔ anim",
+                "content": "Sɛ yɛn mmuaeɛ no anyɛ wo fɛ a, wobɛtumi akyerɛw complaints@urbandrop.io na manager foforɔ a ɔnnim asɛm no kan no ahwɛ mu bio."
+                },
+                "alternativeDispute": {
+                "title": "18.3 Akwan foforɔ a yɛfa so siesie nsɛm",
+                "content": "Wɔ mmara ase no, yɛnhyɛɛ yɛn sɛ yɛmfa ADR provider nni dwuma seesei, nanso yɛbɛtumi ahwɛ ADR abisadeɛ biara mu."
+                },
+                "rightToCourt": {
+                "title": "18.4 Wo tumi sɛ wode asɛm kɔ asɛnnii hɔ",
+                "content": "Biribiara nni saa Mmara yi mu a ɛsiw wo kwan sɛ wode asɛm kɔ asɛnnii hɔ anaa wobɛbɔ consumer regulators amanneɛ."
+                }
+            },
+            "clause19": {
+                "title": "NKYEKYƐMU 19",
+                "subtitle": "Nsesaeɛ wɔ saa Mmara yi mu",
+                "content1": "Yɛbɛtumi asesa saa Mmara yi mmerɛ biara de akyerɛ nsesaeɛ wɔ mmara mu anaa nneɛma foforɔ. Yɛbɛda Mmara foforɔ no adi wɔ Dwumadie yi so na yɛakyerɛ mmerɛ a ɛhyɛ aseɛ yɛ adwuma.",
+                "content2": "Baabi a nsesaeɛ no bɛka wo tumi paa (mfatoho, sika-san mmara anaa Urbandrop+ boɔ), yɛbɛbɔ wo amanneɛ bɛyɛ nnafua 30 anim. Sɛ woampene so a, wobɛtumi ato wo Akawnt mu anaa woatwa wo subscription mu. Sɛ wokɔ so de Dwumadie yi di dwuma a, na worekyerɛ sɛ woapene nsesaeɛ no so.",
+                "content3": "Nsesaeɛ nketewa deɛ, ɛhyɛ aseɛ mmerɛ a yɛde bɛto Dwumadie yi so."
+            },
+            "clause20": {
+                "title": "NKYEKYƐMU 20",
+                "subtitle": "Akawnt mu Twamu",
+                "byYou": {
+                "title": "20.1 Fa wo nsa",
+                "content": "Wobɛtumi ato wo Akawnt mu mmerɛ biara wɔ nhyehyɛeɛ mu. Oda biara a yɛmfa mmaeɛ no yɛbɛtwa mu wɔ Nkyekyɛmu 9 ase; Urbandrop+ nso yɛbɛhwɛ no wɔ Nkyekyɛmu 10.5 ase."
+                },
+                "byUs": {
+                "title": "20.2 Fa yɛn nsa",
+                "content": "Yɛbɛtumi asiw anaa yɛatwa wo Akawnt mu sɛ:",
+                "items": [
+                    "wabu saa Mmara yi so paa;",
+                    "yɛhu nnaadaa anaa nneyɛeɛ a ɛtia mmara;",
+                    "mmara hyɛ yɛn sɛ yɛyɛ saa;",
+                    "woamfa wo Akawnt anni dwuma mmerɛ tenten bi."
+                ],
+                "note": "Sɛ ɛnyɛ wo mfomsoɔ na yɛtwaa mu a, yɛbɛsan sika ma mmerɛ a woamfa anni dwuma no. Sɛ ɛyɛ wo mfomsoɔ a, yɛnhyɛɛ yɛn sɛ yɛsan sika mma wo."
+                },
+                "effect": {
+                "title": "20.3 Nea ɛbɛsi",
+                "content": "Sɛ yɛtwa mu a, wo tumi sɛ wode Dwumadie yi di dwuma bɛsa. Mmara a ɛfa Nsɛm (Clause 11), Asɛdeɛ (15), Data (16), IP (17), ne Nwiinwii (18) ho bɛkɔ so ayɛ adwuma."
+                }
+            },
+            "clause21": {
+                "title": "NKYEKYƐMU 21",
+                "subtitle": "Mmara mu Nsɛm Mpanyinsɛm",
+                "entireAgreement": {
+                "title": "21.1 Apam no nyinaa",
+                "content": "Saa Mmara yi, ne Privacy Policy ne Urbandrop+ mmara na ɛyɛ apam a ɛda yɛn ne wo ntam nyinaa."
+                },
+                "transferContract": {
+                "title": "21.2 Sɛ yɛde yɛn apam kɔma obi foforɔ a",
+                "content": "Yɛbɛtumi de yɛn tumi ne yɛn asɛdeɛ akɔma adwumakuo foforɔ (mfatoho, sɛ yɛtɔn adwuma no). Yɛbɛkyerɛw wo abɔ wo amanneɛ, na yɛbɛhwɛ sɛ wo tumi so ntwa. Wonni ho kwan sɛ wode wo dea bɛma obi gye sɛ yɛapene so."
+                },
+                "noWaiver": {
+                "title": "21.3 No waiver",
+                "content": "Sɛ yɛannyɛ ntɛm anhyɛ wo sɛ yɛ adeɛ a ɛsɛ sɛ woyɛ a, ɛnkyerɛ sɛ woatwa mu. Yɛbɛtumi agye wo anim mmerɛ foforɔ."
+                },
+                "severability": {
+                "title": "21.4 Severability",
+                "content": "Nkyekyɛmu biara wɔ ne tumi. Sɛ asɛnnii bi kyerɛ sɛ baako ntwa a, nea ɛka hɔ no bɛkɔ so ayɛ adwuma."
+                },
+                "thirdParties": {
+                "title": "21.5 Nnipa a wɔka ho (Third parties)",
+                "content": "Saa Mmara yi yɛ yɛn ne wo ntam asɛm. Obi foforɔ biara nni ho kwan sɛ ɔhyɛ mmara yi biara mu."
+                },
+                "notices": {
+                "title": "21.6 Nkaebɔ",
+                "content": "Yɛbɛtumi abɔ wo amanneɛ wɔ app no mu, email, anaa SMS so. Wobɛtumi abɔ yɛn amanneɛ wɔ legal@urbandrop.io anaa posta kɔ yɛn adwumayɛbea."
+                },
+                "forceMajeure": {
+                "title": "21.7 Force majeure",
+                "content": "Obiara nni asɛdeɛ wɔ mmerɛ mmerɛyɛ mu sɛ nneɛma a yɛntumi nhyɛ so (mfatoho, atoyerɛnkyɛm, ɛko, terrorism) si a. Wo mmara kwan so tumi deɛ, ɛbɛkɔ so ayɛ adwuma."
+                },
+                "governingLaw": {
+                "title": "21.8 Mmara a ɛhwɛ so",
+                "content": "England ne Wales mmara na ɛhwɛ saa Mmara yi so. Sɛ wowɔ Scotland anaa Northern Ireland a, wobɛtumi de asɛm akɔ wo mpɔtam asɛnnii hɔ."
+                }
+            },
+            "clause22": {
+                "title": "NKYEKYƐMU 22",
+                "subtitle": "Nkitahodeɛ",
+                "companyName": "Urbandrop Group Limited",
+                "companyNumber": "Adwumakuo namba: [00000000]",
+                "icoRegistration": "ICO registration: [ZA000000]",
+                "customerSupport": "Mmoa-kuo",
+                "customerSupportEmail": "support@urbandrop.io · wɔ app no mu \"Help with this Order\"",
+                "complaints": "Nwiinwii",
+                "complaintsEmail": "complaints@urbandrop.io",
+                "dataProtection": "Data banbɔ",
+                "dpoEmail": "dpo@urbandrop.io",
+                "legalNotices": "Mmara mu nkaebɔ",
+                "legalEmail": "legal@urbandrop.io",
+                "website": "Wɛbsait",
+                "websiteUrl": "www.urbandrop.io"
+            }
+        },
+
+    "merchantTerms": {
+        "title": "Adwadifoɔ Mmara ne Nhyehyɛeɛ",
+        "intro": "Saa Adwadifoɔ Mmara ne Nhyehyɛeɛ yi na ɛkyerɛ abusuabɔ a ɛda UrbanDrop Group Limited ne adwumakuo anaa ankorankoro a ɔkyerɛw ne din sɛ ɔretɔn nneɛma wɔ UrbanDrop dwumadie yi so ntam.",
+        "roleOfUrbanDrop": {
+        "title": "1. UrbanDrop Dwumadie",
+        "content": "UrbanDrop yɛ kwan a ɛma Adwadifoɔ tumi tɔn nneɛma kyerɛ oditɔfoɔ, na ɛboa ma wɔhyɛ oda, wɔgye sika, na wɔboa oditɔfoɔ. UrbanDrop nyɛ aduane, ɛnsiesie, ɛnkora, na ɛmfa nnuane anaa kofee nneɛma mma.",
+        "p2": "Apam biara a ɛfa nneɛma tɔn ho no hyɛ Odwadini ne Oditɔfoɔ ntam tɛɛ. Odwadini no na ɛyɛ nea ɔtɔn adeɛ ankasa wɔ oda biara a yɛnam Dwumadie yi so yɛ ho."
+        },
+        "eligibility": {
+        "title": "2. Odwadini Tumi ne Din Kyerɛw",
+        "content": "Sɛ worekyerɛw wo din sɛ Odwadini a, worekyerɛ sɛ:",
+        "items": [
+            "Wɔagye wo atom sɛnea mmara kyerɛ na wowɔ kwan sɛ wodi dwa wɔ United Kingdom",
+            "Wowɔ tumi krataa ne kwan biara a ɛhia sɛ wode tɔn nnuane anaa kofee nneɛma",
+            "Wodi aduane banbɔ, ahotie, ne oditɔfoɔ banbɔ mmara nyinaa so",
+            "Nsɛm biara a wode maeɛ mmerɛ a worekyerɛw wo din no yɛ nokware na wobɛkɔ so asiesie mu"
+        ],
+        "note": "UrbanDrop wɔ kwan sɛ ɛpo, ɛsiw kwan, anaa ɛtwa Odwadini akawnt mu sɛ wonni saa mmara yi so a.",
+        "acceptance": "Wopene so sɛ wode wo nsa hyɛ saa Mmara yi ase wɔ ɛlɛt rɔnik kwan so a, ɛyɛ apam a mmara kura mu wɔ wo ne UrbanDrop ntam. UrbanDrop kura nkyerɛwee a ɛkyerɛ mmerɛ, dɔnhwere, ne IP address a wode penee saa Mmara yi so."
+        },
+        "obligations": {
+        "title": "3. Odwadini Asɛdeɛ",
+        "content": "Odwadini no ankasa na asɛdeɛ da ne so wɔ:",
+        "items": [
+            "Nneɛma a ɔretɔn no su, ne banbɔ, ne mmara kwan so nneyɛeɛ",
+            "Aduane no siesie, ne nkyekyere, ne ne mpaepaemu (labelling) pa",
+            "UK aduane banbɔ mmara a odi so, a allergen ne nneɛma a wɔde yɛeɛ mpaepaemu ka ho",
+            "Hwɛ sɛ nneɛma boɔ, nkyerɛkyerɛmu, mfoni, ne nneɛma a ɛwɔ hɔ no yɛ nokware mmerɛ biara",
+            "Aduane no siesie ntɛm sɛnea oditɔfoɔ kyerɛeɛ no",
+            "Hwɛ sɛ nneɛma no fata sɛ wɔde kɔma obi na odi"
+        ],
+        "note": "Odwadini no nni ho kwan sɛ ɔde adeɛ foforɔ si ananmu gye sɛ oditɔfoɔ apene so."
+        },
+        "orders": {
+        "title": "4. Oda ne Nneyɛeɛ",
+        "content": "Odwadini no pene so sɛ:",
+        "items": [
+            "Ɔbɛgye na wadi oda biara ho dwuma wɔ anigyeɛ mu",
+            "Ɔbɛkwati oda a ɔbɛtwa mu kwa",
+            "Ɔbɛbɔ UrbanDrop amanneɛ ntɛm sɛ nneɛma nni hɔ, ɛbɛkyɛ, anaa ɔwɔ ɔhaw bi wɔ oda ho a"
+        ],
+        "note": "UrbanDrop bɛtumi ahwɛ sɛnea wogye oda, sɛnea wotwa mu, ne sɛnea woyɛ wo nnwuma yie. Sɛ woyɛ mfomsoɔ mmerɛ pii a, yɛbɛtumi atwa wo asotɔ, yɛate wo ho, anaa yɛatwa wo dwumadie mu."
+        },
+        "pricing": {
+        "title": "5. Boɔ ne Promotions",
+        "content": "Adwadifoɔ na wɔsi wɔn ankasa nneɛma boɔ nanso wɔnim sɛ:",
+        "items": [
+            "Ɛsɛ sɛ boɔ no yɛ nea ɛfata, ɛda adi pefee, na edi oditɔfoɔ banbɔ mmara so",
+            "UrbanDrop bɛtumi ada boɔ a service ne delivery fees ka ho adi",
+            "UrbanDrop bɛtumi ama promotions anaa credits afiri ne sika mu gye sɛ yɛapene asɛm foforɔ so",
+            "Adwadifoɔ ntumi mma boɔ so kɛseɛ koraa mfa nnaadaa oditɔfoɔ"
+        ]
+        },
+        "payments": {
+        "title": "6. Sika ne Akontabuo",
+        "content1": "UrbanDrop gye sika firi oditɔfoɔ hɔ ma Adwadifoɔ na ɛyɛ adwuma sɛ commercial agent wɔ sika ho dwumadie mu.",
+        "content2": "Adwadifoɔ wɔ kwan sɛ wonya oda a wɔawie no sika, mmerɛ a yɛate eyinom afiri mu:",
+        "items": [
+            "Oda no boɔ nyinaa te Commission fees, Delivery fees, ne Service fees afiri mu",
+            "Refunds, chargebacks, anaa nsesaeɛ foforɔ biara",
+            "Sika foforɔ biara a yɛapene so"
+        ],
+        "settlement": "Yɛbɛma sika no mmerɛ a yɛapene so no. UrbanDrop bɛtumi akura sika mu sɛ nwiinwii anaa akyinnyegyeɛ bi sɔre a.",
+        "stripeTitle": "Sika Dwumadie nam Stripe so:",
+        "stripeContent": "UrbanDrop de Stripe na ɛdi sika ho dwuma. Sɛ wopene saa Mmara yi so a, wopene Stripe Services Agreement nso so. Woma UrbanDrop kwan sɛ yɛne Stripe bɛkyɛ wo adwuma ho nsɛm pa ma sika dwumadie ne banbɔ."
+        },
+        "refunds": {
+        "title": "7. Sika-san, Nwiinwii ne Chargebacks",
+        "content": "UrbanDrop bɛtumi asan sika ama oditɔfoɔ sɛnea ne refund policy kyerɛ. Baabi a sika-san anaa chargeback ba ɛnam:",
+        "items": [
+            "Nneɛma a ɛnyɛ deɛ wɔhwehwɛɛ no",
+            "Nneɛma a ɛnni mu",
+            "Aduane a ne su nyɛ",
+            "Banbɔ anaa ahotie ho nsɛm",
+            "Odwadini a ɔtwaa oda no mu anaa ɔantumi amfa amma"
+        ],
+        "note": "Odwadini no na ɛbɛhyɛ saa ka no nyinaa. UrbanDrop bɛtumi ayi sika no afiri sika a yɛbɛtua no daakye mu."
+        },
+        "foodSafety": {
+        "title": "8. Aduane Banbɔ ne Mmara so die",
+        "content1": "Ɛsɛ sɛ Adwadifoɔ di UK aduane banbɔ ne ahotie mmara nyinaa so, allergen mpaepaemu, ne nneɛma fã a ɛfiri mmeaeɛ mmeaeɛ.",
+        "content2": "Ɛsɛ sɛ Adwadifoɔ bɔ UrbanDrop amanneɛ ntɛm wɔ:",
+        "items": [
+            "Aduane banbɔ ho asɛm biara",
+            "Mmara kwan so nhwehwɛmu biara",
+            "Aduane biara a asɛee anaa ne su bɛtumi apira nnipa"
+        ],
+        "note": "Sɛ woambɔ amanneɛ a, yɛbɛtwa wo dwumadie mu ntɛm."
+        },
+        "products": {
+        "title": "9. Nneɛma a Mmara Ma kwan ne nea Mmara nnye ntom",
+        "permittedTitle": "9.1 Nneɛma a Mmara Ma kwan",
+        "permittedContent": "Adwadifoɔ bɛtumi atɔn nnuane ne kofee nneɛma a mmara ma kwan wɔ United Kingdom na UrbanDrop nso ama kwan wɔ Dwumadie yi so.",
+        "prohibitedTitle": "9.2 Nneɛma a Mmara nnye ntom",
+        "prohibitedContent": "Wɔbara saa nneɛma yi koraa:",
+        "items": [
+            "Nsa (Alcohol) biara",
+            "Sigaret ne tawa nneɛma nyinaa (tobacco, vaping)",
+            "Adubɔne (Illegal drugs) ne nnubɔne foforɔ",
+            "Aduro biara a ɛsɛ sɛ dɔkta kyerɛw krataa ansa na wɔatɔn",
+            "Nneɛma foforɔ biara a mmara anaa UrbanDrop abara"
+        ],
+        "warning": "Mmɔden biara a wobɔ sɛ wobɛtɔn nsa, tawa, anaa nnubɔne biara yɛ mmara a woyɛ tia saa Apam yi paa."
+        },
+        "delivery": {
+        "title": "10. Delivery",
+        "content": "Baabi a yɛnam Dwumadie yi so de adeɛ kɔma oditɔfoɔ no, Odwadini no na asɛdeɛ da ne so wɔ:",
+        "items": [
+            "Nkyekyere pa",
+            "Hyeɛ ne nwunu so hwɛ",
+            "Aduane no su pa mmerɛ a wɔde kyerɛ Rider no"
+        ],
+        "note": "UrbanDrop nni asɛdeɛ wɔ aduane no su ho mmerɛ a wɔasiesie awie ansa na wɔde rekɔ, gye sɛ mmara kyerɛ asɛm foforɔ."
+        },
+        "insurance": {
+        "title": "11. Insurance ne Indemnity",
+        "content1": "Ɛsɛ sɛ Adwadifoɔ wɔ insurance a ɛfata, titiriw 'public liability' ne 'product liability' insurance.",
+        "content2": "Odwadini no pene so sɛ ɔbɛhyɛ UrbanDrop ananmu na wasiw ho ban afiri afiri-mu-adeɛ, nteɛsoɔ sika, ne sika biara a ɛbɛba afiri:",
+        "items": [
+            "Aduane banbɔ mmara a wobu so",
+            "Oditɔfoɔ nwiinwii wɔ nneɛma ho",
+            "Mmara so a wɔanni",
+            "Odwadini mmerɛyɛ anaa nneyɛeɛ bɔne"
+        ],
+        "note": "Saa asɛdeɛ yi kɔ so mpo sɛ apam yi ba awieeɛ."
+        },
+        "conduct": {
+        "title": "12. Dwumadie no So die ne Nneyɛeɛ",
+        "content": "Adwadifoɔ nni ho kwan sɛ:",
+        "items": [
+            "Wɔsiesie ratings anaa reviews wɔ nnaadaa kwan so",
+            "Wɔyɛ nnaadaa nneyɛeɛ biara",
+            "Wɔfa kwan foforɔ so tɔn adeɛ de kwati Dwumadie fees",
+            "Wɔde oditɔfoɔ data di dwuma wɔ kwan a mmara mma ho kwan"
+        ],
+        "note": "UrbanDrop bɛtumi asiw wo kwan sɛ woyɛ eyinom bi a."
+        },
+        "suspension": {
+        "title": "13. Akawnt mu Twamu",
+        "content": "UrbanDrop bɛtumi asiw anaa yɛatwa Odwadini akawnt mu ntɛm sɛ:",
+        "items": [
+            "Wabu saa Mmara yi so paa",
+            "Aduane banbɔ ho haw bi sɔre",
+            "Yɛhu nnaadaa bi",
+            "Mmara kwan so nteɛsoɔ bi ba Odwadini no so"
+        ],
+        "note": "Adwadifoɔ bɛtumi atwa mu sɛ wɔbɔ amanneɛ a, nanso ɛsɛ sɛ wɔdi wɔn asɛdeɛ a aka no ho dwuma."
+        },
+        "liability": {
+        "title": "14. Asɛdeɛ hyeɛ",
+        "content": "Sɛnea mmara ma kwan nyinaa:",
+        "items": [
+            "UrbanDrop nni asɛdeɛ wɔ adwuma sika a ɛyera (loss of profits) ho",
+            "UrbanDrop nni nnyinasoɔ mma oda dodoɔ anaa sika a wobɛnya"
+        ],
+        "note": "Biribiara nni saa Mmara yi mu a ɛte asɛdeɛ so baabi a mmara mma ho kwan."
+        },
+        "dataProtection": {
+        "title": "15. Data Banbɔ",
+        "content": "Ɛsɛ sɛ Adwadifoɔ di oditɔfoɔ data ho dwuma sɛnea UK GDPR kyerɛ na ɛyɛ oda no ho adwuma nko ara. Wɔbara koraa sɛ wode oditɔfoɔ data bɛyɛ marketing anaa dwumadie foforɔ biara."
+        },
+        "amendments": {
+        "title": "16. Nsesaeɛ",
+        "content": "UrbanDrop bɛtumi asesa saa Mmara yi mmerɛ biara. Sɛ wokɔ so de Dwumadie yi di dwuma a, na worekyerɛ sɛ woapene nsesaeɛ no so."
+        },
+        "governingLaw": {
+        "title": "17. Mmara a ɛhwɛ so",
+        "content": "England ne Wales mmara na ɛhwɛ saa Mmara yi so. England ne Wales asɛnnii na ɛwɔ tumi wɔ saa Mmara yi mu."
+        }
+    },
+    "promotionsTerms": {
+        "title": "Promotions ne Discounts",
+        "intro": "Mmara a ɛfa promo codes, vouchers, ne discount nneyɛeɛ ho.",
+        "application": {
+        "title": "Sɛnea wɔde Codes di dwuma",
+        "content": "Ɛsɛ sɛ wode Promo codes hyɛ mu mmerɛ a worehyɛ oda (checkout). Wɔntumi mfa mma oda a woahyɛ awie."
+        },
+        "limitations": {
+        "title": "Akwansideɛ",
+        "content": "Promo code baako pɛ na wobɛtumi de adi dwuma wɔ oda baako mu. Promo nni sika ankasa boɔ."
+        },
+        "fairUsage": {
+        "title": "Dwumadie Pa",
+        "content": "Wɔbara koraa sɛ wobɛyɛ akawnt pii de asisi Dwumadie yi anya new-user promotions. Sɛ woyɛ saa a yɛbɛtwa wo akawnt mu."
+        },
+        "modification": {
+        "title": "Nsesaeɛ",
+        "content": "Urbandrop wɔ kwan sɛ ɛsesa, ɛtwa mu, anaa ɛsiw promotions kwan mmerɛ biara a ɛmbɔɔ amanneɛ."
+        }
+    },
+    "riderTerms": {
+        "title": "Rider Mmara ne Nhyehyɛeɛ",
+        "intro": "Mmara a ɛkyerɛ sɛnea wobɛyɛ delivery adwuma afiri Dwumadie yi so akɔma oditɔfoɔ wɔ United Kingdom nyinaa.",
+        "effective": "Ɛhyɛ aseɛ",
+        "effectiveDate": "23 Oforisuo 2026",
+        "version": "Seseɛ deɛ",
+        "versionNumber": "1.0",
+        "jurisdiction": "Baabi a mmara no kura",
+        "jurisdictionValue": "England & Wales",
+        "governedBy": "Deɛ ɔhwɛ so",
+        "governedByValue": "Urbandrop Group Ltd",
+        "readBeforeAccept": {
+        "title": "Kenkan eyi ansa na woapene so",
+        "content": "Eyi yɛ apam a mmara kura mu paa. Sɛ wobue Rider Account anaa wogye delivery adwuma bi firi Urbandrop a, worekyerɛ sɛ woakenkan, woate aseɛ, na wopene saa mmara yi so. Wowɔ kwan sɛ wohwehwɛ mmoa firi mmaranimfoɔ hɔ, na yɛhyɛ wo nkuran sɛ yɛ saa. Sɛ woampene saa mmara yi fã biara so a, <strong>mfa saa dwumadie yi nni dwuma</strong>."
+        },
+        "contents": {
+        "title": "EMU NSƐM",
+        "twentyOneClauses": "Mmara nkyekyɛmu aduonu-baako",
+        "clause01": "01 Afã ne Nkyerɛkyerɛmu",
+        "clause02": "02 Abusuabɔ no Su",
+        "clause03": "03 Tumi ne Din Kyerɛw",
+        "clause04": "04 Adwuma ho Kwan ne Substitution",
+        "clause05": "05 Kar/Tɛre, Nneɛma ne Insurance",
+        "clause06": "06 Aduane Banbɔ ne ne Kura",
+        "clause07": "07 Delivery Adwumayɛ",
+        "clause08": "08 Akatua, Tips ne Invoicing",
+        "clause09": "09 Toɔ ne National Insurance",
+        "clause10": "10 Adwumayɛ ne Ratings",
+        "clause11": "11 Akawnt mu Twamu ne Suspension",
+        "clause12": "12 Akwanhyia, Nneyɛeɛ ne Asɛdeɛ",
+        "clause13": "13 Data Banbɔ ne Ahintasɛm",
+        "clause14": "14 Intellectual Property",
+        "clause15": "15 Ahintasɛm",
+        "clause16": "16 Apɔmuden, Banbɔ ne Yiedie",
+        "clause17": "17 Nwiinwii ne Akyinnyegyeɛ",
+        "clause18": "18 Nsesaeɛ wɔ saa Mmara yi mu",
+        "clause19": "19 Awieeɛ",
+        "clause20": "20 Mmara nkyekyɛmu foforɔ",
+        "clause21": "21 Nkitahodoɔ"
+        },
+        "parties": {
+        "title": "01 Afã ne Nkyerɛkyerɛmu",
+        "content": "Saa Rider Mmara ne Nhyehyɛeɛ yi yɛ apam a ɛda <strong>Urbandrop Group Limited</strong>, adwumakuo a wɔakyerɛw ne din wɔ England & Wales na ne dwumadibea ti wɔ [Bristol, United Kingdom], company number [16026087] (\"Urbandrop\", \"yɛn\"), ne ankorankoro anaa adwumakuo a ɔyɛ delivery adwuma nam Urbandrop so (\"Rider\", \"wo\") ntam.",
+        "definedTerms": "Nkyerɛkyerɛmu",
+        "terms": {
+            "platform": {
+            "term": "Dwumadie (Platform)",
+            "definition": "Urbandrop mobile applications, rider app, merchant portal, admin systems ne website biara a Urbandrop hwɛ so."
+            },
+            "riderAccount": {
+            "term": "Rider Account",
+            "definition": "Wo ankasa akawnt wɔ Dwumadie yi so a ɛma wonya delivery adwuma."
+            },
+            "delivery": {
+            "term": "Delivery",
+            "definition": "Oda baako a ɛfa nnuane anaa nneɛma a wɔfa firi odwadini hɔ kɔma oditɔfoɔ nam Dwumadie yi so."
+            },
+            "fleetPartner": {
+            "term": "Fleet Partner",
+            "definition": "Adwumakuo foforɔ a Urbandrop ne wɔn ayɛ apam sɛ wɔbɛyɛ delivery adwuma (sɛ ebi, Stuart, Gophr, Relay anaa nea ɛte saa)."
+            },
+            "directRider": {
+            "term": "Direct Rider",
+            "definition": "Rider a ɔne Urbandrop ankasa na ayɛ apam sɛ self-employed contractor."
+            },
+            "fleetRider": {
+            "term": "Fleet Rider",
+            "definition": "Rider a ɔyɛ adwuma ma Fleet Partner na ɔyɛ Urbandrop Deliveries nam apam a ɛda ne ne dɔm ti ntam."
+            },
+            "customer": {
+            "term": "Oditɔfoɔ (Customer)",
+            "definition": "Onipa a ɔhyɛ oda nam Dwumadie yi so."
+            },
+            "merchant": {
+            "term": "Odwadini (Merchant)",
+            "definition": "Sika-tɔnbea, supermarket, anaa adwadifoɔ a wɔwɔ Dwumadie yi so."
+            },
+            "personalData": {
+            "term": "Personal Data",
+            "definition": "Sɛnea wɔakyerɛkyerɛ mu wɔ UK General Data Protection Regulation (UK GDPR) ne Data Protection Act 2018 mu."
             }
         }
+        },
+        "relationship": {
+        "title": "02 Abusuabɔ no Su",
+        "content": "Urbandrop de akwan mmienu na ɛyɛ adwuma. Sɛnea wonya Delivery adwuma no na ɛbɛkyerɛ sɛ woyɛ <strong>Direct Rider</strong> (a woapam ne Urbandrop) anaa <strong>Fleet Rider</strong> (a woyɛ adwuma ma Fleet Partner). Nkrataa a wode bɛkyerɛw wo din no bɛkyerɛ deɛ ɛfata wo.",
+        "selfEmployed": {
+            "title": "2.1 Self-employed status",
+            "content": "Baabi a woyɛ <strong>Direct Rider</strong> no, woyɛ adwuma sɛ self-employed independent contractor. Biribiara nni saa Mmara yi mu a ɛkyerɛ sɛ woyɛ Urbandrop adwumayɛfoɔ (employee), anaa woyɛ partner, anaa abusuabɔ biara a ɛnyɛ contractor deɛ."
+        },
+        "independence": {
+            "title": "2.2 Fahodie",
+            "content": "Sɛ Direct Rider no, wonim sɛ:",
+            "items": [
+            "wobue wo ankasa delivery adwuma na wobɛtumi ayɛ adwuma ama nnwumakuo pii mmerɛ a wopɛ;",
+            "wo na wosi gyinaeɛ mmerɛ, baabi, ne sɛ wobɛbue Rider App no agye Delivery biara — asɛdeɛ nni wo so sɛ wogye oda biara, na asɛdeɛ nni Urbandrop so sɛ ɛma wo oda;",
+            "wobɛtumi ayɛ adwuma ama nnwumakuo foforɔ mmerɛ a wode Urbandrop rider app redi dwuma mpo, gye sɛ ɛbɛpira aduane banbɔ anaa oda a woreyɛ seesei no;",
+            "wo na asɛdeɛ da wo so wɔ wo toɔ (tax), National Insurance, ne pension nhyehyɛeɛ ho;",
+            "wo na wobɛhwehwɛ wo ankasa nneɛma (kar, fon, delivery bag ne PPE) gye sɛ Urbandrop ma wo nneɛma a wɔn ahyɛnsodeɛ (brand) wɔ so;",
+            "wo na wobɛhyɛ wo dwumadie ho ka nyinaa, sɛ ebi pɛtro, siesie, insurance ne mmerɛ a adwuma nni hɔ."
+            ]
+        },
+        "fleetRiders": {
+            "title": "2.3 Fleet Riders",
+            "content": "Sɛ woyɛ Fleet Rider a, wo dɔm ti paa ne Fleet Partner no. Saa Mmara yi kyerɛ nneyɛeɛ ne gyinapɛn a ɛsɛ sɛ wodi so mmerɛ a woreyɛ Urbandrop Delivery. Sɛ nneɛma bi hyia na ɛfa Dwumadie yi ho (sɛ ebi aduane banbɔ, app dwumadie) a, saa Mmara yi na ɛdi kan."
+        },
+        "plainEnglish": {
+            "title": "Nkyerɛkyerɛmu a Ɛyɛ Mmerɛ",
+            "content": "Wo na woyɛ wo ankasa panyin. Wo na wosi gyinaeɛ mmerɛ a wobɛbue adwuma, wobɛtumi asoma obi foforɔ ma wo, na wobɛtumi ayɛ adwuma ama nnwumakuo foforɔ mmerɛ koro no mu. Yɛnkyerɛ wo sɛnea woyɛ wo dwuma — yɛkyerɛ wo gyinapɛn a yɛhwehwɛ afiri wo hɔ ma Oditɔfoɔ no oda. Saa na asɛm no teɛ."
+        }
+        },
+        "eligibilityOnboarding": {
+        "title": "03 Tumi ne Din Kyerɛw",
+        "minimumEligibility": {
+            "title": "3.1 Deɛ ɛhia paa",
+            "content": "Ansa na yɛbɛgye wo atom sɛ Rider no, ɛsɛ sɛ:",
+            "items": [
+            "woadi mfeɛ <strong>18 anaa nea ɛboro saa</strong>;",
+            "wowɔ kwan sɛ woyɛ adwuma wɔ United Kingdom (hwɛ Clause 4);",
+            "wowɔ UK bank account wɔ wo din anaa wo adwumakuo din mu;",
+            "wowɔ National Insurance number (ma Direct Riders);",
+            "wobɛtumi asoa nnuane a ne mu duru yɛ bɛyɛ 15 kg wɔ banbɔ mu;",
+            "wowɔ wo ankasa kar anaa tɛre a edi Clause 5 mmara so;",
+            "wowɔ smartphone a ɛbɛtumi ayɛ adwuma yie, a mobile data ne location kwan bue mu."
+            ]
+        },
+        "documents": {
+            "title": "3.2 Nkrataa a ɛhia",
+            "content": "Ɛsɛ sɛ wode saa nkrataa yi mfoni a emu da hɔ ma yɛn:",
+            "items": [
+            "wo din ne wo su ho adanseɛ (UK/Irish passport, biometric residence permit, anaa Home Office share code);",
+            "adanseɛ a ɛkyerɛ sɛ wowɔ kwan sɛ woyɛ adwuma wɔ UK;",
+            "adanseɛ a ɛkyerɛ baabi a wote (proof of address) a ɛnyɛ abosome mmiɛnsa madi;",
+            "sɛ wode kar anaa moto na ɛyɛ adwuma a: driving licence, V5 registration, MOT, ne insurance a <strong>hire & reward (\"delivery\")</strong> ka ho;",
+            "ma e-bikes ne cycles: adanseɛ a ɛkyerɛ sɛ tɛre no di mmara so (max 250W motor, 15.5 mph / 25 km/h assistance);",
+            "wo mfoni (passport-style) foforɔ;",
+            "wo bank details (account name, sort code, account number);",
+            "sɛ ɛhia a, wo UTR number anaa VAT registration number."
+            ]
+        },
+        "dbs": {
+            "title": "3.3 DBS ne background checks",
+            "content": "Urbandrop wɔ kwan sɛ ɛhwehwɛ Basic Disclosure check afiri DBS hɔ, na ɛbɛtumi apo wo din kyerɛw sɛ wowɔ abakɔsɛm bɔne bi a ɛfa adwuma no banbɔ ho — sɛ ebi basabasa, awia, nnaadaa, anaa kar ka bɔne paa. Wobɛtumi de nwiinwii ato dwa wɔ nnafua 14 mu sɛ yɛpo wo a."
+        },
+        "identityVerification": {
+            "title": "3.4 Identiti hwehwɛmu",
+            "content": "Yɛde facial recognition ne live-selfie matching di dwuma mmerɛ a worekyerɛw wo din ne mmerɛ foforɔ biara. Wopene so sɛ yɛbɛyɛ eyi ansa na woatumi de Dwumadie yi adi dwuma. Sɛnea yɛdi saa data yi ho dwuma wɔ Privacy Policy ne Clause 13 mu."
+        },
+        "falseInfo": {
+            "title": "3.5 Nsɛm a ɛnyɛ nokware",
+            "content": "Sɛ wode nsɛm a ɛnyɛ nokware ma (sɛ ebi wode obi foforɔ din anaa nkrataa di dwuma) a, yɛbɛtwa wo dwumadie mu koraa ntɛm ara, na yɛbɛtumi de asɛm no akɔ HMRC, Home Office, anaa polisifoɔ hɔ."
+        }
+        },
+        "rightToWork": {
+        "title": "04 Adwuma ho Kwan ne Substitution",
+        "rightToWork": {
+            "title": "4.1 Adwuma ho Kwan wɔ UK",
+            "content1": "Afiri 1 March 2025 no, 'Right to Work' hwehwɛmu fata adwumayɛfoɔ nyinaa. Worekyerɛ sɛ wowɔ kwan sɛ woyɛ adwuma wɔ UK mmerɛ biara. Ɛsɛ sɛ wobɔ Urbandrop amanneɛ ntɛm sɛ wo visa anaa BRP ba awieeɛ anaa Home Office sesa wo mmara a.",
+            "content2": "Urbandrop wobɛtumi asan ahwehwɛ wo nkrataa mu mmerɛ biara. Sɛ yɛgye obi a onni kwan sɛ ɔyɛ adwuma a, yɛbɛtua ka boro £60,000, enti yɛnhwɛ obiara anim wɔ saa mmara yi mu."
+        },
+        "substitution": {
+            "title": "4.2 Kwan a wobɛtumi asoma obi (Right of substitution)",
+            "content": "Sɛ self-employed Direct Rider no, wowɔ kwan sɛ wopaw obi foforɔ (<strong>\"Substitute\"</strong>) sɛ ɔnyɛ Delivery no mmom wo ananmu. Wowɔ saa kwan yi koraa, nanso ɛsɛ sɛ saa onipa no di eyinom so:",
+            "items": [
+            "ɛsɛ sɛ onipa no adi mfeɛ 18 anaa nea ɛboro saa;",
+            "ɛsɛ sɛ onipa no wɔ kwan sɛ ɔyɛ adwuma wɔ UK, na wo na wobɛhwɛ saa ansa na wama no adwuma no;",
+            "ɛsɛ sɛ onipa no di aduane banbɔ ne kar/tɛre mmara a ɛwɔ saa Mmara yi mu no so;",
+            "wo na asɛdeɛ da wo so wɔ Delivery no, onipa no akatua, ne ne nneyɛeɛ ho;",
+            "wɔbara sɛ wobɛtɔn, wobɛgye sika afiri afoforɔ hɔ na woama wɔn kwan sɛ wɔde wo Rider Account nni dwuma. Substitution nkyerɛ sɛ wobɛbue akawnt-rental adwuma."
+            ]
+        },
+        "accountRental": {
+            "title": "Wɔbara Akawnt Rental",
+            "content": "Sɛnea yɛatumi ahu nnaadaa bi wɔ Bristol ne UK nyinaa mu no, Urbandrop nnye ntom koraa sɛ wobɛgye sika na wode wo akawnt ama afoforɔ. Wobɛtumi asoma obi mmerɛ baako baako (genuine substitution), nanso sɛ wode yɛ adwuma tɔn wo akawnt mma afoforɔ a, yɛbɛtwa wo dwumadie mu koraa na yɛakɔbɔ wo amanneɛ wɔ Home Office ne HMRC."
+        }
+        },
+        "vehicle": {
+        "title": "05 Kar/Tɛre, Nneɛma ne Insurance",
+        "standards": {
+            "title": "5.1 Kar/Tɛre gyinapɛn",
+            "content": "Ɛsɛ sɛ wo kar anaa tɛre no yɛ nea ɛyɛ fɛ, edi mmara so, na ɛfata sɛ wɔde aduane hyɛ mu. Titiriw:",
+            "items": [
+            "<strong>Bicycles ne e-bikes</strong> ɛsɛ sɛ edi Electrically Assisted Pedal Cycles Regulations 1983 so. E-bikes a ɛnam ne ho (throttle-only) anaa deɛ ɛka boro 15.5 mph no, wɔgye no sɛ motor vehicles na ɛhia insurance ne tumi krataa sɛ motorbike pɛ.",
+            "<strong>Motorbikes ne scooters</strong> hia CBT anaa full licence, road tax, MOT, ne insurance a 'hire & reward' ka ho.",
+            "<strong>Cars ne vans</strong> hia UK driving licence, road tax, MOT, ne insurance a 'hire & reward' ka ho."
+            ]
+        },
+        "insurance": {
+            "title": "5.2 Insurance",
+            "content1": "Wo na asɛdeɛ da wo so sɛ wobɛkura insurance a ɛfata ma wo kar ne wo delivery adwuma. <strong>Standard motor policies nkata delivery adwuma ho.</strong> Ɛsɛ sɛ wowɔ hire & reward cover (anaa \"courier\" cover).",
+            "content2": "Ma cyclists ne e-bike riders no, yɛtu mo fo sɛ monya third-party liability insurance (firi British Cycling anaa Cycling UK) na woatumi abɔ wo ho ne oditɔfoɔ banbɔ.",
+            "content3": "Urbandrop mma wo insurance biara. Ɛsɛ sɛ wode adanseɛ kyerɛ sɛ wowɔ insurance mmerɛ a worekyerɛw wo din ne mmerɛ biara a yɛbɛbisa."
+        },
+        "equipment": {
+            "title": "5.3 Nneɛma",
+            "content": "Ɛsɛ sɛ wode eyinom di dwuma:",
+            "items": [
+            "food-grade insulated delivery bag a ɛho tew na ne kɛseɛ fata;",
+            "PPE a ɛfata — helmet a ɛyɛ dɛn na edi BS EN 1078 (cycle) anaa ECE 22.06 (motorbike) mmara so;",
+            "ataadeɛ a ɛhyerɛ (high-visibility clothing) mmerɛ a esum reba;",
+            "akanea a edi mmara so anadwo."
+            ]
+        },
+        "brandedEquipment": {
+            "title": "5.4 Urbandrop nneɛma",
+            "content": "Baabi a Urbandrop de nneɛma a wɔn ahyɛnsodeɛ (brand) wɔ so ma wo no, ɛyɛ yɛn dea na yɛde afɛm wo. Sɛ wogyae adwuma no a, ɛsɛ sɛ wode ma yɛn. Sɛ ɛyera anaa ɛsɛe a, wobɛtua ne ka."
+        }
+        },
+    "foodSafety": {
+        "title": "06 Aduane Banbɔ ne ne Kura",
+        "content": "Urbandrop de nnuane na ɛma. Food Safety Act 1990, Food Hygiene (England) Regulations 2013 (ne mmara a ɛne no sɛ wɔ Wales, Scotland ne Northern Ireland), ne Food Information Regulations 2014 fata Delivery biara. Ɛsɛ sɛ:",
+        "items": [
+        "woho tew sɛnea ɛfata onipa a ɔkura aduane — nsa a ɛho tew, ntadeɛ a ɛho tew, na nnue tawa (smoking), vaping anaa nni aduane mmerɛ a worefa aduane no anaa worekɔma;",
+        "nyɛ Delivery mmerɛ a woyare yareɛ bi a ɛbɛtumi asɛe aduane no (sɛ ebi Norovirus, ayamtuo, anaa akuro a ɛda wo nsa ho);",
+        "ma insulated bag no ho ntew na mfa nneɛma foforɔ biara nhyɛ mu gye nnuane ne grocery Deliveries nkoa;",
+        "di <strong>cold chain</strong> mmara so — ɛsɛ sɛ nneɛma a ɛyɛ nwunu anaa ice hyɛ baabi a ɛbɛma ayɛ nwunu mmerɛ biara; Food Standards Agency kyerɛ sɛ ɛsɛ sɛ nneɛma nwunu no hyɛ 8°C ase mmerɛ a worekɔma no;",
+        "mmue, mnhwɛ emu, mnsesa, anaa mnyi nneɛma biara mfiri oda a wɔatoto mu no mu; ɛsɛ sɛ ahyɛnsodeɛ (seals) no hyɛ hɔ firi Odwadini hɔ kɔsi Oditɔfoɔ hɔ;",
+        "nni, nnka nhwɛ, anaa mfa wo nsa nka biribiara a ɛwɔ oda no mu, mpo nneɛma a \"ayera\" anaa \"wɔatwa mu\";",
+        "hwɛ nneɛma a ɛde allergy ba (allergens) yie — mfa nnuane no mbɔ nneɛma a ɛyɛ wo dea, mmoa, nneɛma a ɛhuam paa, anaa biribiara a ɛbɛtumi asɛe aduane no ho;",
+        "bɔ amanneɛ ntɛm ara nam rider app no so sɛ biribi si a ɛbɛtumi asɛe aduane no banbɔ (sɛ ebi aduane no hwie gu, akwanhyia, anaa bag no ho fĩ)."
+        ],
+        "allergenDuty": {
+        "title": "Allergen ho Asɛdeɛ",
+        "content": "Food Information Regulations 2014 hwehwɛ sɛ nsɛm a ɛyɛ pɛpɛɛpɛ fa nneɛma 14 a ɛde allergy ba ho kɔma Oditɔfoɔ no. Sɛ wode wo nsa ka aduane no hyɛmu, wosesa nneɛma no, anaa allergen ahyɛnsodeɛ no firi hɔ mmerɛ a worekɔma no a, ɛbɛtumi apira obi paa na eyi yɛ saa Mmara yi mu bu kɛseɛ."
+        }
+    },
+    "performingDeliveries": {
+        "title": "07 Delivery Adwumayɛ",
+        "acceptance": {
+        "title": "7.1 Ogyeɛ (Acceptance)",
+        "content": "Sɛ wɔma wo Delivery nam rider app no so a, wobɛtumi agye atom anaa wobɛtumi apo sɛnea wopɛ. Sɛ woampo Delivery bi a, ɛnsɛe wo din, nanso sɛ wogye atom na woanyɛ adwuma no mpɛn pii (hwɛ 7.4) a, ɛbɛtumi asɛe wo din."
+        },
+        "collection": {
+        "title": "7.2 Ofapɛ (Collection)",
+        "content": "Sɛ wodu Odwadini hɔ a, kyerɛ wo ho yie, kyerɛ sɛ oda no yɛ deɛ ɛfata, na hwɛ sɛ nneɛma no tɔ so yie ma kwan no. Ɛsɛ sɛ wobɔ amanneɛ nam rider app no so ansa na woafiri hɔ sɛ wohu biribi a ɛnyɛ (nneɛma a ayera, packaging a asɛe, aduane a ahwie gu, seal a abue)."
+        },
+        "transit": {
+        "title": "7.3 Akwantuo (Transit)",
+        "content": "Ɛsɛ sɛ wofa kwan a ɛwɔ banbɔ paa kɔma Oditɔfoɔ no na ka kar anaa tɛre no sɛnea Highway Code ne mmara kyerɛ. Mfa rider app no nni dwuma wɔ kwan a ɛbu Regulation 110 (phone dwumadie mmerɛ a woreka kar) so."
+        },
+        "handover": {
+        "title": "7.4 Odeɛma (Handover)",
+        "content": "Gye sɛ Oditɔfoɔ no akyerɛ sɛ \"gya no pon ano\" (leave-at-door):",
+        "items": [
+            "de Delivery no hyɛ Oditɔfoɔ no ankasa anaa panin bi nsa wɔ adras (address) no hɔ;",
+            "hwɛ mfeɛ ho adanseɛ (ID check) ma nneɛma a mmara kura mu — mma nsa, tawa, vapes anaa nkranteɛ mma obiara a ɔnyɛ mfeɛ 25 gye sɛ ɔwɔ photo ID (Challenge 25 policy);",
+            "gye photo adanseɛ sɛ app no kyerɛ wo saa a;",
+            "sɛ obiara nni hɔ na onni kyerɛ kwan biara a, ne no nkitaho nam app no so na di akwankyerɛ a ɛbɛba no so; mfa nnuane a ɛsɛe ntɛm ngya mmaa a ɛmmoa."
+        ]
+        },
+        "prohibited": {
+        "title": "7.5 Nneyɛeɛ a wɔabara",
+        "items": [
+            "nkitahodoɔ a wobɛne Oditɔfoɔ bɛyɛ wɔ app no akyi, gye sɛ akwanhyia bi si mmerɛ a worema aduane no;",
+            "nnaadaasɛm, mmaa/mmarima ho nsɛm, anaa basabasa biara;",
+            "sɛ wobɛkɔ Oditɔfoɔ hɔ mmerɛ foforɔ a ɛnyɛ adwuma ho asɛm;",
+            "Oditɔfoɔ no mfoni anaa ne fie/nneɛma mfoni a wobɛtwa a ɛboro deɛ app no hwehwɛ ho;",
+            "aduadzepɛ (bribes) firi Oditɔfoɔ anaa Odwadini hɔ;",
+            "sɛ wobɛkyerɛ sɛ woawie Delivery mmerɛ a woanyɛ saa."
+        ]
+        }
+    },
+    "fees": {
+        "title": "08 Akatua, Tips ne Invoicing",
+        "deliveryFees": {
+        "title": "8.1 Delivery fees (Direct Riders)",
+        "content": "Delivery biara a yɛbɛma wo no bɛkyerɛ <strong>akatua (fee)</strong> a wobɛnya a wɔatwa mu sɛnea Rider Fee Schedule kyerɛ. Ebi bɛtumi afiri baabi a wopiee, kwan tenten, mmerɛ a wode kɔeɛ, ne mmerɛ a adwuma dɔɔso paa. Sɛ wogye Delivery no atom a, wopene akatua a wɔakyerɛ no so."
+        },
+        "tips": {
+        "title": "8.2 Tips",
+        "content": "Oditɔfoɔ tips biara a wɔtua nam Dwumadie yi so no, yɛde bɛma wo nyinaa. Urbandrop nnye tip no fã biara. Sɛnea Employment (Allocation of Tips) Act 2023 kyerɛ no, tips nsesa wo delivery akatua. Sika (cash) biara a Oditɔfoɔ bɛma wo no yɛ wo dea."
+        },
+        "settlement": {
+        "title": "8.3 Akatua ntua",
+        "items": [
+            "Yɛtua akatua <strong>nnawɔtwe biara</strong> nam BACS transfer so kɔ wo UK bank account mu, titiriw Benada (Tuesday) mmerɛ a nnawɔtwe no (Monday 00:01 – Sunday 23:59 UTC) atwam;",
+            "Wobɛnya <strong>self-billed invoice</strong> nam rider app no so a ɛbɛkyerɛ Delivery biara, tips, ne nsesaeɛ biara. Eyi yɛ mmoa kɛkɛ ma wo adwumadie; ɛnsesa wo self-employed status;",
+            "Sɛ wowɔ asɛm bi fa invoice no ho a, bisa mmoa nam app no so wɔ nnafua 30 mu. Sɛ nnafua 30 twam a, yɛgye tom sɛ invoice no yɛ pɛ."
+        ]
+        },
+        "deductions": {
+        "title": "8.4 Sika a yɛyi (Deductions)",
+        "content": "Urbandrop bɛtumi ayi sika afiri deɛ yɛde wo no mu sɛ:",
+        "items": [
+            "sika a yɛde maa wo wɔ mfomsoɔ mu anaa nnaadaasɛm mu;",
+            "Urbandrop nneɛma a ayera, asɛe, anaa woamfa amma, sɛ yɛbɔɔ wo amanneɛ ansa;",
+            "sika a yɛsan de ma Oditɔfoɔ anaa Odwadini mmerɛ a mfomsoɔ no firi wo hɔ (sɛ ebi wopiee nneɛma mu, anaa woaka sɛ woawie adwuma mmerɛ a woanyɛ saa)."
+        ],
+        "note": "Yɛbɛkyerɛ sika biara a yɛbɛyi ne nea nti. Wobɛtumi de nwiinwii ato dwa wɔ Clause 17 ase."
+        },
+        "vat": {
+        "title": "8.5 VAT",
+        "content": "Sɛ woakyerɛw wo din ma VAT a, ɛsɛ sɛ wode wo VAT registration number ma yɛn na yɛatumi ayɛ invoice no yie sɛnea VAT Regulations 1995 kyerɛ. Wo na wobɛyɛ wo VAT returns."
+        }
+    },
+    "tax": {
+        "title": "09 Toɔ ne National Insurance",
+        "content": "Sɛ self-employed Direct Rider no, wo na asɛdeɛ da wo so sɛ wobɛkyerɛw wo din ama Self Assessment wɔ HMRC na woatua:",
+        "items": [
+        "<strong>Income Tax</strong> wɔ wo delivery mfasoɔ (profits) ho;",
+        "<strong>Class 2 National Insurance Contributions</strong> sɛ wo mfasoɔ boro threshold no a;",
+        "<strong>Class 4 NICs</strong> sɛ wo mfasoɔ boro lower profits limit no a;",
+        "<strong>VAT</strong>, sɛ wo sika a wonya boro VAT registration threshold no a wɔ abosome 12 mu."
+        ],
+        "content2": "Urbandrop nyi income tax anaa National Insurance mfiri wo sika mu. Sɛnea Online Platforms Reporting Rules kyerɛ no, Urbandrop bɛbɔ HMRC amanneɛ fa sika a wonyaeɛ ho afe biara; wopene saa amanneɛbɔ yi so mmerɛ a wode Dwumadie yi di dwuma no.",
+        "content3": "Wo na asɛdeɛ da wo so sɛ wobɛkura wo adwumadie sika ho nkrataa yie na wode wo Self Assessment tax return bɛma ansa na 31 January adu afe biara."
+    },
+    "notTaxAdvice": {
+        "title": "Ɛnyɛ Toɔ ho Afutuo",
+        "content": "Saa Clause yi yɛ nkyerɛkyerɛmu kɛkɛ, ɛnyɛ toɔ ho afutuo (tax advice). Sɛ wonnim deɛ ɛsɛ sɛ woyɛ a, bisa HMRC wɔ gov.uk/self-assessment-tax-returns anaa bisa accountant bi."
+    },
+    "performance": {
+        "title": "10 Adwumayɛ ne Ratings",
+        "ratings": {
+        "title": "10.1 Oditɔfoɔ ratings",
+        "content": "Delivery biara akyi no, Oditɔfoɔ bɛtumi ama wo nsoroma (stars) firi baako kɔsi num. Ratings boa yɛn ne wo ma yɛhu sɛnea adwuma no kɔ, nanso rating bɔne baako nkoa nsɛe wo akawnt."
+        },
+        "metrics": {
+        "title": "10.2 Operational metrics",
+        "content": "Urbandrop hwɛ nneɛma kakra bi:",
+        "table": {
+            "metric": "Deɛ yɛhwɛ",
+            "description": "Nkyerɛkyerɛmu",
+            "threshold": "Baabi a yɛdwene ho",
+            "completionRate": "Awieeɛ rate",
+            "completionDesc": "% a ɛfa Delivery a woagye atom na woawie yie ho",
+            "completionThreshold": "Ɛba 90% ase wɔ nnafua 30 mu",
+            "onTimeRate": "Mmerɛ rate",
+            "onTimeDesc": "% a ɛfa Deliveries a ɛdu mmerɛ a app no kyerɛeɛ mu",
+            "onTimeThreshold": "Ɛba 85% ase wɔ nnafua 30 mu",
+            "customerSatisfaction": "Oditɔfoɔ akɔnhɔ",
+            "satisfactionDesc": "Oditɔfoɔ ratings average",
+            "satisfactionThreshold": "Ɛba 4.2 / 5 ase wɔ Deliveries 50+ mu",
+            "escalationRate": "Nwiinwii rate",
+            "escalationDesc": "Nwiinwii kɛseɛ wɔ Deliveries 100 biara mu",
+            "escalationThreshold": "Ɛboro 2 wɔ Deliveries 100 mu"
+        }
+        },
+        "howWeUse": {
+        "title": "10.3 Sɛnea yɛde saa metrics yi di dwuma",
+        "content": "Yɛde metrics yi hu Riders a wɔhia mmoa (akwankyerɛ foforɔ, nneɛma foforɔ, kwan ho afutuo) na sɛ adwumayɛ no nkɔ anim mberɛ a yɛamua wo akyi a, yɛbɛtumi atwa wo dwumadie mu wɔ Clause 11 ase. Wobɛtumi ahu wo metrics wɔ rider app no mu."
+        },
+        "whatWeDontDo": {
+        "title": "10.4 Deɛ yɛnyɛ",
+        "content": "Ratings ne metrics nkyerɛ Delivery a yɛbɛma wo, wo sika, anaa obi a yɛdi kan kɔ ne hɔ. Urbandrop mfa nneyɛeɛ biara nhyɛ Riders so sɛ wɔnyɛ adwuma mmerɛ tenten."
+        }
+    },
+    "suspension": {
+        "title": "11 Adwuma Gyae ne Akawnt Prapra",
+        "temporary": {
+        "title": "11.1 Mmerɛ tiawa adwuma gyae",
+        "content": "Urbandrop bɛtumi agyae wo adwumadie mmerɛ tiawa sɛ yɛwɔ adanseɛ paa sɛ:",
+        "items": [
+            "asiane bi wɔ hɔ ma Oditɔfoɔ, Odwadini, anaa Rider foforɔ banbɔ;",
+            "wo Right to Work adanseɛ, wo ID, kar krataa, anaa insurance hia nhwɛsane;",
+            "yɛanya nwiinwii kɛseɛ bi a ɛsɛ sɛ yɛhwehwɛ mu;",
+            "ɛda adi sɛ worefa kwan bɔne so de Dwumadie no redi dwuma (sɛ ebi wode wo akawnt ama obi, nnaadaasɛm, anaa kɔneaba)."
+        ],
+        "note": "Yɛbɛkyerɛw wo deɛ nti a yɛagyae wo adwuma no (nam rider app anaa email so) ntɛm ara; gye sɛ mmara kyerɛ yɛn sɛ yɛnyɛ saa, yɛbɛma wo kwan na woatumi abua."
+        },
+        "permanent": {
+        "title": "11.2 Akawnt prapra koraa",
+        "content": "Yɛbɛtumi aprapra wo Rider Account koraa wɔ nneɛma yi nti:",
+        "items": [
+            "nnaadaasɛm, korɔn, anaa Oditɔfoɔ nneɛma a wobɛfa;",
+            "atutɔrebɔ, basabasa, anaa nyiyim biara;",
+            "aduane banbɔ mmara a wobɛbu no kɛseɛ;",
+            "sɛ wo Right to Work adanseɛ firi wo nsa wɔ UK;",
+            "kar anaa tɛre ho mfomsoɔ a ɛsɛe delivery adwuma;",
+            "akawnt a wode bɛma obi foforɔ a ɛbu Clause 4.2 so;",
+            "saa mmara yi a wobɛbu no mpɛn pii mpo mmerɛ a yɛabɔ wo kɔkɔ."
+        ]
+        },
+        "fairProcess": {
+        "title": "11.3 Atɛntenenee",
+        "content": "Gye sɛ ɛhia sɛ yɛprapra akawnt no ntɛm ara (sɛ ebi banbɔ nti), yɛbɛbɔ wo amanneɛ, yɛakyerɛ wo adanseɛ no, na yɛama wo nnafua 14 na woatumi abua. Wobɛtumi de asɛm no akɔ manager foforɔ hɔ wɔ Clause 17 ase."
+        }
+    },
+    "accidents": {
+        "title": "12 Akwanhyia ne Asɛdeɛ",
+        "reporting": {
+        "title": "12.1 Amanneɛbɔ",
+        "content": "Ɛsɛ sɛ wobɔ amanneɛ ntɛm ara, anaa dɔnhwere 24 mu fa:",
+        "items": [
+            "kar akwanhyia biara, mpo sɛ ɛnyɛ wo mfomsoɔ anaa obiampira;",
+            "opira biara a ɛba wo hɔ, Oditɔfoɔ, Odwadini adwumayɛni, anaa obi foforɔ biara mmerɛ a worema aduane;",
+            "agyapadeɛ a asɛe;",
+            "korɔn anaa korɔn-pɛ biara a ɛfa nneɛma anaa wo kar ho mmerɛ a worema aduane;",
+            "nitansɛm, basabasa, anaa nneyɛeɛ bɔne biara a efi Oditɔfoɔ anaa Odwadini hɔ."
+        ]
+        },
+        "liability": {
+        "title": "12.2 Wo asɛdeɛ",
+        "content": "Wo na asɛdeɛ da wo so wɔ nneɛma a woyɛ ho. Urbandrop nni ho asɛdeɛ wɔ pira biara a wobɛde aba obi foforɔ hɔ, Oditɔfoɔ agyapadeɛ, anaa wo ankasa wo kar. Ɛsɛ sɛ wokura insurance (Clause 5.2)."
+        },
+        "ourLiability": {
+        "title": "12.3 Yɛn asɛdeɛ kɔma wo",
+        "content": "Sɛnea Clause 12.4 kyerɛ no, sika a Urbandrop bɛtumi atua ama wo wɔ mfeɛ baako mu no nnyɛ kɛseɛ nsen (a) akatua nyinaa a wonyaeɛ saa mmerɛ no mu anaa (b) £1,000. Yɛntua sika mma mfasoɔ a woahwere anaa din pa a asɛe."
+        },
+        "liabilityExclusions": {
+        "title": "12.4 Asɛdeɛ a yɛntumi nnyi yɛn ho mfi mu",
+        "content": "Mmara yi nsi kwan mma:",
+        "items": [
+            "owuo anaa opira a efiri anidaho (negligence) mu;",
+            "nnaadaasɛm biara;",
+            "asɛdeɛ biara a mmara mma ho kwan sɛ yɛnyi yɛn ho mfi mu."
+        ]
+        },
+        "emergency": {
+        "title": "12.5 Akwanhyia nkitahodoɔ",
+        "content": "Sɛ akwanhyia kɛseɛ bi si mmerɛ a woreyɛ adwuma a, frɛ <strong>999</strong> kan na afei bɔ Urbandrop amanneɛ nam emergency button a ɛwɔ app no mu anaa dɔnhwere 24 rider support line a ɛwɔ Clause 21 mu."
+        }
+    },
+    "dataProtection": {
+        "title": "13 Data Banbɔ ne Ahintasɛm",
+        "roles": {
+        "title": "13.1 Dwumadie",
+        "content": "Wansɛm a ɛfa <strong>wo ho</strong> (Personal Data) a wode ma Urbandrop no, Urbandrop na ɛhwɛ so. Nansɔ nsɛm a ɛfa <strong>Oditɔfoɔ</strong> ho (din, adras, nkitahodoɔ) a wunya nam app no so no, Urbandrop na ɛhwɛ so na wo nso woyɛ adwumayɛni a wodi akwankyerɛ so de wie Delivery no."
+        },
+        "obligations": {
+        "title": "13.2 Wo asɛdeɛ sɛ adwumayɛni",
+        "content": "Sɛ worekura Oditɔfoɔ ho nsɛm a, ɛsɛ sɛ:",
+        "items": [
+            "wode di dwuma nkoa de wie Delivery a wɔde ama wo no;",
+            "nnkura, nnnyɛ copy, nkyɛ, mfa mputu online, anaa nnkura Oditɔfoɔ ho nsɛm mmerɛ a woawie Delivery no;",
+            "nnne Oditɔfoɔ nni nkitaho wɔ app no akyi;",
+            "fa PIN, passcode anaa biometric lock bɔ wo fon ne app no ho ban;",
+            "bɔ amanneɛ fa data biara a ayera kɔma dpo@urbandrop.io wɔ dɔnhwere 24 mu."
+        ]
+        },
+        "howWeUse": {
+        "title": "13.3 Sɛnea yɛde wo Personal Data di dwuma",
+        "content": "Yɛdi wo nsɛm ho dwuma sɛnea UK GDPR ne yɛn Privacy Policy kyerɛ. Yɛyɛ eyi de di mmara so (sɛ ebi Right to Work, HMRC amanneɛbɔ) ne banbɔ nti."
+        },
+        "rights": {
+        "title": "13.4 Wo kyɛfa (Rights)",
+        "content": "Wowɔ kyɛfa wɔ UK GDPR ase — sɛ wobɛhu nsɛm no, wosesa, woprapra, anaa wosi kwan. Twere dpo@urbandrop.io sɛ wopɛ sɛ wode di dwuma. Wobɛtumi nso ade nwiinwii ato dwa wɔ Information Commissioner's Office (ico.org.uk) hɔ."
+        }
+    },
+    "ip": {
+        "title": "14 Intellectual Property",
+        "content": "Hena biara nni ho kwan wɔ Dwumadie (Platform) yi, rider app, Urbandrop ahyɛnsodeɛ (trademarks), ne nkrataa ho gye Urbandrop nkoa. Yɛma wo kwan nkoa sɛ wode rider app no bɛdi dwuma ama Delivery adwuma.",
+        "item": "Ɛnsɛ sɛ:",
+        "items": [
+        "wobuebue app no mu hwehwɛ ne source code;",
+        "wifa sika ho nsɛm anaa kwan a yɛfa so yɛ adwuma no de kɔ baabi foforɔ;",
+        "wode Urbandrop ahyɛnsodeɛ di dwuma a wonnyaa kwan;",
+        "wode wo ho kyerɛ sɛ Urbandrop adwumayɛni paa (employee) anaa partner."
+        ]
+    },
+    "confidentiality": {
+        "title": "15 Ahintasɛm",
+        "content1": "Wobɛtumi ahu ahintasɛm fa Urbandrop, Oditɔfoɔ, anaa Odwadini ho mmerɛ a woreyɛ adwuma — sɛ ebi sika ho nhyehyɛeɛ, kwan a yɛfa so ma aduane, ne app no ho nsɛm. Ɛsɛ sɛ wokura saa ahintasɛm yi mmerɛ a woyɛ adwuma no ne mmerɛ a woagyae mpo, na mma obiara nnhu gye sɛ mmara hwehwɛ saa.",
+        "content2": "Ahintasɛm yi mfa ho sɛ nsɛm no abɛyɛ deɛ obiara nim dada a ɛnyɛ wo mfomsoɔ."
+    },
+    "health": {
+        "title": "16 Apɔmuden ne Banbɔ",
+        "content": "Mpo sɛ wonyɛ adwumayɛni paa (employee), yɛfa Rider banbɔ aniberɛsɛm mu na yɛbɛhwɛ ma woasusu ho yie mmerɛ a woreyɛ adwuma no.",
+        "responsibilities": {
+        "title": "16.1 Wo asɛdeɛ",
+        "items": [
+            "mmfa nsa anaa adubɔne nnyɛ adwuma a ɛbɛsɛe wo banbɔ;",
+            "gye wo ho — nnyɛ adwuma mmoro so (yɛkyerɛ sɛ gye wo ho sima 15 dɔnhwere 2 biara, na yɛnyɛ wo hwee sɛ wogye wo ho a);",
+            "twa Delivery mu sɛ wuhu sɛ kwan no nsɛm ayɛ den nti (ewiem nsakraeɛ, kar mfomsoɔ);",
+            "hyɛ ntadeɛ a ɛbɛma wo banbɔ (reflective clothing)."
+        ]
+        },
+        "wellbeing": {
+        "title": "16.2 Mmoa",
+        "content": "Rider wellbeing hia yɛn. Yɛma:",
+        "items": [
+            "mental health helpline a wobɛtumi afrɛ dɔnhwere 24 (details wɔ app mu);",
+            "akwankyerɛ kɔma Samaritans (116 123) ne Mind (0300 123 3393);",
+            "mmara a ɛkyerɛ sɛ yɛnnyɛ wo hwee sɛ wobɔ amanneɛ fa banbɔ anaa basabasa ho a."
+        ]
+        },
+        "equality": {
+        "title": "16.3 Pɛpɛɛpɛyɛ ne obu",
+        "content": "Urbandrop mpene nyiyim biara so — ɛyɛ Riders, Oditɔfoɔ, anaa yɛn adwumayɛfoɔ mpo a. Amanneɛbɔ biara bɛba no, yɛbɛhwehwɛ mu yie."
+        }
+    },
+    "complaints": {
+        "title": "17 Nwiinwii ne Akyinnyegyeɛ",
+        "raise": {
+        "title": "17.1 Ka kyerɛ yɛn kan",
+        "content": "Sɛ wowɔ nwiinwii — ɛfa sika, sika a yɛyie, adwuma gyae, anaa obi nneyɛeɛ ho — yɛsrɛ wo, fa app no so bɔ amanneɛ anaa twere riders@urbandrop.io. Yɛbɛgye wo asɛm no wɔ nnafua 2 mu na yɛabua wo koraa wɔ nnafua 10 mu."
+        },
+        "escalation": {
+        "title": "17.2 Fa kɔ anim",
+        "content": "Sɛ woankɔpene yɛn mmuaeɛ no so a, wobɛtumi de kɔ manager foforɔ hɔ nam appeals@urbandrop.io so. Gyinaesi a ɛbɛba afiri hɔ no na ɛyɛ wie wɔ Urbandrop mu."
+        },
+        "independentRedress": {
+        "title": "17.3 Atɛntenenee foforɔ",
+        "content": "Saa mmara yi nsi wo kwan sɛ wobɛkɔ asɛnnibea (England ne Wales) anaa wobɛne HMRC, ICO, anaa HSE bɛkasa."
+        }
+    },
+    "changes": {
+        "title": "18 Nsesaeɛ wɔ Mmara yi mu",
+        "content": "UrbanDrop bɛtumi asesa saa mmara yi mmerɛ biara. Yɛbɛbɔ wo amanneɛ nam app, email, anaa SMS so nnafua 14 ansa na nsesaeɛ no ahyɛ aseɛ. Sɛ wotoa adwuma no so a, ɛkyerɛ sɛ woapene nsesaeɛ foforɔ no so. Sɛ woampene so a, wobɛtumi atwa wo nkrataa mu wɔ nnafua 7 mu."
+    },
+    "contact": {
+        "title": "19 Nkitahodoɔ",
+        "content": "Ma nsɛmmisa, mmoa, anaa amanneɛbɔ:",
+        "companyName": "Urbandrop Group Limited",
+        "email": "Email: <a href=\"mailto:riders@urbandrop.io\" className=\"text-secondary hover:underline font-medium\">riders@urbandrop.io</a>",
+        "emergency": "Akwanhyia mmoa dɔnhwere 24 (details wɔ app mu)",
+        "riderSupport": "Rider support",
+        "appeals": "Appeals",
+        "appealsEmail": "appeals@urbandrop.io",
+        "dataProtection": "Data protection",
+        "dpoEmail": "dpo@urbandrop.io",
+        "legalNotices": "Mmara ho nkrataa",
+        "legalEmail": "legal@urbandrop.io",
+        "emergencyLabel": "Emergency (24h)"
+    },
+    "governingLaw": {
+        "title": "20 Mmara ne Atɛntenenee",
+        "content": "Saa mmara yi gyina England ne Wales mmara so. England ne Wales asɛnnibea na ɛwɔ tumi. Sɛ mmara fã bi yɛ kwa a, deɛ ɛka nkaeɛ no bɛkɔ so ayɛ adwuma."
+    },
+    "entireAgreement": {
+        "title": "21 Nkabom Mmara",
+        "content": "Saa mmara yi, ne Privacy Policy ne nkrataa foforɔ a yɛaka ho no, na ɛyɛ nkabom koraa wɔ wo ne UrbanDrop ntam."
     }
+    }
+    }
+    }
+    }
+
+

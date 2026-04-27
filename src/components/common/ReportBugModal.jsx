@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const FloatingField = ({ id, label, required, error, children }) => {
     const [focused, setFocused] = useState(false);
@@ -56,6 +57,7 @@ const FloatingField = ({ id, label, required, error, children }) => {
 };
 
 const ReportBugModal = ({ isOpen, onClose }) => {
+    const { t } = useTranslation();
     const modalRef = useRef(null);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitSuccess, setSubmitSuccess] = useState(false);
@@ -75,20 +77,20 @@ const ReportBugModal = ({ isOpen, onClose }) => {
     });
 
     const issueTypes = [
-        { value: 'broken', label: 'Broken feature / functionality not working' },
-        { value: 'login', label: 'Login or authentication issue' },
-        { value: 'payment', label: 'Payment issue' },
-        { value: 'ui', label: 'User Interface' },
-        { value: 'performance', label: 'Performance / slow loading' },
-        { value: 'data', label: 'Data issue' },
-        { value: 'other', label: 'Other technical issue' }
+        { value: 'broken', label: t('reportABug.form.issueTypes.broken') },
+        { value: 'login', label: t('reportABug.form.issueTypes.login') },
+        { value: 'payment', label: t('reportABug.form.issueTypes.payment') },
+        { value: 'ui', label: t('reportABug.form.issueTypes.ui') },
+        { value: 'performance', label: t('reportABug.form.issueTypes.performance') },
+        { value: 'data', label: t('reportABug.form.issueTypes.data') },
+        { value: 'other', label: t('reportABug.form.issueTypes.other') }
     ];
 
     const impactLevels = [
-        { value: 'Low', label: 'Low' },
-        { value: 'Medium', label: 'Medium' },
-        { value: 'High', label: 'High' },
-        { value: 'Critical', label: 'Critical' }
+        { value: 'Low', label: t('reportABug.form.impactLevels.Low') },
+        { value: 'Medium', label: t('reportABug.form.impactLevels.Medium') },
+        { value: 'High', label: t('reportABug.form.impactLevels.High') },
+        { value: 'Critical', label: t('reportABug.form.impactLevels.Critical') }
     ];
 
     const getBrowserInfo = () => {
@@ -146,15 +148,15 @@ const ReportBugModal = ({ isOpen, onClose }) => {
 
     const validate = () => {
         const newErrors = {};
-        if (!formData.issueType) newErrors.issueType = 'Please select an issue type';
+        if (!formData.issueType) newErrors.issueType = t('reportABug.messages.errors.selectIssueType');
         if (formData.issueType === 'security') {
-            if (!formData.affectedEndpoint) newErrors.affectedEndpoint = 'Affected endpoint is required';
-            if (!formData.description) newErrors.description = 'Description is required';
-            if (!formData.stepsToReproduce) newErrors.stepsToReproduce = 'Steps to reproduce are required';
-            if (!formData.impactLevel) newErrors.impactLevel = 'Impact level is required';
+            if (!formData.affectedEndpoint) newErrors.affectedEndpoint = t('reportABug.messages.errors.affectedEndpoint');
+            if (!formData.description) newErrors.description = t('reportABug.messages.errors.description');
+            if (!formData.stepsToReproduce) newErrors.stepsToReproduce = t('reportABug.messages.errors.stepsToReproduce');
+            if (!formData.impactLevel) newErrors.impactLevel = t('reportABug.messages.errors.impactLevel');
         } else {
-            if (!formData.attemptedAction) newErrors.attemptedAction = 'Please describe what you were trying to do';
-            if (!formData.actualResult) newErrors.actualResult = 'Please describe what happened instead';
+            if (!formData.attemptedAction) newErrors.attemptedAction = t('reportABug.messages.errors.attemptedAction');
+            if (!formData.actualResult) newErrors.actualResult = t('reportABug.messages.errors.actualResult');
         }
         setErrors(newErrors);
         return Object.keys(newErrors).length === 0;
@@ -197,7 +199,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
             }, 2000);
         } catch (error) {
             console.error('Error submitting bug report:', error);
-            setErrors({ submit: 'Failed to submit report. Please try again.' });
+            setErrors({ submit: t('reportABug.messages.errors.submit') });
         } finally {
             setIsSubmitting(false);
         }
@@ -232,8 +234,8 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                 </svg>
                             </div>
                             <div>
-                                <h2 id="modal-title" className="text-white text-lg font-semibold whitespace-nowrap">Report a Technical Issue</h2>
-                                <p className="text-white/70 text-xs mt-0.5">Help us improve by reporting bugs or security issues</p>
+                                <h2 id="modal-title" className="text-white text-lg font-semibold whitespace-nowrap">{t('reportABug.modal.title')}</h2>
+                                <p className="text-white/70 text-xs mt-0.5">{t('reportABug.modal.subtitle')}</p>
                             </div>
                         </div>
                         <button onClick={onClose} className="p-2 rounded-full hover:bg-white/20 transition-colors" aria-label="Close modal">
@@ -254,24 +256,24 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                                     </svg>
                                 </div>
-                                <h3 className="text-gray-900 font-semibold mb-1">Report Submitted!</h3>
-                                <p className="text-gray-500 text-sm">Thank you for helping us improve.</p>
+                                <h3 className="text-gray-900 font-semibold mb-1">{t('reportABug.messages.success.title')}</h3>
+                                <p className="text-gray-500 text-sm">{t('reportABug.messages.success.description')}</p>
                             </div>
                         ) : (
                             <>
                                 {/* Issue Type - Full Width */}
                                 <div>
                                     <label htmlFor="issueType" className="block text-xs font-medium text-gray-500 mb-1.5 uppercase tracking-wider">
-                                        Issue Type <span className="text-red-500">*</span>
+                                        {t('reportABug.form.issueType')} <span className="text-red-500">*</span>
                                     </label>
                                     <select id="issueType" name="issueType" value={formData.issueType} onChange={handleChange} className={`w-full px-4 py-3 rounded-xl border text-sm text-gray-800 outline-none transition-all cursor-pointer ${
                                         errors.issueType ? 'border-red-400' : 'border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20'
                                     }`}>
-                                        <option value="">Select an issue type...</option>
+                                        <option value="">{t('reportABug.form.selectIssueType')}</option>
                                         {issueTypes.map(type => (
                                             <option key={type.value} value={type.value}>{type.label}</option>
                                         ))}
-                                        <option value="security">Security Vulnerability</option>
+                                        <option value="security">{t('reportABug.form.issueTypes.security')}</option>
                                     </select>
                                     {errors.issueType && <p className="mt-1 text-xs text-red-500 pl-1">{errors.issueType}</p>}
                                 </div>
@@ -281,30 +283,30 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                     <div className="bg-red-50/60 rounded-2xl p-4 space-y-4 border border-red-100">
                                         <p className="text-xs font-medium text-red-600 uppercase tracking-wider flex items-center gap-1.5">
                                             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
-                                            Security Details
+                                            {t('reportABug.form.securityDetails')}
                                         </p>
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                            <FloatingField id="affectedEndpoint" label="Affected Endpoint" required error={errors.affectedEndpoint}>
+                                            <FloatingField id="affectedEndpoint" label={t('reportABug.form.affectedEndpoint')} required error={errors.affectedEndpoint}>
                                                 <input type="text" id="affectedEndpoint" name="affectedEndpoint" value={formData.affectedEndpoint} onChange={handleChange} className={inputClass} />
                                             </FloatingField>
                                             <div>
                                                 <label htmlFor="impactLevel" className="block text-xs font-medium text-gray-500 mb-1.5 uppercase tracking-wider">
-                                                    Impact Level <span className="text-red-500">*</span>
+                                                    {t('reportABug.form.impactLevel')} <span className="text-red-500">*</span>
                                                 </label>
                                                 <select id="impactLevel" name="impactLevel" value={formData.impactLevel} onChange={handleChange} className={`w-full px-4 py-3 rounded-xl border text-sm text-gray-800 outline-none transition-all cursor-pointer ${
                                                     errors.impactLevel ? 'border-red-400' : 'border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20'
                                                 }`}>
-                                                    <option value="">Select impact level...</option>
+                                                    <option value="">{t('reportABug.form.selectImpactLevel')}</option>
                                                     {impactLevels.map(level => (
                                                         <option key={level.value} value={level.value}>{level.label}</option>
                                                     ))}
                                                 </select>
                                                 {errors.impactLevel && <p className="mt-1 text-xs text-red-500 pl-1">{errors.impactLevel}</p>}
                                             </div>
-                                            <FloatingField id="description" label="Vulnerability Description" required error={errors.description}>
+                                            <FloatingField id="description" label={t('reportABug.form.vulnerabilityDescription')} required error={errors.description}>
                                                 <textarea id="description" name="description" value={formData.description} onChange={handleChange} rows={3} className={textareaClass} />
                                             </FloatingField>
-                                            <FloatingField id="stepsToReproduce" label="Steps to Reproduce" required error={errors.stepsToReproduce}>
+                                            <FloatingField id="stepsToReproduce" label={t('reportABug.form.stepsToReproduce')} required error={errors.stepsToReproduce}>
                                                 <textarea id="stepsToReproduce" name="stepsToReproduce" value={formData.stepsToReproduce} onChange={handleChange} rows={3} className={textareaClass} />
                                             </FloatingField>
                                         </div>
@@ -314,13 +316,13 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                 {/* Normal Issue Fields - 2 col desktop, 1 col mobile */}
                                 {formData.issueType && !isSecurityIssue && (
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        <FloatingField id="attemptedAction" label="What were you trying to do?" required error={errors.attemptedAction}>
+                                        <FloatingField id="attemptedAction" label={t('reportABug.form.attemptedAction')} required error={errors.attemptedAction}>
                                             <textarea id="attemptedAction" name="attemptedAction" value={formData.attemptedAction} onChange={handleChange} rows={2} className={textareaClass} />
                                         </FloatingField>
-                                        <FloatingField id="actualResult" label="What happened instead?" required error={errors.actualResult}>
+                                        <FloatingField id="actualResult" label={t('reportABug.form.actualResult')} required error={errors.actualResult}>
                                             <textarea id="actualResult" name="actualResult" value={formData.actualResult} onChange={handleChange} rows={2} className={textareaClass} />
                                         </FloatingField>
-                                        <FloatingField id="stepsToReproduce" label="Steps to Reproduce">
+                                        <FloatingField id="stepsToReproduce" label={t('reportABug.form.stepsToReproduce')}>
                                             <textarea id="stepsToReproduce" name="stepsToReproduce" value={formData.stepsToReproduce} onChange={handleChange} rows={2} className={textareaClass} />
                                         </FloatingField>
                                     </div>
@@ -329,12 +331,12 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                 {/* Page URL & Browser - Side by side on desktop */}
                                 {formData.issueType && (
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        <FloatingField id="pageUrl" label="Page URL">
+                                        <FloatingField id="pageUrl" label={t('reportABug.form.pageUrl')}>
                                             <input type="text" id="pageUrl" name="pageUrl" value={formData.pageUrl} onChange={handleChange} className={inputClass} />
                                         </FloatingField>
                                         <div>
                                             <label htmlFor="browserInfo" className="block text-xs font-medium text-gray-500 mb-1.5 uppercase tracking-wider">
-                                                Browser and Device Auto Detected
+                                                {t('reportABug.form.browserInfo')}
                                             </label>
                                             <input type="text" id="browserInfo" name="browserInfo" value={formData.browserInfo} readOnly disabled className="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-600 text-sm cursor-not-allowed select-none" />
                                         </div>
@@ -345,7 +347,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                 {formData.issueType && (
                                     <div>
                                         <label className="block text-xs font-medium text-gray-500 mb-2 uppercase tracking-wider">
-                                            Attachment <span className="normal-case text-gray-400 font-normal">(optional, max 10MB)</span>
+                                            {t('reportABug.form.attachment')} <span className="normal-case text-gray-400 font-normal">{t('reportABug.form.attachmentOptional')}</span>
                                         </label>
                                         <div className="border-2 border-dashed border-gray-200 rounded-xl p-4 text-center hover:border-primary/40 transition-colors cursor-pointer">
                                             <input type="file" id="attachment" name="attachment" onChange={handleChange} accept="image/*,.txt,.pdf,.log" className="hidden" />
@@ -357,10 +359,10 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                                     {formData.attachment ? (
                                                         <span className="text-primary font-medium">{formData.attachment.name}</span>
                                                     ) : (
-                                                        <><span className="text-primary font-medium">Click to upload</span> or drag and drop</>
+                                                        <><span className="text-primary font-medium">{t('reportABug.form.clickToUpload')}</span> {t('reportABug.form.dragAndDrop')}</>
                                                     )}
                                                 </p>
-                                                <p className="text-xs text-gray-400 mt-1">PNG, JPG, PDF, TXT, LOG</p>
+                                                <p className="text-xs text-gray-400 mt-1">{t('reportABug.form.acceptedFormats')}</p>
                                             </label>
                                         </div>
                                     </div>
@@ -376,7 +378,7 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                 {/* Actions */}
                                 <div className="flex gap-3 pt-2">
                                     <button type="button" onClick={onClose} className="flex-1 px-6 py-3 rounded-xl border border-gray-200 text-gray-700 font-medium hover:bg-gray-50 transition-colors text-sm">
-                                        Cancel
+                                        {t('reportABug.buttons.cancel')}
                                     </button>
                                     <button type="submit" disabled={isSubmitting || !isFormValid()} className={`flex-1 px-6 py-3 rounded-xl font-medium transition-all text-sm ${
                                         isSubmitting || !isFormValid()
@@ -389,9 +391,9 @@ const ReportBugModal = ({ isOpen, onClose }) => {
                                                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                                                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
                                                 </svg>
-                                                Submitting...
+                                                {t('reportABug.buttons.submitting')}
                                             </span>
-                                        ) : 'Submit Report'}
+                                        ) : t('reportABug.buttons.submitReport')}
                                     </button>
                                 </div>
                             </>

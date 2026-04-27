@@ -407,7 +407,7 @@ const RiderTerms = ({ icon }) => {
 
             <h3 id="rider-clause-14" className="text-green-900 mt-10 mb-3 text-xl font-bold">{t('termsConditions.sections.riderTerms.ip.title')}</h3>
             <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t('termsConditions.sections.riderTerms.ip.content') }}></p>
-            <p className="text-gray-700 mb-2">{t('termsConditions.sections.riderTerms.ip.items')}</p>
+            <p className="text-gray-700 mb-2">{t('termsConditions.sections.riderTerms.ip.item')}</p>
             <ul className="list-disc pl-6 mb-4 text-gray-600 space-y-2">
                 {t('termsConditions.sections.riderTerms.ip.items', { returnObjects: true }).map((item, index) => (
                     <li key={index} dangerouslySetInnerHTML={{ __html: item }}></li>

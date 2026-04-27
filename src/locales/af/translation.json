@@ -1205,60 +1205,60 @@
                         "title": "KLOUSULE 02",
                         "subtitle": "Jou Rekening",
                         "whoCanCreate": {
-                            "title": "2.1 Wie kan 'n rekening skep",
-                            "content": "Jy moet ten minste 18 jaar oud wees om ’n rekening te skep. As jy 16 of 17 is, mag jy die platform slegs gebruik onder toesig van ’n ouer of voog wat kontraktueel verantwoordelik is vir jou bestellings."
+                            "title": "2.1 Wie ’n rekening kan skep",
+                            "content": "Jy moet ten minste 18 jaar oud wees om ’n rekening te skep. As jy 16 of 17 is, mag jy die Platform slegs gebruik onder toesig van ’n ouer of voog wat kontraktueel verantwoordelik is vir jou Bestellings."
                         },
                         "accurateInfo": {
                             "title": "2.2 Akkurate inligting",
-                            "content": "Jy moet akkurate en op datum inligting verskaf en jou aanmeldbesonderhede beveilig."
+                            "content": "Jy moet akkurate, huidige en volledige inligting verskaf wanneer jy jou Rekening skep en dit op datum hou. Jy is verantwoordelik vir die sekuriteit van jou aanmeldbesonderhede. Indien jy dink iemand anders het jou Rekening gebruik, stel ons onmiddellik in kennis by support@urbandrop.io."
                         },
                         "oneAccount": {
                             "title": "2.3 Een rekening per persoon",
-                            "content": "Slegs een rekening per persoon word toegelaat."
+                            "content": "Jy mag slegs een Rekening op ’n slag hê. Ons mag duplikaatrekeninge na ons goeddunke saamvoeg of sluit (enige Urbandrop-krediet sal na die oorblywende rekening oorgedra word)."
                         },
                         "personalUse": {
-                            "title": "2.4 Persoonlike gebruik",
-                            "content": "Die Platform is slegs vir persoonlike gebruik en nie vir herverkoop nie."
+                            "title": "2.4 Gebruik van die Platform vir jouself",
+                            "content": "Jy mag die Platform slegs vir jou eie persoonlike, nie-kommersiële gebruik gebruik. Jy mag nie produkte wat deur die Platform gekoop is, herverkoop nie, ’n Rekening vir ’n ander persoon se kommersiële doeleindes gebruik nie, of bestellings plaas met iemand anders se betaalmetode sonder hul toestemming nie."
                         }
                     },
                     "clause03": {
                         "title": "KLOUSULE 03",
                         "subtitle": "Diensgebied & Beskikbaarheid",
                         "whereWeDeliver": {
-                            "title": "3.1 Waar ons lewer",
-                            "content": "Urbandrop is beskikbaar in sekere gebiede en kan uitbrei of verander."
+                            "title": "3.1 Waar ons aflewer",
+                            "content": "Urbandrop is tans beskikbaar in geselekteerde VK-poskodes, beginnende in Bristol en mettertyd uitbreidend na Birmingham, Londen, Manchester en ander VK-stede. Die toepassing sal tydens afhandeling aandui of jou adres binne ’n aktiewe dienssone val. Ons mag dienssones te eniger tyd byvoeg, verander of verwyder."
                         },
                         "whenWeDeliver": {
-                            "title": "3.2 Wanneer ons lewer",
-                            "content": "Afleweringstye hang af van beskikbaarheid en ligging."
+                            "title": "3.2 Wanneer ons aflewer",
+                            "content": "Afleweringsure hang af van die Handelaar en jou ligging en word in die toepassing vertoon. Sommige Handelaars en sekere produkte is slegs op spesifieke tye beskikbaar."
                         },
                         "stockAvailability": {
                             "title": "3.3 Voorraadbeskikbaarheid",
-                            "content": "Voorraad kan verander en items kan onbeskikbaar raak."
+                            "content": "Produkbeskikbaarheid hang af van die handelaar se voorraad, wat deur die dag verander. Soms kan ’n item wat tydens afhandeling as beskikbaar aangedui word, nie beskikbaar wees wanneer die Handelaar begin om jou Bestelling saam te stel nie. In daardie geval is Klousule 8 van toepassing."
                         }
                     },
                     "clause04": {
                         "title": "KLOUSULE 04",
-                        "subtitle": "Plaas van 'n Bestelling",
+                        "subtitle": "Plasing van ’n Bestelling",
                         "contractFormed": {
-                            "title": "4.1 Kontrakvorming",
-                            "content": "'n Kontrak word gevorm wanneer jou bestelling aanvaar word."
+                            "title": "4.1 Hoe ’n kontrak tot stand kom",
+                            "content": "Wanneer jy ’n Bestelling deur die Platform plaas, maak jy ’n aanbod om die gelyste produkte te koop. ’n Kontrak kom slegs tot stand wanneer ons (as die Handelaar se agent, of vir ons eie vervullingsitems, as verkoper) bevestig dat die Handelaar jou Bestelling aanvaar het. Bevestiging verskyn in die toepassing en word gewoonlik per e-pos of drukkennisgewing gestuur."
                         },
                         "orderChanges": {
-                            "title": "4.2 Bestellingswysigings",
-                            "content": "Bestellings kan beperk word nadat dit bevestig is."
+                            "title": "4.2 Veranderinge aan bestellings",
+                            "content": "Sodra ’n Bestelling aanvaar is, kan jy dit nie deur die toepassing verander nie. Jy kan ondersteuning kontak, maar teen daardie stadium mag die Handelaar reeds besig wees om jou Bestelling saam te stel of dit reeds versend het, en ons mag dit nie kan verander nie."
                         },
                         "minimumOrder": {
                             "title": "4.3 Minimum bestelling",
-                            "content": "Minimum bestellings kan geld."
+                            "content": "’n Minimum bestelwaarde kan van toepassing wees. Indien jou mandjie onder die Handelaar se minimum is, sal die toepassing ’n klein bykomende fooi toon of jou vra om meer items by te voeg. Die huidige minimum en bykomende fooie word tydens afhandeling vertoon."
                         },
                         "substitutions": {
-                            "title": "4.4 Vervangings",
-                            "content": "Items kan vervang word indien onbeskikbaar."
+                            "title": "4.4 Plaasvervangers",
+                            "content": "Indien ’n item nie beskikbaar is wanneer die Handelaar jou Bestelling saamstel nie, kan die Handelaar of ons ’n plaasvervanger aanbied. Indien ’n plaasvervanger verskaf word en jy dit nie wil hê nie, kan jy dit by aflewering weier of dit ingevolge Klousule 8 aanmeld, en ons sal dit terugbetaal."
                         },
                         "rightToRefuse": {
                             "title": "4.5 Reg om te weier",
-                            "content": "Ons mag bestellings weier of kanselleer waar nodig."
+                            "content": "Ons behou die reg voor om ’n Bestelling te weier of te kanselleer waar, byvoorbeeld, die produk nie beskikbaar is nie, die prys verkeerd gelys is weens ’n duidelike fout, ons bedrieglike aktiwiteit vermoed, die afleweringsadres buite ons dienssone is, of die Bestelling hierdie Voorwaardes of toepaslike wet oortree. Indien ons dit doen, sal jy ’n volle terugbetaling ontvang en ons sal die rede aan jou meedeel."
                         }
                     },
                     "clause05": {
@@ -1266,414 +1266,429 @@
                         "subtitle": "Pryse, Fooie & Betaling",
                         "productPrices": {
                             "title": "5.1 Produkpryse",
-                            "content": "Pryse word in GBP getoon en kan verander."
+                            "content": "Produkpryse word deur die Handelaar bepaal (of deur Urbandrop vir ons eie-vervullingsitems) en word in die toep getoon in Britse pond (GBP), insluitend BTW waar van toepassing. Pryse mag verskil van in-winkel pryse by dieselfde Handelaar en mag te eniger tyd verander voordat jy jou Bestelling plaas."
                         },
                         "fees": {
                             "title": "5.2 Fooie",
-                            "content": "Verskeie fooie kan van toepassing wees by afhandeling.",
+                            "content": "Tipiese fooie wat by die betaalpunt getoon word, sluit in:",
                             "items": [
-                                "Afleweringsfooi — wissel volgens afstand en vraag.",
-                                "Diensfooi — persentasie van bestelling.",
-                                "Klein mandjie fooi — indien minimum nie bereik word nie.",
-                                "Wenke — 100% gaan na die afleweraar."
+                                "<strong>Afleweringsfooi</strong> — wissel volgens afstand, tyd van die dag en aanvraag. Urbandrop+-intekenare ontvang gratis of voorkeur-aflewering op kwalifiserende bestellings (sien Klousule 10).",
+                                "<strong>Diensfooi</strong> — 'n persentasie van jou mandjie, gehef op elke Bestelling, wat bydra tot die bedryf van die Platform.",
+                                "<strong>Klein-mandjie-toeslag</strong> — 'n klein fooi wat toegepas word wanneer jou mandjie onder die minimum bestellingsdrempel val.",
+                                "<strong>Fooitjies</strong> — opsioneel. 100% van enige fooitjie gaan aan die Koerier; Urbandrop behou geen gedeelte daarvan nie."
                             ]
                         },
                         "surgePricing": {
-                            "title": "5.3 Piekpryse",
-                            "content": "Fooie kan styg tydens hoë aanvraag."
+                            "title": "5.3 Aanvraag- en weerprysbepaling",
+                            "content": "Afleweringsfooie mag verhoog tydens tydperke van hoë aanvraag, strawwe weer, of lae beskikbaarheid van Koeriers. Die toep sal altyd die fooi duidelik aan jou toon voordat jy die Bestelling bevestig."
                         },
                         "payment": {
                             "title": "5.4 Betaling",
-                            "content": "Ons aanvaar kaart en digitale betalings."
+                            "content": "Ons aanvaar die meeste debiet- en kredietkaarte, Apple Pay, Google Pay en enige ander betaalmetodes wat by die betaalpunt getoon word. Betaling word deur ons betalingsverskaffer verwerk; ons stoor nie volledige kaartbesonderhede op ons stelsels nie. Deur 'n Bestelling te plaas, magtig jy ons om jou gekose betaalmetode vir die volle bedrag van die Bestelling te debiteer."
                         },
                         "preAuth": {
-                            "title": "5.5 Vooraf magtiging",
-                            "content": "Tydelike betaling kan gehou word."
+                            "title": "5.5 Voorafmagtiging",
+                            "content": "Wanneer jy 'n Bestelling plaas, mag ons 'n tydelike houvas (voorafmagtiging) op jou betaalmetode plaas vir die Bestellingswaarde. Dit is nie 'n heffing nie; die werklike bedrag word eers verhaal wanneer jou Bestelling bevestig of versend word. Voorafmagtigings verval gewoonlik binne 3–7 werksdae, afhangende van jou bank."
                         },
                         "receipts": {
                             "title": "5.6 Kwitansies",
-                            "content": "Kwitansies is beskikbaar in die app."
+                            "content": "'n Kwitansie vir elke Bestelling is beskikbaar in die toep en, waar jy dit gekies het, per e-pos."
                         }
                     },
                     "clause06": {
                         "title": "KLOUSULE 06",
                         "subtitle": "Aflewering",
                         "deliveryTime": {
-                            "title": "6.1 Afleweringstyd",
-                            "content": "Tye is skattings, nie waarborge nie."
+                            "title": "6.1 Geskatte afleweringstyd",
+                            "content": "Afleweringstye wat in die toep getoon word is slegs skattings, nie waarborge nie. Tipiese Bestellings arriveer binne 30–90 minute, maar werklike tye hang af van die Handelaar se voorbereiding, Koerier-beskikbaarheid, verkeer en weer."
                         },
                         "whereWeDeliver": {
-                            "title": "6.2 Waar ons lewer",
-                            "content": "Jy moet 'n geldige adres verskaf."
+                            "title": "6.2 Waar ons aflewer",
+                            "content": "Ons lewer af by die adres wat jy by die betaalpunt kies. Jy is verantwoordelik om te verseker dat die adres korrek en toeganklik is. Ons kan nie by posbusse, sluitkaste of adresse waar veilige aflewering nie redelikerwys moontlik is nie, aflewer nie. Waar die gebou beperkte toegang het, moet jy duidelike instruksies (luitjie, woonstelnommer, toegangskode) in die afleweringsnotas verskaf."
                         },
                         "handover": {
                             "title": "6.3 Oorhandiging",
-                            "content": "Iemand moet beskikbaar wees om ontvangs te neem."
+                            "content": "Tensy jy \"laat by deur\" of 'n ander kontakvrye opsie gekies het, moet 'n volwassene by die afleweringsadres beskikbaar wees om die Bestelling te ontvang. Vir ouderdomsbeperkte items (Klousule 7) is kontakvrye aflewering nie beskikbaar nie."
                         },
                         "ifNoOneAvailable": {
                             "title": "6.4 Indien niemand beskikbaar is nie",
-                            "content": "Bestellings kan as onlewerbaar gemerk word."
+                            "content": "Indien die Koerier jou nie met aankoms kan bereik nie (geen antwoord by die deur nie, geen reaksie op toep- of telefoniese kontak nie), sal hulle 'n redelike tyd wag (tipies 5 minute) voordat die Bestelling as onaflewerbaar gerapporteer word. In daardie geval:",
+                            "items": [
+                                "bederfbare items (vars vleis, suiwel, vars produkte, bevrore items) mag veilig weggedoen word om voedselveiligheidsrisiko's te voorkom, en is nie terugbetaalbaar bo dit wat jou statutêre regte vereis nie;",
+                                "nie-bederfbare items mag na die Handelaar teruggestuur word of gehou word vir heraflewering indien moontlik, volgens ons diskresie en moontlik teen 'n bykomende fooi;",
+                                "die afleweringsfooi is nie terugbetaalbaar waar die fout nie aan ons kant lê nie."
+                            ]
                         },
                         "leaveAtDoor": {
-                            "title": "6.5 Laat by deur",
-                            "content": "Risiko gaan oor sodra dit afgelewer is."
+                            "title": "6.5 Laat by die deur",
+                            "content": "Indien jy \"laat by deur\" kies of toestemming gee om die Bestelling op 'n gespesifiseerde veilige plek te laat, gaan die risiko van die goedere oor na jou sodra die Koerier die Bestelling daar gelaat het en die bevestigingsfoto geneem het. Ons is nie verantwoordelik vir diefstal of peutery na daardie punt nie."
                         },
                         "riskOwnership": {
                             "title": "6.6 Risiko en eienaarskap",
-                            "content": "Eienaarskap gaan oor na betaling en aflewering."
+                            "content": "Risiko in die goedere gaan oor na jou by oorhandiging (of by \"laat by deur\"-plasing onder 6.5). Eienaarskap gaan oor na jou sodra volle betaling ontvang is en die goedere oorhandig is."
                         }
                     },
                     "clause07": {
                         "title": "KLOUSULE 07",
                         "subtitle": "Ouderdomsbeperkte Produkte",
-                        "intro": "Sekere produkte vereis ouderdomsverifikasie.",
+                        "intro": "Sekere produkte wat op die Platform verkoop word, word deur die wet in die VK beperk, insluitend alkohol, tabakprodukte, nikotien-vaping-produkte, messe en lemprodukte, en sekere oplosmiddels. Ons voldoen streng aan die 'Licensing Act 2003', die 'Tobacco and Related Products Regulations 2016', die 'Offensive Weapons Act 2019' en alle verwante wetgewing.",
                         "minimumAge": {
                             "title": "7.1 Minimum ouderdom",
-                            "content": "Jy moet 18+ wees vir sekere produkte."
+                            "content": "Jy moet ten minste 18 jaar oud wees om alkohol, tabak, vapes of messe deur die Platform te bestel. Deur 'n Bestelling vir hierdie items te plaas, bevestig jy dat jy 18 of ouer is."
                         },
                         "challenge25": {
-                            "title": "7.2 Challenge 25",
-                            "content": "ID kan vereis word by aflewering."
+                            "title": "7.2 Challenge 25 by aflewering",
+                            "content": "Ons pas 'n Challenge 25-beleid toe. Indien die persoon wat die Bestelling ontvang jonger as 25 voorkom, sal die Koerier vra vir 'n foto-ID (VK-paspoort, VK-fotokaartbestuurslisensie, of 'n identiteitsdokument uitgereik deur die 'Home Office'). Die Koerier word regtens vereis om te weier om die beperkte items te oorhandig indien 'n ID nie getoon kan word nie of indien die ontvanger onder die invloed voorkom."
                         },
                         "idFails": {
-                            "title": "7.3 Indien ID faal",
-                            "content": "Beperkte items sal nie oorhandig word nie."
+                            "title": "7.3 Wat gebeur as ID verifikasie misluk",
+                            "content": "Indien die beperkte items by die deur geweier word, sal daardie items na die Handelaar teruggestuur word en jou betaalmetode sal vir daardie items terugbetaal word. Die res van die Bestelling sal normaalweg afgelewer word. Die afleweringsfooi is nie terugbetaalbaar waar aflewering in goeder trou gepoog is nie."
                         },
                         "proxyPurchasing": {
-                            "title": "7.4 Proxy aankope",
-                            "content": "Verbode om vir minderjariges te koop."
+                            "title": "7.4 Volmag-aankope",
+                            "content": "Dit is 'n kriminele oortreding om alkohol, tabak of soortgelyke beperkte items namens 'n persoon onder 18 te koop. Indien ons rede het om te glo dat jou Bestelling 'n volmag-aankoop is, sal ons dit weier of kanselleer, mag ons jou Rekening opskort of beëindig, en mag ons die saak by die polisie en die betrokke lisensie-owerheid aanmeld."
                         }
                     },
                     "clause08": {
                         "title": "KLOUSULE 08",
-                        "subtitle": "Ontbrekende of Beskadigde Items",
-                        "intro": "Probleme moet vinnig aangemeld word.",
+                        "subtitle": "Ontbrekende, Beskadigde of Verkeerde Items",
+                        "intro": "Ons wil hê dat jy tevrede moet wees met elke Bestelling. Indien iets nie reg is nie, is dit hoe ons dit tipies oplos — tesame met jou statutêre regte wat altyd geld.",
                         "resolutionMatrix": {
                             "title": "8.1 Oplossingsmatriks",
                             "issue": "PROBLEEM",
                             "typicalResolution": "TIPIESE OPLOSSING",
                             "reportBy": "RAPPORTEER BINNE",
                             "rows": [
-                                {
-                                    "issue": "Ontbrekende item",
-                                    "resolution": "Terugbetaling of krediet",
-                                    "timeframe": "48 uur"
-                                },
-                                {
-                                    "issue": "Beskadigde item",
-                                    "resolution": "Vervanging of terugbetaling",
-                                    "timeframe": "48 uur"
-                                },
-                                {
-                                    "issue": "Verkeerde item",
-                                    "resolution": "Terugbetaling",
-                                    "timeframe": "48 uur"
-                                }
+                                { "issue": "Ontbrekende item uit 'n afgelewerde bestelling", "resolution": "Terugbetaling vir die ontbrekende item (na oorspronklike betaalmetode) of Urbandrop-krediet — jou keuse", "timeframe": "Binne 48 uur na aflewering" },
+                                { "issue": "Beskadigde of bedorwe item", "resolution": "Terugbetaling of vervanging op jou volgende bestelling, volgens jou keuse", "timeframe": "Binne 48 uur na aflewering" },
+                                { "issue": "Verkeerde item afgelewer", "resolution": "Terugbetaling vir die verkeerde item; jy hou dit of doen daarmee weg", "timeframe": "Binne 48 uur na aflewering" },
+                                { "issue": "Bestelling het nie opgedaag nie", "resolution": "Volle terugbetaling (insluitend afleweringsfooi) of heraflewering", "timeframe": "Binne 24 uur na verwagte tyd" },
+                                { "issue": "Kwaliteit nie soos verwag nie (bv. slegte smaak, swak voorkoms)", "resolution": "Geval-tot-geval 'goodwill'-oplossing; statutêre regte geld onder 'Consumer Rights Act 2015'", "timeframe": "Binne 14 dae" },
+                                { "issue": "Bestelling deur jou gekanselleer na plasing", "resolution": "Sien Klousule 9 — wissel volgens bestellingstadium", "timeframe": "Via die toep voordat Handelaar aanvaar" },
+                                { "issue": "Bestelling gekanselleer deur Handelaar of Urbandrop", "resolution": "Volle terugbetaling outomaties; geen aksie nodig nie", "timeframe": "—" }
                             ]
                         },
                         "howToReport": {
-                            "title": "8.2 Hoe om te rapporteer",
-                            "content": "Gebruik die hulpfunksie in die app."
+                            "title": "8.2 Hoe om 'n probleem te rapporteer",
+                            "content": "Gebruik die \"Hulp met hierdie Bestelling\"-opsie in die toep, of stuur 'n e-pos na support@urbandrop.io. Hou die Bestellingsnommer, 'n beskrywing van die probleem, en foto's waar relevant byderhand. Ons poog om binne twee (2) werksdae te reageer en binne vyf (5) werksdae op te los, en gewoonlik baie vinniger vir eenvoudige gevalle."
                         },
                         "whenRefundsIssued": {
-                            "title": "8.3 Terugbetalings",
-                            "content": "Terugbetalings neem 3–10 dae."
+                            "title": "8.3 Wanneer terugbetalings uitgereik word",
+                            "content": "Waar 'n terugbetaling ooreengekom word, sal dit na jou oorspronklike betaalmetode gemaak word en dit arriveer gewoonlik binne 3–10 werksdae, afhangende van jou bank. Vir Urbandrop-krediet word dit onmiddellik by jou Rekening gevoeg en verskyn dit by jou volgende Bestelling."
                         },
                         "whenWeDecline": {
-                            "title": "8.4 Wanneer ons kan weier",
-                            "content": "Vals eise kan geweier word.",
+                            "title": "8.4 Wanneer ons 'n terugbetaling mag weier",
+                            "content": "Ons mag 'n terugbetalingsversoek weier waar:",
                             "items": [
-                                "Laat verslagdoening",
-                                "Onredelike gebruik",
-                                "Bedrieglike eise"
-                            ]
+                                "die probleem buite die bogenoemde tydperke gerapporteer word sonder 'n goeie rede;",
+                                "die item duidelik volledig verbruik is voordat die probleem geopper is sonder 'n redelike verduideliking;",
+                                "ons redelike bewyse het dat die eis nie opreg is nie (byvoorbeeld, herhaalde identiese eise oor verskeie Bestellings);",
+                                "die probleem spruit uit jou eie handeling of nalaat (byvoorbeeld, die keuse van 'laat by deur' in 'n plek waar diefstal voorsienbaar was)."
+                            ],
+                            "note": "In daardie gevalle sal ons ons redes verduidelik en jy mag dit onder Klousule 18 eskaleer."
                         },
                         "statutoryRights": {
-                            "title": "8.5 Statutêre regte",
-                            "content": "Jou regte bly altyd beskerm."
+                            "title": "8.5 Jou statutêre regte",
+                            "content": "Niks in hierdie Klousule beperk jou regte onder die 'Consumer Rights Act 2015' (goedere moet van bevredigende gehalte wees, geskik vir die doel, en soos beskryf) of die 'Consumer Contracts Regulations 2013' nie. Daardie regte is bykomend tot die bogenoemde oplossings."
                         },
                         "fraudulentClaims": {
                             "title": "BEDRIEGLIKE EISE",
-                            "content": "Vals eise kan regsgevolge hê."
+                            "content": "Ons hanteer terugbetalingseise in goeder trou. Die indiening van wetend valse of oneerlike eise is bedrog onder die 'Fraud Act 2006', sal lei tot die beëindiging van jou Rekening, en ons behou die reg voor om terugvordering van onregmatig terugbetaalde bedrae na te streef en die saak by die polisie aan te meld."
                         }
                     },
                     "clause09": {
                         "title": "KLOUSULE 09",
-                        "subtitle": "Kansellasies",
+                        "subtitle": "Kansellasies & Jou Reg om te Kanselleer",
                         "beforeAcceptance": {
-                            "title": "9.1 Voor aanvaarding",
-                            "content": "Jy kan gratis kanselleer."
+                            "title": "9.1 Kansellasie voor Handelaaraanvaarding",
+                            "content": "Jy kan 'n Bestelling te eniger tyd kanselleer voordat die Handelaar dit aanvaar, deur die toep. Geen kansellasiefooi is van toepassing nie, en jy sal 'n volle terugbetaling ontvang."
                         },
                         "afterAcceptance": {
                             "title": "9.2 Kansellasie na aanvaarding",
-                            "content": "Sodra die Handelaar jou bestelling aanvaar het en begin het om dit voor te berei of op te tel, kan kansellasie ’n fooi meebring om die koste wat reeds aangegaan is, te dek:",
+                            "content": "Sodra die Handelaar aanvaar het en begin het om jou Bestelling voor te berei of bymekaar te sit, mag kansellasie 'n fooi meebring om die koste wat reeds aangegaan is, te reflekteer:",
                             "items": [
-                                "Aanvaar maar nog nie opgetel nie — gewoonlik ’n klein kansellasiefooi wat Handelaar- en afleweringsversendingskoste dek.",
-                                "Opgetel maar nog nie onderweg vir aflewering nie — gewoonlik ’n kansellasiefooi gelyk aan die produkkoste plus die afleweringsfooi, aangesien bederfbare en opgetelde goedere nie maklik terug op die rak geplaas kan word nie.",
-                                "Onderweg vir aflewering of reeds afgelewer — kansellasie is gewoonlik nie moontlik nie. Jy kan ’n saak ingevolge Klousule 8 aanmeld indien van toepassing."
+                                "Aanvaar maar nog nie bymekaargesit nie — tipies 'n klein kansellasiefooi wat Handelaar- en aflewerings-versendingskoste dek.",
+                                "Bymekaargesit maar nog nie uit vir aflewering nie — tipies 'n kansellasiefooi gelyk aan die produkkoste plus die afleweringsfooi, aangesien bederfbare en geselekteerde goedere nie maklik na die rak teruggestuur kan word nie.",
+                                "Uit vir aflewering of afgelewer — kansellasie is normaalweg nie moontlik nie. Jy mag 'n probleem onder Klousule 8 opper indien toepaslik."
                             ],
-                            "note": "Die toepassing sal die toepaslike kansellasiefooi (indien enige) aan jou wys voordat jy die kansellasie bevestig."
+                            "note": "Die toep sal vir jou die toepaslike kansellasiefooi (indien enige) wys voordat jy kansellasie bevestig."
                         },
                         "rightToCancel": {
-                            "title": "9.3 Reg om te kanselleer",
-                            "content": "Sommige voedselitems kwalifiseer nie vir afkoeltyd nie."
+                            "title": "9.3 Reg om te kanselleer onder die 'Consumer Contracts Regulations 2013'",
+                            "content": "Die 'Consumer Contracts Regulations 2013' gee verbruikers 'n 14-dae \"afkoelperiode\" vir baie aanlyn aankope. Regulasie 28 sluit egter die afkoelperiode uit vir kontrakte vir die verskaffing van goedere wat vinnig kan bederf of verval (meeste vars kos en kruideniersware) en geseëlde goedere wat nie geskik is vir terugstuur weens gesondheidsbeskerming of higiëne-redes sodra dit oopgemaak is nie. Vanweë die aard van ons produkte, sal die afkoelperiode tipies nie van toepassing wees nie. Dit beïnvloed nie jou statutêre regte onder die 'Consumer Rights Act 2015' nie."
                         },
                         "cancellationByUs": {
                             "title": "9.4 Kansellasie deur ons",
-                            "content": "Ons kan bestellings kanselleer indien nodig."
+                            "content": "Ons mag 'n Bestelling onder Klousule 4.5 kanselleer. Waar ons dit doen, betaal ons ten volle terug en (waar die kansellasie nie deur jou veroorsaak is nie) sal gewoonlik 'n krediet of 'goodwill'-gebaar as verskoning aanbied."
                         }
                     },
                     "clause10": {
                         "title": "KLOUSULE 10",
-                        "subtitle": "Urbandrop+",
-                        "intro": "Betaalde intekeningdiens.",
+                        "subtitle": "Urbandrop+-intekening",
+                        "intro": "Urbandrop+ is ons opsionele betaalde intekening. Hierdie Klousule sit die terme uiteen wat spesifiek op Urbandrop+ van toepassing is. Alle ander Klousules van hierdie Bepalings bly van toepassing op jou Urbandrop+-bestellings.",
                         "whatYouGet": {
                             "title": "10.1 Wat jy kry",
+                            "content": "Urbandrop+-voordele sluit tans die volgende in (ons mag dit van tyd tot tyd met kennisgewing bywerk):",
                             "items": [
-                                "Gratis aflewering",
-                                "Prioriteitsdienste",
-                                "Eksklusiewe aanbiedings"
-                            ]
+                                "gratis standaardaflewering op kwalifiserende Bestellings bo die vasgestelde drempel;",
+                                "voorkeur-afleweringstye waar beskikbaar;",
+                                "eksklusiewe aanbiedinge en promosiepryse slegs vir lede;",
+                                "advertensievrye resepte-blaaier."
+                            ],
+                            "note": "Voordele wat onderhewig is aan derde-party beskikbaarheid (byvoorbeeld voorkeurtye tydens baie hoë aanvraag) word op 'n redelike-poging-basis aangebied."
                         },
                         "pricing": {
-                            "title": "10.2 Pryse",
-                            "content": "Maandelikse of jaarlikse intekening."
+                            "title": "10.2 Prysbepaling",
+                            "content": "Urbandrop+ word op 'n maandelikse of jaarlikse plan aangebied. Pryse word in die toep getoon en sluit BTW in waar van toepassing. Ons mag toekomstige pryse verander; bestaande intekenare sal ten minste 30 dae voor 'n prysverandering in werking tree in kennis gestel word, en jy mag kanselleer indien jy nie teen die nuwe prys wil voortgaan nie."
                         },
                         "freeTrials": {
-                            "title": "10.3 Proefperiodes",
-                            "content": "Kan gratis proefperiode hê."
+                            "title": "10.3 Gratis proeftydperke",
+                            "content": "Indien jy Urbandrop+ met 'n gratis proeftydperk begin, sal ons by aansluiting vir jou sê hoe lank die proeftydperk duur en die prys wat daarna van toepassing sal wees. Jy kan kanselleer voordat die proeftydperk eindig en jy sal nie gedebiteer word nie. Indien jy nie kanselleer nie, magtig jy ons om die intekenfooi van jou betaalmetode te verhaal wanneer die proeftydperk eindig, en daarna by elke hernuwing."
                         },
                         "autoRenewal": {
                             "title": "10.4 Outomatiese hernuwing",
-                            "content": "Hernu tensy gekanselleer."
+                            "content": "Urbandrop+ hernu outomaties aan die einde van elke faktuurtydperk (maandeliks of jaarliks) tensy jy kanselleer. Ons sal jou gekose betaalmetode op die hernuwingsdatum debiteer. Hierdie outomatiese hernuwing is wettig slegs omdat ons jou duidelik hier en in die toep daaroor inlig. Jy kan outomatiese hernuwing te eniger tyd in jou Rekeninginstellings afskakel."
                         },
                         "cancelling": {
-                            "title": "10.5 Kansellasie",
-                            "content": "Jy kan enige tyd kanselleer."
+                            "title": "10.5 Kansellasie van Urbandrop+",
+                            "content": "Jy kan te eniger tyd kanselleer deur jou Rekeninginstellings of deur kliëntediens te kontak. Kansellasie stop toekomstige hernuwings, maar gee jou nie reg op 'n terugbetaling van die huidige faktuurtydperk nie, behalwe waar:",
+                            "items": [
+                                "Onder die 'Consumer Contracts Regulations 2013', binne 14 dae nadat jy die eerste keer aangesluit het, het jy 'n 14-dae afkoelperiode. Indien jy binne 14 dae kanselleer, sal ons die volle intekenfooi terugbetaal, minus 'n proporsionele aftrekking vir enige gebruik van betaalde voordele (byvoorbeeld gespaarde afleweringsfooie).",
+                                "Na 14 dae tree kansellasie aan die einde van die huidige faktuurtydperk in werking. Voordele duur voort tot daardie datum."
+                            ]
+                        },
+                        "changesToBenefits": {
+                            "title": "10.7 Veranderinge aan voordele",
+                            "content": "Ons mag Urbandrop+-voordele byvoeg, wysig of verwyder. Waar 'n verandering die algehele waarde van die intekening wesenlik verminder, sal ons jou ten minste 30 dae voor die tyd in kennis stel, en jy mag kanselleer vir 'n pro rata-terugbetaling van die ongebruikte gedeelte van jou intekening."
+                        },
+                        "terminationByUs": {
+                            "title": "10.8 Beëindiging deur ons",
+                            "content": "Ons mag jou Urbandrop+-intekening beëindig en jou Rekening sluit weens 'n wesenlike verbreeking van hierdie Bepalings, bedrieglike aktiwiteit, of misbruik van voordele. Indien ons dit met rede doen, is ons nie verplig om enige ongebruikte gedeelte terug te betaal nie. Indien ons sonder rede beëindig, sal ons 'n pro rata-bedrag vir die ongebruikte tydperk terugbetaal."
                         }
                     },
                     "clause11": {
                         "title": "KLOUSULE 11",
-                        "subtitle": "Resepte & Inhoud",
+                        "subtitle": "Resepte & Gebruikersinhoud",
                         "recipePersonalUse": {
-                            "title": "11.1 Persoonlike gebruik",
-                            "content": "Slegs vir persoonlike gebruik."
+                            "title": "11.1 Resep-inhoud is vir persoonlike gebruik",
+                            "content": "Jy mag Resep-inhoud bekyk en daarvolgens kook vir jou eie persoonlike, nie-kommersiële gebruik. Behalwe vir wat die Platform se deel-knoppies toelaat (bv. die deel van 'n skakel na 'n resep op sosiale media), mag jy nie Resep-inhoud kopieer, reproduseer, herpubliseer of versprei nie."
                         },
                         "accuracyOfRecipes": {
-                            "title": "11.2 Akkuraatheid",
-                            "content": "Resepte is informatief."
+                            "title": "11.2 Akkuraatheid van resepte",
+                            "content": "Resepte word slegs vir algemene inligting verskaf. Hoewel ons Skeppers en ons redelike sorg aan die dag lê, waarborg ons nie dat elke resep foutvry of geskik is vir elke individu nie, veral wat betref allergieë, intoleransies, swangerskap, mediese toestande of dieetbeperkings. Gaan altyd bestanddeletikette na en raadpleeg 'n gekwalifiseerde professionele persoon waar toepaslik."
                         },
                         "recipeToBasket": {
-                            "title": "11.3 Resep na mandjie",
-                            "content": "Bestanddele kan voorgestel word."
+                            "title": "11.3 Resep-na-mandjie",
+                            "content": "Baie resepte sluit 'n \"Koop die resep\"-knoppie in wat voorgestelde bestanddele van beskikbare Handelaars by jou mandjie voeg. Voorgestelde hoeveelhede is skattings — gaan jou mandjie na voor betaling. Beskikbaarheid, prys en Handelaar-toewysing is soos getoon by die betaalpunt."
                         },
                         "userContent": {
-                            "title": "11.4 Gebruikersinhoud",
-                            "content": "Jy behou eienaarskap maar gee lisensie aan ons.",
+                            "title": "11.4 Jou Gebruikersinhoud",
+                            "content": "Indien jy 'n gradering, resensie, kommentaar, foto of ander Gebruikersinhoud indien:",
                             "items": [
-                                "Moet wettig wees",
-                                "Geen misbruik",
-                                "Lisensie aan Urbandrop"
+                                "Moet jy die eienaar daarvan wees of die reg hê om dit in te dien;",
+                                "mag jy nie inhoud indien wat onwettig, lasterlik, onwelvoeglik, dreigend, teisterend, diskriminerend, misleidend is of wat enigiemand anders se regte skend nie (insluitend privaatheid en intellektuele eiendom);",
+                                "verleen jy aan Urbandrop 'n wêreldwye, tantième-vrye, nie-eksklusiewe, oordraagbare, sub-lisensieerbare lisensie om jou Gebruikersinhoud te gebruik, te vertoon, te reproduseer, aan te pas, te vertaal en te versprei vir die doel van die bedryf en bevordering van die Platform. Jy behou eienaarskap van jou Gebruikersinhoud;",
+                                "doen jy afstand van enige \"morele regte\" wat jy mag hê in die Gebruikersinhoud onder die 'Copyright, Designs and Patents Act 1988' tot die mate wat deur die wet toegelaat word;",
+                                "mag ons Gebruikersinhoud volgens ons diskresie verwyder, wysig of weier om dit te publiseer, veral waar dit hierdie Bepalings verbreek of ons 'n geldige verwyderingsversoek ontvang."
                             ]
                         },
                         "reviewsMerchants": {
-                            "title": "11.5 Resensies",
-                            "content": "Moet eerlik wees."
+                            "title": "11.5 Resensies van Handelaars en Produkte",
+                            "content": "Ons verwelkom eerlike, wettige resensies. Resensies moet op werklike ervaring gebaseer wees. Vals, aangemoedigde of gekoördineerde resensies mag die 'Digital Markets, Competition and Consumers Act 2024' verbreek en sal verwyder word."
                         },
                         "creatorContent": {
                             "title": "11.6 Skepper-inhoud",
-                            "content": "Onder aparte ooreenkomste."
+                            "content": "Resep-inhoud geproduseer deur Skeppers word gepubliseer onder 'n afsonderlike Skepper-ooreenkoms tussen Urbandrop en die Skepper. Vir Platform-gebruikers geld die terme hierbo. Indien jy glo dat enige Resep-inhoud jou regte skend, kontak legal@urbandrop.io en ons sal dit ondersoek en optree in ooreenstemming met die Britse wetgewing."
                         }
                     },
                     "clause12": {
                         "title": "KLOUSULE 12",
-                        "subtitle": "Voedselveiligheid",
+                        "subtitle": "Voedselveiligheid, Allergeen- & Dieetinligting",
                         "allergenInfo": {
-                            "title": "12.1 Allergene",
-                            "content": "Inligting word deur handelaars verskaf."
+                            "title": "12.1 Allergeen-inligting",
+                            "content": "Waar van toepassing word allergeen-inligting vir elke produk verskaf deur die Handelaar of vervaardiger en op die produklys vertoon. Hierdie inligting is onderhewig aan die 'Food Information Regulations 2014' en dek die veertien hoof-allergene gelys in Bylae II van Regulasie (EU) No 1169/2011 (soos behou in die Britse wetgewing)."
                         },
                         "alwaysCheckPackaging": {
-                            "title": "12.2 Kontroleer verpakking",
-                            "content": "Kontroleer altyd etikette."
+                            "title": "12.2 Gaan altyd die verpakking na",
+                            "content": "Produkinligting, insluitend bestanddelelyste, allergene en voedingswaardes, kan sonder kennisgewing verander. Gaan altyd die verpakking na by aflewering voordat jy enigiets verbruik, veral as jy 'n allergie of intoleransie het. Indien daar enige teenstrydigheid tussen inligting in die toep en op die verpakking is, vertrou op die verpakking."
                         },
                         "crossContamination": {
-                            "title": "12.3 Kruiskontaminasie",
-                            "content": "Kan nie gewaarborg word nie."
+                            "title": "12.3 Kruisbesmetting",
+                            "content": "Sommige Handelaars bedryf persele wat verskeie allergene hanteer. Ons kan nie waarborg dat enige produk vry is van spoorhoeveelhede allergene wat dit nie verklaar nie."
                         },
                         "temperatureFoodSafety": {
-                            "title": "12.4 Temperatuur",
-                            "content": "Bêre produkte korrek."
+                            "title": "12.4 Temperatuur en voedselveiligheid",
+                            "content": "Verkoel of vries temperatuur-sensitiewe items onmiddellik by aflewering. Moenie items verbruik wat sigbaar bedorwe is, die vervaldatum oorskry het, of beskadig is nie. Rapporteer enige voedselveiligheid-kwessies onmiddellik aan ons deur die in-toep hulpkanaal."
                         },
                         "seriousAllergies": {
                             "title": "ERNSTIGE ALLERGIEË",
-                            "content": "Wees uiters versigtig."
+                            "content": "Indien jy 'n ernstige of lewensgevaarlike allergie het, wees asseblief ekstra versigtig. Ons beveel sterk aan dat jy die Handelaar direk kontak (kontakbesonderhede beskikbaar via die Platform) voordat jy bestel indien jy enige twyfel het oor 'n bestanddeel of produkhantering."
                         }
                     },
                     "clause13": {
                         "title": "KLOUSULE 13",
-                        "subtitle": "Promosies & Koepons",
-                        "content": "Ons mag van tyd tot tyd promosiekodes, bekendstellingsaanbiedinge, verwysingsbelonings en Urbandrop-krediet aanbied. Tensy anders vermeld in die spesifieke aanbodvoorwaardes:",
+                        "subtitle": "Promosies & Bewyse",
+                        "content": "Ons mag van tyd tot tyd promosiekodes, bekendstellingsaanbiedinge, verwysingsbelonings en Urbandrop-krediet aanbied. Tensy anders vermeld in die spesifieke aanbiedingsvoorwaardes:",
                         "items": [
-                            "Promosies is beperk tot een per kliënt, per huishouding en per betaalmetode.",
-                            "dit is nie oordraagbaar nie en het geen kontantwaarde nie;",
-                            "dit mag slegs een keer gebruik word tensy anders vermeld;",
-                            "dit kan nie met ander promosies gekombineer word nie;",
-                            "dit verval op die aangeduide datum — Urbandrop-krediet verval tipies 12 maande vanaf uitreikdatum;",
-                            "ons mag ’n aanbod onttrek of wysig waar dit misbruik word of waar ons ’n objektief geregverdigde rede het."
+                            "Promosies is beperk tot een per kliënt, per huishouding, per betaalmetode;",
+                            "hulle is nie-oordraagbaar en het geen kontantwaarde nie;",
+                            "hulle mag slegs een keer gebruik word tensy die spesifieke terme anders sê;",
+                            "hulle kan nie met ander promosies gekombineer word nie;",
+                            "hulle verval op die datum vermeld — Urbandrop-krediet verval gewoonlik 12 maande vanaf datum van uitreiking;",
+                            "ons mag 'n aanbod te eniger tyd onttrek of wysig waar dit misbruik word of waar ons 'n objektief regverdigbare rede het."
                         ],
-                        "note": "Indien ’n promosie addisionele spesifieke voorwaardes het, sal daardie voorwaardes hierdie Klousule oorheers in geval van konflik."
+                        "note": "Indien 'n promosie bykomende spesifieke terme het, geniet daardie terme voorkeur bo hierdie Klousule in die geval van 'n konflik."
                     },
-
                     "clause14": {
                         "title": "KLOUSULE 14",
                         "subtitle": "Aanvaarbare Gebruik",
                         "content": "Jy stem in om nie:",
                         "items": [
-                            "die Platform vir enige onwettige doel te gebruik of op ’n wyse wat ander benadeel nie;",
-                            "rekeninge te skep met vals besonderhede, nabootsing of outomatiese skrifte nie;",
-                            "die Platform te gebruik om produkte te herverkoop of ’n kommersiële onderneming te bedryf nie;",
-                            "die Platform te reverse-engineer, dekompileer of data te onttrek sonder toestemming nie;",
-                            "virusse of skadelike kode in te bring nie;",
-                            "Ruiters, Handelaars of personeel te mishandel, teister of bedreig nie;",
-                            "terugbetalings- of promosieprosesse te misbruik deur vals eise nie;",
-                            "’n VPN of soortgelyke hulpmiddels te gebruik om ligging te manipuleer vir onregverdige voordeel nie."
+                            "die Platform vir enige onwettige doel te gebruik of op 'n manier wat ander benadeel nie;",
+                            "Rekeninge te skep deur vals besonderhede, nabootsing, of outomatiese skrifte te gebruik nie;",
+                            "die Platform te gebruik om produkte te herverkoop, 'n kommersiële onderneming te bedryf, of op 'n manier wat normale persoonlike gebruik oorskry nie;",
+                            "die Platform te dekompileer, data daarvan te onttrek ('scraping') of omgekeerde ingenieurswese toe te pas nie, behalwe deur gepubliseerde API's met ons skriftelike toestemming;",
+                            "virusse, wanware of enigiets wat ontwerp is om die Platform te ontwrig, in te voer nie;",
+                            "Koeriers, Handelaar-personeel, Skeppers, ander gebruikers of Urbandrop-personeel te misbruik, te teister, te dreig of teen hulle te diskrimineer nie;",
+                            "terugbetalings-, promosie- of klagteprosesse te misbruik deur wetend valse eise te maak nie;",
+                            "toegang tot die Platform te verkry deur 'n VPN, ligging-fop-sagteware of ander instrumente wat ontwerp is om jou ware ligging te verberg, waar dit gebruik word om pryse of beskikbaarheid te bekom waartoe jy andersins nie geregtig sou wees nie."
                         ],
-                        "note": "Oortreding van hierdie Klousule kan lei tot opskorting of beëindiging van jou Rekening en moontlike regsoptrede."
+                        "note": "Verbreeking van hierdie Klousule mag lei tot opskorting of beëindiging van jou Rekening en, waar toepaslik, regsaksie of verwysing na die polisie."
                     },
-
-                    "clause15": {
+                   "clause15": {
                         "title": "KLOUSULE 15",
                         "subtitle": "Ons Aanspreeklikheid teenoor Jou",
                         "whatWeAreResponsible": {
-                            "title": "15.1 Waarvoor ons aanspreeklik is",
-                            "content": "Ons is aanspreeklik vir verliese wat jy ly as ’n voorsienbare gevolg van ons kontrakbreuk of versuim om redelike sorg en vaardigheid toe te pas."
+                            "title": "15.1 Waarvoor ons verantwoordelik is",
+                            "content": "Ons is verantwoordelik vir verliese wat jy ly as 'n voorsienbare resultaat daarvan dat ons hierdie kontrak verbreek of ons versuim om redelike sorg en vaardigheid aan die dag te lê, maar ons is nie verantwoordelik vir enige verlies of skade wat nie voorsienbaar is nie. 'n Verlies is voorsienbaar as dit óf vanselfsprekend is dat dit sal gebeur, óf as beide ons en jy ten tye van jou aanvaarding van hierdie Bepalings geweet het dit mag gebeur."
                         },
                         "whatWeAreNotResponsible": {
-                            "title": "15.2 Waarvoor ons nie aanspreeklik is nie",
-                            "content": "Onderhewig aan jou statutêre regte, is ons nie aanspreeklik vir:",
+                            "title": "15.2 Waarvoor ons nie verantwoordelik is nie",
+                            "content": "Altyd onderhewig aan Klousule 15.3 en jou statutêre regte, is ons nie aanspreeklik vir:",
                             "items": [
-                                "indirekte of gevolglike verlies;",
-                                "verliese buite ons redelike beheer;",
-                                "handelinge of versuime van Handelaars;",
-                                "verlies weens swak sekuriteit van jou rekening;",
-                                "vertroue op resepinligting sonder om verpakking na te gaan."
+                                "indirekte of gevolglike verlies, verlies aan wins, verlies aan besigheid, verlies aan geleenthede, of verlies aan klandisiewaarde;",
+                                "verliese veroorsaak deur gebeure buite ons redelike beheer (sien Klousule 21.7 — Force majeure);",
+                                "die handelinge of welatings van Handelaars bo en behalwe wat redelikerwys aan ons as hul agent toeskryfbaar is;",
+                                "verlies wat voortspruit uit jou versuim om jou Rekeningbesonderhede veilig te hou;",
+                                "verlies wat voortspruit uit die vertroue op Resep-inhoud waar jy nie die onderliggende produkverpakking nagegaan het nie (sien Klousule 12.2)."
                             ]
                         },
                         "liabilityWeDoNotExclude": {
                             "title": "15.3 Aanspreeklikheid wat ons nie uitsluit nie",
-                            "content": "Niks in hierdie Voorwaardes beperk aanspreeklikheid vir:",
+                            "content": "Niks in hierdie Bepalings beperk of sluit ons aanspreeklikheid uit vir:",
                             "items": [
-                                "dood of persoonlike besering deur nalatigheid;",
-                                "bedrog;",
-                                "gebrekkige produkte;",
-                                "oortreding van statutêre regte;"
+                                "dood of persoonlike besering veroorsaak deur ons nalatigheid;",
+                                "bedrog of bedrieglike wanvoorstelling;",
+                                "gebrekkige produkte onder die 'Consumer Protection Act 1987';",
+                                "skending van jou statutêre regte as 'n verbruiker onder die 'Consumer Rights Act 2015';",
+                                "enige ander aanspreeklikheid wat nie regtens uitgesluit of beperk mag word nie."
                             ]
                         },
                         "capOnLiability": {
-                            "title": "15.4 Aanspreeklikheidslimiet",
-                            "content": "Ons totale aanspreeklikheid is beperk tot die hoogste van £100 of die waarde van jou bestellings in ’n 12-maand periode."
+                            "title": "15.4 Beperking op aanspreeklikheid",
+                            "content": "Waar aanspreeklikheid regtens beperk kan word, is ons totale aanspreeklikheid teenoor jou ten opsigte van enige enkele Bestelling, en in totaal vir verwante gebeure in enige 12-maande tydperk, beperk tot die grootste van £100 of die waarde van die Bestellings geplaas in daardie tydperk. Hierdie beperking is nie van toepassing op die sake gelys in Klousule 15.3 nie."
                         }
                     },
-
                     "clause16": {
                         "title": "KLOUSULE 16",
                         "subtitle": "Databeskerming & Privaatheid",
-                        "content1": "Urbandrop is die beheerder van persoonlike data wat ons versamel.",
-                        "content2": "Ons verwerk data in ooreenstemming met UK GDPR en relevante databeskermingswette.",
-                        "content3": "Jy het regte insluitend toegang, regstelling, verwydering en beswaar. Kontak dpo@urbandrop.io.",
-                        "icoRegistration": "Urbandrop is by die ICO geregistreer onder [ZA000000]."
+                        "content1": "Urbandrop is die verantwoordelike party vir die Persoonlike Data wat ons oor jou versamel. Ons verwerk Persoonlike Data in ooreenstemming met die Britse GDPR, die 'Data Protection Act 2018', en die 'Privacy and Electronic Communications Regulations 2003'.",
+                        "content2": "Ons volledige Privaatheidsbeleid verduidelik watter Persoonlike Data ons versamel, waarom ons dit versamel, hoe ons dit gebruik, hoe lank ons dit hou, met wie ons dit deel (insluitend Handelaars, Koeriers, betalingsverskaffers en identiteitsverifikasievennote), en hoe jy jou regte kan uitoefen. Dit is beskikbaar by urbandrop.io/privacy en vorm deel van hierdie Bepalings.",
+                        "content3": "Jou regte as datasubjek onder die Britse GDPR sluit in toegang, regstelling, skrapping (onderhewig aan wetlike bewaringverpligtinge), beperking, oordraagbaarheid en beswaar. Om enige hiervan uit te oefen, stuur 'n e-pos na dpo@urbandrop.io. Jy mag ook 'n klag indien by die 'Information Commissioner's Office' (ico.org.uk).",
+                        "icoRegistration": "Urbandrop is geregistreer by die ICO onder registrasienommer [ZA000000]."
                     },
-
                     "clause17": {
                         "title": "KLOUSULE 17",
                         "subtitle": "Intellektuele Eiendom",
-                        "content": "Die Platform, handelsmerke en inhoud behoort aan Urbandrop of sy lisensiehouers en word beskerm deur wetgewing.",
-                        "merchantBrands": "Handelaars se handelsmerke bly hul eie eiendom."
+                        "content": "Die Platform, die Urbandrop-naam, die Urbandrop-logo, die slagspreuk \"Where tradition meets convenience\", die koerier-speld-blaarmerk, die toep-koppelvlak, Resep-inhoud vervaardig deur of vir ons, en alle verwante ontwerpe, kode en data word besit deur Urbandrop of ons lisensiegewers en word beskerm deur kopiereg-, handelsmerk- en databasisreg-wette van Engeland en Wallis asook internasionaal. 'n Beperkte, persoonlike, herroepbare, nie-oordraagbare lisensie word aan jou verleen om die Platform te gebruik vir die beoogde doel daarvan as 'n Kliënt.",
+                        "merchantBrands": "Handelaars se handelsmerke, logo's en produkbeelde is die intellektuele eiendom van die onderskeie Handelaars of handelsmerkeienaars. Jy mag dit nie gebruik nie, behalwe soos deur die Platform toegelaat word."
                     },
-
                     "clause18": {
                         "title": "KLOUSULE 18",
-                        "subtitle": "Klagtes & Geskille",
+                        "subtitle": "Klagtes & Gespille",
                         "raiseWithUs": {
-                            "title": "18.1 Kontak ons eers",
-                            "content": "Kontak ons via die app of support@urbandrop.io."
+                            "title": "18.1 Bespreek dit eers met ons",
+                            "content": "Indien jy 'n klag het — oor 'n Handelaar, 'n Koerier, 'n Bestelling, 'n terugbetalingsbesluit, 'n intekening-aangeleentheid, of enigiets anders — kontak ons asseblief eers deur die in-toep \"Hulp\"-kanaal of by support@urbandrop.io. Ons poog om ontvangs binne twee (2) werksdae te erken en substantief binne tien (10) werksdae te reageer."
                         },
                         "escalation": {
                             "title": "18.2 Eskalasie",
-                            "content": "Indien ontevrede, e-pos complaints@urbandrop.io."
+                            "content": "Indien jy nie tevrede is met ons antwoord nie, mag jy dit skriftelik eskaleer na complaints@urbandrop.io vir hersiening deur 'n bestuurder wat nie by die oorspronklike besluit betrokke was nie."
                         },
                         "alternativeDispute": {
                             "title": "18.3 Alternatiewe geskilbeslegting",
-                            "content": "Ons gebruik nie tans ’n ADR-verskaffer nie, maar kan dit oorweeg."
+                            "content": "Onder die 'Alternative Dispute Resolution for Consumer Disputes (Competent Authorities and Information) Regulations 2015', is ons nie verplig om 'n ADR-verskaffer te gebruik nie, en doen dit tans ook nie. Ons is egter bereid om enige redelike ADR-voorstel op 'n geval-tot-geval basis te oorweeg."
                         },
                         "rightToCourt": {
-                            "title": "18.4 Reg op hofaksie",
-                            "content": "Jy kan steeds regsaksie instel of owerhede kontak."
+                            "title": "18.4 Jou reg om hof toe te gaan",
+                            "content": "Niks in hierdie Bepalings verhoed jou om 'n eis in die howe in te stel of om relevante verbruikers-, handelstandaard-, lisensiëring- of databeskermingsreguleerders te kontak nie."
                         }
                     },
-
                     "clause19": {
                         "title": "KLOUSULE 19",
-                        "subtitle": "Veranderinge aan hierdie Voorwaardes",
-                        "content1": "Ons mag hierdie Voorwaardes van tyd tot tyd bywerk.",
-                        "content2": "Materiële veranderinge sal vooraf aangekondig word.",
-                        "content3": "Voortgesette gebruik beteken aanvaarding."
+                        "subtitle": "Veranderinge aan hierdie Bepalings",
+                        "content1": "Ons mag hierdie Bepalings van tyd tot tyd bywerk, byvoorbeeld om veranderinge in die wet of nuwe funksies te reflekteer, of om duidelikheid te verbeter. Ons sal die bygewerkte Bepalings op die Platform plaas met 'n nuwe effektiewe datum bo-aan hierdie dokument.",
+                        "content2": "Waar 'n verandering jou regte wesenlik beïnvloed (byvoorbeeld 'n verandering aan kansellasieregte, terugbetalingsbeleid, of Urbandrop+-pryse), sal ons jou ten minste 30 dae vooraf in kennis stel per e-pos of via 'n in-toep kennisgewing. Indien jy nie die verandering aanvaar nie, mag jy jou Rekening sluit of jou Urbandrop+-intekening kanselleer voor die effektiewe datum. Deur voort te gaan om die Platform na die effektiewe datum te gebruik, aanvaar jy die bygewerkte Bepalings.",
+                        "content3": "Klein, nie-wesenlike veranderinge (byvoorbeeld die verduideliking van bewoording of die bywerking van kontakbesonderhede) tree in werking sodra dit geplaas word."
                     },
-
                     "clause20": {
                         "title": "KLOUSULE 20",
                         "subtitle": "Beëindiging",
                         "byYou": {
                             "title": "20.1 Deur jou",
-                            "content": "Jy kan jou rekening enige tyd sluit."
+                            "content": "Jy mag jou Rekening te eniger tyd sluit deur die Rekeninginstellings of deur kliëntediens te kontak. Enige onverspande Bestellings sal gekanselleer word volgens Klousule 9; enige aktiewe Urbandrop+-intekening sal hanteer word volgens Klousule 10.5."
                         },
                         "byUs": {
                             "title": "20.2 Deur ons",
-                            "content": "Ons kan jou rekening beëindig by oortreding of bedrog."
+                            "content": "Ons mag jou Rekening opskort of beëindig waar:",
+                            "items": [
+                                "jy hierdie Bepalings wesenlik verbreek het;",
+                                "ons redelike vermoede het van bedrieglike, misbruikende of onwettige gebruik van die Platform;",
+                                "ons deur die wet of deur 'n reguleerder vereis word om dit te doen;",
+                                "jy jou Rekening vir 'n lang tydperk nie gebruik het nie en dit dormant is."
+                            ],
+                            "note": "Waar ons beëindig vir 'n rede wat nie jou skuld behels nie, sal ons enige ongebruikte Urbandrop+-tydperk op 'n pro rata-basis terugbetaal, asook enige Urbandrop-krediet wat nog nie verval het nie. Waar ons beëindig weens 'n wesenlike skending deur jou, is ons nie verplig om terug te betaal nie."
                         },
                         "effect": {
                             "title": "20.3 Effek",
-                            "content": "Sekere klousules bly van krag na beëindiging."
+                            "content": "By beëindiging eindig jou reg om die Platform te gebruik. Klousules wat uit hul aard voortbestaan — insluitend 11 (Gebruikersinhoud-lisensie), 15 (Aanspreeklikheid), 16 (Data), 17 (IE), 18 (Klagtes), en 21 (Algemeen) — bly van toepassing."
                         }
                     },
-
                     "clause21": {
                         "title": "KLOUSULE 21",
-                        "subtitle": "Algemene Regsvoorwaardes",
+                        "subtitle": "Algemene Regsbepalings",
                         "entireAgreement": {
                             "title": "21.1 Volledige ooreenkoms",
-                            "content": "Hierdie Voorwaardes vorm die volledige ooreenkoms."
+                            "content": "Hierdie Bepalings, tesame met die Privaatheidsbeleid, enige Urbandrop+-intekeningvoorwaardes wat jy aanvaar, en enige spesifieke aanbodvoorwaardes, vorm die volledige ooreenkoms tussen jou en ons. Hulle vervang enige vorige reëlings."
                         },
                         "transferContract": {
-                            "title": "21.2 Oordrag",
-                            "content": "Ons mag die kontrak oordra."
+                            "title": "21.2 Indien ons ons kontrak met jou moet oordra",
+                            "content": "Ons mag ons regte en verpligtinge onder hierdie Bepalings oordra aan 'n ander organisasie, byvoorbeeld in die konteks van 'n groepherorganisasie, verkoop, samesmelting of belegging. Ons sal jou skriftelik inlig indien dit gebeur, en ons sal verseker dat die oordrag nie jou regte verminder nie. Jy mag nie jou regte of verpligtinge oordra sonder ons skriftelike toestemming nie."
                         },
                         "noWaiver": {
                             "title": "21.3 Geen afstanddoening",
-                            "content": "Versuim om op te tree beteken nie afstand doen nie."
+                            "content": "Indien ons nie onmiddellik daarop aandring dat jy enigiets doen wat jy onder hierdie Bepalings moet doen nie, of versuim om aksie teen jou te neem ten opsigte van jou verbreking van hierdie kontrak, beteken dit nie dat jy nie daardie dinge hoef te doen nie, en dit verhoed ons nie om later stappe teen jou te neem nie."
                         },
                         "severability": {
-                            "title": "21.4 Skeibaarheid",
-                            "content": "Ongeldige klousules raak nie die res nie."
+                            "title": "21.4 Deelbaarheid",
+                            "content": "Elkeen van die klousules van hierdie Bepalings funksioneer afsonderlik. Indien enige hof of relevante owerheid besluit dat enige van hulle onwettig is, bly die oorblywende klousules ten volle van krag."
                         },
                         "thirdParties": {
                             "title": "21.5 Derde partye",
-                            "content": "Geen derde party het regte onder hierdie kontrak nie."
+                            "content": "Hierdie Bepalings is tussen jou en ons. Geen ander persoon het enige reg om enige van hulle af te dwing onder die 'Contracts (Rights of Third Parties) Act 1999' nie."
                         },
                         "notices": {
                             "title": "21.6 Kennisgewings",
-                            "content": "Ons kan kennisgewings per e-pos, app of SMS stuur."
+                            "content": "Ons mag vir jou kennisgewings stuur via die toep, per e-pos na die adres op jou Rekening, of per SMS na jou geverifieerde selfoonnommer. Jy mag vir ons kennisgewings stuur per e-pos na legal@urbandrop.io of per pos na ons geregistreerde kantoor."
                         },
                         "forceMajeure": {
-                            "title": "21.7 Oormag",
-                            "content": "Ons is nie aanspreeklik vir gebeure buite ons beheer nie."
+                            "title": "21.7 Force majeure",
+                            "content": "Nie een van die partye is aanspreeklik vir versuim of vertraging in die nakoming van hierdie Bepalings weens gebeure buite redelike beheer nie — insluitend natuurrampe, oorlog, terrorisme, epidemies, stakings, vervoerontwrigting, regeringsoptrede of infrastruktuur-onderbrekings — mits die geaffekteerde party redelike stappe neem om die impak te versag. Jou statutêre regte onder die 'Consumer Rights Act 2015' en 'Consumer Contracts Regulations 2013' bly onveranderd."
                         },
                         "governingLaw": {
-                            "title": "21.8 Toepaslike reg",
-                            "content": "Hierdie Voorwaardes word beheer deur die reg van Engeland en Wallis."
+                            "title": "21.8 Toepaslike reg en jurisdiksie",
+                            "content": "Hierdie Bepalings word beheers deur die wette van Engeland en Wallis. Enige geskil of eis wat voortspruit uit of in verband met hierdie Bepalings sal onderhewig wees aan die nie-eksklusiewe jurisdiksie van die howe van Engeland en Wallis, behalwe dat as jy in Skotland of Noord-Ierland woon, jy ook verrigtinge in jou plaaslike howe mag instel."
                         }
                     },
-
                     "clause22": {
                         "title": "KLOUSULE 22",
                         "subtitle": "Kontak",
@@ -1681,7 +1696,7 @@
                         "companyNumber": "Maatskappynommer: [00000000]",
                         "icoRegistration": "ICO-registrasie: [ZA000000]",
                         "customerSupport": "Kliëntediens",
-                        "customerSupportEmail": "support@urbandrop.io",
+                        "customerSupportEmail": "support@urbandrop.io · in-toep \"Hulp met hierdie Bestelling\"",
                         "complaints": "Klagtes",
                         "complaintsEmail": "complaints@urbandrop.io",
                         "dataProtection": "Databeskerming",
@@ -1967,377 +1982,443 @@
                     },
                     "relationship": {
                         "title": "02 Aard van die Verhouding",
-                        "content": "Urbandrop bedryf 'n hibriede afleweringsmodel. Afhangend van hoe jy toegang tot Aflewerings verkry, is jy óf 'n <strong>Direkte Ryer</strong> (wat met Urbandrop kontrakteer) óf 'n <strong>Vlootryer</strong> (betrek deur 'n Vlootvennoot en wat Urbandrop-aflewerings uitvoer onder 'n aparte ooreenkoms met daardie Vlootvennoot). Jou aanboording sal aandui watter kategorie op jou van toepassing is.",
+                        "content": "Urbandrop bedryf 'n hibriede afleweringsmodel. Afhangende van hoe jy toegang tot Aflewerings verkry, is jy óf 'n <strong>Direkte Koerier</strong> (wat met Urbandrop kontrakteer) óf 'n <strong>Vlootkoerier</strong> (in diens van 'n Vlootvennoot wat Urbandrop-aflewerings voltooi onder 'n afsonderlike ooreenkoms met daardie Vlootvennoot). Jou aansluitingsbevestiging sal aandui watter kategorie op jou van toepassing is.",
                         "selfEmployed": {
-                            "title": "2.1 Selfstandige status",
-                            "content": "Waar jy 'n <strong>Direkte Ryer</strong> is, word jy as 'n selfstandige onafhanklike kontrakteur betrek. Niks in hierdie Bepalings is bedoel om 'n diensverhouding, werkerverhouding, vennootskap, gesamentlike onderneming of agentskapsverhouding tussen jou en Urbandrop te skep nie."
+                            "title": "2.1 Selfgeëmploseerde status",
+                            "content": "Waar jy 'n <strong>Direkte Koerier</strong> is, word jy aangestel as 'n selfgeëmploseerde onafhanklike kontrakteur. Niks in hierdie Bepalings is bedoel om 'n diensverhouding, 'n werkersverhouding binne die betekenis van artikel 230(3)(b) van die 'Employment Rights Act 1996', 'n vennootskap, 'n gesamentlike onderneming, of 'n agentskapverhouding tussen jou en Urbandrop te skep nie."
                         },
                         "independence": {
                             "title": "2.2 Onafhanklikheid",
-                            "content": "As 'n Direkte Ryer erken jy dat jy:",
+                            "content": "As 'n Direkte Koerier erken jy dat jy:",
                             "items": [
-                                "jou eie onafhanklike afleweringsbesigheid bedryf;",
-                                "self besluit wanneer en of jy aanmeld en aflewerings aanvaar;",
-                                "vry is om vir ander platforms te werk;",
-                                "verantwoordelik is vir jou eie belasting en bydraes;",
-                                "jou eie toerusting verskaf;",
-                                "die ekonomiese risiko van jou werk dra."
+                                "jou eie onafhanklike afleweringsbesigheid bedryf en dienste aan verskeie kliënte lewer volgens jou eie diskresie;",
+                                "besluit wanneer, waar, en of jy by die Platform aanmeld en Aflewerings aanvaar — daar is geen verpligting op jou om enige Aflewering te aanvaar nie, en geen verpligting op Urbandrop om enige aan te bied nie;",
+                                "vry is om terselfdertyd vir mededingende platforms of enige ander party te werk, insluitend gedurende tydperke wanneer jy by die Urbandrop-koeriertoep aangemeld is, onderhewig slegs aan voedselveiligheid- en lopende Afleweringsverpligtinge;",
+                                "verantwoordelik is vir jou eie belasting, Nasionale Versekering-bydraes, en enige pensioenreëlings;",
+                                "jou eie toerusting verskaf (insluitend voertuig, mobiele toestel, geïsoleerde sak en persoonlike beskermende toerusting), behalwe waar Urbandrop uitdruklik handelsmerk-items verskaf;",
+                                "die ekonomiese risiko van jou afleweringsaktiwiteit dra, insluitend brandstof, instandhouding, versekering en onbeskikbaarheidstyd."
                             ]
                         },
                         "fleetRiders": {
-                            "title": "2.3 Vlootryers",
-                            "content": "As jy 'n Vlootryer is, is jou primêre kontrak met die Vlootvennoot. Hierdie Bepalings stel addisionele standaarde vir Urbandrop-aflewerings."
+                            "title": "2.3 Vlootkoeriers",
+                            "content": "Indien jy 'n Vlootkoerier is, is jou primêre kontraktuele teenparty die Vlootvennoot. Hierdie Bepalings sit die bykomende standaarde en gedragsvereistes uiteen wat van toepassing is wanneer jy 'n Urbandrop-aflewering hanteer. In die geval van 'n botsing tussen hierdie Bepalings en jou ooreenkoms met die Vlootvennoot oor sake spesifiek tot die Platform (bv. voedselveiligheid, gebruik van die koeriertoep, Kliëntedata), geniet hierdie Bepalings voorrang uitsluitlik ten opsigte van daardie Aflewering."
                         },
                         "plainEnglish": {
-                            "title": "Eenvoudig gestel",
-                            "content": "Jy is jou eie baas. Jy besluit wanneer om te werk en kan ook vir ander werk. Ons stel standaarde vir diens — nie hoe jy werk nie."
+                            "title": "Status in Eenvoudige Taal",
+                            "content": "Jy is jou eie baas. Jy besluit wanneer om aan te meld, jy kan 'n plaasvervanger stuur, en jy kan terselfdertyd vir ons mededingers werk. Ons sê nie vir jou hoe om jou werk te doen nie — ons sê vir jou watter standaarde ons verwag vir die Kliënt se bestelling. Dit is die ooreenkoms."
                         }
                     },
                     "eligibilityOnboarding": {
-                        "title": "03 Geskiktheid en Aanboording",
+                        "title": "03 Geskiktheid & Aansluiting",
                         "minimumEligibility": {
-                            "title": "3.1 Minimum vereistes",
-                            "content": "Om goedgekeur te word moet jy:",
+                            "title": "3.1 Minimum geskiktheid",
+                            "content": "Om as 'n Koerier goedgekeur te word, moet jy:",
                             "items": [
-                                "18 jaar of ouer wees;",
-                                "die reg hê om in die VK te werk;",
-                                "’n geldige bankrekening hê;",
-                                "fisies in staat wees om tot 15 kg te dra;",
-                                "’n geskikte voertuig hê;",
-                                "’n slimfoon hê wat die toepassing kan ondersteun."
+                                "<strong>18 jaar of ouer</strong> wees;",
+                                "die wetlike reg hê om in die Verenigde Koninkryk te werk (sien Klousule 4);",
+                                "’n geldige Britse bankrekening in jou eie naam of in die naam van jou geregistreerde besigheid hê;",
+                                "’n geldige Nasionale Versekeringsnommer hê (vir Direkte Koeriers);",
+                                "fisies in staat wees om kruidenierswarevragte van tot 15 kg veilig te dra en te hanteer;",
+                                "die eienaar wees van, of eksklusiewe wettige gebruik hê van, 'n voertuig wat aan Klousule 5 voldoen;",
+                                "’n slimfoon besit wat in staat is om die jongste twee hoofweergawes van iOS of Android te laat loop, met mobiele data en liggingdienste beskikbaar."
                             ]
                         },
                         "documents": {
-                            "title": "3.2 Dokumente",
-                            "content": "Jy moet voorsien:",
+                            "title": "3.2 Dokumente vereis",
+                            "content": "As deel van aansluiting moet jy duidelike, onverstreke afskrifte verskaf van:",
                             "items": [
-                                "Identiteitsbewys;",
-                                "Bewys van reg om te werk;",
-                                "Bewys van adres;",
-                                "Bestuurslisensie en voertuig dokumente (indien van toepassing);",
-                                "Foto;",
-                                "Bankbesonderhede;"
+                                "bewys van identiteit (Britse of Ierse paspoort, biometriese verblyfpermit, of 'share code' uitgereik deur die 'Home Office');",
+                                "bewys van die reg om in die VK te werk;",
+                                "bewys van adres gedateer binne die laaste drie (3) maande;",
+                                "vir gemotoriseerde voertuie: volle Britse rybewys, V5-registrasiedokument, geldige MOT (waar van toepassing), en volle omvattende motorversekeringspolis met <strong>'hire & reward' ('aflewering') dekking</strong>;",
+                                "vir e-fietse en fietse: bevestiging dat die voertuig voldoen aan die 'Electrically Assisted Pedal Cycles Regulations 1983' (maks 250W motor, bystand wat uitskakel teen 15.5 mph / 25 km/h);",
+                                "’n onlangse paspoort-tipe foto vir rekeningverifikasie;",
+                                "bankbesonderhede vir betaling (rekeningnaam, takkode, rekeningnommer);",
+                                "waar van toepassing, jou UTR ('Unique Taxpayer Reference') nommer of BTW-registrasienommer."
                             ]
                         },
+                        "dbs": {
+                            "title": "3.3 DBS- en agtergrondondersoeke",
+                            "content": "Urbandrop behou die reg voor om 'n Basiese Openbaarmakingsondersoek ('Basic Disclosure check') van die 'Disclosure and Barring Service' (of die 'Disclosure Scotland / AccessNI' ekwivalent) te vereis, en om aansluiting te weier of te herroep waar 'n skuldigbevinding of waarskuwing wesenlik relevant is tot die veilige uitvoering van afleweringsdienste — byvoorbeeld onverstreke skuldigbevindings vir geweld, seksuele misdrywe, diefstal, bedrog, of ernstige bestuursmisdrywe. Besluite oor weiering of herroeping kan binne 14 dae na kennisgewing skriftelik geappelleer word."
+                        },
+                        "identityVerification": {
+                            "title": "3.4 Identiteitsverifikasie",
+                            "content": "Ons gebruik identiteitsverifikasie-tegnologie (insluitend gesigsherkenning en 'live-selfie' passing) tydens aansluiting en periodiek gedurende jou verbintenis. Jy stem in tot hierdie verwerking as 'n voorwaarde vir toegang tot die Platform. Besonderhede oor hoe hierdie data hanteer word, word in ons Privaatheidsbeleid en in Klousule 13 hieronder uiteengesit."
+                        },
                         "falseInfo": {
-                            "title": "3.5 Vals inligting",
-                            "content": "Vals of misleidende inligting lei tot onmiddellike deaktivering en moontlike regsaksie."
+                            "title": "3.5 Vals of misleidende inligting",
+                            "content": "Die verskaffing van valse, vervalste of misleidende inligting (insluitend die gebruik van iemand anders se identiteit, dokument, of voorkoms) is gronde vir onmiddellike en permanente deaktivering, verbeuring van uitstaande fooie wat bedrieglik opgeloop is, en — waar toepaslik — verwysing na HMRC, die 'Home Office' en/of die polisie."
                         }
                     },
                     "rightToWork": {
-                        "title": "04 Reg om te Werk en Plaasvervanging",
+                        "title": "04 Reg om te Werk & Plaasvervanging",
                         "rightToWork": {
-                            "title": "4.1 Reg om te werk",
-                            "content1": "Jy moet wettiglik in die VK kan werk en dit handhaaf.",
-                            "content2": "Urbandrop kan verifikasie kontroles uitvoer."
+                            "title": "4.1 Reg om te Werk in die VK",
+                            "content1": "Sedert 1 Maart 2025 geld 'Reg om te Werk'-kontroles vir alle werkers in die gig-ekonomie, ongeag hul diensstatus. Jy waarborg dat jy die wettige reg het, en regdeur jou verbintenis sal handhaaf, om in die Verenigde Koninkryk te werk. Jy moet Urbandrop onmiddellik in kennis stel indien jou immigrasiestatus verander, indien jou visum of BRP verval, of indien die 'Home Office' enige voorwaarde oplê wat jou reg om te werk beïnvloed.",
+                            "content2": "Urbandrop is geregtig om 'Reg om te Werk'-kontroles met enige redelike tussenpose te herhaal en om jou rekening op te skort hangende verifikasie. Die indiensneming van 'n onwettige werker stel Urbandrop bloot aan siviele boetes van tot £60,000 per werker en kriminele sanksies; ons pas hierdie kontroles dus streng en sonder uitsondering toe."
                         },
                         "substitution": {
-                            "title": "4.2 Plaasvervanging",
-                            "content": "Jy mag iemand anders stuur om aflewerings te doen mits:",
+                            "title": "4.2 Reg op plaasvervanging",
+                            "content": "As 'n selfgeëmploseerde Direkte Koerier het jy die reg om 'n ander individu (’n <strong>\"Plaasvervanger\"</strong>) aan te stel om 'n Aflewering in jou plek uit te voer. Hierdie reg is werklik en onbelemmerd, onderhewig slegs aan die volgende redelike voorwaardes wat uitsluitlik bestaan om Kliënte te beskerm en aan ons wetlike verpligtinge te voldoen:",
                             "items": [
-                                "Hulle 18+ is;",
-                                "Hulle wettig mag werk;",
-                                "Hulle aan vereistes voldoen;",
-                                "Jy verantwoordelik bly."
+                                "die Plaasvervanger moet 18 jaar of ouer wees;",
+                                "die Plaasvervanger moet die wettige reg hê om in die VK te werk, en jy moet dit verifieer voordat jy hulle toelaat om die Aflewering uit te voer;",
+                                "die Plaasvervanger moet voldoen aan die voedselveiligheid- en voertuigvereistes soos uiteengesit in hierdie Bepalings;",
+                                "jy bly verantwoordelik vir die Aflewering, vir betaling aan jou Plaasvervanger, en vir die Plaasvervanger se gedrag;",
+                                "dit is jou verbode om jou Koerierrekening te verhuur, te verkoop of kommersieel oor te dra, of om betaling te ontvang in ruil vir die verskaffing van Platform-toegang aan ander. Plaasvervanging is nie 'n lisensie om 'n koerierrekening-verhuringsbesigheid te bedryf nie."
                             ]
                         },
                         "accountRental": {
-                            "title": "Rekeningverhuring verbode",
-                            "content": "Om jou rekening vir wins te verhuur is streng verbode en lei tot permanente verbanning."
+                            "title": "Verhuur van Rekeninge is Verbode",
+                            "content": "Na aanleiding van aangemelde uitbuiting in die Britse gig-ekonomie — insluitend 'n 2024-saak in Bristol waar afleweringsrekeninge aan ongekontroleerde koeriers verhuur is — pas Urbandrop 'n nul-toleransiebeleid toe op die deel van rekeninge vir wins. Ware plaasvervanging op 'n eenmalige of geleentheidsbasis word toegelaat. Sistematiese verhuur van jou rekening aan ander is <strong>'n wesenlike skending van hierdie Bepalings</strong> en sal lei tot permanente deaktivering, verbeuring van verdienste, en (waar toepaslik) verwysing na die 'Home Office', HMRC en polisie."
                         }
                     },
                     "vehicle": {
-                        "title": "05 Voertuig, Toerusting en Versekering",
+                        "title": "05 Voertuig, Toerusting & Versekering",
                         "standards": {
                             "title": "5.1 Voertuigstandaarde",
-                            "content": "Jou voertuig moet wettig en veilig wees.",
+                            "content": "Jou voertuig moet padwaardig wees, wetlik voldoen, en geskik wees vir die veilige vervoer van voedsel. Spesifiek:",
                             "items": [
-                                "Fietse en e-fietse moet aan regulasies voldoen;",
-                                "Motorfietse moet lisensies en versekering hê;",
-                                "Motors moet ten volle gelisensieer en verseker wees."
+                                "<strong>Fietse en e-fietse</strong> moet voldoen aan die 'Electrically Assisted Pedal Cycles Regulations 1983'. E-fietse met slegs 'n versneller ('throttle-only'), ontperkte e-fietse, en enige e-fiets wat in staat is tot selfaandrywing bo 15.5 mph (25 km/h) word as motorvoertuie geklassifiseer en vereis versekering, belasting, registrasie, valhelm en lisensie-nakoming op dieselfde basis as 'n motorfiets.",
+                                "<strong>Motorfietse, bromponies en mofietse</strong> vereis 'n geldige CBT of volle rybewys, padbelasting, MOT (waar van toepassing), en motorversekering insluitend 'hire & reward' dekking.",
+                                "<strong>Motors en paneelwaens</strong> vereis 'n geldige Britse rybewys, padbelasting, MOT, en motorversekering insluitend 'hire & reward' dekking."
                             ]
                         },
                         "insurance": {
                             "title": "5.2 Versekering",
-                            "content1": "Jy is verantwoordelik vir toepaslike versekering.",
-                            "content2": "Afleweringswerk vereis spesiale dekking.",
-                            "content3": "Urbandrop verskaf nie versekering nie."
+                            "content1": "Jy is uitsluitlik verantwoordelik vir die instandhouding van toepaslike versekering vir jou voertuig en jou afleweringsaktiwiteit. <strong>Standaard motorpolisse vir sosiale, huishoudelike en plesiergebruik dek nie betaalde afleweringswerk nie.</strong> Jy moet oor 'hire & reward' dekking (soms genoem 'courier' of 'delivery' dekking) beskik vir gemotoriseerde voertuie.",
+                            "content2": "Vir fietsryers en e-fietsryers beveel ons derdeparty-aanspreeklikheidsversekering sterk aan (algemeen beskikbaar by 'British Cycling', 'Cycling UK', of 'n toegewyde koerierpolis) om jou en enige Kliënt teen beserings of skade aan eiendom te beskerm.",
+                            "content3": "Urbandrop verskaf nie motor-, fiets- of inkomstebeskermingsversekering aan jou nie. Jy moet bewys van geldige versekering lewer tydens aansluiting en op enige tydstip op redelike versoek."
                         },
                         "equipment": {
                             "title": "5.3 Toerusting",
-                            "content": "Jy moet gebruik:",
+                            "content": "Jy moet die volgende gebruik:",
                             "items": [
-                                "Geïsoleerde sak;",
-                                "Beskermende toerusting;",
-                                "Sigbaarheidstoerusting;",
-                                "Ligtoerusting."
+                                "’n skoon, voedselgraad geïsoleerde afleweringsak van voldoende grootte om verkoelde en kamertemperatuur-items apart te hou waar nodig;",
+                                "toepaslike persoonlike beskermende toerusting (PBT) vir jou vervoermiddel — insluitend, vir gemotoriseerde en trapfietsryers, 'n korrek gepaste valhelm wat voldoen aan Britse Standaard BS EN 1078 (fiets) of ECE 22.06 (motorfiets);",
+                                "hoë-sigbaarheidsklere gedurende ure van duisternis of verminderde sigbaarheid ('Road Traffic Act 1988' sorgplig);",
+                                "ligte wat snags voldoen aan die 'Road Vehicles Lighting Regulations 1989'."
                             ]
+                        },
+                        "brandedEquipment": {
+                            "title": "5.4 Urbandrop-handelsmerktoerusting",
+                            "content": "Waar Urbandrop handelsmerktoerusting aan jou verskaf (bv. geïsoleerde sakke, baadjies), bly dit ons eiendom, word dit aan jou geleen vir gebruik tydens jou verbintenis, en moet dit by beëindiging in 'n redelike toestand terugbesorg word (behalwe vir redelike slytasie). 'n Redelike vervangingsfooi mag van toepassing wees waar toerusting verlore raak, beskadig word of nie terugbesorg word nie, en sal ten tye van uitreiking bekend gemaak word."
                         }
                     },
                     "foodSafety": {
-                        "title": "06 Voedselveiligheid en Hantering",
-                        "content": "Jy moet voedselveiligheidswette nakom.",
+                        "title": "06 Voedselveiligheid & Hantering",
+                        "content": "Urbandrop lewer voedsel af. Die 'Food Safety Act 1990', die 'Food Hygiene (England) Regulations 2013' (en die ekwivalente regulasies in Wallis, Skotland en Noord-Ierland), en die 'Food Information Regulations 2014' is van toepassing op elke Aflewering. Jy moet:",
                         "items": [
-                            "Handhaaf higiëne;",
-                            "Moenie werk as jy siek is nie;",
-                            "Hou sakke skoon;",
-                            "Handhaaf koue ketting;",
-                            "Moenie bestellings oopmaak nie;",
-                            "Moenie kos gebruik nie;",
-                            "Vermy besmetting;",
-                            "Rapporteer insidente."
+                            "persoonlike higiëne handhaaf wat toepaslik is vir die hantering van voedsel — skoon hande, skoon klere, geen rook, 'vaping' of eet tydens afhaal of vervoer nie;",
+                            "geen Aflewerings doen terwyl jy ly aan enige toestand wat waarskynlik voedsel kan kontamineer nie (byvoorbeeld Norovirus, gastro-enteritis, oop letsels op hande);",
+                            "die geïsoleerde sak skoon en vry van kontaminasie hou, en dit nie vir enigiets anders as voedsel- of kruideniersware-aflewerings gebruik nie;",
+                            "die <strong>koueketting</strong> handhaaf — verkoelde en bevrore items moet apart geïsoleer gehou word en onmiddellik afgelewer word; volgens riglyne van die 'Food Standards Agency' moet verkoelde items onder 8°C bly tydens vervoer;",
+                            "nooit 'n verseëlde bestelling oopmaak, inspekteer, herrangskik of items daaruit verwyder nie; peuterbestendige seëls moet ongeskonde bly vanaf die Handelaar tot by die Kliënt;",
+                            "nooit enige item in 'n bestelling verbruik, proe of op enige ander wyse daarmee inmeng nie, insluitend \"verlore\" of \"gekanselleerde\" items;",
+                            "allergene met sorg hanteer — moenie bestellings saam met enige persoonlike items, troeteldiere, sterkruikende stowwe of enigiets wat kruiskontaminasie kan veroorsaak, vervoer nie;",
+                            "enige voorval wat voedselveiligheid kan beïnvloed (storting, botsing, sak-kontaminasie) onmiddellik via die koeriertoep aanmeld."
                         ],
                         "allergenDuty": {
-                            "title": "Allergeen plig",
-                            "content": "Enige inmenging met verpakking of etikettering is streng verbode."
+                            "title": "Allergeen-plig",
+                            "content": "Die 'Food Information Regulations 2014' vereis dat akkurate inligting oor die veertien hoofallergene die Kliënt moet bereik. Enige peutering met verpakking, vervanging van items, of verlies van allergeen-etikettering tydens vervoer kan ernstige skade veroorsaak en is 'n streng-aanspreeklikheidskending van hierdie Bepalings."
                         }
                     },
                     "performingDeliveries": {
                         "title": "07 Uitvoering van Aflewerings",
                         "acceptance": {
                             "title": "7.1 Aanvaarding",
-                            "content": "Wanneer 'n Aflewering via die ryer-toepassing aangebied word, kan jy dit na jou eie diskresie aanvaar of weier. Om 'n Aflewering te weier beïnvloed nie op sigself jou status nie, maar herhaalde onreaksie ná aanvaarding van 'n Aflewering (sien 7.4) kan wel."
+                            "content": "Wanneer 'n Aflewering deur die koeriertoep aangebied word, mag jy dit na goeddunke aanvaar of van die hand wys. Om 'n Aflewering te weier beïnvloed nie op sigself jou status nie, hoewel herhaalde gebrek aan reaksie nadat 'n Aflewering aanvaar is (sien 7.4), dit wel mag doen."
                         },
                         "collection": {
                             "title": "7.2 Afhaal",
-                            "content": "By aankoms by die Handelaar moet jy jouself duidelik identifiseer, die korrekte bestelling bevestig en seker maak die verpakking is ongeskonde en geskik vir die reis. Jy moet enige ooglopende probleem (ontbrekende items, beskadigde verpakking, mors, oop seël) via die ryer-toepassing rapporteer voordat jy vertrek."
+                            "content": "By aankoms by die Handelaar moet jy jouself duidelik identifiseer, die korrekte bestelling bevestig, en nagaan of die verpakking ongeskonde en toepaslik blyk te wees vir die roete. Jy moet enige ooglopende probleem (verlore items wat die Handelaar uitgelig het, beskadigde verpakking, storting, oop seël) deur die koeriertoep aanmeld voor vertrek."
                         },
                         "transit": {
                             "title": "7.3 Vervoer",
-                            "content": "Jy moet die veiligste redelike roete na die Klant neem en bestuur, ry of fietsry volgens die padkode en alle toepaslike wette. Jy mag nie die ryer-toepassing gebruik op 'n manier wat regulasies oor selfoongebruik tydens bestuur oortree nie."
+                            "content": "Jy moet die veiligste redelike roete na die Kliënt neem en ry of fietsry in ooreenstemming met die 'Highway Code' en alle toepaslike wette. Jy mag nie die koeriertoep gebruik op 'n manier wat Regulasie 110 van die 'Road Vehicles (Construction and Use) Regulations 1986' (selfoongebruik tydens bestuur) oortree nie."
                         },
                         "handover": {
                             "title": "7.4 Oorhandiging",
-                            "content": "Tensy die Klant vooraf 'laat-by-deur'-instruksies gegee het:",
+                            "content": "Tensy die Kliënt vooraf gereëlde \"los-by-deur\"-instruksies gegee het:",
                             "items": [
-                                "oorhandig die Aflewering direk aan die Klant of 'n volwassene by die adres;",
-                                "verifieer ouderdom vir ouderdomsbeperkte items via die toepassing se ID-kontrole;",
-                                "verkry foto-bevestiging waar vereis;",
-                                "indien niemand beskikbaar is nie, kontak die Klant via die toepassing en volg instruksies; moenie bederfbare items onveilig los nie."
+                                "oorhandig die Aflewering direk aan die Kliënt of 'n volwassene by die afleweringsadres;",
+                                "verifieer die ouderdom vir enige ouderdomsbeperkte item via die koeriertoep se ID-kontrole-vloei — jy mag nie alkohol, tabak, 'vapes' of messe oorhandig aan enigiemand wat jonger as 25 voorkom sonder 'n geldige foto-ID nie ('Challenge 25'-beleid);",
+                                "verkry fotobevestiging waar opgedra;",
+                                "as niemand beskikbaar is nie en geen vooraf-gemagtigde los-by-deur-instruksie bestaan nie, kontak die Kliënt deur die in-toep-funksie en volg die eskalasie-instruksies; moenie bederfbare items op onveilige plekke los nie."
                             ]
                         },
                         "prohibited": {
                             "title": "7.5 Verbode gedrag",
                             "items": [
-                                "kontak met die Klant buite die toepassing, behalwe in noodgevalle;",
-                                "enige vorm van teistering of onvanpaste gedrag;",
-                                "terugkeer na die adres vir nie-afleweringsdoeleindes;",
-                                "fotografie of opname buiten vereiste bevestiging;",
-                                "omkopery of buite-platform betalings;",
-                                "merk 'n Aflewering as voltooi wanneer dit nie is nie."
+                                "kontak met die Kliënt buite die Platform se in-toep-boodskapstelsel, behalwe in 'n werklike afleweringsnoodgeval;",
+                                "ongevraagde toenadering, kommentaar oor voorkoms, of enige vorm van teistering;",
+                                "besoek aan die afleweringsadres op 'n later tydstip vir nie-afleweringsdoeleindes;",
+                                "verfilming of opname van die Kliënt, hul huis of besittings buiten die bevestigingsfoto wat deur die toep vereis word;",
+                                "werwing, aanvaarding of aanbieding van omkoopgeld, terugbetalings of af-platform-betalings van Kliënte of Handelaars;",
+                                "nasien van 'n Aflewering as voltooi wanneer dit nie afgelewer is nie."
                             ]
                         }
                     },
                     "fees": {
-                        "title": "08 Fooie, Fooitjies en Fakturering",
+                        "title": "08 Fooie, Fooitjies & Fakturering",
                         "deliveryFees": {
-                            "title": "8.1 Afleweringsfooie (Direkte Ryers)",
-                            "content": "Elke Aflewering sal 'n <strong>hoof fooi</strong> toon gebaseer op 'n deursigtige struktuur. Deur dit te aanvaar, stem jy in tot die vertoonde fooi."
+                            "title": "8.1 Afleweringsfooie (Direkte Koeriers)",
+                            "content": "Elke Aflewering wat deur die koeriertoep aan jou aangebied word, sal 'n <strong>hooffooi</strong> vertoon wat bereken word op 'n deursigtige basis soos uiteengesit in die Koerier-fooieskedule. Komponente kan 'n basis-afhaalfooi, 'n afstand-komponent, 'n tyd-tydens-vervoer-komponent en dinamiese aanpassings tydens spitstye of gure weer insluit. Deur 'n Aflewering te aanvaar, stem jy in tot die vertoonde fooi vir daardie Aflewering."
                         },
                         "tips": {
                             "title": "8.2 Fooitjies",
-                            "content": "Klantfooitjies via die Platform word volledig aan jou oorbetaal. Urbandrop hou geen gedeelte terug nie."
+                            "content": "Kliënt-fooitjies wat deur die Platform betaal word, word ten volle aan jou oorbetaal. Urbandrop hou geen gedeelte van 'n Kliënt-fooitjie terug nie en, in ooreenstemming met die 'Employment (Allocation of Tips) Act 2023' waar toepaslik, word fooitjies nie gebruik om die hooffooi te verminder nie. Kontant-fooitjies wat direk deur 'n Kliënt aangebied word, behoort aan jou."
                         },
                         "settlement": {
-                            "title": "8.3 Betaling",
+                            "title": "8.3 Vereffening en betaling",
                             "items": [
-                                "Fooie word <strong>weekliks</strong> betaal via bankoorplasing;",
-                                "Jy ontvang 'n self-gefaktureerde faktuur met besonderhede;",
-                                "Geskille moet binne 30 dae aangemeld word."
+                                "Fooie word <strong>weekliks</strong> vereffen, betaal via BACS-oordrag na jou benoemde Britse bankrekening, gewoonlik op die Dinsdag na die einde van die week (Maandag 00:01 – Sondag 23:59 UTC) waarin die Aflewerings voltooi is.",
+                                "Jy sal 'n <strong>self-gefaktureerde faktuur</strong> deur die koeriertoep ontvang wat elke Aflewering, fooitjies, aanpassings en enige aftrekkings uiteensit. Hierdie fasiliteit word verskaf vir jou administratiewe gerief; dit beïnvloed nie jou status as selfgeëmploseerde nie.",
+                                "As jy enige item op 'n self-gefaktureerde faktuur betwis, meld dit binne 30 dae via die in-toep-ondersteuningskanaal aan. Na 30 dae word die faktuur as aanvaar beskou."
                             ]
                         },
                         "deductions": {
                             "title": "8.4 Aftrekkings",
-                            "content": "Urbandrop kan aftrek:",
+                            "content": "Urbandrop mag die volgende van bedrae verskuldig aan jou aftrek:",
                             "items": [
-                                "foutiewe of bedrieglike betalings;",
-                                "verlore of beskadigde toerusting;",
-                                "terugbetalings weens jou fout."
+                                "bedrae wat per abuis of as gevolg van bedrog of manipulasie betaal is;",
+                                "koste vir verlore, beskadigde of nie-terugbesorgde Urbandrop-handelsmerktoerusting, onderhewig aan voorafgaande kennisgewing;",
+                                "regmatige terugbetalings aan Kliënte of Handelaars waar 'n fout of versuim direk aan jou gedrag toeskryfbaar is (bv. verlore items weens peutering, onafgelewerde bestellings wat as afgelewer gemerk is)."
                             ],
-                            "note": "Alle aftrekkings sal verduidelik word en kan betwis word."
+                            "note": "Aftrekkings sal uiteengesit en in kennis gestel word. Jy mag enige aftrekking onder Klousule 17 betwis."
                         },
                         "vat": {
                             "title": "8.5 BTW",
-                            "content": "Indien jy vir BTW geregistreer is, moet jy jou registrasienommer verskaf. Jy is self verantwoordelik vir BTW-opgawes."
+                            "content": "As jy vir BTW geregistreer is, moet jy jou BTW-registrasienommer verskaf sodat self-gefaktureerde fakture aan die 'VAT Regulations 1995' voldoen. Jy is verantwoordelik vir jou eie BTW-opgawes."
                         }
                     },
                     "tax": {
-                        "title": "09 Belasting en Nasionale Versekering",
-                        "content": "As 'n selfstandige Ryer is jy verantwoordelik vir:",
+                        "title": "09 Belasting & Nasionale Versekering",
+                        "content": "As 'n selfgeëmploseerde Direkte Koerier is jy verantwoordelik vir registrasie vir Self-assessering by HMRC en vir die betaling van:",
                         "items": [
-                            "Inkomstebelasting;",
-                            "Klas 2 en Klas 4 bydraes;",
-                            "BTW indien van toepassing."
+                            "<strong>Inkomstebelasting</strong> op jou afleweringswinste;",
+                            "<strong>Klas 2 Nasionale Versekeringsbydraes</strong> waar jou winste die drempel vir klein winste oorskry;",
+                            "<strong>Klas 4 NVB's</strong> waar jou winste die laer winsgrens oorskry;",
+                            "<strong>BTW</strong>, indien jou belasbare omset die BTW-registrasiedrempel in 'n rollende 12-maande tydperk oorskry."
                         ],
-                        "content2": "Urbandrop trek nie belasting af nie en rapporteer inkomste aan HMRC.",
-                        "content3": "Jy moet rekords hou en jaarliks belasting indien."
+                        "content2": "Urbandrop pas nie LBS (PAYE) vir Direkte Koeriers toe nie en trek nie inkomstebelasting of Nasionale Versekering by die bron af nie. Onder die 'Online Platforms Reporting Rules' (OESO-model, geïmplementeer in die VK vanaf 1 Januarie 2024), word van Urbandrop vereis om jaarliks koerier-inkomste en identifiserende besonderhede aan HMRC te rapporteer; jy word geag om tot hierdie rapportering in te stem as 'n voorwaarde vir die gebruik van die Platform.",
+                        "content3": "Jy is verantwoordelik vir die hou van behoorlike rekords van jou besigheidsinkomste en toelaatbare uitgawes en vir die indiening van 'n Self-assesserings-belastingopgawe teen 31 Januarie elke jaar."
                     },
                     "notTaxAdvice": {
-                        "title": "Nie belastingadvies nie",
-                        "content": "Hierdie is slegs 'n opsomming. Raadpleeg HMRC of 'n rekenmeester."
+                        "title": "Nie Belastingadvies nie",
+                        "content": "Hierdie Klousule is 'n opsomming, nie belastingadvies nie. Indien jy onseker is oor jou verpligtinge, raadpleeg HMRC direk by gov.uk/self-assessment-tax-returns of 'n onafhanklike rekenmeester."
                     },
                     "performance": {
-                        "title": "10 Prestasie en Graderings",
+                        "title": "10 Prestasie & Graderings",
                         "ratings": {
-                            "title": "10.1 Klantgraderings",
-                            "content": "Klante kan jou diens gradeer. 'n Enkele swak gradering beïnvloed nie jou status nie."
+                            "title": "10.1 Kliënt-graderings",
+                            "content": "Na elke Aflewering mag Kliënte hul ervaring op 'n vyfster-skaal gradeer. Graderings help ons, Handelaars en jou om diensgehalte te handhaaf, maar 'n enkele swak gradering beïnvloed nie op sigself jou rekeningstatus nie."
                         },
                         "metrics": {
-                            "title": "10.2 Prestasiemaatstawwe",
-                            "content": "Urbandrop monitor prestasie soos voltooiingskoers, tydigheid en tevredenheid."
+                            "title": "10.2 Operasionele maatstawwe",
+                            "content": "Urbandrop monitor 'n klein aantal objektiewe maatstawwe:",
+                            "table": {
+                                "metric": "Maatstaf",
+                                "description": "Beskrywing",
+                                "threshold": "Drempel van Kommer",
+                                "completionRate": "Voltooiingskoers",
+                                "completionDesc": "% van aanvaarde Aflewerings suksesvol voltooi",
+                                "completionThreshold": "Onder 90% oor 'n rollende 30-dae venster",
+                                "onTimeRate": "Betydse koers",
+                                "onTimeDesc": "% van Aflewerings wat binne die toep se beraamde venster arriveer",
+                                "onTimeThreshold": "Onder 85% oor 'n rollende 30-dae venster",
+                                "customerSatisfaction": "Kliëntetevredenheid",
+                                "satisfactionDesc": "Rollende gemiddelde van Kliënt-graderings",
+                                "satisfactionThreshold": "Onder 4.2 / 5 oor 50+ Aflewerings",
+                                "escalationRate": "Eskalasiekoers",
+                                "escalationDesc": "Ernstige klagtes per 100 Aflewerings",
+                                "escalationThreshold": "Meer as 2 per 100 Aflewerings"
+                            }
                         },
                         "howWeUse": {
-                            "title": "10.3 Gebruik van maatstawwe",
-                            "content": "Hierdie help om ondersteuning te bied en moontlike optrede te neem."
+                            "title": "10.3 Hoe ons hierdie maatstawwe gebruik",
+                            "content": "Maatstawwe word gebruik om Koeriers te identifiseer wat baat kan vind by ondersteuning (bykomende riglyne, hernuwing van toerusting, roete-wenke) en, in gevalle van aanhoudende swak prestasie na ondersteuning, om opskorting of deaktivering onder Klousule 11 te oorweeg. Jy kan jou eie maatstawwe in die koeriertoep sien."
                         },
                         "whatWeDontDo": {
                             "title": "10.4 Wat ons nie doen nie",
-                            "content": "Maatstawwe bepaal nie jou betaling of werksgeleenthede nie."
+                            "content": "Graderings en maatstawwe bepaal nie die Aflewerings wat aan jou aangebied word, jou betaling per Aflewering, of jou volgorde van prioriteit in die passingstelsel nie. Urbandrop gebruik nie sielkundige aansporings, verbeuringsmeganismes of graderinggebaseerde \"gamification\" om Koeriers te dwing om langer ure te werk nie."
                         }
                     },
                     "suspension": {
-                        "title": "11 Opskorting en Deaktivering",
+                        "title": "11 Opskorting & Deaktivering",
                         "temporary": {
                             "title": "11.1 Tydelike opskorting",
-                            "content": "Urbandrop kan jou toegang opskort indien daar risiko's of ondersoeke is.",
+                            "content": "Urbandrop mag jou toegang tot die Platform tydelik opskort waar ons 'n redelike, goederetrou-basis het om te glo dat:",
                             "items": [
-                                "veiligheidsrisiko;",
-                                "verifikasie nodig;",
-                                "ernstige klagte;",
-                                "misbruik van die platform."
-                            ]
+                                "daar 'n wesenlike risiko is vir Kliëntveiligheid, Handelaarsveiligheid, of die veiligheid van 'n ander Koerier;",
+                                "jou 'Reg om te Werk'-status, identiteitsdokumentasie, voertuigbesonderhede of versekering herverifikasie vereis;",
+                                "’n ernstige klagte ontvang is wat ondersoek regverdig;",
+                                "daar ooglopende misbruik van die Platform is (rekeningverhuur, bedrieglike voltooiing van aflewerings, samespanning)."
+                            ],
+                            "note": "Ons sal die rede vir opskorting skriftelik (via die koeriertoep of e-pos) aan jou verskaf sodra dit redelikerwys prakties moontlik is en, behalwe waar wetstoepassing anders vereis, 'n geleentheid bied om te reageer."
                         },
                         "permanent": {
                             "title": "11.2 Permanente deaktivering",
-                            "content": "Rekeninge kan permanent gedeaktiveer word vir:",
+                            "content": "Ons mag jou Koerierrekening permanent deaktiveer vir, onder andere:",
                             "items": [
-                                "bedrog of diefstal;",
-                                "geweld of teistering;",
-                                "ernstige oortredings;",
-                                "verlies van reg om te werk;"
+                                "bedrog, diefstal, of die wederregtelike toeëiening van 'n Kliënt se bestelling;",
+                                "geweld, dreigende gedrag, teistering of diskriminasie;",
+                                "’n ernstige skending van voedselveiligheidsverpligtinge;",
+                                "verlies van die wetlike reg om in die VK te werk;",
+                                "bestuurs- of fietsrymisdrywe van 'n aard wat wesenlik relevant is tot afleweringswerk;",
+                                "rekeningverhuur of -deling in stryd met Klousule 4.2;",
+                                "aanhoudende wesenlike skending van hierdie Bepalings ten spyte van voorafgaande waarskuwing."
                             ]
+                        },
+                        "fairProcess": {
+                            "title": "11.3 Regverdige proses",
+                            "content": "Behalwe waar onmiddellike deaktivering nodig is (bv. om veiligheid te beskerm of aan die wet te voldoen), sal die rede aan jou meegedeel word, sal die getuienis aan jou getoon word waar wetlik moontlik, en sal jy die geleentheid gebied word om binne 14 dae te reageer. Besluite om te deaktiveer kan geëskaleer word na 'n bestuurder wat nie by die oorspronklike besluit onder Klousule 17 betrokke was nie."
                         }
                     },
                     "accidents": {
-                        "title": "12 Ongelukke, Voorvalle en Aanspreeklikheid",
+                        "title": "12 Ongelukke, Voorvalle & Aanspreeklikheid",
                         "reporting": {
                             "title": "12.1 Rapportering",
-                            "content": "Jy moet binne 24 uur rapporteer:",
+                            "content": "Jy moet so gou as redelikerwys moontlik, en in elk geval binne 24 uur, die volgende aanmeld:",
                             "items": [
-                                "ongelukke;",
-                                "beserings;",
-                                "eiendomskade;",
-                                "diefstal;"
+                                "padverkeerbotsing, ongeag skuld of besering;",
+                                "besering aan jouself, 'n Kliënt, 'n werknemer van 'n Handelaar, of enige derde party tydens 'n Aflewering;",
+                                "skade aan eiendom;",
+                                "diefstal of gepoogde diefstal van goedere of jou voertuig tydens 'n Aflewering;",
+                                "haatmisdaad, teistering of beledigende gedrag deur 'n Kliënt of Handelaar."
                             ]
                         },
                         "liability": {
                             "title": "12.2 Jou aanspreeklikheid",
-                            "content": "Jy is verantwoordelik vir jou eie optrede en skade."
+                            "content": "Jy is verantwoordelik vir jou eie handelinge en nalaatpunte. Urbandrop is nie aanspreeklik vir skade wat jy aan derde partye, aan Kliënte-eiendom, of aan jou eie voertuig of toerusting veroorsaak nie. Jy moet jouself toepaslik verseker hou (Klousule 5.2)."
                         },
                         "ourLiability": {
-                            "title": "12.3 Ons aanspreeklikheid",
-                            "content": "Urbandrop se aanspreeklikheid is beperk en sluit nie indirekte verliese in nie."
+                            "title": "12.3 Ons aanspreeklikheid teenoor jou",
+                            "content": "Onderhewig aan Klousule 12.4, is Urbandrop se totale gesamentlike aanspreeklikheid teenoor jou kragtens of in verband met hierdie Bepalings in enige 12-maande tydperk beperk tot die grootste van (a) die totale fooie wat in daardie tydperk aan jou betaal is of (b) £1,000. Ons is nie aanspreeklik vir verlies aan wins, verlies aan geleenthede, verlies aan klandisiewaarde, of enige indirekte of gevolglike verlies nie."
                         },
                         "liabilityExclusions": {
-                            "title": "12.4 Uitsonderings",
-                            "content": "Beperkings geld nie vir dood, besering of bedrog nie."
+                            "title": "12.4 Aanspreeklikheid wat ons nie uitsluit nie",
+                            "content": "Niks in hierdie Bepalings beperk of uitsluit aanspreeklikheid vir:",
+                            "items": [
+                                "dood of persoonlike besering veroorsaak deur nalatigheid;",
+                                "bedrog of bedrieglike wanvoorstelling;",
+                                "enige aanspreeklikheid wat nie kragtens toepaslike wetgewing uitgesluit of beperk kan word nie."
+                            ]
                         },
                         "emergency": {
-                            "title": "12.5 Noodgeval",
-                            "content": "Bel <strong>999</strong> en rapporteer daarna via die toepassing."
+                            "title": "12.5 Noodkontak",
+                            "content": "As jy betrokke is by 'n ernstige voorval terwyl jy werk, skakel eers <strong>999</strong> en stel dan Urbandrop in kennis via die in-toep-noodknoppie of die 24-uur koerier-ondersteuningslyn soos uiteengesit in Klousule 21."
                         }
                     },
                     "dataProtection": {
-                        "title": "13 Databeskerming en Privaatheid",
+                        "title": "13 Databeskerming & Privaatheid",
                         "roles": {
                             "title": "13.1 Rolle",
-                            "content": "Urbandrop is die databestuurder; jy verwerk data slegs vir aflewerings."
+                            "content": "Vir Persoonlike Data wat jy aan Urbandrop oor <strong>jouself</strong> verskaf, is Urbandrop die databeheerder. Vir Persoonlike Data oor <strong>Kliënte</strong> (name, afleweringsadresse, kontaknommers, afleweringsnotas) waartoe jy deur die koeriertoep toegang verkry, is Urbandrop die beheerder en jy is 'n dataverwerker wat streng volgens Urbandrop se gedokumenteerde instruksies optree vir die beperkte doel om die Aflewering te voltooi."
                         },
                         "obligations": {
-                            "title": "13.2 Jou verpligtinge",
+                            "title": "13.2 Jou verpligtinge as verwerker",
+                            "content": "Wanneer jy Kliënt-persoonlike data hanteer, moet jy:",
                             "items": [
-                                "gebruik data net vir aflewering;",
-                                "moenie data stoor of deel nie;",
-                                "hou jou toestel veilig;"
+                                "dit slegs gebruik om die spesifieke Aflewering wat aan jou toegewys is, te voltooi;",
+                                "nie Kliëntbesonderhede stoor, kopieer, deel, aanlyn plaas, of andersins behou nadat die Aflewering voltooi is nie;",
+                                "nie die Kliënt buite die Platform se in-toep-kanaal kontak nie;",
+                                "jou toestel en koeriertoep beveilig hou met 'n PIN, wagkode of biometriese slot;",
+                                "’n vermoedelike skending van persoonlike data binne 24 uur by dpo@urbandrop.io aanmeld."
                             ]
                         },
                         "howWeUse": {
-                            "title": "13.3 Gebruik van data",
-                            "content": "Data word volgens wet en privaatheidsbeleid verwerk."
+                            "title": "13.3 Hoe ons jou Persoonlike Data gebruik",
+                            "content": "Ons verwerk jou Persoonlike Data in ooreenstemming met die 'UK GDPR' en ons Privaatheidsbeleid, wat deel vorm van hierdie Bepalings. Ons regmatige grondslae sluit in die uitvoering van hierdie kontrak, nakoming van wetlike verpligtinge (bv. Reg om te Werk, HMRC-rapportering), en regmatige belange om die Platform veilig te bedryf."
                         },
                         "rights": {
                             "title": "13.4 Jou regte",
-                            "content": "Jy het regte soos toegang, regstelling en verwydering van data."
+                            "content": "Jy het die regte van 'n datasubjek kragtens 'UK GDPR' — toegang, regstelling, skrapping (onderhewig aan wetlike bewaring), beperking, oordraagbaarheid, en beswaar. Om enige van hierdie regte uit te oefen, kontak dpo@urbandrop.io. Jy mag ook 'n klagte by die 'Information Commissioner's Office' (ico.org.uk) indien."
                         }
                     },
                     "ip": {
                         "title": "14 Intellektuele Eiendom",
-                        "content": "Alle regte bly by Urbandrop. Jy kry 'n beperkte lisensie om die toepassing te gebruik.",
+                        "content": "Alle intellektuele eiendomsregte in die Platform, die koeriertoep, Urbandrop-handelsmerke, logo's, handelsmerke, opleidingsmateriaal en dokumentasie bly die eiendom van Urbandrop of ons lisensiehouers. Jy word 'n beperkte, nie-eksklusiewe, nie-oordraagbare, herroepbare lisensie toegestaan om die koeriertoep uitsluitlik te gebruik vir die doel om Aflewerings uit te voer.",
+                        "item": "jy mag nie:",
                         "items": [
-                            "moenie die toepassing ontleed of kopieer nie;",
-                            "moenie handelsmerke misbruik nie;"
+                            "die koeriertoep omvorder ('reverse-engineer'), dekompileer of probeer om bronkode daaruit af te lei;",
+                            "data, bestelvloeie, prys- of roete-inligting skraap, kopieer of andersins wederregtelik toeëien;",
+                            "Urbandrop-handelsmerke gebruik sonder ons voorafgaande skriftelike toestemming;",
+                            " jouself voordoen as 'n werknemer, agent of vennoot van Urbandrop verder as wat hierdie Bepalings voorsien."
                         ]
                     },
                     "confidentiality": {
                         "title": "15 Vertroulikheid",
-                        "content1": "Jy moet alle vertroulike inligting beskerm.",
-                        "content2": "Dit geld nie vir openbare inligting nie."
+                        "content1": "Jy mag in die loop van jou verbintenis vertroulike inligting oor Urbandrop, Kliënte, Handelaars of ander Koeriers teëkom — insluitend prysstrukture, bestelpatrone, afleweringsroetes, koeriertoep-funksies wat nog nie publiek is nie, en Kliëntbesonderhede. Jy moet hierdie inligting vertroulik hou tydens en na jou verbintenis en mag dit nie aan enige derde party bekend maak nie, behalwe soos deur die wet vereis.",
+                        "content2": "Vertroulikheid geld nie vir inligting wat publiek is, of regmatig publiek word sonder 'n skending deur jou nie, of wat jy regmatig besit het voor jou verbintenis nie."
                     },
                     "health": {
-                        "title": "16 Gesondheid, Veiligheid en Welstand",
-                        "content": "Ons prioritiseer veiligheid.",
+                        "title": "16 Gesondheid, Veiligheid & Welstand",
+                        "content": "Alhoewel jy nie 'n werknemer is nie, neem ons Koerierveiligheid ernstig op en, tot die mate waarin die 'Health and Safety at Work etc. Act 1974' op ons bedrywighede van toepassing is, sal ons ons besigheid op so 'n manier bedryf dat jy nie aan risiko's blootgestel word nie, vir sover dit redelikerwys prakties moontlik is.",
                         "responsibilities": {
                             "title": "16.1 Jou verantwoordelikhede",
                             "items": [
-                                "moenie onder invloed werk nie;",
-                                "neem rusperiodes;",
-                                "stop indien onveilig;",
-                                "dra beskermende klere."
+                                "nooit aflewer terwyl jy onder die invloed van alkohol of dwelms (wettig of onwettig) is wat jou vermoë om veilig te ry of te bestuur benadeel nie;",
+                                "voldoende rus neem — moenie 'n redelike werkspatroon oorskry wat veilige aflewering in gedrang bring nie (ons beveel pouses van minstens 15 minute elke 2 uur aan, en ons sal jou nie penaliseer as jy dit neem nie);",
+                                "’n Aflewering van die hand wys of beëindig wat onveilig word weens weer, voertuigfout, of persoonlike toestand;",
+                                "toepaslike weersbestande, reflektiewe en beskermende klere dra."
                             ]
                         },
                         "wellbeing": {
-                            "title": "16.2 Welstand",
-                            "content": "Ondersteuning is beskikbaar vir ryers."
+                            "title": "16.2 Welstandsondersteuning",
+                            "content": "Koerier-welstand is belangrik. Ons bied:",
+                            "items": [
+                                "toegang tot 'n vertroulike 24/7 geestesgesondheid-hulplyn (besonderhede in die koeriertoep);",
+                                "verwysing na nasionale hulpbronne insluitend 'Samaritans' (116 123) en 'Mind' (0300 123 3393);",
+                                "’n duidelike beleid teen vergelding — die aanmelding van 'n veiligheidskwessie, die rapportering van 'n Kliënt se beledigende gedrag, of die weiering van 'n onveilige Aflewering sal nie jou status op die Platform nadelig beïnvloed nie."
+                            ]
                         },
                         "equality": {
-                            "title": "16.3 Gelykheid",
-                            "content": "Geen diskriminasie of teistering word toegelaat nie."
+                            "title": "16.3 Gelykheid, respek en anti-teistering",
+                            "content": "Urbandrop het nul toleransie vir diskriminasie, teistering of viktimisasie op grond van 'n beskermde kenmerk kragtens die 'Equality Act 2010' — hetsy deur Koeriers, Kliënte, Handelaars of Urbandrop-personeel. Aanmeldings word ernstig opgeneem, vertroulik ondersoek, en daar word daarteen opgetree."
                         }
                     },
                     "complaints": {
-                        "title": "17 Klagtes en Geskille",
+                        "title": "17 Klagtes & Gespille",
                         "raise": {
-                            "title": "17.1 Meld dit aan",
-                            "content": "Gebruik die toepassing of e-pos om klagtes in te dien."
+                            "title": "17.1 Meld dit eers by ons aan",
+                            "content": "Indien jy 'n klagte het — oor 'n fooi, 'n aftrekking, 'n opskorting, 'n ander gebruiker se gedrag, of enigiets anders — meld dit asseblief aan via die koeriertoep se ondersteuningskanaal of stuur 'n e-pos na riders@urbandrop.io. Ons poog om ontvangs binne twee (2) werksdae te erken en om binne tien (10) werksdae 'n substantiewe antwoord te verskaf."
                         },
                         "escalation": {
                             "title": "17.2 Eskalasie",
-                            "content": "Jy kan appèl aanteken indien jy nie tevrede is nie."
+                            "content": "Indien jy nie tevrede is met ons reaksie nie, mag jy dit binne Urbandrop na 'n onafhanklike hersiener eskaleer (iemand wat nie by die oorspronklike besluit betrokke was nie) deur 'n e-pos te stuur na appeals@urbandrop.io. Eskalasiebesluite is finaal wat betref Urbandrop se interne proses."
                         },
                         "independentRedress": {
-                            "title": "17.3 Onafhanklike optrede",
-                            "content": "Jy kan ook regsaksie neem."
+                            "title": "17.3 Onafhanklike regshulp",
+                            "content": "Niks in hierdie Bepalings verhoed jou om 'n eis in die howe van Engeland en Wallis in te stel of om 'n reguleerder (insluitend HMRC, die 'Information Commissioner's Office', of die 'Health & Safety Executive') te kontak waar toepaslik nie."
                         }
                     },
                     "changes": {
-                        "title": "18 Wysigings",
-                        "content": "Urbandrop kan hierdie bepalings wysig met kennisgewing."
+                        "title": "18 Wysigings aan hierdie Bepalings",
+                        "content": "Urbandrop mag hierdie Bepalings van tyd tot tyd bywerk. Ons sal jou ten minste 14 dae voordat dit in werking tree in kennis stel van wesenlike veranderinge via die koeriertoep, e-pos of SMS. Jou voortgesette gebruik van die Platform na die opdateringsdatum behels aanvaarding van die hersiene Bepalings. Indien jy nie instem tot die veranderinge nie, mag jy hierdie ooreenkoms beëindig deur 7 dae skriftelike kennis te gee."
                     },
                     "contact": {
                         "title": "21 Kontak",
-                        "content": "Vir ondersteuning:",
+                        "content": "Vir vrae, ondersteuning, of om kennisgewings kragtens hierdie Bepalings te beteken:",
                         "companyName": "Urbandrop Group Limited",
-                        "email": "E-pos: riders@urbandrop.io",
+                        "email": "E-pos: <a href=\"mailto:riders@urbandrop.io\" className=\"text-secondary hover:underline font-medium\">riders@urbandrop.io</a>",
+                        "emergency": "24-uur noodondersteuning vir koeriers (besonderhede in die toep)",
+                        "riderSupport": "Koerier-ondersteuning",
+                        "appeals": "Appèlle",
                         "appealsEmail": "appeals@urbandrop.io",
-                        "dpoEmail": "dpo@urbandrop.io"
+                        "dataProtection": "Databeskerming",
+                        "dpoEmail": "dpo@urbandrop.io",
+                        "legalNotices": "Regskennisgewings",
+                        "legalEmail": "legal@urbandrop.io",
+                        "emergencyLabel": "Noodgeval (24u)"
                     },
                     "governingLaw": {
-                        "title": "20 Toepaslike Reg",
-                        "content": "Hierdie bepalings val onder die wette van Engeland en Wallis."
+                        "title": "20 Toepaslike Reg & Jurisdiksie",
+                        "content": "Hierdie Bepalings word beheers deur die wette van Engeland en Wallis. Die howe van Engeland en Wallis het eksklusiewe jurisdiksie. Indien enige bepaling van hierdie Bepalings as ongeldig of onafdwingbaar bevind word, sal die oorblywende bepalings ten volle van krag en effek bly."
                     },
                     "entireAgreement": {
                         "title": "21 Volledige Ooreenkoms",
-                        "content": "Hierdie bepalings vorm die volledige ooreenkoms."
+                        "content": "Hierdie Bepalings, saam met die Privaatheidsbeleid en enige bykomende ooreenkomste wat by wyse van verwysing ingelyf is, vorm die volledige ooreenkoms tussen jou en Urbandrop met betrekking tot jou gebruik van die Platform en vervang alle vorige ooreenkomste, voorstellings of verstandhoudings, hetsy skriftelik of mondeling."
                     }
                 }
             }
