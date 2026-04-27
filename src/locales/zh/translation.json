@@ -1149,7 +1149,7 @@
             "clause01": {
             "title": "第 01 条",
             "subtitle": "我们是谁及本条款",
-            "content1": "本客户条款与条件（简称“本条款”）构成了您（“客户”、“您”）与 Urbandrop Group Limited（“Urbandrop”、“我们”）之间的合同。我们是一家在英格兰和威尔士注册的私营有限公司，公司编号为 [00000000]，注册地址为 [注册办公地址]。",
+            "content1": "本客户条款与条件（简称“本条款”）构成了您（“客户”、“您”）与 Urbandrop Group Limited（“Urbandrop”、“我们”）之间的合同。我们是一家在英格兰和威尔士注册的私营有限公司，公司编号为: 16026087，注册地址为 [注册办公地址]。",
             "content2": "当您访问 urbandrop.io、使用我们的移动应用、创建账户、下单、订阅 Urbandrop+，或查看平台上的食谱及与之互动时，本条款均适用。执行上述任何操作即表示您同意受本条款约束。",
             "whatUrbandropDoes": {
                 "title": "Urbandrop 的业务内容",
@@ -1683,7 +1683,7 @@
             "title": "第 22 条",
             "subtitle": "联系方式",
             "companyName": "Urbandrop Group Limited",
-            "companyNumber": "公司编号: [00000000]",
+            "companyNumber": "公司编号: 16026087",
             "icoRegistration": "ICO 注册号: [ZA000000]",
             "customerSupport": "客户服务",
             "customerSupportEmail": "support@urbandrop.io · 应用内“获取订单帮助”",
