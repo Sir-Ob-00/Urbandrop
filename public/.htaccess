@@ -1,7 +1,7 @@
 Options -Indexes
 
 <IfModule mod_headers.c>
-    Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://res.cloudinary.com https://grainy-gradients.vercel.app; connect-src 'self' https://urbandrop-staging.kantatech.io https://urbanchat.kantatech.io;"
+    Header set Content-Security-Policy "default-src 'self' mailto: https://res.cloudinary.com; media-src 'self' mailto: https://res.cloudinary.com; script-src 'self' mailto: 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com https://urbandrop.io; style-src 'self' mailto: 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' mailto: https://fonts.gstatic.com; img-src 'self' mailto: data: https://res.cloudinary.com https://grainy-gradients.vercel.app; connect-src 'self' mailto: https://urbandrop-staging.kantatech.io https://urbanchat.kantatech.io https://static.cloudflareinsights.com;"
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
     Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
