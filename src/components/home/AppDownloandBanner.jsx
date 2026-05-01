@@ -5,49 +5,49 @@ const sliderImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219681
 const appstoreImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219681/appstore-black_geahzo.png';
 const playstoreImg = 'https://res.cloudinary.com/daisjvfvg/image/upload/v1777219681/playstore-black_nqipnl.png';
 
-const CountdownUnit = ({ value, label }) => (
-	<div className="flex flex-col items-center">
-		<div className="bg-[#183A37] text-white rounded-lg p-4 md:p-6 min-w-[5rem] md:min-w-[10rem] flex items-center justify-center shadow-lg mb-2">
-			<span className="text-3xl md:text-6xl font-extrabold tracking-widest">
-				{String(value).padStart(2, '0')}
-			</span>
-		</div>
-		<span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">{label}</span>
-	</div>
-);
+// const CountdownUnit = ({ value, label }) => (
+// 	<div className="flex flex-col items-center">
+// 		<div className="bg-[#183A37] text-white rounded-lg p-4 md:p-6 min-w-[5rem] md:min-w-[10rem] flex items-center justify-center shadow-lg mb-2">
+// 			<span className="text-3xl md:text-6xl font-extrabold tracking-widest">
+// 				{String(value).padStart(2, '0')}
+// 			</span>
+// 		</div>
+// 		<span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">{label}</span>
+// 	</div>
+// );
 
-// Fixed launch date: May 1st, 2026
-const LAUNCH_DATE = new Date('2026-05-01T00:00:00').getTime();
+// // Fixed launch date: May 1st, 2026
+// const LAUNCH_DATE = new Date('2026-05-01T00:00:00').getTime();
 
-const calculateTimeLeft = () => {
-	const now = new Date().getTime();
-	const distance = LAUNCH_DATE - now;
+// const calculateTimeLeft = () => {
+// 	const now = new Date().getTime();
+// 	const distance = LAUNCH_DATE - now;
 
-	if (distance < 0) {
-		return { days: 0, hours: 0, minutes: 0, seconds: 0, isFinished: true };
-	}
+// 	if (distance < 0) {
+// 		return { days: 0, hours: 0, minutes: 0, seconds: 0, isFinished: true };
+// 	}
 
-	return {
-		days: Math.floor(distance / (1000 * 60 * 60 * 24)),
-		hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-		minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
-		seconds: Math.floor((distance % (1000 * 60)) / 1000),
-		isFinished: false,
-	};
-};
+// 	return {
+// 		days: Math.floor(distance / (1000 * 60 * 60 * 24)),
+// 		hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+// 		minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+// 		seconds: Math.floor((distance % (1000 * 60)) / 1000),
+// 		isFinished: false,
+// 	};
+// };
 
-const AppDownloandBanner = ({ compact = false }) => {
-	const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+const AppDownloandBanner = () => {
+	// const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 	const [isMobile, setIsMobile] = useState(() => (typeof window !== 'undefined' ? window.innerWidth <= 768 : false));
 	const { t } = useTranslation();
 
-	useEffect(() => {
-		const timer = setInterval(() => {
-			setTimeLeft(calculateTimeLeft());
-		}, 1000);
+	// useEffect(() => {
+	// 	const timer = setInterval(() => {
+	// 		setTimeLeft(calculateTimeLeft());
+	// 	}, 1000);
 
-		return () => clearInterval(timer);
-	}, []);
+	// 	return () => clearInterval(timer);
+	// }, []);
 
 	useEffect(() => {
 		const checkMobile = () => setIsMobile(window.innerWidth <= 768);
@@ -107,7 +107,7 @@ const AppDownloandBanner = ({ compact = false }) => {
 			</section>
 
 			{/* Countdown & Launch Description Section */}
-			<section id="launch-countdown" className="bg-white">
+			{/* <section id="launch-countdown" className="bg-white">
 				<div className={`max-w-7xl mx-auto px-6 ${compact ? 'py-6 md:py-8' : 'py-10 md:py-14'} text-center`}>
 					<div className="flex flex-wrap justify-center items-center gap-6">
 						<div className="flex gap-4 md:gap-20 w-full max-w-4xl justify-center mx-auto">
@@ -118,7 +118,7 @@ const AppDownloandBanner = ({ compact = false }) => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 		</>
 	);
 };
