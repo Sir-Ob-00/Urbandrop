@@ -12,7 +12,7 @@ const HeroSection = () => {
         autoPlay
         muted
         loop
-        playsInline
+        playsInline 
       >
         <source src="https://res.cloudinary.com/daisjvfvg/video/upload/v1777220452/home-hero_video_xk8c8m_qoggkj.mp4" type="video/mp4" />
       </video>
