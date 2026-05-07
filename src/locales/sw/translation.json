@@ -1,1120 +1,1120 @@
-    {
-        "navbar": {
-            "aboutUs": "Kuhusu",
-            "customer": "Mteja",
-            "merchant": "Kuwa Muuzaji",
-            "joinBeta": "Jiunge na Beta",
-            "findLocation": "Pata eneo",
-            "home": "Nyumbani",
-            "contactUs": "Wasiliana Nasi",
-            "getTheApp": "Pata Programu"
+{
+    "navbar": {
+        "aboutUs": "Kuhusu",
+        "customer": "Mteja",
+        "merchant": "Kuwa Muuzaji",
+        "joinBeta": "Jiunge na Beta",
+        "findLocation": "Pata eneo",
+        "home": "Nyumbani",
+        "contactUs": "Wasiliana Nasi",
+        "getTheApp": "Pata Programu"
+    },
+    "footer": {
+        "findLocation": "Pata eneo",
+        "brandDescription": "Soko lako la mtandaoni la mapishi na bidhaa za vyakula unaokutambulisha wateja wa Uingereza na wauzaji wa hapa.",
+        "getExclusiveDeals": "Pata Mikataba ya Kipekee",
+        "enterEmail": "Ingiza barua pepe yako",
+        "subscribe": "Jisajili",
+        "legalPages": "Kurasa za Kisheria",
+        "privacyPolicy": "Sera ya Faragha",
+        "cookiesPolicy": "Sera ya Vidakuzi",
+        "termsConditions": "Masharti na Vigezo",
+        "manageCookies": "Simamia Vidakuzi",
+        "importantLinks": "Viungo Muhimu",
+        "about": "Kuhusu",
+        "customer": "Mteja",
+        "advertise": "Tangaza kwenye Urbandrop",
+        "beMerchant": "Kuwa Muuzaji",
+        "reportABug": "Ripoti hitilafu",
+        "joinBeta": "Jiunge na Beta",
+        "rightsReserved": "Urbandrop Group Ltd. Haki zote zimehifadhiwa.",
+        "companyNumber": "Nambari ya Kampuni"
+    },
+    "home": {
+        "hero": {
+            "title1": "Chakula Halisi cha Kitamaduni &",
+            "title2": "Vyakula Vinavyoletwa Kwenye",
+            "title3": "Mlango Wako",
+            "description": "Gundua maduka ya Kiafrika, Karibi, Asia na kimataifa karibu nawe na UrbanDrop.",
+            "orderNow": "Agiza Sasa",
+            "becomeMerchant": "Kuwa Muuzaji"
         },
-        "footer": {
-            "findLocation": "Pata eneo",
-            "brandDescription": "Soko lako la mtandaoni la mapishi na bidhaa za vyakula unaokutambulisha wateja wa Uingereza na wauzaji wa hapa.",
-            "getExclusiveDeals": "Pata Mikataba ya Kipekee",
-            "enterEmail": "Ingiza barua pepe yako",
-            "subscribe": "Jisajili",
-            "legalPages": "Kurasa za Kisheria",
-            "privacyPolicy": "Sera ya Faragha",
-            "cookiesPolicy": "Sera ya Vidakuzi",
-            "termsConditions": "Masharti na Vigezo",
-            "manageCookies": "Simamia Vidakuzi",
-            "importantLinks": "Viungo Muhimu",
-            "about": "Kuhusu",
-            "customer": "Mteja",
-            "advertise": "Tangaza kwenye Urbandrop",
-            "beMerchant": "Kuwa Muuzaji",
-            "reportABug": "Ripoti hitilafu",
-            "joinBeta": "Jiunge na Beta",
-            "rightsReserved": "Urbandrop Group Ltd. Haki zote zimehifadhiwa.",
-            "companyNumber": "Nambari ya Kampuni"
+        "mosaic": {
+            "title": "Kila Utamaduni, Soko Moja",
+            "subtitle": "Gundua viambato kutoka Afrika, Asia, na sehemu nyingine."
         },
-        "home": {
-            "hero": {
-                "title1": "Chakula Halisi cha Kitamaduni &",
-                "title2": "Vyakula Vinavyoletwa Kwenye",
-                "title3": "Mlango Wako",
-                "description": "Gundua maduka ya Kiafrika, Karibi, Asia na kimataifa karibu nawe na UrbanDrop.",
-                "orderNow": "Agiza Sasa",
-                "becomeMerchant": "Kuwa Muuzaji"
+        "featured": {
+            "title": "Aina Zilizochaguliwa",
+            "subtitle": "Chunguza huduma zetu zilizochaguliwa ili kukupelekea tamaduni na urahisi bora.",
+            "exploreNow": "Chunguza Sasa",
+            "cat1": {
+                "title": "Nunua Kile Ukinachosema",
+                "desc": "Tunazungumza lugha yako. Pata uzoefu wa ununuzi unaokuelewa."
             },
-            "mosaic": {
-                "title": "Kila Utamaduni, Soko Moja",
-                "subtitle": "Gundua viambato kutoka Afrika, Asia, na sehemu nyingine."
+            "cat2": {
+                "title": "UrbanRecipe",
+                "desc": "Gundua, Pika, & Shirikisha tamaduni zako kwa viambato halisi."
             },
-            "featured": {
-                "title": "Aina Zilizochaguliwa",
-                "subtitle": "Chunguza huduma zetu zilizochaguliwa ili kukupelekea tamaduni na urahisi bora.",
-                "exploreNow": "Chunguza Sasa",
-                "cat1": {
-                    "title": "Nunua Kile Ukinachosema",
-                    "desc": "Tunazungumza lugha yako. Pata uzoefu wa ununuzi unaokuelewa."
-                },
-                "cat2": {
-                    "title": "UrbanRecipe",
-                    "desc": "Gundua, Pika, & Shirikisha tamaduni zako kwa viambato halisi."
-                },
-                "cat3": {
-                    "title": "Uza Kihalisi. Fikia Ulimwenguni",
-                    "desc": "Kuwezesha wauzaji wa ndani kufikia hadhira ya kimataifa."
-                },
-                "cat4": {
-                    "title": "Dereva: Kuleta Utamaduni",
-                    "desc": "Huduma ya Haraka na Inayoaminika inakuletea nyumbani kwako."
-                }
+            "cat3": {
+                "title": "Uza Kihalisi. Fikia Ulimwenguni",
+                "desc": "Kuwezesha wauzaji wa ndani kufikia hadhira ya kimataifa."
             },
-            "whyChoose": {
-                "badge": "Kwa Nini Uchague Urbandrop",
-                "title": "Pata",
-                "difference": "Tofauti",
-                "whyChooseUs": "Kwa Nini Utuchague",
-                "ctaTitle": "Je, Uko Tayari Kupata Tofauti?",
-                "ctaButton": "Pakua Programu ya Urbandrop",
-                "feature1": {
-                    "title": "Nunua Kwa Lugha Unayotumia",
-                    "desc": "Tafuta viungo kwa kutumia majina ya kienyeji au ya asili iwe ni kontomire, egusi, au unga wa atta. UrbanDrop inaelewa lugha yako."
-                },
-                "feature2": {
-                    "title": "Gundua Maduka Yanayokufanya Uhisi Nyumbani",
-                    "desc": "Chunguza maduka na makundi yaliyopangwa kwa utamaduni kutoka Karibiani na Asia Kusini hadi Afrika Magharibi na Mashariki ya Kati. Kila unachokikosa nyumbani, kiko kwenye app moja."
-                },
-                "feature3": {
-                    "title": "Bidhaa Halisi, Zilizothibitishwa Kiutamaduni",
-                    "desc": "Kila bidhaa kwenye UrbanDrop hukaguliwa kuhakikisha uhalisia wake na huandikwa chanzo chake halisi na matumizi yake ya asili, ili kila mara ujue unapata kitu halisi."
-                },
-                "feature4": {
-                    "title": "Zaidi ya Ununuzi, Ni Muunganiko",
-                    "desc": "Pata msukumo kupitia mapishi ya makabila, miongozo ya kupika, na hadithi za kitamaduni zinazosherehekea mahali chakula chako kinapotoka na jinsi kinavyowaunganisha watu."
-                }
+            "cat4": {
+                "title": "Dereva: Kuleta Utamaduni",
+                "desc": "Huduma ya Haraka na Inayoaminika inakuletea nyumbani kwako."
+            }
+        },
+        "whyChoose": {
+            "badge": "Kwa Nini Uchague Urbandrop",
+            "title": "Pata",
+            "difference": "Tofauti",
+            "whyChooseUs": "Kwa Nini Utuchague",
+            "ctaTitle": "Je, Uko Tayari Kupata Tofauti?",
+            "ctaButton": "Pakua Programu ya Urbandrop",
+            "feature1": {
+                "title": "Nunua Kwa Lugha Unayotumia",
+                "desc": "Tafuta viungo kwa kutumia majina ya kienyeji au ya asili iwe ni kontomire, egusi, au unga wa atta. UrbanDrop inaelewa lugha yako."
             },
-            "appDownload": {
-                "title1": "Ladha ya",
-                "title2": "Uzoefu wa Urbandrop",
-                "title3": "Haraka Zaidi Kabisa",
-                "desc": "Pakua programu ya Urbandrop kwa mikataba ya kipekee, malipo ya haraka, na ufuatiliaji wa wakati halisi wa maagizo.",
-                "ios": "Pakua kwa Apple",
-                "android": "Pakua kwa Android",
-                "countdown": {
-                    "days": "Siku",
-                    "hours": "Saa",
-                    "minutes": "Dakika",
-                    "seconds": "Sekunde"
+            "feature2": {
+                "title": "Gundua Maduka Yanayokufanya Uhisi Nyumbani",
+                "desc": "Chunguza maduka na makundi yaliyopangwa kwa utamaduni kutoka Karibiani na Asia Kusini hadi Afrika Magharibi na Mashariki ya Kati. Kila unachokikosa nyumbani, kiko kwenye app moja."
+            },
+            "feature3": {
+                "title": "Bidhaa Halisi, Zilizothibitishwa Kiutamaduni",
+                "desc": "Kila bidhaa kwenye UrbanDrop hukaguliwa kuhakikisha uhalisia wake na huandikwa chanzo chake halisi na matumizi yake ya asili, ili kila mara ujue unapata kitu halisi."
+            },
+            "feature4": {
+                "title": "Zaidi ya Ununuzi, Ni Muunganiko",
+                "desc": "Pata msukumo kupitia mapishi ya makabila, miongozo ya kupika, na hadithi za kitamaduni zinazosherehekea mahali chakula chako kinapotoka na jinsi kinavyowaunganisha watu."
+            }
+        },
+        "appDownload": {
+            "title1": "Ladha ya",
+            "title2": "Uzoefu wa Urbandrop",
+            "title3": "Haraka Zaidi Kabisa",
+            "desc": "Pakua programu ya Urbandrop kwa mikataba ya kipekee, malipo ya haraka, na ufuatiliaji wa wakati halisi wa maagizo.",
+            "ios": "Pakua kwa Apple",
+            "android": "Pakua kwa Android",
+            "countdown": {
+                "days": "Siku",
+                "hours": "Saa",
+                "minutes": "Dakika",
+                "seconds": "Sekunde"
+            }
+        }
+    },
+    "contact": {
+        "hero": {
+            "badge": "Wasiliana Nasi",
+            "title1": "Tuanze",
+            "title2": "Mazungumzo.",
+            "desc": "Kama una swali, maoni, au unataka kusema jambo tu, tuko hapa kusikiliza na kusaidia kukua.",
+            "sendMessage": "Tuma Ujumbe",
+            "callSupport": "Piga Simu Kwa Usaidizi"
+        },
+        "form": {
+            "sidebar": {
+                "title": "Taarifa za Mawasiliano",
+                "desc": "Jaza fomu na timu yetu itakujibu hivi karibuni.",
+                "emailUs": "Tuma Barua Pepe",
+                "visitUs": "Tembelea",
+                "workingHours": "Muda wa Kazi",
+                "workingHoursContent": "Jumatatu - Ijumaa: 9am - 6pm"
+            },
+            "fields": {
+                "fullName": "Jina Kamili",
+                "email": "Barua Pepe",
+                "subject": "Kichwa cha Habari",
+                "message": "Ujumbe Wako"
+            },
+            "subjects": {
+                "customer": "Usaidizi wa Wateja",
+                "merchant": "Usaidizi wa Muuzaji",
+                "advertising": "Matangazo & Ushirikiano",
+                "other": "Nyingine"
+            },
+            "submit": {
+                "sending": "Inatuma...",
+                "send": "Tuma Ujumbe"
+            },
+            "success": {
+                "title": "Ujumbe Umetumwa!",
+                "desc": "Asante kwa kuwasiliana nasi. Tumepokea ujumbe wako na tutarudi kwako hivi karibuni."
+            }
+        }
+    },
+    "customer": {
+        "hero": {
+            "title1": "Furahia Ladha Halisi",
+            "title2": "Za Asili",
+            "desc": "Bidhaa halisi za vyakula vya asili zinawasilishwa hadi mlangoni kwako.",
+            "downloadApp": "Pakua Programu",
+            "orderDelivered": "Oda Imefikishwa",
+            "justNow": "Sasa hivi ndani ya dakika 2"
+        },
+        "recommendation": {
+            "title1": "Zimechaguliwa",
+            "title2": "Kwa Ajili Yako",
+            "subtitle": "Chunguza makusanyo yaliyobinafsishwa kulingana na ladha yako",
+            "categories": {
+                "topPicks": {
+                    "name": "Chaguo Bora Karibu Nawe",
+                    "desc": "Vyakula vilivyokadiriwa juu katika eneo lako"
+                },
+                "trending": {
+                    "name": "Vinavyovuma Wiki Hii",
+                    "desc": "Vyakula vinavyopendwa zaidi kwa sasa"
+                },
+                "fastest": {
+                    "name": "Vinavyofika Haraka Zaidi",
+                    "desc": "Pata bidhaa zako ndani ya dakika 30"
+                },
+                "budget": {
+                    "name": "Rafiki kwa Bajeti",
+                    "desc": "Vyakula vitamu vinavyokuokoa pesa"
                 }
             }
         },
-            "contact": {
-                "hero": {
-                    "badge": "Wasiliana Nasi",
-                    "title1": "Tuanze",
-                    "title2": "Mazungumzo.",
-                    "desc": "Kama una swali, maoni, au unataka kusema jambo tu, tuko hapa kusikiliza na kusaidia kukua.",
-                    "sendMessage": "Tuma Ujumbe",
-                    "callSupport": "Piga Simu Kwa Usaidizi"
+        "scenarios": {
+            "title1": "Bidhaa za Chakula Zinaletwa Kwa",
+            "title2": "Urahisi Wako",
+            "items": {
+                "everything": {
+                    "title": "Kila Kitu Unachohitaji",
+                    "subtitle": "Kuanzia mazao mabichi hadi mahitaji ya jikoni."
                 },
-                "form": {
-                    "sidebar": {
-                        "title": "Taarifa za Mawasiliano",
-                        "desc": "Jaza fomu na timu yetu itakujibu hivi karibuni.",
-                        "emailUs": "Tuma Barua Pepe",
-                        "visitUs": "Tembelea",
-                        "workingHours": "Muda wa Kazi",
-                        "workingHoursContent": "Jumatatu - Ijumaa: 9am - 6pm"
-                    },
-                    "fields": {
-                        "fullName": "Jina Kamili",
-                        "email": "Barua Pepe",
-                        "subject": "Kichwa cha Habari",
-                        "message": "Ujumbe Wako"
-                    },
-                    "subjects": {
-                        "customer": "Usaidizi wa Wateja",
-                        "merchant": "Usaidizi wa Muuzaji",
-                        "advertising": "Matangazo & Ushirikiano",
-                        "other": "Nyingine"
-                    },
-                    "submit": {
-                        "sending": "Inatuma...",
-                        "send": "Tuma Ujumbe"
-                    },
-                    "success": {
-                        "title": "Ujumbe Umetumwa!",
-                        "desc": "Asante kwa kuwasiliana nasi. Tumepokea ujumbe wako na tutarudi kwako hivi karibuni."
-                    }
+                "authentic": {
+                    "title": "Halisi na za Kienyeji",
+                    "subtitle": "Viungo adimu vya asili mikononi mwako."
+                },
+                "shopHome": {
+                    "title": "Nunua Ukiwa Nyumbani",
+                    "subtitle": "Epuka foleni na nunua kwa urahisi."
+                },
+                "delivered": {
+                    "title": "Letewe Wewe",
+                    "subtitle": "Bidhaa safi zinaletwa moja kwa moja mlangoni kwako."
                 }
-            },
-            "customer": {
-                "hero": {
-                    "title1": "Furahia Ladha Halisi",
-                    "title2": "Za Asili",
-                    "desc": "Bidhaa halisi za vyakula vya asili zinawasilishwa hadi mlangoni kwako.",
-                    "downloadApp": "Pakua Programu",
-                    "orderDelivered": "Oda Imefikishwa",
-                    "justNow": "Sasa hivi ndani ya dakika 2"
+            }
+        },
+        "whatYouCanDo": {
+            "title": "Unachoweza Kufanya",
+            "desc": "Programu moja kwa mahitaji yako yote ya kila siku. Gundua uwezekano na Urbandrop.",
+            "learnMore": "Jifunze Zaidi",
+            "items": {
+                "groceries": {
+                    "title": "Nunua Vyakula",
+                    "desc": "Mazao mabichi na mahitaji muhimu yanawasilishwa hadi kwako."
                 },
-                "recommendation": {
-                    "title1": "Zimechaguliwa",
-                    "title2": "Kwa Ajili Yako",
-                    "subtitle": "Chunguza makusanyo yaliyobinafsishwa kulingana na ladha yako",
-                    "categories": {
-                        "topPicks": {
-                            "name": "Chaguo Bora Karibu Nawe",
-                            "desc": "Vyakula vilivyokadiriwa juu katika eneo lako"
+                "errands": {
+                    "title": "Fanya Shughuli Zako",
+                    "desc": "Epuka safari ndefu za kununua. Pata vyakula vyako vya asili vikiletwa."
+                },
+                "ethnic": {
+                    "title": "Ladha za Asili",
+                    "desc": "Gundua ladha halisi kutoka sehemu mbalimbali duniani."
+                }
+            }
+        },
+        "benefits": {
+            "title1": "Kwa Nini",
+            "title2": "Urban",
+            "title3": "Drop",
+            "title4": "?",
+            "subtitle": "Kuimarisha mtindo wako wa maisha kwa kila uwasilishaji.",
+            "items": {
+                "saveTime": {
+                    "title": "Okoa Muda",
+                    "subtitle": "Rejesha masaa yako ya siku."
+                },
+                "comfort": {
+                    "title": "Furahia Faraja",
+                    "subtitle": "Kila unachohitaji, kinaletwa."
+                },
+                "convenience": {
+                    "title": "Pata Urahisi",
+                    "subtitle": "Nunua kutoka maduka unayopenda ya karibu."
+                }
+            }
+        },
+        "appDownload": {
+            "title1": "Onja",
+            "title2": "Uzoefu wa Urbandrop",
+            "ios": "Pakua kwa Apple",
+            "android": "Pakua kwa Android",
+            "customerTerms": "Tazama Sheria na Masharti ya Wateja"
+        },
+        "faq": {
+            "title": "Maswali Yanayoulizwa Mara kwa Mara",
+            "subtitle": "Pata majibu ya maswali ya kawaida kuhusu kutumia Urbandrop.",
+            "searchPlaceholder": "Tafuta Maswali...",
+            "noResults": "Hakuna matokeo kwa \"{{query}}\". Jaribu neno lingine.",
+            "categories": [
+                {
+                    "category": "Akaunti na Kuingia",
+                    "items": [
+                        {
+                            "question": "Ninawezaje kuunda akaunti?",
+                            "answer": "Ili kuunda akaunti, bofya kitufe cha 'Jisajili' juu kulia kwenye ukurasa wa mwanzo. Jaza taarifa zako kama jina, barua pepe, na nenosiri salama. Utapokea barua pepe ya uthibitisho."
                         },
-                        "trending": {
-                            "name": "Vinavyovuma Wiki Hii",
-                            "desc": "Vyakula vinavyopendwa zaidi kwa sasa"
-                        },
-                        "fastest": {
-                            "name": "Vinavyofika Haraka Zaidi",
-                            "desc": "Pata bidhaa zako ndani ya dakika 30"
-                        },
-                        "budget": {
-                            "name": "Rafiki kwa Bajeti",
-                            "desc": "Vyakula vitamu vinavyokuokoa pesa"
+                        {
+                            "question": "Nimesahau nenosiri. Nafanyaje kulibadilisha?",
+                            "answer": "Bofya 'Umesahau Nenosiri' kwenye ukurasa wa kuingia. Weka barua pepe yako na tutakutumia maelekezo ya kuweka upya nenosiri."
                         }
-                    }
+                    ]
                 },
-                "scenarios": {
-                    "title1": "Bidhaa za Chakula Zinaletwa Kwa",
-                    "title2": "Urahisi Wako",
-                    "items": {
-                        "everything": {
-                            "title": "Kila Kitu Unachohitaji",
-                            "subtitle": "Kuanzia mazao mabichi hadi mahitaji ya jikoni."
+                {
+                    "category": "Kuagiza na Malipo",
+                    "items": [
+                        {
+                            "question": "Ninawezaje kuagiza?",
+                            "answer": "Chunguza bidhaa, chagua unazotaka, na bofya 'Ongeza Kwenye Kikapu'. Kisha nenda kwenye kikapu na ufuate hatua za malipo."
                         },
-                        "authentic": {
-                            "title": "Halisi na za Kienyeji",
-                            "subtitle": "Viungo adimu vya asili mikononi mwako."
-                        },
-                        "shopHome": {
-                            "title": "Nunua Ukiwa Nyumbani",
-                            "subtitle": "Epuka foleni na nunua kwa urahisi."
-                        },
-                        "delivered": {
-                            "title": "Letewe Wewe",
-                            "subtitle": "Bidhaa safi zinaletwa moja kwa moja mlangoni kwako."
+                        {
+                            "question": "Naweza kubadilisha au kughairi oda?",
+                            "answer": "Unaweza kubadilisha au kughairi ndani ya saa 1. Nenda 'Oda Zangu' na uchague oda husika."
                         }
-                    }
+                    ]
                 },
-                "whatYouCanDo": {
-                    "title": "Unachoweza Kufanya",
-                    "desc": "Programu moja kwa mahitaji yako yote ya kila siku. Gundua uwezekano na Urbandrop.",
-                    "learnMore": "Jifunze Zaidi",
-                    "items": {
-                        "groceries": {
-                            "title": "Nunua Vyakula",
-                            "desc": "Mazao mabichi na mahitaji muhimu yanawasilishwa hadi kwako."
+                {
+                    "category": "Malipo",
+                    "items": [
+                        {
+                            "question": "Ni njia gani za malipo mnazokubali?",
+                            "answer": "Tunapokea kadi kuu zote na Apple Pay."
                         },
-                        "errands": {
-                            "title": "Fanya Shughuli Zako",
-                            "desc": "Epuka safari ndefu za kununua. Pata vyakula vyako vya asili vikiletwa."
-                        },
-                        "ethnic": {
-                            "title": "Ladha za Asili",
-                            "desc": "Gundua ladha halisi kutoka sehemu mbalimbali duniani."
+                        {
+                            "question": "Taarifa za malipo ziko salama?",
+                            "answer": "Ndiyo, tunatumia usimbaji fiche wa SSL na hatuhifadhi taarifa za kadi."
                         }
-                    }
+                    ]
                 },
-                "benefits": {
-                    "title1": "Kwa Nini",
-                    "title2": "Urban",
-                    "title3": "Drop",
-                    "title4": "?",
-                    "subtitle": "Kuimarisha mtindo wako wa maisha kwa kila uwasilishaji.",
-                    "items": {
-                        "saveTime": {
-                            "title": "Okoa Muda",
-                            "subtitle": "Rejesha masaa yako ya siku."
+                {
+                    "category": "Uwasilishaji na Ufuatiliaji",
+                    "items": [
+                        {
+                            "question": "Uwasilishaji huchukua muda gani?",
+                            "answer": "Dakika 15–25 kulingana na umbali."
                         },
-                        "comfort": {
-                            "title": "Furahia Faraja",
-                            "subtitle": "Kila unachohitaji, kinaletwa."
-                        },
-                        "convenience": {
-                            "title": "Pata Urahisi",
-                            "subtitle": "Nunua kutoka maduka unayopenda ya karibu."
+                        {
+                            "question": "Ninawezaje kufuatilia oda?",
+                            "answer": "Utapokea kiungo cha kufuatilia au angalia 'Oda Zangu'."
                         }
-                    }
+                    ]
                 },
-                "appDownload": {
-                    "title1": "Onja",
-                    "title2": "Uzoefu wa Urbandrop",
-                    "ios": "Pakua kwa Apple",
-                    "android": "Pakua kwa Android",
-                    "customerTerms": "Tazama Sheria na Masharti ya Wateja"
+                {
+                    "category": "Marejesho na Rejesha Fedha",
+                    "items": [
+                        {
+                            "question": "Sera ya marejesho ni ipi?",
+                            "answer": "Bidhaa zisizoharibika zinaweza kurejeshwa ndani ya siku 14. Bidhaa zinazoharibika hazirudishwi isipokuwa kuna tatizo."
+                        }
+                    ]
                 },
-                "faq": {
-                    "title": "Maswali Yanayoulizwa Mara kwa Mara",
-                    "subtitle": "Pata majibu ya maswali ya kawaida kuhusu kutumia Urbandrop.",
-                    "searchPlaceholder": "Tafuta Maswali...",
-                    "noResults": "Hakuna matokeo kwa \"{{query}}\". Jaribu neno lingine.",
-                    "categories": [
+                {
+                    "category": "Matatizo ya Kiufundi",
+                    "items": [
                         {
-                            "category": "Akaunti na Kuingia",
-                            "items": [
-                                {
-                                    "question": "Ninawezaje kuunda akaunti?",
-                                    "answer": "Ili kuunda akaunti, bofya kitufe cha 'Jisajili' juu kulia kwenye ukurasa wa mwanzo. Jaza taarifa zako kama jina, barua pepe, na nenosiri salama. Utapokea barua pepe ya uthibitisho."
-                                },
-                                {
-                                    "question": "Nimesahau nenosiri. Nafanyaje kulibadilisha?",
-                                    "answer": "Bofya 'Umesahau Nenosiri' kwenye ukurasa wa kuingia. Weka barua pepe yako na tutakutumia maelekezo ya kuweka upya nenosiri."
-                                }
-                            ]
+                            "question": "Tovuti haifunguki vizuri. Nifanye nini?",
+                            "answer": "Jaribu kufuta cache au tumia incognito."
                         },
                         {
-                            "category": "Kuagiza na Malipo",
-                            "items": [
-                                {
-                                    "question": "Ninawezaje kuagiza?",
-                                    "answer": "Chunguza bidhaa, chagua unazotaka, na bofya 'Ongeza Kwenye Kikapu'. Kisha nenda kwenye kikapu na ufuate hatua za malipo."
-                                },
-                                {
-                                    "question": "Naweza kubadilisha au kughairi oda?",
-                                    "answer": "Unaweza kubadilisha au kughairi ndani ya saa 1. Nenda 'Oda Zangu' na uchague oda husika."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Malipo",
-                            "items": [
-                                {
-                                    "question": "Ni njia gani za malipo mnazokubali?",
-                                    "answer": "Tunapokea kadi kuu zote na Apple Pay."
-                                },
-                                {
-                                    "question": "Taarifa za malipo ziko salama?",
-                                    "answer": "Ndiyo, tunatumia usimbaji fiche wa SSL na hatuhifadhi taarifa za kadi."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Uwasilishaji na Ufuatiliaji",
-                            "items": [
-                                {
-                                    "question": "Uwasilishaji huchukua muda gani?",
-                                    "answer": "Dakika 15–25 kulingana na umbali."
-                                },
-                                {
-                                    "question": "Ninawezaje kufuatilia oda?",
-                                    "answer": "Utapokea kiungo cha kufuatilia au angalia 'Oda Zangu'."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Marejesho na Rejesha Fedha",
-                            "items": [
-                                {
-                                    "question": "Sera ya marejesho ni ipi?",
-                                    "answer": "Bidhaa zisizoharibika zinaweza kurejeshwa ndani ya siku 14. Bidhaa zinazoharibika hazirudishwi isipokuwa kuna tatizo."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Matatizo ya Kiufundi",
-                            "items": [
-                                {
-                                    "question": "Tovuti haifunguki vizuri. Nifanye nini?",
-                                    "answer": "Jaribu kufuta cache au tumia incognito."
-                                },
-                                {
-                                    "question": "Nina shida na app ya simu. Nifanye nini?",
-                                    "answer": "Sasisha au sakinisha tena app."
-                                }
-                            ]
+                            "question": "Nina shida na app ya simu. Nifanye nini?",
+                            "answer": "Sasisha au sakinisha tena app."
                         }
                     ]
                 }
+            ]
+        }
+    },
+    "about": {
+        "title": "1. Kuhusu UrbanDrop",
+        "content": [
+            "UrbanDrop ni soko la mtandaoni linalounganisha wateja na wauzaji huru wanaotoa vyakula, milo, na bidhaa za kitamaduni kwa utoaji au ukusanyaji. Tunatoa miundombinu ya kidijitali, usindikaji wa malipo, na interface ya mteja, lakini hatuzalishi, hatumiliki, wala kuuza bidhaa zilizoorodheshwa kwenye jukwaa.",
+            "Unapoweka agizo kupitia UrbanDrop, unanunua moja kwa moja kutoka kwa muuzaji, si kutoka UrbanDrop."
+        ],
+        "hero": {
+            "title1": "Kuunganisha",
+            "title2": "Tamaduni",
+            "title3": "Kuunganisha",
+            "title4": "Jamii",
+            "desc": "Sisi si soko tu. Sisi ni daraja la kidijitali linalokuunganisha na ladha, desturi, na watu wanaofanya jamii yako kuwa ya kipekee."
+        },
+        "highlights": {
+            "title": "Uzoefu",
+            "subtitle": "Kiwango cha Juu",
+            "item1": "Haraka & Imeunganishwa",
+            "item2": "Mchakato wa Simu",
+            "item3": "Ukuaji wa Jamii",
+            "item4": "Imara & Salama"
+        },
+        "process": {
+            "step1": "Pakua",
+            "step2": "Agiza",
+            "step3": "Pokea",
+            "step4": "Furahia"
+        },
+        "ourStory": {
+            "badge": "Hadithi Yetu",
+            "founded": "Uingereza / Ilianzishwa 2026",
+            "title": "Hadithi<br/><highlight>Yetu.</highlight>",
+            "chapter1": {
+                "label": "Pengo",
+                "title": "Kitu fulani kilikuwa <1>kikikosekana</1> kimyakimya.",
+                "p1": "Nilipohamia Uingereza kutoka Ghana mwaka wa 2022, niliwasili nikiwa na matumaini na uhusiano mkubwa na utamaduni niliyoiacha nyuma. Haikuchukua muda mrefu kabla ya kuhisi kile ambacho wahamiaji wengi huvumilia kimyakimya.",
+                "p2": "Kununua bidhaa za Ghana — kitu chochote cha Kiafrika au Karibiani — kulimaanisha <1>safari ndefu kwenye maduka yaliyotawanyika</1>, machaguo machache, na karibu hakuna urahisi. Programu kuu za utoaji zilihudumia chapa za Uingereza na Ulaya kwa urahisi. Lakini hakuna kitu kilichokuwa kikihudumia jamii za makabila — watu wale wale wanaotajirisha nchi hii kila siku."
             },
+            "chapter2": {
+                "label": "Wakati",
+                "title": "Safari ya basi ambayo <1>ilibadilisha kila kitu</1>.",
+                "p1": "Jioni moja, mama mkwe wangu alifanya safari ya kwenda kununua bidhaa kwenye duka la Kiafrika baada ya siku ndefu. Akiwa amechoka kwenye safari ya basi akielekea nyumbani, alishuka na kuacha kila begi nyuma bila kutambua.",
+                "quote": "Haikuwa tu kuhusu kukosa chakula cha nyumbani. Ilikuwa kuhusu jinsi watu wanavyofanya kazi kwa bidii, jinsi wanavyosafiri mbali ili tu kubaki na uhusiano na wale walio."
+            },
+            "chapter3": {
+                "label": "Dhamira",
+                "title": "Hapo ndipo <1>Urbandrop</1> ilipozaliwa.",
+                "p1": "Tunajenga soko la kidijitali ili jamii za Afro-Karibiani, Waasia, na jamii nyingine za makabila ziweze kununua chakula wanachokipenda moja kwa moja kutoka kwenye simu zao. <1>Hakuna safari ndefu. Hakuna mifuko mizito.</1> Bidhaa safi na zinazofahamika zinazotolewa kwa uangalifu na utu.",
+                "memory": "Kumbukumbu",
+                "memoryDesc": "Unakotoka",
+                "comfort": "Faraja",
+                "comfortDesc": "Ladha ya nyumbani",
+                "identity": "Utambulisho",
+                "identityDesc": "Wewe ni nani"
+            },
+            "closing": {
+                "quote": "Chakula ni zaidi ya viungo; ni kumbukumbu, faraja, utambulisho. Katika nchi ambayo imewakaribisha wengi sana, <1>wanastahili njia bora ya kujisikia wako nyumbani</1>. Hii ndiyo dhamira yetu. Na ndio kwanza tunaanza.",
+                "est": "Ilianzishwa 2026"
+            }
+        },
+        "team": {
+            "badge": "Watu Wetu",
+            "title": "Kutana na Timu",
+            "desc": "Watu wenye shauku nyuma ya Urbandrop, waliojitolea kuleta ladha za Afrika hadi mlangoni kwako."
+        }
+    },
+    "merchants": {
+        "hero": {
+            "title1": "Kua biashara yako na",
+            "title2": "Urbandrop",
+            "desc": "Jiunge na mamia ya wauzaji wa kuaminika wanaouza vyakula safi na bora kupitia programu yetu.",
+            "cta": "Kuwa Muuzaji"
+        },
+        "whyJoin": {
+            "title": "KWA NINI UJIUNGE NA SISI",
+            "panels": {
+                "reach": {
+                    "title": "Panua wigo wako",
+                    "subtitle": "Unganisha na maelfu ya wateja katika mikoa mbalimbali.",
+                    "badge": "Maarufu",
+                    "cta": "Anza"
+                },
+                "sales": {
+                    "title": "Ongeza mauzo yako",
+                    "subtitle": "Ongeza mapato yako kwa kutumia msingi wetu mkubwa wa watumiaji.",
+                    "badge": "Kinachopendwa",
+                    "cta": "Jiunge Sasa"
+                },
+                "management": {
+                    "title": "Usimamizi Rahisi",
+                    "subtitle": "Simamia duka lako kwa urahisi kwa kutumia zana zetu rahisi kutumia.",
+                    "badge": "Rahisi",
+                    "cta": "Anza Leo"
+                },
+                "community": {
+                    "title": "Msaada wa Jamii",
+                    "subtitle": "Jiunge na jamii yenye mafanikio ya wauzaji na upate msaada.",
+                    "badge": "Jamii",
+                    "cta": "Kuwa Sehemu"
+                }
+            }
+        },
+        "howItWorks": {
+            "title": "Jinsi Inavyofanya",
+            "titleHighlight": "Kazi",
+            "steps": {
+                "list": {
+                    "title": "Orodhesha bidhaa zako",
+                    "desc": "Pakua na onyesha bidhaa zako za kipekee kwa watazamaji wengi kwa urahisi."
+                },
+                "receive": {
+                    "title": "Pokea maagizo",
+                    "desc": "Pata taarifa za mara moja kwa maagizo mapya na yasimamishe kwa ufanisi."
+                },
+                "earn": {
+                    "title": "Pata & Kua",
+                    "desc": "Fanya malipo kwa usalama na angalia mapato yako yakikua kwa kila mauzo."
+                },
+                "analyze": {
+                    "title": "Chambua utendaji",
+                    "desc": "Pata uchambuzi kamili kuelewa mauzo yako na tabia za wateja."
+                }
+            }
+        },
+        "features": {
+            "instantOrders": "Maagizo ya Mara Moja",
+            "fastDelivery": "Utoaji wa Haraka",
+            "realTimeEarnings": "Mapato ya Wakati Halisi",
+            "analytics": "Dashibodi ya Uchambuzi",
+            "securePayments": "Malipo Salama",
+            "customerSupport": "Msaada kwa Wateja"
+        },
+        "cta": {
+            "title": "Anza kukuza biashara yako na Urbandrop leo!",
+            "desc": "Inachukua chini ya dakika 10 kujiandikisha na kuanza kuuza. Jiunge na mamia ya wauzaji waliopata mafanikio tayari kukuza biashara zao.",
+            "button": "Kuwa Muuzaji",
+            "contact": "Wasiliana na Timu ya Mauzo",
+            "footer": "Maswali? Timu yetu iko tayari kukusaidia kila hatua.",
+            "termsLink": "Kagua Masharti na Vigezo vya Wauzaji"
+        },
+        "faq": {
+            "title": "Maswali Yanayoulizwa Mara kwa Mara ya Wauzaji",
+            "subtitle": "Kila kitu unachohitaji kujua kuhusu kuuza kwenye Urbandrop.",
+            "searchPlaceholder": "Tafuta rasilimali...",
+            "noResults": "Hakuna matokeo yaliyopatikana kwa \"{{query}}\". Jaribu neno tofauti.",
+            "categories": [
+                {
+                    "category": "Kuanza",
+                    "items": [
+                        {
+                            "question": "Ninawezaje kuwa muuzaji kwenye Urbandrop?",
+                            "answer": "Ili kuwa muuzaji, bofya kwenye 'Kuwa Muuzaji' na utoe maelezo ya biashara yako. Timu yetu itapitia ombi lako na kukuongoza kupitia mchakato wa kuanza."
+                        },
+                        {
+                            "question": "Ni nyaraka gani zinazohitajika kujiandikisha?",
+                            "answer": "Utahitaji leseni halali ya biashara, kitambulisho, na maelezo ya akaunti ya benki kwa ajili ya malipo. Mahitaji mahususi yanaweza kutofautiana kulingana na eneo."
+                        }
+                    ]
+                },
+                {
+                    "category": "Usimamizi wa Bidhaa na Hesabu",
+                    "items": [
+                        {
+                            "question": "Ninawezaje kuongeza bidhaa kwenye duka langu?",
+                            "answer": "Ingia kwenye Dashibodi yako ya Muuzaji, nenda kwenye sehemu ya 'Bidhaa', na ubofye 'Ongeza Bidhaa Mpya'. Jaza maelezo ya bidhaa, pakia picha, na uweke bei yako na viwango vya hesabu."
+                        },
+                        {
+                            "question": "Je, ninaweza kusimamia viwango vya hesabu kiotomatiki?",
+                            "answer": "Ndiyo, jukwaa letu linafuatilia viwango vyako vya bidhaa kulingana na mauzo. Unaweza pia kurekebisha hesabu mwenyewe kupitia dashibodi unapopokea bidhaa mpya."
+                        }
+                    ]
+                },
+                {
+                    "category": "Maagizo na Ukamilishaji",
+                    "items": [
+                        {
+                            "question": "Nitajuaje kama kuna agizo jipya?",
+                            "answer": "Utapokea arifa za papo hapo kupitia barua pepe na Programu ya Muuzaji. Agizo pia litaonekana mara moja kwenye kichupo cha 'Maagizo Yanayoendelea' kwenye dashibodi yako."
+                        },
+                        {
+                            "question": "Nani anashughulikia utoaji?",
+                            "answer": "Mtandao wa washirika wa utoaji wa Urbandrop unashughulikia ukamilishaji. Mara tu agizo linapokuwa tayari, unaomba kuchukuliwa, na mshirika wetu atamfikishia mteja."
+                        }
+                    ]
+                },
+                {
+                    "category": "Malipo na Mapato",
+                    "items": [
+                        {
+                            "question": "Nitalipwa lini na vipi?",
+                            "answer": "Malipo huchakatwa kila wiki siku ya Jumanne kwa maagizo yote yaliyokamilika kutoka wiki iliyopita. Pesa huwekwa moja kwa moja kwenye akaunti ya benki uliyojisajili nayo."
+                        },
+                        {
+                            "question": "Kuna gharama gani za kuuza kwenye Urbandrop?",
+                            "answer": "Tunatoza kamisheni kwa kila mauzo yaliyofanikiwa. Asilimia kamili inategemea kategoria ya bidhaa yako na mpango wa usajili. Hakuna gharama za kuanza."
+                        }
+                    ]
+                },
+                {
+                    "category": "Msaada wa Kiufundi",
+                    "items": [
+                        {
+                            "question": "Niwasiliane na nani nikiwa na tatizo?",
+                            "answer": "Timu yetu ya Msaada wa Wauzaji iko kifuani mwa saa 24/7. Unaweza kutupata kupitia gumzo la moja kwa moja kwenye dashibodi yako, barua pepe, au laini yetu ya simu ya kipaumbele."
+                        },
+                        {
+                            "question": "Nini kitatokea kama Dashibodi ya Muuzaji isipofanya kazi?",
+                            "answer": "Katika tukio nadra la kukatika kwa huduma, angalia ukurasa wenye hali yetu kwa sasisho. Timu yetu ya wahandisi inafuatilia afya ya mfumo kwa bidii ili kuhakikisha huduma inapatikana wakati wote."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "advertise": {
+        "title": "Tangaza",
+        "desc": "Kukuza chapa yako nasi",
+        "hero": {
+            "alt1": "Bango la Tangazo 1",
+            "alt2": "Bango la Tangazo 2",
+            "alt3": "Bango la Tangazo 3",
+            "prev": "Slide Iliyopita",
+            "next": "Slide Inayofuata"
+        },
+        "pricing": {
+            "getStarted": "Anza",
+            "starter": {
+                "name": "Msingi",
+                "features": [
+                    "Orodhesho la msingi",
+                    "Msaada wa kawaida",
+                    "Ufikiaji wa jamii"
+                ]
+            },
+            "growth": {
+                "name": "Ukuaji",
+                "features": [
+                    "Orodhesho lililoboreshwa",
+                    "Msaada wa kipaumbele",
+                    "Dashibodi ya uchambuzi",
+                    "Zana za masoko"
+                ]
+            },
+            "premium": {
+                "name": "Premium",
+                "features": [
+                    "Orodhesho la Piga Picha",
+                    "Msaada wa kibinafsi 24/7",
+                    "Uchambuzi wa juu",
+                    "Kampeni za masoko za kibinafsi",
+                    "Ufikiaji wa API"
+                ]
+            }
+        },
+        "options": {
+            "listingProducts": {
+                "headline": "Orodhesha Bidhaa Zako",
+                "description": "Onyesha bidhaa zako kwa maelfu ya wateja wa ndani wanaotafuta vyakula vya kiethniki halisi."
+            },
+            "appBanner": {
+                "headline": "Bango la Premium la Programu",
+                "description": "Pata uwazi wa juu kwa kuweka bango la premium moja kwa moja kwenye skrini kuu ya programu."
+            },
+            "inAppPromotions": {
+                "headline": "Promosheni Ndani ya Programu",
+                "description": "Endesha promosheni zilizolengwa na ofa maalum kuongeza mauzo na kuvutia wateja wapya."
+            }
+        }
+    },
+    "privacyPolicy": {
+        "hero": {
+            "lastModified": "Ilirekebishwa mwisho: 11 Aprili 2026",
+            "title": "UrbanDrop",
+            "highlight": "Sera ya Faragha",
+            "subtitle": "Tumejizatiti kulinda faragha yako. Sera hii inaeleza jinsi tunavyokusanya, kutumia, kushiriki, na kulinda data yako ya kibinafsi."
+        },
+        "sections": {
+            "whoWeAre": {
+                "title": "1. Sisi ni Nani",
+                "content": [
+                    "UrbanDrop ni jukwaa la utoaji wa chakula linaloendeshwa na UrbanDrop Group Ltd, kampuni iliyosajiliwa nchini Uingereza. Tunawaunganisha wateja na wauzaji wa chakula cha Kiafrika, Karibiani, na Asia.",
+                    "UrbanDrop (\"sisi,\" \"sisi wenyewe,\" \"yetu\") tumejizatiti kulinda faragha yako. Sera hii ya Faragha inaeleza jinsi tunavyokusanya, kutumia, kushiriki, na kulinda data yako ya kibinafsi unapotumia jukwaa letu. Tafadhali isome kwa makini. Ikiwa hukubaliani na mazoea yetu, tafadhali usitumie huduma zetu."
+                ]
+            },
+            "lawfulBasis": {
+                "title": "2. Msingi wa Kisheria wa Uchakataji",
+                "intro": "Tunachakata data yako ya kibinafsi kwa misingi ifuatayo ya kisheria chini ya UK GDPR:",
+                "items": [
+                    "Utekelezaji wa mkataba — kutoa huduma ulizoomba, ikiwemo utekelezaji wa oda na usafirishaji.",
+                    "Wajibu wa kisheria — kuzingatia sheria na kanuni zinazotumika.",
+                    "Maslahi halali — kuboresha jukwaa letu, kuzuia udanganyifu, na kuhakikisha usalama, pale ambapo haki zako hazizidi maslahi haya.",
+                    "Ridhaa — kwa mawasiliano ya masoko na vidakuzi visivyo vya lazima. Unaweza kubatilisha ridhaa wakati wowote."
+                ]
+            },
+            "infoCollect": {
+                "title": "3. Taarifa Tunazokusanya",
+                "intro": "Tunakusanya data ya kibinafsi ifuatayo:",
+                "items": [
+                    "Taarifa binafsi — jina, barua pepe, nambari ya simu, na anwani ya usafirishaji.",
+                    "Taarifa za malipo — maelezo ya kadi, anwani ya bili, na historia ya miamala. Data ya malipo hushughulikiwa moja kwa moja na mtoa huduma wa malipo na haitahifadhiwa na sisi.",
+                    "Taarifa za eneo — eneo la wakati halisi, tu unapotumia vipengele vya kutafuta wauzaji wa karibu.",
+                    "Taarifa za kifaa — anwani ya IP, aina ya kifaa, mfumo wa uendeshaji, toleo la programu, na aina ya kivinjari.",
+                    "Taarifa za matumizi — jinsi unavyotumia programu yetu, ikiwemo historia ya utafutaji, historia ya oda, na mawasiliano ya huduma kwa wateja."
+                ]
+            },
+            "howWeUse": {
+                "title": "4. Jinsi Tunavyotumia Taarifa Zako",
+                "intro": "Tunatumia data yako ya kibinafsi kwa:",
+                "items": [
+                    "Kutekeleza oda — kuchakata na kusafirisha oda zako za chakula na bidhaa.",
+                    "Huduma kwa wateja — kujibu maswali, malalamiko, na maombi.",
+                    "Kubinafsisha uzoefu wako — kutoa mapendekezo kulingana na mapendeleo na historia ya oda.",
+                    "Kuchakata malipo — kushughulikia miamala kwa usalama.",
+                    "Kutuma masoko — kwa ridhaa yako, kutuma ofa, taarifa, na tafiti. Unaweza kujiondoa wakati wowote.",
+                    "Kutimiza wajibu wa kisheria — kuzingatia kodi, kuzuia udanganyifu, na majukumu mengine ya kisheria.",
+                    "Kuboresha huduma — kuchambua matumizi ili kuboresha jukwaa."
+                ]
+            },
+            "sharing": {
+                "title": "5. Kushiriki Taarifa Zako",
+                "intro": "Tunaweza kushiriki data yako ya kibinafsi na:",
+                "items": [
+                    "Wauzaji — jina lako, maelezo ya oda, na anwani ya usafirishaji hushirikiwa ili kutimiza oda.",
+                    "Wasafirishaji — jina lako, anwani, na nambari ya mawasiliano hushirikiwa kwa ajili ya usafirishaji. Wasafirishaji hupoteza ufikiaji baada ya usafirishaji kukamilika.",
+                    "Wachakataji wa malipo — mshirika wetu wa malipo aliyeidhinishwa hushughulikia data yako ya malipo kwa usalama.",
+                    "Watoa huduma — wahusika wa tatu wanaoaminika wanaotusaidia katika uchambuzi, masoko, na huduma kwa wateja.",
+                    "Mamlaka — tunaweza kufichua data pale inapohitajika kisheria au kuzuia udanganyifu.",
+                    "Wanunuzi au warithi — endapo kutakuwa na muungano au mauzo ya kampuni, data yako inaweza kuhamishwa."
+                ],
+                "note": "Hatuuzi data yako ya kibinafsi."
+            },
+            "retention": {
+                "title": "6. Uhifadhi wa Data",
+                "intro": "Tunahifadhi data ya kibinafsi kwa muda unaohitajika tu:",
+                "items": [
+                    "Data ya oda na miamala — hadi miaka saba.",
+                    "Taarifa za akaunti — hadi ufute akaunti yako.",
+                    "Mapendeleo ya masoko — hadi uondoe ridhaa."
+                ]
+            },
+            "rights": {
+                "title": "7. Haki Zako",
+                "intro": "Chini ya sheria ya ulinzi wa data ya UK, una haki ya:",
+                "items": [
+                    "Kufikia — kuomba nakala ya data yako.",
+                    "Kurekebisha — kuomba marekebisho ya data isiyo sahihi.",
+                    "Kufuta — kuomba kufutwa kwa data yako.",
+                    "Kuzuia — kuomba matumizi ya data yako yapunguzwe.",
+                    "Uhamishaji wa data — kupokea data yako katika muundo unaosomeka na mashine.",
+                    "Kupinga — kupinga uchakataji wa data yako kwa maslahi halali au masoko.",
+                    "Kubatilisha ridhaa — kubatilisha ridhaa wakati wowote."
+                ],
+                "contact": "Ili kutumia haki hizi, wasiliana nasi kupitia support@urbandrop.io. Tutajibu ndani ya mwezi mmoja.",
+                "complaint": "Unaweza kulalamika kwa Information Commissioner's Office (ICO) kupitia ico.org.uk au 0303 123 1113."
+            },
+            "security": {
+                "title": "8. Usalama",
+                "intro": "Tunatumia hatua za kisasa za usalama kulinda data yako:",
+                "items": [
+                    "Usimbaji fiche — SSL/TLS.",
+                    "Udhibiti wa ufikiaji — watu walioidhinishwa pekee.",
+                    "Hifadhi salama — mazingira salama ya kuhifadhi data."
+                ],
+                "note": "Hakuna mfumo ulio salama asilimia 100, lakini tunachukua hatua zote zinazowezekana."
+            },
+            "cookies": {
+                "title": "9. Vidakuzi na Teknolojia za Ufuatiliaji",
+                "intro": "Tunatumia vidakuzi kuboresha uzoefu wako:",
+                "items": [
+                    "Kukumbuka mapendeleo yako.",
+                    "Kuchambua matumizi ya jukwaa.",
+                    "Kutoa matangazo yanayofaa."
+                ],
+                "consent": "Tutapata ridhaa yako kabla ya kutumia vidakuzi visivyo muhimu. Unaweza kuvizima kupitia mipangilio ya kivinjari."
+            },
+            "links": {
+                "title": "10. Viungo vya Watu wa Tatu",
+                "content": "Jukwaa letu linaweza kuwa na viungo vya tovuti za watu wa tatu. Hatuwajibiki kwa sera zao za faragha."
+            },
+            "children": {
+                "title": "11. Faragha ya Watoto",
+                "content": "UrbanDrop haijakusudiwa watu walio chini ya miaka 18. Hatusanyi data ya watoto kwa makusudi."
+            },
+            "international": {
+                "title": "12. Uhamishaji wa Data Kimataifa",
+                "content": "Tunazingatia UK GDPR na tunahakikisha ulinzi unaofaa wakati data inahamishwa nje ya UK au EEA."
+            },
+            "updates": {
+                "title": "13. Mabadiliko ya Sera Hii",
+                "content": "Tunaweza kusasisha sera hii wakati wowote. Mabadiliko makubwa yatatangazwa kwa watumiaji."
+            },
+            "contact": {
+                "title": "14. Wasiliana Nasi",
+                "intro": "Kwa maswali kuhusu sera hii:",
+                "companyName": "UrbanDrop Group Ltd",
+                "location": "Bristol, Uingereza",
+                "email": "support@urbandrop.io",
+                "ico": "Information Commissioner's Office (ICO):",
+                "icoWebsite": "ico.org.uk",
+                "icoPhone": "0303 123 1113"
+            }
+        }
+    },
+    "cookiesPolicy": {
+        "title": "Sera ya Cookies",
+        "effectiveDate": "Tarehe ya Kuanza: {{date}}",
+        "whatAreCookies": {
+            "title": "Cookies ni Nini?",
+            "desc": "Cookies ni faili ndogo za maandishi zinazowekwa kwenye kifaa chako unapotembelea tovuti au kutumia programu. Zinatusaidia kukumbuka mapendeleo yako, kuboresha utendaji, na kubinafsisha uzoefu wako. Baadhi ya cookies ni muhimu ili Jukwaa lifanye kazi vizuri, wengine hutusaidia kuelewa jinsi watumiaji wanavyotumia huduma zetu ili tuziboreshe."
+        },
+        "types": {
+            "essential": {
+                "title": "Cookies Muhimu",
+                "desc": "Cookies hizi ni muhimu ili Jukwaa lifanye kazi. Zinawawezesha vipengele vya msingi kama kuingia salama, malipo, na usimamizi wa akaunti. Bila hizo, huduma zingine haziwezi kutolewa. Mfano: kukuweka umeingia, kusimamia kikapu chako, na kusindika malipo kwa usalama."
+            },
+            "performance": {
+                "title": "Cookies za Utendaji na Uchambuzi",
+                "desc": "Hizi hutusaidia kuelewa jinsi wageni wanavyotumia UrbanDrop kama kurasa zinazotembelewa zaidi au wapi watumiaji wanakutana na makosa. Tunatumia taarifa hii kuboresha uratibu, kasi, na uzoefu wa mtumiaji. Mfano: Google Analytics, wachambuzi wa programu. Taarifa zote zilizokusanywa ni za pamoja na zisizo na jina."
+            },
+            "functionality": {
+                "title": "Cookies za Utendaji",
+                "desc": "Hizi hukumbuka mapendeleo yako kama lugha, eneo, au anwani ya utoaji ili kurahisisha uzoefu wako."
+            },
+            "advertising": {
+                "title": "Cookies za Matangazo na Masoko",
+                "desc": "Hizi huturuhusu sisi na washirika walioteuliwa kukuonyesha ofa na matangazo yanayofaa, kwenye UrbanDrop na tovuti au programu nyingine. Pia husaidia kupunguza idadi ya mara unayoona tangazo moja. Mfano: Meta Pixel, Google Ads Remarketing. Unaweza kujiondoa kwenye matangazo binafsi kupitia mipangilio ya akaunti au kivinjari chako."
+            }
+        },
+        "thirdParty": {
+            "title": "Cookies za Wahusika Wengine",
+            "desc": "Baadhi ya cookies kwenye UrbanDrop zinatoka kwa wahusika wa tatu wanaoaminika ambao hutusaidia kutoa huduma fulani, mfano watoa uchambuzi (Google Analytics), mitandao ya matangazo, na washirika wa malipo na utoaji. Wahusika hawa wanaweza kutumia cookies kulingana na sera zao za faragha. UrbanDrop haina udhibiti wa mipangilio yao ya cookies."
+        },
+        "managing": {
+            "title": "Usimamizi wa Cookies",
+            "desc": "Unaweza kusimamia au kuzima cookies kupitia mipangilio ya kivinjari au kifaa chako. Vivinjari vingi vinakuwezesha kuona cookies zilizohifadhiwa, kufuta cookies zilizopo, na kuzizuia baadhi au zote. Ukizima cookies, baadhi ya sehemu za Jukwaa haziwezi kufanya kazi vizuri (mfano, malipo au anwani zilizohifadhiwa). Unaweza pia kurekebisha mapendeleo ya cookies kupitia bango la Sera ya Cookies la UrbanDrop unapotembelea tovuti yetu kwa mara ya kwanza au kupitia mipangilio ya akaunti yako."
+        },
+        "consent": {
+            "title": "Idhini",
+            "desc": "Unapotembelea UrbanDrop kwa mara ya kwanza, utaona bango likiomba idhini yako kutumia cookies zisizo muhimu. Kwa kubofya \"Kubali Zote\", unakubali matumizi ya cookies zote kama ilivyoelezwa hapa. Unaweza kubadilisha mapendeleo yako wakati wowote kwa kubofya \"Simamia Cookies\" katika sehemu ya chini ya tovuti au kupitia profaili yako. Cookies muhimu hazihitaji idhini kwani ni muhimu kutoa huduma ulizoomba."
+        },
+        "updates": {
+            "title": "Mabadiliko ya Sera Hii",
+            "desc": "Tunaweza kusasisha Sera ya Cookies mara kwa mara. Toleo la hivi karibuni litawekwa kila wakati kwenye tovuti yetu au programu. Ikiwa mabadiliko ni makubwa, tutaarifu watumiaji kwa barua pepe au arifa ya programu kabla hayajaanza."
+        },
+        "contact": {
+            "title": "Wasiliana Nasi",
+            "desc": "Ikiwa una maswali kuhusu matumizi yetu ya cookies, tafadhali wasiliana:",
+            "companyName": "UrbanDrop Group Limited",
+            "email": "Barua pepe: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
+        }
+    },
+    "notFoundPage": {
+        "title": "Ukurasa Haupo",
+        "desc": "Ukurasa unaotafuta haupo au umehamishwa.",
+        "goHome": "Rudi Nyumbani",
+        "goBack": "Rudi Nyuma",
+        "features": {
+            "browseMenu": {
+                "title": "Angalia Menyu",
+                "desc": "Gundua chaguo letu la ladha"
+            },
+            "becomeMerchant": {
+                "title": "Kuwa Muuzaji",
+                "desc": "Jiunge na mtandao wetu wa wauzaji"
+            },
+            "advertise": {
+                "title": "Tangaza Nasi",
+                "desc": "Tangaza chapa yako kwa mamilioni ya watu"
+            }
+        },
+        "illustration": "Hatuwezi kupata ukurasa, lakini tumepata viambajengo hivi safi!",
+        "searchSuggestion": "Jaribu kutafuta kile unachohitaji au tembelea Kituo chetu cha Msaada."
+    },
+    "cookieConsent": {
+        "banner": {
+            "title": "Tunaheshimu faragha yako",
+            "description": "Tunatumia cookies kuboresha uzoefu wako. UrbanDrop inatumia cookies muhimu ili tovuti yetu ifanye kazi, na cookies zisizo muhimu kuelewa jinsi unavyotumia, kubinafsisha maudhui, na kukuonyesha ofa zinazofaa. Unaweza kukubali zote, kukataa zisizo muhimu, au kusimamia mapendeleo yako wakati wowote.",
+            "acceptAll": "Kubali Cookies Zote",
+            "rejectNonEssential": "Kataa Zisizo Muhimu",
+            "managePreferences": "Simamia Mapendeleo"
+        },
+        "modal": {
+            "title": "Mapendeleo ya Cookies",
+            "description": "Simamia jinsi tunavyotumia cookies kwenye tovuti hii.",
+            "quickActions": {
+                "acceptAll": "Kubali Zote",
+                "rejectNonEssential": "Kataa Zisizo Muhimu"
+            },
+            "categories": {
+                "essential": {
+                    "title": "Cookies Muhimu",
+                    "description": "Hizi cookies ni muhimu ili UrbanDrop ifanye kazi vizuri. Zinawawezesha kuingia salama, malipo, na mchakato wa malipo. Huwezi kuzizima kupitia mipangilio yetu, lakini unaweza kuzizuia kwenye kivinjari (ambayo inaweza kuathiri utendaji).",
+                    "examples": "Mfano: vikao vya kuingia, kufuatilia kikapu, usindikaji wa malipo."
+                },
+                "performance": {
+                    "title": "Cookies za Utendaji na Uchambuzi",
+                    "description": "Hizi hutusaidia kuelewa jinsi wageni wanavyotumia UrbanDrop, kama kurasa zinazotembelewa zaidi au wapi watumiaji wanakutana na kuchelewa. Zinawezesha kuboresha kasi, uthabiti, na utumiaji kwa ujumla.",
+                    "examples": "Mfano: Google Analytics, uchambuzi wa programu."
+                },
+                "functional": {
+                    "title": "Cookies za Utendaji",
+                    "description": "Hizi hukumbuka mapendeleo yako, kama lugha, eneo, na anwani zilizohifadhiwa, ili usilazimishwe kuingiza kila wakati.",
+                    "examples": "Mfano: anwani ya utoaji iliyopendelea, chujio la maduka yaliyohifadhiwa."
+                },
+                "advertising": {
+                    "title": "Cookies za Matangazo na Masoko",
+                    "description": "Tunatumia hizi kukuonyesha matangazo binafsi na ofa zinazofaa, ndani ya UrbanDrop na kwenye tovuti zingine. Zinawezesha kupima utendaji wa kampeni za masoko na kuepuka kuonyesha tangazo moja mara nyingi.",
+                    "examples": "Mfano: Meta Pixel, Google Ads Remarketing."
+                }
+            },
+            "footer": {
+                "text1": "Unaweza kubadilisha chaguo zako za cookies wakati wowote kwa kuchagua \"Simamia Cookies\" katika sehemu ya chini ya tovuti au menyu ya programu.",
+                "text2": "Kwa maelezo zaidi, angalia",
+                "cookiePolicy": "Sera ya Cookies",
+                "and": "na",
+                "privacyPolicy": "Sera ya Faragha",
+                "savePreferences": "Hifadhi Mapendeleo"
+            },
+            "status": {
+                "alwaysActive": "Daima Inayofanya Kazi",
+                "active": "Inayofanya Kazi",
+                "inactive": "Haifanyi Kazi",
+                "required": "Inahitajika"
+            }
+        }
+    },
+    "termsAndConditions": {
+        "pageTitle": "Masharti na Vigezo",
+        "pageDescription": "Tafadhali soma masharti haya kwa makini kabla ya kutumia jukwaa letu. Yanaeleza haki na majukumu yako unapotumia Urbandrop.",
+        "lastUpdated": "Ilisasishwa Mwisho:",
+        "lastUpdatedDate": "25 Aprili 2026",
+        "tableOfContents": "Yaliyomo",
+        "sections": {
+            "general": "Masharti ya Jumla",
+            "merchants": "Wauzaji",
+            "customers": "Wateja",
+            "promotions": "Matangazo",
+            "riders": "Wasafirishaji"
+        }
+    },
+    "termsConditions": {
+        "title": "Masharti na Vigezo",
+        "lastUpdated": "Imesasishwa mwisho: {{date}}",
+        "intro": {
+            "title": "Masharti na Vigezo vya Tovuti ya UrbanDrop",
+            "p1": "Karibu UrbanDrop. Masharti na Vigezo hivi (\"Masharti\") yanaongoza ufikiaji wako na matumizi ya tovuti ya UrbanDrop, programu ya simu, na huduma zinazohusiana (kwa pamoja \"Jukwaa\") zinazoendeshwa na UrbanDrop Group Limited (\"UrbanDrop,\" \"sisi,\" \"yetu\").",
+            "p2": "Kwa kufikia au kutumia Jukwaa, unakubali Masharti haya. Tafadhali yasome kwa makini kabla ya kutumia huduma. Ikiwa hukubaliani, usitumia Jukwaa."
+        },
+        "sections": {
             "about": {
                 "title": "1. Kuhusu UrbanDrop",
                 "content": [
-                    "UrbanDrop ni soko la mtandaoni linalounganisha wateja na wauzaji huru wanaotoa vyakula, milo, na bidhaa za kitamaduni kwa utoaji au ukusanyaji. Tunatoa miundombinu ya kidijitali, usindikaji wa malipo, na interface ya mteja, lakini hatuzalishi, hatumiliki, wala kuuza bidhaa zilizoorodheshwa kwenye jukwaa.",
+                    "UrbanDrop ni soko la mtandaoni linalounganisha wateja na wauzaji huru wanaotoa vyakula, chakula kilichopikwa, na bidhaa za kiasili kwa ajili ya utoaji au ukusanyaji. Tunatoa miundombinu ya kidijitali, usindikaji wa malipo, na interface ya mteja, lakini hatuzalishi, hatumiliki, wala hatuuzi bidhaa zilizoorodheshwa kwenye Jukwaa.",
                     "Unapoweka agizo kupitia UrbanDrop, unanunua moja kwa moja kutoka kwa muuzaji, si kutoka UrbanDrop."
-                ],
-                "hero": {
-                    "title1": "Kuunganisha",
-                    "title2": "Tamaduni",
-                    "title3": "Kuunganisha",
-                    "title4": "Jamii",
-                    "desc": "Sisi si soko tu. Sisi ni daraja la kidijitali linalokuunganisha na ladha, desturi, na watu wanaofanya jamii yako kuwa ya kipekee."
-                },
-                "highlights": {
-                    "title": "Uzoefu",
-                    "subtitle": "Kiwango cha Juu",
-                    "item1": "Haraka & Imeunganishwa",
-                    "item2": "Mchakato wa Simu",
-                    "item3": "Ukuaji wa Jamii",
-                    "item4": "Imara & Salama"
-                },
-                "process": {
-                    "step1": "Pakua",
-                    "step2": "Agiza",
-                    "step3": "Pokea",
-                    "step4": "Furahia"
-                },
-                "ourStory": {
-                    "badge": "Hadithi Yetu",
-                    "founded": "Uingereza / Ilianzishwa 2026",
-                    "title": "Hadithi<br/><highlight>Yetu.</highlight>",
-                    "chapter1": {
-                        "label": "Pengo",
-                        "title": "Kitu fulani kilikuwa <1>kikikosekana</1> kimyakimya.",
-                        "p1": "Nilipohamia Uingereza kutoka Ghana mwaka wa 2022, niliwasili nikiwa na matumaini na uhusiano mkubwa na utamaduni niliyoiacha nyuma. Haikuchukua muda mrefu kabla ya kuhisi kile ambacho wahamiaji wengi huvumilia kimyakimya.",
-                        "p2": "Kununua bidhaa za Ghana — kitu chochote cha Kiafrika au Karibiani — kulimaanisha <1>safari ndefu kwenye maduka yaliyotawanyika</1>, machaguo machache, na karibu hakuna urahisi. Programu kuu za utoaji zilihudumia chapa za Uingereza na Ulaya kwa urahisi. Lakini hakuna kitu kilichokuwa kikihudumia jamii za makabila — watu wale wale wanaotajirisha nchi hii kila siku."
-                    },
-                    "chapter2": {
-                        "label": "Wakati",
-                        "title": "Safari ya basi ambayo <1>ilibadilisha kila kitu</1>.",
-                        "p1": "Jioni moja, mama mkwe wangu alifanya safari ya kwenda kununua bidhaa kwenye duka la Kiafrika baada ya siku ndefu. Akiwa amechoka kwenye safari ya basi akielekea nyumbani, alishuka na kuacha kila begi nyuma bila kutambua.",
-                        "quote": "Haikuwa tu kuhusu kukosa chakula cha nyumbani. Ilikuwa kuhusu jinsi watu wanavyofanya kazi kwa bidii, jinsi wanavyosafiri mbali ili tu kubaki na uhusiano na wale walio."
-                    },
-                    "chapter3": {
-                        "label": "Dhamira",
-                        "title": "Hapo ndipo <1>Urbandrop</1> ilipozaliwa.",
-                        "p1": "Tunajenga soko la kidijitali ili jamii za Afro-Karibiani, Waasia, na jamii nyingine za makabila ziweze kununua chakula wanachokipenda moja kwa moja kutoka kwenye simu zao. <1>Hakuna safari ndefu. Hakuna mifuko mizito.</1> Bidhaa safi na zinazofahamika zinazotolewa kwa uangalifu na utu.",
-                        "memory": "Kumbukumbu",
-                        "memoryDesc": "Unakotoka",
-                        "comfort": "Faraja",
-                        "comfortDesc": "Ladha ya nyumbani",
-                        "identity": "Utambulisho",
-                        "identityDesc": "Wewe ni nani"
-                    },
-                    "closing": {
-                        "quote": "Chakula ni zaidi ya viungo; ni kumbukumbu, faraja, utambulisho. Katika nchi ambayo imewakaribisha wengi sana, <1>wanastahili njia bora ya kujisikia wako nyumbani</1>. Hii ndiyo dhamira yetu. Na ndio kwanza tunaanza.",
-                        "est": "Ilianzishwa 2026"
-                    }
-                },
-                "team": {
-                    "badge": "Watu Wetu",
-                    "title": "Kutana na Timu",
-                    "desc": "Watu wenye shauku nyuma ya Urbandrop, waliojitolea kuleta ladha za Afrika hadi mlangoni kwako."
-                }
+                ]
             },
-            "merchants": {
-                "hero": {
-                    "title1": "Kua biashara yako na",
-                    "title2": "Urbandrop",
-                    "desc": "Jiunge na mamia ya wauzaji wa kuaminika wanaouza vyakula safi na bora kupitia programu yetu.",
-                    "cta": "Kuwa Muuzaji"
-                },
-                "whyJoin": {
-                    "title": "KWA NINI UJIUNGE NA SISI",
-                    "panels": {
-                        "reach": {
-                            "title": "Panua wigo wako",
-                            "subtitle": "Unganisha na maelfu ya wateja katika mikoa mbalimbali.",
-                            "badge": "Maarufu",
-                            "cta": "Anza"
-                        },
-                        "sales": {
-                            "title": "Ongeza mauzo yako",
-                            "subtitle": "Ongeza mapato yako kwa kutumia msingi wetu mkubwa wa watumiaji.",
-                            "badge": "Kinachopendwa",
-                            "cta": "Jiunge Sasa"
-                        },
-                        "management": {
-                            "title": "Usimamizi Rahisi",
-                            "subtitle": "Simamia duka lako kwa urahisi kwa kutumia zana zetu rahisi kutumia.",
-                            "badge": "Rahisi",
-                            "cta": "Anza Leo"
-                        },
-                        "community": {
-                            "title": "Msaada wa Jamii",
-                            "subtitle": "Jiunge na jamii yenye mafanikio ya wauzaji na upate msaada.",
-                            "badge": "Jamii",
-                            "cta": "Kuwa Sehemu"
-                        }
-                    }
-                },
-                "howItWorks": {
-                    "title": "Jinsi Inavyofanya",
-                    "titleHighlight": "Kazi",
-                    "steps": {
-                        "list": {
-                            "title": "Orodhesha bidhaa zako",
-                            "desc": "Pakua na onyesha bidhaa zako za kipekee kwa watazamaji wengi kwa urahisi."
-                        },
-                        "receive": {
-                            "title": "Pokea maagizo",
-                            "desc": "Pata taarifa za mara moja kwa maagizo mapya na yasimamishe kwa ufanisi."
-                        },
-                        "earn": {
-                            "title": "Pata & Kua",
-                            "desc": "Fanya malipo kwa usalama na angalia mapato yako yakikua kwa kila mauzo."
-                        },
-                        "analyze": {
-                            "title": "Chambua utendaji",
-                            "desc": "Pata uchambuzi kamili kuelewa mauzo yako na tabia za wateja."
-                        }
-                    }
-                },
-                "features": {
-                    "instantOrders": "Maagizo ya Mara Moja",
-                    "fastDelivery": "Utoaji wa Haraka",
-                    "realTimeEarnings": "Mapato ya Wakati Halisi",
-                    "analytics": "Dashibodi ya Uchambuzi",
-                    "securePayments": "Malipo Salama",
-                    "customerSupport": "Msaada kwa Wateja"
-                },
-                "cta": {
-                    "title": "Anza kukuza biashara yako na Urbandrop leo!",
-                    "desc": "Inachukua chini ya dakika 10 kujiandikisha na kuanza kuuza. Jiunge na mamia ya wauzaji waliopata mafanikio tayari kukuza biashara zao.",
-                    "button": "Kuwa Muuzaji",
-                    "contact": "Wasiliana na Timu ya Mauzo",
-                    "footer": "Maswali? Timu yetu iko tayari kukusaidia kila hatua.",
-                    "termsLink": "Kagua Masharti na Vigezo vya Wauzaji"
-                },
-                "faq": {
-                    "title": "Maswali Yanayoulizwa Mara kwa Mara ya Wauzaji",
-                    "subtitle": "Kila kitu unachohitaji kujua kuhusu kuuza kwenye Urbandrop.",
-                    "searchPlaceholder": "Tafuta rasilimali...",
-                    "noResults": "Hakuna matokeo yaliyopatikana kwa \"{{query}}\". Jaribu neno tofauti.",
-                    "categories": [
-                        {
-                            "category": "Kuanza",
-                            "items": [
-                                {
-                                    "question": "Ninawezaje kuwa muuzaji kwenye Urbandrop?",
-                                    "answer": "Ili kuwa muuzaji, bofya kwenye 'Kuwa Muuzaji' na utoe maelezo ya biashara yako. Timu yetu itapitia ombi lako na kukuongoza kupitia mchakato wa kuanza."
-                                },
-                                {
-                                    "question": "Ni nyaraka gani zinazohitajika kujiandikisha?",
-                                    "answer": "Utahitaji leseni halali ya biashara, kitambulisho, na maelezo ya akaunti ya benki kwa ajili ya malipo. Mahitaji mahususi yanaweza kutofautiana kulingana na eneo."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Usimamizi wa Bidhaa na Hesabu",
-                            "items": [
-                                {
-                                    "question": "Ninawezaje kuongeza bidhaa kwenye duka langu?",
-                                    "answer": "Ingia kwenye Dashibodi yako ya Muuzaji, nenda kwenye sehemu ya 'Bidhaa', na ubofye 'Ongeza Bidhaa Mpya'. Jaza maelezo ya bidhaa, pakia picha, na uweke bei yako na viwango vya hesabu."
-                                },
-                                {
-                                    "question": "Je, ninaweza kusimamia viwango vya hesabu kiotomatiki?",
-                                    "answer": "Ndiyo, jukwaa letu linafuatilia viwango vyako vya bidhaa kulingana na mauzo. Unaweza pia kurekebisha hesabu mwenyewe kupitia dashibodi unapopokea bidhaa mpya."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Maagizo na Ukamilishaji",
-                            "items": [
-                                {
-                                    "question": "Nitajuaje kama kuna agizo jipya?",
-                                    "answer": "Utapokea arifa za papo hapo kupitia barua pepe na Programu ya Muuzaji. Agizo pia litaonekana mara moja kwenye kichupo cha 'Maagizo Yanayoendelea' kwenye dashibodi yako."
-                                },
-                                {
-                                    "question": "Nani anashughulikia utoaji?",
-                                    "answer": "Mtandao wa washirika wa utoaji wa Urbandrop unashughulikia ukamilishaji. Mara tu agizo linapokuwa tayari, unaomba kuchukuliwa, na mshirika wetu atamfikishia mteja."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Malipo na Mapato",
-                            "items": [
-                                {
-                                    "question": "Nitalipwa lini na vipi?",
-                                    "answer": "Malipo huchakatwa kila wiki siku ya Jumanne kwa maagizo yote yaliyokamilika kutoka wiki iliyopita. Pesa huwekwa moja kwa moja kwenye akaunti ya benki uliyojisajili nayo."
-                                },
-                                {
-                                    "question": "Kuna gharama gani za kuuza kwenye Urbandrop?",
-                                    "answer": "Tunatoza kamisheni kwa kila mauzo yaliyofanikiwa. Asilimia kamili inategemea kategoria ya bidhaa yako na mpango wa usajili. Hakuna gharama za kuanza."
-                                }
-                            ]
-                        },
-                        {
-                            "category": "Msaada wa Kiufundi",
-                            "items": [
-                                {
-                                    "question": "Niwasiliane na nani nikiwa na tatizo?",
-                                    "answer": "Timu yetu ya Msaada wa Wauzaji iko kifuani mwa saa 24/7. Unaweza kutupata kupitia gumzo la moja kwa moja kwenye dashibodi yako, barua pepe, au laini yetu ya simu ya kipaumbele."
-                                },
-                                {
-                                    "question": "Nini kitatokea kama Dashibodi ya Muuzaji isipofanya kazi?",
-                                    "answer": "Katika tukio nadra la kukatika kwa huduma, angalia ukurasa wenye hali yetu kwa sasisho. Timu yetu ya wahandisi inafuatilia afya ya mfumo kwa bidii ili kuhakikisha huduma inapatikana wakati wote."
-                                }
-                            ]
-                        }
-                    ]
-                }
+            "eligibility": {
+                "title": "2. Ustahiki",
+                "content": "Lazima uwe na angalau umri wa miaka 18 ili kutumia Jukwaa. Kwa kutumia Jukwaa, unathibitisha kuwa:",
+                "items": [
+                    "Una uwezo wa kisheria kuingia katika makubaliano yenye nguvu.",
+                    "Utaitumia Jukwaa kwa madhumuni halali tu.",
+                    "Utatupa taarifa sahihi wakati wa kuunda akaunti au kuweka agizo."
+                ]
             },
-            "advertise": {
-                "title": "Tangaza",
-                "desc": "Kukuza chapa yako nasi",
-                "hero": {
-                    "alt1": "Bango la Tangazo 1",
-                    "alt2": "Bango la Tangazo 2",
-                    "alt3": "Bango la Tangazo 3",
-                    "prev": "Slide Iliyopita",
-                    "next": "Slide Inayofuata"
-                },
-                "pricing": {
-                    "getStarted": "Anza",
-                    "starter": {
-                        "name": "Msingi",
-                        "features": [
-                            "Orodhesho la msingi",
-                            "Msaada wa kawaida",
-                            "Ufikiaji wa jamii"
-                        ]
-                    },
-                    "growth": {
-                        "name": "Ukuaji",
-                        "features": [
-                            "Orodhesho lililoboreshwa",
-                            "Msaada wa kipaumbele",
-                            "Dashibodi ya uchambuzi",
-                            "Zana za masoko"
-                        ]
-                    },
-                    "premium": {
-                        "name": "Premium",
-                        "features": [
-                            "Orodhesho la Piga Picha",
-                            "Msaada wa kibinafsi 24/7",
-                            "Uchambuzi wa juu",
-                            "Kampeni za masoko za kibinafsi",
-                            "Ufikiaji wa API"
-                        ]
-                    }
-                },
-                "options": {
-                    "listingProducts": {
-                        "headline": "Orodhesha Bidhaa Zako",
-                        "description": "Onyesha bidhaa zako kwa maelfu ya wateja wa ndani wanaotafuta vyakula vya kiethniki halisi."
-                    },
-                    "appBanner": {
-                        "headline": "Bango la Premium la Programu",
-                        "description": "Pata uwazi wa juu kwa kuweka bango la premium moja kwa moja kwenye skrini kuu ya programu."
-                    },
-                    "inAppPromotions": {
-                        "headline": "Promosheni Ndani ya Programu",
-                        "description": "Endesha promosheni zilizolengwa na ofa maalum kuongeza mauzo na kuvutia wateja wapya."
-                    }
-                }
-            },
-           "privacyPolicy": {
-                "hero": {
-                    "lastModified": "Ilirekebishwa mwisho: 11 Aprili 2026",
-                    "title": "UrbanDrop",
-                    "highlight": "Sera ya Faragha",
-                    "subtitle": "Tumejizatiti kulinda faragha yako. Sera hii inaeleza jinsi tunavyokusanya, kutumia, kushiriki, na kulinda data yako ya kibinafsi."
-                },
-                "sections": {
-                    "whoWeAre": {
-                        "title": "1. Sisi ni Nani",
-                        "content": [
-                            "UrbanDrop ni jukwaa la utoaji wa chakula linaloendeshwa na UrbanDrop Group Ltd, kampuni iliyosajiliwa nchini Uingereza. Tunawaunganisha wateja na wauzaji wa chakula cha Kiafrika, Karibiani, na Asia.",
-                            "UrbanDrop (\"sisi,\" \"sisi wenyewe,\" \"yetu\") tumejizatiti kulinda faragha yako. Sera hii ya Faragha inaeleza jinsi tunavyokusanya, kutumia, kushiriki, na kulinda data yako ya kibinafsi unapotumia jukwaa letu. Tafadhali isome kwa makini. Ikiwa hukubaliani na mazoea yetu, tafadhali usitumie huduma zetu."
-                        ]
-                    },
-                    "lawfulBasis": {
-                        "title": "2. Msingi wa Kisheria wa Uchakataji",
-                        "intro": "Tunachakata data yako ya kibinafsi kwa misingi ifuatayo ya kisheria chini ya UK GDPR:",
-                        "items": [
-                            "Utekelezaji wa mkataba — kutoa huduma ulizoomba, ikiwemo utekelezaji wa oda na usafirishaji.",
-                            "Wajibu wa kisheria — kuzingatia sheria na kanuni zinazotumika.",
-                            "Maslahi halali — kuboresha jukwaa letu, kuzuia udanganyifu, na kuhakikisha usalama, pale ambapo haki zako hazizidi maslahi haya.",
-                            "Ridhaa — kwa mawasiliano ya masoko na vidakuzi visivyo vya lazima. Unaweza kubatilisha ridhaa wakati wowote."
-                        ]
-                    },
-                    "infoCollect": {
-                        "title": "3. Taarifa Tunazokusanya",
-                        "intro": "Tunakusanya data ya kibinafsi ifuatayo:",
-                        "items": [
-                            "Taarifa binafsi — jina, barua pepe, nambari ya simu, na anwani ya usafirishaji.",
-                            "Taarifa za malipo — maelezo ya kadi, anwani ya bili, na historia ya miamala. Data ya malipo hushughulikiwa moja kwa moja na mtoa huduma wa malipo na haitahifadhiwa na sisi.",
-                            "Taarifa za eneo — eneo la wakati halisi, tu unapotumia vipengele vya kutafuta wauzaji wa karibu.",
-                            "Taarifa za kifaa — anwani ya IP, aina ya kifaa, mfumo wa uendeshaji, toleo la programu, na aina ya kivinjari.",
-                            "Taarifa za matumizi — jinsi unavyotumia programu yetu, ikiwemo historia ya utafutaji, historia ya oda, na mawasiliano ya huduma kwa wateja."
-                        ]
-                    },
-                    "howWeUse": {
-                        "title": "4. Jinsi Tunavyotumia Taarifa Zako",
-                        "intro": "Tunatumia data yako ya kibinafsi kwa:",
-                        "items": [
-                            "Kutekeleza oda — kuchakata na kusafirisha oda zako za chakula na bidhaa.",
-                            "Huduma kwa wateja — kujibu maswali, malalamiko, na maombi.",
-                            "Kubinafsisha uzoefu wako — kutoa mapendekezo kulingana na mapendeleo na historia ya oda.",
-                            "Kuchakata malipo — kushughulikia miamala kwa usalama.",
-                            "Kutuma masoko — kwa ridhaa yako, kutuma ofa, taarifa, na tafiti. Unaweza kujiondoa wakati wowote.",
-                            "Kutimiza wajibu wa kisheria — kuzingatia kodi, kuzuia udanganyifu, na majukumu mengine ya kisheria.",
-                            "Kuboresha huduma — kuchambua matumizi ili kuboresha jukwaa."
-                        ]
-                    },
-                    "sharing": {
-                        "title": "5. Kushiriki Taarifa Zako",
-                        "intro": "Tunaweza kushiriki data yako ya kibinafsi na:",
-                        "items": [
-                            "Wauzaji — jina lako, maelezo ya oda, na anwani ya usafirishaji hushirikiwa ili kutimiza oda.",
-                            "Wasafirishaji — jina lako, anwani, na nambari ya mawasiliano hushirikiwa kwa ajili ya usafirishaji. Wasafirishaji hupoteza ufikiaji baada ya usafirishaji kukamilika.",
-                            "Wachakataji wa malipo — mshirika wetu wa malipo aliyeidhinishwa hushughulikia data yako ya malipo kwa usalama.",
-                            "Watoa huduma — wahusika wa tatu wanaoaminika wanaotusaidia katika uchambuzi, masoko, na huduma kwa wateja.",
-                            "Mamlaka — tunaweza kufichua data pale inapohitajika kisheria au kuzuia udanganyifu.",
-                            "Wanunuzi au warithi — endapo kutakuwa na muungano au mauzo ya kampuni, data yako inaweza kuhamishwa."
-                        ],
-                        "note": "Hatuuzi data yako ya kibinafsi."
-                    },
-                    "retention": {
-                        "title": "6. Uhifadhi wa Data",
-                        "intro": "Tunahifadhi data ya kibinafsi kwa muda unaohitajika tu:",
-                        "items": [
-                            "Data ya oda na miamala — hadi miaka saba.",
-                            "Taarifa za akaunti — hadi ufute akaunti yako.",
-                            "Mapendeleo ya masoko — hadi uondoe ridhaa."
-                        ]
-                    },
-                    "rights": {
-                        "title": "7. Haki Zako",
-                        "intro": "Chini ya sheria ya ulinzi wa data ya UK, una haki ya:",
-                        "items": [
-                            "Kufikia — kuomba nakala ya data yako.",
-                            "Kurekebisha — kuomba marekebisho ya data isiyo sahihi.",
-                            "Kufuta — kuomba kufutwa kwa data yako.",
-                            "Kuzuia — kuomba matumizi ya data yako yapunguzwe.",
-                            "Uhamishaji wa data — kupokea data yako katika muundo unaosomeka na mashine.",
-                            "Kupinga — kupinga uchakataji wa data yako kwa maslahi halali au masoko.",
-                            "Kubatilisha ridhaa — kubatilisha ridhaa wakati wowote."
-                        ],
-                        "contact": "Ili kutumia haki hizi, wasiliana nasi kupitia support@urbandrop.io. Tutajibu ndani ya mwezi mmoja.",
-                        "complaint": "Unaweza kulalamika kwa Information Commissioner's Office (ICO) kupitia ico.org.uk au 0303 123 1113."
+            "account": {
+                "title": "3. Akaunti Yako",
+                "subsections": {
+                    "creation": {
+                        "title": "3.1 Kuunda Akaunti",
+                        "content": "Ili kuweka agizo, unaweza kuhitajika kuunda akaunti ya UrbanDrop. Lazima utupe taarifa sahihi ikiwa ni pamoja na jina lako, anwani ya utoaji, na taarifa za malipo."
                     },
                     "security": {
-                        "title": "8. Usalama",
-                        "intro": "Tunatumia hatua za kisasa za usalama kulinda data yako:",
-                        "items": [
-                            "Usimbaji fiche — SSL/TLS.",
-                            "Udhibiti wa ufikiaji — watu walioidhinishwa pekee.",
-                            "Hifadhi salama — mazingira salama ya kuhifadhi data."
-                        ],
-                        "note": "Hakuna mfumo ulio salama asilimia 100, lakini tunachukua hatua zote zinazowezekana."
+                        "title": "3.2 Usalama wa Akaunti",
+                        "content": "Wewe ndiye unawajibika kwa usalama wa nywila zako. Shughuli yoyote chini ya akaunti yako inachukuliwa kuwa jukumu lako."
                     },
-                    "cookies": {
-                        "title": "9. Vidakuzi na Teknolojia za Ufuatiliaji",
-                        "intro": "Tunatumia vidakuzi kuboresha uzoefu wako:",
-                        "items": [
-                            "Kukumbuka mapendeleo yako.",
-                            "Kuchambua matumizi ya jukwaa.",
-                            "Kutoa matangazo yanayofaa."
-                        ],
-                        "consent": "Tutapata ridhaa yako kabla ya kutumia vidakuzi visivyo muhimu. Unaweza kuvizima kupitia mipangilio ya kivinjari."
-                    },
-                    "links": {
-                        "title": "10. Viungo vya Watu wa Tatu",
-                        "content": "Jukwaa letu linaweza kuwa na viungo vya tovuti za watu wa tatu. Hatuwajibiki kwa sera zao za faragha."
-                    },
-                    "children": {
-                        "title": "11. Faragha ya Watoto",
-                        "content": "UrbanDrop haijakusudiwa watu walio chini ya miaka 18. Hatusanyi data ya watoto kwa makusudi."
-                    },
-                    "international": {
-                        "title": "12. Uhamishaji wa Data Kimataifa",
-                        "content": "Tunazingatia UK GDPR na tunahakikisha ulinzi unaofaa wakati data inahamishwa nje ya UK au EEA."
-                    },
-                    "updates": {
-                        "title": "13. Mabadiliko ya Sera Hii",
-                        "content": "Tunaweza kusasisha sera hii wakati wowote. Mabadiliko makubwa yatatangazwa kwa watumiaji."
-                    },
-                    "contact": {
-                        "title": "14. Wasiliana Nasi",
-                        "intro": "Kwa maswali kuhusu sera hii:",
-                        "companyName": "UrbanDrop Group Ltd",
-                        "location": "Bristol, Uingereza",
-                        "email": "support@urbandrop.io",
-                        "ico": "Information Commissioner's Office (ICO):",
-                        "icoWebsite": "ico.org.uk",
-                        "icoPhone": "0303 123 1113"
+                    "misuse": {
+                        "title": "3.3 Matumizi Mabaya",
+                        "content": "UrbanDrop inaweza kusitisha au kufunga akaunti zinazotumika kwa shughuli za udanganyifu, kutumia matangazo vibaya, au kuvunja Masharti haya."
                     }
                 }
             },
-            "cookiesPolicy": {
-                "title": "Sera ya Cookies",
-                "effectiveDate": "Tarehe ya Kuanza: {{date}}",
-                "whatAreCookies": {
-                    "title": "Cookies ni Nini?",
-                    "desc": "Cookies ni faili ndogo za maandishi zinazowekwa kwenye kifaa chako unapotembelea tovuti au kutumia programu. Zinatusaidia kukumbuka mapendeleo yako, kuboresha utendaji, na kubinafsisha uzoefu wako. Baadhi ya cookies ni muhimu ili Jukwaa lifanye kazi vizuri, wengine hutusaidia kuelewa jinsi watumiaji wanavyotumia huduma zetu ili tuziboreshe."
-                },
-                "types": {
-                    "essential": {
-                        "title": "Cookies Muhimu",
-                        "desc": "Cookies hizi ni muhimu ili Jukwaa lifanye kazi. Zinawawezesha vipengele vya msingi kama kuingia salama, malipo, na usimamizi wa akaunti. Bila hizo, huduma zingine haziwezi kutolewa. Mfano: kukuweka umeingia, kusimamia kikapu chako, na kusindika malipo kwa usalama."
+            "ordering": {
+                "title": "4. Maagizo na Malipo",
+                "subsections": {
+                    "placing": {
+                        "title": "4.1 Kuweka Agizo",
+                        "content": "Unapoweka agizo, unatoa kununua bidhaa kutoka kwa muuzaji aliyeorodheshwa kwenye UrbanDrop. Mara muuzaji anakubali agizo lako, mkataba unaundwa kati yako na muuzaji huyo."
                     },
-                    "performance": {
-                        "title": "Cookies za Utendaji na Uchambuzi",
-                        "desc": "Hizi hutusaidia kuelewa jinsi wageni wanavyotumia UrbanDrop kama kurasa zinazotembelewa zaidi au wapi watumiaji wanakutana na makosa. Tunatumia taarifa hii kuboresha uratibu, kasi, na uzoefu wa mtumiaji. Mfano: Google Analytics, wachambuzi wa programu. Taarifa zote zilizokusanywa ni za pamoja na zisizo na jina."
+                    "confirmation": {
+                        "title": "4.2 Uthibitisho wa Agizo",
+                        "content": "Utapokea uthibitisho kupitia Jukwaa mara agizo lako linapokubaliwa. Wauzaji wanaweza kufuta maagizo ikiwa bidhaa hazipatikani au haiwezi kutimizwa, ambapo hakuna malipo yatakayolipwa."
                     },
-                    "functionality": {
-                        "title": "Cookies za Utendaji",
-                        "desc": "Hizi hukumbuka mapendeleo yako kama lugha, eneo, au anwani ya utoaji ili kurahisisha uzoefu wako."
+                    "payments": {
+                        "title": "4.3 Malipo",
+                        "content": "Malipo yote hufanyiwa usindikaji kwa usalama kupitia washirika wa malipo wa UrbanDrop. Unaruhusu UrbanDrop kukusanya malipo kwa niaba ya muuzaji."
                     },
-                    "advertising": {
-                        "title": "Cookies za Matangazo na Masoko",
-                        "desc": "Hizi huturuhusu sisi na washirika walioteuliwa kukuonyesha ofa na matangazo yanayofaa, kwenye UrbanDrop na tovuti au programu nyingine. Pia husaidia kupunguza idadi ya mara unayoona tangazo moja. Mfano: Meta Pixel, Google Ads Remarketing. Unaweza kujiondoa kwenye matangazo binafsi kupitia mipangilio ya akaunti au kivinjari chako."
-                    }
-                },
-                "thirdParty": {
-                    "title": "Cookies za Wahusika Wengine",
-                    "desc": "Baadhi ya cookies kwenye UrbanDrop zinatoka kwa wahusika wa tatu wanaoaminika ambao hutusaidia kutoa huduma fulani, mfano watoa uchambuzi (Google Analytics), mitandao ya matangazo, na washirika wa malipo na utoaji. Wahusika hawa wanaweza kutumia cookies kulingana na sera zao za faragha. UrbanDrop haina udhibiti wa mipangilio yao ya cookies."
-                },
-                "managing": {
-                    "title": "Usimamizi wa Cookies",
-                    "desc": "Unaweza kusimamia au kuzima cookies kupitia mipangilio ya kivinjari au kifaa chako. Vivinjari vingi vinakuwezesha kuona cookies zilizohifadhiwa, kufuta cookies zilizopo, na kuzizuia baadhi au zote. Ukizima cookies, baadhi ya sehemu za Jukwaa haziwezi kufanya kazi vizuri (mfano, malipo au anwani zilizohifadhiwa). Unaweza pia kurekebisha mapendeleo ya cookies kupitia bango la Sera ya Cookies la UrbanDrop unapotembelea tovuti yetu kwa mara ya kwanza au kupitia mipangilio ya akaunti yako."
-                },
-                "consent": {
-                    "title": "Idhini",
-                    "desc": "Unapotembelea UrbanDrop kwa mara ya kwanza, utaona bango likiomba idhini yako kutumia cookies zisizo muhimu. Kwa kubofya \"Kubali Zote\", unakubali matumizi ya cookies zote kama ilivyoelezwa hapa. Unaweza kubadilisha mapendeleo yako wakati wowote kwa kubofya \"Simamia Cookies\" katika sehemu ya chini ya tovuti au kupitia profaili yako. Cookies muhimu hazihitaji idhini kwani ni muhimu kutoa huduma ulizoomba."
-                },
-                "updates": {
-                    "title": "Mabadiliko ya Sera Hii",
-                    "desc": "Tunaweza kusasisha Sera ya Cookies mara kwa mara. Toleo la hivi karibuni litawekwa kila wakati kwenye tovuti yetu au programu. Ikiwa mabadiliko ni makubwa, tutaarifu watumiaji kwa barua pepe au arifa ya programu kabla hayajaanza."
-                },
-                "contact": {
-                    "title": "Wasiliana Nasi",
-                    "desc": "Ikiwa una maswali kuhusu matumizi yetu ya cookies, tafadhali wasiliana:",
-                    "companyName": "UrbanDrop Group Limited",
-                    "email": "Barua pepe: <a href=\"mailto:Info@urbandrop.io\" className=\"text-[#5CB35E] hover:underline font-medium\">Info@urbandrop.io</a>"
-                }
-            },
-            "notFoundPage": {
-                "title": "Ukurasa Haupo",
-                "desc": "Ukurasa unaotafuta haupo au umehamishwa.",
-                "goHome": "Rudi Nyumbani",
-                "goBack": "Rudi Nyuma",
-                "features": {
-                    "browseMenu": {
-                        "title": "Angalia Menyu",
-                        "desc": "Gundua chaguo letu la ladha"
-                    },
-                    "becomeMerchant": {
-                        "title": "Kuwa Muuzaji",
-                        "desc": "Jiunge na mtandao wetu wa wauzaji"
-                    },
-                    "advertise": {
-                        "title": "Tangaza Nasi",
-                        "desc": "Tangaza chapa yako kwa mamilioni ya watu"
-                    }
-                },
-                "illustration": "Hatuwezi kupata ukurasa, lakini tumepata viambajengo hivi safi!",
-                "searchSuggestion": "Jaribu kutafuta kile unachohitaji au tembelea Kituo chetu cha Msaada."
-            },
-            "cookieConsent": {
-                "banner": {
-                    "title": "Tunaheshimu faragha yako",
-                    "description": "Tunatumia cookies kuboresha uzoefu wako. UrbanDrop inatumia cookies muhimu ili tovuti yetu ifanye kazi, na cookies zisizo muhimu kuelewa jinsi unavyotumia, kubinafsisha maudhui, na kukuonyesha ofa zinazofaa. Unaweza kukubali zote, kukataa zisizo muhimu, au kusimamia mapendeleo yako wakati wowote.",
-                    "acceptAll": "Kubali Cookies Zote",
-                    "rejectNonEssential": "Kataa Zisizo Muhimu",
-                    "managePreferences": "Simamia Mapendeleo"
-                },
-                "modal": {
-                    "title": "Mapendeleo ya Cookies",
-                    "description": "Simamia jinsi tunavyotumia cookies kwenye tovuti hii.",
-                    "quickActions": {
-                        "acceptAll": "Kubali Zote",
-                        "rejectNonEssential": "Kataa Zisizo Muhimu"
-                    },
-                    "categories": {
-                        "essential": {
-                            "title": "Cookies Muhimu",
-                            "description": "Hizi cookies ni muhimu ili UrbanDrop ifanye kazi vizuri. Zinawawezesha kuingia salama, malipo, na mchakato wa malipo. Huwezi kuzizima kupitia mipangilio yetu, lakini unaweza kuzizuia kwenye kivinjari (ambayo inaweza kuathiri utendaji).",
-                            "examples": "Mfano: vikao vya kuingia, kufuatilia kikapu, usindikaji wa malipo."
-                        },
-                        "performance": {
-                            "title": "Cookies za Utendaji na Uchambuzi",
-                            "description": "Hizi hutusaidia kuelewa jinsi wageni wanavyotumia UrbanDrop, kama kurasa zinazotembelewa zaidi au wapi watumiaji wanakutana na kuchelewa. Zinawezesha kuboresha kasi, uthabiti, na utumiaji kwa ujumla.",
-                            "examples": "Mfano: Google Analytics, uchambuzi wa programu."
-                        },
-                        "functional": {
-                            "title": "Cookies za Utendaji",
-                            "description": "Hizi hukumbuka mapendeleo yako, kama lugha, eneo, na anwani zilizohifadhiwa, ili usilazimishwe kuingiza kila wakati.",
-                            "examples": "Mfano: anwani ya utoaji iliyopendelea, chujio la maduka yaliyohifadhiwa."
-                        },
-                        "advertising": {
-                            "title": "Cookies za Matangazo na Masoko",
-                            "description": "Tunatumia hizi kukuonyesha matangazo binafsi na ofa zinazofaa, ndani ya UrbanDrop na kwenye tovuti zingine. Zinawezesha kupima utendaji wa kampeni za masoko na kuepuka kuonyesha tangazo moja mara nyingi.",
-                            "examples": "Mfano: Meta Pixel, Google Ads Remarketing."
-                        }
-                    },
-                    "footer": {
-                        "text1": "Unaweza kubadilisha chaguo zako za cookies wakati wowote kwa kuchagua \"Simamia Cookies\" katika sehemu ya chini ya tovuti au menyu ya programu.",
-                        "text2": "Kwa maelezo zaidi, angalia",
-                        "cookiePolicy": "Sera ya Cookies",
-                        "and": "na",
-                        "privacyPolicy": "Sera ya Faragha",
-                        "savePreferences": "Hifadhi Mapendeleo"
-                    },
-                    "status": {
-                        "alwaysActive": "Daima Inayofanya Kazi",
-                        "active": "Inayofanya Kazi",
-                        "inactive": "Haifanyi Kazi",
-                        "required": "Inahitajika"
+                    "pricing": {
+                        "title": "4.4 Bei",
+                        "content": "Bei huwekwa na wauzaji na zinajumuisha kodi zinazohitajika. Ada za utoaji, huduma, na kufungasha zinaweza kutumika na zinaonyeshwa kabla ya malipo."
                     }
                 }
             },
-            "termsAndConditions": {
-                "pageTitle": "Masharti na Vigezo",
-                "pageDescription": "Tafadhali soma masharti haya kwa makini kabla ya kutumia jukwaa letu. Yanaeleza haki na majukumu yako unapotumia Urbandrop.",
-                "lastUpdated": "Ilisasishwa Mwisho:",
-                "lastUpdatedDate": "25 Aprili 2026",
-                "tableOfContents": "Yaliyomo",
-                "sections": {
-                    "general": "Masharti ya Jumla",
-                    "merchants": "Wauzaji",
-                    "customers": "Wateja",
-                    "promotions": "Matangazo",
-                    "riders": "Wasafirishaji"
+            "delivery": {
+                "title": "5. Utoaji na Ukusanyaji",
+                "subsections": {
+                    "areas": {
+                        "title": "5.1 Eneo la Utoaji",
+                        "content": "Utoaji unapatikana tu katika maeneo ambapo UrbanDrop au washirika wake wa usafirishaji wanafanya kazi."
+                    },
+                    "partners": {
+                        "title": "5.2 Washirika wa Utoaji",
+                        "content": "Maagizo yanaweza kupelekwa na mtandao wa utoaji wa UrbanDrop au moja kwa moja na muuzaji. Muda wa utoaji ni makadirio na unaweza kubadilika kutokana na trafiki, hali ya hewa, au sababu zingine zisizo chini ya udhibiti wetu."
+                    },
+                    "collection": {
+                        "title": "5.3 Maagizo ya Ukusanyaji",
+                        "content": "Ikiwa unachagua ukusanyaji, tafadhali fika kwa wakati uliopangwa. Wauzaji wanaweza kukataa kushikilia bidhaa kwa muda mrefu kuliko wa kawaida."
+                    }
                 }
             },
-            "termsConditions": {
-                "title": "Masharti na Vigezo",
-                "lastUpdated": "Imesasishwa mwisho: {{date}}",
-                "intro": {
-                    "title": "Masharti na Vigezo vya Tovuti ya UrbanDrop",
-                    "p1": "Karibu UrbanDrop. Masharti na Vigezo hivi (\"Masharti\") yanaongoza ufikiaji wako na matumizi ya tovuti ya UrbanDrop, programu ya simu, na huduma zinazohusiana (kwa pamoja \"Jukwaa\") zinazoendeshwa na UrbanDrop Group Limited (\"UrbanDrop,\" \"sisi,\" \"yetu\").",
-                    "p2": "Kwa kufikia au kutumia Jukwaa, unakubali Masharti haya. Tafadhali yasome kwa makini kabla ya kutumia huduma. Ikiwa hukubaliani, usitumia Jukwaa."
-                },
-                "sections": {
-                    "about": {
-                        "title": "1. Kuhusu UrbanDrop",
-                        "content": [
-                            "UrbanDrop ni soko la mtandaoni linalounganisha wateja na wauzaji huru wanaotoa vyakula, chakula kilichopikwa, na bidhaa za kiasili kwa ajili ya utoaji au ukusanyaji. Tunatoa miundombinu ya kidijitali, usindikaji wa malipo, na interface ya mteja, lakini hatuzalishi, hatumiliki, wala hatuuzi bidhaa zilizoorodheshwa kwenye Jukwaa.",
-                            "Unapoweka agizo kupitia UrbanDrop, unanunua moja kwa moja kutoka kwa muuzaji, si kutoka UrbanDrop."
-                        ]
-                    },
-                    "eligibility": {
-                        "title": "2. Ustahiki",
-                        "content": "Lazima uwe na angalau umri wa miaka 18 ili kutumia Jukwaa. Kwa kutumia Jukwaa, unathibitisha kuwa:",
-                        "items": [
-                            "Una uwezo wa kisheria kuingia katika makubaliano yenye nguvu.",
-                            "Utaitumia Jukwaa kwa madhumuni halali tu.",
-                            "Utatupa taarifa sahihi wakati wa kuunda akaunti au kuweka agizo."
-                        ]
-                    },
-                    "account": {
-                        "title": "3. Akaunti Yako",
-                        "subsections": {
-                            "creation": {
-                                "title": "3.1 Kuunda Akaunti",
-                                "content": "Ili kuweka agizo, unaweza kuhitajika kuunda akaunti ya UrbanDrop. Lazima utupe taarifa sahihi ikiwa ni pamoja na jina lako, anwani ya utoaji, na taarifa za malipo."
-                            },
-                            "security": {
-                                "title": "3.2 Usalama wa Akaunti",
-                                "content": "Wewe ndiye unawajibika kwa usalama wa nywila zako. Shughuli yoyote chini ya akaunti yako inachukuliwa kuwa jukumu lako."
-                            },
-                            "misuse": {
-                                "title": "3.3 Matumizi Mabaya",
-                                "content": "UrbanDrop inaweza kusitisha au kufunga akaunti zinazotumika kwa shughuli za udanganyifu, kutumia matangazo vibaya, au kuvunja Masharti haya."
-                            }
-                        }
-                    },
-                    "ordering": {
-                        "title": "4. Maagizo na Malipo",
-                        "subsections": {
-                            "placing": {
-                                "title": "4.1 Kuweka Agizo",
-                                "content": "Unapoweka agizo, unatoa kununua bidhaa kutoka kwa muuzaji aliyeorodheshwa kwenye UrbanDrop. Mara muuzaji anakubali agizo lako, mkataba unaundwa kati yako na muuzaji huyo."
-                            },
-                            "confirmation": {
-                                "title": "4.2 Uthibitisho wa Agizo",
-                                "content": "Utapokea uthibitisho kupitia Jukwaa mara agizo lako linapokubaliwa. Wauzaji wanaweza kufuta maagizo ikiwa bidhaa hazipatikani au haiwezi kutimizwa, ambapo hakuna malipo yatakayolipwa."
-                            },
-                            "payments": {
-                                "title": "4.3 Malipo",
-                                "content": "Malipo yote hufanyiwa usindikaji kwa usalama kupitia washirika wa malipo wa UrbanDrop. Unaruhusu UrbanDrop kukusanya malipo kwa niaba ya muuzaji."
-                            },
-                            "pricing": {
-                                "title": "4.4 Bei",
-                                "content": "Bei huwekwa na wauzaji na zinajumuisha kodi zinazohitajika. Ada za utoaji, huduma, na kufungasha zinaweza kutumika na zinaonyeshwa kabla ya malipo."
-                            }
-                        }
-                    },
-                    "delivery": {
-                        "title": "5. Utoaji na Ukusanyaji",
-                        "subsections": {
-                            "areas": {
-                                "title": "5.1 Eneo la Utoaji",
-                                "content": "Utoaji unapatikana tu katika maeneo ambapo UrbanDrop au washirika wake wa usafirishaji wanafanya kazi."
-                            },
-                            "partners": {
-                                "title": "5.2 Washirika wa Utoaji",
-                                "content": "Maagizo yanaweza kupelekwa na mtandao wa utoaji wa UrbanDrop au moja kwa moja na muuzaji. Muda wa utoaji ni makadirio na unaweza kubadilika kutokana na trafiki, hali ya hewa, au sababu zingine zisizo chini ya udhibiti wetu."
-                            },
-                            "collection": {
-                                "title": "5.3 Maagizo ya Ukusanyaji",
-                                "content": "Ikiwa unachagua ukusanyaji, tafadhali fika kwa wakati uliopangwa. Wauzaji wanaweza kukataa kushikilia bidhaa kwa muda mrefu kuliko wa kawaida."
-                            }
-                        }
-                    },
-                    "promotions": {
-                        "title": "6. Matangazo na Punguzo",
-                        "subsections": {
-                            "platform": {
-                                "title": "6.1 Matangazo ya Jukwaa",
-                                "content": "UrbanDrop inaweza mara kwa mara kutoa matangazo au punguzo. Kila moja ina sheria zake, ambazo zinatumika pamoja na Masharti haya."
-                            },
-                            "merchant": {
-                                "title": "6.2 Matangazo ya Muuzaji",
-                                "content": "Matangazo yaliyoanzishwa na wauzaji yanagharamiwa moja kwa moja na muuzaji. UrbanDrop hupitia na kuidhinisha ofa hizi lakini hauna wajibu wa kifedha."
-                            },
-                            "misuse": {
-                                "title": "6.3 Matumizi Mabaya",
-                                "content": "UrbanDrop ina haki ya kusitisha au kuondoa ofa ikiwa kugundulika kwa matumizi mabaya au shughuli za udanganyifu."
-                            }
-                        }
+            "promotions": {
+                "title": "6. Matangazo na Punguzo",
+                "subsections": {
+                    "platform": {
+                        "title": "6.1 Matangazo ya Jukwaa",
+                        "content": "UrbanDrop inaweza mara kwa mara kutoa matangazo au punguzo. Kila moja ina sheria zake, ambazo zinatumika pamoja na Masharti haya."
                     },
                     "merchant": {
-                        "title": "7. Majukumu ya Muuzaji",
-                        "content": "Kila muuzaji kwenye UrbanDrop ni biashara huru. Wauzaji wanawajibika pekee kwa:",
+                        "title": "6.2 Matangazo ya Muuzaji",
+                        "content": "Matangazo yaliyoanzishwa na wauzaji yanagharamiwa moja kwa moja na muuzaji. UrbanDrop hupitia na kuidhinisha ofa hizi lakini hauna wajibu wa kifedha."
+                    },
+                    "misuse": {
+                        "title": "6.3 Matumizi Mabaya",
+                        "content": "UrbanDrop ina haki ya kusitisha au kuondoa ofa ikiwa kugundulika kwa matumizi mabaya au shughuli za udanganyifu."
+                    }
+                }
+            },
+            "merchant": {
+                "title": "7. Majukumu ya Muuzaji",
+                "content": "Kila muuzaji kwenye UrbanDrop ni biashara huru. Wauzaji wanawajibika pekee kwa:",
+                "items": [
+                    "Usahihi wa taarifa za bidhaa, bei, na picha.",
+                    "Usalama wa chakula, usafi, na ufungaji sahihi wa bidhaa.",
+                    "Uzingatiaji wa leseni za mitaa na sheria za biashara."
+                ],
+                "note": "UrbanDrop haizalishi, kujaribu, au kuhakikisha bidhaa zinauzwa na wauzaji."
+            },
+            "conduct": {
+                "title": "8. Tabia ya Mteja",
+                "content": "Unakubali kuto:",
+                "items": [
+                    "Kutumia Jukwaa vibaya au kujaribu kuharibu operesheni yake.",
+                    "Kusumbua, kuudhi, au kutishia wauzaji, madereva, au msaada wa wateja.",
+                    "Kuunda akaunti nyingi ili kuchafua matangazo.",
+                    "Kuweka hakiki za uwongo au maoni yanayodanganya."
+                ],
+                "note": "UrbanDrop ina haki ya kusitisha au kuzuia akaunti yoyote inayokiuka viwango hivi."
+            },
+            "cancellation": {
+                "title": "9. Sera ya Kufuta Oda kwa Mteja",
+                "subsections": {
+                    "before": {
+                        "title": "9.1 Kabla ya Kukubaliwa na Muuza Bidhaa",
+                        "content": "Unaweza kughairi oda bila malipo wakati wowote kabla haijakubaliwa na muuzaji."
+                    },
+                    "after": {
+                        "title": "9.2 Baada ya Kukubaliwa na Muuza Bidhaa",
+                        "content": "Baada ya muuzaji kukubali oda yako, huenda kughairi kusiwezekane, hasa kwa bidhaa zinazoharibika au chakula kilichoandaliwa. Ikiwa muuzaji ameanza kuandaa oda yako, utatozwa kiasi chote."
+                    },
+                    "merchant": {
+                        "title": "9.3 Kughairiwa na Wauzaji",
+                        "content": "Wauzaji wanaweza kughairi oda ikiwa bidhaa hazipatikani, oda haiwezi kutimizwa, au uwasilishaji hauwezekani. Katika hali hizi, utarejeshewa fedha zako zote."
+                    },
+                    "progress": {
+                        "title": "9.4 Oda Iko Njiani",
+                        "content": "Ikiwa oda yako tayari imeshaanza safari ya kuwasilishwa, haiwezi kughairiwa."
+                    },
+                    "repeated": {
+                        "title": "9.5 Kughairi Mara kwa Mara",
+                        "content": "Wateja wanaoghairi oda mara kwa mara baada ya kukubaliwa wanaweza kuzuiwa au akaunti yao kusimamishwa."
+                    }
+                }
+            },
+            "returns": {
+                "title": "10. Sera ya Marejesho na Kurudishiwa Fedha",
+                "subsections": {
+                    "general": {
+                        "title": "10.1 Sera ya Jumla",
+                        "content": "Kwa kuwa UrbanDrop inaunganisha wateja moja kwa moja na wauzaji huru, marejesho na kurudishiwa bidhaa hutegemea aina ya bidhaa na mazingira ya ombi."
+                    },
+                    "perishable": {
+                        "title": "10.2 Bidhaa Zinazoharibika na Zilizotayarishwa",
+                        "content": "Kwa bidhaa zinazoharibika kama mboga mbichi, vyakula vilivyogandishwa, na milo iliyopikwa, marejesho kwa kawaida hayapatikani baada ya kuwasilishwa, isipokuwa:",
                         "items": [
-                            "Usahihi wa taarifa za bidhaa, bei, na picha.",
-                            "Usalama wa chakula, usafi, na ufungaji sahihi wa bidhaa.",
-                            "Uzingatiaji wa leseni za mitaa na sheria za biashara."
+                            "Bidhaa imeharibika, imepitwa na muda, au si salama kwa matumizi wakati wa uwasilishaji.",
+                            "Bidhaa isiyo sahihi imewasilishwa.",
+                            "Oda haijakamilika."
                         ],
-                        "note": "UrbanDrop haizalishi, kujaribu, au kuhakikisha bidhaa zinauzwa na wauzaji."
+                        "note": "Lazima taarifa hizi ziripotiwe kwa Usaidizi wa UrbanDrop ndani ya saa 24 baada ya uwasilishaji. Ushahidi kama picha unaweza kuhitajika."
                     },
-                    "conduct": {
-                        "title": "8. Tabia ya Mteja",
-                        "content": "Unakubali kuto:",
+                    "nonPerishable": {
+                        "title": "10.3 Bidhaa Zisizoharibika",
+                        "content": "Kwa bidhaa zilizofungwa au zisizoharibika, wauzaji wanaweza kukubali marejesho kulingana na sheria za watumiaji za UK ikiwa:",
                         "items": [
-                            "Kutumia Jukwaa vibaya au kujaribu kuharibu operesheni yake.",
-                            "Kusumbua, kuudhi, au kutishia wauzaji, madereva, au msaada wa wateja.",
-                            "Kuunda akaunti nyingi ili kuchafua matangazo.",
-                            "Kuweka hakiki za uwongo au maoni yanayodanganya."
-                        ],
-                        "note": "UrbanDrop ina haki ya kusitisha au kuzuia akaunti yoyote inayokiuka viwango hivi."
+                            "Bidhaa ina kasoro au haifanani na ilivyoelezwa.",
+                            "Imerejeshwa bila kutumika na ikiwa kwenye vifungashio vyake vya asili."
+                        ]
                     },
-                    "cancellation": {
-                        "title": "9. Sera ya Kufuta Oda kwa Mteja",
-                        "subsections": {
-                            "before": {
-                                "title": "9.1 Kabla ya Kukubaliwa na Muuza Bidhaa",
-                                "content": "Unaweza kughairi oda bila malipo wakati wowote kabla haijakubaliwa na muuzaji."
-                            },
-                            "after": {
-                                "title": "9.2 Baada ya Kukubaliwa na Muuza Bidhaa",
-                                "content": "Baada ya muuzaji kukubali oda yako, huenda kughairi kusiwezekane, hasa kwa bidhaa zinazoharibika au chakula kilichoandaliwa. Ikiwa muuzaji ameanza kuandaa oda yako, utatozwa kiasi chote."
-                            },
-                            "merchant": {
-                                "title": "9.3 Kughairiwa na Wauzaji",
-                                "content": "Wauzaji wanaweza kughairi oda ikiwa bidhaa hazipatikani, oda haiwezi kutimizwa, au uwasilishaji hauwezekani. Katika hali hizi, utarejeshewa fedha zako zote."
-                            },
-                            "progress": {
-                                "title": "9.4 Oda Iko Njiani",
-                                "content": "Ikiwa oda yako tayari imeshaanza safari ya kuwasilishwa, haiwezi kughairiwa."
-                            },
-                            "repeated": {
-                                "title": "9.5 Kughairi Mara kwa Mara",
-                                "content": "Wateja wanaoghairi oda mara kwa mara baada ya kukubaliwa wanaweza kuzuiwa au akaunti yao kusimamishwa."
-                            }
-                        }
+                    "process": {
+                        "title": "10.4 Mchakato wa Marejesho",
+                        "content": "Marejesho huchakatwa baada ya muuzaji kuthibitisha uhalali wake. UrbanDrop itarudisha fedha kwenye njia yako ya malipo ndani ya siku 5–10 za kazi baada ya kuidhinishwa."
                     },
-                    "returns": {
-                        "title": "10. Sera ya Marejesho na Kurudishiwa Fedha",
-                        "subsections": {
-                            "general": {
-                                "title": "10.1 Sera ya Jumla",
-                                "content": "Kwa kuwa UrbanDrop inaunganisha wateja moja kwa moja na wauzaji huru, marejesho na kurudishiwa bidhaa hutegemea aina ya bidhaa na mazingira ya ombi."
-                            },
-                            "perishable": {
-                                "title": "10.2 Bidhaa Zinazoharibika na Zilizotayarishwa",
-                                "content": "Kwa bidhaa zinazoharibika kama mboga mbichi, vyakula vilivyogandishwa, na milo iliyopikwa, marejesho kwa kawaida hayapatikani baada ya kuwasilishwa, isipokuwa:",
-                                "items": [
-                                    "Bidhaa imeharibika, imepitwa na muda, au si salama kwa matumizi wakati wa uwasilishaji.",
-                                    "Bidhaa isiyo sahihi imewasilishwa.",
-                                    "Oda haijakamilika."
-                                ],
-                                "note": "Lazima taarifa hizi ziripotiwe kwa Usaidizi wa UrbanDrop ndani ya saa 24 baada ya uwasilishaji. Ushahidi kama picha unaweza kuhitajika."
-                            },
-                            "nonPerishable": {
-                                "title": "10.3 Bidhaa Zisizoharibika",
-                                "content": "Kwa bidhaa zilizofungwa au zisizoharibika, wauzaji wanaweza kukubali marejesho kulingana na sheria za watumiaji za UK ikiwa:",
-                                "items": [
-                                    "Bidhaa ina kasoro au haifanani na ilivyoelezwa.",
-                                    "Imerejeshwa bila kutumika na ikiwa kwenye vifungashio vyake vya asili."
-                                ]
-                            },
-                            "process": {
-                                "title": "10.4 Mchakato wa Marejesho",
-                                "content": "Marejesho huchakatwa baada ya muuzaji kuthibitisha uhalali wake. UrbanDrop itarudisha fedha kwenye njia yako ya malipo ndani ya siku 5–10 za kazi baada ya kuidhinishwa."
-                            },
-                            "merchantResp": {
-                                "title": "10.5 Wajibu wa Muuza Bidhaa",
-                                "content": "Kila muuzaji anawajibika kushughulikia maombi ya marejesho ya bidhaa zake. UrbanDrop hurahisisha mawasiliano na marekebisho ya malipo lakini sio msimamizi wa mwisho wa uamuzi."
-                            },
-                            "delivery": {
-                                "title": "10.6 Matatizo ya Uwasilishaji",
-                                "content": "Ikiwa oda yako imechelewa, kupotea, au kuwasilishwa mahali pasipofaa, tafadhali wasiliana na Usaidizi wa UrbanDrop mara moja. Marejesho au uwasilishaji upya utazingatiwa kulingana na taarifa za uwasilishaji."
-                            },
-                            "abuse": {
-                                "title": "10.7 Matumizi Mabaya ya Marejesho",
-                                "content": "Madai ya mara kwa mara ya marejesho bila sababu halali yanaweza kusababisha akaunti yako kuwekewa alama au kusimamishwa."
-                            }
-                        }
+                    "merchantResp": {
+                        "title": "10.5 Wajibu wa Muuza Bidhaa",
+                        "content": "Kila muuzaji anawajibika kushughulikia maombi ya marejesho ya bidhaa zake. UrbanDrop hurahisisha mawasiliano na marekebisho ya malipo lakini sio msimamizi wa mwisho wa uamuzi."
                     },
-                    "ip": {
-                        "title": "11. Haki Miliki",
-                        "content": "Alama za biashara, maudhui, na teknolojia zote kwenye jukwaa zinamilikiwa na UrbanDrop Group Limited au watoa leseni wake. Hairuhusiwi kunakili, kusambaza, au kubadilisha sehemu yoyote ya jukwaa bila ruhusa ya maandishi."
+                    "delivery": {
+                        "title": "10.6 Matatizo ya Uwasilishaji",
+                        "content": "Ikiwa oda yako imechelewa, kupotea, au kuwasilishwa mahali pasipofaa, tafadhali wasiliana na Usaidizi wa UrbanDrop mara moja. Marejesho au uwasilishaji upya utazingatiwa kulingana na taarifa za uwasilishaji."
                     },
-                    "availability": {
-                        "title": "12. Upatikanaji wa Jukwaa",
-                        "content": "Tunalenga kuhakikisha UrbanDrop inapatikana saa 24/7, lakini tunaweza kusitisha au kusasisha huduma kwa ajili ya matengenezo. Hatuwajibiki kwa usumbufu wa muda au upotevu wa data unaoweza kutokea."
-                    },
-                    "privacy": {
-                        "title": "13. Faragha na Ulinzi wa Data",
-                        "content": "Data yako ya kibinafsi hukusanywa na kusindika kulingana na Sera yetu ya Faragha. Kwa kutumia UrbanDrop, unakubali matumizi ya data yako kwa ajili ya kushughulikia oda, kuzuia udanganyifu, na huduma kwa wateja."
-                    },
-                    "liability": {
-                        "title": "14. Kikomo cha Dhima",
-                        "subsections": {
-                            "role": {
-                                "title": "14.1 Jukumu la UrbanDrop",
-                                "content": "UrbanDrop ni kiunganishi kati ya wateja na wauzaji. Hatuhusiki na:",
-                                "items": [
-                                    "Ubora, usalama, au uhalisia wa bidhaa.",
-                                    "Oda zisizo sahihi au zisizokamilika kutoka kwa wauzaji.",
-                                    "Matatizo ya uwasilishaji yanayosababishwa na wahusika wengine."
-                                ]
-                            },
-                            "indirect": {
-                                "title": "14.2 Hasara Zisizo za Moja kwa Moja",
-                                "content": "Hatuhusiki na hasara yoyote isiyo ya moja kwa moja, ya bahati mbaya, au ya matokeo yanayotokana na matumizi ya jukwaa."
-                            },
-                            "maximum": {
-                                "title": "14.3 Kiwango cha Juu cha Dhima",
-                                "content": "Dhima yetu kwa mtumiaji yeyote haitazidi kiasi kilicholipwa kwa oda husika au £50, chochote kilicho kidogo."
-                            }
-                        }
-                    },
-                    "termination": {
-                        "title": "15. Kusitishwa kwa Akaunti",
-                        "content": "UrbanDrop inaweza kusimamisha au kufunga akaunti yako wakati wowote ikiwa:",
+                    "abuse": {
+                        "title": "10.7 Matumizi Mabaya ya Marejesho",
+                        "content": "Madai ya mara kwa mara ya marejesho bila sababu halali yanaweza kusababisha akaunti yako kuwekewa alama au kusimamishwa."
+                    }
+                }
+            },
+            "ip": {
+                "title": "11. Haki Miliki",
+                "content": "Alama za biashara, maudhui, na teknolojia zote kwenye jukwaa zinamilikiwa na UrbanDrop Group Limited au watoa leseni wake. Hairuhusiwi kunakili, kusambaza, au kubadilisha sehemu yoyote ya jukwaa bila ruhusa ya maandishi."
+            },
+            "availability": {
+                "title": "12. Upatikanaji wa Jukwaa",
+                "content": "Tunalenga kuhakikisha UrbanDrop inapatikana saa 24/7, lakini tunaweza kusitisha au kusasisha huduma kwa ajili ya matengenezo. Hatuwajibiki kwa usumbufu wa muda au upotevu wa data unaoweza kutokea."
+            },
+            "privacy": {
+                "title": "13. Faragha na Ulinzi wa Data",
+                "content": "Data yako ya kibinafsi hukusanywa na kusindika kulingana na Sera yetu ya Faragha. Kwa kutumia UrbanDrop, unakubali matumizi ya data yako kwa ajili ya kushughulikia oda, kuzuia udanganyifu, na huduma kwa wateja."
+            },
+            "liability": {
+                "title": "14. Kikomo cha Dhima",
+                "subsections": {
+                    "role": {
+                        "title": "14.1 Jukumu la UrbanDrop",
+                        "content": "UrbanDrop ni kiunganishi kati ya wateja na wauzaji. Hatuhusiki na:",
                         "items": [
-                            "Unakiuka masharti haya.",
-                            "Unajihusisha na udanganyifu au matumizi mabaya.",
-                            "Unatumia vibaya promosheni au kuvunja sheria."
-                        ],
-                        "note": "Unaweza kuomba kufutwa kwa akaunti wakati wowote kwa kuwasiliana na Usaidizi wa UrbanDrop."
+                            "Ubora, usalama, au uhalisia wa bidhaa.",
+                            "Oda zisizo sahihi au zisizokamilika kutoka kwa wauzaji.",
+                            "Matatizo ya uwasilishaji yanayosababishwa na wahusika wengine."
+                        ]
                     },
-                    "links": {
-                        "title": "16. Viungo vya Watu Wengine",
-                        "content": "Jukwaa linaweza kuwa na viungo vya tovuti za watu wengine. UrbanDrop haiwajibiki na maudhui au sera za tovuti hizo, na kuzitumia ni kwa hatari yako mwenyewe."
+                    "indirect": {
+                        "title": "14.2 Hasara Zisizo za Moja kwa Moja",
+                        "content": "Hatuhusiki na hasara yoyote isiyo ya moja kwa moja, ya bahati mbaya, au ya matokeo yanayotokana na matumizi ya jukwaa."
                     },
-                    "changes": {
-                        "title": "17. Mabadiliko ya Masharti Haya",
-                        "content": "UrbanDrop inaweza kusasisha masharti haya mara kwa mara. Mabadiliko yatakuwa halali mara tu yatakapochapishwa kwenye jukwaa. Kuendelea kutumia UrbanDrop kunamaanisha kukubali toleo la hivi karibuni."
-                    },
-                    "governing": {
-                        "title": "18. Sheria Inayotawala",
-                        "content": "Masharti haya yanatawaliwa na sheria za England na Wales. Migogoro yoyote itahusiana na mahakama za England na Wales pekee."
-                    },
-                    "contact": {
-                        "title": "19. Mawasiliano",
-                        "content": "Kwa maswali, malalamiko, au maombi ya marejesho, tafadhali wasiliana:",
-                        "companyName": "UrbanDrop Group Limited",
-                        "email": "Barua pepe: support@urbandrop.io"
-                    },
-                    "customerTerms": {
+                    "maximum": {
+                        "title": "14.3 Kiwango cha Juu cha Dhima",
+                        "content": "Dhima yetu kwa mtumiaji yeyote haitazidi kiasi kilicholipwa kwa oda husika au £50, chochote kilicho kidogo."
+                    }
+                }
+            },
+            "termination": {
+                "title": "15. Kusitishwa kwa Akaunti",
+                "content": "UrbanDrop inaweza kusimamisha au kufunga akaunti yako wakati wowote ikiwa:",
+                "items": [
+                    "Unakiuka masharti haya.",
+                    "Unajihusisha na udanganyifu au matumizi mabaya.",
+                    "Unatumia vibaya promosheni au kuvunja sheria."
+                ],
+                "note": "Unaweza kuomba kufutwa kwa akaunti wakati wowote kwa kuwasiliana na Usaidizi wa UrbanDrop."
+            },
+            "links": {
+                "title": "16. Viungo vya Watu Wengine",
+                "content": "Jukwaa linaweza kuwa na viungo vya tovuti za watu wengine. UrbanDrop haiwajibiki na maudhui au sera za tovuti hizo, na kuzitumia ni kwa hatari yako mwenyewe."
+            },
+            "changes": {
+                "title": "17. Mabadiliko ya Masharti Haya",
+                "content": "UrbanDrop inaweza kusasisha masharti haya mara kwa mara. Mabadiliko yatakuwa halali mara tu yatakapochapishwa kwenye jukwaa. Kuendelea kutumia UrbanDrop kunamaanisha kukubali toleo la hivi karibuni."
+            },
+            "governing": {
+                "title": "18. Sheria Inayotawala",
+                "content": "Masharti haya yanatawaliwa na sheria za England na Wales. Migogoro yoyote itahusiana na mahakama za England na Wales pekee."
+            },
+            "contact": {
+                "title": "19. Mawasiliano",
+                "content": "Kwa maswali, malalamiko, au maombi ya marejesho, tafadhali wasiliana:",
+                "companyName": "UrbanDrop Group Limited",
+                "email": "Barua pepe: support@urbandrop.io"
+            },
+            "customerTerms": {
                 "title": "Masharti na Vigezo vya Mteja",
                 "intro": "Masharti yanayoongoza matumizi yako ya programu na tovuti ya Urbandrop, ikijumuisha maagizo, malipo, usajili na maudhui ya mapishi.",
                 "effective": "ANZA KUTUMIKA",
@@ -1285,12 +1285,8 @@
                         "title": "5.4 Malipo",
                         "content": "Tunapokea kadi kuu za malipo (debit na credit), Apple Pay, Google Pay na njia nyingine zozote za malipo zinazoonyeshwa wakati wa malipo. Malipo yanashughulikiwa na mtoa huduma wetu wa malipo; hatuhifadhi maelezo kamili ya kadi kwenye mifumo yetu. Kwa kutoa Agizo unaturuhusu kutoza njia yako ya malipo uliyochagua kwa kiasi kamili cha Agizo."
                     },
-                    "preAuth": {
-                        "title": "5.5 Uidhinishaji wa awali",
-                        "content": "Unapotoa Agizo, tunaweza kuweka zuio la muda (pre-authorisation) kwenye njia yako ya malipo kwa thamani ya Agizo. Hii siyo malipo; malipo halisi huchukuliwa wakati Agizo lako linapothibitishwa au kutumwa. Zuio la uidhinishaji wa awali kawaida huondoka ndani ya siku 3-7 za kazi kulingana na benki yako."
-                    },
                     "receipts": {
-                        "title": "5.6 Risiti",
+                        "title": "5.5 Risiti",
                         "content": "Risiti kwa kila Agizo inapatikana kwenye programu na, pale ulipochagua, kupitia barua pepe."
                     }
                 },
@@ -1330,10 +1326,10 @@
                 "clause07": {
                     "title": "KIFUNGU CHA 07",
                     "subtitle": "Bidhaa Zenye Kikomo cha Umri",
-                    "intro": "Baadhi ya bidhaa zinazouzwa kwenye Jukwaa zinawekewa vikwazo na sheria nchini Uingereza, ikijumuisha pombe, bidhaa za tumbaku, bidhaa za sigara za kielektroniki (vapes), visu na bidhaa zenye makali, na vimumunyisho fulani. Tunazingatia kikamilifu Sheria ya Leseni ya 2003, Kanuni za Tumbaku na Bidhaa Zinazohusiana za 2016, Sheria ya Silaha za Mashambulizi ya 2019 na sheria zote zinazohusiana.",
+                    "intro": "Hatuuzi bidhaa zilizozuiliwa kwa umri kwenye jukwaa letu, ikiwa ni pamoja na pombe, bidhaa za tumbaku, bidhaa za mvuke za nikotini, visu na bidhaa yenye makali, na vimumunyisho fulani.",
                     "minimumAge": {
                         "title": "7.1 Umri wa chini",
-                        "content": "Lazima uwe na umri wa angalau miaka 18 ili kuagiza pombe, tumbaku, vapes au visu kupitia Jukwaa. Kwa kuagiza bidhaa hizi, unathibitisha kuwa una umri wa miaka 18 au zaidi."
+                        "content": "Lazima uwe na umri wa angalau miaka 16 ili kufungua akaunti kwenye Urbandrop."
                     },
                     "challenge25": {
                         "title": "7.2 Sera ya 'Challenge 25' wakati wa uwasilishaji",
@@ -1358,18 +1354,46 @@
                         "typicalResolution": "UTATUZI WA KAWAIDA",
                         "reportBy": "RIPOTI NDANI YA",
                         "rows": [
-                            { "issue": "Bidhaa iliyopungua kwenye agizo lililowasilishwa", "resolution": "Urejesho wa pesa za bidhaa iliyokosekana (kwenye njia ya malipo) au salio la Urbandrop — chaguo ni lako", "timeframe": "Ndani ya saa 48 baada ya uwasilishaji" },
-                            { "issue": "Bidhaa iliyoharibika au iliyooza", "resolution": "Urejesho wa pesa au kubadilishiwa kwenye agizo lako lijalo, kwa chaguo lako", "timeframe": "Ndani ya saa 48 baada ya uwasilishaji" },
-                            { "issue": "Bidhaa isiyo sahihi imewasilishwa", "resolution": "Urejesho wa pesa za bidhaa hiyo; unabaki nayo au unaiondoa", "timeframe": "Ndani ya saa 48 baada ya uwasilishaji" },
-                            { "issue": "Agizo halikufika", "resolution": "Urejesho kamili wa pesa (pamoja na ada ya uwasilishaji) au kuwasilishwa tena", "timeframe": "Ndani ya saa 24 tangu muda uliotarajiwa" },
-                            { "issue": "Ubora si kama ulivyotarajiwa (mf. ladha mbaya, muonekano duni)", "resolution": "Utatuzi wa hiari kulingana na tukio; haki za kisheria zinatumika chini ya Sheria ya Haki za Mlaji ya 2015", "timeframe": "Ndani ya siku 14" },
-                            { "issue": "Agizo limeghairiwa na wewe baada ya kuliweka", "resolution": "Tazama Kifungu cha 9 — inatofautiana kulingana na hatua ya agizo", "timeframe": "Kupitia programu kabla Muuzaji hajapokea" },
-                            { "issue": "Agizo limeghairiwa na Muuzaji au Urbandrop", "resolution": "Urejesho kamili wa pesa moja kwa moja; hakuna hatua inayohitajika", "timeframe": "—" }
+                            {
+                                "issue": "Bidhaa iliyopungua kwenye agizo lililowasilishwa",
+                                "resolution": "Urejesho wa pesa za bidhaa iliyokosekana (kwenye njia ya malipo) au salio la Urbandrop — chaguo ni lako",
+                                "timeframe": "Ndani ya saa 48 baada ya uwasilishaji"
+                            },
+                            {
+                                "issue": "Bidhaa iliyoharibika au iliyooza",
+                                "resolution": "Urejesho wa pesa au kubadilishiwa kwenye agizo lako lijalo, kwa chaguo lako",
+                                "timeframe": "Ndani ya saa 48 baada ya uwasilishaji"
+                            },
+                            {
+                                "issue": "Bidhaa isiyo sahihi imewasilishwa",
+                                "resolution": "Urejesho wa pesa za bidhaa hiyo; unabaki nayo au unaiondoa",
+                                "timeframe": "Ndani ya saa 48 baada ya uwasilishaji"
+                            },
+                            {
+                                "issue": "Agizo halikufika",
+                                "resolution": "Urejesho kamili wa pesa (pamoja na ada ya uwasilishaji) au kuwasilishwa tena",
+                                "timeframe": "Ndani ya saa 24 tangu muda uliotarajiwa"
+                            },
+                            {
+                                "issue": "Ubora si kama ulivyotarajiwa (mf. ladha mbaya, muonekano duni)",
+                                "resolution": "Utatuzi wa hiari kulingana na tukio; haki za kisheria zinatumika chini ya Sheria ya Haki za Mlaji ya 2015",
+                                "timeframe": "Ndani ya siku 14"
+                            },
+                            {
+                                "issue": "Agizo limeghairiwa na wewe baada ya kuliweka",
+                                "resolution": "Tazama Kifungu cha 9 — inatofautiana kulingana na hatua ya agizo",
+                                "timeframe": "Kupitia programu kabla Muuzaji hajapokea"
+                            },
+                            {
+                                "issue": "Agizo limeghairiwa na Muuzaji au Urbandrop",
+                                "resolution": "Urejesho kamili wa pesa moja kwa moja; hakuna hatua inayohitajika",
+                                "timeframe": "—"
+                            }
                         ]
                     },
                     "howToReport": {
                         "title": "8.2 Jinsi ya kuripoti tatizo",
-                        "content": "Tumia chaguo la \"Msaada kwa Agizo hili\" kwenye programu, au tuma barua pepe kwa support@urbandrop.io. Hakikisha una namba ya Agizo, maelezo ya tatizo, na picha pale inapohusika. Tunalenga kujibu ndani ya siku mbili (2) za kazi na kutatua ndani ya siku tano (5) za kazi, na kwa kawaida haraka zaidi kwa kesi rahisi."
+                        "content": "Tumia chaguo la “Contact Supportr” kwenye programu, au barua pepe support@urbandrop.io. Uwe na nambari ya Agizo, maelezo ya suala hilo, na picha pale inapofaa. Tunalenga kujibu ndani ya siku mbili (2) za kazi na kutatua ndani ya siku tano (5) za kazi, na kawaida haraka zaidi kwa kesi rahisi."
                     },
                     "whenRefundsIssued": {
                         "title": "8.3 Muda wa kutoa urejesho wa pesa",
@@ -1705,8 +1729,8 @@
                     "website": "Tovuti",
                     "websiteUrl": "www.urbandrop.io"
                 }
-                },
-                "merchantTerms": {
+            },
+            "merchantTerms": {
                 "title": "Vigezo na Masharti ya Muuzaji",
                 "intro": "Vigezo na Masharti haya ya Muuzaji yanaongoza uhusiano kati ya UrbanDrop Group Limited na huluki ya muuzaji au mtu binafsi anayejisajili kuuza bidhaa kupitia jukwaa la UrbanDrop.",
                 "roleOfUrbanDrop": {
@@ -2201,7 +2225,7 @@
                         "<strong>VAT</strong>, ikiwa mapato yako yanayotozwa kodi yanazidi kiwango cha usajili wa VAT katika kipindi cha miezi 12 kinachoendelea."
                     ],
                     "content2": "Urbandrop haiendeshi mfumo wa PAYE kwa Wapanda Farasi wa Moja kwa Moja na haikati kodi ya mapato au Bima ya Taifa kabla ya kukulipa. Chini ya Kanuni za Kuripoti za Majukwaa ya Mtandaoni (Mfumo wa OECD, uliotekelezwa nchini Uingereza tangu tarehe 1 Januari 2024), Urbandrop inatakiwa kuripoti mapato ya mpanda farasi na maelezo ya utambulisho kwa HMRC kila mwaka; unachukuliwa kuwa umekubali ripoti hii kama sharti la kutumia Jukwaa.",
-                        "content3": "Unawajibika kuweka kumbukumbu zinazofaa za mapato ya biashara yako na gharama zinazoruhusiwa na kuwasilisha ripoti ya kodi ya Tathmini Binafsi ifikapo tarehe 31 Januari kila mwaka."
+                    "content3": "Unawajibika kuweka kumbukumbu zinazofaa za mapato ya biashara yako na gharama zinazoruhusiwa na kuwasilisha ripoti ya kodi ya Tathmini Binafsi ifikapo tarehe 31 Januari kila mwaka."
                 },
                 "notTaxAdvice": {
                     "title": "Sio Ushauri wa Kodi",
@@ -2419,8 +2443,7 @@
                     "title": "21 Mkataba Kamili",
                     "content": "Masharti haya, pamoja na Sera ya Faragha na makubaliano yoyote ya ziada yaliyojumuishwa kwa kurejelewa, yanajumuisha mkataba kamili kati yako na UrbanDrop kuhusiana na matumizi yako ya Jukwaa na yanachukua nafasi ya makubaliano, uwakilishi, au uelewa wowote wa awali, uwe wa maandishi au wa mdomo."
                 }
-                }
             }
         }
     }
-    
+}

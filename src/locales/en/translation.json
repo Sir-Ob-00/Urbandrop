@@ -393,7 +393,6 @@
             ]
         }
     },
-
     "merchants": {
         "hero": {
             "title1": "Grow your business with",
@@ -1349,12 +1348,8 @@
                         "title": "5.4 Payment",
                         "content": "We accept major debit and credit cards, Apple Pay, Google Pay and any other payment methods shown at checkout. Payment is processed by our payment provider; we do not store full card details on our systems. By placing an Order you authorise us to charge your selected payment method for the full amount of the Order."
                     },
-                    "preAuth": {
-                        "title": "5.5 Pre-authorisation",
-                        "content": "When you place an Order, we may place a temporary hold (pre-authorisation) on your payment method for the Order value. This is not a charge; the actual charge is taken when your Order is confirmed or dispatched. Pre-authorisation holds typically drop off within 3–7 working days depending on your bank."
-                    },
                     "receipts": {
-                        "title": "5.6 Receipts",
+                        "title": "5.5 Receipts",
                         "content": "A receipt for each Order is available in the app and, where you've chosen it, by email."
                     }
                 },
@@ -1394,10 +1389,10 @@
                 "clause07": {
                     "title": "CLAUSE 07",
                     "subtitle": "Age-Restricted Products",
-                    "intro": "Certain products sold on the Platform are restricted by law in the UK, including alcohol, tobacco products, nicotine-vaping products, knives and bladed products, and certain solvents. We comply strictly with the Licensing Act 2003, the Tobacco and Related Products Regulations 2016, the Offensive Weapons Act 2019 and all related legislation.",
+                    "intro": "We do not sell age-restricted products on our platform, including alcohol, tobacco products, nicotine-vaping products, knives and bladed products, and certain solvents.",
                     "minimumAge": {
                         "title": "7.1 Minimum age",
-                        "content": "You must be at least 18 years old to order alcohol, tobacco, vapes or knives through the Platform. By placing an Order for these items you confirm that you are 18 or over."
+                        "content": "You must be at least 16 years old to create an account on Urbandrop."
                     },
                     "challenge25": {
                         "title": "7.2 Challenge 25 on delivery",
@@ -1422,18 +1417,46 @@
                         "typicalResolution": "TYPICAL RESOLUTION",
                         "reportBy": "REPORT BY",
                         "rows": [
-                            { "issue": "Missing item from a delivered order", "resolution": "Refund for the missing item (to original payment method) or Urbandrop credit — your choice", "timeframe": "Within 48 hours of delivery" },
-                            { "issue": "Damaged or spoilt item", "resolution": "Refund or replacement on your next order, at your choice", "timeframe": "Within 48 hours of delivery" },
-                            { "issue": "Wrong item delivered", "resolution": "Refund for the wrong item; you keep or dispose of it", "timeframe": "Within 48 hours of delivery" },
-                            { "issue": "Order did not arrive", "resolution": "Full refund (including delivery fee) or redelivery", "timeframe": "Within 24 hours of expected time" },
-                            { "issue": "Quality not as expected (e.g., off taste, poor appearance)", "resolution": "Case-by-case goodwill resolution; statutory rights apply under Consumer Rights Act 2015", "timeframe": "Within 14 days" },
-                            { "issue": "Order cancelled by you after placement", "resolution": "See Clause 9 — varies by order stage", "timeframe": "Via the app before Merchant accepts" },
-                            { "issue": "Order cancelled by Merchant or Urbandrop", "resolution": "Full refund automatically; no action needed", "timeframe": "—" }
+                            {
+                                "issue": "Missing item from a delivered order",
+                                "resolution": "Refund for the missing item (to original payment method) or Urbandrop credit — your choice",
+                                "timeframe": "Within 48 hours of delivery"
+                            },
+                            {
+                                "issue": "Damaged or spoilt item",
+                                "resolution": "Refund or replacement on your next order, at your choice",
+                                "timeframe": "Within 48 hours of delivery"
+                            },
+                            {
+                                "issue": "Wrong item delivered",
+                                "resolution": "Refund for the wrong item; you keep or dispose of it",
+                                "timeframe": "Within 48 hours of delivery"
+                            },
+                            {
+                                "issue": "Order did not arrive",
+                                "resolution": "Full refund (including delivery fee) or redelivery",
+                                "timeframe": "Within 24 hours of expected time"
+                            },
+                            {
+                                "issue": "Quality not as expected (e.g., off taste, poor appearance)",
+                                "resolution": "Case-by-case goodwill resolution; statutory rights apply under Consumer Rights Act 2015",
+                                "timeframe": "Within 14 days"
+                            },
+                            {
+                                "issue": "Order cancelled by you after placement",
+                                "resolution": "See Clause 9 — varies by order stage",
+                                "timeframe": "Via the app before Merchant accepts"
+                            },
+                            {
+                                "issue": "Order cancelled by Merchant or Urbandrop",
+                                "resolution": "Full refund automatically; no action needed",
+                                "timeframe": "—"
+                            }
                         ]
                     },
                     "howToReport": {
                         "title": "8.2 How to report an issue",
-                        "content": "Use the \"Help with this Order\" option in the app, or email support@urbandrop.io. Have the Order number, a description of the issue, and photos where relevant. We aim to respond within two (2) working days and resolve within five (5) working days, and usually much faster for straightforward cases."
+                        "content": "Use the “Contact Supportr” option in the app, or email support@urbandrop.io. Have the Order number, a description of the issue, and photos where relevant. We aim to respond within two (2) working days and resolve within five (5) working days, and usually much faster for straightforward cases."
                     },
                     "whenRefundsIssued": {
                         "title": "8.3 When refunds are issued",

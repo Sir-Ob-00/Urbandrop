@@ -184,10 +184,6 @@ const CustomerTerms = ({ icon }) => {
 
             <h4 className="text-gray-900 mt-6 mb-2 font-semibold">{t('termsConditions.sections.customerTerms.clause05.payment.title')}</h4>
             <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t('termsConditions.sections.customerTerms.clause05.payment.content') }}></p>
-
-            <h4 className="text-gray-900 mt-6 mb-2 font-semibold">{t('termsConditions.sections.customerTerms.clause05.preAuth.title')}</h4>
-            <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t('termsConditions.sections.customerTerms.clause05.preAuth.content') }}></p>
-
             <h4 className="text-gray-900 mt-6 mb-2 font-semibold">{t('termsConditions.sections.customerTerms.clause05.receipts.title')}</h4>
             <p className="text-gray-700 mb-4" dangerouslySetInnerHTML={{ __html: t('termsConditions.sections.customerTerms.clause05.receipts.content') }}></p>
 

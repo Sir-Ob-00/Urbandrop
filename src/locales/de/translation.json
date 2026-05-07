@@ -1278,12 +1278,8 @@
                         "title": "5.4 Zahlung",
                         "content": "Wir akzeptieren gängige Debit- und Kreditkarten, Apple Pay, Google Pay und alle anderen beim Checkout angezeigten Zahlungsmethoden. Die Zahlung wird durch unseren Zahlungsanbieter abgewickelt; wir speichern keine vollständigen Kartendaten in unseren Systemen. Durch die Aufgabe einer Bestellung autorisieren Sie uns, die gewählte Zahlungsmethode mit dem vollen Betrag der Bestellung zu belasten."
                     },
-                    "preAuth": {
-                        "title": "5.5 Vorabautorisierung",
-                        "content": "Wenn Sie eine Bestellung aufgeben, können wir eine vorübergehende Reservierung (Vorabautorisierung) des Bestellwertes auf Ihrer Zahlungsmethode vornehmen. Dies ist keine Belastung; die tatsächliche Belastung erfolgt, wenn Ihre Bestellung bestätigt oder versandt wird. Vorabautorisierungen werden in der Regel innerhalb von 3–7 Werktagen aufgehoben, abhängig von Ihrer Bank."
-                    },
                     "receipts": {
-                        "title": "5.6 Belege",
+                        "title": "5.5 Belege",
                         "content": "Ein Beleg für jede Bestellung ist in der App verfügbar und, sofern von Ihnen ausgewählt, per E-Mail."
                     }
                 },
@@ -1323,10 +1319,10 @@
                 "clause07": {
                     "title": "KLAUSEL 07",
                     "subtitle": "Produkte mit Altersbeschränkung",
-                    "intro": "Bestimmte auf der Plattform verkaufte Produkte unterliegen im Vereinigten Königreich gesetzlichen Beschränkungen, darunter Alkohol, Tabakwaren, Nikotin-Vaping-Produkte, Messer und Klingenprodukte sowie bestimmte Lösungsmittel. Wir halten uns strikt an den Licensing Act 2003, die Tobacco and Related Products Regulations 2016, den Offensive Weapons Act 2019 und alle damit verbundenen Rechtsvorschriften.",
+                    "intro": "Wir verkaufen auf unserer Plattform keine altersbeschränkten Produkte, einschließlich Alkohol, Tabakwaren, Nikotin-Vaporizer, Messer und Klingenprodukte sowie bestimmte Lösungsmittel.",
                     "minimumAge": {
                         "title": "7.1 Mindestalter",
-                        "content": "Sie müssen mindestens 18 Jahre alt sein, um Alkohol, Tabak, Vapes oder Messer über die Plattform zu bestellen. Mit der Aufgabe einer Bestellung für diese Artikel bestätigen Sie, dass Sie 18 Jahre oder älter sind."
+                        "content": "Sie müssen mindestens 16 Jahre alt sein, um ein Konto bei Urbandrop zu erstellen."
                     },
                     "challenge25": {
                         "title": "7.2 Challenge 25 bei der Lieferung",
@@ -1351,18 +1347,46 @@
                         "typicalResolution": "TYPISCHE LÖSUNG",
                         "reportBy": "MELDUNG INNERHALB VON",
                         "rows": [
-                            { "issue": "Fehlender Artikel in einer gelieferten Bestellung", "resolution": "Rückerstattung für den fehlenden Artikel (auf die ursprüngliche Zahlungsmethode) oder Urbandrop-Guthaben – nach Ihrer Wahl", "timeframe": "48 Stunden nach Lieferung" },
-                            { "issue": "Beschädigter oder verdorbener Artikel", "resolution": "Rückerstattung oder Ersatz bei Ihrer nächsten Bestellung, nach Ihrer Wahl", "timeframe": "48 Stunden nach Lieferung" },
-                            { "issue": "Falscher Artikel geliefert", "resolution": "Rückerstattung für den falschen Artikel; Sie behalten ihn oder entsorgen ihn", "timeframe": "48 Stunden nach Lieferung" },
-                            { "issue": "Bestellung ist nicht angekommen", "resolution": "Vollständige Rückerstattung (einschließlich Liefergebühr) oder Neulieferung", "timeframe": "24 Stunden nach dem erwarteten Zeitpunkt" },
-                            { "issue": "Qualität nicht wie erwartet (z. B. Beigeschmack, schlechtes Aussehen)", "resolution": "Kulanzlösung im Einzelfall; gesetzliche Rechte gemäß Consumer Rights Act 2015 gelten", "timeframe": "14 Tage" },
-                            { "issue": "Bestellung durch Sie nach Aufgabe storniert", "resolution": "Siehe Klausel 9 – variiert je nach Status der Bestellung", "timeframe": "Über die App, bevor der Händler akzeptiert" },
-                            { "issue": "Bestellung durch Händler oder Urbandrop storniert", "resolution": "Automatische vollständige Rückerstattung; keine Aktion erforderlich", "timeframe": "—" }
+                            {
+                                "issue": "Fehlender Artikel in einer gelieferten Bestellung",
+                                "resolution": "Rückerstattung für den fehlenden Artikel (auf die ursprüngliche Zahlungsmethode) oder Urbandrop-Guthaben – nach Ihrer Wahl",
+                                "timeframe": "48 Stunden nach Lieferung"
+                            },
+                            {
+                                "issue": "Beschädigter oder verdorbener Artikel",
+                                "resolution": "Rückerstattung oder Ersatz bei Ihrer nächsten Bestellung, nach Ihrer Wahl",
+                                "timeframe": "48 Stunden nach Lieferung"
+                            },
+                            {
+                                "issue": "Falscher Artikel geliefert",
+                                "resolution": "Rückerstattung für den falschen Artikel; Sie behalten ihn oder entsorgen ihn",
+                                "timeframe": "48 Stunden nach Lieferung"
+                            },
+                            {
+                                "issue": "Bestellung ist nicht angekommen",
+                                "resolution": "Vollständige Rückerstattung (einschließlich Liefergebühr) oder Neulieferung",
+                                "timeframe": "24 Stunden nach dem erwarteten Zeitpunkt"
+                            },
+                            {
+                                "issue": "Qualität nicht wie erwartet (z. B. Beigeschmack, schlechtes Aussehen)",
+                                "resolution": "Kulanzlösung im Einzelfall; gesetzliche Rechte gemäß Consumer Rights Act 2015 gelten",
+                                "timeframe": "14 Tage"
+                            },
+                            {
+                                "issue": "Bestellung durch Sie nach Aufgabe storniert",
+                                "resolution": "Siehe Klausel 9 – variiert je nach Status der Bestellung",
+                                "timeframe": "Über die App, bevor der Händler akzeptiert"
+                            },
+                            {
+                                "issue": "Bestellung durch Händler oder Urbandrop storniert",
+                                "resolution": "Automatische vollständige Rückerstattung; keine Aktion erforderlich",
+                                "timeframe": "—"
+                            }
                         ]
                     },
                     "howToReport": {
                         "title": "8.2 So melden Sie ein Problem",
-                        "content": "Nutzen Sie die Option „Hilfe zu dieser Bestellung“ in der App oder senden Sie eine E-Mail an support@urbandrop.io. Geben Sie die Bestellnummer, eine Beschreibung des Problems und gegebenenfalls Fotos an. Wir bemühen uns, innerhalb von zwei (2) Werktagen zu antworten und das Problem innerhalb von fünf (5) Werktagen zu lösen (in einfachen Fällen meist deutlich schneller)."
+                        "content": "Verwenden Sie die Option „Contact Supportr“ in der App oder senden Sie eine E-Mail an support@urbandrop.io. Halten Sie die Bestellnummer, eine Beschreibung des Problems und gegebenenfalls Fotos bereit. Wir bemühen uns, innerhalb von zwei (2) Werktagen zu antworten und das Problem innerhalb von fünf (5) Werktagen zu lösen, bei einfachen Fällen in der Regel viel schneller."
                     },
                     "whenRefundsIssued": {
                         "title": "8.3 Wann Rückerstattungen erfolgen",
@@ -2416,4 +2440,3 @@
         }
     }
 }
-        
