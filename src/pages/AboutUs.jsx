@@ -4,6 +4,7 @@ import OurStory from "../components/about/OurStory";
 import AboutProcess from "../components/about/AboutProcess";
 import AboutHighlights from "../components/about/AboutHighlights";
 /* import OurTeam from "../components/about/OurTeam"; */
+import ManagementTeam from "../components/about/ManagementTeam";
 
 import SEO from "../components/common/SEO";
 
@@ -20,6 +21,7 @@ const AboutUs = () => {
                 <OurStory />
                 <AboutProcess />
                 <AboutHighlights />
+                <ManagementTeam />
                {/*  <OurTeam /> */}
             </main>
         </>
