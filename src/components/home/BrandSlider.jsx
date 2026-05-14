@@ -7,7 +7,7 @@ const brandFiles = import.meta.glob('../../assets/images/home/Brands/*', { eager
 
 const BrandSlider = () => {
     const [brandLogos, setBrandLogos] = useState([]);
-    const marqueeDurationSeconds = 20;
+    const marqueeDurationSeconds = 30;
 
 
     useEffect(() => {
@@ -41,9 +41,9 @@ const BrandSlider = () => {
     
             {/* Single marquee: scrolls all logos continuously left */}
             <div
-              className="marquee flex items-center gap-8 will-change-transform"
-              role="list"
-              style={{ animationDuration: `${marqueeDurationSeconds}s` }}
+                className="marquee flex items-center gap-8 will-change-transform w-max"
+                role="list"
+                style={{ animationDuration: `${marqueeDurationSeconds}s` }}
             >
                 {brandLogos.length > 0 &&
                 // duplicate once for seamless animation
@@ -69,7 +69,7 @@ const BrandSlider = () => {
             .marquee:hover { animation-play-state: paused; }
             @keyframes marquee {
                 0% { transform: translateX(0); }
-                100% { transform: translateX(-100%); }
+                100% { transform: translateX(-50%); }
             }
             `}</style>
     </motion.div>
