@@ -19,7 +19,7 @@ const NotFound = () => {
       icon: <ShoppingBag size={24} className="text-white" />,
       title: t('notFoundPage.features.becomeMerchant.title'),
       description: t('notFoundPage.features.becomeMerchant.desc'),
-      link: 'https://merchant.urbandrop.io',
+      link: 'https://merchant.urbandrop.io/signup',
     },
     {
       icon: <Truck size={24} className="text-white" />,
