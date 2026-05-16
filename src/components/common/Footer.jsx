@@ -57,7 +57,7 @@ const Footer = () => {
     { name: t('footer.about'), href: "/about-us" },
     { name: t('footer.customer'), href: "/customer" },
     { name: t('footer.advertise'), href: "/advertise" },
-    { name: t('footer.beMerchant'), href: "https://merchant.urbandrop.io" },
+    { name: t('footer.beMerchant'), href: "https://merchant.urbandrop.io/signup" },
   ];
 
   return (

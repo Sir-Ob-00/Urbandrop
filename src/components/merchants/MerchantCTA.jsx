@@ -31,7 +31,7 @@ const MerchantCTA = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="https://merchant.urbandrop.io" className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center gap-3">
+            <a href="https://merchant.urbandrop.io/signup" className="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-xl flex items-center gap-3">
               {t('merchants.cta.button')}
               <ArrowRight size={24} />
             </a>

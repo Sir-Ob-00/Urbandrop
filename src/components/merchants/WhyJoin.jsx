@@ -138,7 +138,7 @@ const WhyJoin = () => {
                     </div>
                     <h3 className="mb-4 text-white">{panel.title}</h3>
                     <p className="text-gray-200 mb-6">{panel.subtitle}</p>
-                    <a href="https://merchant.urbandrop.io">
+                    <a href="https://merchant.urbandrop.io/signup">
                       <motion.button
                         className="px-8 py-4 rounded-full font-semibold text-white shadow-lg hover:shadow-xl transition"
                         style={{ backgroundColor: panel.accentColor }}
